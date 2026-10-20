@@ -62,7 +62,7 @@ publication metadata or handoff.
   replay. The 14-variable existence problem remains open. Source and the
   complete versioned evidence packet are public.
   [Archived version](https://doi.org/10.5281/zenodo.23496542);
-  complete Zenodo download verification is ongoing.
+  all 48 Zenodo files and the reconstructed archive are verified.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).

@@ -26,10 +26,10 @@ verified by SHA-256. Zenodo version **1.0.0** was published on **20 October
 2026**, at 12:57:08 UTC, with DOI
 [10.5281/zenodo.23496542](https://doi.org/10.5281/zenodo.23496542).
 Cite that exact archived version using the citation metadata here.
-All 48 uploaded server checksums and the public metadata are verified;
-unauthenticated byte downloads of the 40 archive parts and eight metadata
-files are still being checked. The linked publication receipt records
-that incomplete verification explicitly. There is no journal or
+All 48 public files were downloaded without authentication and verified by
+SHA-256. Concatenating the 40 archive parts reproduced the original
+667,127,632-byte archive exactly. The linked publication receipt records
+the completed metadata, file, and archive checks. There is no journal or
 preprint-server submission for this contribution.
 
 This entry describes the frozen ten-case contribution. The owning project
