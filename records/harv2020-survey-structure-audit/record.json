@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "harv2020-survey-structure-audit",
+  "title": "Sampling-unit and join-identifiability audit of pinned HARV2020 NEON-derived bird records",
+  "contribution_type": "bounded reproducible methods and data audit",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "predecessor_credit": "NEON original observations; Li et al. (2022), Ecosphere 13:e4141, doi:10.1002/ecs2.4141, and all coauthors; Daijiang Li and Eric Sokol for bird package processing/documentation. No endorsement or participation by those authors is implied.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in planning, source inspection, code, tests, calculation, drafting, fresh AI review and publication preparation. AI review is not human peer review.",
+  "claim": "The fixed 1,163-row HARV2020 derivative contains 536/540 represented standard unit-minute strata and 34 incidental rows. Actual R key expressions preserve the documented key on synthetic schemas. Constructive source histories demonstrate that final unique derived rows do not identify original multiplicity or attempted-survey denominators.",
+  "sources": {
+    "owning_project": "discovery/projects/biological-observations",
+    "canonical_source_archive": "https://zenodo.org/api/records/23496031/files/survey-structure-audit-v1.0.0.tar.gz/content",
+    "archive_sha256": "3fc34cb13e4da35fc0df2d3cc854732fd8611298b13dd4231a19ddfbf2aa49cc",
+    "source_git_commit": null,
+    "source_identity_note": "Owning workspace is not a Git repository; exact archived source bytes/hash identify this contribution.",
+    "predecessor_repository": "https://github.com/daijiang/neonDivData",
+    "predecessor_commit": "3bfc1168cbe9b6a3b70bc91dd09f55b34ba654e2",
+    "predecessor_doi": "10.1002/ecs2.4141"
+  },
+  "public_disclosure": {
+    "date": "2026-10-20",
+    "url": "https://zenodo.org/record/23496031",
+    "basis": "This contribution first made public by this successful Zenodo publication; no earlier local/predecessor date substituted."
+  },
+  "predecessor_disclosure": {
+    "date": "2026-04-13",
+    "url": "https://github.com/daijiang/neonDivData/commit/3bfc1168cbe9b6a3b70bc91dd09f55b34ba654e2",
+    "meaning": "Predecessor source publication only; not this audit."
+  },
+  "scientific_status": {
+    "correctness": "finite numerical reproduction plus behavioral controls",
+    "original_raw_joins_validated": false,
+    "survey_completion_validated": false,
+    "predictive_benchmark_executed": false,
+    "novelty": "unestablished; underlying principles are known",
+    "human_peer_review": false,
+    "formal_verification": false,
+    "external_scientific_acceptance": "not submitted"
+  },
+  "verification": {
+    "date": "2026-10-20",
+    "focused_bird_tests": 11,
+    "workspace_packet_equivalence_tests": 3,
+    "portable_packet_tests": 4,
+    "candidate_archive_members_verified": 24,
+    "read_only_offline_replay": "exact scientific subset and six R control CSVs",
+    "fresh_ai_review": "No Critical/Important/Minor actionable findings; REVIEW.md records scope and limitations.",
+    "scientific_code_or_data_changed_after_review": false,
+    "archive_bytes_identical_to_reviewed_candidate": true,
+    "release_metadata_note": "Separate release citation/status supersede the historical draft metadata inside the unchanged computational archive."
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "archive_publication_date": "2026-10-20",
+    "version_doi": "10.5281/zenodo.23496031",
+    "concept_doi": "10.5281/zenodo.23496030",
+    "zenodo_record": "https://zenodo.org/record/23496031",
+    "receipt": "publication.json",
+    "public_downloads_verified": true
+  },
+  "license": {
+    "original_note": "CC-BY-4.0",
+    "original_software": "MIT",
+    "predecessor_inputs": "CC0-1.0; original attribution retained"
+  },
+  "limitations": [
+    "Derived source; no independent recovery or validation of original raw joins/completion.",
+    "Synthetic source-policy controls and actual key-expression evaluation do not rerun the full historical dplyr pipeline.",
+    "Conditional grouping calculations do not estimate ecological correlation or prediction optimism.",
+    "No observed source defect, biological discovery, animal abundance, new statistical principle or priority claim.",
+    "Full third-party documents are excluded; source URLs and hashes support external inspection."
+  ],
+  "artifacts": [
+    {
+      "path": "artifacts/survey-structure-audit-v1.0.0.tar.gz",
+      "filename": "survey-structure-audit-v1.0.0.tar.gz",
+      "bytes": 38921,
+      "sha256": "3fc34cb13e4da35fc0df2d3cc854732fd8611298b13dd4231a19ddfbf2aa49cc",
+      "public_url": "https://zenodo.org/api/records/23496031/files/survey-structure-audit-v1.0.0.tar.gz/content",
+      "verified_without_authentication": true
+    },
+    {
+      "path": "records/harv2020-survey-structure-audit/CITATION.cff",
+      "filename": "CITATION.cff",
+      "bytes": 1063,
+      "sha256": "085b8cc97f1df80b90515f7cd772fb7eec628337f17d34b22f74c5a8c65ac58e",
+      "public_url": "https://zenodo.org/api/records/23496031/files/CITATION.cff/content",
+      "verified_without_authentication": true
+    },
+    {
+      "path": "records/harv2020-survey-structure-audit/RELEASE.json",
+      "filename": "RELEASE.json",
+      "bytes": 1470,
+      "sha256": "6816a93ccf3c5ff51f45ef71b86c373fce0654cb92137a898e1131384b2208cd",
+      "public_url": "https://zenodo.org/api/records/23496031/files/RELEASE.json/content",
+      "verified_without_authentication": true
+    },
+    {
+      "path": "records/harv2020-survey-structure-audit/NOTE.md",
+      "filename": "NOTE.md",
+      "bytes": 5887,
+      "sha256": "bcf98fc587ff9fb70557eea170f16cd2731d7d232ff1b0b1acd3ee2196c6b1ce",
+      "public_url": "https://zenodo.org/api/records/23496031/files/NOTE.md/content",
+      "verified_without_authentication": true
+    },
+    {
+      "path": "records/harv2020-survey-structure-audit/REVIEW.md",
+      "filename": "REVIEW.md",
+      "bytes": 2059,
+      "sha256": "ba3f307def46cfd58212f74e9134d469f97fc0407b10b24291ba4e77aa77ca7a",
+      "public_url": "https://zenodo.org/api/records/23496031/files/REVIEW.md/content",
+      "verified_without_authentication": true
+    }
+  ]
+}

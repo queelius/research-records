@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "reserved_version_doi": "10.5281/zenodo.23496031",
+  "prepared_utc": "2026-10-20T10:00:00.122379+00:00",
+  "candidate_preserved_byte_identically": true,
+  "source_git_commit": null,
+  "source_pin": {
+    "filename": "survey-structure-audit-v1.0.0.tar.gz",
+    "bytes": 38921,
+    "sha256": "3fc34cb13e4da35fc0df2d3cc854732fd8611298b13dd4231a19ddfbf2aa49cc"
+  },
+  "scientific_code_or_data_changed_after_review": false,
+  "file_licenses": {
+    "NOTE.md": "CC-BY-4.0",
+    "REVIEW.md": "CC-BY-4.0",
+    "archive": "Original software MIT; original prose CC-BY-4.0; predecessor code/data CC0. See included LICENSE.md."
+  },
+  "files": [
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1063,
+      "sha256": "085b8cc97f1df80b90515f7cd772fb7eec628337f17d34b22f74c5a8c65ac58e"
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 5887,
+      "sha256": "bcf98fc587ff9fb70557eea170f16cd2731d7d232ff1b0b1acd3ee2196c6b1ce"
+    },
+    {
+      "filename": "REVIEW.md",
+      "bytes": 2059,
+      "sha256": "ba3f307def46cfd58212f74e9134d469f97fc0407b10b24291ba4e77aa77ca7a"
+    },
+    {
+      "filename": "survey-structure-audit-v1.0.0.tar.gz",
+      "bytes": 38921,
+      "sha256": "3fc34cb13e4da35fc0df2d3cc854732fd8611298b13dd4231a19ddfbf2aa49cc"
+    }
+  ],
+  "scope": "Release citation/status supersede the prepublication candidate metadata only. This manifest is not proof of publication; verify the public record."
+}

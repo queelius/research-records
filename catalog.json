@@ -7,6 +7,11 @@
       "id": "tetrahedron-fixed-axis-barrier",
       "metadata": "records/tetrahedron-fixed-axis-barrier/record.json",
       "readme": "records/tetrahedron-fixed-axis-barrier/README.md"
+    },
+    {
+      "id": "harv2020-survey-structure-audit",
+      "metadata": "records/harv2020-survey-structure-audit/record.json",
+      "readme": "records/harv2020-survey-structure-audit/README.md"
     }
   ]
 }

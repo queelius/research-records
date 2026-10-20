@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: Cite this exact technical-note version; this citation supersedes the historical candidate citation
+  inside the computational archive.
+type: software
+title: Sampling-unit and join-identifiability audit of pinned HARV2020 NEON-derived bird records
+version: 1.0.0
+authors: &id001
+- family-names: Towell
+  given-names: Alexander Richard
+  email: lex@metafunctor.com
+  orcid: https://orcid.org/0000-0001-6443-9897
+  affiliation: Southern Illinois University Edwardsville
+doi: 10.5281/zenodo.23496031
+date-released: '2026-10-20'
+url: https://zenodo.org/records/23496031
+license: MIT
+abstract: Reproducible computational audit accompanying a CC BY4.0 technical note; predecessor inputs
+  retain CC0. Original joins/completion and prediction remain unvalidated. Substantial AI assistance disclosed.
+preferred-citation:
+  type: report
+  title: Sampling-unit and join-identifiability audit of pinned HARV2020 NEON-derived bird records
+  authors: *id001
+  year: 2026
+  version: 1.0.0
+  doi: 10.5281/zenodo.23496031
+  publisher:
+    name: Zenodo
