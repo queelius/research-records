@@ -6,6 +6,13 @@
       "scope": "Merged as 8bda81e8d3f867bb1450b0e492592164416ba98f; repository acceptance only.",
       "timestamp": "2026-10-18T09:39:50Z",
       "url": "https://github.com/queelius/computational-explorations/pull/9"
+    },
+    {
+      "date": "2026-10-20",
+      "kind": "repository_acceptance",
+      "scope": "Merged as 3809ed703d27108d072b8daaaca09a90b4ef74b0; 6,224 routine CI tests and all five verification jobs passed. Repository acceptance is separate from human mathematical review.",
+      "timestamp": "2026-10-20T10:31:17Z",
+      "url": "https://github.com/queelius/computational-explorations/pull/11"
     }
   ],
   "ai_assistance": "Substantial OpenAI Codex assistance in investigation, written arguments, programming, certificate generation and checking, editorial preparation, organization, and independent AI review. The author supplied the October 20 manuscript revision; human mathematical verification remains pending.",
@@ -17,11 +24,11 @@
     }
   ],
   "canonical_record": {
-    "commit": "9a63312a83a12696512db95e594ae65ed0ce242b",
+    "commit": "100ebcd0b8745720ff3d4c79777a437f26b334f6",
     "path": "research/records/coprime-paths/record.json",
     "repository": "https://github.com/queelius/computational-explorations",
-    "sha256": "b7ae5568a955022ef3b2b48abd77b92ac9f0df9dffcb5f6c0d5aab8cc28497c6",
-    "url": "https://github.com/queelius/computational-explorations/blob/9a63312a83a12696512db95e594ae65ed0ce242b/research/records/coprime-paths/record.json"
+    "sha256": "12ba976345bbd307405de494493fd537f38cacd0f75a97ddb9333ab7350e85d3",
+    "url": "https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/research/records/coprime-paths/record.json"
   },
   "claims": [
     {
@@ -60,16 +67,16 @@
     "No new nine-edge SAT UNSAT certificate or Lean proof.",
     "Human mathematical review is pending; separate AI review is not human peer review.",
     "No established novelty or legal priority claim; the infinite odd-path formula remains unresolved.",
-    "Existing DOI records precede this follow-up and do not archive it.",
+    "Earlier software and original-paper DOI versions do not contain this follow-up; cite the contribution-specific archive version.",
     "Exploratory endpoint and matching notes are not dependencies of the main proof.",
     "Historical manifests may refer to earlier CI configurations in their pinned repository commits; the packet contains the inputs for its listed reproduction commands.",
-    "The retained journal style has no license notice; resolve redistribution terms before DOI deposit, or omit it from an evidence-only packet."
+    "The archival packet excludes the journal's e-jc.sty template. The author's PDF and LaTeX are retained unchanged; rebuilding the journal layout requires obtaining that template separately. The written proof and listed computational checks are self-contained."
   ],
   "predecessor_credit": [
     "Alexander Richard Towell: author and prior coprime Ramsey investigations. Earlier reported path values are retained as prior results, not new discoveries.",
     "Du, Xi, Deng, and Ma, arXiv:2605.26815: external work citing the earlier repository and contextualizing edge-coprime Ramsey numbers.",
     "Erdos-Gallai, Balister-Gyori-Lehel-Schelp, Furedi-Kostochka-Verstraete, Furedi-Kostochka-Luo-Verstraete, Ali-Staton, Bondy-Chvatal, and Chvatal: published graph-theoretic ingredients cited in the proof and manuscript.",
-    "Electronic Journal of Combinatorics: unchanged manuscript style file. Tutte-Berge and the credited exposition in the matching note: auxiliary matching argument."
+    "Electronic Journal of Combinatorics: manuscript formatting template, excluded from this archival packet. Tutte-Berge and the credited exposition in the matching note: auxiliary matching argument."
   ],
   "public_disclosures": [
     {
@@ -92,10 +99,17 @@
       "scope": "Written proof of P_cop(9)=17 and associated evidence.",
       "timestamp": "2026-10-18T09:14:02Z",
       "url": "https://github.com/queelius/computational-explorations/pull/9"
+    },
+    {
+      "date": "2026-10-20",
+      "kind": "public_disclosure",
+      "scope": "Author-revised manuscript, selected auxiliary findings, contribution records, and reproducible packaging.",
+      "timestamp": "2026-10-20T10:08:50Z",
+      "url": "https://github.com/queelius/computational-explorations/pull/11"
     }
   ],
   "publication": {
-    "concept_doi": null,
+    "concept_doi": "10.5281/zenodo.23497966",
     "prior_records": [
       {
         "contains_this_contribution": false,
@@ -108,19 +122,19 @@
         "scope": "Original Coprime Ramsey Numbers manuscript."
       }
     ],
-    "state": "not_archived",
-    "version_doi": null
+    "state": "published",
+    "version_doi": "10.5281/zenodo.23497967"
   },
   "review": {
     "ai_review": "Separate AI reviews checked the proof, source hypotheses, finite certificates, and manuscript revisions; see the public PR and author-revision receipt.",
     "formal_proof": false,
     "human": "pending",
     "novelty": "bounded_search_only",
-    "verification": "PR #9 CI: 510 focused tests on Python 3.10 and 3.13, independent certificate replay, and 6,196 routine tests. October 20 promotion: 114 relevant tests and 10 auxiliary regression tests rerun. Full deduction and external theorems are not established by tests alone."
+    "verification": "Earlier PR #9 and organization CI checks are preserved in the audits. Archival staging replayed all 180 packaged scientific tests, 10 auxiliary tests, standalone nine-edge host certificates, and the complete earlier eight-edge DRAT proof. The consolidated checkout also passed 142 focused tooling/scientific tests. These checks do not establish every written deduction or external theorem."
   },
   "schema_version": 1,
   "sources": {
-    "commit": "a3d7a509ab33ea3cee9bca98ced9a3905ff309d7",
+    "commit": "1e00700a86bbb13c4b0800eaa9a708b857c8e439",
     "evidence_commit": "8bda81e8d3f867bb1450b0e492592164416ba98f",
     "repository": "https://github.com/queelius/computational-explorations"
   },

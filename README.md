@@ -67,7 +67,15 @@ publication metadata or handoff.
   evidence](records/computational-explorations-coprime-paths/README.md).
   Public written proof of `P_cop(9) = 17`, independently checked finite
   certificates, and an author-revised manuscript. Human mathematical review
-  remains pending; the new contribution has no archival DOI yet.
+  remains pending. Exact archived version:
+  [10.5281/zenodo.23497967](https://doi.org/10.5281/zenodo.23497967).
+
+- [Sum-free partitions and multiplicative Schur numbers](records/computational-explorations-schur-extensions/README.md).
+  Existing version-2 manuscript, odd-order doubling theorem, order-49 split,
+  and a freshly replayed `MS(3)=16383` lower witness. Full grid replay remains
+  outside this handoff. Archived manuscript:
+  [10.5281/zenodo.20634736](https://doi.org/10.5281/zenodo.20634736).
+
 - [The 0.4993 barrier for arbitrary radial profiles in a fixed tetrahedron
   cylinder family](records/tetrahedron-fixed-axis-barrier/README.md).
   Written proof extension and exact computational certificate; accepted

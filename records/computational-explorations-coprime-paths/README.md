@@ -10,7 +10,7 @@ bound, and a complete avoiding coloring establishes the lower bound.
 The record also includes independently recertified earlier values
 `P_cop(7) = P_cop(8) = 13`, linear bounds, and the edited manuscript.
 
-The [owning project record](https://github.com/queelius/computational-explorations/blob/9a63312a83a12696512db95e594ae65ed0ce242b/research/records/coprime-paths/README.md)
+The [owning project record](https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/research/records/coprime-paths/README.md)
 contains the source, evidence, manuscript, reproduction commands, and next
 steps. This index does not duplicate the development workspace.
 Its [structured metadata](record.json) is generated from the owning record
@@ -31,16 +31,25 @@ record became public in
 on October 20. The [disclosure receipt](disclosure.json) records those
 observable events separately from the original proof and private work dates.
 
-There is **no archival DOI for this follow-up yet**. Cite the contribution's
-[version-specific CFF](https://github.com/queelius/computational-explorations/blob/9a63312a83a12696512db95e594ae65ed0ce242b/research/records/coprime-paths/CITATION.cff)
-and immutable source commit. The older software and manuscript DOIs do not
-contain the new path evidence and must not be substituted for it.
+Cite the exact archived version
+**[10.5281/zenodo.23497967](https://doi.org/10.5281/zenodo.23497967)**,
+published October 20, 2026, or use its
+[version-specific CFF](https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/research/records/coprime-paths/archive/CITATION.cff).
+The [publication receipt](publication.json) records the true archival date
+and matching public-download hashes. Earlier software and manuscript DOIs
+do not contain this follow-up.
 
-A deterministic packet contains the explicitly pinned evidence and a hash
-inventory. Before a DOI deposit, search existing Zenodo version families,
-resolve the journal template's redistribution terms or omit it from an
-evidence-only packet, and rerun the staged checks. An organization-only update
-does not warrant a separate DOI.
+The [archival packet and recipe](https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/research/records/coprime-paths/archive/README.md)
+contain 79 pinned source files, complete finite certificates, the manuscript,
+and reproduction commands. All 180 packaged tests, 10 auxiliary tests, the
+nine-edge certificate checks, and the earlier eight-edge DRAT replay passed.
+The GitHub-built packet and publicly downloaded ZIP match the local bytes.
+The journal style is excluded; recreating its layout requires the template
+separately. Human mathematical review remains pending.
+
+Substantive updates should reuse the existing archive family
+`10.5281/zenodo.23497966`. Metadata-only maintenance does not warrant a new
+DOI version.
 
 ## Maintain this entry
 

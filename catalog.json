@@ -47,6 +47,11 @@
       "id": "family156-down-omission",
       "metadata": "records/family156-down-omission/record.json",
       "readme": "records/family156-down-omission/README.md"
+    },
+    {
+      "id": "computational-explorations-schur-extensions",
+      "metadata": "records/computational-explorations-schur-extensions/record.json",
+      "readme": "records/computational-explorations-schur-extensions/README.md"
     }
   ]
 }

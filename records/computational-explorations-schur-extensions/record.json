@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "computational-explorations-schur-extensions",
+  "title": "Sum-Free Partitions in Finite Abelian Groups and Multiplicative Schur Numbers",
+  "contribution_type": "Existing archived manuscript with a separately rechecked lower witness",
+  "indexed_on": "2026-10-20",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "historical_archive_name": "Alex Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "canonical_source": {
+    "repository": "https://github.com/queelius/computational-explorations",
+    "commit": "100ebcd0b8745720ff3d4c79777a437f26b334f6",
+    "path": "docs/schur-archive-handoff-2026-10-20.md",
+    "url": "https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/docs/schur-archive-handoff-2026-10-20.md",
+    "sha256": "a6787059d1331ef4eb8cca4b890ad1f72dd661a7d4c9b677c67b2de0e7d99fdb"
+  },
+  "claims": [
+    {
+      "id": "odd-order-doubling",
+      "statement": "For finite abelian G, S(G,2) = 2 S(G,1) if and only if |G| is odd.",
+      "evidence_type": "Written theorem in the archived version-2 manuscript.",
+      "attribution": "Andrei Zabolotskii prompted the observation; Green and Ruzsa supply the one-color formula used in the even-order argument."
+    },
+    {
+      "id": "order-49-split",
+      "statement": "S(Z/49Z,2)=32 and S((Z/7Z)^2,2)=28, so general two-color order-invariance is false.",
+      "evidence_type": "Written corollary of the doubling theorem and Green-Ruzsa formula in the archived manuscript."
+    },
+    {
+      "id": "multiplicative-schur-three",
+      "statement": "MS(3)=16383, under the convention that the colored domain is {2,...,N} and equal factors are allowed.",
+      "evidence_type": "Archived written upper bound using S(3)=13 and independently replayed complete lower coloring.",
+      "replay": {
+        "n": 16383,
+        "colors": 3,
+        "integers": 16382,
+        "unordered_product_triples": 64449,
+        "monochromatic_triples": 0,
+        "independent_factorization_cross_check": true,
+        "rejecting_control": "Recoloring 4 to match 2 detects (2,2,4)"
+      }
+    }
+  ],
+  "assumptions": [
+    "G is finite abelian. S(G,k) is the maximum size of a subset partitionable into k sum-free sets.",
+    "Sum-free excludes x+y=z with x=y allowed; zero cannot occur.",
+    "MS(k) excludes monochromatic product triples a,b,ab in {2,...,N}, with a=b allowed."
+  ],
+  "publication": {
+    "state": "published",
+    "version": "2",
+    "version_doi": "10.5281/zenodo.20634736",
+    "concept_doi": "10.5281/zenodo.19058652",
+    "publication_date": "2026-06-10",
+    "scope": "The existing archive contains the manuscript LaTeX, PDF, and bibliography. It does not contain the complete computational data/software or the newly restored GitHub witness."
+  },
+  "events": [
+    {
+      "kind": "archive_publication",
+      "date": "2026-06-10",
+      "url": "https://zenodo.org/records/20634736",
+      "scope": "Version-2 manuscript; not an assertion of the earliest disclosure of every result."
+    },
+    {
+      "kind": "verification_and_indexing",
+      "date": "2026-10-20",
+      "scope": "All three public manuscript files matched preserved author files. The MS(3) lower witness was replayed, restored to a public source path, and linked here. This is not a new mathematical result or a new DOI."
+    }
+  ],
+  "evidence": {
+    "publication_receipt": "publication.json",
+    "lower_witness": {
+      "repository": "https://github.com/queelius/computational-explorations",
+      "commit": "100ebcd0b8745720ff3d4c79777a437f26b334f6",
+      "path": "discoveries/schur-extensions/grid/ms3_witness_16383.txt",
+      "url": "https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/discoveries/schur-extensions/grid/ms3_witness_16383.txt",
+      "sha256": "ce4ae7265b319a71a79b9c846311ca4e34ad2714b51a740f8bb99a419ea3790d"
+    },
+    "verification_receipt": {
+      "repository": "https://github.com/queelius/computational-explorations",
+      "commit": "100ebcd0b8745720ff3d4c79777a437f26b334f6",
+      "path": "docs/audits/schur-archive-2026-10-20/verification.json",
+      "url": "https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/docs/audits/schur-archive-2026-10-20/verification.json",
+      "sha256": "b408755814c18c8b7f024245b14addb4389b61c4fc6ac471e6a5a9365d898dfc"
+    }
+  },
+  "review": {
+    "human_peer_review": "not asserted by this handoff",
+    "formal_verification": false,
+    "novelty": "not reassessed",
+    "reproduction": "Two enumeration orders checked all 64,449 unordered product triples of the lower witness; a corrupted-color control was rejected. The full S(G,k) solver grid was not replayed."
+  },
+  "licenses": {
+    "archived_manuscript": "CC-BY-4.0",
+    "source_repository_policy": "MIT for original code; CC BY 4.0 for papers."
+  },
+  "credits": [
+    "Alexander Richard Towell, historically listed as Alex Towell, is the manuscript author.",
+    "Andrei Zabolotskii: observation prompting the doubling theorem.",
+    "Green and Ruzsa: finite-abelian-group maximum sum-free subset formula.",
+    "Classical Schur numbers and related multiplicative work are credited in the manuscript."
+  ],
+  "ai_assistance": "The historical manuscript discloses Claude (Anthropic) assistance. OpenAI Codex assisted this October 20 consolidation, archive-file identity check, independent witness replay, and indexing.",
+  "limitations": [
+    "The manuscript reports a larger computational grid and related OEIS sequences; this pass does not recertify that grid or current OEIS editorial status.",
+    "The original manuscript archive is not a self-contained computational software release. Further data/software integration is tracked in the owning project.",
+    "No new human peer review, formal proof, exhaustive novelty finding, journal acceptance, or legal priority is asserted."
+  ],
+  "citation": {
+    "author": "Alexander Richard Towell",
+    "title": "Sum-Free Partitions in Finite Abelian Groups and Multiplicative Schur Numbers",
+    "version": "2",
+    "year": 2026,
+    "doi": "10.5281/zenodo.20634736",
+    "url": "https://zenodo.org/records/20634736"
+  },
+  "keywords": [
+    "sum-free sets",
+    "finite abelian groups",
+    "Schur numbers",
+    "multiplicative Schur numbers",
+    "computational combinatorics",
+    "reproducible evidence"
+  ]
+}
