@@ -2,7 +2,8 @@
 
 **Alexander Richard Towell** · Version 1.0.0 · Published: 20 October 2026
 
-**Version DOI:** [10.5281/zenodo.23495382](https://doi.org/10.5281/zenodo.23495382)  
+**Version DOI:** [10.5281/zenodo.23495382](https://doi.org/10.5281/zenodo.23495382)
+
 **All versions:** [10.5281/zenodo.23495381](https://doi.org/10.5281/zenodo.23495381)
 
 > Towell, Alexander Richard. (2026). *The 0.4993 barrier for arbitrary radial
