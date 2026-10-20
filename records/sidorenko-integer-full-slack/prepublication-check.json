@@ -1,0 +1,18 @@
+{
+  "archive_files": 26,
+  "manifest_bound_files": 25,
+  "archive_rebuilt_byte_identically": true,
+  "extracted_hash_verification": "passed",
+  "extracted_checker_matches_evidence": true,
+  "extracted_unit_integration_tests": 11,
+  "corrupted_proof_hash_control": "rejected",
+  "public_source_file_bindings": 17,
+  "credential_paths_excluded": true,
+  "artifact": {
+    "path": "artifacts/sidorenko-integer-full-slack-v1.0.0.zip",
+    "filename": "sidorenko-integer-full-slack-v1.0.0.zip",
+    "bytes": 59559,
+    "sha256": "4b8ae80ed5640b08215aa5c9a83c17feae7491189e4ffa7699332e2b58f3b8f8",
+    "md5": "f5d00eeb74f5b354b393852195cb55bf"
+  }
+}

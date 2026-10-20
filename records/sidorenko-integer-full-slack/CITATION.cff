@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Cite this exact archival version; upstream review remains pending."
+type: dataset
+title: "Sharp integer full-slack inequality and its conditional coordinate bound"
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+doi: "10.5281/zenodo.23497476"
+date-released: 2026-10-20
+license: MIT
+url: "https://doi.org/10.5281/zenodo.23497476"
+repository-code: "https://github.com/queelius/sidorenko-sharp-coercivity"
+commit: "b38300a50094dc550394e29765cd6005a4d68d2c"
+abstract: >-
+  Written proof of the sharp additive constant 1 on the unchanged integer
+  full-slack domain, with exact computational evidence. The downstream
+  M <= 49 consequence retains inherited assumptions, and the complete
+  sufficient dimension threshold remains 600. Substantial OpenAI Codex
+  assistance; no formal verification or human peer review is claimed.

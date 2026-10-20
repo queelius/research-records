@@ -38,6 +38,10 @@ publication metadata or handoff.
 
 ## Records
 
+- [Sharp integer full-slack inequality and conditional coordinate bound](records/sidorenko-integer-full-slack/README.md).
+  Written proof of the sharp integer constant 1, exact checks, and a conditional
+  M ≤ 49 consequence. Upstream review remains pending; the complete dimension
+  threshold is unchanged. [Archived version](https://doi.org/10.5281/zenodo.23497476).
 - [Exact spectral exclusions for degree-five Boolean candidates](records/boolean-degree-five-spectral-exclusions/README.md).
   Ten conditional cases excluded by exact integer certificates and isolated
   replay. The 14-variable existence problem remains open. Source and the

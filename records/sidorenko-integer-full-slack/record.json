@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "sidorenko-integer-full-slack",
+  "title": "Sharp integer full-slack inequality and its conditional coordinate bound",
+  "contribution_type": "written proof refinement with exact computational evidence",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "predecessor_credit": "Erebos Labs real full-slack theorem, dispersion reductions, matrix certificate and conditional graph application; predecessor contributors and underlying OpenAI manuscript credited in the preserved sources.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in derivation, implementation, verification, writing, and archival packaging. Separate prior AI review is not human peer review.",
+  "claim": "On the integer points of the unchanged feasible full-slack domain, S >= V/48 - (3c+P+T)/12 - 1, with sharp additive constant 1; the complete definitions and constraints are in NOTE.md and archived PROOF.md.",
+  "mathematical_scope": {
+    "local_domain": "Integers satisfying precisely (F) in PROOF.md; no geometric realization or parity premise",
+    "local_proof": "Written unbounded proof retaining real-variable reductions and an integer lattice argument",
+    "conditional_application": "M <= 49; mode removal at even D >= 588; complete sufficient dimension threshold remains even D >= 600",
+    "formal_proof": false,
+    "human_peer_review_claimed": false
+  },
+  "sources": {
+    "canonical_repository": "https://github.com/queelius/sidorenko-sharp-coercivity",
+    "canonical_path": "integer-slack",
+    "commit": "b38300a50094dc550394e29765cd6005a4d68d2c",
+    "upstream_repository": "https://github.com/erebos-labs/sidorenko-sharp-coercivity",
+    "upstream_base": "64f9ebf631c568c86adfdd3e1b6d8249cca00d8d",
+    "pin_manifest": "PUBLIC-SOURCE.json inside the archive"
+  },
+  "public_disclosure": {
+    "date": "2026-10-20",
+    "created_at": "2026-10-20T07:37:00Z",
+    "url": "https://github.com/erebos-labs/sidorenko-sharp-coercivity/pull/1",
+    "scope": "Integer full-slack proof and conditional coordinate refinement"
+  },
+  "upstream_acceptance": {
+    "state": "open; no reviews or comments at archival preparation",
+    "url": "https://github.com/erebos-labs/sidorenko-sharp-coercivity/pull/1",
+    "accepted": false
+  },
+  "verification": {
+    "date": "2026-10-20",
+    "public_source_files_bound": 17,
+    "inherited_source_files_checked": 9,
+    "identities": 37,
+    "exact_interpolation_nodes": 1166,
+    "matrix_inverse_entries": 1089,
+    "coordinate_inequalities": 33,
+    "finite_boundary_profiles": 358488,
+    "tests": 11,
+    "rejected_controls": 10,
+    "normal_and_optimized_outputs_match": true,
+    "extracted_archive_checks_pass": true,
+    "corrupted_file_hash_control_rejected": true,
+    "receipts": [
+      "verification.json",
+      "prepublication-check.json"
+    ],
+    "prior_review": "Scoped separate AI review in archived REVIEW.md"
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "archive_publication_date": "2026-10-20",
+    "version_doi": "10.5281/zenodo.23497476",
+    "concept_doi": "10.5281/zenodo.23497475",
+    "zenodo_record": "https://zenodo.org/records/23497476",
+    "receipt": "publication.json",
+    "public_downloads_verified": true
+  },
+  "license": "MIT for original work; preserved third-party MIT and Apache-2.0 notices",
+  "limitations": [
+    "No formal proof or human peer review.",
+    "The graph-profile application retains inherited analytic and template assumptions.",
+    "No improved complete dimension threshold or unconditional Sidorenko counterexample.",
+    "The finite boundary grid supports but does not prove the unbounded theorem.",
+    "No exhaustive equality classification, geometric realizability, or global novelty assessment."
+  ],
+  "artifacts": [
+    {
+      "path": "artifacts/sidorenko-integer-full-slack-v1.0.0.zip",
+      "filename": "sidorenko-integer-full-slack-v1.0.0.zip",
+      "bytes": 59559,
+      "sha256": "4b8ae80ed5640b08215aa5c9a83c17feae7491189e4ffa7699332e2b58f3b8f8",
+      "md5": "f5d00eeb74f5b354b393852195cb55bf"
+    },
+    {
+      "path": "records/sidorenko-integer-full-slack/NOTE.md",
+      "filename": "NOTE.md",
+      "bytes": 9103,
+      "sha256": "5a757592ddeaa5635392b1fbe3732e29ed9356f1697eb888df6f1be328f01ed6",
+      "md5": "084c04cdedc119f145304d84ae683b78"
+    },
+    {
+      "path": "records/sidorenko-integer-full-slack/CITATION.cff",
+      "filename": "CITATION.cff",
+      "bytes": 939,
+      "sha256": "4f134cf0b12decd6ea2055a75e6c3759f4ddb1391a452b1acb5c16e85dc3924f",
+      "md5": "b0ffcd1f17f6862be72a45cbc2053025"
+    }
+  ]
+}

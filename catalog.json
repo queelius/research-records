@@ -27,6 +27,11 @@
       "id": "boolean-degree-five-spectral-exclusions",
       "metadata": "records/boolean-degree-five-spectral-exclusions/record.json",
       "readme": "records/boolean-degree-five-spectral-exclusions/README.md"
+    },
+    {
+      "id": "sidorenko-integer-full-slack",
+      "metadata": "records/sidorenko-integer-full-slack/record.json",
+      "readme": "records/sidorenko-integer-full-slack/README.md"
     }
   ]
 }

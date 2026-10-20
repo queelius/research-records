@@ -1,0 +1,51 @@
+{
+  "title": "Sharp integer full-slack inequality and its conditional coordinate bound",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-20",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>This note proves that Erebos Labs' full-slack inequality has sharp additive constant 1 on the integer points of its unchanged feasible algebraic domain, improving the real-domain constant 17/16. The argument retains the predecessor's dispersion term and uses the rational lattice of the remaining expression; two feasible integer tuples attain equality. No geometric realization is required for this local algebraic theorem.</p><p>For the pinned conditional graph-profile application, the same matrix certificate gives M &lt;= 49 rather than 50, with mode removal sufficient at even D &gt;= 588. The separate higher-defect estimate keeps the complete sufficient threshold at even D &gt;= 600. All inherited analytic assumptions remain; this is not a new unconditional Sidorenko counterexample or a reduction of the complete dimension threshold.</p><p>The self-contained packet includes the written proof, unchanged public source files at b38300a50094dc550394e29765cd6005a4d68d2c, exact polynomial and matrix checks, 358488 finite boundary profiles, 11 unit/integration tests, ten rejecting controls, source hashes, and fresh staged verification logs. The finite grid is supporting evidence, not the proof of the unbounded statement. This is not proof-assistant verification. Earlier separate AI review is documented; human peer review and an exhaustive novelty assessment are not claimed.</p><p>Alexander Richard Towell is the contributor, with substantial OpenAI Codex assistance. Erebos Labs' real theorem, reductions, dispersion identity and certificates, predecessor contributions, and the underlying OpenAI manuscript are credited with licenses preserved. First public disclosure was upstream PR1 on 20 October 2026; the PR remains open without review at archival preparation. Archival publication and repository acceptance are distinct.</p>",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "integer inequalities",
+    "sharp constants",
+    "dispersion",
+    "Sidorenko conjecture",
+    "exact rational arithmetic",
+    "computational certificates",
+    "reproducible mathematics",
+    "AI-assisted research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/queelius/sidorenko-sharp-coercivity/tree/b38300a50094dc550394e29765cd6005a4d68d2c/integer-slack",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/erebos-labs/sidorenko-sharp-coercivity/tree/64f9ebf631c568c86adfdd3e1b6d8249cca00d8d",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/erebos-labs/sidorenko-sharp-coercivity/pull/1",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/sidorenko-integer-full-slack",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "The full graph application is conditional on the pinned source's template and analytic assumptions. The independent local integer inequality has the precise hypotheses in PROOF.md. No coauthorship or endorsement by predecessor authors is implied."
+}

@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-20T11:08:31.889097+00:00",
+  "method": "Authenticated account depositions API, paginated with page size 100 until final short page; match title and metadata for Sidorenko/full-slack/coercivity",
+  "pages": 2,
+  "depositions_examined": 113,
+  "matches": [
+    {
+      "id": 23496220,
+      "title": "A Lean formalization of smooth strongly convex interpolation in the real-valued setting",
+      "submitted": true,
+      "doi": "10.5281/zenodo.23496220",
+      "assessment": "Different contribution: smooth strongly convex interpolation; the description contains the word coercivity. Public metadata inspected; no Sidorenko/full-slack inequality."
+    }
+  ],
+  "scope": "Account records, including drafts; no assertion about all public Zenodo records",
+  "duplicate_contribution_found": false
+}

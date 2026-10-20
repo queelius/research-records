@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-20T11:13:44.369681+00:00",
+  "id": 23497476,
+  "reserved_doi": "10.5281/zenodo.23497476",
+  "submitted": false,
+  "metadata_verified": true,
+  "file_sizes_and_md5_verified": 3,
+  "cff_schema": "1.2.0 validated",
+  "title": "Sharp integer full-slack inequality and its conditional coordinate bound",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "affiliation": "Southern Illinois University Edwardsville",
+      "orcid": "0000-0001-6443-9897"
+    }
+  ],
+  "license": "mit-license",
+  "files": [
+    {
+      "filename": "sidorenko-integer-full-slack-v1.0.0.zip",
+      "bytes": 59559
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 9103
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 939
+    }
+  ]
+}
