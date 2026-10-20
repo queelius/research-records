@@ -1,0 +1,6 @@
+.staging/
+.venv/
+__pycache__/
+.zenodo.toml
+.env
+.env.*

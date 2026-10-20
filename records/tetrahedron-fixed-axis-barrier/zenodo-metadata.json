@@ -1,0 +1,52 @@
+{
+  "title": "The 0.4993 barrier for arbitrary radial profiles in a fixed tetrahedron cylinder family",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-20",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pinho, Ricardo",
+      "type": "Other"
+    }
+  ],
+  "description": "<p>This technical note archives Alexander Richard Towell's accepted structural extension of Ricardo Pinho's fixed-axis tetrahedron cylinder-cover barrier. For two families of 2048 equal secant angular sectors, phi(q)=(1-q^2)(1-q^2/200+27q^4/1250)/4, tilt 0 <= tau <= 1, and triangular intercept bases, covering forces normalized total perpendicular-base area C >= 4993/10000 even with arbitrary positive, independent, non-even node radii. A four-orientation directed-cycle argument removes radial symmetry while retaining the complete area cost. This excludes asymmetric-radius optimization alone as a way past the barrier within these fixed axes. The deposit includes the accepted source snapshot 2e648347ddd2c76e0fcb46ce67d8238684e29d03, written proofs, exact checkers, independent implementations, 34 passing tests, two rejecting CLI controls, fresh reproduction logs, and SHA-256 manifests. The arithmetic covers 1024 endpoint inequalities, 210 tilt intervals, and 860160 integration cells. This is written mathematics with exact finite computational evidence, not proof-assistant verification or a new covering construction. The separate explicit-cover certificate is included as unchanged source context and was not rerun for this deposit. Ricardo Pinho's construction, axes, normalization, and predecessor certificates are credited. Substantial OpenAI Codex assistance and separate AI review are disclosed; AI review is not human peer review. The extension was publicly disclosed and merged upstream on 18 October 2026; this archival edition is dated 20 October 2026. No global priority claim is made.</p>",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "convex geometry",
+    "tetrahedron",
+    "cylinder covers",
+    "structural lower bound",
+    "exact rational arithmetic",
+    "computational certificate",
+    "reproducible mathematics",
+    "AI-assisted research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/rpinho/tetrahedron-cylinder-cover/tree/2e648347ddd2c76e0fcb46ce67d8238684e29d03",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/rpinho/tetrahedron-cylinder-cover/pull/2",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/tetrahedron-fixed-axis-barrier",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Ricardo Pinho is credited as the source-construction contributor, not represented as a coauthor of this archival note. Original public disclosure: https://github.com/plasma-ai/erdos/issues/55#issuecomment-6247038342 ."
+}

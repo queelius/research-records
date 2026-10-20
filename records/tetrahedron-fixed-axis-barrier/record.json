@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "tetrahedron-fixed-axis-barrier",
+  "title": "The 0.4993 barrier for arbitrary radial profiles in a fixed tetrahedron cylinder family",
+  "contribution_type": "written proof extension and scoped structural negative result",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "predecessor_credit": "Ricardo Pinho: original construction, fixed secant axes, normalization, and original certificates. The shared-profile audit and independent-even-profile extension are retained dependencies.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in research, implementation, review, and archival packaging. Separate AI review is not human peer review.",
+  "claim": "Covering forces C >= 4993/10000 for arbitrary positive node-radius profiles in both specified cylinder families, without shared radii or evenness.",
+  "mathematical_scope": {
+    "sectors_per_family": 2048,
+    "phi": "(1-q^2)*(1-q^2/200+27*q^4/1250)/4",
+    "tilt_interval": [
+      "0",
+      "1"
+    ],
+    "radii": "arbitrary positive node radii in each of two families",
+    "bases": "triangular intercept bases projected perpendicular to the fixed secant axes",
+    "normalization": "sum of perpendicular-base areas divided by sqrt(2)",
+    "proof_kind": "written continuum proof plus exact finite arithmetic",
+    "formal_proof": false,
+    "human_peer_review_claimed": false
+  },
+  "sources": {
+    "repository": "https://github.com/rpinho/tetrahedron-cylinder-cover",
+    "commit": "2e648347ddd2c76e0fcb46ce67d8238684e29d03",
+    "contribution_head": "cbb6e9825f80c8e63ec50f63c95221c76d2e8a93",
+    "accepted_predecessor": "ec5e88b8c954b8ce42ee71a993271e14dce1aded",
+    "even_profile_predecessor": "2bff558c3c6ed29dcda80730ef2c255ee58ac477"
+  },
+  "public_disclosure": {
+    "date": "2026-10-18",
+    "url": "https://github.com/plasma-ai/erdos/issues/55#issuecomment-6247038342",
+    "scope": "Arbitrary positive profiles; removes evenness as well as shared radii."
+  },
+  "upstream_acceptance": {
+    "state": "merged",
+    "merged_at": "2026-10-18T15:17:21Z",
+    "url": "https://github.com/rpinho/tetrahedron-cylinder-cover/pull/2",
+    "meaning": "Repository acceptance; no human peer-review certification is inferred."
+  },
+  "verification": {
+    "date": "2026-10-20",
+    "endpoint_inequalities": 1024,
+    "squared_tilt_intervals": 210,
+    "integration_cells": 860160,
+    "unit_integration_tests": 34,
+    "independent_checkers_rerun": 2,
+    "optimized_cli_rejection_controls": 2,
+    "expected_lower_enclosure": "71956848089952005/144115188075855872",
+    "receipt_in_archive": "cylinder-packet/verification/receipt.json",
+    "source_files_hash_verified": 26,
+    "archive_rebuild_byte_identical": true
+  },
+  "publication": {
+    "state": "prepared",
+    "version": "1.0.0",
+    "archive_publication_date": null,
+    "version_doi": null,
+    "concept_doi": null,
+    "zenodo_record": null
+  },
+  "license": "MIT",
+  "limitations": [
+    "Only the specified 2048-sector axes, polynomial, tilt interval [0,1], positive node radii and triangular intercept bases.",
+    "Written continuum proof supported by exact finite computation; not a formal proof.",
+    "No improved covering construction or bound for arbitrary axes.",
+    "No exhaustive novelty or priority assessment.",
+    "The separate explicit-cover certificate is archived as source context and was not rerun for this deposit."
+  ],
+  "artifacts": [
+    {
+      "path": "artifacts/tetrahedron-fixed-axis-barrier-v1.0.0.zip",
+      "filename": "tetrahedron-fixed-axis-barrier-v1.0.0.zip",
+      "bytes": 2187365,
+      "sha256": "a7697f2e6f198b7a996d81886467e397d720aa1d123331f40f53f31172b923c8"
+    },
+    {
+      "path": "records/tetrahedron-fixed-axis-barrier/NOTE.md",
+      "filename": "NOTE.md",
+      "bytes": 3937,
+      "sha256": "fbcbb21f0c2343aa5cdd58f99957a088dc13b042dad008a20a874a7e2501ecbf"
+    }
+  ]
+}

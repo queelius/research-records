@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "title": "Research records of Alexander Richard Towell",
+  "author_orcid": "0000-0001-6443-9897",
+  "records": [
+    {
+      "id": "tetrahedron-fixed-axis-barrier",
+      "metadata": "records/tetrahedron-fixed-axis-barrier/record.json",
+      "readme": "records/tetrahedron-fixed-axis-barrier/README.md"
+    }
+  ]
+}
