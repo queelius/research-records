@@ -25,6 +25,12 @@ independent AI review are recorded separately from human review, which is
 pending. No formal verification, journal acceptance, or novelty certification
 is claimed.
 
+The author-revised manuscript, promoted auxiliary notes, and organizational
+record became public in
+[project PR #11](https://github.com/queelius/computational-explorations/pull/11)
+on October 20. The [disclosure receipt](disclosure.json) records those
+observable events separately from the original proof and private work dates.
+
 There is **no archival DOI for this follow-up yet**. Cite the contribution's
 [version-specific CFF](https://github.com/queelius/computational-explorations/blob/9a63312a83a12696512db95e594ae65ed0ce242b/research/records/coprime-paths/CITATION.cff)
 and immutable source commit. The older software and manuscript DOIs do not

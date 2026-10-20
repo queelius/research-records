@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "observed_on": "2026-10-20",
+  "source": "Selected public GitHub pull-request fields read through the GitHub connector",
+  "events": [
+    {
+      "kind": "public_disclosure",
+      "timestamp": "2026-10-20T10:08:50Z",
+      "url": "https://github.com/queelius/computational-explorations/pull/11",
+      "observed_head_commit": "9a63312a83a12696512db95e594ae65ed0ce242b",
+      "scope": "Author-revised manuscript, promoted historical auxiliary findings, structured contribution metadata, and reproducible packaging"
+    },
+    {
+      "kind": "index_disclosure",
+      "timestamp": "2026-10-20T10:10:32Z",
+      "url": "https://github.com/queelius/research-records/pull/1",
+      "observed_head_commit": "4cf4e5156079e5cf6f1ab30d9b2edbcb94bc485d",
+      "scope": "Initial curated cross-project entry for the owning contribution record"
+    }
+  ],
+  "interpretation": [
+    "These are observed public PR events, not Git author timestamps.",
+    "The original nine-edge proof was already public on October 18, as recorded in the owning metadata.",
+    "The October 18 dates of auxiliary research notes describe local work and are not asserted as their public disclosure dates.",
+    "No DOI publication, journal acceptance, exhaustive earliest-disclosure assessment, novelty finding, or legal-priority certification is implied."
+  ]
+}
