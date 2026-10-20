@@ -1,0 +1,137 @@
+'BanditLaw.outcome_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditLaw.reward_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+Audit.lean:243:0: warning: automatically included section variable(s) unused in theorem `BanditBayesStep.arm_history_next`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'BanditBayesStep.history_update' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditBayesStep.observed_history_update' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditBayesStep.iid_prefix_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditBayesStep.arm_history_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditBayesStep.arm_posterior_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+Audit.lean:330:0: warning: automatically included section variable(s) unused in theorem `BanditHistory.reward_measurable`:
+  [MeasurableSpace Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Audit.lean:387:6: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'BanditHistory.coefficients_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+Audit.lean:515:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.product_joint`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Audit.lean:539:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.transported_joint`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Audit.lean:553:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.enlarged_measurable`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Audit.lean:582:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.belief_yseq`:
+  [MeasurableSpace Θ]
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+  [MeasurableSpace Y]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Θ] [StandardBorelSpace Θ] [Nonempty Θ] [MeasurableSpace Y] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Audit.lean:620:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.history_le_enlarged`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'BanditFiniteHistory.arm_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditFiniteHistory.arm_condMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditFiniteHistory.product_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditFiniteHistory.enlarged_condMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditFiniteHistory.posterior_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+Audit.lean:706:5: warning: Variable name `hmeas` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hmeas
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Audit.lean:839:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Audit.lean:894:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Audit.lean:896:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Audit.lean:966:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'BanditReduction.actual_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+Audit.lean:1023:0: warning: automatically included section variable(s) unused in theorem `BanditPosteriorReduction.history_mono`:
+  [NeZero K]
+  [MeasurableSpace Θ]
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero K] [MeasurableSpace Θ] [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Audit.lean:1040:0: warning: automatically included section variable(s) unused in theorem `BanditPosteriorReduction.posterior_integrable`:
+  [NeZero K]
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero K] [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Audit.lean:1052:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'BanditPosteriorReduction.interpolation_step_of_posterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditEndpoints.terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditEndpoints.initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditEndpoints.transition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'exact_type_audit' depends on axioms: [propext, Classical.choice, Quot.sound]
+PROOF_WORKFLOW_AXIOMS e089d026beb74bd18f75fa15413b6e27 ["propext","Classical.choice","Quot.sound"]

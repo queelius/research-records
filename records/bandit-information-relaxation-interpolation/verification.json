@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-20T14:22:09.817274+00:00",
+  "scope": "Exact staged public source, independent complete-type audit and freshly compiled platform definition; verified pinned Mathlib caches reused, no old platform-module cache.",
+  "lean": "4.33.1",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "checks": [
+    {
+      "command": [
+        "${LEAN_4_33_1}",
+        "-DautoImplicit=false",
+        "-o",
+        "${FRESH_LIB}/Definitions/Def_InfoRelaxTS_Monotone_Setting.olean",
+        "Definitions/Def_InfoRelaxTS_Monotone_Setting.lean"
+      ],
+      "cwd": "source",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 4.212,
+      "log": "verification-logs/definition.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "${LEAN_4_33_1}",
+        "-DautoImplicit=false",
+        "Audit.lean"
+      ],
+      "cwd": "source",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 6.367,
+      "log": "verification-logs/audit.log",
+      "log_sha256": "f505cd4f9f13aa427e11f499f1d6da903bc6ede51519a7b1bde65f65f8e8b4c6"
+    },
+    {
+      "command": [
+        "${LEAN_4_33_1}",
+        "-DautoImplicit=false",
+        "../controls/FalseConclusion.lean"
+      ],
+      "cwd": "source",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "seconds": 6.166,
+      "log": "verification-logs/false-conclusion.log",
+      "log_sha256": "bf4161b11011d4686781187f8128a6fa8d77f0f8ac12d64daff563d5f7dea01b"
+    }
+  ],
+  "result": "PASS",
+  "negative_control": "The intentionally false-conclusion audit fails with a type mismatch; no source proof bytes modified.",
+  "source_hashes": {
+    "Audit.lean": "eeaeb3fb2858ad6d17e2a844671f6a51f4dcf10a7bf1ece0b435c335fb644221",
+    "Definitions/Def_InfoRelaxTS_Monotone_Setting.lean": "a18f2f92d9625814c61dbd21ab64591a35642dab67ecfd0ca8597faf0d4f3743",
+    "Solution.lean": "2c2c6a51d87352cc7573557c99f6f4b68ac74167c3985292e3dcad8fe1f17ef3",
+    "lake-manifest.json": "dc8f4ad3ee254ef3ec1a3f7c137c87e5bb22c25d951d477c6e80f2da81e17787",
+    "lakefile.lean": "01e6f097b3a5771d27dcc6672f2bc9944fdae12fe4cc068370ea4e02960021b4",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+  }
+}

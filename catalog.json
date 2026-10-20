@@ -52,6 +52,11 @@
       "id": "computational-explorations-schur-extensions",
       "metadata": "records/computational-explorations-schur-extensions/record.json",
       "readme": "records/computational-explorations-schur-extensions/README.md"
+    },
+    {
+      "id": "bandit-information-relaxation-interpolation",
+      "metadata": "records/bandit-information-relaxation-interpolation/record.json",
+      "readme": "records/bandit-information-relaxation-interpolation/README.md"
     }
   ]
 }

@@ -38,6 +38,12 @@ publication metadata or handoff.
 
 ## Records
 
+- [Bayesian bandit value interpolation](records/bandit-information-relaxation-interpolation/README.md).
+  Complete accepted Lean formalization, including finite-history Bayes updating,
+  conditioning on other arms, all step inequalities and endpoint identities.
+  Exact source, pinned reproduction and a rejecting control are public.
+  Established Min–Maglaras–Moallemi mathematics; no archival DOI yet.
+
 - [Ten-label obstruction without downward closure](records/family156-down-omission/README.md).
   A complete RUP certificate corroborates Pico's earlier omission observation;
   two replays and 29 tests pass. Finite scope only; upstream review pending.

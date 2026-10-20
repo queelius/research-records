@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "id": "bandit-information-relaxation-interpolation",
+  "title": "A Lean formalization of Bayesian bandit value interpolation",
+  "contribution_type": "complete formalization of an established Bayesian bandit theorem",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "record_path": "contributions/queelius/publications/bandit-information-relaxation-interpolation/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/bandit-information-relaxation-interpolation",
+  "claim": "For the exact independent-arm Bayesian model with measurable conjugate updates and integrable predictive rewards, Ukn(k,n+1) <= Ukn(k,n) for all n<T, together with WFH=Ukn(0,0), WVZ=Ukn(K-1,T) and Ukn(k+1,0)=Ukn(k,T). The proof establishes the finite-history posterior under the actual product outcome law; it is not an extra assumption.",
+  "formal_target": {
+    "theorem_id": "1c79735c-84f1-4ab3-bf0e-68e36c0512fb",
+    "theorem_name": "InfoRelaxTS.Monotone.Ukn_interpolation",
+    "url": "https://prove2.me/theorems/1c79735c-84f1-4ab3-bf0e-68e36c0512fb",
+    "exact_statement": "target.json",
+    "proof_sha256": "2c2c6a51d87352cc7573557c99f6f4b68ac74167c3985292e3dcad8fe1f17ef3"
+  },
+  "mathematical_source": {
+    "authors": [
+      "Seungki Min",
+      "Costis Maglaras",
+      "Ciamac C. Moallemi"
+    ],
+    "title": "Thompson Sampling with Information Relaxation Penalties",
+    "url": "https://arxiv.org/abs/1902.04251v2",
+    "cited_scope": "Appendix D.3.2 pp59\u201360, equations154\u2013155; supporting Jensen results pp56\u201358.",
+    "inspection": "Pinned v2 original PDF read.",
+    "pdf_sha256": "0fc4bc3f29429ab514d41ba5af8dce63ede734dc014c92f6062e0e0e3c790830",
+    "redistributed": false
+  },
+  "predecessor_credit": "Seungki Min, Costis Maglaras and Ciamac C. Moallemi: source mathematics, arXiv1902.04251v2 pp56\u201360. mikedeng1: platform model and pre-existing indexing clarification; Shuze Chen: statement review. Alexander Richard Towell: research direction; OpenAI Codex: Lean formalization and verification. Prior accepted queelius Jensen proofs are included in full. Mathlib conditional-distribution, product and conditional-expectation infrastructure is credited, including R\u00e9my Degenne, Etienne Marion and Luca Luccioli. No mathematical novelty or independent human review claimed.",
+  "ai_assistance": "Alexander Richard Towell directed research and verification standards. OpenAI Codex developed and checked the Lean formalization, prepared this record and verified publication files. No independent human proof review is asserted.",
+  "source_definitions": [
+    {
+      "path": "Definitions/Def_InfoRelaxTS_Monotone_Setting.lean",
+      "sha256": "a18f2f92d9625814c61dbd21ab64591a35642dab67ecfd0ca8597faf0d4f3743",
+      "platform_definition_id": "53220ff6-91ea-475b-81c3-7e4d0c052b61",
+      "source": "Min, Maglaras, Moallemi, Thompson Sampling with Information Relaxation Penalties, arXiv:1902.04251v2, pp. 4\u20136 (1)\u2013(10); p. 11 (19); p. 14 (26); p. 17 (29); p. 18 (33); p. 20 (37); pp. 21\u201322 (39)\u2013(44); pp. 58\u201361 (151), (154), Definition 2 (166), (168)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "created_at": "2026-10-13T23:30:36.841716+00:00",
+      "visibility": "public",
+      "checked_at": "2026-10-20T14:20:41.613939+00:00"
+    }
+  ],
+  "public_disclosures": [
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-20T14:14:09.238229+00:00",
+      "url": "https://prove2.me/theorems/1c79735c-84f1-4ab3-bf0e-68e36c0512fb",
+      "scope": "Exact proof at a public platform target; API source download requires authentication."
+    }
+  ],
+  "acceptance": {
+    "status": "ACCEPTED",
+    "timestamp": "2026-10-20T14:16:00.501623+00:00",
+    "submission_id": "b0bb3470-4b93-4959-b95c-081f790d8726",
+    "observed_at": "2026-10-20T14:16:19.946221+00:00",
+    "download_matches_verified_bytes": true
+  },
+  "verification": {
+    "lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "autoImplicit": false,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exact_type_audit": true,
+    "fresh_archive_reproduction": "PASS",
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false,
+    "staged_source_reproduction": "PASS",
+    "receipt": "verification.json",
+    "false_conclusion_control": "REJECTED_AS_EXPECTED",
+    "checked_at": "2026-10-20T14:22:09.817274+00:00"
+  },
+  "publication": {
+    "state": "not_archived",
+    "version": "1.0.0",
+    "version_doi": null,
+    "concept_doi": null,
+    "archival_status": "not_archived",
+    "note": "Central source disclosure and DOI archival are separate events. No existing interpolation DOI covers this result.",
+    "source_release_url": "https://github.com/queelius/research-records/tree/main/records/bandit-information-relaxation-interpolation"
+  },
+  "license": "Apache-2.0",
+  "limitations": [
+    "The platform assumptions include a nonempty standard Borel latent-parameter space, measurable conjugate updates and integrable predictive rewards for every belief.",
+    "The formalized S sums posterior predictive means, exactly as defined in the platform model; it is not the sum of observed rewards.",
+    "The platform already corrected the middle coefficient to use arm k; that clarification is credited to mikedeng1.",
+    "This exact theorem does not establish every information-relaxation comparison or the remaining supersolution milestones.",
+    "No mathematical novelty, independent human peer review, source-author endorsement or exhaustive novelty search is claimed."
+  ],
+  "artifacts": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 751,
+      "sha256": "7e3c61ef1fb6616cc230ad24efc157f1a92c8c428b749b35abf2f6e4d982efef"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1722,
+      "sha256": "6a957ca46ed50679e7b13c2437cff5885c257c3f8813ed74b7ae72aadc6caea7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2961,
+      "sha256": "05a494ad9d3a738d97bfc95ad79413122581d565c4396a29186a9999fb1c0157"
+    },
+    {
+      "path": "controls/FalseConclusion.lean",
+      "bytes": 61948,
+      "sha256": "2815df42a1a17010e9d0fb9933e82f0e569885af1e4dec539e83dd5d7fa32e9f"
+    },
+    {
+      "path": "source/Audit.lean",
+      "bytes": 63659,
+      "sha256": "eeaeb3fb2858ad6d17e2a844671f6a51f4dcf10a7bf1ece0b435c335fb644221"
+    },
+    {
+      "path": "source/Definitions/Def_InfoRelaxTS_Monotone_Setting.lean",
+      "bytes": 9324,
+      "sha256": "a18f2f92d9625814c61dbd21ab64591a35642dab67ecfd0ca8597faf0d4f3743"
+    },
+    {
+      "path": "source/Solution.lean",
+      "bytes": 61524,
+      "sha256": "2c2c6a51d87352cc7573557c99f6f4b68ac74167c3985292e3dcad8fe1f17ef3"
+    },
+    {
+      "path": "source/lake-manifest.json",
+      "bytes": 3159,
+      "sha256": "dc8f4ad3ee254ef3ec1a3f7c137c87e5bb22c25d951d477c6e80f2da81e17787"
+    },
+    {
+      "path": "source/lakefile.lean",
+      "bytes": 338,
+      "sha256": "01e6f097b3a5771d27dcc6672f2bc9944fdae12fe4cc068370ea4e02960021b4"
+    },
+    {
+      "path": "source/lean-toolchain",
+      "bytes": 25,
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+    },
+    {
+      "path": "target.json",
+      "bytes": 1678,
+      "sha256": "630c8c36b9207f31f2aac304ba526cb38f5c342694e8b0e2423204793b890138"
+    },
+    {
+      "path": "verification-logs/audit.log",
+      "bytes": 8090,
+      "sha256": "f505cd4f9f13aa427e11f499f1d6da903bc6ede51519a7b1bde65f65f8e8b4c6"
+    },
+    {
+      "path": "verification-logs/definition.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verification-logs/false-conclusion.log",
+      "bytes": 8680,
+      "sha256": "bf4161b11011d4686781187f8128a6fa8d77f0f8ac12d64daff563d5f7dea01b"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2325,
+      "sha256": "d9de8e25aa355b82a3c88fba8550e36954b08275bb4cc84e3ae708214af10d8b"
+    }
+  ],
+  "artifact_path_base": "record_directory",
+  "canonical_record": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "commit": "65d5239a0562b3d5ffe2c8c2535b648ca192b7ea",
+    "path": "contributions/queelius/publications/bandit-information-relaxation-interpolation/record.json",
+    "sha256": "4e88024803a356ddda356335b9e2fbe003dab516b8156a61452c16f7f9c5783c",
+    "note": "The owning private project keeps the primary lifecycle. This record mirrors only the authorized, complete contribution and its reproducible source packet."
+  }
+}

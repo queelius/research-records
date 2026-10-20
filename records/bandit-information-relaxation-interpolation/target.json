@@ -1,0 +1,10 @@
+{
+  "theorem_id": "1c79735c-84f1-4ab3-bf0e-68e36c0512fb",
+  "theorem_name": "InfoRelaxTS.Monotone.Ukn_interpolation",
+  "status": "Proved",
+  "formal_statement": "namespace InfoRelaxTS.Monotone\n\nopen MeasureTheory ProbabilityTheory\n\n/-- (154)\u2013(155), \u00a7D.3.2, p. 59: `U_{k,n} \u2265 U_{k,n+1}` for every arm `k` and every `n < T`, together\nwith the three identities observed there: `W^{IRS.FH} = U_{1,0}`, `W^{IRS.V-Zero} = U_{K,T}` and\n`U_{k+1,0} = U_{k,T}` (arms 0-based). -/\ntheorem Ukn_interpolation {K : \u2115} [NeZero K] {\u0398 Y : Type*} [MeasurableSpace \u0398] [StandardBorelSpace \u0398]\n    [Nonempty \u0398] [MeasurableSpace Y]\n    (R : Fin K \u2192 Kernel \u0398 \u211d) [\u2200 a, IsMarkovKernel (R a)]\n    (P : Fin K \u2192 Kernel Y \u0398) [\u2200 a, IsMarkovKernel (P a)]\n    (U : Fin K \u2192 Y \u2192 \u211d \u2192 Y) (hM : StandingAssumptions R P U)\n    (T : \u2115) (y : Fin K \u2192 Y) :\n    (\u2200 (k : Fin K) (n : \u2115), n < T \u2192 Ukn R P U k (n + 1) T y \u2264 Ukn R P U k n T y) \u2227\n      WFH R P U T y = Ukn R P U 0 0 T y \u2227\n      WVZ R P U T y = Ukn R P U \u27e8K - 1, Nat.sub_one_lt (NeZero.ne K)\u27e9 T T y \u2227\n      \u2200 (k : Fin K) (hk : (k : \u2115) + 1 < K), Ukn R P U \u27e8(k : \u2115) + 1, hk\u27e9 0 T y = Ukn R P U k T T y := by sorry\n\nend InfoRelaxTS.Monotone\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_InfoRelaxTS_Monotone_Setting",
+  "source": "Min, Maglaras, Moallemi, Thompson Sampling with Information Relaxation Penalties, arXiv:1902.04251v2, p. 59, \u00a7D.3.2, (154)\u2013(155)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

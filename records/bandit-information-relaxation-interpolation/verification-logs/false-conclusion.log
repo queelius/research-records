@@ -1,0 +1,144 @@
+'BanditLaw.outcome_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditLaw.reward_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+../controls/FalseConclusion.lean:243:0: warning: automatically included section variable(s) unused in theorem `BanditBayesStep.arm_history_next`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'BanditBayesStep.history_update' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditBayesStep.observed_history_update' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditBayesStep.iid_prefix_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditBayesStep.arm_history_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditBayesStep.arm_posterior_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+../controls/FalseConclusion.lean:330:0: warning: automatically included section variable(s) unused in theorem `BanditHistory.reward_measurable`:
+  [MeasurableSpace Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+../controls/FalseConclusion.lean:387:6: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'BanditHistory.coefficients_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+../controls/FalseConclusion.lean:515:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.product_joint`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+../controls/FalseConclusion.lean:539:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.transported_joint`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+../controls/FalseConclusion.lean:553:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.enlarged_measurable`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+../controls/FalseConclusion.lean:582:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.belief_yseq`:
+  [MeasurableSpace Θ]
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+  [MeasurableSpace Y]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Θ] [StandardBorelSpace Θ] [Nonempty Θ] [MeasurableSpace Y] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+../controls/FalseConclusion.lean:620:0: warning: automatically included section variable(s) unused in theorem `BanditFiniteHistory.history_le_enlarged`:
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'BanditFiniteHistory.arm_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditFiniteHistory.arm_condMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditFiniteHistory.product_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditFiniteHistory.enlarged_condMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditFiniteHistory.posterior_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+../controls/FalseConclusion.lean:706:5: warning: Variable name `hmeas` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hmeas
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+../controls/FalseConclusion.lean:839:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+../controls/FalseConclusion.lean:894:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+../controls/FalseConclusion.lean:896:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+../controls/FalseConclusion.lean:966:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'BanditReduction.actual_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+../controls/FalseConclusion.lean:1023:0: warning: automatically included section variable(s) unused in theorem `BanditPosteriorReduction.history_mono`:
+  [NeZero K]
+  [MeasurableSpace Θ]
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero K] [MeasurableSpace Θ] [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+../controls/FalseConclusion.lean:1040:0: warning: automatically included section variable(s) unused in theorem `BanditPosteriorReduction.posterior_integrable`:
+  [NeZero K]
+  [StandardBorelSpace Θ]
+  [Nonempty Θ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero K] [StandardBorelSpace Θ] [Nonempty Θ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+../controls/FalseConclusion.lean:1052:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'BanditPosteriorReduction.interpolation_step_of_posterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditEndpoints.terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditEndpoints.initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanditEndpoints.transition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+../controls/FalseConclusion.lean:1232:2: error: Type mismatch
+  solution R P U hM T y
+has type
+  (∀ (k : Fin K), ∀ n < T, Ukn R P U k (n + 1) T y ≤ Ukn R P U k n T y) ∧
+    WFH R P U T y = Ukn R P U 0 0 T y ∧
+      WVZ R P U T y = Ukn R P U ⟨K - 1, ⋯⟩ T T y ∧
+        ∀ (k : Fin K) (hk : ↑k + 1 < K), Ukn R P U ⟨↑k + 1, hk⟩ 0 T y = Ukn R P U k T T y
+but is expected to have type
+  False
