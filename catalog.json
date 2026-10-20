@@ -67,6 +67,11 @@
       "id": "empirical-dro-finite-support-reduction",
       "metadata": "records/empirical-dro-finite-support-reduction/record.json",
       "readme": "records/empirical-dro-finite-support-reduction/README.md"
+    },
+    {
+      "id": "nested-logit-knapsack-rounding",
+      "metadata": "records/nested-logit-knapsack-rounding/record.json",
+      "readme": "records/nested-logit-knapsack-rounding/README.md"
     }
   ]
 }

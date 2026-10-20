@@ -38,6 +38,13 @@ publication metadata or handoff.
 
 ## Records
 
+- [Knapsack rounding guarantees for nested-logit assortments](records/nested-logit-knapsack-rounding/README.md).
+  Two accepted Lean proofs establish the factor-two and small-item utility
+  bounds for supplied optimal LP points. Established Gallego–Topaloglu
+  mathematics; shared-model authors and platform formulations retain credit.
+  The note, exact target links, hashes and verification summary are public.
+  Greedy construction remains open; no DOI or self-contained proof packet yet.
+
 - [Finite-support empirical DRO reduction](records/empirical-dro-finite-support-reduction/README.md).
   Three accepted Lean proofs identify the attainable sample-weight and
   support-weight objective sets, completing the finite-support reduction.

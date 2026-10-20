@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-20T18:59:37.916323+00:00",
+  "kind": "owner-side verification summary",
+  "lean": "4.33.1",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "autoImplicit": false,
+  "exact_type_audits": true,
+  "axiom_scope": "All local declarations; only propext, Classical.choice and Quot.sound.",
+  "targets": [
+    {
+      "theorem_id": "83dde935-955c-4220-abaa-51ca371d5d95",
+      "proof_sha256": "5d79e752bc469fc12e269566867ca3d2896315f4215395f9e22910c271f00832",
+      "audit_sha256": "d3e0eed57e23dbcc993c30ba0bc83c64dd7b7000bae5630e9c4c30bf728b5415",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem_id": "f8976841-ff66-410f-a59b-ade97fe1e82e",
+      "proof_sha256": "e31387553c303b0d1b73479515572c463b26468e76be2930ba209ffc4d01af71",
+      "audit_sha256": "28a81584af6614348f3f82a787de6becf0cba6dbb5991d23d5555f37036d14f8",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "all_accepted_downloads_match": true,
+  "fresh_reproduction": "PASS",
+  "reproduction_report": "contributions/queelius/evidence/reproduction-round16-2026-10-20.json",
+  "public_packet_reproduction": null,
+  "tooling_tests": {
+    "passed": 127,
+    "seconds": 24.77,
+    "coverage": {
+      "covered_lines": 954,
+      "num_statements": 1012,
+      "percent_covered": 92.27129337539432,
+      "percent_covered_display": "92",
+      "missing_lines": 58,
+      "excluded_lines": 3,
+      "percent_statements_covered": 94.26877470355731,
+      "percent_statements_covered_display": "94",
+      "num_branches": 256,
+      "num_partial_branches": 40,
+      "covered_branches": 216,
+      "missing_branches": 40,
+      "percent_branches_covered": 84.375,
+      "percent_branches_covered_display": "84"
+    }
+  },
+  "human_peer_review": false,
+  "note": "This reports verified owner-side reproduction and links exact public targets; no self-contained proof payload is distributed here.",
+  "reproduction_report_url": "https://github.com/queelius/prove2me-contributions/blob/1378c1f77ddf76089cf9fcf2c3859bf8cf3d0a29/contributions/queelius/evidence/reproduction-round16-2026-10-20.json"
+}

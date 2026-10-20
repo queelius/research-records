@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "nested-logit-knapsack-rounding",
+  "title": "Verified knapsack rounding guarantees for nested-logit assortments",
+  "contribution_type": "complete formalization of two established approximation inequalities",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "record_path": "contributions/queelius/publications/nested-logit-knapsack-rounding/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json",
+    "source_commit": "1378c1f77ddf76089cf9fcf2c3859bf8cf3d0a29",
+    "record_sha256": "71ef98a2be6cf019c2e063d507777fed014314b7c96e906c5252e035289170c1",
+    "record_url": "https://github.com/queelius/prove2me-contributions/blob/1378c1f77ddf76089cf9fcf2c3859bf8cf3d0a29/contributions/queelius/publications/nested-logit-knapsack-rounding/record.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/nested-logit-knapsack-rounding",
+  "claim": "Every optimal continuous knapsack solution with at most one fractional item gives the exact factor-two utility bound using its rounded set and optional fractional singleton. If each item occupies at most epsilon of capacity, the rounded set gives the exact1/(1-epsilon) utility bound under the one-fractional-item condition.",
+  "assumptions": [
+    "Finite product set and nested-logit utility v_ij(r_ij-u), with u>=0, zero within-nest no-purchase weight, positive preference and space weights, and each item individually fitting the capacity.",
+    "The supplied continuous LP point is optimal with coordinates in[0,1] and total space at most capacity. Equation11 records its zero-or-one fractional coordinate by an Option index.",
+    "The refined guarantee assumes one fractional coordinate,0<=epsilon<1, and every item space<=epsilon*capacity. Complete target statements are linked and retained without weakened binders."
+  ],
+  "supporting_scope": [
+    "Selected coordinates have nonnegative utility, derived by a feasible improving-deletion argument.",
+    "Exact objective splitting treats the integral and fractional cases separately.",
+    "A feasible perturbation gives c*a_j<=w_j*OPT; this handles zero-utility fractional coordinates without assuming capacity exhaustion or dividing by the rounded objective."
+  ],
+  "formal_targets": [
+    {
+      "theorem_id": "83dde935-955c-4220-abaa-51ca371d5d95",
+      "theorem_name": "ConstrNestedLogit.Space.equation_11",
+      "target_url": "https://prove2.me/theorems/83dde935-955c-4220-abaa-51ca371d5d95",
+      "contribution_scope": "Complete two-approximation inequality for every optimal LP point with optional fractional coordinate, including integral and nonpositive-utility cases; no candidate-family cardinality claim.",
+      "primary_submission_id": "91b51112-1f28-4311-8957-8caf7f8bac37",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T18:43:07.679407+00:00",
+      "status_checked_at": "2026-10-20T18:43:39.394800+00:00",
+      "proof_sha256": "5d79e752bc469fc12e269566867ca3d2896315f4215395f9e22910c271f00832"
+    },
+    {
+      "theorem_id": "f8976841-ff66-410f-a59b-ade97fe1e82e",
+      "theorem_name": "ConstrNestedLogit.Space.refined_chain",
+      "target_url": "https://prove2.me/theorems/f8976841-ff66-410f-a59b-ade97fe1e82e",
+      "contribution_scope": "Complete small-item 1/(1-epsilon) rounding guarantee for any optimal LP point with one fractional coordinate, including zero utility; candidate-family construction remains separate.",
+      "primary_submission_id": "561aac4f-647d-49c3-ae50-48981df32c86",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T18:46:05.038799+00:00",
+      "status_checked_at": "2026-10-20T18:47:35.833897+00:00",
+      "proof_sha256": "e31387553c303b0d1b73479515572c463b26468e76be2930ba209ffc4d01af71"
+    }
+  ],
+  "mathematical_source": {
+    "authors": [
+      "Guillermo Gallego",
+      "Huseyin Topaloglu"
+    ],
+    "title": "Constrained Assortment Optimization for the Nested Logit Model",
+    "target_citation_version": "September 11, 2013",
+    "inspected_version": "September 18, 2013 author-hosted revision",
+    "url": "https://www.columbia.edu/~gmg2/logit_const.pdf",
+    "pages": "19–22, especially equation(11) on printedp20",
+    "access": "Web PDF text inspected; direct PDF download403 and cited-version mirror502/timeout. No PDF hash claimed.",
+    "equation_11_alignment": "Same LP relaxation / rounded support / optional fractional singleton inequality as platform; all target binders retained.",
+    "redistributed": false,
+    "published_doi": "10.1287/mnsc.2014.1931"
+  },
+  "predecessor_credit": [
+    {
+      "names": [
+        "Guillermo Gallego",
+        "Huseyin Topaloglu"
+      ],
+      "contribution": "Source equation11 and section5.2 small-item approximation guarantee."
+    },
+    {
+      "names": [
+        "James M. Davis",
+        "Guillermo Gallego",
+        "Huseyin Topaloglu"
+      ],
+      "contribution": "Source of the shared NestedLogitVariants_LP_Model instance interface; separate from the two constrained-knapsack inequalities.",
+      "source": "https://doi.org/10.1287/opre.2014.1256"
+    },
+    {
+      "username": "mikedeng1",
+      "contribution": "Finite knapsack/nested-logit interfaces, optional fractional coordinate and division-free refined statement."
+    },
+    {
+      "name": "Shuze Chen",
+      "contribution": "Platform statement review, not claimed to be review of these proofs."
+    },
+    {
+      "names": [
+        "Johannes Hölzl",
+        "Lean and Mathlib contributors"
+      ],
+      "contribution": "Finite-sum infrastructure, ordered fields and proof tactics."
+    }
+  ],
+  "human_role": "Alexander Richard Towell directed the research and verification standards.",
+  "ai_assistance": "OpenAI Codex substantially developed, verified, submitted and documented the formalizations.",
+  "public_disclosures": [
+    {
+      "kind": "public_platform_submission",
+      "timestamp": "2026-10-20T18:41:46.341997+00:00",
+      "url": "https://prove2.me/theorems/83dde935-955c-4220-abaa-51ca371d5d95",
+      "submission_id": "91b51112-1f28-4311-8957-8caf7f8bac37",
+      "accepted_at": "2026-10-20T18:43:07.679407+00:00",
+      "download_checked_at": "2026-10-20T18:43:39.394800+00:00"
+    },
+    {
+      "kind": "public_platform_submission",
+      "timestamp": "2026-10-20T18:44:42.706317+00:00",
+      "url": "https://prove2.me/theorems/f8976841-ff66-410f-a59b-ade97fe1e82e",
+      "submission_id": "561aac4f-647d-49c3-ae50-48981df32c86",
+      "accepted_at": "2026-10-20T18:46:05.038799+00:00",
+      "download_checked_at": "2026-10-20T18:47:35.833897+00:00"
+    }
+  ],
+  "verification": {
+    "receipt": "verification.json",
+    "pinned_lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "exact_type_audit": true,
+    "autoImplicit": false,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "accepted_downloads_match": true,
+    "fresh_reproduction": "PASS",
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false
+  },
+  "publication": {
+    "state": "metadata_only",
+    "version": "1.0.0",
+    "version_doi": null,
+    "concept_doi": null,
+    "archival_status": "not_archived",
+    "source_access": "Public platform target pages; proof API downloads require authentication. Owning development repository remains private.",
+    "readiness": "Curated metadata and original note verified for central publication. A self-contained dependency packet, license review and rejecting controls remain the next archival step; no DOI reserved or minted."
+  },
+  "limitations": [
+    "No mathematical novelty or independent human proof review claimed.",
+    "No construction of a greedy LP optimum, quadratic-size candidate family or complete assortment-revenue approximation algorithm is established by these two targets.",
+    "The cited September11 manuscript mirror was unavailable; the inspected September18 author-hosted revision contains the same inequalities. No original PDF hash is claimed.",
+    "No self-contained public proof archive or DOI exists for this record."
+  ],
+  "license": {
+    "original_metadata_and_note": "MIT",
+    "third_party_proof_code_redistributed": false,
+    "note": "This curated record publishes original metadata and explanation; linked platform/source materials retain their applicable terms."
+  }
+}
