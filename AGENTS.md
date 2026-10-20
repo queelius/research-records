@@ -6,6 +6,12 @@ workspace or research queue for its source projects.
 
 - Keep each record's structured facts in `records/<id>/record.json`.
   `catalog.json` locates records; README files explain the contribution.
+- Keep proofs, code, experiment logs, failures, and open research questions
+  in the owning project. Curate one central record per coherent contribution,
+  reuse its stable ID, and add that ID and central URL to the project handoff.
+  A complete partial contribution may belong to a still-open larger problem.
+- Derive future search and summary views from the structured records. Do not
+  maintain a second claim inventory or mirror every experiment here.
 - Verify the exact statement, source pins, attribution, license, reproduction
   evidence, and publication authorization before adding a public artifact.
 - Reuse existing Zenodo records. Create a new version for changed archived

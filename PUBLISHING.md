@@ -10,6 +10,40 @@ Choose a coherent, independently reviewable result. Keep its canonical source
 and review in the appropriate project. This index links to that source and to
 an archive of the exact contribution and its necessary dependencies.
 
+## Handoff from an owning project
+
+Use the following contract across repositories:
+
+1. Keep the detailed lifecycle in the owning project: claims under
+   investigation, proofs, experiment parameters, results, failures, review,
+   and next steps. Include publication readiness in its research handoff.
+2. Search `catalog.json` and existing records before allocating a stable
+   contribution ID. Reuse that ID for updates to the same contribution;
+   separate coherent contributions from one project may have separate IDs.
+3. Curate the exact claim, scope and assumptions, source commit, evidence
+   links and hashes, reproduction result, attribution, license, limitations,
+   citation, and separately dated disclosure and publication events into
+   `records/<id>/record.json`. Keep large evidence and raw run logs in their
+   canonical source or archive, and link to them.
+4. Record the central ID and URL in the owning project's publication
+   metadata or handoff. Keep research progress distinct from the scope of a
+   frozen published version.
+5. For a correction or substantive advance, update the owning project and
+   verify its evidence first. Then update the central record to the exact
+   new source or archive version, preserving the previous disclosure and
+   correction history. Check the record, README, and citation agree.
+
+An open research question does not prevent a record for a useful, complete
+partial contribution. A local experiment, independently checked finite
+certificate, written proof, formalization, human review, upstream acceptance,
+and public deposit establish different things; say which applies.
+
+`record.json` holds the structured facts. `catalog.json` only locates them.
+Generate future cross-project search and summary views from that registry;
+do not introduce a second manually maintained database of claims.
+
+## Reusing an archive
+
 Search existing Zenodo records before creating a new deposition. An existing
 paper, software release, or evidence packet may already supply the appropriate
 DOI. Preserve that record's identity and version history.
@@ -38,7 +72,8 @@ to archived files do. See [Zenodo's versioning guidance](https://zenodo.org/help
    appear inside files before publication.
 6. Publish when authorized and ready. Verify the public metadata and download
    each file to check its bytes. A reserved DOI or draft is not a publication.
-7. Commit the index entry, citation, file hashes, and publication receipt.
+7. Commit the index entry, citation, file hashes, and publication receipt,
+   and add the central record ID and URL to the owning project's handoff.
    Future changes use the same version family and identify any correction.
 
 ## Existing Zenodo uploader

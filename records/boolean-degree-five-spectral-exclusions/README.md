@@ -12,12 +12,25 @@ do not exhaust their signed Fourier geometry or all possible candidates.
 - [Immutable source commit](https://github.com/queelius/boolean-degree-sensitivity/commit/43ddb9a8a360bf84451b81a27fb67a001b4c4e16)
 - [Mathematical report](https://github.com/queelius/boolean-degree-sensitivity/blob/00e60302ac9900530f523b8b43f88fac523302bf/REPORT.md)
 - [Completed isolated replay](https://github.com/queelius/boolean-degree-sensitivity/blob/00e60302ac9900530f523b8b43f88fac523302bf/verification/REPLAY-RECEIPT.json)
+- [Complete evidence release v1.0.0](https://github.com/queelius/boolean-degree-sensitivity/releases/tag/v1.0.0)
+- [Verified public downloads](PUBLIC-RELEASE.json)
 - [Explicit case definitions](https://github.com/queelius/boolean-degree-sensitivity/blob/43ddb9a8a360bf84451b81a27fb67a001b4c4e16/CASES.json)
 - [Structured record](record.json) and [citation metadata](CITATION.cff)
 
-The source was publicly verified on **20 October 2026**. Zenodo archival
-publication is pending; no published DOI is claimed yet. There is no
-journal or preprint-server submission for this contribution.
+The source was publicly verified on **20 October 2026**. The full v1.0.0
+packet was released that day at **10:58:40 UTC**. All eight assets, including
+the 667 MB evidence archive, were downloaded without authentication and
+verified by SHA-256. Cite the versioned release and its exact commit using
+the citation metadata here. Zenodo archival publication is pending after
+upload gateway errors; no published DOI is claimed yet. The packet contains
+an explicitly reserved archival DOI; use the separate release citation
+until that DOI is published. There is no journal or preprint-server submission
+for this contribution.
+
+This entry describes the frozen ten-case contribution. The owning project
+maintains ongoing research progress, including later results that are not
+part of this release. Its stable central ID is
+`boolean-degree-five-spectral-exclusions`.
 
 The complete staged packet passed an isolated, network-disabled replay:
 138 controls, the domain-deletion checks, and the independent input and exact

@@ -10,12 +10,39 @@ remain in the owning repositories. Important completed contributions receive
 self-contained archival packets, preferably on Zenodo, and stable citations
 to exact versions.
 
+## A shared catalog, with research kept in its project
+
+Use this repository to answer **what have we contributed, what supports it,
+and where can it be read or cited?** Each owning project continues to hold
+its proofs, code, experiments, failed approaches, open questions, and
+detailed research history.
+
+| Location | Responsibility |
+| --- | --- |
+| Owning project | Develop and verify the work; maintain the full research record and current status. |
+| `records/<id>/record.json` | Describe one coherent contribution, its exact scope, canonical source, evidence, attribution, and publication status. |
+| `catalog.json` | Locate records across projects using stable contribution IDs. |
+| Versioned public release or archival deposit | Distribute the exact evidence packet; preserve citation and integrity information. Prefer Zenodo for durable archival DOIs. |
+
+One project may produce several independently useful contributions. A
+contribution can be complete while the larger question remains open.
+Experiments stay local until they support a coherent result worth recording;
+the central catalog does not need an entry for every run.
+
+The JSON records are the machine-readable registry, versioned in Git.
+Search pages, tables, and other views should derive from these records
+rather than maintain another inventory. Record summaries and citation files
+must agree with the structured facts. Link each contribution back to its
+owning project, and record its stable ID and central URL in the project's
+publication metadata or handoff.
+
 ## Records
 
 - [Exact spectral exclusions for degree-five Boolean candidates](records/boolean-degree-five-spectral-exclusions/README.md).
   Ten conditional cases excluded by exact integer certificates and isolated
-  replay. The 14-variable existence problem remains open. Source is public;
-  archival DOI publication is pending.
+  replay. The 14-variable existence problem remains open. Source and the
+  complete versioned evidence packet are public; archival DOI publication
+  is pending.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).
