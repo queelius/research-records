@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-20T11:49:44.580107+00:00",
+  "python": "3.13.15",
+  "source_commit": "c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9",
+  "public_files_bound": 55,
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "rows/156/finite_obstruction/no_down.py"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "log": "archival-check-1.txt",
+      "elapsed_seconds": 32.339
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "rows/156/finite_obstruction",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "log": "archival-check-2.txt",
+      "elapsed_seconds": 43.027
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "rows/156/finite_obstruction/no_down.py",
+        "--negative-control",
+        "false-clause"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "log": "archival-check-3.txt",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "rows/156/finite_obstruction/no_down_independent.py",
+        "--negative-control",
+        "truncated"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "log": "archival-check-4.txt",
+      "elapsed_seconds": 0.114
+    }
+  ],
+  "tests": 29,
+  "primary_output_matches_public_source": true,
+  "full_independent_replay": {
+    "completed": true,
+    "additions": 18302,
+    "elapsed_seconds": 935.9,
+    "log": "rows/156/finite_obstruction/no_down-independent-output.txt",
+    "note": "Completed before publication; unchanged source/certificate bytes bound to the public commit. Not repeated solely for archival packaging."
+  },
+  "scope": "Finite certificate and written translation, not formal proof or human review."
+}

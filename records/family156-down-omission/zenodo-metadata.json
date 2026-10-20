@@ -1,0 +1,56 @@
+{
+  "title": "A replayable certificate for the ten-label obstruction without downward closure",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-20",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit-license",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>This packet certifies a previously reported observation by Pico: the nonempty finite ten-label TenSystem remains inconsistent after deleting only downward closure. The other five source fields are retained, including no-boundary for every three-face whether or not it lies in T. The written reduction handles arbitrary subset-family T. Nonempty Q is unrestricted; no symmetry reduction or distinguished tetrahedron is used.</p><p>The direct input has 330 variables and 30361 clauses. A new 18302-addition reverse-unit-propagation certificate ends in the empty clause and passes both a watched-literal replay and a separate bitmask full-scan replay. The packet includes the source-to-CNF argument, exact source pins, independent clause reconstruction, 424 local truth-table cases, 29 tests, explicit satisfiable further weakenings, corrupt/truncated rejection controls, and reproducible generation metadata.</p><p>This is a finite logical certificate with a written translation, not a formally verified implementation or a new Borsuk theorem. Topology, geometry, the complete source Lean development, and the census classification remain outside scope. It certifies Pico's prior observation without claiming discovery priority. One scoped separate AI review is documented; human peer review and global novelty are not claimed. The follow-up PR11 is open at archival preparation.</p><p>Alexander Richard Towell contributed with substantial OpenAI Codex assistance. OpenAI's source definition, Pico/H\u00e5kon \u00c5mdal's observation and census, prior Towell/Codex replay engines, and Glucose/PySAT are credited. The original accepted finite packet is included as an explicitly identified dependency. Canonical source is commit c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9; first public disclosure of the new certificate was 20 October 2026.</p>",
+  "keywords": [
+    "finite combinatorics",
+    "SAT certificates",
+    "reverse unit propagation",
+    "Borsuk covering assertion",
+    "TenSystem",
+    "independent verification",
+    "reproducible mathematics",
+    "AI-assisted research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/queelius/openai-math-counterexamples/tree/c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9/rows/156/finite_obstruction",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/piiiico/openai-math-counterexamples/pull/11",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/piiiico/openai-math-counterexamples/tree/5c9236ec5b12ff35e74f6c69437fdcade9d26245",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/piiiico/openai-math-counterexamples/pull/10#issuecomment-6248771785",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/family156-down-omission",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "MIT for preserved original packet and supplement. Predecessors retain attribution; no coauthorship or endorsement is implied. Public disclosure, AI review, upstream acceptance and archival publication are separate events."
+}

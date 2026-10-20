@@ -42,6 +42,11 @@
       "id": "gbfplus-public-occupancy-disclosure",
       "metadata": "records/gbfplus-public-occupancy-disclosure/record.json",
       "readme": "records/gbfplus-public-occupancy-disclosure/README.md"
+    },
+    {
+      "id": "family156-down-omission",
+      "metadata": "records/family156-down-omission/record.json",
+      "readme": "records/family156-down-omission/README.md"
     }
   ]
 }

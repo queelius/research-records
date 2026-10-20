@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Cite this exact certificate version; upstream review remains pending."
+type: dataset
+title: "A replayable certificate for the ten-label obstruction without downward closure"
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+doi: "10.5281/zenodo.23498223"
+date-released: 2026-10-20
+license: MIT
+url: "https://doi.org/10.5281/zenodo.23498223"
+repository-code: "https://github.com/queelius/openai-math-counterexamples"
+commit: "c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9"
+abstract: >-
+  A new 18302-addition RUP certificate corroborates Pico's observation that
+  the nonempty finite TenSystem remains inconsistent after deleting only
+  downward closure. Two complete replays, a written encoding bridge,
+  explicit weakened models, and rejecting controls are included.
+  Substantial OpenAI Codex assistance; no formal verification, human
+  peer review, or new Borsuk theorem is claimed.

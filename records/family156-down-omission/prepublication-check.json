@@ -1,0 +1,16 @@
+{
+  "archive_files": 65,
+  "public_source_files": 55,
+  "source_sha256_bindings_match": true,
+  "deterministic_archive": true,
+  "extracted_hashes_verified": true,
+  "certificate_corruption_control": "rejected",
+  "staged_replay_and_29_tests": "passed",
+  "artifact": {
+    "filename": "family156-down-omission-v1.0.0.zip",
+    "bytes": 372704,
+    "sha256": "097bd50a164c3e83ebe55da692955ad74d02080d70894a915db6db043cd5a918",
+    "md5": "dd1cb6b22e5213a757f090a139a08d69"
+  },
+  "scope": "Archive contains only explicitly enumerated public packet files and archival metadata; Pico solver code is cited but not redistributed."
+}
