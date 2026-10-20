@@ -38,6 +38,13 @@ publication metadata or handoff.
 
 ## Records
 
+- [Finite-support empirical DRO reduction](records/empirical-dro-finite-support-reduction/README.md).
+  Three accepted Lean proofs identify the attainable sample-weight and
+  support-weight objective sets, completing the finite-support reduction.
+  Established Henry Lam mathematics; platform authors and support qualifications
+  retain specific credit. The curated note, hashes and verification summary are
+  public. No DOI or self-contained public proof packet yet.
+
 - [Polynomial-latency selfish routing](records/selfish-routing-polynomial-latency/README.md).
   Six accepted Lean proofs complete the potential-characterization and polynomial
   cost-bound mission. Roughgarden–Tardos mathematics; mrfancypants' accepted

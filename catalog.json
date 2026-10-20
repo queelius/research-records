@@ -62,6 +62,11 @@
       "id": "selfish-routing-polynomial-latency",
       "metadata": "records/selfish-routing-polynomial-latency/record.json",
       "readme": "records/selfish-routing-polynomial-latency/README.md"
+    },
+    {
+      "id": "empirical-dro-finite-support-reduction",
+      "metadata": "records/empirical-dro-finite-support-reduction/record.json",
+      "readme": "records/empirical-dro-finite-support-reduction/README.md"
     }
   ]
 }

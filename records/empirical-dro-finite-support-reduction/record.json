@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "id": "empirical-dro-finite-support-reduction",
+  "title": "A Lean formalization of the finite-support empirical DRO reduction",
+  "contribution_type": "complete formalization of established mathematics",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "record_path": "contributions/queelius/publications/empirical-dro-finite-support-reduction/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json",
+    "source_commit": "b3b8344ab229d7da5d99a81b7bff41aef9b421c1",
+    "record_sha256": "ec346fbda67e58418183cf1cdfd299fc5c41094bb80419c4a666cd4b685ca6dc",
+    "record_url": "https://github.com/queelius/prove2me-contributions/blob/b3b8344ab229d7da5d99a81b7bff41aef9b421c1/contributions/queelius/publications/empirical-dro-finite-support-reduction/record.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/empirical-dro-finite-support-reduction",
+  "claim": "For a sample of positive finite size classified among finitely many support points, the sample-weight Burg uncertainty set and the support-weight Burg ball attain exactly the same objective values. Therefore their lower and upper robust values agree at the exact stated radius scaling.",
+  "supporting_scope": [
+    "Aggregation preserves the objective and can only decrease Burg divergence, by logarithm concavity within each nonempty class.",
+    "Equal splitting of each support mass over its observations preserves both the objective and Burg divergence.",
+    "Empty classes have zero mass; observed classes have strictly positive mass. The extended-real generator excludes zero observation weights at finite radius."
+  ],
+  "formal_targets": [
+    {
+      "theorem_id": "b35e0ac8-f577-4602-a52a-baf6274f1069",
+      "theorem_name": "EmpiricalDRO.Discrete.w_to_p_feasible",
+      "target_url": "https://prove2.me/theorems/b35e0ac8-f577-4602-a52a-baf6274f1069",
+      "contribution_scope": "Complete aggregation of feasible sample weights into finite-support Burg-ball weights, with exact objective preservation and empty-class handling for every positive sample size and real radius.",
+      "primary_submission_id": "1594eeb5-3a1f-43fd-a195-d76f60d5ea92",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T17:50:20.239404+00:00",
+      "status_checked_at": "2026-10-20T17:51:21.746509+00:00",
+      "proof_sha256": "8738aaf0ade71c3870116438af1a192f2d666facd29d952aabdb3dabdf83e0b4"
+    },
+    {
+      "theorem_id": "4614306a-ee57-41e1-9503-62fcf199ed63",
+      "theorem_name": "EmpiricalDRO.Discrete.p_to_w_feasible",
+      "target_url": "https://prove2.me/theorems/4614306a-ee57-41e1-9503-62fcf199ed63",
+      "contribution_scope": "Complete splitting of support weights equally among observed sample classes, with exact divergence and objective preservation; handles unobserved support points using the explicit absolute-continuity condition.",
+      "primary_submission_id": "4b1e80d6-a6d1-46c3-a68f-6c913a4d3516",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T17:51:54.420996+00:00",
+      "status_checked_at": "2026-10-20T17:53:58.012423+00:00",
+      "proof_sha256": "f1cfbe59a04d4624e5251f7104f5b3f634145f46e1df78cd403369249efdb88b"
+    },
+    {
+      "theorem_id": "5f19ba76-3786-4c89-8e35-f2b3fbd78b73",
+      "theorem_name": "EmpiricalDRO.Discrete.proposition1_discrete_reduction",
+      "target_url": "https://prove2.me/theorems/5f19ba76-3786-4c89-8e35-f2b3fbd78b73",
+      "contribution_scope": "Complete finite-support empirical DRO reduction: equality of lower and upper robust values, established via equality of attainable objective sets with exact radius scaling. No asymptotic statistical coverage claim.",
+      "primary_submission_id": "28498841-88d3-4588-8338-6c8af1fdca7b",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T17:51:43.869028+00:00",
+      "status_checked_at": "2026-10-20T17:54:01.896363+00:00",
+      "proof_sha256": "f606765beb8758d046d02c9335caab7c058b3612466d8aaca54e3a9b48e6d973"
+    }
+  ],
+  "mathematical_source": {
+    "url": "https://arxiv.org/pdf/1605.09349v1",
+    "author": "Henry Lam",
+    "version": "arXiv:1605.09349v1, 30 May 2016",
+    "pages_inspected": [
+      24
+    ],
+    "sha256": "5fad2d535a11acc8c917402b21b0acb0742726c4c72277d447f8339c79de574d",
+    "scope": "Proposition1 p24 aggregation Jensen argument, preserving arbitrary real radius and explicit support conditions of platform model; no mathematical novelty claim.",
+    "title": "Recovering Best Statistical Guarantees via the Empirical Divergence-based Distributionally Robust Optimization",
+    "redistributed": false
+  },
+  "predecessor_credit": [
+    {
+      "name": "Henry Lam",
+      "contribution": "Original Proposition1 and both directions of its proof, arXiv:1605.09349v1 p24."
+    },
+    {
+      "username": "mikedeng1",
+      "contribution": "Formal divergence, Burg generator and histogram model; explicit absolute-continuity and positivity qualifications."
+    },
+    {
+      "name": "Shuze Chen",
+      "contribution": "Platform statement review; not claimed to have reviewed these proofs."
+    },
+    {
+      "names": [
+        "Aharon Ben-Tal",
+        "Dick den Hertog",
+        "Anja De Waegenaere",
+        "Bertrand Melenberg",
+        "Gijs Rennen"
+      ],
+      "contribution": "Source of shared phi-divergence interface."
+    },
+    {
+      "names": [
+        "John Duchi",
+        "Peter Glynn",
+        "Hongseok Namkoong"
+      ],
+      "contribution": "Source of shared robust-mean interface."
+    },
+    {
+      "names": [
+        "Alexander Bentkamp",
+        "Yury Kudryashov",
+        "Sébastien Gouëzel",
+        "Heather Macbeth",
+        "Kevin Buzzard"
+      ],
+      "contribution": "Mathlib finite Jensen, logarithm concavity and extended-real foundations, alongside other Lean/Mathlib authors."
+    }
+  ],
+  "human_role": "Alexander Richard Towell directed the research and verification standards.",
+  "ai_assistance": "OpenAI Codex substantially developed, verified, submitted and documented the Lean formalizations.",
+  "public_disclosures": [
+    {
+      "kind": "public_platform_submission",
+      "timestamp": "2026-10-20T17:48:22.044468+00:00",
+      "url": "https://prove2.me/theorems/b35e0ac8-f577-4602-a52a-baf6274f1069",
+      "submission_id": "1594eeb5-3a1f-43fd-a195-d76f60d5ea92",
+      "accepted_at": "2026-10-20T17:50:20.239404+00:00",
+      "download_checked_at": "2026-10-20T17:51:21.746509+00:00"
+    },
+    {
+      "kind": "public_platform_submission",
+      "timestamp": "2026-10-20T17:49:58.994996+00:00",
+      "url": "https://prove2.me/theorems/4614306a-ee57-41e1-9503-62fcf199ed63",
+      "submission_id": "4b1e80d6-a6d1-46c3-a68f-6c913a4d3516",
+      "accepted_at": "2026-10-20T17:51:54.420996+00:00",
+      "download_checked_at": "2026-10-20T17:53:58.012423+00:00"
+    },
+    {
+      "kind": "public_platform_submission",
+      "timestamp": "2026-10-20T17:50:32.581508+00:00",
+      "url": "https://prove2.me/theorems/5f19ba76-3786-4c89-8e35-f2b3fbd78b73",
+      "submission_id": "28498841-88d3-4588-8338-6c8af1fdca7b",
+      "accepted_at": "2026-10-20T17:51:43.869028+00:00",
+      "download_checked_at": "2026-10-20T17:54:01.896363+00:00"
+    }
+  ],
+  "verification": {
+    "receipt": "verification.json",
+    "pinned_lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "exact_type_audit": true,
+    "autoImplicit": false,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "accepted_downloads_match": true,
+    "fresh_reproduction": "PASS",
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false
+  },
+  "publication": {
+    "state": "metadata_only",
+    "version": "1.0.0",
+    "version_doi": null,
+    "concept_doi": null,
+    "archival_status": "not_archived",
+    "source_access": "Public Prove2Me target links; proof API downloads require authentication. Detailed owning repository remains private.",
+    "readiness": "Curated metadata and original explanatory note verified for central publication. A self-contained archival packet and rejecting controls remain the next publication step; no DOI reserved or minted."
+  },
+  "license": {
+    "record_and_original_note": "Apache-2.0",
+    "third_party_code_redistributed": false
+  },
+  "limitations": [
+    "Formalizes established mathematics; no mathematical novelty, independent human proof review or source-author endorsement is claimed.",
+    "This is the finite-support reduction only, not asymptotic statistical coverage or the source paper in full.",
+    "The arbitrary finite-support ball uses the formal model's explicit zero-mass and positivity conditions.",
+    "This central entry is a curated record, not a self-contained proof distribution."
+  ],
+  "mission_observation": {
+    "checked_at": "2026-10-20T17:55:37.787849+00:00",
+    "mission_id": "565e614b-5260-4819-89a0-b95244c2402d",
+    "root_status": "Proved",
+    "milestones": [
+      {
+        "theorem_id": "4614306a-ee57-41e1-9503-62fcf199ed63",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "b35e0ac8-f577-4602-a52a-baf6274f1069",
+        "status": "Proved"
+      }
+    ],
+    "scope": "Root and both milestones directly observed Proved; no inferred automatic cascade."
+  }
+}

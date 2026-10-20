@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-10-20T18:03:39.115386+00:00",
+  "kind": "owner-side verification summary",
+  "lean": "4.33.1",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "autoImplicit": false,
+  "exact_type_audits": true,
+  "axiom_scope": "All local declarations; only propext, Classical.choice and Quot.sound.",
+  "targets": [
+    {
+      "theorem_id": "b35e0ac8-f577-4602-a52a-baf6274f1069",
+      "proof_sha256": "8738aaf0ade71c3870116438af1a192f2d666facd29d952aabdb3dabdf83e0b4",
+      "audit_sha256": "eb612966d68a4022129199334493749ed863c07750186e24eda393525283f843",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem_id": "4614306a-ee57-41e1-9503-62fcf199ed63",
+      "proof_sha256": "f1cfbe59a04d4624e5251f7104f5b3f634145f46e1df78cd403369249efdb88b",
+      "audit_sha256": "133c76ba439f83d11afc640003f3f2428d1c4a4a96419dbcb94782ca622ee139",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem_id": "5f19ba76-3786-4c89-8e35-f2b3fbd78b73",
+      "proof_sha256": "f606765beb8758d046d02c9335caab7c058b3612466d8aaca54e3a9b48e6d973",
+      "audit_sha256": "b5512f91808f94b15d18684fa8576bb193b33bc302530551ad372666d394856a",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "all_accepted_downloads_match": true,
+  "fresh_reproduction": "PASS",
+  "reproduction_report": "contributions/queelius/evidence/reproduction-round15-2026-10-20.json",
+  "public_packet_reproduction": null,
+  "mission": {
+    "checked_at": "2026-10-20T17:55:37.787849+00:00",
+    "mission_id": "565e614b-5260-4819-89a0-b95244c2402d",
+    "root_status": "Proved",
+    "milestones": [
+      {
+        "theorem_id": "4614306a-ee57-41e1-9503-62fcf199ed63",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "b35e0ac8-f577-4602-a52a-baf6274f1069",
+        "status": "Proved"
+      }
+    ],
+    "scope": "Root and both milestones directly observed Proved; no inferred automatic cascade."
+  },
+  "tooling_tests": {
+    "passed": 127,
+    "seconds": 28.02,
+    "coverage": {
+      "covered_lines": 954,
+      "num_statements": 1012,
+      "percent_covered": 92.27129337539432,
+      "percent_covered_display": "92",
+      "missing_lines": 58,
+      "excluded_lines": 3,
+      "percent_statements_covered": 94.26877470355731,
+      "percent_statements_covered_display": "94",
+      "num_branches": 256,
+      "num_partial_branches": 40,
+      "covered_branches": 216,
+      "missing_branches": 40,
+      "percent_branches_covered": 84.375,
+      "percent_branches_covered_display": "84"
+    }
+  },
+  "human_peer_review": false,
+  "note": "This central record reports owner-side verification and links exact public targets. It does not distribute a self-contained source packet."
+}
