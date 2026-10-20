@@ -23,7 +23,7 @@ formalizations are included as actual proofs:
 
 Mathlib supplies measure, kernel, conditional-distribution and
 conditional-expectation infrastructure, including contributions by Rémy
-Degenne, Etienne Marion and Luca Luccioli. Its authorship and licenses remain
+Degenne, Etienne Marion and Lorenzo Luccioli. Its authorship and licenses remain
 in force.
 
 The selected public platform contributions postdate September 24, 2026,

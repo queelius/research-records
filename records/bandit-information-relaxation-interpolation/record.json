@@ -38,7 +38,7 @@
     "pdf_sha256": "0fc4bc3f29429ab514d41ba5af8dce63ede734dc014c92f6062e0e0e3c790830",
     "redistributed": false
   },
-  "predecessor_credit": "Seungki Min, Costis Maglaras and Ciamac C. Moallemi: source mathematics, arXiv1902.04251v2 pp56\u201360. mikedeng1: platform model and pre-existing indexing clarification; Shuze Chen: statement review. Alexander Richard Towell: research direction; OpenAI Codex: Lean formalization and verification. Prior accepted queelius Jensen proofs are included in full. Mathlib conditional-distribution, product and conditional-expectation infrastructure is credited, including R\u00e9my Degenne, Etienne Marion and Luca Luccioli. No mathematical novelty or independent human review claimed.",
+  "predecessor_credit": "Seungki Min, Costis Maglaras and Ciamac C. Moallemi: source mathematics, arXiv1902.04251v2 pp56\u201360. mikedeng1: platform model and pre-existing indexing clarification; Shuze Chen: statement review. Alexander Richard Towell: research direction; OpenAI Codex: Lean formalization and verification. Prior accepted queelius Jensen proofs are included in full. Mathlib conditional-distribution, product and conditional-expectation infrastructure is credited, including R\u00e9my Degenne, Etienne Marion and Lorenzo Luccioli. No mathematical novelty or independent human review claimed.",
   "ai_assistance": "Alexander Richard Towell directed research and verification standards. OpenAI Codex developed and checked the Lean formalization, prepared this record and verified publication files. No independent human proof review is asserted.",
   "source_definitions": [
     {
@@ -124,8 +124,8 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 1722,
-      "sha256": "6a957ca46ed50679e7b13c2437cff5885c257c3f8813ed74b7ae72aadc6caea7"
+      "bytes": 1725,
+      "sha256": "cbe8014a0d5416d61de6ece975cd1ef7217836ab37c94a229389e30b63511543"
     },
     {
       "path": "README.md",
@@ -191,15 +191,35 @@
       "path": "verification.json",
       "bytes": 2325,
       "sha256": "d9de8e25aa355b82a3c88fba8550e36954b08275bb4cc84e3ae708214af10d8b"
+    },
+    {
+      "path": "credit-correction.json",
+      "bytes": 681,
+      "sha256": "9cf7c87d4630aa11a018e17774bd74ee487b2657ca10e813e22083abb30d5c79"
     }
   ],
   "artifact_path_base": "record_directory",
+  "metadata_corrections": [
+    {
+      "kind": "credit_correction",
+      "observed_at": "2026-10-20T15:11:27.018405+00:00",
+      "field": "Mathlib contributor name",
+      "before": "Luca Luccioli",
+      "after": "Lorenzo Luccioli",
+      "evidence": "Mathlib 0df444a360eaa60ab8c11dca51a86af692955474, Probability/Kernel/Composition/MapComap.lean and MeasureComp.lean authors headers",
+      "proof_sha256": "2c2c6a51d87352cc7573557c99f6f4b68ac74167c3985292e3dcad8fe1f17ef3",
+      "proof_unchanged": true,
+      "platform_explanation_verified": true,
+      "old_explanation_sha256": "f5478089666cb4b3fd01c4ffe62ccb327e2725fc3e8c5efa7e775cc5ebc50930",
+      "new_explanation_sha256": "a6dac674196133689cc3e5ac5d789d12fc77a8018b924603eb35b8f0317456c0"
+    }
+  ],
   "canonical_record": {
     "repository": "https://github.com/queelius/prove2me-contributions",
     "visibility": "private",
-    "commit": "e3e6b76dfc986175a98c0c8ec579e95c46a4390d",
+    "commit": "c761d3bab5f197d973ee87c6adc4621956e04e50",
     "path": "contributions/queelius/publications/bandit-information-relaxation-interpolation/record.json",
-    "sha256": "2778ed2b8cfb42eac2a15e215d7b7cde08e34ab0bffa6a0f57c87dea6ceb3b17",
+    "sha256": "ccd59885b53c914d7e1202ead01fc33220e305807c4693b7f899f725d6e021a0",
     "note": "The owning project retains the primary lifecycle and publication event; this public record links the immutable source release and mirrors only the authorized contribution."
   }
 }

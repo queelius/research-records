@@ -1,0 +1,13 @@
+{
+  "kind": "credit_correction",
+  "observed_at": "2026-10-20T15:11:27.018405+00:00",
+  "field": "Mathlib contributor name",
+  "before": "Luca Luccioli",
+  "after": "Lorenzo Luccioli",
+  "evidence": "Mathlib 0df444a360eaa60ab8c11dca51a86af692955474, Probability/Kernel/Composition/MapComap.lean and MeasureComp.lean authors headers",
+  "proof_sha256": "2c2c6a51d87352cc7573557c99f6f4b68ac74167c3985292e3dcad8fe1f17ef3",
+  "proof_unchanged": true,
+  "platform_explanation_verified": true,
+  "old_explanation_sha256": "f5478089666cb4b3fd01c4ffe62ccb327e2725fc3e8c5efa7e775cc5ebc50930",
+  "new_explanation_sha256": "a6dac674196133689cc3e5ac5d789d12fc77a8018b924603eb35b8f0317456c0"
+}
