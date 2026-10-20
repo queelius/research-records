@@ -1,0 +1,10 @@
+{
+  "theorem_id": "871c2d55-e982-4841-9c7f-50b87c76515b",
+  "theorem_name": "CompetingChains.Cournot.proposition_7a",
+  "status": "Proved",
+  "formal_statement": "namespace CompetingChains.Cournot\n\ntheorem proposition_7a (\u03b3 t \u03c3sq : \u211d) (h\u03b30 : 0 < \u03b3) (h\u03b31 : \u03b3 < 1) (ht : 0 < t) (h\u03c3 : 0 < \u03c3sq) :\n    \u2203 kN kS : \u211d, 1 / 2 < kN \u2227 kN < kS \u2227 kS < (3 + Real.sqrt 5) / 4 \u2227\n      \u2200 a c k : \u211d, Standing a c k \u03b3 t \u03c3sq \u2192\n        (k < kN \u2192 equilibria a c k \u03b3 t \u03c3sq = {(.S, .S)}) \u2227\n        (kN < k \u2192 k < kS \u2192\n          equilibria a c k \u03b3 t \u03c3sq = {(.S, .S), (.N, .N)} \u2227\n            payoff a c k \u03b3 t \u03c3sq .N .N < payoff a c k \u03b3 t \u03c3sq .S .S) \u2227\n        (kS < k \u2192 equilibria a c k \u03b3 t \u03c3sq = {(.N, .N)}) := by sorry\n\nend CompetingChains.Cournot\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_CompetingChains_Cournot_Setting",
+  "source": "Ha, Tian & Tong, Information Sharing in Competing Supply Chains with Production Cost Reduction (MSOM 2017, pre-published version), p. 21, Proposition 7(a); proof p. 31",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

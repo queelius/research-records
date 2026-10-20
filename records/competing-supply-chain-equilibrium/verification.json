@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-20T11:16:14.027411+00:00",
+  "scope": "Compile exact staged source and both platform definitions in a fresh output directory, with verified pinned Mathlib caches. No old platform module cache.",
+  "lean": "4.33.1",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "checks": [
+    {
+      "command": [
+        "${LEAN_4_33_1}",
+        "-DautoImplicit=false",
+        "-o",
+        "${FRESH_LIB}/Definitions/Def_CompetingChains_Cournot_TwoPlayerGame.olean",
+        "${SOURCE}/Definitions/Def_CompetingChains_Cournot_TwoPlayerGame.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 4.057,
+      "log": "verification-logs/0.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "${LEAN_4_33_1}",
+        "-DautoImplicit=false",
+        "-o",
+        "${FRESH_LIB}/Definitions/Def_CompetingChains_Cournot_Setting.olean",
+        "${SOURCE}/Definitions/Def_CompetingChains_Cournot_Setting.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 4.466,
+      "log": "verification-logs/1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "${LEAN_4_33_1}",
+        "-DautoImplicit=false",
+        "${SOURCE}/Audit.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 133.405,
+      "log": "verification-logs/2.log",
+      "log_sha256": "c4469ae4659b7845b116a5b91a55c6b28d9f1c4270206a8f5e83b8bbd5a58ec8"
+    }
+  ],
+  "result": "PASS",
+  "source_hashes": {
+    "lake-manifest.json": "dc8f4ad3ee254ef3ec1a3f7c137c87e5bb22c25d951d477c6e80f2da81e17787",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.lean": "01e6f097b3a5771d27dcc6672f2bc9944fdae12fe4cc068370ea4e02960021b4",
+    "Audit.lean": "824d445d2241fdbee90479b6a36748ad680b41e998b7ffe0370368d9141dbf55",
+    "Solution.lean": "8050c25904970f012960b6e027bbbb2c84d55c36073590fb97268420adc37ffd",
+    "Definitions/Def_CompetingChains_Cournot_TwoPlayerGame.lean": "ac5a4f191f6d9517315f0615e83ba1db94100a404070e087f5f28a9a911712a3",
+    "Definitions/Def_CompetingChains_Cournot_Setting.lean": "cec7fe529cd606f23b48b744ee4942823c11e4ffff461ddc2e4382b8bfd9463e"
+  }
+}

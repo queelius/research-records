@@ -32,6 +32,11 @@
       "id": "sidorenko-integer-full-slack",
       "metadata": "records/sidorenko-integer-full-slack/record.json",
       "readme": "records/sidorenko-integer-full-slack/README.md"
+    },
+    {
+      "id": "competing-supply-chain-equilibrium",
+      "metadata": "records/competing-supply-chain-equilibrium/record.json",
+      "readme": "records/competing-supply-chain-equilibrium/README.md"
     }
   ]
 }

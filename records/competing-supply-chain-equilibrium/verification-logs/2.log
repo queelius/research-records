@@ -1,0 +1,19 @@
+${SOURCE}/Audit.lean:84:70: warning: Custom `field_simp` dischargers do not make use of the `field_simp` arguments list
+${SOURCE}/Audit.lean:84:70: warning: Custom `field_simp` dischargers do not make use of the `field_simp` arguments list
+${SOURCE}/Audit.lean:103:70: warning: Custom `field_simp` dischargers do not make use of the `field_simp` arguments list
+${SOURCE}/Audit.lean:103:70: warning: Custom `field_simp` dischargers do not make use of the `field_simp` arguments list
+${SOURCE}/Audit.lean:117:72: warning: Custom `field_simp` dischargers do not make use of the `field_simp` arguments list
+${SOURCE}/Audit.lean:117:72: warning: Custom `field_simp` dischargers do not make use of the `field_simp` arguments list
+${SOURCE}/Audit.lean:117:72: warning: Custom `field_simp` dischargers do not make use of the `field_simp` arguments list
+${SOURCE}/Audit.lean:117:72: warning: Custom `field_simp` dischargers do not make use of the `field_simp` arguments list
+${SOURCE}/Audit.lean:119:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+${SOURCE}/Audit.lean:174:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+${SOURCE}/Audit.lean:179:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+PROOF_WORKFLOW_AXIOMS 0df69a996eac4b9abeeecb13de0a7582 ["propext","Classical.choice","Quot.sound"]

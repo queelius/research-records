@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "id": "competing-supply-chain-equilibrium",
+  "title": "A Lean formalization of pure information-sharing equilibria in competing supply chains",
+  "contribution_type": "complete formalization of an established model theorem",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "record_path": "contributions/queelius/publications/competing-supply-chain-equilibrium/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/competing-supply-chain-equilibrium",
+  "claim": "Under the exact platform Standing assumptions, ordered thresholds 1/2 < kN < kS < (3+sqrt(5))/4 classify all pure information-sharing equilibria in the three open regimes, with strict payoff dominance of full sharing in the middle.",
+  "formal_target": {
+    "theorem_id": "871c2d55-e982-4841-9c7f-50b87c76515b",
+    "theorem_name": "CompetingChains.Cournot.proposition_7a",
+    "url": "https://prove2.me/theorems/871c2d55-e982-4841-9c7f-50b87c76515b",
+    "exact_statement": "target.json",
+    "proof_sha256": "8050c25904970f012960b6e027bbbb2c84d55c36073590fb97268420adc37ffd"
+  },
+  "mathematical_source": {
+    "authors": [
+      "Albert Y. Ha",
+      "Quan Tian",
+      "Shilu Tong"
+    ],
+    "title": "Information Sharing in Competing Supply Chains with Production Cost Reduction",
+    "doi": "10.1287/msom.2016.0607",
+    "cited_scope": "Proposition7(a), prepublication p21/proof p31",
+    "inspection": "Publisher metadata and indexed excerpts; full PDF inaccessible. Exact platform statement independently verified.",
+    "redistributed": false
+  },
+  "predecessor_credit": "Albert Y. Ha, Quan Tian and Shilu Tong: source model and Proposition7(a), 2017. mikedeng1: formal model and existing parameter/boundary/pure-equilibrium qualifications; Shuze Chen: statement review. Alexander Richard Towell directed; OpenAI Codex formalized and verified. Accepted campaign support is re-proved in full. No novelty or independent human review claim. Publisher metadata and indexed excerpts inspected; full paper access blocked.",
+  "ai_assistance": "Codex developed the Lean proof, verified, submitted, and archived it. Codex prepared the curated record and public source mirror.",
+  "source_definitions": [
+    {
+      "path": "Definitions/Def_CompetingChains_Cournot_Setting.lean",
+      "sha256": "cec7fe529cd606f23b48b744ee4942823c11e4ffff461ddc2e4382b8bfd9463e",
+      "platform_definition_id": "ff857b06-245a-46c0-b492-3a2d5fba6637",
+      "source": "Ha, Tian & Tong, Information Sharing in Competing Supply Chains with Production Cost Reduction (MSOM 2017, pre-published version), pp. 7\u201321: \u00a73 (1) p. 7 and the information structure p. 8; \u00a75 standing assumptions p. 13; (7), (9) p. 14; Lemma 2(a) p. 15; ex-ante profits p. 17; V p. 18; side payment p. 21; Table 1 p. 21",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "created_at": "2026-10-08T20:24:49.019493+00:00",
+      "visibility": "public",
+      "created_by_username": null,
+      "checked_at": "2026-10-20T11:14:49.708695+00:00"
+    },
+    {
+      "path": "Definitions/Def_CompetingChains_Cournot_TwoPlayerGame.lean",
+      "sha256": "ac5a4f191f6d9517315f0615e83ba1db94100a404070e087f5f28a9a911712a3",
+      "platform_definition_id": "e18c86d2-87a4-4118-a527-f481bb57d4bb",
+      "source": "Ha, Tian & Tong, Information Sharing in Competing Supply Chains with Production Cost Reduction (MSOM 2017, pre-published version), p. 21, \u00a75.3 and Table 1 (the stage-one game whose pure equilibria Proposition 7 counts)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "created_at": "2026-10-08T20:24:05.439605+00:00",
+      "visibility": "public",
+      "created_by_username": null,
+      "checked_at": "2026-10-20T11:14:50.122956+00:00"
+    }
+  ],
+  "public_disclosures": [
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-20T10:53:40.162345+00:00",
+      "url": "https://prove2.me/theorems/871c2d55-e982-4841-9c7f-50b87c76515b",
+      "scope": "Exact proof submitted to a public platform target; direct API source downloads require authentication."
+    }
+  ],
+  "acceptance": {
+    "status": "ACCEPTED",
+    "timestamp": "2026-10-20T10:59:44.144945+00:00",
+    "submission_id": "104fdebd-b21a-439a-bbbb-bccbad76a3df",
+    "observed_at": "2026-10-20T11:01:21.150746+00:00",
+    "download_matches_verified_bytes": true
+  },
+  "verification": {
+    "lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "autoImplicit": false,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exact_type_audit": true,
+    "fresh_archive_reproduction": "PASS",
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false,
+    "staged_source_reproduction": "PASS",
+    "receipt": "verification.json",
+    "checked_at": "2026-10-20T11:16:14.027411+00:00"
+  },
+  "publication": {
+    "state": "not_archived",
+    "version": "1.0.0",
+    "version_doi": null,
+    "concept_doi": null,
+    "archival_status": "not_archived",
+    "note": "A central catalog entry and a DOI deposit are separate events. This contribution is not covered by the interpolation DOI.",
+    "source_release_url": "https://github.com/queelius/research-records/tree/main/records/competing-supply-chain-equilibrium"
+  },
+  "license": "Apache-2.0",
+  "limitations": [
+    "Exact threshold boundaries are intentionally excluded by the platform statement.",
+    "Pure equilibria only; no mixed-equilibrium classification.",
+    "Separate Proposition6(a) comparative statics and two coefficient milestones remain open.",
+    "Established mathematics; no independent human review, exhaustive novelty assessment or source-author endorsement.",
+    "The full source paper was inaccessible; the checked statement is the explicitly documented platform formulation."
+  ],
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1479,
+      "sha256": "da02d099cc44a676e50ab1953e1fa1b04a1a02833adb3bb0c3c8eb5b5f5c63b9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2346,
+      "sha256": "74c177ffedcd27e4b1911efab6d0b00dbf32a5b419bcd52aae85f7c291402049"
+    },
+    {
+      "path": "source/Audit.lean",
+      "bytes": 23569,
+      "sha256": "824d445d2241fdbee90479b6a36748ad680b41e998b7ffe0370368d9141dbf55"
+    },
+    {
+      "path": "source/Definitions/Def_CompetingChains_Cournot_Setting.lean",
+      "bytes": 5636,
+      "sha256": "cec7fe529cd606f23b48b744ee4942823c11e4ffff461ddc2e4382b8bfd9463e"
+    },
+    {
+      "path": "source/Definitions/Def_CompetingChains_Cournot_TwoPlayerGame.lean",
+      "bytes": 847,
+      "sha256": "ac5a4f191f6d9517315f0615e83ba1db94100a404070e087f5f28a9a911712a3"
+    },
+    {
+      "path": "source/Solution.lean",
+      "bytes": 21619,
+      "sha256": "8050c25904970f012960b6e027bbbb2c84d55c36073590fb97268420adc37ffd"
+    },
+    {
+      "path": "source/lake-manifest.json",
+      "bytes": 3159,
+      "sha256": "dc8f4ad3ee254ef3ec1a3f7c137c87e5bb22c25d951d477c6e80f2da81e17787"
+    },
+    {
+      "path": "source/lakefile.lean",
+      "bytes": 338,
+      "sha256": "01e6f097b3a5771d27dcc6672f2bc9944fdae12fe4cc068370ea4e02960021b4"
+    },
+    {
+      "path": "source/lean-toolchain",
+      "bytes": 25,
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+    },
+    {
+      "path": "target.json",
+      "bytes": 1275,
+      "sha256": "7c1b4830eb5f9c8ad5073815172513f331bbd7f22b29fa632771e5a95c22d1e3"
+    },
+    {
+      "path": "verification-logs/0.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verification-logs/1.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verification-logs/2.log",
+      "bytes": 1673,
+      "sha256": "c4469ae4659b7845b116a5b91a55c6b28d9f1c4270206a8f5e83b8bbd5a58ec8"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2291,
+      "sha256": "d05180d66914ba58ceff88dbc4a270e37654e59ba9ab37f15658c8c77a4ac711"
+    }
+  ],
+  "artifact_path_base": "record_directory",
+  "canonical_record": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "commit": "6ac627d25026b56bb715c317a01f3ab9792e71d6",
+    "path": "contributions/queelius/publications/competing-supply-chain-equilibrium/record.json",
+    "sha256": "1760f199e4111a4cfc39e5a4038e94cc2be5e928929a46a7cef337f14c85ff67",
+    "note": "Primary research lifecycle and canonical record remain in the owning private project. This public record mirrors only the authorized contribution."
+  }
+}

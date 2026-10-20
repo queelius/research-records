@@ -38,6 +38,12 @@ publication metadata or handoff.
 
 ## Records
 
+- [Pure information-sharing equilibria in competing supply chains](records/competing-supply-chain-equilibrium/README.md).
+  Complete accepted Lean formalization of the three open pure-equilibrium regimes,
+  ordered thresholds and strict middle-regime payoff comparison. Exact source and
+  pinned reproduction evidence are public. Established Ha–Tian–Tong mathematics;
+  threshold comparative statics remain open. No archival DOI yet.
+
 - [Sharp integer full-slack inequality and conditional coordinate bound](records/sidorenko-integer-full-slack/README.md).
   Written proof of the sharp integer constant 1, exact checks, and a conditional
   M ≤ 49 consequence. Upstream review remains pending; the complete dimension
