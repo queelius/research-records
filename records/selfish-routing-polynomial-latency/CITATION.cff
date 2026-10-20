@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite this metadata record at an exact Git commit and the linked accepted platform targets; no DOI is assigned."
+title: "A Lean formalization of polynomial-latency selfish routing and its potential characterization"
+type: dataset
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+date-released: 2026-10-20
+url: "https://github.com/queelius/research-records/tree/main/records/selfish-routing-polynomial-latency"
+license: Apache-2.0
+abstract: "Curated metadata and verification summary for six accepted Lean proofs of established routing theorems. The public record contains no third-party proof code and is not a self-contained reproduction packet. Substantial OpenAI Codex assistance is disclosed."

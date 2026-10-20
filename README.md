@@ -38,6 +38,13 @@ publication metadata or handoff.
 
 ## Records
 
+- [Polynomial-latency selfish routing](records/selfish-routing-polynomial-latency/README.md).
+  Six accepted Lean proofs complete the potential-characterization and polynomial
+  cost-bound mission. Roughgarden–Tardos mathematics; mrfancypants' accepted
+  existence proof and naimengye's shared definition retain specific credit.
+  Metadata and canonical platform links are public. No DOI or self-contained
+  public source packet yet; a legacy dependency's redistribution terms need confirmation.
+
 - [Bayesian bandit value interpolation](records/bandit-information-relaxation-interpolation/README.md).
   Complete accepted Lean formalization, including finite-history Bayes updating,
   conditioning on other arms, all step inequalities and endpoint identities.

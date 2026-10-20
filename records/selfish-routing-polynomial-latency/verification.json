@@ -1,0 +1,129 @@
+{
+  "checked_at": "2026-10-20T17:12:04.291816+00:00",
+  "lean": "4.33.1",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "autoImplicit": false,
+  "exact_target_audits": true,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "new_routing_proofs": [
+    {
+      "theorem_id": "205a8053-07eb-4121-812a-bcb70d775e52",
+      "proof_sha256": "85fd42e5e1cc08afbfa483fb866b7d38dbf17e1fe323b3a87a564aa51c3e01d4",
+      "audit_sha256": "620c5cc9e02aa179d5cd044b1090c09e381c204dd13b3c2bf35332e2f68f3ecc",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem_id": "7744f6c1-dbc1-48c4-a66a-beb1b8c3f94f",
+      "proof_sha256": "b04c209d47f908d0b06c2301678c754b422cb36e1890263265b129e265aa9b3c",
+      "audit_sha256": "a88d47d81eabd0e7782590d535a7a672ee21ba603a7a169445b2fe0b316c891f",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem_id": "be48850d-f6dc-459d-93fb-ab318a20474d",
+      "proof_sha256": "5498cf5f6ee66152e5e1362f6ba8e0cf4e2ed9bb7d92d51b57250937ae5f5489",
+      "audit_sha256": "2d417ff65d8ef7138908d77e6a7bf5b95ca2bdeda4f5100f100c7578c49cf142",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem_id": "546ac088-a96e-4b5f-b2f8-1501d5978179",
+      "proof_sha256": "b264f304259df5c599428df08ca69c23302291a9f42c62cf1e9ac354b6b4455a",
+      "audit_sha256": "5bbc9dccefd0e319b0fb4540cc0cc71c9587e5a41be2086cf05716444bbf8217",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "earlier_routing_proofs": [
+    {
+      "theorem_id": "e39e9ad1-d46a-44e1-a6c2-ed1f9f0e2d0f",
+      "proof_sha256": "2646fdb9bc3f8c97db1683d7eda21a3bfb6277127ac062293bb0f1a427cb5b57",
+      "reproduction_report": "contributions/queelius/evidence/reproduction-round12-2026-10-20.json"
+    },
+    {
+      "theorem_id": "edd26151-10ca-4f56-ada1-b3b934dcfd40",
+      "proof_sha256": "a4ac0dec856294814403a96a3130adb0b2222c52b0060f78805bf7a2350b41c3",
+      "reproduction_report": "contributions/queelius/evidence/reproduction-round13-2026-10-20.json"
+    }
+  ],
+  "all_accepted_downloads_match": true,
+  "download_recheck": "2026-10-20T17:05:46.313825+00:00",
+  "mission": {
+    "mission_id": "51e26707-e3ee-4a70-b216-3b4ab80bf1d3",
+    "checked_at": "2026-10-20T17:00:52.000138+00:00",
+    "root": {
+      "theorem_id": "546ac088-a96e-4b5f-b2f8-1501d5978179",
+      "status": "Proved"
+    },
+    "milestones": [
+      {
+        "theorem_id": "be48850d-f6dc-459d-93fb-ab318a20474d",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "205a8053-07eb-4121-812a-bcb70d775e52",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "edd26151-10ca-4f56-ada1-b3b934dcfd40",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "e39e9ad1-d46a-44e1-a6c2-ed1f9f0e2d0f",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "7744f6c1-dbc1-48c4-a66a-beb1b8c3f94f",
+        "status": "Proved"
+      }
+    ],
+    "claim": "Root and all five milestones directly observed Proved. No automatic downstream cascade inferred."
+  },
+  "tooling_tests": {
+    "passed": 127,
+    "duration_seconds": 59.52,
+    "coverage": {
+      "covered_lines": 954,
+      "num_statements": 1012,
+      "percent_covered": 92.27129337539432,
+      "percent_covered_display": "92",
+      "missing_lines": 58,
+      "excluded_lines": 3,
+      "percent_statements_covered": 94.26877470355731,
+      "percent_statements_covered_display": "94",
+      "num_branches": 256,
+      "num_partial_branches": 40,
+      "covered_branches": 216,
+      "missing_branches": 40,
+      "percent_branches_covered": 84.375,
+      "percent_branches_covered_display": "84"
+    },
+    "regression": "Distinct audits with the same filename preserve their separate immutable paths.",
+    "red_control_observed": true
+  },
+  "source_reproduction_scope": "Six routing targets reproduced across rotations 12, 13 and 14; four new targets freshly compiled in rotation14. Two other local support packets also reproduced.",
+  "public_packet_reproduction": null,
+  "human_peer_review": false,
+  "note": "This public summary reports owner-side checks. The central record does not distribute a self-contained source packet."
+}

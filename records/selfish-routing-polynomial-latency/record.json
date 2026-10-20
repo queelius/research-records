@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "id": "selfish-routing-polynomial-latency",
+  "title": "A Lean formalization of polynomial-latency selfish routing and its potential characterization",
+  "contribution_type": "complete formalization of established theorems",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "record_path": "contributions/queelius/publications/selfish-routing-polynomial-latency/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/selfish-routing-polynomial-latency",
+  "claim": "For finite routes with 0/1 edge incidence, positive commodity rates and polynomial latencies of degree at most p>0 with nonnegative occurring coefficients, every finite-deviation Nash flow has cost at most (p+1) times that of every feasible flow.",
+  "supporting_scope": [
+    "Nash/Wardrop equivalence for continuous nondecreasing latencies on the nonnegative half-line.",
+    "Existence of Nash flows when every commodity has an available route, reusing mrfancypants' accepted Wardrop-existence proof.",
+    "Equality of Nash-flow costs and equivalence with global Beckmann-potential minimization.",
+    "Corollary 2.7: the integral-ratio hypothesis implies the corresponding multiplicative cost inequality."
+  ],
+  "formal_targets": [
+    {
+      "theorem_id": "e39e9ad1-d46a-44e1-a6c2-ed1f9f0e2d0f",
+      "theorem_name": "SelfishRouting.Potential.lemma_2_6_cost_eq",
+      "target_url": "https://prove2.me/theorems/e39e9ad1-d46a-44e1-a6c2-ed1f9f0e2d0f",
+      "contribution_scope": "Full equality of total cost for any two actual Nash flows, via Wardrop variational inequalities and edgewise monotonicity. Equality of edge latencies is also checked; existence or uniqueness of flow vectors is not asserted.",
+      "primary_submission_id": "4e69d685-359c-4799-a30c-14521989b93d",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T15:07:49.454784+00:00",
+      "status_checked_at": "2026-10-20T15:08:05.175336+00:00",
+      "proof_sha256": "2646fdb9bc3f8c97db1683d7eda21a3bfb6277127ac062293bb0f1a427cb5b57"
+    },
+    {
+      "theorem_id": "edd26151-10ca-4f56-ada1-b3b934dcfd40",
+      "theorem_name": "SelfishRouting.Potential.lemma_2_6_existence",
+      "target_url": "https://prove2.me/theorems/edd26151-10ca-4f56-ada1-b3b934dcfd40",
+      "contribution_scope": "Complete existence of an actual finite-deviation Nash flow under half-line continuous nondecreasing latencies, 0/1 incidence and served commodities. Reuses mrfancypants accepted Wardrop existence proof; adds extension and Nash-condition bridges. No uniqueness claim.",
+      "primary_submission_id": "f4da189b-a77a-420a-97e3-7a35ebcfc0d2",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T15:57:03.103244+00:00",
+      "status_checked_at": "2026-10-20T15:57:24.770287+00:00",
+      "proof_sha256": "a4ac0dec856294814403a96a3130adb0b2222c52b0060f78805bf7a2350b41c3"
+    },
+    {
+      "theorem_id": "205a8053-07eb-4121-812a-bcb70d775e52",
+      "theorem_name": "SelfishRouting.Potential.nash_iff_nlp2_optimal",
+      "target_url": "https://prove2.me/theorems/205a8053-07eb-4121-812a-bcb70d775e52",
+      "contribution_scope": "Complete equivalence between the actual finite-deviation Nash flow and global Beckmann-potential minimization, with continuous nondecreasing latencies only on the nonnegative half-line. Includes the exact clipped-latency objective bridge and complete accepted predecessor proof bodies.",
+      "primary_submission_id": "6b9cce04-2943-4f90-938a-d820bf4a1874",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T16:43:09.582575+00:00",
+      "status_checked_at": "2026-10-20T16:46:41.364238+00:00",
+      "proof_sha256": "85fd42e5e1cc08afbfa483fb866b7d38dbf17e1fe323b3a87a564aa51c3e01d4"
+    },
+    {
+      "theorem_id": "7744f6c1-dbc1-48c4-a66a-beb1b8c3f94f",
+      "theorem_name": "SelfishRouting.Potential.corollary_2_7",
+      "target_url": "https://prove2.me/theorems/7744f6c1-dbc1-48c4-a66a-beb1b8c3f94f",
+      "contribution_scope": "Complete Corollary 2.7: the Nash cost bound against every feasible flow, under the exact positive-flow integral hypothesis. Handles zero edge flows and avoids division by cost.",
+      "primary_submission_id": "b41ceaa6-e766-4c81-9dd4-c8f30365311c",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T16:51:01.33572+00:00",
+      "status_checked_at": "2026-10-20T16:51:25.429186+00:00",
+      "proof_sha256": "b04c209d47f908d0b06c2301678c754b422cb36e1890263265b129e265aa9b3c"
+    },
+    {
+      "theorem_id": "be48850d-f6dc-459d-93fb-ab318a20474d",
+      "theorem_name": "SelfishRouting.Potential.lemma_2_2",
+      "target_url": "https://prove2.me/theorems/be48850d-f6dc-459d-93fb-ab318a20474d",
+      "contribution_scope": "Complete Nash/Wardrop equivalence, assembling the two already checked directions from our accepted predecessor proofs. Closes the separately open platform obligation; no new mathematics claimed.",
+      "primary_submission_id": "1cfafe32-1ea0-42de-ab2f-778030321739",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T16:52:20.694039+00:00",
+      "status_checked_at": "2026-10-20T16:54:33.235103+00:00",
+      "proof_sha256": "5498cf5f6ee66152e5e1362f6ba8e0cf4e2ed9bb7d92d51b57250937ae5f5489"
+    },
+    {
+      "theorem_id": "546ac088-a96e-4b5f-b2f8-1501d5978179",
+      "theorem_name": "SelfishRouting.Potential.corollary_2_8",
+      "target_url": "https://prove2.me/theorems/546ac088-a96e-4b5f-b2f8-1501d5978179",
+      "contribution_scope": "Complete degree-p polynomial latency bound: Nash-flow cost is at most p+1 times every feasible flow cost. All polynomial conditions and the integral estimate are proved from the exact finite-sum definition.",
+      "primary_submission_id": "82e549b1-b668-4626-a548-da64d9f7a08b",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T16:55:33.07049+00:00",
+      "status_checked_at": "2026-10-20T16:56:26.435697+00:00",
+      "proof_sha256": "b264f304259df5c599428df08ca69c23302291a9f42c62cf1e9ac354b6b4455a"
+    }
+  ],
+  "mathematical_source": {
+    "authors": [
+      "Tim Roughgarden",
+      "Éva Tardos"
+    ],
+    "title": "How Bad is Selfish Routing?",
+    "version": "Author manuscript, 5 December 2001",
+    "url": "https://theory.stanford.edu/~tim/papers/routing.pdf",
+    "pages": "7, 9–11; Lemmas 2.2 and 2.6, Corollaries 2.7 and 2.8",
+    "sha256": "886704f95ab8d800d0c8c29094a207afdbbc42cda34dda6f71c4d913400f24a5",
+    "redistributed": false
+  },
+  "predecessor_credit": [
+    {
+      "authors": [
+        "Martin Beckmann",
+        "C. B. McGuire",
+        "C. B. Winsten",
+        "S. C. Dafermos",
+        "F. T. Sparrow",
+        "J. G. Wardrop"
+      ],
+      "contribution": "Classical routing equilibrium and potential antecedents acknowledged by the source paper."
+    },
+    {
+      "authors": [
+        "Frank Kelly",
+        "Elena Yudovina"
+      ],
+      "contribution": "Stochastic Networks (2014), reused Wardrop model and existence formulation."
+    },
+    {
+      "username": "mrfancypants",
+      "target_id": "95c2a92e-c9c5-4867-bedd-b9ec39b7654a",
+      "submission_id": "1676a8d5-d7df-491e-83f2-b5b446447b22",
+      "source_sha256": "6d98e854de0686ca2bb85333f46012e068191a88a2f98fe6514d6f58a89ee4c3",
+      "contribution": "Complete accepted Wardrop-existence/minimizer proof bodies retained, with the top-level theorem renamed."
+    },
+    {
+      "username": "naimengye",
+      "definition_id": "6fcc82cc-055d-4601-b63b-4ea40291e6ac",
+      "contribution": "Shared KellyStochasticNetworks_Wardrop definition."
+    },
+    {
+      "username": "mikedeng1",
+      "contribution": "Platform formulations and existing served-route/Nash guards."
+    },
+    {
+      "name": "Shuze Chen",
+      "contribution": "Platform statement review, not a claim of reviewing our proofs."
+    },
+    {
+      "name": "Benjamin Davidson and other Lean/Mathlib contributors",
+      "contribution": "Integral formulas, finite sums, order, algebra and verification infrastructure."
+    }
+  ],
+  "human_role": "Alexander Richard Towell directed the research and verification standards.",
+  "ai_assistance": "OpenAI Codex substantially developed the additional Lean formalization, checked and submitted proofs, and prepared these records.",
+  "public_disclosures": [
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-20T15:06:45.858929+00:00",
+      "url": "https://prove2.me/theorems/e39e9ad1-d46a-44e1-a6c2-ed1f9f0e2d0f",
+      "submission_id": "4e69d685-359c-4799-a30c-14521989b93d",
+      "scope": "Proof submitted to a public platform target; acceptance recorded separately."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-20T15:55:44.028184+00:00",
+      "url": "https://prove2.me/theorems/edd26151-10ca-4f56-ada1-b3b934dcfd40",
+      "submission_id": "f4da189b-a77a-420a-97e3-7a35ebcfc0d2",
+      "scope": "Proof submitted to a public platform target; acceptance recorded separately."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-20T16:41:47.593484+00:00",
+      "url": "https://prove2.me/theorems/205a8053-07eb-4121-812a-bcb70d775e52",
+      "submission_id": "6b9cce04-2943-4f90-938a-d820bf4a1874",
+      "scope": "Proof submitted to a public platform target; acceptance recorded separately."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-20T16:47:31.258413+00:00",
+      "url": "https://prove2.me/theorems/7744f6c1-dbc1-48c4-a66a-beb1b8c3f94f",
+      "submission_id": "b41ceaa6-e766-4c81-9dd4-c8f30365311c",
+      "scope": "Proof submitted to a public platform target; acceptance recorded separately."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-20T16:49:47.134609+00:00",
+      "url": "https://prove2.me/theorems/be48850d-f6dc-459d-93fb-ab318a20474d",
+      "submission_id": "1cfafe32-1ea0-42de-ab2f-778030321739",
+      "scope": "Proof submitted to a public platform target; acceptance recorded separately."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-20T16:53:55.633022+00:00",
+      "url": "https://prove2.me/theorems/546ac088-a96e-4b5f-b2f8-1501d5978179",
+      "submission_id": "82e549b1-b668-4626-a548-da64d9f7a08b",
+      "scope": "Proof submitted to a public platform target; acceptance recorded separately."
+    }
+  ],
+  "verification": {
+    "receipt": "verification.json",
+    "exact_type_audit": true,
+    "fresh_reproduction": "PASS",
+    "accepted_downloads_match": true,
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false
+  },
+  "publication": {
+    "state": "metadata_only",
+    "version": "1.0.0",
+    "version_doi": null,
+    "concept_doi": null,
+    "archival_status": "not_archived",
+    "source_access": "Accepted proofs are linked through their public Prove2Me targets; API downloads require authentication.",
+    "readiness": "Central metadata and original note ready; a self-contained archival packet awaits confirmation of a legacy dependency's redistribution terms."
+  },
+  "license": {
+    "record_and_original_note": "Apache-2.0",
+    "third_party_code_redistributed": false,
+    "unconfirmed_dependency": {
+      "definition_id": "6fcc82cc-055d-4601-b63b-4ea40291e6ac",
+      "author": "naimengye",
+      "created_at": "2026-09-18T15:56:52.126268+00:00",
+      "terms_url": "https://prove2.me/terms",
+      "terms_effective_at": "2026-09-24T15:55:00+00:00",
+      "checked_at": "2026-10-20T17:12:04.291816+00:00",
+      "assessment": "The definition predates the expanded public grant. No confirmation of its author's retroactive grant was found in the inspected definition/profile responses. Its licensing status is unconfirmed, not asserted to be unlicensed."
+    }
+  },
+  "limitations": [
+    "Formalization of established mathematics; no mathematical novelty, independent human review or source-author endorsement claimed.",
+    "The p+1 bound is the source's general polynomial bound, not a sharp price-of-anarchy result.",
+    "No route-flow or edge-flow uniqueness claim. The comparison is an inequality, allowing zero comparison cost.",
+    "The degree is an upper bound; coefficients beyond p do not occur and leading coefficients may vanish.",
+    "The Nash/Wardrop target assembles two previously checked bridge directions; its closure is not new mathematics.",
+    "The central entry contains metadata and an original explanatory note, not a self-contained proof archive."
+  ],
+  "artifact_path_base": "record_directory",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "bytes": 4194,
+      "sha256": "7669bb4dbb51791e9fa0bd9e218cf11f8168a5235927e07cbbcb3f32fbeca225"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 812,
+      "sha256": "8b7b717f87a7f2384bcb726a8e1fcfd73b37e92cc631b084762aed1c74171013"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 4493,
+      "sha256": "f82e98a9d4e6ab194d65a07447cc86839f6455728be818117ab7c00dba5e9cef"
+    }
+  ],
+  "canonical_record": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "commit": "616b45a9b0129abe76632835c6db5750779b5f61",
+    "path": "contributions/queelius/publications/selfish-routing-polynomial-latency/record.json",
+    "sha256": "a2ecd445be35f25b422cb621e6a9cd34a0c5040ace4ea9e18134cd8392583348",
+    "note": "Owning project retains authoritative lifecycle tracking. This central record curates selected metadata and canonical platform links; no source repository visibility change."
+  }
+}

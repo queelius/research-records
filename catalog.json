@@ -57,6 +57,11 @@
       "id": "bandit-information-relaxation-interpolation",
       "metadata": "records/bandit-information-relaxation-interpolation/record.json",
       "readme": "records/bandit-information-relaxation-interpolation/README.md"
+    },
+    {
+      "id": "selfish-routing-polynomial-latency",
+      "metadata": "records/selfish-routing-polynomial-latency/record.json",
+      "readme": "records/selfish-routing-polynomial-latency/README.md"
     }
   ]
 }
