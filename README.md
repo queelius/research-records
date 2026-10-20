@@ -24,6 +24,17 @@ to exact versions.
   cylinder covers. Archived version:
   [10.5281/zenodo.23495382](https://doi.org/10.5281/zenodo.23495382).
 
+- [HARV2020 bird survey structure and source identifiability](records/harv2020-survey-structure-audit/README.md).
+  Reproducible recording audit and synthetic information-loss controls; original
+  source cardinality/completion remain unvalidated. Archived version:
+  [10.5281/zenodo.23496031](https://doi.org/10.5281/zenodo.23496031).
+
+- [Smooth strongly convex interpolation: Lean formalization](records/smooth-strong-convex-interpolation/README.md).
+  Complete accepted formalization in the real-valued class, with exact-type and
+  axiom checks, pinned reproduction and rejecting controls. Established mathematics
+  by Taylor, Hendrickx and Glineur; no mathematical novelty or human peer review claimed.
+  Archived version: [10.5281/zenodo.23496220](https://doi.org/10.5281/zenodo.23496220).
+
 The [machine-readable catalog](catalog.json) locates each structured record.
 The record's metadata and publication receipt distinguish proof evidence,
 review, acceptance, public disclosure, and DOI deposition.

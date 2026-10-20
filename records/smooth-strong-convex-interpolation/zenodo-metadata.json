@@ -1,0 +1,46 @@
+{
+  "title": "A Lean formalization of smooth strongly convex interpolation in the real-valued setting",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-20",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>This technical note and reproducible Lean packet formalize the necessary and sufficient finite-data interpolation criterion of Adrien B. Taylor, Julien M. Hendrickx and François Glineur in Prove2Me's real-valued function class. The complete equivalence covers every finite Euclidean dimension and finite index type, including dimension zero and empty data, and every admissible curvature parameter and finite or infinite smoothness parameter. Sufficiency constructs actual conjugate optimizers using coercivity. Necessity proves subgradient existence, differentiability and the sharp quadratic upper estimate before deriving the interpolation inequality.</p><p>The contribution is a formalization of established mathematics, not a new interpolation theorem. The archive preserves exact accepted source bytes, two platform definition modules, a complete-type and axiom audit, pinned Lean 4.33.1 and transitive Mathlib dependencies, acceptance and byte-comparison evidence, fresh staged-packet reproduction and rejecting integrity/axiom controls. Only propext, Classical.choice and Quot.sound are used. Pinned third-party binary caches remain trusted inputs; this is not bootstrap verification. Separate later curvature, conjugacy and semidefinite-programming platform milestones are not claimed as completed.</p><p>Original mathematics: Taylor, Hendrickx and Glineur, arXiv:1502.05666v6, Theorem 4. Platform formulations: mikedeng1, with prior statement review by Shuze Chen; the shared subgradient interface cites N. Z. Shor. Lean and Mathlib contributors and an earlier accepted ordinary convex-interpolation component are credited. Alexander Richard Towell directed the work. Substantial OpenAI Codex assistance in formalization, verification, submission and packaging is disclosed. Platform acceptance and automated proof checking are not independent human peer review, endorsement by source authors, or an exhaustive novelty assessment.</p><p>The proof was submitted and accepted publicly on Prove2Me on 20 October 2026. This archival edition is separately dated 20 October 2026. The owning development repository remains private; the public platform target and this focused packet supply accessible evidence. No legal priority claim is made.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "convex interpolation",
+    "smooth strongly convex functions",
+    "convex optimization",
+    "reproducible proof",
+    "AI-assisted formalization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://arxiv.org/abs/1502.05666v6",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/349ba217-a36d-4172-8f08-99e9d91bbbe9",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/smooth-strong-convex-interpolation",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "The source authors, platform contributors and library authors are credited as predecessors, not represented as coauthors of this archival note. Exact accepted submission: 5d91b169-c425-4407-8bda-54f640cb2245. Accepted proof SHA-256: 67869c1e9ad93e1ea9952841f2818369fd8bd9a8c0bde4d73400475730cdc665."
+}

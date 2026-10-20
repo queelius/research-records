@@ -1,0 +1,55 @@
+{
+  "state": "published",
+  "id": 23496031,
+  "version_doi": "10.5281/zenodo.23496031",
+  "concept_doi": "10.5281/zenodo.23496030",
+  "version": "1.0.0",
+  "archive_publication_date": "2026-10-20",
+  "publication_observed_utc": "2026-10-20T10:01:44.741635+00:00",
+  "record_url": "https://zenodo.org/record/23496031",
+  "first_public_disclosure": {
+    "date": "2026-10-20",
+    "url": "https://zenodo.org/record/23496031",
+    "basis": "This contribution first made public by this successful Zenodo publication; no earlier local/predecessor date substituted."
+  },
+  "public_downloads_verified": true,
+  "public_record_response_sha256": "c201458706ddd8fec62b9e30a241fb54edebd0b58a7d34fef878eedc68b2e88c",
+  "files": [
+    {
+      "filename": "survey-structure-audit-v1.0.0.tar.gz",
+      "bytes": 38921,
+      "sha256": "3fc34cb13e4da35fc0df2d3cc854732fd8611298b13dd4231a19ddfbf2aa49cc",
+      "public_url": "https://zenodo.org/api/records/23496031/files/survey-structure-audit-v1.0.0.tar.gz/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1063,
+      "sha256": "085b8cc97f1df80b90515f7cd772fb7eec628337f17d34b22f74c5a8c65ac58e",
+      "public_url": "https://zenodo.org/api/records/23496031/files/CITATION.cff/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "RELEASE.json",
+      "bytes": 1470,
+      "sha256": "6816a93ccf3c5ff51f45ef71b86c373fce0654cb92137a898e1131384b2208cd",
+      "public_url": "https://zenodo.org/api/records/23496031/files/RELEASE.json/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 5887,
+      "sha256": "bcf98fc587ff9fb70557eea170f16cd2731d7d232ff1b0b1acd3ee2196c6b1ce",
+      "public_url": "https://zenodo.org/api/records/23496031/files/NOTE.md/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "REVIEW.md",
+      "bytes": 2059,
+      "sha256": "ba3f307def46cfd58212f74e9134d469f97fc0407b10b24291ba4e77aa77ca7a",
+      "public_url": "https://zenodo.org/api/records/23496031/files/REVIEW.md/content",
+      "verified_without_authentication": true
+    }
+  ],
+  "public_verified_utc": "2026-10-20T10:01:52.006932+00:00"
+}

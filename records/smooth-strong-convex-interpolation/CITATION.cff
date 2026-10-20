@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite this exact archived formalization; cite Taylor, Hendrickx and Glineur for the mathematical interpolation theorem."
+title: "A Lean formalization of smooth strongly convex interpolation in the real-valued setting"
+type: software
+version: 1.0.0
+doi: "10.5281/zenodo.23496220"
+date-released: 2026-10-20
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+    affiliation: Southern Illinois University Edwardsville
+url: "https://prove2.me/theorems/349ba217-a36d-4172-8f08-99e9d91bbbe9"
+license: Apache-2.0
+abstract: "Complete Lean formalization of the necessary and sufficient finite-data interpolation criterion in the platform real-valued class, with exact accepted source, pinned dependencies and reproducible type/axiom checks. Established mathematics by Taylor, Hendrickx and Glineur; substantial OpenAI Codex assistance disclosed."

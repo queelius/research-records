@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-20T10:09:38.178248+00:00",
+  "scope": "Authenticated user deposition catalog, all versions, every page through final short page; central research-records catalog inspected separately.",
+  "page_size": 100,
+  "pages": [
+    {
+      "page": 1,
+      "count": 100
+    },
+    {
+      "page": 2,
+      "count": 100
+    },
+    {
+      "page": 3,
+      "count": 39
+    }
+  ],
+  "unique_depositions_checked": 239,
+  "matches": [],
+  "complete": true
+}
