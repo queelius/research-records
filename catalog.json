@@ -7,6 +7,11 @@
       "id": "tetrahedron-fixed-axis-barrier",
       "metadata": "records/tetrahedron-fixed-axis-barrier/record.json",
       "readme": "records/tetrahedron-fixed-axis-barrier/README.md"
+    },
+    {
+      "id": "computational-explorations-coprime-paths",
+      "metadata": "records/computational-explorations-coprime-paths/record.json",
+      "readme": "records/computational-explorations-coprime-paths/README.md"
     }
   ]
 }
