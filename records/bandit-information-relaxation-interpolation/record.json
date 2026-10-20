@@ -58,6 +58,12 @@
       "timestamp": "2026-10-20T14:14:09.238229+00:00",
       "url": "https://prove2.me/theorems/1c79735c-84f1-4ab3-bf0e-68e36c0512fb",
       "scope": "Exact proof at a public platform target; API source download requires authentication."
+    },
+    {
+      "kind": "curated_source_release",
+      "timestamp": "2026-10-20T14:28:39.538537+00:00",
+      "timestamp_scope": "First independently verified public availability of this exact Git commit; separate from the earlier platform submission.",
+      "url": "https://github.com/queelius/research-records/tree/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation"
     }
   ],
   "acceptance": {
@@ -92,7 +98,10 @@
     "concept_doi": null,
     "archival_status": "not_archived",
     "note": "Central source disclosure and DOI archival are separate events. No existing interpolation DOI covers this result.",
-    "source_release_url": "https://github.com/queelius/research-records/tree/main/records/bandit-information-relaxation-interpolation"
+    "source_release_url": "https://github.com/queelius/research-records/tree/main/records/bandit-information-relaxation-interpolation",
+    "source_release_commit": "bfebb0f43b976b4103071a5c7d7dafc8421ac999",
+    "source_release_verified_at": "2026-10-20T14:28:39.538537+00:00",
+    "source_release_receipt": "index-publication.json"
   },
   "license": "Apache-2.0",
   "limitations": [
@@ -188,9 +197,9 @@
   "canonical_record": {
     "repository": "https://github.com/queelius/prove2me-contributions",
     "visibility": "private",
-    "commit": "65d5239a0562b3d5ffe2c8c2535b648ca192b7ea",
+    "commit": "e3e6b76dfc986175a98c0c8ec579e95c46a4390d",
     "path": "contributions/queelius/publications/bandit-information-relaxation-interpolation/record.json",
-    "sha256": "4e88024803a356ddda356335b9e2fbe003dab516b8156a61452c16f7f9c5783c",
-    "note": "The owning private project keeps the primary lifecycle. This record mirrors only the authorized, complete contribution and its reproducible source packet."
+    "sha256": "2778ed2b8cfb42eac2a15e215d7b7cde08e34ab0bffa6a0f57c87dea6ceb3b17",
+    "note": "The owning project retains the primary lifecycle and publication event; this public record links the immutable source release and mirrors only the authorized contribution."
   }
 }

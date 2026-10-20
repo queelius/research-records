@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "record_id": "bandit-information-relaxation-interpolation",
+  "state": "public-source-verified",
+  "checked_at": "2026-10-20T14:28:39.538537+00:00",
+  "central_repository": "https://github.com/queelius/research-records",
+  "central_commit": "bfebb0f43b976b4103071a5c7d7dafc8421ac999",
+  "immutable_record_url": "https://github.com/queelius/research-records/tree/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation",
+  "canonical_owner_commit": "65d5239a0562b3d5ffe2c8c2535b648ca192b7ea",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/CITATION.cff",
+      "http_status": 200,
+      "bytes": 751,
+      "sha256": "7e3c61ef1fb6616cc230ad24efc157f1a92c8c428b749b35abf2f6e4d982efef",
+      "matches_local": true
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/LICENSE",
+      "http_status": 200,
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "matches_local": true
+    },
+    {
+      "path": "NOTICE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/NOTICE.md",
+      "http_status": 200,
+      "bytes": 1722,
+      "sha256": "6a957ca46ed50679e7b13c2437cff5885c257c3f8813ed74b7ae72aadc6caea7",
+      "matches_local": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/README.md",
+      "http_status": 200,
+      "bytes": 2961,
+      "sha256": "05a494ad9d3a738d97bfc95ad79413122581d565c4396a29186a9999fb1c0157",
+      "matches_local": true
+    },
+    {
+      "path": "controls/FalseConclusion.lean",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/controls/FalseConclusion.lean",
+      "http_status": 200,
+      "bytes": 61948,
+      "sha256": "2815df42a1a17010e9d0fb9933e82f0e569885af1e4dec539e83dd5d7fa32e9f",
+      "matches_local": true
+    },
+    {
+      "path": "source/Audit.lean",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/source/Audit.lean",
+      "http_status": 200,
+      "bytes": 63659,
+      "sha256": "eeaeb3fb2858ad6d17e2a844671f6a51f4dcf10a7bf1ece0b435c335fb644221",
+      "matches_local": true
+    },
+    {
+      "path": "source/Definitions/Def_InfoRelaxTS_Monotone_Setting.lean",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/source/Definitions/Def_InfoRelaxTS_Monotone_Setting.lean",
+      "http_status": 200,
+      "bytes": 9324,
+      "sha256": "a18f2f92d9625814c61dbd21ab64591a35642dab67ecfd0ca8597faf0d4f3743",
+      "matches_local": true
+    },
+    {
+      "path": "source/Solution.lean",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/source/Solution.lean",
+      "http_status": 200,
+      "bytes": 61524,
+      "sha256": "2c2c6a51d87352cc7573557c99f6f4b68ac74167c3985292e3dcad8fe1f17ef3",
+      "matches_local": true
+    },
+    {
+      "path": "source/lake-manifest.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/source/lake-manifest.json",
+      "http_status": 200,
+      "bytes": 3159,
+      "sha256": "dc8f4ad3ee254ef3ec1a3f7c137c87e5bb22c25d951d477c6e80f2da81e17787",
+      "matches_local": true
+    },
+    {
+      "path": "source/lakefile.lean",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/source/lakefile.lean",
+      "http_status": 200,
+      "bytes": 338,
+      "sha256": "01e6f097b3a5771d27dcc6672f2bc9944fdae12fe4cc068370ea4e02960021b4",
+      "matches_local": true
+    },
+    {
+      "path": "source/lean-toolchain",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/source/lean-toolchain",
+      "http_status": 200,
+      "bytes": 25,
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "matches_local": true
+    },
+    {
+      "path": "target.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/target.json",
+      "http_status": 200,
+      "bytes": 1678,
+      "sha256": "630c8c36b9207f31f2aac304ba526cb38f5c342694e8b0e2423204793b890138",
+      "matches_local": true
+    },
+    {
+      "path": "verification-logs/audit.log",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/verification-logs/audit.log",
+      "http_status": 200,
+      "bytes": 8090,
+      "sha256": "f505cd4f9f13aa427e11f499f1d6da903bc6ede51519a7b1bde65f65f8e8b4c6",
+      "matches_local": true
+    },
+    {
+      "path": "verification-logs/definition.log",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/verification-logs/definition.log",
+      "http_status": 200,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_local": true
+    },
+    {
+      "path": "verification-logs/false-conclusion.log",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/verification-logs/false-conclusion.log",
+      "http_status": 200,
+      "bytes": 8680,
+      "sha256": "bf4161b11011d4686781187f8128a6fa8d77f0f8ac12d64daff563d5f7dea01b",
+      "matches_local": true
+    },
+    {
+      "path": "verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/verification.json",
+      "http_status": 200,
+      "bytes": 2325,
+      "sha256": "d9de8e25aa355b82a3c88fba8550e36954b08275bb4cc84e3ae708214af10d8b",
+      "matches_local": true
+    },
+    {
+      "path": "record.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation/record.json",
+      "http_status": 200,
+      "bytes": 9134,
+      "sha256": "681f25b8ddd6e7fc9d213b0613e476dda2ad56e7e503091dff1917d1d1868a67",
+      "matches_local": true
+    }
+  ],
+  "unauthenticated_downloads_match": true,
+  "version_doi": null,
+  "concept_doi": null,
+  "note": "Selected source packet publicly disclosed. This event is separate from earlier Prove2Me acceptance and any future DOI deposit."
+}
