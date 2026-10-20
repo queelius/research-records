@@ -37,6 +37,11 @@
       "id": "competing-supply-chain-equilibrium",
       "metadata": "records/competing-supply-chain-equilibrium/record.json",
       "readme": "records/competing-supply-chain-equilibrium/README.md"
+    },
+    {
+      "id": "gbfplus-public-occupancy-disclosure",
+      "metadata": "records/gbfplus-public-occupancy-disclosure/record.json",
+      "readme": "records/gbfplus-public-occupancy-disclosure/README.md"
     }
   ]
 }
