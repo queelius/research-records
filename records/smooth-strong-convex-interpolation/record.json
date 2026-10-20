@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "smooth-strong-convex-interpolation",
+  "title": "A Lean formalization of smooth strongly convex interpolation in the real-valued setting",
+  "contribution_type": "complete Lean formalization of an established interpolation theorem",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "claim": "Necessary and sufficient finite-data smooth strongly convex interpolation in the platform's real-valued function class.",
+  "mathematical_scope": {
+    "dimension": "Every natural dimension, including zero.",
+    "data": "Every finite index type, including empty data.",
+    "parameters": "0 <= mu < L <= infinity; exact platform NNReal/ENNReal conventions.",
+    "formal_proof": true,
+    "human_peer_review_claimed": false,
+    "mathematical_novelty_claimed": false,
+    "exact_statement_in_archive": "interpolation-packet/contributions/queelius/evidence/349ba217-a36d-4172-8f08-99e9d91bbbe9.json"
+  },
+  "sources": {
+    "canonical_public_target": "https://prove2.me/theorems/349ba217-a36d-4172-8f08-99e9d91bbbe9",
+    "mathematical_source": {
+      "authors": [
+        "Adrien B. Taylor",
+        "Julien M. Hendrickx",
+        "François Glineur"
+      ],
+      "url": "https://arxiv.org/abs/1502.05666v6",
+      "version_date": "2016-11-02",
+      "pages_inspected": "7–10",
+      "pdf_sha256": "9615396082ad2a104a9b5167b3dcd7e251a0f3a0fbb1fc8f991bf64af469ac7a",
+      "redistributed": false
+    },
+    "development_commit": "4810a49099ae8122b0b201520b3f4a9a11d865fc",
+    "development_repository_visibility": "private",
+    "accepted_proof_sha256": "67869c1e9ad93e1ea9952841f2818369fd8bd9a8c0bde4d73400475730cdc665"
+  },
+  "predecessor_credit": "Adrien B. Taylor, Julien M. Hendrickx and François Glineur: interpolation theorem and constructions, arXiv1502.05666v6 pp.7–10 inspected. N. Z. Shor: source of shared subgradient interface. mikedeng1: platform formulation/definitions; Shuze Chen: prior review. Earlier accepted queelius convex interpolation proof is included, with locally proved strong/smooth construction and new formalized necessity bridge. Alexander Richard Towell directed; OpenAI Codex developed and verified the Lean formalization using Mathlib Hahn–Banach, Riesz representation, calculus and asymptotics. No mathematical novelty or independent human review claim.",
+  "ai_assistance": "Codex developed the Lean proof, verified, submitted, and archived it. Codex also prepared this archival packet.",
+  "public_disclosure": {
+    "date": "2026-10-20",
+    "url": "https://prove2.me/theorems/349ba217-a36d-4172-8f08-99e9d91bbbe9",
+    "submitted_at": "2026-10-20T09:49:39.614262+00:00",
+    "scope": "Complete proof and explanation submitted as queelius, later accepted."
+  },
+  "upstream_acceptance": {
+    "state": "ACCEPTED",
+    "accepted_at": "2026-10-20T09:51:52.989005+00:00",
+    "submission_id": "5d91b169-c425-4407-8bda-54f640cb2245",
+    "url": "https://prove2.me/theorems/349ba217-a36d-4172-8f08-99e9d91bbbe9",
+    "meaning": "Platform proof acceptance; independently reproduced locally. No independent human review is inferred."
+  },
+  "verification": {
+    "date": "2026-10-20",
+    "lean_version": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "accepted_download_byte_identical": true,
+    "exact_target_audit": true,
+    "autoImplicit": false,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "platform_modules_rebuilt": 2,
+    "staged_packet_reproduction": "passed",
+    "negative_controls": [
+      "proof-byte mutation rejected",
+      "extra-axiom proof rejected"
+    ],
+    "owning_tooling_tests_passed": 126,
+    "owning_tooling_coverage_percent": 92.11356466876971,
+    "archive_rebuild_byte_identical": true,
+    "receipt_in_archive": "interpolation-packet/verification/receipt.json"
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "archive_publication_date": "2026-10-20",
+    "version_doi": "10.5281/zenodo.23496220",
+    "concept_doi": "10.5281/zenodo.23496219",
+    "zenodo_record": "https://zenodo.org/records/23496220",
+    "receipt": "publication.json",
+    "public_downloads_verified": true
+  },
+  "license": "Apache-2.0",
+  "limitations": [
+    "Established theorem; no new mathematical interpolation theorem or exhaustive novelty assessment claimed.",
+    "Exact platform real-valued function class; not every extended-real convention in the paper.",
+    "Pinned Lean and third-party compiled libraries are trusted; no bootstrap verification.",
+    "Separate platform curvature, conjugacy and later SDP milestones remain outside this completed target.",
+    "No independent human peer review or source-author endorsement."
+  ],
+  "artifacts": [
+    {
+      "path": "artifacts/smooth-strong-convex-interpolation-v1.0.0.zip",
+      "filename": "smooth-strong-convex-interpolation-v1.0.0.zip",
+      "bytes": 76945,
+      "sha256": "a160f9c7d72367d25756351102b4cfea7f8ee73048d4e03101d1c09f37e26be3"
+    },
+    {
+      "path": "records/smooth-strong-convex-interpolation/NOTE.md",
+      "filename": "NOTE.md",
+      "bytes": 7238,
+      "sha256": "83afd677186e500a3f90ee17fdba3ba2bb0b10e96a99684a1df588bb6d9e9b50"
+    },
+    {
+      "path": "records/smooth-strong-convex-interpolation/CITATION.cff",
+      "filename": "CITATION.cff",
+      "bytes": 935,
+      "sha256": "80b85cc4da79c91fe4269389ec131843278ea39dd4ef6ad7bf80a6b7459bb6fc"
+    }
+  ]
+}

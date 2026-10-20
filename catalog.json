@@ -12,6 +12,11 @@
       "id": "harv2020-survey-structure-audit",
       "metadata": "records/harv2020-survey-structure-audit/record.json",
       "readme": "records/harv2020-survey-structure-audit/README.md"
+    },
+    {
+      "id": "smooth-strong-convex-interpolation",
+      "metadata": "records/smooth-strong-convex-interpolation/record.json",
+      "readme": "records/smooth-strong-convex-interpolation/README.md"
     }
   ]
 }

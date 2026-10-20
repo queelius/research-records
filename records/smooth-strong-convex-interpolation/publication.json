@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-20T10:14:21.703287+00:00",
+  "state": "published",
+  "record_id": 23496220,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23496220",
+  "concept_doi": "10.5281/zenodo.23496219",
+  "record_url": "https://zenodo.org/records/23496220",
+  "publication_date": "2026-10-20",
+  "public_metadata_checked": true,
+  "public_downloads_verified": true,
+  "doi_resolution": {
+    "http_status": 200,
+    "final_url": "https://zenodo.org/records/23496220"
+  },
+  "files": [
+    {
+      "filename": "smooth-strong-convex-interpolation-v1.0.0.zip",
+      "bytes": 76945,
+      "sha256": "a160f9c7d72367d25756351102b4cfea7f8ee73048d4e03101d1c09f37e26be3",
+      "url": "https://zenodo.org/api/records/23496220/files/smooth-strong-convex-interpolation-v1.0.0.zip/content",
+      "byte_identical": true,
+      "authenticated_request": false
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 7238,
+      "sha256": "83afd677186e500a3f90ee17fdba3ba2bb0b10e96a99684a1df588bb6d9e9b50",
+      "url": "https://zenodo.org/api/records/23496220/files/NOTE.md/content",
+      "byte_identical": true,
+      "authenticated_request": false
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 935,
+      "sha256": "80b85cc4da79c91fe4269389ec131843278ea39dd4ef6ad7bf80a6b7459bb6fc",
+      "url": "https://zenodo.org/api/records/23496220/files/CITATION.cff/content",
+      "byte_identical": true,
+      "authenticated_request": false
+    }
+  ],
+  "archive_rebuild_byte_identical": true,
+  "proof_sha256": "67869c1e9ad93e1ea9952841f2818369fd8bd9a8c0bde4d73400475730cdc665",
+  "note": "Publication and unauthenticated file download checks; formal proof checks and predecessor credit are in the archived packet."
+}
