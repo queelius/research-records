@@ -17,6 +17,11 @@
       "id": "smooth-strong-convex-interpolation",
       "metadata": "records/smooth-strong-convex-interpolation/record.json",
       "readme": "records/smooth-strong-convex-interpolation/README.md"
+    },
+    {
+      "id": "computational-explorations-coprime-paths",
+      "metadata": "records/computational-explorations-coprime-paths/record.json",
+      "readme": "records/computational-explorations-coprime-paths/README.md"
     }
   ]
 }
