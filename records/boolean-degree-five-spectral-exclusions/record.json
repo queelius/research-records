@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "boolean-degree-five-spectral-exclusions",
+  "title": "Exact spectral exclusions for degree-five Boolean candidates",
+  "contribution_type": "conditional finite computational exclusions and reproducible verification source",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "predecessor_credit": "Smotrovs and Zaicevs: prior investigation of the degree-five, sensitivity-fourteen search; Stepanovs: earlier layer-statistic computations. Standard Fourier analysis and linear inequality certificates are not claimed as new techniques.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in mathematics, code, experiments, verification code and exposition; independently implemented checkers are not independent human review.",
+  "claim": "Ten explicitly specified marked-pattern cases in signed Fourier geometry 34 are excluded by independently checked exact integer contradictions.",
+  "mathematical_scope": {
+    "variables": 14,
+    "degree_at_most": 5,
+    "origin_sensitivity": 14,
+    "branch": "self-dual empty-pair",
+    "geometry_index": 34,
+    "specified_case_ids": [
+      221,
+      581,
+      178,
+      386,
+      597,
+      599,
+      601,
+      191,
+      626,
+      656
+    ],
+    "global_problem_status": "OPEN",
+    "whole_geometry_excluded": false,
+    "actual_boolean_construction": false,
+    "exhaustive_nonexistence_proof": false
+  },
+  "sources": {
+    "repository": "https://github.com/queelius/boolean-degree-sensitivity",
+    "commit": "43ddb9a8a360bf84451b81a27fb67a001b4c4e16",
+    "commit_url": "https://github.com/queelius/boolean-degree-sensitivity/commit/43ddb9a8a360bf84451b81a27fb67a001b4c4e16",
+    "report": "https://github.com/queelius/boolean-degree-sensitivity/blob/00e60302ac9900530f523b8b43f88fac523302bf/REPORT.md",
+    "case_definitions": "https://github.com/queelius/boolean-degree-sensitivity/blob/43ddb9a8a360bf84451b81a27fb67a001b4c4e16/CASES.json",
+    "documentation_commit": "00e60302ac9900530f523b8b43f88fac523302bf",
+    "verification_receipt": "https://github.com/queelius/boolean-degree-sensitivity/blob/00e60302ac9900530f523b8b43f88fac523302bf/verification/REPLAY-RECEIPT.json"
+  },
+  "public_disclosure": {
+    "date": "2026-10-20",
+    "observed_at": "2026-10-20T10:13:44.667044+00:00",
+    "url": "https://github.com/queelius/boolean-degree-sensitivity/commit/43ddb9a8a360bf84451b81a27fb67a001b4c4e16",
+    "meaning": "Source publicly readable without authentication; exact public bytes checked. No claim of earlier disclosure or legal priority."
+  },
+  "verification": {
+    "local_independent_integer_certificates": 10,
+    "source_unit_and_integration_controls": 138,
+    "citation_schema": "CFF 1.2.0 validated with cffconvert 2.0.0",
+    "public_source_bytes_verified": [
+      {
+        "path": "README.md",
+        "sha256": "81af1fead1c6942caafa4147a47e3c98e1fb24f76598979295f555cc0c43dade",
+        "public_bytes_equal_local": true
+      },
+      {
+        "path": "CITATION.cff",
+        "sha256": "5a11c0255eb7aa2adbb6e9e78b153b1882dbc5a98edfc8904a68791cf24c5fae",
+        "public_bytes_equal_local": true
+      },
+      {
+        "path": "CONTRIBUTION.json",
+        "sha256": "8c8b1eefec9f88bdb5f79d49d0f0dec768560058cbd69ef8780e787fa564b4cb",
+        "public_bytes_equal_local": true
+      },
+      {
+        "path": "CASES.json",
+        "sha256": "27b06c0833831983ba79e628e7ce2355e6e4871081adf0fea3586ef124099d75",
+        "public_bytes_equal_local": true
+      }
+    ],
+    "staged_full_archive_replay": {
+      "status": "PASSED",
+      "date": "2026-10-20",
+      "controls_passed": 138,
+      "source_file_hashes_checked": 2771,
+      "domain_deletion_replay_passed": true,
+      "input_and_exact_certificate_checks_passed": 10,
+      "network_disabled": true,
+      "original_workspace_mounted": false,
+      "upstream_historical_reductions_replayed": false
+    },
+    "upstream_historical_reductions": "included dependencies; not all rerun in the staged replay",
+    "public_source_bytes_verification_commit": "43ddb9a8a360bf84451b81a27fb67a001b4c4e16"
+  },
+  "publication": {
+    "state": "source_public_archive_uploading",
+    "version_doi": null,
+    "concept_doi": null,
+    "archive_publication_date": null,
+    "journal_submission": null,
+    "preprint_submission": null,
+    "human_peer_review": "not claimed"
+  },
+  "license": {
+    "original_code": "MIT",
+    "original_notes_and_data": "CC-BY-4.0",
+    "third_party": "original SciPy/HiGHS notices retained"
+  },
+  "limitations": [
+    "The full 14-variable existence problem and the whole signed geometry remain open.",
+    "Conditional scope depends on the documented necessary-cover reductions.",
+    "No proof-assistant formalization, human peer review or external acceptance is claimed.",
+    "The bounded source review does not establish novelty."
+  ]
+}

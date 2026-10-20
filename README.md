@@ -12,6 +12,11 @@ to exact versions.
 
 ## Records
 
+- [Exact spectral exclusions for degree-five Boolean candidates](records/boolean-degree-five-spectral-exclusions/README.md).
+  Ten conditional cases excluded by exact integer certificates and isolated
+  replay. The 14-variable existence problem remains open. Source is public;
+  archival DOI publication is pending.
+
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).
   Public written proof of `P_cop(9) = 17`, independently checked finite

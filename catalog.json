@@ -22,6 +22,11 @@
       "id": "computational-explorations-coprime-paths",
       "metadata": "records/computational-explorations-coprime-paths/record.json",
       "readme": "records/computational-explorations-coprime-paths/README.md"
+    },
+    {
+      "id": "boolean-degree-five-spectral-exclusions",
+      "metadata": "records/boolean-degree-five-spectral-exclusions/record.json",
+      "readme": "records/boolean-degree-five-spectral-exclusions/README.md"
     }
   ]
 }
