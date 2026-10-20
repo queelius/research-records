@@ -13,6 +13,8 @@ do not exhaust their signed Fourier geometry or all possible candidates.
 - [Mathematical report](https://github.com/queelius/boolean-degree-sensitivity/blob/00e60302ac9900530f523b8b43f88fac523302bf/REPORT.md)
 - [Completed isolated replay](https://github.com/queelius/boolean-degree-sensitivity/blob/00e60302ac9900530f523b8b43f88fac523302bf/verification/REPLAY-RECEIPT.json)
 - [Complete evidence release v1.0.0](https://github.com/queelius/boolean-degree-sensitivity/releases/tag/v1.0.0)
+- [Exact archived version: 10.5281/zenodo.23496542](https://doi.org/10.5281/zenodo.23496542)
+- [Zenodo publication and download-verification status](PUBLIC-ZENODO.json)
 - [Verified public downloads](PUBLIC-RELEASE.json)
 - [Explicit case definitions](https://github.com/queelius/boolean-degree-sensitivity/blob/43ddb9a8a360bf84451b81a27fb67a001b4c4e16/CASES.json)
 - [Structured record](record.json) and [citation metadata](CITATION.cff)
@@ -20,12 +22,15 @@ do not exhaust their signed Fourier geometry or all possible candidates.
 The source was publicly verified on **20 October 2026**. The full v1.0.0
 packet was released that day at **10:58:40 UTC**. All eight assets, including
 the 667 MB evidence archive, were downloaded without authentication and
-verified by SHA-256. Cite the versioned release and its exact commit using
-the citation metadata here. Zenodo archival publication is pending after
-upload gateway errors; no published DOI is claimed yet. The packet contains
-an explicitly reserved archival DOI; use the separate release citation
-until that DOI is published. There is no journal or preprint-server submission
-for this contribution.
+verified by SHA-256. Zenodo version **1.0.0** was published on **20 October
+2026**, at 12:57:08 UTC, with DOI
+[10.5281/zenodo.23496542](https://doi.org/10.5281/zenodo.23496542).
+Cite that exact archived version using the citation metadata here.
+All 48 uploaded server checksums and the public metadata are verified;
+unauthenticated byte downloads of the 40 archive parts and eight metadata
+files are still being checked. The linked publication receipt records
+that incomplete verification explicitly. There is no journal or
+preprint-server submission for this contribution.
 
 This entry describes the frozen ten-case contribution. The owning project
 maintains ongoing research progress, including later results that are not

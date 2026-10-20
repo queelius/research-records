@@ -60,8 +60,9 @@ publication metadata or handoff.
 - [Exact spectral exclusions for degree-five Boolean candidates](records/boolean-degree-five-spectral-exclusions/README.md).
   Ten conditional cases excluded by exact integer certificates and isolated
   replay. The 14-variable existence problem remains open. Source and the
-  complete versioned evidence packet are public; archival DOI publication
-  is pending.
+  complete versioned evidence packet are public.
+  [Archived version](https://doi.org/10.5281/zenodo.23496542);
+  complete Zenodo download verification is ongoing.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).
