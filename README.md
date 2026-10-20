@@ -38,6 +38,11 @@ publication metadata or handoff.
 
 ## Records
 
+- [Adjacent-domain disclosure from public occupancy in GBFPlus](records/gbfplus-public-occupancy-disclosure/README.md).
+  Protocol-specific counterexample with written proofs, author approval, and
+  reproducible finite checks. Archival preprint; no human peer review or journal
+  acceptance. [Exact archived version](https://doi.org/10.5281/zenodo.23497466).
+
 - [Pure information-sharing equilibria in competing supply chains](records/competing-supply-chain-equilibrium/README.md).
   Complete accepted Lean formalization of the three open pure-equilibrium regimes,
   ordered thresholds and strict middle-regime payoff comparison. Exact source and
