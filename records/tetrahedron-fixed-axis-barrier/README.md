@@ -1,6 +1,17 @@
 # The 0.4993 barrier for arbitrary radial profiles in a fixed tetrahedron cylinder family
 
-**Alexander Richard Towell** · Version 1.0.0 · Archival preparation: 20 October 2026
+**Alexander Richard Towell** · Version 1.0.0 · Published: 20 October 2026
+
+**Version DOI:** [10.5281/zenodo.23495382](https://doi.org/10.5281/zenodo.23495382)  
+**All versions:** [10.5281/zenodo.23495381](https://doi.org/10.5281/zenodo.23495381)
+
+> Towell, Alexander Richard. (2026). *The 0.4993 barrier for arbitrary radial
+> profiles in a fixed tetrahedron cylinder family* (Version 1.0.0).
+> Zenodo. https://doi.org/10.5281/zenodo.23495382
+
+[Citation metadata](CITATION.cff) · [Technical note](NOTE.md) ·
+[Evidence ZIP](../../artifacts/tetrahedron-fixed-axis-barrier-v1.0.0.zip) ·
+[Verified publication receipt](publication.json)
 
 This note archives the accepted extension of Ricardo Pinho's fixed-axis
 tetrahedron cylinder-family barrier. The original construction and axes are
@@ -80,4 +91,6 @@ certificate.
 
 The structured [record](record.json) identifies the artifact, citation,
 dependencies, publication state, and hashes. Verification receipts inside
-the archive state the checks actually performed for this deposit.
+the archive state the checks actually performed for this deposit. All three
+publicly downloaded Zenodo files match their local SHA-256 hashes, and the
+version DOI resolves to the published record.

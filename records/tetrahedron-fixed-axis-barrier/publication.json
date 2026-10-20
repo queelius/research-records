@@ -1,0 +1,83 @@
+{
+  "deposit_id": 23495382,
+  "doi": "10.5281/zenodo.23495382",
+  "conceptdoi": "10.5281/zenodo.23495381",
+  "state": "done",
+  "submitted": true,
+  "record_url": "https://zenodo.org/record/23495382",
+  "publication_date": "2026-10-20",
+  "published_at_observed": "2026-10-20T09:33:11.869794+00:00",
+  "files": [
+    {
+      "filename": "NOTE.md",
+      "bytes": 3937,
+      "md5": "c6f4575f1b52f58edc52bf302d85996b",
+      "sha256": "fbcbb21f0c2343aa5cdd58f99957a088dc13b042dad008a20a874a7e2501ecbf"
+    },
+    {
+      "filename": "tetrahedron-fixed-axis-barrier-v1.0.0.zip",
+      "bytes": 2187365,
+      "md5": "3160eb72c5a79f13f69694321381a1d9",
+      "sha256": "a7697f2e6f198b7a996d81886467e397d720aa1d123331f40f53f31172b923c8"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 920,
+      "md5": "cabb19dd521a2df24013ca7d38e807a7",
+      "sha256": "a472c7ff69d61bd5eae20382c489fa2d49e17d9a62628a4ef4ba6bdfad9ba527"
+    }
+  ],
+  "public_download_verification": {
+    "checked_at": "2026-10-20T09:34:18.490981+00:00",
+    "authenticated": false,
+    "files": [
+      {
+        "filename": "NOTE.md",
+        "public_url": "https://zenodo.org/api/records/23495382/files/NOTE.md/content",
+        "sha256": "fbcbb21f0c2343aa5cdd58f99957a088dc13b042dad008a20a874a7e2501ecbf",
+        "bytes": 3937,
+        "matches_local": true
+      },
+      {
+        "filename": "tetrahedron-fixed-axis-barrier-v1.0.0.zip",
+        "public_url": "https://zenodo.org/api/records/23495382/files/tetrahedron-fixed-axis-barrier-v1.0.0.zip/content",
+        "sha256": "a7697f2e6f198b7a996d81886467e397d720aa1d123331f40f53f31172b923c8",
+        "bytes": 2187365,
+        "matches_local": true
+      },
+      {
+        "filename": "CITATION.cff",
+        "public_url": "https://zenodo.org/api/records/23495382/files/CITATION.cff/content",
+        "sha256": "a472c7ff69d61bd5eae20382c489fa2d49e17d9a62628a4ef4ba6bdfad9ba527",
+        "bytes": 920,
+        "matches_local": true
+      }
+    ]
+  },
+  "public_metadata": {
+    "doi": "10.5281/zenodo.23495382",
+    "conceptdoi": "10.5281/zenodo.23495381",
+    "publication_date": "2026-10-20",
+    "creators": [
+      {
+        "name": "Towell, Alexander Richard",
+        "affiliation": "Southern Illinois University Edwardsville",
+        "orcid": "0000-0001-6443-9897"
+      }
+    ],
+    "license": {
+      "id": "mit-license"
+    },
+    "resource_type": {
+      "title": "Technical note",
+      "type": "publication",
+      "subtype": "technicalnote"
+    },
+    "html_url": null
+  },
+  "doi_resolution": {
+    "http_status": 200,
+    "final_url": "https://zenodo.org/records/23495382",
+    "resolves_to_record": true
+  }
+}

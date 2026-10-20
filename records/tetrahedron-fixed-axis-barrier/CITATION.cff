@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Cite this technical note using its exact version DOI. It is a written proof extension with computational evidence, not a claim of human peer review."
+title: "The 0.4993 barrier for arbitrary radial profiles in a fixed tetrahedron cylinder family"
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+date-released: 2026-10-20
+doi: 10.5281/zenodo.23495382
+url: "https://zenodo.org/records/23495382"
+license: MIT
+preferred-citation:
+  type: report
+  title: "The 0.4993 barrier for arbitrary radial profiles in a fixed tetrahedron cylinder family"
+  authors:
+    - family-names: Towell
+      given-names: Alexander Richard
+      orcid: "https://orcid.org/0000-0001-6443-9897"
+  year: 2026
+  version: 1.0.0
+  doi: 10.5281/zenodo.23495382
+  url: "https://zenodo.org/records/23495382"
+  publisher:
+    name: Zenodo

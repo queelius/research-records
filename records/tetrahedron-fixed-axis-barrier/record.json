@@ -59,12 +59,14 @@
     "archive_rebuild_byte_identical": true
   },
   "publication": {
-    "state": "prepared",
+    "state": "published",
     "version": "1.0.0",
-    "archive_publication_date": null,
-    "version_doi": null,
-    "concept_doi": null,
-    "zenodo_record": null
+    "archive_publication_date": "2026-10-20",
+    "version_doi": "10.5281/zenodo.23495382",
+    "concept_doi": "10.5281/zenodo.23495381",
+    "zenodo_record": null,
+    "receipt": "publication.json",
+    "public_downloads_verified": true
   },
   "license": "MIT",
   "limitations": [
@@ -86,6 +88,12 @@
       "filename": "NOTE.md",
       "bytes": 3937,
       "sha256": "fbcbb21f0c2343aa5cdd58f99957a088dc13b042dad008a20a874a7e2501ecbf"
+    },
+    {
+      "path": "records/tetrahedron-fixed-axis-barrier/CITATION.cff",
+      "filename": "CITATION.cff",
+      "bytes": 920,
+      "sha256": "a472c7ff69d61bd5eae20382c489fa2d49e17d9a62628a4ef4ba6bdfad9ba527"
     }
   ]
 }
