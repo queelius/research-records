@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-20T14:22:09.817274+00:00",
+  "checked_at": "2026-10-20T15:58:15.504510+00:00",
   "scope": "Exact staged public source, independent complete-type audit and freshly compiled platform definition; verified pinned Mathlib caches reused, no old platform-module cache.",
   "lean": "4.33.1",
   "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
@@ -16,7 +16,7 @@
       "cwd": "source",
       "exit_code": 0,
       "expected_exit_code": 0,
-      "seconds": 4.212,
+      "seconds": 4.35,
       "log": "verification-logs/definition.log",
       "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
@@ -29,7 +29,7 @@
       "cwd": "source",
       "exit_code": 0,
       "expected_exit_code": 0,
-      "seconds": 6.367,
+      "seconds": 6.662,
       "log": "verification-logs/audit.log",
       "log_sha256": "f505cd4f9f13aa427e11f499f1d6da903bc6ede51519a7b1bde65f65f8e8b4c6"
     },
@@ -42,7 +42,7 @@
       "cwd": "source",
       "exit_code": 1,
       "expected_exit_code": 1,
-      "seconds": 6.166,
+      "seconds": 6.336,
       "log": "verification-logs/false-conclusion.log",
       "log_sha256": "bf4161b11011d4686781187f8128a6fa8d77f0f8ac12d64daff563d5f7dea01b"
     }

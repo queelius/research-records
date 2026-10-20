@@ -42,7 +42,9 @@ publication metadata or handoff.
   Complete accepted Lean formalization, including finite-history Bayes updating,
   conditioning on other arms, all step inequalities and endpoint identities.
   Exact source, pinned reproduction and a rejecting control are public.
-  Established Min–Maglaras–Moallemi mathematics; no archival DOI yet.
+  Established Min–Maglaras–Moallemi mathematics;
+  [archived version](https://doi.org/10.5281/zenodo.23504263).
+  All three Zenodo files and the archive manifest are verified.
 
 - [Ten-label obstruction without downward closure](records/family156-down-omission/README.md).
   A complete RUP certificate corroborates Pico's earlier omission observation;

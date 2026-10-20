@@ -1,0 +1,47 @@
+{
+  "title": "A Lean formalization of Bayesian bandit value interpolation",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-20",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>This technical note and reproducible Lean packet formalize Bayesian bandit value interpolation from Seungki Min, Costis Maglaras and Ciamac C. Moallemi, Thompson Sampling with Information Relaxation Penalties, arXiv:1902.04251v2, Appendix D.3.2. In the exact independent-arm Bayesian model with measurable conjugate updates and integrable predictive rewards, the values Ukn decrease at every observation step, and the WFH/WVZ endpoints and adjacent-arm identities hold, including horizon zero. The finite-history posterior under the actual product outcome law is proved, not assumed.</p><p>The contribution is a complete formalization of established mathematics. It includes a posterior-kernel induction, conditioning on other arms, conditional-mean and integrability arguments, finite-allocation Jensen bounds and endpoint identities. The formalized cumulative quantity S sums posterior predictive means, not observed rewards. Other information-relaxation mission milestones are outside the scope of this exact theorem.</p><p>The archive preserves the exact accepted proof, public platform definition, independently repeated complete-type audit, pinned Lean 4.33.1 and Mathlib 0df444a360eaa60ab8c11dca51a86af692955474, fresh source reproduction and a false-conclusion control rejected as expected. The only axioms are propext, Classical.choice and Quot.sound. Pinned dependency caches remain trusted inputs; this is not a bootstrap verification.</p><p>Original mathematics belongs to Min, Maglaras and Moallemi. mikedeng1 supplied the platform model and prior indexing clarification; Shuze Chen reviewed the statement. Prior accepted queelius Jensen proofs and Mathlib contributors are specifically credited, including Rémy Degenne, Etienne Marion and Lorenzo Luccioli. Alexander Richard Towell directed the work. Substantial OpenAI Codex assistance in formalization, verification and publication preparation is disclosed. No mathematical novelty, source-author endorsement or independent human peer review is claimed.</p><p>The proof and curated source were publicly disclosed on 20 October 2026; their exact timestamps and URLs are preserved separately from this archive publication. The owning research repository remains private. This deposit covers one coherent contribution, not the entire Prove2Me campaign.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "Bayesian bandits",
+    "information relaxation",
+    "Thompson sampling",
+    "conditional expectation",
+    "reproducible proof",
+    "AI-assisted formalization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://arxiv.org/abs/1902.04251v2",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/1c79735c-84f1-4ab3-bf0e-68e36c0512fb",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/bandit-information-relaxation-interpolation",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Exact accepted submission b0bb3470-4b93-4959-b95c-081f790d8726. Proof SHA-256 2c2c6a51d87352cc7573557c99f6f4b68ac74167c3985292e3dcad8fe1f17ef3. Source and platform authors are credited as predecessors, not represented as coauthors of this archival note. A dated metadata correction preserves the earlier Mathlib-credit observation; proof bytes are unchanged."
+}

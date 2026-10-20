@@ -63,5 +63,6 @@ milestones remain outside its scope.
 
 The owning Prove2Me project keeps attempts, effort and detailed lifecycle
 records. The central catalog presents this selected, reproducible result.
-This record has **no archival DOI yet**. Cite the exact public source commit
-and record version until a DOI version is published.
+Archive citation for version 1.0.0: [10.5281/zenodo.23504263](https://doi.org/10.5281/zenodo.23504263).
+The DOI was reserved before packaging. Actual publication and public-download
+verification are recorded separately in the central catalog and publication receipt.

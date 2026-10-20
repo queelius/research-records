@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-20T16:04:34.088215+00:00",
+  "record_id": 23504263,
+  "state": "done",
+  "submitted": true,
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.23504263",
+  "conceptdoi": "10.5281/zenodo.23504262",
+  "url": "https://zenodo.org/records/23504263",
+  "record_created_at": "2026-10-20T16:02:37.699766+00:00",
+  "publication_date": "2026-10-20",
+  "first_source_disclosure": "2026-10-20T14:28:39.538537+00:00",
+  "first_source_disclosure_url": "https://github.com/queelius/research-records/tree/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation",
+  "all_public_downloads_match": true,
+  "public_downloads_authenticated": false,
+  "manifest_files_verified": 20,
+  "deterministic_archive_rebuild_byte_identical": true,
+  "artifacts": [
+    {
+      "filename": "NOTE.md",
+      "bytes": 3989,
+      "sha256": "c4b3bab0cce8128a06771b0bd7ac74dae8e7959bc55b4561f6ab1a23fe5bd1ce",
+      "public_download_url": "https://zenodo.org/api/records/23504263/files/NOTE.md/content",
+      "matches_verified_bytes": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 761,
+      "sha256": "46600757e4ae7939444f6a931dd967f957a8984c8358a3a3b2b844c84226dc07",
+      "public_download_url": "https://zenodo.org/api/records/23504263/files/CITATION.cff/content",
+      "matches_verified_bytes": true
+    },
+    {
+      "filename": "bandit-information-relaxation-interpolation-v1.0.0.zip",
+      "bytes": 68039,
+      "sha256": "63de25687deed427e3dd49b3accd752461d9825b3f187662591d9dc43b023940",
+      "public_download_url": "https://zenodo.org/api/records/23504263/files/bandit-information-relaxation-interpolation-v1.0.0.zip/content",
+      "matches_verified_bytes": true
+    }
+  ],
+  "source_verification": {
+    "result": "PASS",
+    "checked_at": "2026-10-20T15:58:15.504510+00:00",
+    "negative_control": "False-conclusion type mismatch rejected as expected"
+  },
+  "license": {
+    "id": "apache2.0"
+  },
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "affiliation": "Southern Illinois University Edwardsville",
+      "orcid": "0000-0001-6443-9897"
+    }
+  ],
+  "authorization": "Standing publication instruction recorded2026-10-20; selected verified contribution only."
+}

@@ -33,19 +33,19 @@
     ],
     "title": "Thompson Sampling with Information Relaxation Penalties",
     "url": "https://arxiv.org/abs/1902.04251v2",
-    "cited_scope": "Appendix D.3.2 pp59\u201360, equations154\u2013155; supporting Jensen results pp56\u201358.",
+    "cited_scope": "Appendix D.3.2 pp59–60, equations154–155; supporting Jensen results pp56–58.",
     "inspection": "Pinned v2 original PDF read.",
     "pdf_sha256": "0fc4bc3f29429ab514d41ba5af8dce63ede734dc014c92f6062e0e0e3c790830",
     "redistributed": false
   },
-  "predecessor_credit": "Seungki Min, Costis Maglaras and Ciamac C. Moallemi: source mathematics, arXiv1902.04251v2 pp56\u201360. mikedeng1: platform model and pre-existing indexing clarification; Shuze Chen: statement review. Alexander Richard Towell: research direction; OpenAI Codex: Lean formalization and verification. Prior accepted queelius Jensen proofs are included in full. Mathlib conditional-distribution, product and conditional-expectation infrastructure is credited, including R\u00e9my Degenne, Etienne Marion and Lorenzo Luccioli. No mathematical novelty or independent human review claimed.",
+  "predecessor_credit": "Seungki Min, Costis Maglaras and Ciamac C. Moallemi: source mathematics, arXiv1902.04251v2 pp56–60. mikedeng1: platform model and pre-existing indexing clarification; Shuze Chen: statement review. Alexander Richard Towell: research direction; OpenAI Codex: Lean formalization and verification. Prior accepted queelius Jensen proofs are included in full. Mathlib conditional-distribution, product and conditional-expectation infrastructure is credited, including Rémy Degenne, Etienne Marion and Lorenzo Luccioli. No mathematical novelty or independent human review claimed.",
   "ai_assistance": "Alexander Richard Towell directed research and verification standards. OpenAI Codex developed and checked the Lean formalization, prepared this record and verified publication files. No independent human proof review is asserted.",
   "source_definitions": [
     {
       "path": "Definitions/Def_InfoRelaxTS_Monotone_Setting.lean",
       "sha256": "a18f2f92d9625814c61dbd21ab64591a35642dab67ecfd0ca8597faf0d4f3743",
       "platform_definition_id": "53220ff6-91ea-475b-81c3-7e4d0c052b61",
-      "source": "Min, Maglaras, Moallemi, Thompson Sampling with Information Relaxation Penalties, arXiv:1902.04251v2, pp. 4\u20136 (1)\u2013(10); p. 11 (19); p. 14 (26); p. 17 (29); p. 18 (33); p. 20 (37); pp. 21\u201322 (39)\u2013(44); pp. 58\u201361 (151), (154), Definition 2 (166), (168)",
+      "source": "Min, Maglaras, Moallemi, Thompson Sampling with Information Relaxation Penalties, arXiv:1902.04251v2, pp. 4–6 (1)–(10); p. 11 (19); p. 14 (26); p. 17 (29); p. 18 (33); p. 20 (37); pp. 21–22 (39)–(44); pp. 58–61 (151), (154), Definition 2 (166), (168)",
       "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
       "created_at": "2026-10-13T23:30:36.841716+00:00",
       "visibility": "public",
@@ -64,6 +64,13 @@
       "timestamp": "2026-10-20T14:28:39.538537+00:00",
       "timestamp_scope": "First independently verified public availability of this exact Git commit; separate from the earlier platform submission.",
       "url": "https://github.com/queelius/research-records/tree/bfebb0f43b976b4103071a5c7d7dafc8421ac999/records/bandit-information-relaxation-interpolation"
+    },
+    {
+      "kind": "archival_deposit",
+      "timestamp": "2026-10-20T16:02:37.699766+00:00",
+      "url": "https://zenodo.org/records/23504263",
+      "version_doi": "10.5281/zenodo.23504263",
+      "scope": "Version1.0.0 exact proof, reproduction and attribution packet; first DOI archive for this contribution."
     }
   ],
   "acceptance": {
@@ -89,19 +96,24 @@
     "staged_source_reproduction": "PASS",
     "receipt": "verification.json",
     "false_conclusion_control": "REJECTED_AS_EXPECTED",
-    "checked_at": "2026-10-20T14:22:09.817274+00:00"
+    "checked_at": "2026-10-20T15:58:15.504510+00:00"
   },
   "publication": {
-    "state": "not_archived",
+    "state": "published",
     "version": "1.0.0",
-    "version_doi": null,
-    "concept_doi": null,
-    "archival_status": "not_archived",
-    "note": "Central source disclosure and DOI archival are separate events. No existing interpolation DOI covers this result.",
+    "version_doi": "10.5281/zenodo.23504263",
+    "concept_doi": "10.5281/zenodo.23504262",
+    "archival_status": "published",
+    "note": "Published exact-version archive. The frozen packet records its reserved state at packaging; this dated publication receipt confirms public availability and exact bytes. Original platform/source disclosure dates remain separate.",
     "source_release_url": "https://github.com/queelius/research-records/tree/main/records/bandit-information-relaxation-interpolation",
     "source_release_commit": "bfebb0f43b976b4103071a5c7d7dafc8421ac999",
     "source_release_verified_at": "2026-10-20T14:28:39.538537+00:00",
-    "source_release_receipt": "index-publication.json"
+    "source_release_receipt": "index-publication.json",
+    "record_id": 23504263,
+    "url": "https://zenodo.org/records/23504263",
+    "published_at": "2026-10-20T16:02:37.699766+00:00",
+    "verified_at": "2026-10-20T16:04:34.088215+00:00",
+    "receipt": "publication.json"
   },
   "license": "Apache-2.0",
   "limitations": [
@@ -114,13 +126,18 @@
   "artifacts": [
     {
       "path": "CITATION.cff",
-      "bytes": 751,
-      "sha256": "7e3c61ef1fb6616cc230ad24efc157f1a92c8c428b749b35abf2f6e4d982efef"
+      "bytes": 761,
+      "sha256": "46600757e4ae7939444f6a931dd967f957a8984c8358a3a3b2b844c84226dc07"
     },
     {
       "path": "LICENSE",
       "bytes": 11357,
       "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "NOTE.md",
+      "bytes": 3989,
+      "sha256": "c4b3bab0cce8128a06771b0bd7ac74dae8e7959bc55b4561f6ab1a23fe5bd1ce"
     },
     {
       "path": "NOTICE.md",
@@ -129,13 +146,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 2961,
-      "sha256": "05a494ad9d3a738d97bfc95ad79413122581d565c4396a29186a9999fb1c0157"
+      "bytes": 3098,
+      "sha256": "a757af14bed430f3c9c0531a2ba971029a2b8b8f66a193089cc711f71f42dfaa"
     },
     {
       "path": "controls/FalseConclusion.lean",
       "bytes": 61948,
       "sha256": "2815df42a1a17010e9d0fb9933e82f0e569885af1e4dec539e83dd5d7fa32e9f"
+    },
+    {
+      "path": "credit-correction.json",
+      "bytes": 681,
+      "sha256": "9cf7c87d4630aa11a018e17774bd74ee487b2657ca10e813e22083abb30d5c79"
     },
     {
       "path": "source/Audit.lean",
@@ -189,13 +211,28 @@
     },
     {
       "path": "verification.json",
-      "bytes": 2325,
-      "sha256": "d9de8e25aa355b82a3c88fba8550e36954b08275bb4cc84e3ae708214af10d8b"
+      "bytes": 2324,
+      "sha256": "fd110ba0622d58e47be9a05dbe487025517810aedf80bcaff1389e3ee5632694"
     },
     {
-      "path": "credit-correction.json",
-      "bytes": 681,
-      "sha256": "9cf7c87d4630aa11a018e17774bd74ee487b2657ca10e813e22083abb30d5c79"
+      "path": "zenodo-metadata.json",
+      "bytes": 3942,
+      "sha256": "a5dd92bef844de6a79653e3ebf350ea07c51335980443f6adc514eb65e76ec6b"
+    },
+    {
+      "path": "publication.json",
+      "bytes": 2279,
+      "sha256": "c3639329b57174568857916c40f5fd2f55bad69e985a272695ecb052cac03b5b"
+    },
+    {
+      "path": "archive-duplicate-search.json",
+      "bytes": 1706,
+      "sha256": "7611e7a39476ea7895245afa81f96dd9f53ec78ba20f10fe1685ec1e661313b3"
+    },
+    {
+      "path": "bandit-information-relaxation-interpolation-v1.0.0.zip",
+      "bytes": 68039,
+      "sha256": "63de25687deed427e3dd49b3accd752461d9825b3f187662591d9dc43b023940"
     }
   ],
   "artifact_path_base": "record_directory",
@@ -214,12 +251,19 @@
       "new_explanation_sha256": "a6dac674196133689cc3e5ac5d789d12fc77a8018b924603eb35b8f0317456c0"
     }
   ],
+  "canonical_source": {
+    "repository": "https://github.com/queelius/research-records",
+    "commit": "49c13434f7b1ef3d4467ed3de5c4dd23332bc23f",
+    "path": "records/bandit-information-relaxation-interpolation/source/Solution.lean",
+    "sha256": "2c2c6a51d87352cc7573557c99f6f4b68ac74167c3985292e3dcad8fe1f17ef3",
+    "note": "Exact already-public proof source; this owning-project record remains the primary lifecycle record."
+  },
   "canonical_record": {
     "repository": "https://github.com/queelius/prove2me-contributions",
     "visibility": "private",
-    "commit": "c761d3bab5f197d973ee87c6adc4621956e04e50",
+    "commit": "fe92d24e428bcd89fb4ed070f3e5b485ded5f42d",
     "path": "contributions/queelius/publications/bandit-information-relaxation-interpolation/record.json",
-    "sha256": "ccd59885b53c914d7e1202ead01fc33220e305807c4693b7f899f725d6e021a0",
-    "note": "The owning project retains the primary lifecycle and publication event; this public record links the immutable source release and mirrors only the authorized contribution."
+    "sha256": "a6204ac7777e4224529e2471771decd4d463e61496a18343109d721b43fbb981",
+    "note": "The owning project retains the authoritative lifecycle and publication event. This curated public mirror links its exact commit and the verified Zenodo version; it does not duplicate the private research queue."
   }
 }

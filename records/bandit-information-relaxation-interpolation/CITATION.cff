@@ -10,4 +10,5 @@ authors:
     orcid: "https://orcid.org/0000-0001-6443-9897"
 url: "https://github.com/queelius/research-records/tree/main/records/bandit-information-relaxation-interpolation"
 license: Apache-2.0
-abstract: "Complete AI-assisted formalization of established Min–Maglaras–Moallemi mathematics, including the actual finite-history posterior and independent-arm conditioning. No mathematical novelty or independent human review claimed. No archival DOI yet."
+abstract: "Complete AI-assisted formalization of established Min–Maglaras–Moallemi mathematics, including the actual finite-history posterior and independent-arm conditioning. No mathematical novelty or independent human review claimed."
+doi: "10.5281/zenodo.23504263"

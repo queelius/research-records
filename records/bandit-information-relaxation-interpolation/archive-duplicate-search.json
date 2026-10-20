@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-10-20T15:57:27.686740+00:00",
+  "scope": "Authenticated user deposition catalog, all versions, all pages through final short page; central catalog inspected separately.",
+  "page_size": 100,
+  "pages": [
+    {
+      "page": 1,
+      "count": 100
+    },
+    {
+      "page": 2,
+      "count": 100
+    },
+    {
+      "page": 3,
+      "count": 46
+    }
+  ],
+  "unique_depositions_checked": 246,
+  "matches": [
+    {
+      "id": 19366346,
+      "title": "MCTS-Reasoning: Monte Carlo Tree Search for LLM Reasoning",
+      "submitted": true,
+      "doi": "10.5281/zenodo.19366346",
+      "terms": [
+        "bandit"
+      ]
+    },
+    {
+      "id": 18345659,
+      "title": "MCTS-Reasoning: Monte Carlo Tree Search for LLM Reasoning",
+      "submitted": true,
+      "doi": "10.5281/zenodo.18345659",
+      "terms": [
+        "bandit"
+      ]
+    },
+    {
+      "id": 18344413,
+      "title": "MCTS-Reasoning: Monte Carlo Tree Search for LLM Reasoning",
+      "submitted": true,
+      "doi": "10.5281/zenodo.18344413",
+      "terms": [
+        "bandit"
+      ]
+    },
+    {
+      "id": 18344394,
+      "title": "MCTS-Reasoning: Monte Carlo Tree Search for LLM Reasoning",
+      "submitted": true,
+      "doi": "10.5281/zenodo.18344394",
+      "terms": [
+        "bandit"
+      ]
+    }
+  ],
+  "complete": true,
+  "assessment": {
+    "existing_record_for_this_contribution": false,
+    "reason": "All four keyword matches are versions of the MCTS-Reasoning software project. None matches the exact platform target, information-relaxation source or this formalization; central index has this coherent record without an archive DOI.",
+    "checked_at": "2026-10-20T16:00:18.125924+00:00"
+  }
+}
