@@ -1,16 +1,34 @@
 {
-  "archive_files": 65,
-  "public_source_files": 55,
-  "source_sha256_bindings_match": true,
-  "deterministic_archive": true,
+  "checked_at": "2026-10-21T09:26:28.659318+00:00",
+  "archive_files": 96,
+  "public_source_files": 79,
+  "previous_55_source_files_identical": true,
+  "deterministic_zip": true,
   "extracted_hashes_verified": true,
-  "certificate_corruption_control": "rejected",
-  "staged_replay_and_29_tests": "passed",
-  "artifact": {
-    "filename": "family156-down-omission-v1.0.0.zip",
-    "bytes": 372704,
-    "sha256": "097bd50a164c3e83ebe55da692955ad74d02080d70894a915db6db043cd5a918",
-    "md5": "dd1cb6b22e5213a757f090a139a08d69"
-  },
-  "scope": "Archive contains only explicitly enumerated public packet files and archival metadata; Pico solver code is cited but not redistributed."
+  "extracted_saved_binding": "passed",
+  "extracted_changed_literal_control": "rejected",
+  "certificate_corruption": "rejected",
+  "staged_checks": "ARCHIVAL-VERIFICATION.json",
+  "artifacts": [
+    {
+      "filename": "family156-down-omission-v1.1.0.zip",
+      "bytes": 523639,
+      "sha256": "1a5ec2c76a349c81399dbb76a4c99b400df43c3f9422d8b53edee0607594a458",
+      "md5": "91b33eda782c98874678354a416488e9"
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 7365,
+      "sha256": "1bacb14900f0f1431bd7b169b414e3b9e6e5c411fcc164dbac126616579c10a3",
+      "md5": "e48f43cdd689c9b67c20f216b9c460d5"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1181,
+      "sha256": "a7e65dc88bc06a1e2e8448b03e5883dc8a28f09be7d2b2359b599af5950988ef",
+      "md5": "c33a8cc99c08bac8f1b395933a4b5a0f"
+    }
+  ],
+  "private_operational_files_in_archive": false,
+  "dependency_caches_in_archive": false
 }

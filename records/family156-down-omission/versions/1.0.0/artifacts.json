@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "family156-down-omission-v1.0.0.zip",
+    "bytes": 372704,
+    "sha256": "097bd50a164c3e83ebe55da692955ad74d02080d70894a915db6db043cd5a918",
+    "md5": "dd1cb6b22e5213a757f090a139a08d69"
+  },
+  {
+    "filename": "ARCHIVE-NOTE.md",
+    "bytes": 5092,
+    "sha256": "b0ddb29ea190fafbedbdfaee301e871a6af910e29e6ab10e3b9739082fa35b5a",
+    "md5": "87516c26da692fb1caf7365f87000c2a"
+  },
+  {
+    "filename": "CITATION.cff",
+    "bytes": 995,
+    "sha256": "7dd853b049fc11fe15f2a6435005f151769fc11f4d1d6d18c03b065f3d551d43",
+    "md5": "5019dee6450fff85e4c4a548ce303ddf"
+  }
+]

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "family156-down-omission",
-  "title": "A replayable certificate for the ten-label obstruction without downward closure",
-  "contribution_type": "independent finite verification of a prior solver observation",
+  "title": "A replayable certificate and formal reduction for the ten-label obstruction without downward closure",
+  "contribution_type": "finite certificate verification with a scoped Lean formalization",
   "authors": [
     {
       "name": "Alexander Richard Towell",
@@ -17,7 +17,7 @@
       "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a"
     },
     {
-      "name": "Pico / H\u00e5kon \u00c5mdal",
+      "name": "Pico / Håkon Åmdal",
       "contribution": "Prior down-omission solver observation, independent solver encoding and census",
       "url": "https://github.com/piiiico/openai-math-counterexamples/pull/10#issuecomment-6248771785"
     },
@@ -34,17 +34,27 @@
     "nonempty": "OR over all 210 tetrahedron variables; no symmetry reduction",
     "no_boundary": "Every three-face of each selected tetrahedron, whether or not the face belongs to T",
     "formal_proof": false,
-    "human_peer_review_claimed": false
+    "human_peer_review_claimed": false,
+    "formalized_obligations": [
+      "Forward source-to-generated-CNF implication"
+    ],
+    "external_obligations": [
+      "Exact exported CNF binding",
+      "UNSAT certificate replay and checker soundness"
+    ],
+    "formal_proof_note": "The full impossibility conclusion is not kernel checked; only its forward reduction is."
   },
   "sources": {
     "canonical_repository": "https://github.com/queelius/openai-math-counterexamples",
     "canonical_path": "rows/156/finite_obstruction",
-    "commit": "c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9",
+    "commit": "d3461179d6d7161ba3ae6241f09f1b160179b70a",
     "upstream_repository": "https://github.com/piiiico/openai-math-counterexamples",
-    "upstream_base": "5c9236ec5b12ff35e74f6c69437fdcade9d26245",
-    "canonical_note": "https://github.com/queelius/openai-math-counterexamples/tree/c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9/rows/156/finite_obstruction/NO_DOWN.md",
-    "source_definition": "openai/math@1581d4cbdd69a0faf34b2089614fe2a814316a6a:lean/OAI/Geometry/Borsuk/TenLabels/Labels.lean:13\u201322",
-    "source_hash_manifest": "https://github.com/queelius/openai-math-counterexamples/tree/c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9/rows/156/finite_obstruction/no_down_source_pins.json"
+    "upstream_base": "f3e88206eb0c1ca065eb7106e06602d1aaa4c25b",
+    "canonical_note": "https://doi.org/10.5281/zenodo.23530387",
+    "source_definition": "openai/math@1581d4cbdd69a0faf34b2089614fe2a814316a6a:lean/OAI/Geometry/Borsuk/TenLabels/Labels.lean:13–22",
+    "source_hash_manifest": "https://zenodo.org/records/23530387/files/family156-down-omission-v1.1.0.zip?download=1",
+    "certificate_predecessor_commit": "c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9",
+    "formal_bridge": "https://github.com/queelius/openai-math-counterexamples/tree/d3461179d6d7161ba3ae6241f09f1b160179b70a/rows/156/finite_obstruction/lean_bridge"
   },
   "public_disclosure": {
     "date": "2026-10-20",
@@ -63,7 +73,7 @@
     "maintainer_report": "https://github.com/piiiico/openai-math-counterexamples/pull/11#issuecomment-6306710172"
   },
   "verification": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "variables": 330,
     "clauses": 30361,
     "rup_additions": 18302,
@@ -72,10 +82,10 @@
       "full-scan bitmask engine with separate bitmask encoding"
     ],
     "shared_dependencies": "Both engines are reused from the earlier explicitly pinned packet; variable numbering and mathematical statement are shared. The extra source reconstruction reused the primary variable mapping.",
-    "tests": 29,
+    "tests": 46,
     "local_truth_table_cases": 424,
     "explicit_satisfiable_further_weakenings": 2,
-    "public_source_files_bound": 55,
+    "public_source_files_bound": 79,
     "certificate_sha256": "f98da2cbdc8584a180fee391e6a03dc8ee6367bd31828b22e6652e9b0fc4ddd1",
     "canonical_cnf_sha256": "78e2bd711ec1c60222bb2e2962669d7cc755da38e07a256f27b555e073987a10",
     "negative_controls": "Corrupt/truncated proofs and metadata rejected; optimized Python rejection active; old proof fails at addition 2 on the weaker input",
@@ -85,54 +95,69 @@
     "subsequent_evidence": [
       {
         "date": "2026-10-21",
-        "by": "Pico, an AI agent operated by H\u00e5kon \u00c5mdal",
+        "by": "Pico, an AI agent operated by Håkon Åmdal",
         "kind": "maintainer reproduction with third encoding and distinct proof checker",
         "report": "https://github.com/piiiico/openai-math-counterexamples/pull/11#issuecomment-6306710172",
         "implementation": "https://github.com/piiiico/openai-math-counterexamples/blob/f3e88206eb0c1ca065eb7106e06602d1aaa4c25b/rows/156/finite_obstruction/pico_no_down_drat.py",
         "output": "https://github.com/piiiico/openai-math-counterexamples/blob/f3e88206eb0c1ca065eb7106e06602d1aaa4c25b/rows/156/finite_obstruction/pico_no_down_drat.txt",
         "reported_result": "Third encoder matches all 30361 clauses and the canonical hash; drat-trim verifies the full refutation and rejects four damaged or weakened-input controls. The no-pure model satisfies its weakening and violates 30 pure clauses. All 29 packet tests pass.",
-        "shared_dependencies": "Same source statement, certificate and variable numbering; encoder derived from Pico\u2019s earlier implementation; drat-trim is separate code. Pico made the original omission observation.",
+        "shared_dependencies": "Same source statement, certificate and variable numbering; encoder derived from Pico’s earlier implementation; drat-trim is separate code. Pico made the original omission observation.",
         "inspection_scope": "Maintainer report and pinned output inspected; this index update does not claim an additional local rerun or source audit."
       }
-    ]
+    ],
+    "test_suites": {
+      "certificate": 29,
+      "formal_bridge": 17
+    },
+    "current_archive_checks": "Fresh staged Lean build and complete external binding, both test suites, watched-literal replay, five optimized rejection controls, deterministic ZIP, extracted integrity and corruption control, three public downloads and all archived manifest entries.",
+    "replay_history": {
+      "watched_literal": "Replayed all 18302 additions from the new staged archive on 2026-10-21",
+      "full_scan": "Completed previously in 935.900 seconds; unchanged pinned input and log retained, not repeated for this version",
+      "pico_drat_trim": "Subsequent maintainer report linked below; not rerun for this archive"
+    },
+    "source_to_cnf": "Kernel-checked forward reduction; complete serialized variable/clause comparison remains external"
   },
   "publication": {
     "state": "published",
-    "version": "1.0.0",
-    "archive_publication_date": "2026-10-20",
-    "version_doi": "10.5281/zenodo.23498223",
+    "version": "1.1.0",
+    "archive_publication_date": "2026-10-21",
+    "public_record_created_at": "2026-10-21T09:31:33.841032+00:00",
+    "version_doi": "10.5281/zenodo.23530387",
     "concept_doi": "10.5281/zenodo.23498222",
-    "zenodo_record": "https://zenodo.org/records/23498223",
+    "zenodo_record": "https://zenodo.org/records/23530387",
     "receipt": "publication.json",
-    "public_downloads_verified": true
+    "public_downloads_verified": true,
+    "public_zip_manifest_verified": true,
+    "previous_version_files_verified": true
   },
-  "license": "MIT for archived original packet and supplement; full notice retained. Pico solver code is cited, not redistributed.",
+  "license": "Archival compilation/new archival note: Apache-2.0. Certificate and original support components retain MIT; adapted OpenAI proof/reference source is Apache-2.0. Full notices retained; Pico third-checker code is cited, not redistributed.",
   "limitations": [
-    "Written translation and Python replay engines are not formally verified.",
-    "No topology, geometry, full Borsuk theorem or source Lean rebuild.",
+    "The forward reduction is kernel checked, but UNSAT replay and the exact serialized-input binding remain external.",
+    "No complete source Lean rebuild, topology, geometry or full Borsuk theorem.",
     "No change to the census not-finite classification.",
-    "Certifies Pico's prior observation, not independent discovery priority.",
+    "Corroborates Pico's prior observation; no independent discovery priority is claimed.",
     "No conclusion about simultaneous deletion of other fields.",
+    "PR11 is accepted; PR12 formalization remains open at archival publication.",
     "No human peer review or global novelty assessment."
   ],
   "artifacts": [
     {
-      "filename": "family156-down-omission-v1.0.0.zip",
-      "bytes": 372704,
-      "sha256": "097bd50a164c3e83ebe55da692955ad74d02080d70894a915db6db043cd5a918",
-      "md5": "dd1cb6b22e5213a757f090a139a08d69"
+      "filename": "family156-down-omission-v1.1.0.zip",
+      "bytes": 523639,
+      "sha256": "1a5ec2c76a349c81399dbb76a4c99b400df43c3f9422d8b53edee0607594a458",
+      "md5": "91b33eda782c98874678354a416488e9"
     },
     {
       "filename": "ARCHIVE-NOTE.md",
-      "bytes": 5092,
-      "sha256": "b0ddb29ea190fafbedbdfaee301e871a6af910e29e6ab10e3b9739082fa35b5a",
-      "md5": "87516c26da692fb1caf7365f87000c2a"
+      "bytes": 7365,
+      "sha256": "1bacb14900f0f1431bd7b169b414e3b9e6e5c411fcc164dbac126616579c10a3",
+      "md5": "e48f43cdd689c9b67c20f216b9c460d5"
     },
     {
       "filename": "CITATION.cff",
-      "bytes": 995,
-      "sha256": "7dd853b049fc11fe15f2a6435005f151769fc11f4d1d6d18c03b065f3d551d43",
-      "md5": "5019dee6450fff85e4c4a548ce303ddf"
+      "bytes": 1181,
+      "sha256": "a7e65dc88bc06a1e2e8448b03e5883dc8a28f09be7d2b2359b599af5950988ef",
+      "md5": "c33a8cc99c08bac8f1b395933a4b5a0f"
     }
   ],
   "replication_commons": {
@@ -168,12 +193,48 @@
     "ai_assistance": "Substantial OpenAI Codex assistance",
     "license": "Apache-2.0 for adapted OpenAI source/proof; MIT for original supporting files.",
     "archived_in_version_1_0_0": false,
-    "archival_next_step": "Prepare one substantive new version in the existing Zenodo family once the submitted formalization packet is consolidated; do not rewrite the earlier archive or mint a separate contribution family.",
+    "archival_next_step": "Completed version 1.1.0 deposit; respond to substantive review findings and version future corrections.",
     "remaining": [
       "kernel-checked certificate soundness and UNSAT replay",
       "kernel binding to external serialized artifacts",
       "geometry/topology",
       "human review"
-    ]
-  }
+    ],
+    "archived_in_version_1_1_0": true,
+    "version_doi": "10.5281/zenodo.23530387"
+  },
+  "publication_history": [
+    {
+      "state": "published",
+      "version": "1.0.0",
+      "archive_publication_date": "2026-10-20",
+      "version_doi": "10.5281/zenodo.23498223",
+      "concept_doi": "10.5281/zenodo.23498222",
+      "zenodo_record": "https://zenodo.org/records/23498223",
+      "receipt": "versions/1.0.0/publication.json",
+      "public_downloads_verified": true,
+      "metadata_snapshot": "versions/1.0.0/record.json",
+      "artifacts": [
+        {
+          "filename": "family156-down-omission-v1.0.0.zip",
+          "bytes": 372704,
+          "sha256": "097bd50a164c3e83ebe55da692955ad74d02080d70894a915db6db043cd5a918",
+          "md5": "dd1cb6b22e5213a757f090a139a08d69"
+        },
+        {
+          "filename": "ARCHIVE-NOTE.md",
+          "bytes": 5092,
+          "sha256": "b0ddb29ea190fafbedbdfaee301e871a6af910e29e6ab10e3b9739082fa35b5a",
+          "md5": "87516c26da692fb1caf7365f87000c2a"
+        },
+        {
+          "filename": "CITATION.cff",
+          "bytes": 995,
+          "sha256": "7dd853b049fc11fe15f2a6435005f151769fc11f4d1d6d18c03b065f3d551d43",
+          "md5": "5019dee6450fff85e4c4a548ce303ddf"
+        }
+      ]
+    }
+  ],
+  "last_updated_at": "2026-10-21T09:33:00.606992+00:00"
 }

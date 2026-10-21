@@ -1,36 +1,60 @@
 {
-  "id": 23498223,
-  "doi": "10.5281/zenodo.23498223",
+  "id": 23530387,
+  "doi": "10.5281/zenodo.23530387",
   "conceptdoi": "10.5281/zenodo.23498222",
+  "conceptrecid": "23498222",
   "submitted": true,
   "state": "done",
-  "publication_date": "2026-10-20",
-  "observed_at": "2026-10-20T11:53:50.073171+00:00",
+  "publication_date": "2026-10-21",
+  "version": "1.1.0",
+  "observed_at": "2026-10-21T09:31:34.892152+00:00",
   "public_downloads_verified": true,
-  "public_verified_at": "2026-10-20T11:53:56.821674+00:00",
-  "public_api_url": "https://zenodo.org/api/records/23498223",
-  "public_record_url": "https://zenodo.org/records/23498223",
-  "public_record_created_at": "2026-10-20T11:53:49.445732+00:00",
-  "public_record_updated_at": "2026-10-20T11:53:49.855578+00:00",
-  "doi_resolver_target": "https://zenodo.org/records/23498223",
+  "previous_version_doi": "10.5281/zenodo.23498223",
+  "source_commit": "d3461179d6d7161ba3ae6241f09f1b160179b70a",
+  "upstream_pr": "https://github.com/piiiico/openai-math-counterexamples/pull/12",
+  "upstream_accepted_at_archive": false,
+  "public_verified_at": "2026-10-21T09:33:00.606992+00:00",
+  "public_api_url": "https://zenodo.org/api/records/23530387",
+  "public_record_url": "https://zenodo.org/records/23530387",
+  "public_record_created_at": "2026-10-21T09:31:33.841032+00:00",
+  "public_record_updated_at": "2026-10-21T09:31:34.179836+00:00",
+  "doi_resolver_target": "https://zenodo.org/records/23530387",
   "files": [
     {
-      "filename": "family156-down-omission-v1.0.0.zip",
-      "bytes": 372704,
-      "sha256": "097bd50a164c3e83ebe55da692955ad74d02080d70894a915db6db043cd5a918",
-      "url": "https://zenodo.org/api/records/23498223/files/family156-down-omission-v1.0.0.zip/content"
+      "filename": "family156-down-omission-v1.1.0.zip",
+      "bytes": 523639,
+      "sha256": "1a5ec2c76a349c81399dbb76a4c99b400df43c3f9422d8b53edee0607594a458",
+      "url": "https://zenodo.org/api/records/23530387/files/family156-down-omission-v1.1.0.zip/content"
     },
     {
       "filename": "ARCHIVE-NOTE.md",
-      "bytes": 5092,
-      "sha256": "b0ddb29ea190fafbedbdfaee301e871a6af910e29e6ab10e3b9739082fa35b5a",
-      "url": "https://zenodo.org/api/records/23498223/files/ARCHIVE-NOTE.md/content"
+      "bytes": 7365,
+      "sha256": "1bacb14900f0f1431bd7b169b414e3b9e6e5c411fcc164dbac126616579c10a3",
+      "url": "https://zenodo.org/api/records/23530387/files/ARCHIVE-NOTE.md/content"
     },
     {
       "filename": "CITATION.cff",
-      "bytes": 995,
-      "sha256": "7dd853b049fc11fe15f2a6435005f151769fc11f4d1d6d18c03b065f3d551d43",
-      "url": "https://zenodo.org/api/records/23498223/files/CITATION.cff/content"
+      "bytes": 1181,
+      "sha256": "a7e65dc88bc06a1e2e8448b03e5883dc8a28f09be7d2b2359b599af5950988ef",
+      "url": "https://zenodo.org/api/records/23530387/files/CITATION.cff/content"
     }
-  ]
+  ],
+  "public_zip_files": 96,
+  "public_zip_manifest_verified": true,
+  "previous_version_files_verified": [
+    {
+      "filename": "CITATION.cff",
+      "sha256": "7dd853b049fc11fe15f2a6435005f151769fc11f4d1d6d18c03b065f3d551d43"
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "sha256": "b0ddb29ea190fafbedbdfaee301e871a6af910e29e6ab10e3b9739082fa35b5a"
+    },
+    {
+      "filename": "family156-down-omission-v1.0.0.zip",
+      "sha256": "097bd50a164c3e83ebe55da692955ad74d02080d70894a915db6db043cd5a918"
+    }
+  ],
+  "central_id": "family156-down-omission",
+  "central_record": "https://github.com/queelius/research-records/tree/main/records/family156-down-omission"
 }

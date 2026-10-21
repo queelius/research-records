@@ -1,0 +1,36 @@
+{
+  "id": 23498223,
+  "doi": "10.5281/zenodo.23498223",
+  "conceptdoi": "10.5281/zenodo.23498222",
+  "submitted": true,
+  "state": "done",
+  "publication_date": "2026-10-20",
+  "observed_at": "2026-10-20T11:53:50.073171+00:00",
+  "public_downloads_verified": true,
+  "public_verified_at": "2026-10-20T11:53:56.821674+00:00",
+  "public_api_url": "https://zenodo.org/api/records/23498223",
+  "public_record_url": "https://zenodo.org/records/23498223",
+  "public_record_created_at": "2026-10-20T11:53:49.445732+00:00",
+  "public_record_updated_at": "2026-10-20T11:53:49.855578+00:00",
+  "doi_resolver_target": "https://zenodo.org/records/23498223",
+  "files": [
+    {
+      "filename": "family156-down-omission-v1.0.0.zip",
+      "bytes": 372704,
+      "sha256": "097bd50a164c3e83ebe55da692955ad74d02080d70894a915db6db043cd5a918",
+      "url": "https://zenodo.org/api/records/23498223/files/family156-down-omission-v1.0.0.zip/content"
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 5092,
+      "sha256": "b0ddb29ea190fafbedbdfaee301e871a6af910e29e6ab10e3b9739082fa35b5a",
+      "url": "https://zenodo.org/api/records/23498223/files/ARCHIVE-NOTE.md/content"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 995,
+      "sha256": "7dd853b049fc11fe15f2a6435005f151769fc11f4d1d6d18c03b065f3d551d43",
+      "url": "https://zenodo.org/api/records/23498223/files/CITATION.cff/content"
+    }
+  ]
+}

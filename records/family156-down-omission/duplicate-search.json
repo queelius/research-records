@@ -1,9 +1,18 @@
 {
-  "checked_at": "2026-10-20T11:45:23.888205+00:00",
-  "method": "Authenticated account depositions API; pages of 100 through final short page; title/metadata match for TenSystem, ten-label, downward closure, family156 and Borsuk",
+  "checked_at": "2026-10-21T09:18:36.537587+00:00",
+  "method": "Authenticated account depositions API, all pages through final short page, size=100",
   "pages": 2,
-  "depositions_examined": 117,
-  "matches": [],
-  "scope": "Account deposits including drafts; not all public Zenodo",
-  "duplicate_contribution_found": false
+  "depositions_examined": 125,
+  "matches": [
+    {
+      "id": 23498223,
+      "conceptrecid": "23498222",
+      "title": "A replayable certificate for the ten-label obstruction without downward closure",
+      "version": "1.0.0",
+      "submitted": true,
+      "doi": "10.5281/zenodo.23498223"
+    }
+  ],
+  "scope": "Account records including drafts; not a global Zenodo novelty search",
+  "target_conceptrecid": "23498222"
 }

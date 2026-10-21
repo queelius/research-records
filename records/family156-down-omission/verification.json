@@ -1,21 +1,29 @@
 {
-  "date": "2026-10-20T11:49:44.580107+00:00",
+  "checked_at": "2026-10-21T09:23:05.708166+00:00",
   "python": "3.13.15",
-  "source_commit": "c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9",
-  "public_files_bound": 55,
+  "source_commit": "d3461179d6d7161ba3ae6241f09f1b160179b70a",
+  "public_source_files": 79,
+  "previous_55_files_identical": true,
   "commands": [
     {
+      "id": "lean-binding",
       "command": [
         "python3",
         "-B",
-        "rows/156/finite_obstruction/no_down.py"
+        "rows/156/finite_obstruction/lean_bridge/check_lean_binding.py",
+        "--packet-dir",
+        "rows/156/finite_obstruction",
+        "--run-lean"
       ],
+      "cwd": ".",
+      "env": {},
       "expected_exit": 0,
       "actual_exit": 0,
-      "log": "archival-check-1.txt",
-      "elapsed_seconds": 32.339
+      "elapsed_seconds": 33.656,
+      "log": "archival-logs/lean-binding.txt"
     },
     {
+      "id": "certificate-tests",
       "command": [
         "python3",
         "-B",
@@ -26,48 +34,194 @@
         "rows/156/finite_obstruction",
         "-v"
       ],
+      "cwd": ".",
+      "env": {},
       "expected_exit": 0,
       "actual_exit": 0,
-      "log": "archival-check-2.txt",
-      "elapsed_seconds": 43.027
+      "elapsed_seconds": 40.268,
+      "log": "archival-logs/certificate-tests.txt"
     },
     {
+      "id": "bridge-tests",
       "command": [
         "python3",
-        "-O",
         "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_binding"
+      ],
+      "cwd": "rows/156/finite_obstruction/lean_bridge",
+      "env": {
+        "FAMILY156_PACKET_DIR": ".."
+      },
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "elapsed_seconds": 0.609,
+      "log": "archival-logs/bridge-tests.txt"
+    },
+    {
+      "id": "certificate-replay",
+      "command": [
+        "python3",
+        "-B",
+        "rows/156/finite_obstruction/no_down.py"
+      ],
+      "cwd": ".",
+      "env": {},
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "elapsed_seconds": 28.92,
+      "log": "archival-logs/certificate-replay.txt"
+    },
+    {
+      "id": "certificate-negative",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
         "rows/156/finite_obstruction/no_down.py",
         "--negative-control",
         "false-clause"
       ],
+      "cwd": ".",
+      "env": {},
       "expected_exit": 1,
       "actual_exit": 1,
-      "log": "archival-check-3.txt",
-      "elapsed_seconds": 0.2
+      "elapsed_seconds": 0.201,
+      "log": "archival-logs/certificate-negative.txt"
     },
     {
+      "id": "independent-negative",
       "command": [
         "python3",
-        "-O",
         "-B",
+        "-O",
         "rows/156/finite_obstruction/no_down_independent.py",
         "--negative-control",
         "truncated"
       ],
+      "cwd": ".",
+      "env": {},
       "expected_exit": 1,
       "actual_exit": 1,
-      "log": "archival-check-4.txt",
-      "elapsed_seconds": 0.114
+      "elapsed_seconds": 0.117,
+      "log": "archival-logs/independent-negative.txt"
+    },
+    {
+      "id": "bridge-negative-drop-clause",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "rows/156/finite_obstruction/lean_bridge/check_lean_binding.py",
+        "--packet-dir",
+        "rows/156/finite_obstruction",
+        "--negative-control",
+        "drop-clause"
+      ],
+      "cwd": ".",
+      "env": {},
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "elapsed_seconds": 0.224,
+      "log": "archival-logs/bridge-negative-drop-clause.txt"
+    },
+    {
+      "id": "bridge-negative-flip-literal",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "rows/156/finite_obstruction/lean_bridge/check_lean_binding.py",
+        "--packet-dir",
+        "rows/156/finite_obstruction",
+        "--negative-control",
+        "flip-literal"
+      ],
+      "cwd": ".",
+      "env": {},
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "elapsed_seconds": 0.203,
+      "log": "archival-logs/bridge-negative-flip-literal.txt"
+    },
+    {
+      "id": "bridge-negative-swap-variables",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "rows/156/finite_obstruction/lean_bridge/check_lean_binding.py",
+        "--packet-dir",
+        "rows/156/finite_obstruction",
+        "--negative-control",
+        "swap-variables"
+      ],
+      "cwd": ".",
+      "env": {},
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "elapsed_seconds": 0.137,
+      "log": "archival-logs/bridge-negative-swap-variables.txt"
     }
   ],
-  "tests": 29,
-  "primary_output_matches_public_source": true,
-  "full_independent_replay": {
-    "completed": true,
+  "certificate_tests": 29,
+  "bridge_tests": 17,
+  "source_to_cnf": "Kernel-checked implication; complete external variable/clause binding",
+  "main_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "certificate_replay": "Fresh staged watched-literal replay of all 18302 additions",
+  "inherited_replay": {
+    "kind": "full-scan bitmask replay",
     "additions": 18302,
     "elapsed_seconds": 935.9,
+    "rerun_this_visit": false,
     "log": "rows/156/finite_obstruction/no_down-independent-output.txt",
-    "note": "Completed before publication; unchanged source/certificate bytes bound to the public commit. Not repeated solely for archival packaging."
+    "reason": "Unchanged source/certificate bytes bound to prior verified public evidence; no expensive repeated full scan"
   },
-  "scope": "Finite certificate and written translation, not formal proof or human review."
+  "scope": "No kernel UNSAT proof, full source-project build, geometry, topology, or human peer review",
+  "cached_dependencies": "Pinned Lean/Mathlib cache reused; affected Lean module freshly rebuilt",
+  "actual_lean_version": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "actual_dependency_pins": [
+    {
+      "name": "mathlib",
+      "commit": "0df444a360eaa60ab8c11dca51a86af692955474"
+    },
+    {
+      "name": "plausible",
+      "commit": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb"
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "5f4d51b81cbd3f6b32b156bfad9056621a040404"
+    },
+    {
+      "name": "importGraph",
+      "commit": "16f02aa7642864af59f1ff0e384a015994db9118"
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+    },
+    {
+      "name": "aesop",
+      "commit": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e"
+    },
+    {
+      "name": "Qq",
+      "commit": "92c15be17b7caf78c2ad767ec40f89052d908d81"
+    },
+    {
+      "name": "batteries",
+      "commit": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d"
+    },
+    {
+      "name": "Cli",
+      "commit": "6130a47896ce867c6a4a55373441e59e565bad0f"
+    }
+  ]
 }

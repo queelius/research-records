@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-20T11:45:23.888205+00:00",
+  "method": "Authenticated account depositions API; pages of 100 through final short page; title/metadata match for TenSystem, ten-label, downward closure, family156 and Borsuk",
+  "pages": 2,
+  "depositions_examined": 117,
+  "matches": [],
+  "scope": "Account deposits including drafts; not all public Zenodo",
+  "duplicate_contribution_found": false
+}

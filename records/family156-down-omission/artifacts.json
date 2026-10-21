@@ -1,20 +1,20 @@
 [
   {
-    "filename": "family156-down-omission-v1.0.0.zip",
-    "bytes": 372704,
-    "sha256": "097bd50a164c3e83ebe55da692955ad74d02080d70894a915db6db043cd5a918",
-    "md5": "dd1cb6b22e5213a757f090a139a08d69"
+    "filename": "family156-down-omission-v1.1.0.zip",
+    "bytes": 523639,
+    "sha256": "1a5ec2c76a349c81399dbb76a4c99b400df43c3f9422d8b53edee0607594a458",
+    "md5": "91b33eda782c98874678354a416488e9"
   },
   {
     "filename": "ARCHIVE-NOTE.md",
-    "bytes": 5092,
-    "sha256": "b0ddb29ea190fafbedbdfaee301e871a6af910e29e6ab10e3b9739082fa35b5a",
-    "md5": "87516c26da692fb1caf7365f87000c2a"
+    "bytes": 7365,
+    "sha256": "1bacb14900f0f1431bd7b169b414e3b9e6e5c411fcc164dbac126616579c10a3",
+    "md5": "e48f43cdd689c9b67c20f216b9c460d5"
   },
   {
     "filename": "CITATION.cff",
-    "bytes": 995,
-    "sha256": "7dd853b049fc11fe15f2a6435005f151769fc11f4d1d6d18c03b065f3d551d43",
-    "md5": "5019dee6450fff85e4c4a548ce303ddf"
+    "bytes": 1181,
+    "sha256": "a7e65dc88bc06a1e2e8448b03e5883dc8a28f09be7d2b2359b599af5950988ef",
+    "md5": "c33a8cc99c08bac8f1b395933a4b5a0f"
   }
 ]

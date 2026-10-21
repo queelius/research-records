@@ -1,6 +1,25 @@
 {
-  "id": 23498223,
+  "id": 23530387,
+  "reserved_doi": "10.5281/zenodo.23530387",
+  "conceptrecid": "23498222",
+  "previous_version_id": 23498223,
   "submitted": false,
-  "reserved_doi": "10.5281/zenodo.23498223",
-  "conceptrecid": "23498222"
+  "created_at": "2026-10-21T09:20:07.316371+00:00",
+  "inherited_files": [
+    {
+      "filename": "CITATION.cff",
+      "bytes": 995,
+      "checksum": "5019dee6450fff85e4c4a548ce303ddf"
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 5092,
+      "checksum": "87516c26da692fb1caf7365f87000c2a"
+    },
+    {
+      "filename": "family156-down-omission-v1.0.0.zip",
+      "bytes": 372704,
+      "checksum": "dd1cb6b22e5213a757f090a139a08d69"
+    }
+  ]
 }

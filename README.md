@@ -106,9 +106,9 @@ publication metadata or handoff.
 
 - [Ten-label obstruction without downward closure](records/family156-down-omission/README.md).
   A complete RUP certificate corroborates Pico's earlier omission observation;
-  two replays and 29 tests pass. Accepted upstream, with additional maintainer
-  checks recorded separately; finite scope only.
-  [Archived version](https://doi.org/10.5281/zenodo.23498223).
+  version 1.1.0 adds a Lean forward reduction with exact external CNF binding.
+  All 46 focused tests pass. Certificate accepted; formalization review pending.
+  UNSAT replay remains external. [Exact archive](https://doi.org/10.5281/zenodo.23530387).
 - [Adjacent-domain disclosure from public occupancy in GBFPlus](records/gbfplus-public-occupancy-disclosure/README.md).
   Protocol-specific counterexample with written proofs, author approval, and
   reproducible finite checks. Archival preprint; no human peer review or journal
