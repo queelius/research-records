@@ -38,6 +38,12 @@ publication metadata or handoff.
 
 ## Records
 
+- [Expert Iteration: Experiments and Lessons](records/expert-iteration-lessons/README.md).
+  Pedagogical research archive with eight reconstructed comparisons and a local
+  learning/search example. The compact packet passes 59 tests; broader historical
+  limitations and unsuccessful controller comparisons are documented.
+  [Archived version](https://doi.org/10.5281/zenodo.23526852).
+
 - [Knapsack rounding guarantees for nested-logit assortments](records/nested-logit-knapsack-rounding/README.md).
   Two accepted Lean proofs establish the factor-two and small-item utility
   bounds for supplied optimal LP points. Established Gallego–Topaloglu

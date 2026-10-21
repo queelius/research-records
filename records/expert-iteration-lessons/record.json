@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "expert-iteration-lessons",
+  "title": "Expert Iteration: Experiments and Lessons",
+  "contribution_type": "pedagogical research archive and bounded empirical lessons",
+  "authors": [{"name": "Alexander Richard Towell", "orcid": "0000-0001-6443-9897", "affiliation": "Southern Illinois University Edwardsville"}],
+  "predecessor_credit": "Established expert-iteration and MCTS methods; queelius/reductio state-core predecessor by the same author; Qwen/Alibaba Cloud worker models, OpenAI coordinator, Hugging Face and Featherless inference infrastructure; OpenAI GSM8K and Dan Hendrycks MATH benchmark notices retained for historical material.",
+  "ai_assistance": "Substantial assistance in code, experiments, analysis, separate AI review, writing, and publication preparation. AI review is not human peer review.",
+  "claim": "A reproducible teaching and evidence archive recounts eight selected descriptive comparisons. E20 direct/imitated-controller outcomes were 8/20 versus 0/20. On 60 reused saved problems E41 independent revision supplied 55 correct candidates and E42 explicit routing solved 51; this was not cost matched. E47 child-local/full outcomes were 33/72 versus 24/72 within 12 source states, while the discovery-selected fixed child tied direct at 10/24 and target adaptation failed registered criteria.",
+  "sources": {
+    "owning_project": "expert-iteration",
+    "canonical_repository": "https://github.com/queelius/expert-iteration",
+    "source_git_commit": "a535c2b34f18894d3228090dce048b30ade3badd",
+    "source_url": "https://github.com/queelius/expert-iteration/tree/a535c2b34f18894d3228090dce048b30ade3badd",
+    "release": "https://github.com/queelius/expert-iteration/releases/tag/v1.0.0",
+    "canonical_source_archive": "https://zenodo.org/api/records/23526852/files/expert-iteration-v1.0.0.zip/content",
+    "archive_sha256": "611b41a69aa0728c860a4d165e3486584ee9817e47c32ac20af5a3f063c74f88",
+    "project_publication_receipt": "https://github.com/queelius/expert-iteration/blob/main/docs/publication.json"
+  },
+  "public_disclosure": {"date": "2026-10-21", "url": "https://github.com/queelius/expert-iteration", "basis": "Previously private source made public and README checked without authentication. Historical experiment and commit dates are private development dates, not a claimed prior disclosure."},
+  "scientific_status": {
+    "correctness": "Reconstruction of saved record-level outcomes plus tested classical demonstration",
+    "independent_mathematical_rescoring": false,
+    "fresh_model_inference": false,
+    "full_off_policy_rl_study_completed": false,
+    "novelty": "not established; no novel successful method claimed",
+    "human_peer_review": false,
+    "formal_verification": false
+  },
+  "verification": {
+    "date": "2026-10-21",
+    "compact_packet_tests_passed": 59,
+    "fresh_environment_seconds": 4.60,
+    "reconstructed_comparisons": 8,
+    "exact_table_files_matched": 2,
+    "packet_source_files": 133,
+    "credentials_or_models_required": false,
+    "network_control": "Python socket audit hook; not an OS-level sandbox",
+    "github_ci": "https://github.com/queelius/expert-iteration/actions/runs/39555674417",
+    "github_ci_conclusion": "success",
+    "fresh_ai_review": "No important archive/publication defects found; publication sequencing was verified.",
+    "public_downloads_verified": {"Zenodo": 4, "GitHub Releases": 4, "all_sha256_matched": true, "authentication_used": false}
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "archive_publication_date": "2026-10-21",
+    "version_doi": "10.5281/zenodo.23526852",
+    "concept_doi": "10.5281/zenodo.23526851",
+    "zenodo_record": "https://zenodo.org/records/23526852",
+    "public_downloads_verified": true,
+    "github_archived": false,
+    "github_archival_note": "Archival follows the final owning-project receipt commit; verify before final index publication."
+  },
+  "license": {"original_software": "MIT", "original_notes": "CC-BY-4.0", "third_party": "Model and benchmark notices in the packet's NOTICE and LICENSES; no worker model weights redistributed."},
+  "limitations": [
+    "Recorded correctness labels are recounted, not independently symbolically rechecked.",
+    "Reused outputs, small samples, development-state reuse, and unequal call budgets limit interpretation.",
+    "E47 repeated cells are grouped within 12 states; no new significance claim is introduced.",
+    "Three historical symbolic-replay checks exceeded 120-second limits; the full historical suite is not certified green.",
+    "The planned full off-policy RL and search-efficiency comparison was not completed.",
+    "No general controller impossibility, decomposition advantage, algorithmic novelty, peer review, or priority is established."
+  ],
+  "artifacts": [
+    {"filename": "expert-iteration-v1.0.0.zip", "bytes": 863122, "sha256": "611b41a69aa0728c860a4d165e3486584ee9817e47c32ac20af5a3f063c74f88", "public_url": "https://zenodo.org/api/records/23526852/files/expert-iteration-v1.0.0.zip/content", "verified_without_authentication": true},
+    {"filename": "CITATION.cff", "bytes": 1067, "sha256": "063e23c1d2855bf6900fbbc136481976e4df27ec20a14c264cf0f0ebcf02be6e", "public_url": "https://zenodo.org/api/records/23526852/files/CITATION.cff/content", "verified_without_authentication": true},
+    {"filename": "release-1.0.0.json", "bytes": 1716, "sha256": "e84146de266b75af0cde915551a76848812b11a1b7dfa217af48a300840c2198", "public_url": "https://zenodo.org/api/records/23526852/files/release-1.0.0.json/content", "verified_without_authentication": true},
+    {"filename": "RELEASE-1.0.0.md", "bytes": 4319, "sha256": "c78a85fe36e40505fed2cd229416bc32199da129262c640f988763e80fb84a4c", "public_url": "https://zenodo.org/api/records/23526852/files/RELEASE-1.0.0.md/content", "verified_without_authentication": true}
+  ]
+}

@@ -4,6 +4,11 @@
   "author_orcid": "0000-0001-6443-9897",
   "records": [
     {
+      "id": "expert-iteration-lessons",
+      "metadata": "records/expert-iteration-lessons/record.json",
+      "readme": "records/expert-iteration-lessons/README.md"
+    },
+    {
       "id": "tetrahedron-fixed-axis-barrier",
       "metadata": "records/tetrahedron-fixed-axis-barrier/record.json",
       "readme": "records/tetrahedron-fixed-axis-barrier/README.md"
