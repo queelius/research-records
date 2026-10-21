@@ -127,6 +127,11 @@
       "id": "relaxed-prs-mixed-regularity",
       "metadata": "records/relaxed-prs-mixed-regularity/record.json",
       "readme": "records/relaxed-prs-mixed-regularity/README.md"
+    },
+    {
+      "id": "overbooking-expected-revenue",
+      "metadata": "records/overbooking-expected-revenue/record.json",
+      "readme": "records/overbooking-expected-revenue/README.md"
     }
   ]
 }

@@ -38,6 +38,15 @@ publication metadata or handoff.
 
 ## Records
 
+- [Substitution overbooking: transportation duality and expected-revenue structure](records/overbooking-expected-revenue/README.md).
+  Four accepted Lean formalizations complete the transportation, service-value,
+  sample-path and expected-revenue chain under the platform's uncapacitated
+  virtual-class model. All four targets and fourteen platform modules reproduce;
+  five invalid controls reject. Karaesmen–van Ryzin, miao, Harry_Xu, platform
+  contributors and Lean/Mathlib retain specific credit. Metadata and an original
+  technical note are public; a self-contained DOI archive awaits confirmation
+  of legacy dependency redistribution grants.
+
 - [Mixed-regularity relaxed Peaceman–Rachford contraction](records/relaxed-prs-mixed-regularity/README.md).
   Four complete Lean formalizations establish both regularity orientations of
   the contraction theorem and its auxiliary, decrease and distance bounds.
