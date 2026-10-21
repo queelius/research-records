@@ -10,7 +10,7 @@ bound, and a complete avoiding coloring establishes the lower bound.
 The record also includes independently recertified earlier values
 `P_cop(7) = P_cop(8) = 13`, linear bounds, and the edited manuscript.
 
-The [owning project record](https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/research/records/coprime-paths/README.md)
+The [owning project record](https://github.com/queelius/computational-explorations/blob/161d39034acacdaa1dc04dfc28b4977ed693d74e/research/records/coprime-paths/README.md)
 contains the source, evidence, manuscript, reproduction commands, and next
 steps. This index does not duplicate the development workspace.
 Its [structured metadata](record.json) is generated from the owning record
@@ -34,12 +34,12 @@ observable events separately from the original proof and private work dates.
 Cite the exact archived version
 **[10.5281/zenodo.23497967](https://doi.org/10.5281/zenodo.23497967)**,
 published October 20, 2026, or use its
-[version-specific CFF](https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/research/records/coprime-paths/archive/CITATION.cff).
+[version-specific CFF](https://github.com/queelius/computational-explorations/blob/161d39034acacdaa1dc04dfc28b4977ed693d74e/research/records/coprime-paths/archive/CITATION.cff).
 The [publication receipt](publication.json) records the true archival date
 and matching public-download hashes. Earlier software and manuscript DOIs
 do not contain this follow-up.
 
-The [archival packet and recipe](https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/research/records/coprime-paths/archive/README.md)
+The [archival packet and recipe](https://github.com/queelius/computational-explorations/blob/161d39034acacdaa1dc04dfc28b4977ed693d74e/research/records/coprime-paths/archive/README.md)
 contain 79 pinned source files, complete finite certificates, the manuscript,
 and reproduction commands. All 180 packaged tests, 10 auxiliary tests, the
 nine-edge certificate checks, and the earlier eight-edge DRAT replay passed.
@@ -50,6 +50,16 @@ separately. Human mathematical review remains pending.
 Substantive updates should reuse the existing archive family
 `10.5281/zenodo.23497966`. Metadata-only maintenance does not warrant a new
 DOI version.
+
+## Contribution assessment, October 21
+
+The [owning project assessment](https://github.com/queelius/computational-explorations/blob/161d39034acacdaa1dc04dfc28b4977ed693d74e/docs/coprime-paths-contribution-assessment-2026-10-21.md)
+recommends holding journal submission. The edge bound and sharpness family
+come from published stability theory; uniqueness at equality is the possible
+structural increment, with novelty and human review still unresolved.
+The linked parameterized deduction is provisional and is not part of the
+October 20 DOI version. The existing archive remains the citation for the
+manuscript and evidence it actually contains; no new DOI was created.
 
 ## Maintain this entry
 
