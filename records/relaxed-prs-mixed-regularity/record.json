@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "id": "relaxed-prs-mixed-regularity",
+  "title": "Verified mixed-regularity contraction for relaxed Peaceman–Rachford splitting",
+  "contribution_type": "Complete Lean formalization of mixed-regularity relaxed PRS contraction and three supporting estimates",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "source_commit": "739385d54e937bf4af9aab356402aabd801d98f5",
+    "source_commit_scope": "Completed owning-project editorial record and its detailed lifecycle; the owning repository remains private.",
+    "record_path": "contributions/queelius/publications/relaxed-prs-mixed-regularity/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json",
+    "record_sha256": "7fd321daea87c190387a018a107439c4a7b7306ac73b10622e7850cff4ab8c25",
+    "record_url": "https://github.com/queelius/prove2me-contributions/blob/739385d54e937bf4af9aab356402aabd801d98f5/contributions/queelius/publications/relaxed-prs-mixed-regularity/record.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/relaxed-prs-mixed-regularity",
+  "claim": "For actual relaxed PRS iterates and a supplied fixed point in an arbitrary real Hilbert space, the exact C43 distance bound holds when strong convexity and smoothness lie in opposite summands, in either orientation. Also establishes the general auxiliary estimate and mixed decrease and distance bounds.",
+  "formal_targets": [
+    {
+      "theorem_id": "ded36067-74da-4a12-88c4-753e35cf4699",
+      "theorem_name": "RelaxedPRS.Linear.theorem_4_3",
+      "url": "https://prove2.me/theorems/ded36067-74da-4a12-88c4-753e35cf4699",
+      "exact_statement": "targets/ded36067-74da-4a12-88c4-753e35cf4699.json",
+      "proof_type": "prove",
+      "proof_sha256": "5679ce01586722a6f2f9f1d3170f3c2df17e77a654d49d9818c13136a7a4a0ec",
+      "proof_file": "contributions/queelius/proofs/RelaxedPRS_Linear_theorem_4_3.lean"
+    },
+    {
+      "theorem_id": "16f4b53e-0863-4db1-9951-a3938fb23e26",
+      "theorem_name": "RelaxedPRS.Linear.eq_2_1",
+      "url": "https://prove2.me/theorems/16f4b53e-0863-4db1-9951-a3938fb23e26",
+      "exact_statement": "targets/16f4b53e-0863-4db1-9951-a3938fb23e26.json",
+      "proof_type": "prove",
+      "proof_sha256": "11ff6462b073aae27b53ece8d7c49310dc1a12729524ac7b091e04e786162ec4",
+      "proof_file": "contributions/queelius/proofs/RelaxedPRS_Linear_eq_2_1.lean"
+    },
+    {
+      "theorem_id": "e22686e8-c522-4dcf-92e0-85b2b06845a5",
+      "theorem_name": "RelaxedPRS.Linear.eq_4_6",
+      "url": "https://prove2.me/theorems/e22686e8-c522-4dcf-92e0-85b2b06845a5",
+      "exact_statement": "targets/e22686e8-c522-4dcf-92e0-85b2b06845a5.json",
+      "proof_type": "prove",
+      "proof_sha256": "291c364746cacacc83b05fa927ad2e7a35a407467a24574b0da5046773fbb23f",
+      "proof_file": "contributions/queelius/proofs/RelaxedPRS_Linear_eq_4_6.lean"
+    },
+    {
+      "theorem_id": "a9c4e53c-f0c7-4244-966f-8a711de1458e",
+      "theorem_name": "RelaxedPRS.Linear.eq_4_7",
+      "url": "https://prove2.me/theorems/a9c4e53c-f0c7-4244-966f-8a711de1458e",
+      "exact_statement": "targets/a9c4e53c-f0c7-4244-966f-8a711de1458e.json",
+      "proof_type": "prove",
+      "proof_sha256": "2d7fb4398e5fa8b89f170d180f8117cec58470fe25f166e1106290257f9aa61c",
+      "proof_file": "contributions/queelius/proofs/RelaxedPRS_Linear_eq_4_7.lean"
+    }
+  ],
+  "assumptions": {
+    "space": "Arbitrary complete real inner-product space.",
+    "objectives": "Proper closed convex extended-real f,g; actual proximal maps supplied at positive gamma.",
+    "iteration": "z(k+1)=(1-lambda(k))*z(k)+lambda(k)*TPRS(z(k));0<lambda(k)<=1; a fixed point zs is supplied.",
+    "regularity": "Positive mu,beta. Either f is mu-strongly convex and g has a smooth convex real representative with beta^-1-Lipschitz gradient, or vice versa.",
+    "factor": "sqrt(1-(4*lambda/3)*min(gamma*mu,beta/gamma,1-lambda))",
+    "auxiliary_estimate": "Four nonnegative regularity parameters; smooth representatives required only when the corresponding beta is positive. Full exact signatures in targets/ are authoritative."
+  },
+  "mathematical_source": {
+    "url": "https://arxiv.org/pdf/1407.5210v3",
+    "sha256": "34390533dc1bcd55e44702ac162785070d73337dc59681aa42af4247a63eb5f5",
+    "bytes": 534129,
+    "retrieved_at": "2026-10-21T18:34:57.058501+00:00",
+    "version": "arXiv1407.5210v3,1May2015",
+    "authors": [
+      "Damek Davis",
+      "Wotao Yin"
+    ],
+    "title": "Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions",
+    "identifier": "arXiv:1407.5210v3",
+    "year": 2015,
+    "inspected_scope": "Proximal definitions and identities, Theorem2.1 printed p8 and Theorem4.3/Equations4.6–4.7 printed p16; both regularity orientations.",
+    "redistributed": false
+  },
+  "predecessor_credit": [
+    {
+      "authors": [
+        "Damek Davis",
+        "Wotao Yin"
+      ],
+      "contribution": "Source mathematics and exposition; not coauthors or reviewers of this formalization."
+    },
+    {
+      "username": "vebis",
+      "contribution": "Actual accepted proximal optimality and Lemma1.1 identities; full unchanged source preserved."
+    },
+    {
+      "username": "Nickrobbins95",
+      "contribution": "Actual accepted cocoercivity source with arbitrary-Hilbert-space Bregman helpers; full original preserved."
+    },
+    {
+      "name": "Sébastien Bubeck",
+      "contribution": "Convex Optimization: Algorithms and Complexity, arXiv1405.4980v2 Equation3.6, as cited by the reused Nickrobbins95 target. This predecessor credit is inherited; its PDF was not independently reaudited for this release."
+    },
+    {
+      "username": "mikedeng1",
+      "contribution": "PRS platform mission, formulation and five shared definitions; graph creator fields inspected."
+    },
+    {
+      "name": "Shuze Chen",
+      "contribution": "Prior platform statement confirmation, distinct from review of these submitted proofs."
+    },
+    {
+      "name": "Lean and Mathlib contributors",
+      "contribution": "Kernel, Hilbert-space, extended-real, convexity and calculus infrastructure."
+    }
+  ],
+  "reuse": [
+    {
+      "target_id": "b72bd839-b11e-4579-b12f-f4a6c8917b38",
+      "submission_id": "05c9efab-f383-4246-9b37-0f8d70146e9c",
+      "username": "vebis",
+      "source_sha256": "d635574e3dbda5741300611efad28dd625157b9ed6c4bf8e02d8f1d47af9865b",
+      "source_file": "prior-proofs/b72bd839-b11e-4579-b12f-f4a6c8917b38.lean",
+      "reuse_scope": "Entire accepted implementation retained inline, with imports consolidated and final theorem renamed. Proximal optimality helpers.",
+      "accepted_at": "2026-10-21T02:08:31.0968+00:00",
+      "submitted_at": "2026-10-21T02:07:11.076779+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "url": "https://prove2.me/theorems/b72bd839-b11e-4579-b12f-f4a6c8917b38",
+      "license": "Apache-2.0"
+    },
+    {
+      "target_id": "b87fc60c-8443-4f94-a2bf-ee91e2e76419",
+      "submission_id": "c6fcafeb-50fe-420d-82d0-bff8eb1bd958",
+      "username": "Nickrobbins95",
+      "source_sha256": "06d41173c5fd6579799cd27345c5b723ddc3107c9fa830d7973048d6e4be2ef0",
+      "source_file": "prior-proofs/b87fc60c-8443-4f94-a2bf-ee91e2e76419.lean",
+      "reuse_scope": "Entire accepted implementation retained inline, with imports consolidated and final theorem renamed. Arbitrary-Hilbert-space Bregman/cocoercivity helpers.",
+      "accepted_at": "2026-10-06T17:40:45.050172+00:00",
+      "submitted_at": "2026-10-06T17:38:29.919744+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "url": "https://prove2.me/theorems/b87fc60c-8443-4f94-a2bf-ee91e2e76419",
+      "license": "Apache-2.0"
+    }
+  ],
+  "human_role": "Alexander Richard Towell directed the research, verification standards and publication and stewards the archive. Independent human proof review is not claimed.",
+  "ai_assistance": "OpenAI Codex substantially constructed, checked, submitted and documented the proofs and assembled this packet. AI assistance is not human peer review.",
+  "source_definitions": [
+    {
+      "path": "Definitions/Def_ConvexOptAlg_StrongGD_Defs.lean",
+      "sha256": "e56f8a0dd9a5a9a8237bba4cf365f53eb8e04a45fcb5319a90947879768f8e95",
+      "platform_definition_id": "352ffef5-6bcb-484a-b1be-938877cc5ed8",
+      "source": "Bubeck, arXiv:1405.4980v2, §3.2, p. 266; Eq. (3.1), p. 262; proof of Lemma 3.11, p. 279",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "ConvexOptAlg_StrongGD_Defs",
+      "created_at": "2026-10-05T17:00:08.922037+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_RelaxedPRS_StrongCvx_Setting.lean",
+      "sha256": "15b36637f2d407e6b359e99a8725663bb07068f8fdfacd55aca4e737dd954b29",
+      "platform_definition_id": "864674dd-483e-451e-b14f-57edfb591914",
+      "source": "Davis & Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3, pp. 3–8, §1.2, Algorithm 1, Lemma 1.1, (1.14)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "RelaxedPRS_StrongCvx_Setting",
+      "created_at": "2026-10-07T23:10:58.840375+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_RelaxedPRS_BestIter_Setting.lean",
+      "sha256": "935ed255a930a9bb424c4ef06204bd6ad79239dd89f8fbdd765d51cdb7b1bd83",
+      "platform_definition_id": "0e1cbeb0-f321-40c3-ab66-668a6cf9fcb6",
+      "source": "Davis & Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3, p. 7, Lemma 1.1; p. 10, §3 (objective error f(x)+g(x)−f(x*)−g(x*))",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "RelaxedPRS_BestIter_Setting",
+      "created_at": "2026-10-08T00:21:35.623725+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_RelaxedPRS_Linear_Setting.lean",
+      "sha256": "ac2e2a8fa39f00a9358686b79c882140f0a8ac8556f8cc302d50144af1b68166",
+      "platform_definition_id": "44404767-0ae8-488b-84ca-61ecba1f7d98",
+      "source": "Davis & Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3, pp. 4–8, §1.2, Algorithm 1, Lemma 1.1, (1.14), and pp. 14–16, Theorems 4.1–4.3",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "RelaxedPRS_Linear_Setting",
+      "created_at": "2026-10-08T01:22:14.995155+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_ThreeOpSplitting_ConvexRates_Problem.lean",
+      "sha256": "308b9fe5ee31f68530b64ce58f9922c81af7a437716cffd7d1319eeece8d82e2",
+      "platform_definition_id": "e90f0eef-016c-411e-861a-96f47bf7d79d",
+      "source": "Davis and Yin, A Three-Operator Splitting Scheme and its Optimization Applications, Set-Valued Var. Anal. 25 (2017), https://doi.org/10.1007/s11228-017-0421-z, p. 838, Section 3.1, problem (3.1) and Algorithm 2",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "ThreeOpSplitting_ConvexRates_Problem",
+      "created_at": "2026-09-27T11:53:09.180999+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_MoreauProx_Characterization_GammaZero.lean",
+      "sha256": "57aa960360d60d97644e84fb3314d958b8a2b38723f1f178f9ba499a5b3bf17c",
+      "platform_definition_id": "96c21383-8dc6-483d-84de-70fd298d6fcf",
+      "source": "Moreau, Proximité et dualité dans un espace hilbertien, Bull. Soc. Math. France 93 (1965), pp. 275–277, §2.a, (2.2), §2.c",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "MoreauProx_Characterization_GammaZero",
+      "created_at": "2026-09-27T16:15:46.293192+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    }
+  ],
+  "public_disclosures": [
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T18:54:03.209992+00:00",
+      "url": "https://prove2.me/theorems/ded36067-74da-4a12-88c4-753e35cf4699",
+      "theorem_id": "ded36067-74da-4a12-88c4-753e35cf4699",
+      "submission_id": "23766413-5769-4c79-8267-9febba86ff5e",
+      "scope": "Exact submission to a public target; API source downloads require authentication. Archive publication is a separate event."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T18:50:02.211324+00:00",
+      "url": "https://prove2.me/theorems/16f4b53e-0863-4db1-9951-a3938fb23e26",
+      "theorem_id": "16f4b53e-0863-4db1-9951-a3938fb23e26",
+      "submission_id": "e583e3ff-d602-4f4c-90f6-06938190b313",
+      "scope": "Exact submission to a public target; API source downloads require authentication. Archive publication is a separate event."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T18:52:33.059589+00:00",
+      "url": "https://prove2.me/theorems/e22686e8-c522-4dcf-92e0-85b2b06845a5",
+      "theorem_id": "e22686e8-c522-4dcf-92e0-85b2b06845a5",
+      "submission_id": "03a90fc9-a6aa-4a8e-882a-46585954a2cb",
+      "scope": "Exact submission to a public target; API source downloads require authentication. Archive publication is a separate event."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T18:44:11.800099+00:00",
+      "url": "https://prove2.me/theorems/a9c4e53c-f0c7-4244-966f-8a711de1458e",
+      "theorem_id": "a9c4e53c-f0c7-4244-966f-8a711de1458e",
+      "submission_id": "6a6c5908-54ab-48ad-9a1d-a57fabbe09c9",
+      "scope": "Exact submission to a public target; API source downloads require authentication. Archive publication is a separate event."
+    }
+  ],
+  "acceptance": [
+    {
+      "theorem_id": "ded36067-74da-4a12-88c4-753e35cf4699",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T18:55:43.475705+00:00",
+      "submission_id": "23766413-5769-4c79-8267-9febba86ff5e",
+      "observed_at": "2026-10-21T19:05:18.807527+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "16f4b53e-0863-4db1-9951-a3938fb23e26",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T18:51:57.563733+00:00",
+      "submission_id": "e583e3ff-d602-4f4c-90f6-06938190b313",
+      "observed_at": "2026-10-21T19:05:18.807527+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "e22686e8-c522-4dcf-92e0-85b2b06845a5",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T18:54:21.619061+00:00",
+      "submission_id": "03a90fc9-a6aa-4a8e-882a-46585954a2cb",
+      "observed_at": "2026-10-21T19:05:18.807527+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "a9c4e53c-f0c7-4244-966f-8a711de1458e",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T18:45:56.236639+00:00",
+      "submission_id": "6a6c5908-54ab-48ad-9a1d-a57fabbe09c9",
+      "observed_at": "2026-10-21T19:05:18.807527+00:00",
+      "download_matches_verified_bytes": true
+    }
+  ],
+  "verification": {
+    "lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "autoImplicit": false,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exact_type_audits": true,
+    "open_proof_dependencies": [],
+    "fresh_archive_reproduction": "PASS",
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false,
+    "receipt": "archival-verification.json",
+    "staged_packet_receipt": "archival-verification.json",
+    "rejecting_controls": [
+      "AddedHypothesis1",
+      "ExtraAxiomControl",
+      "AddedHypothesis2",
+      "AddedHypothesis3",
+      "AddedHypothesis4",
+      "proof-byte-mutation"
+    ],
+    "staged_packet_verified_at": "2026-10-21T19:10:22.942152+00:00",
+    "staged_packet_reproduction": "PASS",
+    "extracted_archive_reproduction": "PASS",
+    "public_downloads_match": true,
+    "packet_file_count": 94,
+    "publication_receipt": "publication.json"
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23543153",
+    "concept_doi": "10.5281/zenodo.23543152",
+    "archival_status": "published",
+    "readiness": "Four-proof first edition published; all 3 public files and all 94 internal packet files verified.",
+    "record_id": 23543153,
+    "note": "The frozen archive records the reserved state at packaging. The separate publication receipt establishes public availability and final extracted reproduction.",
+    "url": "https://zenodo.org/records/23543153",
+    "publication_date": "2026-10-21",
+    "published_at": "2026-10-21T19:17:56.067214+00:00",
+    "published_at_basis": "Deposition submitted_at or modified timestamp observed after the single publish request. This is an observed server timestamp, not an independently established exact first-public-access instant; publication_date is separate.",
+    "verified_at": "2026-10-21T19:18:22.782916+00:00",
+    "receipt": "publication.json",
+    "doi_resolution_verified": true,
+    "doi_last_checked_at": "2026-10-21T19:18:21.761586+00:00"
+  },
+  "license": "Apache-2.0",
+  "limitations": [
+    "Formalization of established mathematics; no mathematical novelty, exhaustive priority search, source-author endorsement or independent human peer review claimed.",
+    "Proximal maps and a fixed point are supplied; their existence is not proved by this target.",
+    "At lambda=1 the displayed factor is1. No uniform strict rate for arbitrary relaxation schedules is claimed.",
+    "ADMM translations, nonlinear objectives beyond the supplied regularity assumptions and broader source-paper theorems are outside the four exact targets.",
+    "Reused community proofs are not additional queelius targets.",
+    "Verified pinned compiled third-party caches are trusted inputs; no Lean/Mathlib bootstrap verification."
+  ],
+  "history": [
+    {
+      "at": "2026-10-21T19:07:46.937855+00:00",
+      "version": "1.0.0",
+      "scope": "First coherent four-target archive of accepted October21 PRS formalizations. Archival publication adds no new platform target.",
+      "publication_date": "2026-10-21",
+      "version_doi": "10.5281/zenodo.23543153",
+      "publication_receipt": "publication.json"
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "relaxed-prs-mixed-regularity-v1.0.0.zip",
+      "bytes": 232918,
+      "sha256": "b47c404e3e0335085e82159212d606fb4f7c5c55f47b69f6f8dc7ed79b47d624",
+      "download_url": "https://zenodo.org/api/records/23543153/files/relaxed-prs-mixed-regularity-v1.0.0.zip/content",
+      "repository_path": "artifacts/relaxed-prs-mixed-regularity-v1.0.0.zip"
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 7514,
+      "sha256": "0e48aa4191e3520d977bb795ac251ce9d10bcd7b9f2c23d3c35ca5436967d5f3",
+      "download_url": "https://zenodo.org/api/records/23543153/files/NOTE.md/content",
+      "repository_path": "records/relaxed-prs-mixed-regularity/NOTE.md"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1636,
+      "sha256": "7cc55b9347026fa63621024de0009597991165a0a4687b02bc11307a6792f2da",
+      "download_url": "https://zenodo.org/api/records/23543153/files/CITATION.cff/content",
+      "repository_path": "records/relaxed-prs-mixed-regularity/CITATION.cff"
+    }
+  ]
+}

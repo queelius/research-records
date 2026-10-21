@@ -122,6 +122,11 @@
       "id": "quasi-newton-least-change",
       "metadata": "records/quasi-newton-least-change/record.json",
       "readme": "records/quasi-newton-least-change/README.md"
+    },
+    {
+      "id": "relaxed-prs-mixed-regularity",
+      "metadata": "records/relaxed-prs-mixed-regularity/record.json",
+      "readme": "records/relaxed-prs-mixed-regularity/README.md"
     }
   ]
 }

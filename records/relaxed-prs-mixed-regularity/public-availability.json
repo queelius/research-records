@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-21T19:18:21.761586+00:00",
+  "authenticated": false,
+  "observations": [
+    {
+      "url": "https://zenodo.org/records/23543153",
+      "status": 200,
+      "final_url": "https://zenodo.org/records/23543153",
+      "bytes": 117436,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://zenodo.org/api/records/23543153",
+      "status": 200,
+      "final_url": "https://zenodo.org/api/records/23543153",
+      "bytes": 9710,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.23543153",
+      "status": 200,
+      "final_url": "https://zenodo.org/records/23543153",
+      "bytes": 117436,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.23543153",
+      "status": 200,
+      "final_url": "https://api.datacite.org/dois/10.5281/zenodo.23543153",
+      "bytes": 18669,
+      "content_type": "application/json; charset=utf-8"
+    }
+  ]
+}

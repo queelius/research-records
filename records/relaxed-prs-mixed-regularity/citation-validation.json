@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-21T19:14:47.987752+00:00",
+  "schema_url": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json",
+  "schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+  "cff_sha256": "7cc55b9347026fa63621024de0009597991165a0a4687b02bc11307a6792f2da",
+  "status": "passed",
+  "scope": "Final exact CFF including reserved DOI. YAML dates converted to strings as required by the CFF schema.",
+  "validation_adapter_note": "An initial validation used raw PyYAML date objects and rejected the schema type. Normalizing YAML dates to strings resolved this adapter issue; CFF bytes unchanged."
+}

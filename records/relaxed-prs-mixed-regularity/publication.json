@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "record_id": 23543153,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23543153",
+  "concept_doi": "10.5281/zenodo.23543152",
+  "url": "https://zenodo.org/records/23543153",
+  "state": "published",
+  "published_at": "2026-10-21T19:17:56.067214+00:00",
+  "verified_at": "2026-10-21T19:18:22.782916+00:00",
+  "public_metadata_http_status": 200,
+  "public_metadata_authenticated": false,
+  "all_public_downloads_match": true,
+  "files": [
+    {
+      "filename": "relaxed-prs-mixed-regularity-v1.0.0.zip",
+      "bytes": 232918,
+      "sha256": "b47c404e3e0335085e82159212d606fb4f7c5c55f47b69f6f8dc7ed79b47d624",
+      "download_url": "https://zenodo.org/api/records/23543153/files/relaxed-prs-mixed-regularity-v1.0.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 7514,
+      "sha256": "0e48aa4191e3520d977bb795ac251ce9d10bcd7b9f2c23d3c35ca5436967d5f3",
+      "download_url": "https://zenodo.org/api/records/23543153/files/NOTE.md/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1636,
+      "sha256": "7cc55b9347026fa63621024de0009597991165a0a4687b02bc11307a6792f2da",
+      "download_url": "https://zenodo.org/api/records/23543153/files/CITATION.cff/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "packet_manifest_sha256": "74c4a5dcfef1d9835ac99d57cde9a1945bc9548e43b56a36dab99cb915d2b789",
+  "packet_file_count": 94,
+  "all_packet_files_verified": true,
+  "archive_rebuild_byte_identical": true,
+  "reproduction": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 4,
+    "definitions": 6,
+    "exact_target_audits": true,
+    "rejection_controls": 6
+  },
+  "note": "Publication date is distinct from original October21 public proof submissions. The frozen packet records its reserved state at assembly; this receipt establishes publication.",
+  "publication_date": "2026-10-21",
+  "published_at_basis": "Deposition submitted_at or modified timestamp observed after the single publish request. This is an observed server timestamp, not an independently established exact first-public-access instant; publication_date is separate."
+}

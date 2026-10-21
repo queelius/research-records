@@ -38,6 +38,15 @@ publication metadata or handoff.
 
 ## Records
 
+- [Mixed-regularity relaxed Peaceman–Rachford contraction](records/relaxed-prs-mixed-regularity/README.md).
+  Four complete Lean formalizations establish both regularity orientations of
+  the contraction theorem and its auxiliary, decrease and distance bounds.
+  The [version 1.0.0 archive](https://zenodo.org/records/23543153) includes exact proofs,
+  six definitions, original community sources, full-type audits and six rejecting
+  controls. Davis–Yin mathematics, vebis and Nickrobbins95 proof reuse, Bubeck
+  attribution and substantial Codex assistance are explicit. Fixed-point existence
+  and a uniform strict rate for arbitrary relaxation schedules are outside scope.
+
 - [Weighted Hilbert–Schmidt least-change updates and DFP](records/quasi-newton-least-change/README.md).
   Two complete Lean formalizations characterize the unique weighted secant
   perturbation and its DFP specialization under the supplied invertible factor.

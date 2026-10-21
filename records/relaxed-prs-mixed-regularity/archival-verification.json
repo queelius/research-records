@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-21T19:10:22.942152+00:00",
+  "status": "passed",
+  "accepted_targets_recompiled": 4,
+  "definition_modules_rebuilt": [
+    "Definitions.Def_ThreeOpSplitting_ConvexRates_Problem",
+    "Definitions.Def_MoreauProx_Characterization_GammaZero",
+    "Definitions.Def_RelaxedPRS_StrongCvx_Setting",
+    "Definitions.Def_RelaxedPRS_BestIter_Setting",
+    "Definitions.Def_RelaxedPRS_Linear_Setting",
+    "Definitions.Def_ConvexOptAlg_StrongGD_Defs"
+  ],
+  "exact_type_audits": true,
+  "autoImplicit": false,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "fresh_report": "verification/reproduction.json",
+  "fresh_report_sha256": "e4f75adeffca42d02dbab255521a660cb4f86b1a8fb0fcf70cb9ae2b266f71ac",
+  "controls": [
+    {
+      "name": "AddedHypothesis1",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Application type mismatch",
+      "source_file": "verification/controls/AddedHypothesis1.lean",
+      "source_sha256": "c2423305ff1fb95116be9f0626b3706f39bb9382358abfdd9c48c628c115d828",
+      "log_file": "verification/controls/AddedHypothesis1.log",
+      "log_sha256": "023290ce950794845d54be6f29c195f06e619584fa51566cd2f8a62411994610",
+      "original_log_sha256": "1f2411317abccfe98f093b1c324f9d174b571df90dcc5c025f86529acda8c66d"
+    },
+    {
+      "name": "ExtraAxiomControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Local axiom is forbidden",
+      "source_file": "verification/controls/ExtraAxiomControl.lean",
+      "source_sha256": "7acd034f340016b893f0bbcb7e7ab5431f60fd06ee6ba44d234b8a593b6d0f58",
+      "log_file": "verification/controls/ExtraAxiomControl.log",
+      "log_sha256": "91924fc029fd359daf73b3bb32ef9dbcfe0bb9d0d708d0258601dc816a06b60c",
+      "original_log_sha256": "31329e1c905f4fe4ba753d52152208904be24150c8f8b3f6916a22be9031e6dc"
+    },
+    {
+      "name": "AddedHypothesis2",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Application type mismatch",
+      "source_file": "verification/controls/AddedHypothesis2.lean",
+      "source_sha256": "5be5c8e0ca9ecc4f939f12c18a39741ffefb98f8043f5418b49282c276336012",
+      "log_file": "verification/controls/AddedHypothesis2.log",
+      "log_sha256": "4f141d6de08a6c6d2a49125866dbbde0104c6c447626ad885791c8390015db52",
+      "original_log_sha256": "b49e8023427694fae51ea1f7a145af18e2f5e8a0fa01ec8d8e7062318bed02ef"
+    },
+    {
+      "name": "AddedHypothesis3",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Application type mismatch",
+      "source_file": "verification/controls/AddedHypothesis3.lean",
+      "source_sha256": "c7c6291a59a33026ba0f7fd9a394b473af5160b6760e8ec6494063b1892b722e",
+      "log_file": "verification/controls/AddedHypothesis3.log",
+      "log_sha256": "59ca465e117a3407e1b84bebcedf15772c1dfad4dc2675a9359aada454bce3d1",
+      "original_log_sha256": "e3037d22915bea9279d4a80da22b34acacbb2319d0ade265a2fcd526355d8799"
+    },
+    {
+      "name": "AddedHypothesis4",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Application type mismatch",
+      "source_file": "verification/controls/AddedHypothesis4.lean",
+      "source_sha256": "ac064bc584d4679ba52849440f8b943dc80f60a32f6e8abe1a5249b406a867f7",
+      "log_file": "verification/controls/AddedHypothesis4.log",
+      "log_sha256": "380585a7cdf26b5f277399ff0a629adaaaf1bce6e74ada6f2c169a9195306065",
+      "original_log_sha256": "29ec8eed8adee42e32f8bd210acd065f8356eeeb01c3595215736f7c3c104885"
+    },
+    {
+      "name": "proof-byte-mutation",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "scope": "Append one newline to an accepted proof in an isolated packet copy; unchanged integrity verifier must reject its hash.",
+      "log_file": "verification/controls/proof-byte-mutation.log",
+      "log_sha256": "0853087c2db4fc7c88f8c87f13af02eafba78b01e3a56558e066ffb7ffdab2e0",
+      "original_log_sha256": "32c5d01b6c2db20f81dacf3e61575836d1f50deba4cb5f9caf870c992a80f05d"
+    }
+  ],
+  "tooling_regression": {
+    "tests_passed": 130,
+    "combined_coverage_percent": 92.27129337539432,
+    "scope": "Unchanged established archive verifier; owning-project unit/integration suite passed on2026-10-21 before packet preparation. Defensive setup/cleanup branches remain uncovered."
+  },
+  "cache_policy": "Verified pinned third-party compiled caches reused; all six platform definitions compiled freshly. No Lean/Mathlib bootstrap verification.",
+  "human_peer_review": false,
+  "paths_relative_to": "archival packet root"
+}

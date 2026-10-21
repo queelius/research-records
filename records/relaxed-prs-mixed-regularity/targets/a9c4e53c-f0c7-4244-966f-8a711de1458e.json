@@ -1,0 +1,10 @@
+{
+  "theorem_id": "a9c4e53c-f0c7-4244-966f-8a711de1458e",
+  "theorem_name": "RelaxedPRS.Linear.eq_4_7",
+  "status": "Proved",
+  "formal_statement": "namespace RelaxedPRS.Linear\n\n/-- (4.7), proof of Theorem 4.3, p. 16: the fixed-point distance bound. -/\ntheorem eq_4_7 {H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℝ H] [CompleteSpace H]\n    (f g : H → EReal)\n    (hf : ThreeOpSplitting.ConvexRates.IsProperClosedConvex f)\n    (hg : ThreeOpSplitting.ConvexRates.IsProperClosedConvex g)\n    (γ : ℝ) (hγ : 0 < γ) (Pf Pg : H → H)\n    (hPf : ThreeOpSplitting.ConvexRates.IsProx γ f Pf)\n    (hPg : ThreeOpSplitting.ConvexRates.IsProx γ g Pg)\n    (lam : ℕ → ℝ) (hlam : ∀ k, 0 < lam k ∧ lam k ≤ 1)\n    (z : ℕ → H) (hz : RelaxedPRS.StrongCvx.IsPRSRun Pf Pg lam z)\n    (zs : H) (hzs : RelaxedPRS.StrongCvx.TPRS Pf Pg zs = zs)\n    (β : ℝ) (hβ : 0 < β)\n    (h : H → ℝ) (hgh : ∀ x, g x = (h x : EReal))\n    (hh : ThreeOpSplitting.ConvexRates.IsSmoothConvex β h) :\n    ∀ k, ‖z k - zs‖ ^ 2 ≤ 3 *\n      (‖RelaxedPRS.StrongCvx.xf Pf Pg (z k) - RelaxedPRS.StrongCvx.xg Pg zs‖ ^ 2 +\n       ‖γ • gradient h (RelaxedPRS.StrongCvx.xg Pg (z k)) - γ • gradient h (RelaxedPRS.StrongCvx.xg Pg zs)‖ ^ 2 +\n       ‖RelaxedPRS.StrongCvx.xg Pg (z k) - RelaxedPRS.StrongCvx.xf Pf Pg (z k)‖ ^ 2) := by sorry\nend RelaxedPRS.Linear\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_RelaxedPRS_Linear_Setting",
+  "source": "Davis & Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3, p. 16, proof of Theorem 4.3, (4.7)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}
