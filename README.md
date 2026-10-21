@@ -91,7 +91,8 @@ publication metadata or handoff.
 
 - [Ten-label obstruction without downward closure](records/family156-down-omission/README.md).
   A complete RUP certificate corroborates Pico's earlier omission observation;
-  two replays and 29 tests pass. Finite scope only; upstream review pending.
+  two replays and 29 tests pass. Accepted upstream, with additional maintainer
+  checks recorded separately; finite scope only.
   [Archived version](https://doi.org/10.5281/zenodo.23498223).
 - [Adjacent-domain disclosure from public occupancy in GBFPlus](records/gbfplus-public-occupancy-disclosure/README.md).
   Protocol-specific counterexample with written proofs, author approval, and

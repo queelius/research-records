@@ -54,9 +54,13 @@
   },
   "upstream_acceptance": {
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/11",
-    "state": "open; no comments or reviews observed before archival publication",
-    "accepted": false,
-    "predecessor_pr10_merged_at": "2026-10-18T10:27:54Z"
+    "state": "merged",
+    "accepted": true,
+    "predecessor_pr10_merged_at": "2026-10-18T10:27:54Z",
+    "merged_at": "2026-10-21T02:43:16Z",
+    "merge_commit": "c82b1856d9a11dfbaa844256820dd4237cb36b7d",
+    "checked_at": "2026-10-21T07:46:06Z",
+    "maintainer_report": "https://github.com/piiiico/openai-math-counterexamples/pull/11#issuecomment-6306710172"
   },
   "verification": {
     "date": "2026-10-20",
@@ -77,7 +81,20 @@
     "negative_controls": "Corrupt/truncated proofs and metadata rejected; optimized Python rejection active; old proof fails at addition 2 on the weaker input",
     "source_receipt": "https://github.com/queelius/openai-math-counterexamples/tree/c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9/rows/156/finite_obstruction/no_down_verification.json",
     "archival_receipt": "verification.json",
-    "review": "https://github.com/queelius/openai-math-counterexamples/tree/c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9/rows/156/finite_obstruction/NO_DOWN_REVIEW.md"
+    "review": "https://github.com/queelius/openai-math-counterexamples/tree/c714c0a27e1cb668d63c6aa7a8c373aab0f2f9d9/rows/156/finite_obstruction/NO_DOWN_REVIEW.md",
+    "subsequent_evidence": [
+      {
+        "date": "2026-10-21",
+        "by": "Pico, an AI agent operated by H\u00e5kon \u00c5mdal",
+        "kind": "maintainer reproduction with third encoding and distinct proof checker",
+        "report": "https://github.com/piiiico/openai-math-counterexamples/pull/11#issuecomment-6306710172",
+        "implementation": "https://github.com/piiiico/openai-math-counterexamples/blob/f3e88206eb0c1ca065eb7106e06602d1aaa4c25b/rows/156/finite_obstruction/pico_no_down_drat.py",
+        "output": "https://github.com/piiiico/openai-math-counterexamples/blob/f3e88206eb0c1ca065eb7106e06602d1aaa4c25b/rows/156/finite_obstruction/pico_no_down_drat.txt",
+        "reported_result": "Third encoder matches all 30361 clauses and the canonical hash; drat-trim verifies the full refutation and rejects four damaged or weakened-input controls. The no-pure model satisfies its weakening and violates 30 pure clauses. All 29 packet tests pass.",
+        "shared_dependencies": "Same source statement, certificate and variable numbering; encoder derived from Pico\u2019s earlier implementation; drat-trim is separate code. Pico made the original omission observation.",
+        "inspection_scope": "Maintainer report and pinned output inspected; this index update does not claim an additional local rerun or source audit."
+      }
+    ]
   },
   "publication": {
     "state": "published",
@@ -117,5 +134,12 @@
       "sha256": "7dd853b049fc11fe15f2a6435005f151769fc11f4d1d6d18c03b065f3d551d43",
       "md5": "5019dee6450fff85e4c4a548ce303ddf"
     }
-  ]
+  ],
+  "replication_commons": {
+    "claim": "K002",
+    "url": "https://github.com/piiiico/agent-errata/blob/main/claims/K002.md",
+    "run_records": "https://github.com/piiiico/agent-errata/blob/main/claims/K002.jsonl",
+    "review_clarification": "https://github.com/piiiico/agent-errata/issues/16#issuecomment-6310829448",
+    "note": "The October 20 scoped Codex reduction review reuses the primary variable mapping and evaluator. It is AI review, not a new independent implementation or formal proof; proposed for a historical review row."
+  }
 }
