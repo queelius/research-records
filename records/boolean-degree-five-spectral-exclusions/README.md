@@ -26,7 +26,7 @@ verified by SHA-256. Zenodo version **1.0.0** was published on **20 October
 2026**, at 12:57:08 UTC, with DOI
 [10.5281/zenodo.23496542](https://doi.org/10.5281/zenodo.23496542).
 That exact archived version remains available for the ten exclusions alone.
-The current citation metadata points to version 1.2.0, described below.
+The current citation metadata points to version 1.3.0, described below.
 All 48 public files were downloaded without authentication and verified by
 SHA-256. Concatenating the 40 archive parts reproduced the original
 667,127,632-byte archive exactly. The linked publication receipt records
@@ -105,3 +105,12 @@ not claim 56 fresh successor downloads. Later G25/G17 research is outside this
 archive. The constant-two classification and full fourteen-variable question remain open. Substantial AI assistance is
 disclosed; mathematical novelty, human peer review and formal verification
 are not established.
+
+
+## Positive-obstruction locality graph supplement
+
+The [portable graph lemma and minimum-six-repair corollary](https://github.com/queelius/boolean-degree-sensitivity/tree/81e6f434d44ee67610a88aab18a2ed7438510bfc/supplements/g124-positive-locality) are archived in version **1.3.0**, [10.5281/zenodo.23539867](https://doi.org/10.5281/zenodo.23539867), published on 21 October 2026. Relative to Markström–Talbot's unrestricted Figure 1 count 75 (DOI10.1002/jcd.20223), every free 124-edge 3-graph on 14 vertices has at most one positively localizable missing triple per five-set. The obstruction list must be nonempty. Two distinct standard-library algorithms check all 75 literal graphs, full invariant-tuple distinction, 18,000 missing triples and maximum 1; the quartet-first method scans 150,150 five-sets. The minimum-six-repair corollary is a written deduction, not another catalog exhaustion.
+
+All 38 changed source files were anonymously verified at **2026-10-21T17:01:47.929965+00:00**, exact commit `81e6f434d44ee67610a88aab18a2ed7438510bfc`. The graph source observation and the archive date are separate events. [The new source receipt](G124-SOURCE.json) and [archive receipt](PUBLIC-ZENODO-v1.3.0.json) record four fresh new-file downloads and both complete replays from the downloaded public archive. All 56 retained entries were locally rehashed from previous anonymous downloads and matched successor MD5/size metadata. This does not claim 60 fresh downloads. Versions 1.0.0/1.1.0/1.2.0 retain their original dates/scopes and do not contain the graph supplement.
+
+The classification belongs to Markström and Talbot and is an explicit external premise; GLPK/nauty classification was not rerun, and their PDF is not redistributed. Stronger locality already appeared in project history. The dependent Boolean application has additional **unbundled** premises. The original existence problem remains OPEN; no novelty, human peer review or formal verification is claimed. Alexander Richard Towell and substantial AI assistance are credited.

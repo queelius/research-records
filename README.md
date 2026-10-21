@@ -154,11 +154,13 @@ publication metadata or handoff.
   Ten conditional cases excluded by exact integer certificates and isolated
   replay. The 14-variable existence problem remains open. Source and the
   complete versioned evidence packet are public.
-  The [version 1.2.0 archive](https://doi.org/10.5281/zenodo.23536478) retains
-  those exclusions and includes the separately scoped ell2 classification and
-  seventeen-family ell3 singleton cover. Four new files were freshly downloaded;
-  52 retained entries were checked through predecessor full-body hash continuity
-  and successor MD5/size metadata. Later research is outside this archive.
+  The [version 1.3.0 archive](https://doi.org/10.5281/zenodo.23539867) retains
+  the earlier exclusions and singleton classifications and adds the positive-locality
+  G124 graph lemma and minimum-six-repair corollary, relative to Markström–Talbot's
+  published 75-class count. Four new files and both public-archive proof replays
+  are verified; 56 retained entries passed earlier-body rehash and successor MD5/size
+  continuity. The Boolean application has additional unbundled premises; later
+  research is outside this archive. Earlier version/disclosure records remain intact.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).
