@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "record_id": "quasi-newton-least-change",
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23541281",
+  "central_repository": "https://github.com/queelius/research-records",
+  "central_commit": "d4e5f04da67660a612d82710fc775030f6adee87",
+  "owner_source_commit": "ee0490d69bf4ef30aa53bf0a34f55dbb75708651",
+  "owner_record_sha256": "d56f4e86a67b6418f975c9f84328946416a77823e392b288b8b04ae7fce2aded",
+  "verified_at": "2026-10-21T18:26:43.478878+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/README.md",
+      "bytes": 15440,
+      "sha256": "3875fcc45fbe68418c72b9d051804280d175f254c477272fd2c57ac51edce4f0",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "artifacts/quasi-newton-least-change-v1.0.0.zip",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/artifacts/quasi-newton-least-change-v1.0.0.zip",
+      "bytes": 139884,
+      "sha256": "6f8d1f9117865cddbee2770626009dd4126ba1aab164c34e3538f74f1ba767bc",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "catalog.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/catalog.json",
+      "bytes": 5044,
+      "sha256": "26e41f6999c798d2204f5369582d1e71153642cf49d7104b150c7d29a0fb8776",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/CITATION.cff",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/CITATION.cff",
+      "bytes": 1855,
+      "sha256": "606135f2912031af46b9f6c8aef931fddd8a225e41cb40a8a4958747f7ad7b2d",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/LICENSE",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/LICENSE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/NOTE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/NOTE.md",
+      "bytes": 8148,
+      "sha256": "bdacf2b473779a17c3f33d8c3425dfef3c563cb09f10c130270124f13bc441b4",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/NOTICE.md",
+      "bytes": 2164,
+      "sha256": "c17a25d821d3b42b2da0919ba1b54b2d2f0295e8bd299db44c703a3394b11be3",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/README.md",
+      "bytes": 3003,
+      "sha256": "62286d4f2ece0ae41bfec9a6b5d49d5ee680ab84be3e9eaf32ac58c250cf0eb9",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/archival-verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/archival-verification.json",
+      "bytes": 3472,
+      "sha256": "9fdeb726eba05869a950d778c39767bcdfe5cb89f21f96a53468c0cd8962cb35",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/citation-validation.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/citation-validation.json",
+      "bytes": 415,
+      "sha256": "078698855742200f6cbd6153b3a6b41679beb400b6c400318e3fd5bb8f48481c",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/metadata-validation.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/metadata-validation.json",
+      "bytes": 734,
+      "sha256": "6242534b6383f0d5784c184eb143ea3dde906dbc8b2bc64819c11a72daedb8bc",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/platform-refresh.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/platform-refresh.json",
+      "bytes": 3986,
+      "sha256": "4743bd4a3b8131f07c60e24dec9646814ebfbfd694ab7301b786295b665962eb",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/public-availability.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/public-availability.json",
+      "bytes": 1013,
+      "sha256": "8ab31b837cb0c6fcbaf9c3fc7f17489b75c1c292c4828696efdb066891e22d57",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/publication.json",
+      "bytes": 2368,
+      "sha256": "5e15ac9eeef7df59a34ca2091bb11bbdb28c5f977a4d47735f8772e176662aa1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/record.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/record.json",
+      "bytes": 16486,
+      "sha256": "213779b5a8f0edf762522846ced04947cb1c506f48a0ead0c7e9f66fd497e083",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/targets/06f30b5e-6267-4759-864c-74e4b86c8dba.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/targets/06f30b5e-6267-4759-864c-74e4b86c8dba.json",
+      "bytes": 1681,
+      "sha256": "304c6ecd07318e0158a4cfb2f8b44dae56106a7dbf74317f06ee8fb5da8677f1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/targets/f42691e8-f3c5-4451-832d-53fbb124c64b.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/targets/f42691e8-f3c5-4451-832d-53fbb124c64b.json",
+      "bytes": 1887,
+      "sha256": "d6401130caebe01ccc2364043a64ba4e3f5b85cdf8f08c7f25cc1a14d9e95d96",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/verification.json",
+      "bytes": 665,
+      "sha256": "bb743a9d17618aff30dcb60d96f67ec1d1e7a4f47d1f2842de278f7c98187b45",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/quasi-newton-least-change/zenodo-metadata.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/d4e5f04da67660a612d82710fc775030f6adee87/records/quasi-newton-least-change/zenodo-metadata.json",
+      "bytes": 6379,
+      "sha256": "bfd161a8252cd5f7680bd5330625ea43f73e2fb66de0ee938b74a8417f864d37",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    }
+  ],
+  "all_public_downloads_match": true,
+  "public_files_verified": 19,
+  "source_repository_visibility": "private",
+  "central_repository_visibility": "public",
+  "scope": "New weighted least-change curated record only; all changed files checked against this immutable commit. Unrelated research-records content preserved."
+}
