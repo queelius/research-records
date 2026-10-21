@@ -1,0 +1,47 @@
+{
+  "state": "published-public-files-verified",
+  "observed_at": "2026-10-21T08:07:41.341449+00:00",
+  "record_id": 23528939,
+  "version_doi": "10.5281/zenodo.23528939",
+  "concept_doi": "10.5281/zenodo.23528938",
+  "public_url": "https://zenodo.org/records/23528939",
+  "publication_date": "2026-10-21",
+  "record_created": "2026-10-21T08:07:31.335390+00:00",
+  "record_updated": "2026-10-21T08:07:31.832644+00:00",
+  "title": "Two exact statistics of graph sandpile groups at nine vertices",
+  "version": "1.0.0",
+  "all_public_downloads_match_sha256": true,
+  "files": [
+    {
+      "filename": "sandpile-nine-vertices.tar.gz",
+      "bytes": 263821,
+      "sha256": "acfbe15a53bf4143f79681de8b31d50465d1e7404a12acabd111cf93124d2671",
+      "public_url": "https://zenodo.org/api/records/23528939/files/sandpile-nine-vertices.tar.gz/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "README.md",
+      "bytes": 2687,
+      "sha256": "3901447b2be50b955f49a72fa2761538ebbdcdefb45975c34c332d3e9eaf1a0a",
+      "public_url": "https://zenodo.org/api/records/23528939/files/README.md/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 565,
+      "sha256": "435c8915b5d20cb15b3b420bcedff07b0373ffea68f668da46e73996e37e279f",
+      "public_url": "https://zenodo.org/api/records/23528939/files/CITATION.cff/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "replay.json",
+      "bytes": 1729,
+      "sha256": "439d6a5176e32490151ddc1b95090429b37545922d24654b2ea861d0503f0bed",
+      "public_url": "https://zenodo.org/api/records/23528939/files/replay.json/content",
+      "verified_without_authentication": true
+    }
+  ],
+  "human_mathematical_review": "pending",
+  "oeis_new_terms_submitted_at_publication": false,
+  "scope": "Exact frozen source and finite computation; no first-census, formal-verification or OEIS-acceptance claim."
+}

@@ -38,6 +38,12 @@ publication metadata or handoff.
 
 ## Records
 
+- [Two exact sandpile-group statistics at nine vertices](records/sandpile-nine-vertices/README.md).
+  A395521(9)=76953 group types and A401195(9)=177478 graphs with cyclic group.
+  All 261080 graph classes checked with two Smith algorithms and determinants;
+  [exact archived version](https://doi.org/10.5281/zenodo.23528939).
+  Earlier nine-vertex Jacobian censuses are credited. Human review is pending.
+
 - [Continuum Fisher welfare counterexample](records/continuum-fisher-welfare-counterexample/README.md).
   A two-buyer Pareto-optimal allocation with positive utilities has no supporting
   integrable price. The full quantified Lean disproof, four platform definitions,
