@@ -49,8 +49,12 @@
     "concept_doi": "10.5281/zenodo.23526851",
     "zenodo_record": "https://zenodo.org/records/23526852",
     "public_downloads_verified": true,
-    "github_archived": false,
-    "github_archival_note": "Archival follows the final owning-project receipt commit; verify before final index publication."
+    "github_archived": true,
+    "github_archived_verified_at": "2026-10-21T06:39:37Z",
+    "github_visibility": "public",
+    "github_archival_verification": "https://api.github.com/repos/queelius/expert-iteration",
+    "final_source_receipt_commit": "2e9898d",
+    "local_checkout_moved": false
   },
   "license": {"original_software": "MIT", "original_notes": "CC-BY-4.0", "third_party": "Model and benchmark notices in the packet's NOTICE and LICENSES; no worker model weights redistributed."},
   "limitations": [

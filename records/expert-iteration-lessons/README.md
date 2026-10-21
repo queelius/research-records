@@ -36,3 +36,6 @@ First confirmed public disclosure and DOI publication: 2026-10-21. Earlier
 private experiment and commit dates are not public disclosure dates.
 
 Detailed lifecycle and raw research stay in the owning source repository.
+GitHub was verified public and archived read-only on 2026-10-21. The owner's
+local checkout was left in place; uncommitted local presentation and checkpoint
+files were preserved.
