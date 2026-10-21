@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-21T09:07:44.002462+00:00",
+  "record_id": "nested-logit-knapsack-rounding",
+  "version": "1.2.0",
+  "publication_kind": "curated public record and exact self-contained archival packet",
+  "status": "published-and-download-verified",
+  "repository": "https://github.com/queelius/research-records",
+  "commit": "02300b39fef86c2bec95ce778db63f98a6b4028e",
+  "record_url": "https://github.com/queelius/research-records/tree/main/records/nested-logit-knapsack-rounding",
+  "immutable_record_url": "https://github.com/queelius/research-records/tree/02300b39fef86c2bec95ce778db63f98a6b4028e/records/nested-logit-knapsack-rounding",
+  "owner_source_commit": "335ce0bb5f9da80671a836b232db68e5a55c685c",
+  "owner_record_sha256": "738535671e4ae1599ac34d1dfec9166a9b0c5f0000f91e2b6b45869b9ca2bcba",
+  "owner_visibility": "PRIVATE",
+  "all_downloads_match": true,
+  "public_files_verified": 24,
+  "version_doi": "10.5281/zenodo.23529835",
+  "receipt": "doi-index-publication.json",
+  "previous_index_receipts": [
+    "versions/1.1.0/index-publication.json",
+    "versions/1.1.0/doi-index-publication.json"
+  ],
+  "source_repository_visibility_changed": false,
+  "site_or_blog_published": false
+}
