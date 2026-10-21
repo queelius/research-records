@@ -1,13 +1,23 @@
 cff-version: 1.2.0
-message: "Cite this record at an exact Git commit and the linked accepted platform targets; no DOI is assigned."
-title: "Verified knapsack rounding guarantees for nested-logit assortments"
+message: "Cite this exact archived version and cite Gallego and Topaloglu for the source mathematics. Publication receipt establishes availability."
+title: "Verified fractional-knapsack construction and rounding bounds for nested-logit assortments"
 type: dataset
 authors:
   - family-names: Towell
     given-names: Alexander Richard
     orcid: "https://orcid.org/0000-0001-6443-9897"
-version: 1.0.0
-date-released: 2026-10-20
+version: 1.1.0
+date-released: 2026-10-21
 url: "https://github.com/queelius/research-records/tree/main/records/nested-logit-knapsack-rounding"
-license: MIT
-abstract: "Curated metadata for two accepted Lean proofs of established Gallego-Topaloglu utility approximation bounds. Substantial OpenAI Codex assistance is disclosed; no third-party proof code is redistributed."
+license: Apache-2.0
+abstract: "Three accepted Lean proofs formalize established fractional-knapsack optimizer construction and rounding bounds. Exact sources, pinned reproduction and rejected controls are included. Alexander Richard Towell directed; OpenAI Codex substantially formalized and verified. Source and platform contributors retain specific credit; no mathematical novelty or independent human review is claimed."
+references:
+  - type: article
+    title: "Constrained Assortment Optimization for the Nested Logit Model"
+    authors:
+      - family-names: Gallego
+        given-names: Guillermo
+      - family-names: Topaloglu
+        given-names: Huseyin
+    doi: 10.1287/mnsc.2014.1931
+doi: "10.5281/zenodo.23526994"

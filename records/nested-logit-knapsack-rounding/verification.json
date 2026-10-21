@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-20T18:59:37.916323+00:00",
+  "checked_at": "2026-10-21T06:34:55.363127+00:00",
   "kind": "owner-side verification summary",
   "lean": "4.33.1",
   "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
@@ -28,15 +28,25 @@
         "Classical.choice",
         "Quot.sound"
       ]
+    },
+    {
+      "theorem_id": "2dbfdae9-f404-49d2-a12d-436df861fdd6",
+      "proof_sha256": "f819238874342a3239b8eb75455caf8450920612c1e751d6402ceffa8c353143",
+      "audit_sha256": "28f48a1446bcd72a3409d5a97b076c5ea25136861afcb833156351812c4d0108",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
     }
   ],
   "all_accepted_downloads_match": true,
   "fresh_reproduction": "PASS",
-  "reproduction_report": "contributions/queelius/evidence/reproduction-round16-2026-10-20.json",
-  "public_packet_reproduction": null,
+  "public_packet_reproduction": "PASS",
   "tooling_tests": {
-    "passed": 127,
-    "seconds": 24.77,
+    "passed": 128,
+    "seconds": 23.19,
     "coverage": {
       "covered_lines": 954,
       "num_statements": 1012,
@@ -55,6 +65,13 @@
     }
   },
   "human_peer_review": false,
-  "note": "This reports verified owner-side reproduction and links exact public targets; no self-contained proof payload is distributed here.",
-  "reproduction_report_url": "https://github.com/queelius/prove2me-contributions/blob/1378c1f77ddf76089cf9fcf2c3859bf8cf3d0a29/contributions/queelius/evidence/reproduction-round16-2026-10-20.json"
+  "note": "All three proofs were freshly reproduced from both the staged packet and extracted ZIP; three rejection controls behaved as required.68 archived files and all three public downloads have verified hashes. Historical owner-side reproduction reports retain their earlier dates.",
+  "reproduction_reports": [
+    "contributions/queelius/evidence/reproduction-round16-2026-10-20.json",
+    "contributions/queelius/evidence/reproduction-round17-2026-10-21.json"
+  ],
+  "public_archive_url": "https://zenodo.org/records/23526994",
+  "archival_receipt": "archival-verification.json",
+  "publication_receipt": "publication.json",
+  "all_public_downloads_match": true
 }

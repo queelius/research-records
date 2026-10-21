@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "record_id": 23526994,
+  "version": "1.1.0",
+  "version_doi": "10.5281/zenodo.23526994",
+  "concept_doi": "10.5281/zenodo.23526993",
+  "url": "https://zenodo.org/records/23526994",
+  "state": "published",
+  "published_at": "2026-10-21T06:32:33.298029+00:00",
+  "verified_at": "2026-10-21T06:34:55.363127+00:00",
+  "public_metadata_http_status": 200,
+  "public_metadata_authenticated": false,
+  "all_public_downloads_match": true,
+  "files": [
+    {
+      "filename": "nested-logit-knapsack-rounding-v1.1.0.zip",
+      "bytes": 106172,
+      "sha256": "cc643a4340b7eb7a92f38d733fad7b8f9ffd04bbd52165bbc95e93a1714879c7",
+      "download_url": "https://zenodo.org/api/records/23526994/files/nested-logit-knapsack-rounding-v1.1.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1272,
+      "sha256": "2a0dd5b1478df36db7c2e90a141ba9edb7a30b61be567ac9383e2bd2b7331ef8",
+      "download_url": "https://zenodo.org/api/records/23526994/files/CITATION.cff/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 4372,
+      "sha256": "842539a378b84a3ba23383d951b29c0b28bcc3daa7021d575cb507b11efcb695",
+      "download_url": "https://zenodo.org/api/records/23526994/files/NOTE.md/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "packet_manifest_sha256": "10be607f7469eab500ca3b099f77290b30132ec0cabc12a5218b3e120c9cdd9b",
+  "packet_file_count": 68,
+  "all_packet_files_verified": true,
+  "archive_rebuild_byte_identical": true,
+  "reproduction": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 3,
+    "definitions": 3,
+    "exact_target_audits": true,
+    "rejection_controls": 3
+  },
+  "note": "Publication date is distinct from original October20 public proof submissions and v1.0 metadata disclosure. The frozen packet records its reserved state at assembly; this receipt establishes publication.",
+  "publication_date": "2026-10-21",
+  "published_at_basis": "Initial successful publish response modified timestamp; public metadata publication_date is recorded separately.",
+  "doi_resolution": {
+    "checked_at": "2026-10-21T06:38:08.432976+00:00",
+    "http_status": 200,
+    "final_url": "https://zenodo.org/records/23526994",
+    "authenticated": false
+  }
+}

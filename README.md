@@ -44,12 +44,13 @@ publication metadata or handoff.
   limitations and unsuccessful controller comparisons are documented.
   [Archived version](https://doi.org/10.5281/zenodo.23526852).
 
-- [Knapsack rounding guarantees for nested-logit assortments](records/nested-logit-knapsack-rounding/README.md).
-  Two accepted Lean proofs establish the factor-two and small-item utility
-  bounds for supplied optimal LP points. Established Gallego–Topaloglu
-  mathematics; shared-model authors and platform formulations retain credit.
-  The note, exact target links, hashes and verification summary are public.
-  Greedy construction remains open; no DOI or self-contained proof packet yet.
+- [Fractional-knapsack construction and rounding for nested-logit assortments](records/nested-logit-knapsack-rounding/README.md).
+  Three accepted Lean proofs construct the optimizer and establish both rounding
+  guarantees. Established Gallego–Topaloglu mathematics, with shared-model,
+  platform and Lean/Mathlib contributors credited. The self-contained
+  [version 1.1.0 archive](https://doi.org/10.5281/zenodo.23526994) reproduces all
+  three targets, rejects three invalid controls, and has 68 verified packet files.
+  The uniform candidate-family construction remains open.
 
 - [Finite-support empirical DRO reduction](records/empirical-dro-finite-support-reduction/README.md).
   Three accepted Lean proofs identify the attainable sample-weight and
