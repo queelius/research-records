@@ -154,10 +154,11 @@ publication metadata or handoff.
   Ten conditional cases excluded by exact integer certificates and isolated
   replay. The 14-variable existence problem remains open. Source and the
   complete versioned evidence packet are public.
-  [Archived version](https://doi.org/10.5281/zenodo.23496542);
-  all 48 Zenodo files and the reconstructed archive are verified.
-  A separately scoped singleton component classification and portable catalog
-  are now public at an exact source commit; that supplement is not in the DOI.
+  The [version 1.2.0 archive](https://doi.org/10.5281/zenodo.23536478) retains
+  those exclusions and includes the separately scoped ell2 classification and
+  seventeen-family ell3 singleton cover. Four new files were freshly downloaded;
+  52 retained entries were checked through predecessor full-body hash continuity
+  and successor MD5/size metadata. Later research is outside this archive.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).

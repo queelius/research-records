@@ -26,7 +26,7 @@ verified by SHA-256. Zenodo version **1.0.0** was published on **20 October
 2026**, at 12:57:08 UTC, with DOI
 [10.5281/zenodo.23496542](https://doi.org/10.5281/zenodo.23496542).
 That exact archived version remains available for the ten exclusions alone.
-The current citation metadata points to version 1.1.0, described below.
+The current citation metadata points to version 1.2.0, described below.
 All 48 public files were downloaded without authentication and verified by
 SHA-256. Concatenating the 40 archive parts reproduced the original
 667,127,632-byte archive exactly. The linked publication receipt records
@@ -94,9 +94,14 @@ value and Fourier coefficient of all seventeen rows. All 41 changed source
 files were publicly verified on **2026-10-21** at commit
 `54644197be81024d1cfd18f74235a093cbcaf3a4`; [the receipt](SINGLETON-ELL3-SOURCE.json) records their hashes.
 
-Cite that exact source commit for this supplement. **Neither archived version
-1.0.0 nor 1.1.0 includes this three-exceptional classification.** Archival work
-will reuse the existing version family. The constant-two classification and
-full fourteen-variable question remain open. Substantial AI assistance is
+The supplement is archived in version **1.2.0**,
+[10.5281/zenodo.23536478](https://doi.org/10.5281/zenodo.23536478), published on
+21 October 2026, with the exact source commit above. Neither archived version
+1.0.0 nor 1.1.0 includes this three-exceptional cover.
+[The public verification receipt](PUBLIC-ZENODO-v1.2.0.json) records four new files
+freshly downloaded without authentication and 52 retained files checked through
+predecessor full-body SHA-256 continuity and successor MD5/size metadata. It does
+not claim 56 fresh successor downloads. Later G25/G17 research is outside this
+archive. The constant-two classification and full fourteen-variable question remain open. Substantial AI assistance is
 disclosed; mathematical novelty, human peer review and formal verification
 are not established.
