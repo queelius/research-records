@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-21T12:10:26.191277+00:00",
+  "state": "ready_for_publication",
+  "record_id": "dual-sourcing-optimal-orders",
+  "deposition_id": 23533755,
+  "version": "1.1.0",
+  "version_doi": "10.5281/zenodo.23533755",
+  "staged_reproduction": "PASS",
+  "final_extracted_reproduction": "PASS",
+  "accepted_targets": 4,
+  "controls_rejected": 5,
+  "packet_files": 96,
+  "all_verified_proof_audit_evidence_bytes_unchanged": true,
+  "metadata_and_citation_consistent": true,
+  "all_uploaded_checksums_match": true,
+  "scope": "This session\u2019s completed Prove2Me dual-sourcing formalization only.",
+  "authorization": "Standing user instructions to publish sufficiently verified, focused Prove2Me contributions."
+}

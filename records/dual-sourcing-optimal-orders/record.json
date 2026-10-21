@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "dual-sourcing-optimal-orders",
-  "title": "Verified dual-sourcing profit structure, optimal orders and reliability monotonicity",
-  "contribution_type": "Four complete Lean formalizations of established dual-sourcing statements",
+  "title": "Verified dual-sourcing optimal orders, region classification and reliability comparisons",
+  "contribution_type": "Six complete Lean formalizations of established and explicitly repaired dual-sourcing statements",
   "authors": [
     {
       "name": "Alexander Richard Towell",
@@ -13,15 +13,15 @@
   "owner": {
     "repository": "https://github.com/queelius/prove2me-contributions",
     "visibility": "private",
-    "source_commit": "e08cc29b1ef39a0f24ae8b852e789d02137b772f",
+    "source_commit": "6095eff428af555b43ff1f48dc12017d6aa582b4",
     "record_path": "contributions/queelius/publications/dual-sourcing-optimal-orders/record.json",
     "lifecycle_ledger": "contributions/queelius/contributions.json",
-    "source_commit_scope": "Completed owning-project publication record and lifecycle; source repository remains private. Exact accepted-proof source pin is also preserved in the archived packet.",
-    "record_sha256": "ccb10312fa2ee2c93de8b4f1ab43f0894b33b000c876503014403a748289ac75",
-    "record_url": "https://github.com/queelius/prove2me-contributions/blob/e08cc29b1ef39a0f24ae8b852e789d02137b772f/contributions/queelius/publications/dual-sourcing-optimal-orders/record.json"
+    "source_commit_scope": "Completed owning-project publication record and lifecycle; repository remains private. The exact accepted-proof source pin is separately preserved inside the archived packet.",
+    "record_sha256": "a1a5c066b3da7dffc6e2fb770367042f03cb315973c2da244c2e962e50234427",
+    "record_url": "https://github.com/queelius/prove2me-contributions/blob/6095eff428af555b43ff1f48dc12017d6aa582b4/contributions/queelius/publications/dual-sourcing-optimal-orders/record.json"
   },
   "central_record_url": "https://github.com/queelius/research-records/tree/main/records/dual-sourcing-optimal-orders",
-  "claim": "For the exact two-supplier random-capacity model: expected profit is lattice-submodular; a global maximizing feasible order exists with the necessary boundary-or-stationarity conclusion under absolutely continuous demand; the exact CDF derivative formula and its optimal-interior first-order consequence hold; and optimized expected profit is monotone in either supplier reliability for every nonnegative finite-mean demand law.",
+  "claim": "For the exact two-supplier random-capacity platform model: lattice submodularity, global maximizing-order existence with necessary stationarity, the exact CDF derivative, optimized-value reliability monotonicity, complete corrected deterministic-demand optimizer regions, and hedge-size/region reliability comparisons for the defined region functions. The latter two targets retain their distinct explicit hypotheses.",
   "formal_targets": [
     {
       "theorem_id": "6ab95a20-b12f-4ada-bc66-bd88749135a3",
@@ -58,6 +58,24 @@
       "proof_type": "prove",
       "proof_sha256": "17bc585a3a6eb0a63524e336dab5b8869ab98b3f9691809c699e881a4b82de19",
       "proof_file": "contributions/queelius/proofs/MitigateSupplyRisk_DualSourcing_lemma_2b.lean"
+    },
+    {
+      "theorem_id": "25d539fb-a789-4fdb-a4d0-752e6b954bc3",
+      "theorem_name": "MitigateSupplyRisk.DualSourcing.corollary_1",
+      "url": "https://prove2.me/theorems/25d539fb-a789-4fdb-a4d0-752e6b954bc3",
+      "exact_statement": "targets/25d539fb-a789-4fdb-a4d0-752e6b954bc3.json",
+      "proof_type": "prove",
+      "proof_sha256": "68a165c41b8a8e2153494185aca0611ef01466632ecf28985b45d06f63eaf335",
+      "proof_file": "contributions/queelius/proofs/MitigateSupplyRisk_DualSourcing_corollary_1.lean"
+    },
+    {
+      "theorem_id": "13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "theorem_name": "MitigateSupplyRisk.DualSourcing.theorem_2",
+      "url": "https://prove2.me/theorems/13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "exact_statement": "targets/13c34594-5e47-4b67-b1b7-6224133c32c9.json",
+      "proof_type": "prove",
+      "proof_sha256": "30fb1297379708a1f21cf6ba589f43c620fb9ffeb0c11cfc382a7c1eb7dd96c8",
+      "proof_file": "contributions/queelius/proofs/MitigateSupplyRisk_DualSourcing_theorem_2.lean"
     }
   ],
   "assumptions": {
@@ -67,10 +85,13 @@
     "joint_law": "The two capacity losses and demand are independent, through the exact product measure.",
     "feasible_orders": "All componentwise nonnegative real vectors; no upper order cap is assumed.",
     "source_correspondence": "The packet proves the complete platform signatures. The finite-mean and parameter qualifications supplied by the platform are disclosed; no equivalence to a broader unstated source theorem is claimed.",
-    "demand_all_targets": "A real probability law, nonnegative almost surely, with integrable identity.",
     "demand_theorem_1_and_equation_6": "Absolute continuity with respect to Lebesgue measure. Lemmas 1 and 2(b) require no demand density.",
     "equation_6_only": "Feasible orders, distinct supplier indices i,j and a strictly interior coordinate 0<q_i<K_i.",
-    "reliability_lemma_2b": "The full Model CDF-order assumption is retained. No derivative or smoothness of the reliability-indexed laws is added; the conclusion concerns the optimized value, not every fixed order."
+    "reliability_lemma_2b": "The full Model CDF-order assumption is retained. No derivative or smoothness of the reliability-indexed laws is added; the conclusion concerns the optimized value, not every fixed order.",
+    "random_demand_targets": "Lemma1, Theorem1, Equation6 and Lemma2(b): a real probability law, nonnegative almost surely, with integrable identity. Theorem1/Equation6 additionally require absolute continuity.",
+    "deterministic_theorem_2": "Demand is dirac(x), x>=0; eta_i=0 and 0<phi_i<1. For each current reliability index there is 0<b_i<=K_i with G_i(b_i)=1 and a strictly increasing CDF on [0,b_i]. The explicit weighted full-capacity CDF supplier ordering is retained.",
+    "corollary_1": "eta_i=0, 0<phi_i<1, G_i(K_i,a)=1 at every reliability index and phi_2<=phi_1; vary one index upwards. Claims concern the exact hedgeRegion, singleRegion and qstarTotal definitions.",
+    "corollary_interpretation": "Corollary1 alone does not prove optimality of qstarTotal under laws lacking Theorem2 support assumptions. No strict contraction or coordinatewise ordering of individual optimal quantities is asserted."
   },
   "mathematical_source": {
     "authors": [
@@ -88,7 +109,7 @@
     "url": "https://doi.org/10.1287/msom.1090.0279",
     "pdf_url": "https://ytyimin.github.io/sweet-pumpkin/assets/pdf/Wang2010.pdf",
     "sha256": "b7ea7ee5cee6c9ae59ae619f5a37402aec687e76991acc11d3860f897670ae95",
-    "inspected_scope": "Author-hosted published PDF, model Eqs. (1)–(3), pp. 492–493, Theorem 1, Lemmas 1/2 and Eq. (6), p. 494. The official online appendix proof of Lemma 2 was also consulted as browser-extracted text; no immutable appendix PDF was obtained.",
+    "inspected_scope": "Pinned author-hosted published PDF, model pp492–493, four earlier results p494, Theorem2 and printed region endpoints pp494–495, Corollary1 p496. The earlier Lemma2 appendix text inspection remains separately qualified.",
     "redistributed": false,
     "appendix": {
       "url": "https://pubsonline.informs.org/doi/suppl/10.1287/msom.1090.0279/suppl_file/msom.1090.0279-sm-mitigating_supply_risk.pdf",
@@ -104,11 +125,11 @@
         "Wendell Gilland",
         "Brian Tomlin"
       ],
-      "contribution": "Original dual-sourcing model, submodularity, optimal-order, explicit first-order formula and optimized-value reliability-monotonicity results. These authors are predecessors, not coauthors of this formalization note."
+      "contribution": "Original model, submodularity, optimization, derivative and reliability-comparison mathematics. The authors are predecessors, not coauthors of this formalization note."
     },
     {
       "username": "mikedeng1",
-      "contribution": "Platform model and statements, finite-mean/density qualifications and disclosed parameter assumptions."
+      "contribution": "Platform model and statements, added parameter/support hypotheses and the pre-existing min/max endpoint repairs in Theorem2 regions Omega3–Omega5. Those repairs are not claimed as new work here."
     },
     {
       "name": "Shuze Chen",
@@ -137,6 +158,27 @@
       "to_target": "ed2f213d-5800-4ff6-bb42-c8dbc0d1a683",
       "submission_id": "8ed08cea-6a98-4cd3-a968-c48d7b76618a",
       "scope": "Retains the accepted Theorem1 source, including Lemma1 helpers, inline under a top-level declaration rename. Source bodies are unchanged. Internal reuse is not a separately counted result."
+    },
+    {
+      "from_target": "6ab95a20-b12f-4ada-bc66-bd88749135a3",
+      "to_target": "13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "submission_id": "ba6e801b-35a6-41d4-a98a-8e9ccb3ab939",
+      "source_sha256": "22776dcb1b045da07606b9250964875ba9158741a27a654a4c092712ec7c70ea",
+      "scope": "Complete accepted proof body retained inline under its prior declaration name. The Equation6 source includes the earlier Theorem1 and submodularity bodies; no open target imports."
+    },
+    {
+      "from_target": "5c5d7312-4a30-4192-8695-cb97c19c5fd6",
+      "to_target": "13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "submission_id": "8ed08cea-6a98-4cd3-a968-c48d7b76618a",
+      "source_sha256": "e295b860c40f1748bb36edd46de2c8028f3926c67f8005fe3ef232395edf6b3a",
+      "scope": "Complete accepted proof body retained inline under its prior declaration name. The Equation6 source includes the earlier Theorem1 and submodularity bodies; no open target imports."
+    },
+    {
+      "from_target": "854f8126-fb75-46c1-9091-9f3e49c1fc8c",
+      "to_target": "13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "submission_id": "1cbda48d-c378-4473-92e6-f21a355cd27a",
+      "source_sha256": "88d9b0947d43f655a7b329d7a7ef2a1cd0e92a596bd814b179ec125d2f723a98",
+      "scope": "Complete accepted proof body retained inline under its prior declaration name. The Equation6 source includes the earlier Theorem1 and submodularity bodies; no open target imports."
     }
   ],
   "human_role": "Alexander Richard Towell directed the research, verification standards and publication. Independent human proof review is not claimed.",
@@ -155,6 +197,20 @@
       "username": null,
       "user_id": null,
       "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_MitigateSupplyRisk_DualSourcing_Regions.lean",
+      "sha256": "80507e6188a2dee8d05b09cd3ab24557ff607c7edabd0e931acdfbd271d406ba",
+      "platform_definition_id": "a6eb26cf-bbdb-4dea-b2ff-7b854d885473",
+      "source": "Wang, Gilland, Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing & Service Operations Management 12(3):489–510 (2010), pp. 494–495 (PDF pp. 6–7), Theorem 2 and Figure 1; p. 496 (PDF p. 8), Corollary 1",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "MitigateSupplyRisk_DualSourcing_Regions",
+      "created_at": "2026-10-07T03:13:53.123504+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
     }
   ],
   "public_disclosures": [
@@ -164,7 +220,7 @@
       "url": "https://prove2.me/theorems/6ab95a20-b12f-4ada-bc66-bd88749135a3",
       "theorem_id": "6ab95a20-b12f-4ada-bc66-bd88749135a3",
       "submission_id": "ba6e801b-35a6-41d4-a98a-8e9ccb3ab939",
-      "scope": "Exact proof submitted to a public target; direct API source download needs authentication. Submission, acceptance and archive publication are separate events."
+      "scope": "Exact proof submitted to a public platform target. Submission, acceptance and archival publication are separately dated."
     },
     {
       "kind": "platform_submission",
@@ -172,7 +228,7 @@
       "url": "https://prove2.me/theorems/5c5d7312-4a30-4192-8695-cb97c19c5fd6",
       "theorem_id": "5c5d7312-4a30-4192-8695-cb97c19c5fd6",
       "submission_id": "8ed08cea-6a98-4cd3-a968-c48d7b76618a",
-      "scope": "Exact proof submitted to a public target; direct API source download needs authentication. Submission, acceptance and archive publication are separate events."
+      "scope": "Exact proof submitted to a public platform target. Submission, acceptance and archival publication are separately dated."
     },
     {
       "kind": "platform_submission",
@@ -180,7 +236,7 @@
       "url": "https://prove2.me/theorems/854f8126-fb75-46c1-9091-9f3e49c1fc8c",
       "theorem_id": "854f8126-fb75-46c1-9091-9f3e49c1fc8c",
       "submission_id": "1cbda48d-c378-4473-92e6-f21a355cd27a",
-      "scope": "Exact proof submitted to a public target; direct API source download needs authentication. Submission, acceptance and archive publication are separate events."
+      "scope": "Exact proof submitted to a public platform target. Submission, acceptance and archival publication are separately dated."
     },
     {
       "kind": "platform_submission",
@@ -188,7 +244,23 @@
       "url": "https://prove2.me/theorems/ed2f213d-5800-4ff6-bb42-c8dbc0d1a683",
       "theorem_id": "ed2f213d-5800-4ff6-bb42-c8dbc0d1a683",
       "submission_id": "7b0fb5fe-8b3a-4c9f-ae5a-c2c44a35e44e",
-      "scope": "Exact proof submitted to a public target; direct API source download needs authentication. Submission, acceptance and archive publication are separate events."
+      "scope": "Exact proof submitted to a public platform target. Submission, acceptance and archival publication are separately dated."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T12:23:58.607496+00:00",
+      "url": "https://prove2.me/theorems/25d539fb-a789-4fdb-a4d0-752e6b954bc3",
+      "theorem_id": "25d539fb-a789-4fdb-a4d0-752e6b954bc3",
+      "submission_id": "4ee46e26-182d-42de-95b7-bd9265345e90",
+      "scope": "Exact proof submitted to a public platform target. Submission, acceptance and archival publication are separately dated."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T16:11:08.477988+00:00",
+      "url": "https://prove2.me/theorems/13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "theorem_id": "13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "submission_id": "2b8b367e-f9f2-4574-8d76-0450fb691b10",
+      "scope": "Exact proof submitted to a public platform target. Submission, acceptance and archival publication are separately dated."
     }
   ],
   "acceptance": [
@@ -197,7 +269,7 @@
       "status": "ACCEPTED",
       "timestamp": "2026-10-21T08:09:00.907724+00:00",
       "submission_id": "ba6e801b-35a6-41d4-a98a-8e9ccb3ab939",
-      "observed_at": "2026-10-21T11:56:32.557257+00:00",
+      "observed_at": "2026-10-21T17:00:43.652602+00:00",
       "download_matches_verified_bytes": true
     },
     {
@@ -205,7 +277,7 @@
       "status": "ACCEPTED",
       "timestamp": "2026-10-21T09:28:14.296001+00:00",
       "submission_id": "8ed08cea-6a98-4cd3-a968-c48d7b76618a",
-      "observed_at": "2026-10-21T11:56:32.557257+00:00",
+      "observed_at": "2026-10-21T17:00:43.652602+00:00",
       "download_matches_verified_bytes": true
     },
     {
@@ -213,7 +285,7 @@
       "status": "ACCEPTED",
       "timestamp": "2026-10-21T10:45:12.571136+00:00",
       "submission_id": "1cbda48d-c378-4473-92e6-f21a355cd27a",
-      "observed_at": "2026-10-21T11:56:32.557257+00:00",
+      "observed_at": "2026-10-21T17:00:43.652602+00:00",
       "download_matches_verified_bytes": true
     },
     {
@@ -221,7 +293,23 @@
       "status": "ACCEPTED",
       "timestamp": "2026-10-21T11:28:36.366992+00:00",
       "submission_id": "7b0fb5fe-8b3a-4c9f-ae5a-c2c44a35e44e",
-      "observed_at": "2026-10-21T11:56:32.557257+00:00",
+      "observed_at": "2026-10-21T17:00:43.652602+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "25d539fb-a789-4fdb-a4d0-752e6b954bc3",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T12:26:34.865922+00:00",
+      "submission_id": "4ee46e26-182d-42de-95b7-bd9265345e90",
+      "observed_at": "2026-10-21T17:00:43.652602+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T16:13:21.039987+00:00",
+      "submission_id": "2b8b367e-f9f2-4574-8d76-0450fb691b10",
+      "observed_at": "2026-10-21T17:00:43.652602+00:00",
       "download_matches_verified_bytes": true
     }
   ],
@@ -248,39 +336,42 @@
       "WeakenedTargetControl",
       "WeakenedCDFTargetControl",
       "WeakenedMonotonicityTargetControl",
+      "ExtraHypothesisRegionControl",
+      "HedgeOnlyCorollaryControl",
       "proof-byte-mutation"
     ],
-    "packet_file_count": 96,
+    "packet_file_count": 159,
     "publication_receipt": "publication.json"
   },
   "publication": {
     "state": "published",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "concept_doi": "10.5281/zenodo.23531694",
-    "previous_version_doi": "10.5281/zenodo.23531695",
-    "previous_record_id": 23531695,
+    "previous_version_doi": "10.5281/zenodo.23533755",
+    "previous_record_id": 23533755,
     "archival_status": "published",
-    "readiness": "Four-proof successor published; all three public files and all 96 internal packet files verified.",
-    "note": "The frozen packet records its reserved state. The separate publication receipt establishes final extracted reproduction and public availability. Version 1.0.0 remains independently citable.",
-    "version_doi": "10.5281/zenodo.23533755",
-    "record_id": 23533755,
-    "url": "https://zenodo.org/records/23533755",
+    "readiness": "Six-proof successor published; all three public files and all 159 internal packet files verified.",
+    "note": "The frozen packet records its reserved state at assembly. The separate publication receipt establishes final extracted reproduction and public availability. Earlier editions remain independently citable.",
+    "version_doi": "10.5281/zenodo.23540084",
+    "record_id": 23540084,
+    "url": "https://zenodo.org/records/23540084",
     "publication_date": "2026-10-21",
-    "published_at": "2026-10-21T12:10:33.003528+00:00",
-    "published_at_basis": "Deposition modified timestamp returned after the single publication attempt; it is an observed server timestamp, not an independently established exact public-disclosure instant. Public metadata publication_date is recorded separately.",
-    "verified_at": "2026-10-21T12:11:07.530857+00:00",
+    "published_at": "2026-10-21T17:13:03.920260+00:00",
+    "published_at_basis": "Observed server modified timestamp after publication; not an independently established exact first-public-disclosure instant. Public metadata publication_date is recorded separately.",
+    "verified_at": "2026-10-21T17:13:53.999937+00:00",
     "receipt": "publication.json",
-    "doi_resolution_verified": false,
-    "doi_last_checked_at": "2026-10-21T12:11:14.437546+00:00"
+    "doi_resolution_verified": true,
+    "doi_last_checked_at": "2026-10-21T17:13:53.585666+00:00"
   },
   "license": "Apache-2.0",
   "limitations": [
-    "Formalization of existing mathematics; no new mathematical discovery, exhaustive priority search, source-author endorsement or independent human review is claimed.",
-    "The complete platform model retains disclosed parameter and finite-mean assumptions. Kernel verification and source correspondence are distinct checks.",
-    "The appendix was consulted as extracted text but no immutable binary snapshot was obtained; proof equivalence to the appendix is not claimed.",
-    "The necessary first-order condition is not proved sufficient for optimality.",
-    "Region-by-region optimizer classification, optimal-quantity ordering and the wider mission remain separate obligations. Optimized-value monotonicity does not assert monotonicity of every fixed-order profit.",
-    "Verified third-party compiled caches remain trusted inputs; this is not a Lean/Mathlib bootstrap verification."
+    "Formalization of established and previously repaired statements; no mathematical novelty, exhaustive priority search, source-author endorsement or independent human review claimed.",
+    "Theorem2 proves the platform’s corrected min/max region bounds and explicit support/parameter assumptions. It does not establish the uncorrected printed statement.",
+    "Corollary1 concerns defined region and total-order functions under its own hypotheses; it does not assume Theorem2’s strict-support conditions. Optimality outside Theorem2 hypotheses is not claimed.",
+    "The corollary’s supplier2 single-source contraction is non-strict and follows by equality under G_i(K_i,a)=1. Individual optimal-quantity monotonicity (Lemma2(a)) remains outside this packet.",
+    "Necessary stationarity is not shown sufficient in the full random-demand setting; deterministic global optimality is proved separately.",
+    "The earlier appendix inspection used extracted text without an immutable binary snapshot. No proof equivalence to that appendix is claimed.",
+    "Verified pinned third-party caches are trusted inputs; this is not a Lean/Mathlib bootstrap verification."
   ],
   "history": [
     {
@@ -297,31 +388,57 @@
       "scope": "Adds accepted Equation (6) and Lemma 2(b). Four complete formalizations; prior accepted bytes and the earlier archive preserved. No new platform target counted by publication.",
       "publication_date": "2026-10-21",
       "version_doi": "10.5281/zenodo.23533755",
+      "publication_receipt": "versions/1.1.0/publication.json"
+    },
+    {
+      "at": "2026-10-21T17:03:54.492131+00:00",
+      "version": "1.2.0",
+      "scope": "Adds the accepted complete corrected Theorem2 and Corollary1 hedge-region/size comparisons; earlier four accepted proof bytes and both prior published editions preserved. No new platform target counted.",
+      "publication_date": "2026-10-21",
+      "version_doi": "10.5281/zenodo.23540084",
       "publication_receipt": "publication.json"
     }
   ],
   "formal_targets_artifact_base": "Proof paths are relative to the self-contained archival packet root; target JSON paths are relative to this record directory.",
-  "artifacts": [
+  "intermediate_proof_credit": [
     {
-      "filename": "dual-sourcing-optimal-orders-v1.1.0.zip",
-      "bytes": 296481,
-      "sha256": "49d0740c58b06de8cff47c9a41e979ea85c771b9e6c0a638733f04fcc5ff6265",
-      "download_url": "https://zenodo.org/api/records/23533755/files/dual-sourcing-optimal-orders-v1.1.0.zip/content",
-      "repository_path": "artifacts/dual-sourcing-optimal-orders-v1.1.0.zip"
+      "role": "inverse-CDF thresholds and balance witness",
+      "status": "previously locally checked; complete body retained and reverified in this exact proof",
+      "proof_sha256": "5f5f004c6871913d67b79b1c8cc063b30adb43674c59d2b9529da290971e790b",
+      "record_file": "research/2026-10-21/dual-sourcing-thresholds-and-balance/record.json",
+      "owning_project_record": "contributions/queelius/research/2026-10-21/dual-sourcing-thresholds-and-balance/record.json",
+      "public_reproduction_scope": "The complete local proof body is retained inside the accepted Theorem2 source; this archived root needs no external local-result file."
     },
     {
-      "filename": "NOTE.md",
-      "bytes": 9715,
-      "sha256": "985a9fbd6f59831e99d423cfb894753ca8b69f03b072e55efebfd4b0e03acc64",
-      "download_url": "https://zenodo.org/api/records/23533755/files/NOTE.md/content",
-      "repository_path": "records/dual-sourcing-optimal-orders/NOTE.md"
+      "role": "global optimality in hedged regions Omega3--Omega6",
+      "status": "previously locally checked; complete body retained and reverified in this exact proof",
+      "proof_sha256": "b2149fb9d4e17a4ee070c532bfd61bee9d82c4c7b301c1f3d818b07f1bf365ae",
+      "record_file": "research/2026-10-21/dual-sourcing-hedged-regime-optimality/record.json",
+      "owning_project_record": "contributions/queelius/research/2026-10-21/dual-sourcing-hedged-regime-optimality/record.json",
+      "public_reproduction_scope": "The complete local proof body is retained inside the accepted Theorem2 source; this archived root needs no external local-result file."
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "dual-sourcing-optimal-orders-v1.2.0.zip",
+      "bytes": 933623,
+      "sha256": "61cdc32b570c66f4d78ed3bcb529846b884a1a4b5aa680e7e5cf89d85a6e3a2f",
+      "download_url": "https://zenodo.org/api/records/23540084/files/dual-sourcing-optimal-orders-v1.2.0.zip/content",
+      "repository_path": "artifacts/dual-sourcing-optimal-orders-v1.2.0.zip"
     },
     {
       "filename": "CITATION.cff",
-      "bytes": 1567,
-      "sha256": "d06295f4356a5e4398f4fabd3a11e05ab159a88afb2cac86de7886650678c974",
-      "download_url": "https://zenodo.org/api/records/23533755/files/CITATION.cff/content",
+      "bytes": 1557,
+      "sha256": "8f6787d37054390cec19b1790c7878fe9a0fdfb903c9e07fc741d7fdcad1cf9e",
+      "download_url": "https://zenodo.org/api/records/23540084/files/CITATION.cff/content",
       "repository_path": "records/dual-sourcing-optimal-orders/CITATION.cff"
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 9529,
+      "sha256": "d2eeb892e2555f5d0965325cfc53908a2852889f5d74d24e93748678bef378fa",
+      "download_url": "https://zenodo.org/api/records/23540084/files/NOTE.md/content",
+      "repository_path": "records/dual-sourcing-optimal-orders/NOTE.md"
     }
   ]
 }

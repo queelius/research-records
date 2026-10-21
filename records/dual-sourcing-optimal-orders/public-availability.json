@@ -1,28 +1,34 @@
 {
-  "checked_at": "2026-10-21T12:11:14.437546+00:00",
+  "checked_at": "2026-10-21T17:13:53.585666+00:00",
   "authenticated": false,
   "observations": [
     {
-      "url": "https://zenodo.org/records/23533755",
+      "url": "https://zenodo.org/records/23540084",
       "status": 200,
-      "final_url": "https://zenodo.org/records/23533755",
-      "bytes": 112698,
+      "final_url": "https://zenodo.org/records/23540084",
+      "bytes": 112537,
       "content_type": "text/html; charset=utf-8"
     },
     {
-      "url": "https://zenodo.org/api/records/23533755",
+      "url": "https://zenodo.org/api/records/23540084",
       "status": 200,
-      "final_url": "https://zenodo.org/api/records/23533755",
-      "bytes": 9043,
+      "final_url": "https://zenodo.org/api/records/23540084",
+      "bytes": 8929,
       "content_type": "application/json"
     },
     {
-      "url": "https://doi.org/10.5281/zenodo.23533755",
-      "status": 404
+      "url": "https://doi.org/10.5281/zenodo.23540084",
+      "status": 200,
+      "final_url": "https://zenodo.org/records/23540084",
+      "bytes": 112537,
+      "content_type": "text/html; charset=utf-8"
     },
     {
-      "url": "https://api.datacite.org/dois/10.5281/zenodo.23533755",
-      "status": 404
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.23540084",
+      "status": 200,
+      "final_url": "https://api.datacite.org/dois/10.5281/zenodo.23540084",
+      "bytes": 17231,
+      "content_type": "application/json; charset=utf-8"
     }
   ]
 }

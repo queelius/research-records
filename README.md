@@ -52,15 +52,15 @@ publication metadata or handoff.
   OpenAI and Pico credited, review pending.
   [Exact v1.0.0 archive](https://doi.org/10.5281/zenodo.23532784).
 
-- [Dual-sourcing profit structure, optimal orders and reliability](records/dual-sourcing-optimal-orders/README.md).
-  Four complete Lean formalizations cover submodularity, optimal-order existence,
-  the exact CDF derivative formula and optimized-value reliability monotonicity.
-  The [version 1.1.0 archive](https://zenodo.org/records/23533755) preserves the earlier
-  edition, reproduces all four targets and rejects five invalid controls.
-  All 96 packet files and three public downloads are verified. Wang, Gilland,
-  Tomlin, platform contributors and Lean/Mathlib retain specific credit;
-  mathematical novelty and independent human review are not claimed.
-  Assigned DOI `10.5281/zenodo.23533755`; resolver verification is pending.
+- [Dual-sourcing optimal orders, regions and reliability](records/dual-sourcing-optimal-orders/README.md).
+  Six complete Lean formalizations include the corrected deterministic-demand
+  optimizer classification and hedge-size/region comparisons, with distinct
+  hypotheses and prior platform repairs explicit. The [version 1.2.0 archive](https://zenodo.org/records/23540084)
+  preserves both earlier editions. Six full targets reproduce, seven invalid
+  controls reject, and all 159 packet files and three public downloads match.
+  Wang, Gilland, Tomlin, platform contributors and Lean/Mathlib retain credit;
+  substantial Codex assistance is disclosed. No novelty or human-review claim.
+  DOI `10.5281/zenodo.23540084`. The exact-version DOI resolves.
 
 - [Small-order C6 saturation: exact values and complete minimum families](records/small-order-c6-saturation/README.md).
   Exact values through 15 vertices and the complete 24-class order-15 family,

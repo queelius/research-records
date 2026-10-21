@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-21T12:11:07.530857+00:00",
-  "scope": "Four exact accepted proofs reproduced from staged and final extracted packets; five invalid controls rejected. No fresh compilation of the entire project ledger is claimed.",
+  "checked_at": "2026-10-21T17:13:53.999937+00:00",
+  "scope": "Six complete accepted proofs reproduced from staged and final extracted packets; two platform definitions rebuilt; seven invalid controls rejected. No fresh compilation of the entire project ledger claimed.",
   "archival_receipt": "archival-verification.json",
   "publication_receipt": "publication.json",
   "metadata_validation": "metadata-validation.json",
   "staged_reproduction": "PASS",
   "final_extracted_reproduction": "PASS",
   "all_public_downloads_match": true,
-  "packet_file_count": 96,
+  "packet_file_count": 159,
   "human_peer_review": false
 }

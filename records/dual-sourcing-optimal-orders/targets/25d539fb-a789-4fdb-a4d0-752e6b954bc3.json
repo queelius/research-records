@@ -1,0 +1,11 @@
+{
+  "theorem_id": "25d539fb-a789-4fdb-a4d0-752e6b954bc3",
+  "theorem_name": "MitigateSupplyRisk.DualSourcing.corollary_1",
+  "formal_statement": "namespace MitigateSupplyRisk.DualSourcing\n\n/-- Corollary 1 (Wang, Gilland, Tomlin 2010, p. 496), in the setting of Theorem 2 (`η = 0`,\n`0 < φ_i < 1`, `G_i(K_i, a) = 1` at every reliability index, and `φ₁ ≥ φ₂`, which is the\nordering `φ₁ G₁(K₁) ≥ φ₂ G₂(K₂)` under `G_i(K_i) = 1`). Raise supplier `i`'s reliability index\nfrom `s` to `s' ≥ s`, the other index fixed. Then\n(a) the quantity-hedge region `Ω₃ ∪ Ω₄ ∪ Ω₅` contracts, and for every demand `x ≥ 0` the hedge\nsize `[q₁* + q₂* − x]⁺` of Theorem 2's optimal vector does not increase;\n(b) the single-sourcing region `Ω₁` expands when `i` is supplier 1 and contracts when `i` is\nsupplier 2. -/\ntheorem corollary_1 (M : Model)\n    (hη : ∀ i, M.η i = 0)\n    (hφpos : ∀ i, 0 < M.phi i) (hφlt : ∀ i, M.phi i < 1)\n    (hGK : ∀ i a, M.G i (M.K i) a = 1)\n    (hord : M.phi 1 ≤ M.phi 0)\n    (i : Fin 2) (a : Fin 2 → ℝ) (s s' : ℝ) (hss' : s ≤ s') :\n    -- (a) the hedge region contracts\n    M.hedgeRegion (Function.update a i s') ⊆ M.hedgeRegion (Function.update a i s) ∧\n    -- (a) the hedge size decreases\n    (∀ x : ℝ, 0 ≤ x →\n      max (M.qstarTotal (Function.update a i s') x - x) 0 ≤\n        max (M.qstarTotal (Function.update a i s) x - x) 0) ∧\n    -- (b) Ω₁ expands as supplier 1's index increases\n    (i = 0 → M.singleRegion (Function.update a i s) ⊆ M.singleRegion (Function.update a i s')) ∧\n    -- (b) Ω₁ contracts as supplier 2's index increases\n    (i = 1 → M.singleRegion (Function.update a i s') ⊆ M.singleRegion (Function.update a i s)) := by sorry\n\nend MitigateSupplyRisk.DualSourcing\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_MitigateSupplyRisk_DualSourcing_Model\nimport Definitions.Def_MitigateSupplyRisk_DualSourcing_Regions\n\nopen MeasureTheory ProbabilityTheory",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "source": "Wang, Gilland, Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing & Service Operations Management 12(3):489–510 (2010), p. 496 (PDF p. 8), Corollary 1",
+  "created_at": "2026-10-07T03:14:43.18881+00:00",
+  "status": "Proved",
+  "visibility": "public"
+}

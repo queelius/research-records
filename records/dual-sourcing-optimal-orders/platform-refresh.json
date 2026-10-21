@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-21T11:56:32.557257+00:00",
-  "api_contract": "0.13.1",
+  "checked_at": "2026-10-21T17:00:43.652602+00:00",
+  "api_contract": "0.13.2",
   "targets": [
     {
       "theorem_id": "6ab95a20-b12f-4ada-bc66-bd88749135a3",
@@ -57,6 +57,34 @@
       "submission_count": 1,
       "created_at": "2026-10-07T03:14:05.881183+00:00",
       "visibility": "public"
+    },
+    {
+      "theorem_id": "25d539fb-a789-4fdb-a4d0-752e6b954bc3",
+      "submission_id": "4ee46e26-182d-42de-95b7-bd9265345e90",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T12:26:34.865922+00:00",
+      "submitted_at": "2026-10-21T12:23:58.607496+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "68a165c41b8a8e2153494185aca0611ef01466632ecf28985b45d06f63eaf335",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-07T03:14:43.18881+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "submission_id": "2b8b367e-f9f2-4574-8d76-0450fb691b10",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T16:13:21.039987+00:00",
+      "submitted_at": "2026-10-21T16:11:08.477988+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "30fb1297379708a1f21cf6ba589f43c620fb9ffeb0c11cfc382a7c1eb7dd96c8",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-07T03:14:37.739696+00:00",
+      "visibility": "public"
     }
   ],
   "definitions": [
@@ -68,6 +96,20 @@
       "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
       "definition_name": "MitigateSupplyRisk_DualSourcing_Model",
       "created_at": "2026-10-07T03:13:11.999633+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_MitigateSupplyRisk_DualSourcing_Regions.lean",
+      "sha256": "80507e6188a2dee8d05b09cd3ab24557ff607c7edabd0e931acdfbd271d406ba",
+      "platform_definition_id": "a6eb26cf-bbdb-4dea-b2ff-7b854d885473",
+      "source": "Wang, Gilland, Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing & Service Operations Management 12(3):489–510 (2010), pp. 494–495 (PDF pp. 6–7), Theorem 2 and Figure 1; p. 496 (PDF p. 8), Corollary 1",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "MitigateSupplyRisk_DualSourcing_Regions",
+      "created_at": "2026-10-07T03:13:53.123504+00:00",
       "updated_at": null,
       "visibility": "public",
       "username": null,

@@ -1,0 +1,10 @@
+{
+  "theorem_id": "854f8126-fb75-46c1-9091-9f3e49c1fc8c",
+  "theorem_name": "MitigateSupplyRisk.DualSourcing.eq6_first_order",
+  "status": "Proved",
+  "formal_statement": "namespace MitigateSupplyRisk.DualSourcing\n\n/-- Eq. (6) (Wang, Gilland, Tomlin 2010, §4.1, p. 494). Let demand have a density, with\ndistribution function `F`. For a feasible `q` with `0 < q_i < K_i` and `j ≠ i` the other\nsupplier:\n1. the partial derivative of `Π₂(·; a)` in `q_i` at `q` is\n   `(r + p − v)(ψ_i + G_i(K_i − q_i, a_i)(φ_i − E_{ξ_j}[F(q_i + y_j)]))`, where\n   `y_j = min{q_j, (K_j − ξ_j)⁺}` and `ξ_j` has law `ν_j(a_j)`;\n2. if `q` is optimal, then `ψ_i + G_i(K_i − q_i, a_i)(φ_i − E_{ξ_j}[F(q_i + y_j)]) = 0`. -/\ntheorem eq6_first_order (M : Model) (μ : Measure ℝ) [IsProbabilityMeasure μ]\n    (hμ0 : μ (Set.Iio 0) = 0) (hμint : Integrable id μ) (hμac : μ ≪ volume)\n    (a q : Fin 2 → ℝ) (hq : q ∈ Model.orders) (i j : Fin 2) (hij : i ≠ j)\n    (hqi0 : 0 < q i) (hqiK : q i < M.K i) :\n    HasDerivAt (fun t => M.Pi2 μ (Function.update q i t) a)\n      ((M.r + M.p - M.v) * (M.psi i + M.G i (M.K i - q i) (a i) *\n        (M.phi i - ∫ s, cdf μ (q i + Model.deliv (M.K j) (q j) s) ∂(M.ν j (a j))))) (q i) ∧\n    (M.IsOptimal μ a q →\n      M.psi i + M.G i (M.K i - q i) (a i) *\n        (M.phi i - ∫ s, cdf μ (q i + Model.deliv (M.K j) (q j) s) ∂(M.ν j (a j))) = 0) := by sorry\n\nend MitigateSupplyRisk.DualSourcing\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_MitigateSupplyRisk_DualSourcing_Model\n\nopen MeasureTheory ProbabilityTheory",
+  "source": "Wang, Gilland, Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing & Service Operations Management 12(3):489–510 (2010), p. 494 (PDF p. 6), §4.1, Eq. (6)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}
