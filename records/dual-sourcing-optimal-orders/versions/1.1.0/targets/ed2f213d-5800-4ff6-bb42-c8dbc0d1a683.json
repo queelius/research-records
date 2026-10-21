@@ -1,0 +1,10 @@
+{
+  "theorem_id": "ed2f213d-5800-4ff6-bb42-c8dbc0d1a683",
+  "theorem_name": "MitigateSupplyRisk.DualSourcing.lemma_2b",
+  "status": "Proved",
+  "formal_statement": "namespace MitigateSupplyRisk.DualSourcing\n\n/-- Lemma 2(b) (Wang, Gilland, Tomlin 2010, p. 494): the optimal second-stage expected profit\n`Π₂*(a) = sup_{q ≥ 0} Π₂(q; a)` is (weakly) increasing in supplier `i`'s reliability index `a_i`,\nthe other supplier's index held fixed. Demand is any nonnegative law with finite mean. -/\ntheorem lemma_2b (M : Model) (μ : Measure ℝ) [IsProbabilityMeasure μ]\n    (hμ0 : μ (Set.Iio 0) = 0) (hμint : Integrable id μ) (i : Fin 2) (a : Fin 2 → ℝ) :\n    Monotone (fun t : ℝ => M.Pi2star μ (Function.update a i t)) := by sorry\n\nend MitigateSupplyRisk.DualSourcing\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_MitigateSupplyRisk_DualSourcing_Model\n\nopen MeasureTheory ProbabilityTheory",
+  "source": "Wang, Gilland, Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing & Service Operations Management 12(3):489–510 (2010), p. 494 (PDF p. 6), Lemma 2(b)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

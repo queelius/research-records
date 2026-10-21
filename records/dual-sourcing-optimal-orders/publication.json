@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "record_id": 23540084,
+  "version": "1.2.0",
+  "version_doi": "10.5281/zenodo.23540084",
+  "concept_doi": "10.5281/zenodo.23531694",
+  "url": "https://zenodo.org/records/23540084",
+  "state": "published",
+  "published_at": "2026-10-21T17:13:03.920260+00:00",
+  "verified_at": "2026-10-21T17:13:53.999937+00:00",
+  "public_metadata_http_status": 200,
+  "public_metadata_authenticated": false,
+  "all_public_downloads_match": true,
+  "files": [
+    {
+      "filename": "dual-sourcing-optimal-orders-v1.2.0.zip",
+      "bytes": 933623,
+      "sha256": "61cdc32b570c66f4d78ed3bcb529846b884a1a4b5aa680e7e5cf89d85a6e3a2f",
+      "download_url": "https://zenodo.org/api/records/23540084/files/dual-sourcing-optimal-orders-v1.2.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1557,
+      "sha256": "8f6787d37054390cec19b1790c7878fe9a0fdfb903c9e07fc741d7fdcad1cf9e",
+      "download_url": "https://zenodo.org/api/records/23540084/files/CITATION.cff/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 9529,
+      "sha256": "d2eeb892e2555f5d0965325cfc53908a2852889f5d74d24e93748678bef378fa",
+      "download_url": "https://zenodo.org/api/records/23540084/files/NOTE.md/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "packet_manifest_sha256": "402b27c07d1a5257a5ee0ddcbcd95805d70e21e389ad04c4a2d4214764e2d9e0",
+  "packet_file_count": 159,
+  "all_packet_files_verified": true,
+  "archive_rebuild_byte_identical": true,
+  "reproduction": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 6,
+    "definitions": 2,
+    "exact_target_audits": true,
+    "rejection_controls": 7
+  },
+  "note": "Publication date is distinct from original October21 public proof submissions. The frozen packet records its reserved state at assembly; this receipt establishes publication.",
+  "publication_date": "2026-10-21",
+  "published_at_basis": "Observed server modified timestamp after publication; not an independently established exact first-public-disclosure instant. Public metadata publication_date is recorded separately.",
+  "previous_version_doi": "10.5281/zenodo.23533755"
+}

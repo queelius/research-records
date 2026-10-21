@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-21T12:05:21.053718+00:00",
+  "status": "passed",
+  "accepted_targets_recompiled": 4,
+  "definition_modules_rebuilt": [
+    "Definitions.Def_MitigateSupplyRisk_DualSourcing_Model"
+  ],
+  "exact_type_audits": true,
+  "autoImplicit": false,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "fresh_report": "verification/reproduction.json",
+  "fresh_report_sha256": "49e8af35ad9501000c7feb6f6bbd2aa57997e96c915c2289ab6f8cfff09952f9",
+  "controls": [
+    {
+      "name": "ExtraAxiomControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Local axiom is forbidden",
+      "source_file": "verification/controls/ExtraAxiomControl.lean",
+      "source_sha256": "b39bd81d5ad034d3a39410405f669684c2097810f4b9508a1c3d9bf1cc366c71",
+      "log_file": "verification/controls/ExtraAxiomControl.log",
+      "log_sha256": "d89200c7db92650efcea1ee874b22e8f9e9c2f37e17061d6aa2aab31d0f91f58",
+      "original_log_sha256": "113615a90892c8e2faf35f0fdb45fde160b342fec3bac9388d65334c7aa70970"
+    },
+    {
+      "name": "WeakenedTargetControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Type mismatch",
+      "source_file": "verification/controls/WeakenedTargetControl.lean",
+      "source_sha256": "48cfa41a7ea4dc37c68a60eedb5ade8da4295b41ba2ae56cc866ae7cb3df025f",
+      "log_file": "verification/controls/WeakenedTargetControl.log",
+      "log_sha256": "865b6c3eed2fec30ebcf7f2e0e5627ca58e66089b788c205c5ed80be0b4ec271",
+      "original_log_sha256": "78601e4026c1f88d35f7f4cfed77aee02a06d869f8cdabde796c34d70bf2440b"
+    },
+    {
+      "name": "WeakenedCDFTargetControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Type mismatch",
+      "source_file": "verification/controls/WeakenedCDFTargetControl.lean",
+      "source_sha256": "97b79805f0466ceb291fddada866052072bf7d3ad80e0299185877545602176e",
+      "log_file": "verification/controls/WeakenedCDFTargetControl.log",
+      "log_sha256": "9b5502e799bc04ee3ba6329057b1cadf28d57d8336e57957a38a3a926dbfe3a2",
+      "original_log_sha256": "5eabd9af41039534e2e0f6dadc27f5b0f67d54452c09bd41395bdcfa7244b542"
+    },
+    {
+      "name": "WeakenedMonotonicityTargetControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Type mismatch",
+      "source_file": "verification/controls/WeakenedMonotonicityTargetControl.lean",
+      "source_sha256": "a153960f93ddd2dc45bcbbf614254bf942cd477d21ad128a60b0ce07c2109073",
+      "log_file": "verification/controls/WeakenedMonotonicityTargetControl.log",
+      "log_sha256": "7e3cfdbcbee2796761442f2899d29b13bf969fa4182c4abc253757b05ce61e5b",
+      "original_log_sha256": "bd7d37a995ab6b495cf5d42ab772ffd88a44e379be60ff4a172b069464f3c4ae"
+    },
+    {
+      "name": "proof-byte-mutation",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "scope": "Append one newline to an accepted proof in an isolated packet copy; unchanged integrity verifier must reject its hash.",
+      "log_file": "verification/controls/proof-byte-mutation.log",
+      "log_sha256": "3579f72eeabb967914a4b303bda96d2c43c56b32181397ee6c5304fad69a32cf",
+      "original_log_sha256": "c4b56ef3eaab25f1955612a64952dbe09253bfbe958d206be432be3c7e64cf3a"
+    }
+  ],
+  "tooling_regression": {
+    "tests_passed": 128,
+    "combined_coverage_percent": 92.27129337539432,
+    "scope": "Unchanged established archive verifier; owning-project unit/integration suite passed on 2026-10-21 before packet preparation. Defensive setup/cleanup branches remain uncovered."
+  },
+  "cache_policy": "Verified pinned third-party compiled caches reused; the sole platform definition compiled freshly. No Lean/Mathlib bootstrap verification.",
+  "human_peer_review": false,
+  "paths_relative_to": "archival packet root"
+}

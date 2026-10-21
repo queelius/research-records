@@ -1,0 +1,69 @@
+{
+  "title": "Verified graphon-game aggregates, Nash equilibria and fixed-profile perturbation bounds",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>Five complete Lean formalizations in the exact Prove2Me real-action graphon-game model: best-response L2 sensitivity (Lemma 3.7), aggregate-profile L2 sensitivity (Lemma 3.16, display 15), aggregate existence and almost-everywhere uniqueness (Proposition 3.1), Nash equilibrium existence and almost-everywhere uniqueness under condition (17) (Proposition 3.17), and aggregate sensitivity under a change of graphon at a fixed action profile (Lemma 3.19).</p>\n<p>The player measure is Lebesgue probability on the unit interval. Kernels are symmetric, measurable, real-valued and square-integrable. The exact extended-real operator norm is proved finite before its real part is used. Assumption 1 imposes the squared Lipschitz bound and the stated mean-zero finite-second-moment noise law. Assumption 4 imposes C1 strong convexity in the real action and Lipschitz dependence of the action derivative on the aggregate. Aggregate existence requires sqrt(c_z)||W||&lt;1; Nash uniqueness additionally requires (ell_J/ell_c)sqrt(c_alpha)||W||/(1-sqrt(c_z)||W||)&lt;1. The fixed-profile perturbation target retains both contraction conditions and Assumption 5, the uniform positive bound c0 on |b|.</p>\n<p>The proof infrastructure checks selected-minimizer existence and uniqueness, nonlinear L2 closure, kernel-product integrability, exact operator bounds and contractions on complete L2 equivalence classes. The five complete original signatures and actual accepted bodies are included. Internal proof reuse is documented and is not counted as extra targets.</p>\n<p>Original mathematics: René Carmona, Daniel B. Cooney, Christy V. Graves and Mathieu Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1 (2019). Their Lemma 3.7 credits an estimate of Francesca Parise and Asuman Ozdaglar, Graphon games, arXiv:1802.00080 (2018), reference [26]; that predecessor attribution is retained. The pinned Carmona et al. PDF was inspected and hashed; papers are cited, not redistributed. mikedeng1 supplied platform formulations; Shuze Chen confirmed platform statements, not these proofs. Lean and Mathlib contributors retain foundational credit.</p>\n<p>The standalone packet contains five unchanged accepted proof sources, two platform definitions, independent full-type and every-local-declaration axiom audits, immutable Lean 4.33.1 and Mathlib pins, the established archive verifier, fresh reproduction logs and seven rejected controls. The controls cover all five target interfaces, an unused forbidden local axiom and modified proof bytes. Verification uses autoImplicit=false and only propext, Classical.choice and Quot.sound. Verified third-party compiled caches are trusted inputs.</p>\n<p>The claim covers real actions and the platform's pointwise Nash predicate, not general constrained actions or the rich Fubini-extension construction and its equivalence to this predicate. Theorem 3.20, full equilibrium sensitivity under graphon perturbations, remains outside this edition; the fixed-profile bound does not prove it. Finite-player approximation and pointwise estimate (16) are also excluded. Assumption 4 applies to the exact defined integral cost; no separate integrability premise for f is silently added.</p>\n<p>Alexander Richard Towell directed research and publication; OpenAI Codex substantially constructed, formalized, checked, submitted and documented the proofs and packet. Mathematical novelty, source-author endorsement and independent human proof review are not claimed. The original proof submissions and acceptances occurred on October 21, 2026; this archive is a separate publication event and adds no accepted target.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "graphon games",
+    "Nash equilibrium",
+    "aggregate fixed points",
+    "operator norms",
+    "L2 stability",
+    "contraction mapping",
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "reproducible proofs",
+    "AI-assisted research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://arxiv.org/abs/1911.10664v1",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/graphon-game-equilibrium-formalization",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/d15c5288-19ce-4d45-a1b7-85ba5459e1be",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/340d096a-6310-4918-812e-b054e16a263b",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/725ac376-4945-4056-baa9-1e4e47dc7ff4",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/187bb874-2ff0-45f7-abc5-e2bf44a49a1d",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Five accepted formalizations of established results. Original source and platform contributors are credited as predecessors, not represented as coauthors. A DOI provides archival citation, not evidence of mathematical novelty or human peer review."
+}

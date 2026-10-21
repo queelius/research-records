@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "boolean-degree-five-spectral-exclusions",
-  "title": "Exact spectral exclusions for degree-five Boolean candidates",
-  "contribution_type": "conditional finite computational exclusions and reproducible verification source",
+  "title": "Exact spectral exclusions, singleton components and graph locality for degree-five Boolean candidates",
+  "contribution_type": "Conditional exact exclusions, component classifications, relative graph lemma and reproducible verification source",
   "authors": [
     {
       "name": "Alexander Richard Towell",
@@ -10,9 +10,9 @@
       "affiliation": "Southern Illinois University Edwardsville"
     }
   ],
-  "predecessor_credit": "Smotrovs and Zaicevs: prior investigation of the degree-five, sensitivity-fourteen search; Stepanovs: earlier layer-statistic computations. Standard Fourier analysis and linear inequality certificates are not claimed as new techniques.",
+  "predecessor_credit": "Smotrovs and Zaicevs: prior investigation of the degree-five, sensitivity-fourteen search; Stepanovs: earlier layer-statistic computations. Standard Fourier analysis and linear inequality certificates are not claimed as new techniques. Klas Markström and John Talbot own the published unrestricted75-class classification used by the graph supplement; the stronger locality property already appears in earlier project history.",
   "ai_assistance": "Substantial OpenAI Codex assistance in mathematics, code, experiments, verification code and exposition; independently implemented checkers are not independent human review.",
-  "claim": "Ten explicitly specified marked-pattern cases in signed Fourier geometry 34 are excluded by independently checked exact integer contradictions.",
+  "claim": "Ten original conditional cases are excluded, with standalone singleton classifications and a relative finite positive-locality graph lemma plus minimum-six-repair corollary; exact scopes are separated in public_supplements.",
   "mathematical_scope": {
     "variables": 14,
     "degree_at_most": 5,
@@ -104,10 +104,10 @@
     }
   },
   "publication": {
-    "state": "published_archive_public_downloads_verified",
-    "version_doi": "10.5281/zenodo.23496542",
+    "state": "published_archive_new_files_and_public_replay_verified_retained_hash_continuity_verified",
+    "version_doi": "10.5281/zenodo.23539867",
     "concept_doi": "10.5281/zenodo.23496541",
-    "archive_publication_date": "2026-10-20",
+    "archive_publication_date": "2026-10-21",
     "journal_submission": null,
     "preprint_submission": null,
     "human_peer_review": "not claimed",
@@ -130,21 +130,98 @@
         "sha256": "944e4e2db0e2313503917f3bf55fe9b6aaedf00059f0be50906e13a1fa9107f8"
       }
     },
-    "zenodo_status": "Published; public metadata, all 48 unauthenticated file downloads, and the reassembled archive are verified.",
+    "zenodo_status": "Published v1.3.0; four new anonymous downloads and fresh public-archive proof replays verified;56 retained entries verified by historical full-body rehash and successor MD5/size continuity.",
     "zenodo_archive": {
-      "record_url": "https://zenodo.org/records/23496542",
-      "version": "1.0.0",
-      "created_at": "2026-10-20T12:57:08.952880+00:00",
-      "public_asset_count": 48,
-      "public_download_verification": "COMPLETE",
+      "record_url": "https://zenodo.org/records/23539867",
+      "version": "1.3.0",
+      "created_at": "2026-10-21T17:06:20.629350+00:00",
+      "public_asset_count": 60,
+      "public_download_verification": "PUBLISHED_NEW_FILES_VERIFIED_RETAINED_HASH_CONTINUITY_AND_PUBLIC_ARCHIVE_REPLAY_VERIFIED",
+      "verified_at": "2026-10-21T17:07:29.442263+00:00",
+      "new_files_freshly_downloaded_without_authentication": 4,
+      "retained_files_predecessor_sha256_rehashed_locally": 56,
+      "retained_files_successor_md5_and_size_verified": 56,
+      "all_new_public_downloads_match_sha256": true,
+      "all_successor_public_files_freshly_downloaded": false,
+      "actual_fresh_public_archive_both_complete_replays": true,
+      "verification_limit": "Only the four new v1.3.0 files were freshly downloaded anonymously. All56 retained entries matched successor MD5/size and their earlier full anonymous bodies were locally rehashed:52 originate at1.1.0 with1.2.0 continuity;4 originate at1.2.0. No60-fresh-download claim.",
+      "source_commit": "81e6f434d44ee67610a88aab18a2ed7438510bfc",
+      "scope": "Retained ten geometry34 conditional exclusions and ell2/constant-one ell3 component results, plus the standalone positive-locality G124 lemma and minimum-six-repair corollary. Classification count75 is external; dependent Boolean premises not all bundled. No later research or global solution.",
       "verification_receipt": {
-        "path": "PUBLIC-ZENODO.json",
-        "sha256": "da08fc86cfee43aa2d42baaf4fd2448ea7318160b5c5caf0f9afe9acd8155e74"
+        "path": "PUBLIC-ZENODO-v1.3.0.json",
+        "sha256": "8c963ff802be441383ae2c0440699203f4c2f83484d0bf86602c0eeac990a318"
+      }
+    },
+    "prior_archived_versions": [
+      {
+        "version": "1.2.0",
+        "version_doi": "10.5281/zenodo.23536478",
+        "archive_publication_date": "2026-10-21",
+        "zenodo_archive": {
+          "record_url": "https://zenodo.org/records/23536478",
+          "version": "1.2.0",
+          "created_at": "2026-10-21T14:24:58.987329+00:00",
+          "public_asset_count": 56,
+          "public_download_verification": "PUBLISHED_NEW_FILES_VERIFIED_RETAINED_HASH_CONTINUITY_VERIFIED",
+          "verified_at": "2026-10-21T14:28:38.401850+00:00",
+          "new_files_freshly_downloaded_without_authentication": 4,
+          "retained_files_predecessor_sha256_rehashed_locally": 52,
+          "retained_files_successor_md5_and_size_verified": 52,
+          "all_new_public_downloads_match_sha256": true,
+          "all_successor_public_files_freshly_downloaded": false,
+          "verification_limit": "Only the four new files were freshly downloaded from v1.2.0. All52 retained entries match the MD5/size metadata of v1.1.0 and its previously anonymous full downloads, rehashed again locally. No fresh56-download or new SHA256 computation on the52 successor bodies is claimed.",
+          "source_commit": "54644197be81024d1cfd18f74235a093cbcaf3a4",
+          "scope": "Ten earlier conditional geometry34 exclusions, the standalone ten-coordinate ell2 classification, and the constant-one ell3 seventeen-family cover. No later G25/G17 research, constant-two ell3 classification, or global solution is archived.",
+          "verification_receipt": {
+            "path": "PUBLIC-ZENODO-v1.2.0.json",
+            "sha256": "16dd8012afbfd90880fb9d40eaec72a8b1e8f08033277a2b5f80a9f596a5245d"
+          }
+        },
+        "scope": "Ten earlier conditional geometry34 exclusions, the standalone ten-coordinate ell2 classification, and the constant-one ell3 seventeen-family cover. No later G25/G17 research, constant-two ell3 classification, or global solution is archived."
       },
-      "verified_at": "2026-10-20T14:05:28.797934+00:00",
-      "all_public_downloads_match_sha256": true,
-      "reassembled_public_parts_match_original_archive": true
-    }
+      {
+        "version": "1.1.0",
+        "version_doi": "10.5281/zenodo.23533427",
+        "archive_publication_date": "2026-10-21",
+        "zenodo_archive": {
+          "record_url": "https://zenodo.org/records/23533427",
+          "version": "1.1.0",
+          "created_at": "2026-10-21T12:02:46.335006+00:00",
+          "public_asset_count": 52,
+          "public_download_verification": "COMPLETE",
+          "verified_at": "2026-10-21T13:16:27.004319+00:00",
+          "all_public_downloads_match_sha256": true,
+          "reassembled_public_parts_match_original_archive": true,
+          "source_commit": "b954f03228c9e5637b4d12b469376a418dabccb4",
+          "scope": "Ten earlier conditional geometry34 exclusions, plus the standalone ten-coordinate ell2 singleton classification. No ell3 catalog or later G25 progress is archived.",
+          "verification_receipt": {
+            "path": "PUBLIC-ZENODO-v1.1.0.json",
+            "sha256": "4f6e9557180d47e96c77f8d73e6c0cb1221e8b0d00d2dc3e8a4bd467d5b8fd2f"
+          }
+        },
+        "scope": "Ten earlier conditional geometry34 exclusions, plus the standalone ten-coordinate ell2 singleton classification. No ell3 catalog or later G25 progress is archived."
+      },
+      {
+        "version": "1.0.0",
+        "version_doi": "10.5281/zenodo.23496542",
+        "archive_publication_date": "2026-10-20",
+        "zenodo_archive": {
+          "record_url": "https://zenodo.org/records/23496542",
+          "version": "1.0.0",
+          "created_at": "2026-10-20T12:57:08.952880+00:00",
+          "public_asset_count": 48,
+          "public_download_verification": "COMPLETE",
+          "verification_receipt": {
+            "path": "PUBLIC-ZENODO.json",
+            "sha256": "da08fc86cfee43aa2d42baaf4fd2448ea7318160b5c5caf0f9afe9acd8155e74"
+          },
+          "verified_at": "2026-10-20T14:05:28.797934+00:00",
+          "all_public_downloads_match_sha256": true,
+          "reassembled_public_parts_match_original_archive": true
+        },
+        "scope": "Ten conditional geometry34 exclusions only; singleton supplement not included."
+      }
+    ]
   },
   "license": {
     "original_code": "MIT",
@@ -156,5 +233,235 @@
     "Conditional scope depends on the documented necessary-cover reductions.",
     "No proof-assistant formalization, human peer review or external acceptance is claimed.",
     "The bounded source review does not establish novelty."
-  ]
+  ],
+  "public_supplements": [
+    {
+      "id": "singleton-boundary-classification",
+      "title": "A divisible singleton Fourier component on ten coordinates",
+      "claim": "For the exact ten-coordinate component hypotheses in THEOREM.md, the constant is one and every component factors as (1-chi_uv)(1-sum of C5 edge characters). Exactly30240 labeled forms; the second constant case is impossible.",
+      "scope": {
+        "component_variables": 10,
+        "exceptional_singleton_inputs": 2,
+        "actual_fourteen_variable_boolean_function": false,
+        "global_existence_question_solved": false,
+        "written_completeness_proof": true,
+        "finite_catalog_check_alone_proves_completeness": false
+      },
+      "source": {
+        "repository": "https://github.com/queelius/boolean-degree-sensitivity",
+        "commit": "b954f03228c9e5637b4d12b469376a418dabccb4",
+        "packet": "https://github.com/queelius/boolean-degree-sensitivity/tree/b954f03228c9e5637b4d12b469376a418dabccb4/supplements/singleton-boundary-classification",
+        "theorem": "https://github.com/queelius/boolean-degree-sensitivity/blob/b954f03228c9e5637b4d12b469376a418dabccb4/supplements/singleton-boundary-classification/THEOREM.md",
+        "manifest": "https://github.com/queelius/boolean-degree-sensitivity/blob/b954f03228c9e5637b4d12b469376a418dabccb4/supplements/singleton-boundary-classification/MANIFEST.json"
+      },
+      "public_disclosure": {
+        "date": "2026-10-21",
+        "observed_at": "2026-10-21T11:36:38.114778+00:00",
+        "url": "https://github.com/queelius/boolean-degree-sensitivity/tree/b954f03228c9e5637b4d12b469376a418dabccb4/supplements/singleton-boundary-classification",
+        "meaning": "All25 changed source files verified without authentication; no claim of an earlier public disclosure."
+      },
+      "verification": {
+        "forms": 30240,
+        "cube_values": 30965760,
+        "walsh_coefficients": 30965760,
+        "portable_controls_normal": 12,
+        "portable_controls_optimized": 12,
+        "prior_source_controls": 138,
+        "independent_portable_copy_replay": true,
+        "network_isolation_enforced": false,
+        "written_graph_case_split_ai_reviewed": true,
+        "human_peer_review": false,
+        "formal_verification": false,
+        "public_download_receipt": "SINGLETON-SOURCE.json"
+      },
+      "publication": {
+        "state": "published_archive_new_files_verified_retained_hash_continuity_verified",
+        "version": "1.2.0",
+        "version_doi": "10.5281/zenodo.23536478",
+        "concept_doi": "10.5281/zenodo.23496541",
+        "archive_publication_date": "2026-10-21",
+        "record_url": "https://zenodo.org/records/23536478",
+        "public_asset_count": 56,
+        "verification_receipt": {
+          "path": "PUBLIC-ZENODO-v1.2.0.json",
+          "sha256": "16dd8012afbfd90880fb9d40eaec72a8b1e8f08033277a2b5f80a9f596a5245d"
+        },
+        "verification_protocol": "4 new full anonymous downloads; 52 retained entries checked by predecessor full-body hash continuity and successor MD5/size metadata.",
+        "journal_submission": null,
+        "preprint_server_submission": null,
+        "first_archived_version": {
+          "state": "published_archive_public_downloads_verified",
+          "version": "1.1.0",
+          "version_doi": "10.5281/zenodo.23533427",
+          "concept_doi": "10.5281/zenodo.23496541",
+          "archive_publication_date": "2026-10-21",
+          "record_url": "https://zenodo.org/records/23533427",
+          "all_public_downloads_verified": true,
+          "public_asset_count": 52,
+          "earlier_version_doi": "10.5281/zenodo.23496542",
+          "earlier_version_archives_this_supplement": false,
+          "journal_submission": null,
+          "preprint_server_submission": null
+        }
+      },
+      "license": {
+        "code": "MIT",
+        "proof_notes_data": "CC-BY-4.0"
+      },
+      "attribution": "Alexander Richard Towell, with substantial OpenAI Codex assistance; Fourier/Mobius and graph-parity techniques and earlier project work retain credit. No novelty or human review established."
+    },
+    {
+      "id": "singleton-ell3-classification",
+      "title": "A complete finite cover for three-exceptional constant-one singleton components",
+      "claim": "Every ten-coordinate component under THEOREM.md hypotheses is a coordinate image of one of17 listed families; all19112 necessary quartet-selection instances are exhausted. This is a complete cover, not a minimal orbit count.",
+      "scope": {
+        "component_variables": 10,
+        "constant": 1,
+        "exceptional_singleton_inputs": 3,
+        "negative_pairs": 8,
+        "positive_quartics": 7,
+        "constant_two_classification": false,
+        "actual_fourteen_variable_boolean_function": false,
+        "global_existence_question_solved": false,
+        "minimal_orbit_count_claimed": false
+      },
+      "source": {
+        "repository": "https://github.com/queelius/boolean-degree-sensitivity",
+        "commit": "54644197be81024d1cfd18f74235a093cbcaf3a4",
+        "packet": "https://github.com/queelius/boolean-degree-sensitivity/tree/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification",
+        "theorem": "https://github.com/queelius/boolean-degree-sensitivity/blob/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/THEOREM.md",
+        "manifest": "https://github.com/queelius/boolean-degree-sensitivity/blob/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/MANIFEST.json"
+      },
+      "public_disclosure": {
+        "date": "2026-10-21",
+        "observed_at": "2026-10-21T13:42:59.568173+00:00",
+        "url": "https://github.com/queelius/boolean-degree-sensitivity/tree/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification",
+        "meaning": "All41 changed source files verified without authentication; no earlier public disclosure claimed."
+      },
+      "verification": {
+        "written_rank_and_graph_reduction": true,
+        "literal_augmentation_maps": 10720,
+        "uncolored_frame_links": 329,
+        "marked_transports": 39480,
+        "selection_instances_exhausted": 19112,
+        "literal_covering_families": 17,
+        "source_cover_occurrences": 53,
+        "cube_inputs_per_family": 1024,
+        "fourier_coefficients_per_family": 1024,
+        "portable_controls_normal": 11,
+        "portable_controls_optimized": 11,
+        "root_unrelated_copy_replay": true,
+        "standard_library_only": true,
+        "network_isolation_enforced": false,
+        "independent_historical_quota_enumeration": true,
+        "human_peer_review": false,
+        "formal_verification": false,
+        "public_download_receipt": "SINGLETON-ELL3-SOURCE.json"
+      },
+      "publication": {
+        "state": "published_archive_new_files_verified_retained_hash_continuity_verified",
+        "version": "1.2.0",
+        "version_doi": "10.5281/zenodo.23536478",
+        "concept_doi": "10.5281/zenodo.23496541",
+        "archive_publication_date": "2026-10-21",
+        "record_url": "https://zenodo.org/records/23536478",
+        "public_asset_count": 56,
+        "verification_receipt": {
+          "path": "PUBLIC-ZENODO-v1.2.0.json",
+          "sha256": "16dd8012afbfd90880fb9d40eaec72a8b1e8f08033277a2b5f80a9f596a5245d"
+        },
+        "verification_protocol": "4 new full anonymous downloads; 52 retained entries checked by predecessor full-body hash continuity and successor MD5/size metadata.",
+        "journal_submission": null,
+        "preprint_server_submission": null,
+        "earlier_archived_versions_do_not_include_this_supplement": [
+          "1.0.0",
+          "1.1.0"
+        ]
+      },
+      "license": {
+        "code": "MIT",
+        "proof_notes_data": "CC-BY-4.0"
+      },
+      "attribution": "Alexander Richard Towell, with substantial OpenAI Codex assistance. Predecessors and standard incidence, binary rank and graph techniques retain credit; novelty, human review and formal verification are not established."
+    },
+    {
+      "id": "g124-positive-locality",
+      "title": "Positive obstruction locality in free124-edge fourteen-vertex3-graphs",
+      "claim": "Relative to Markström–Talbot Figure1 count75, each five-set has at most one positively localizable missing triple in every free124-edge3-graph on14 vertices; a written minimum-six-repair corollary follows.",
+      "scope": {
+        "vertices": 14,
+        "edges": 124,
+        "quartet_freeness": "Every four-set contains at most two edges.",
+        "positive_obstruction_list_required_nonempty": true,
+        "external_classification_count": 75,
+        "classification_DOI": "10.1002/jcd.20223",
+        "classification_figure": 1,
+        "classification_exhaustive_search_replayed": false,
+        "minimum_repair_corollary_requires_cardinality_minimum_six": true,
+        "dependent_Boolean_application_premises_fully_bundled": false,
+        "actual_fourteen_variable_Boolean_function": false,
+        "global_existence_question_solved": false
+      },
+      "source": {
+        "repository": "https://github.com/queelius/boolean-degree-sensitivity",
+        "commit": "81e6f434d44ee67610a88aab18a2ed7438510bfc",
+        "packet": "https://github.com/queelius/boolean-degree-sensitivity/tree/81e6f434d44ee67610a88aab18a2ed7438510bfc/supplements/g124-positive-locality",
+        "theorem": "https://github.com/queelius/boolean-degree-sensitivity/blob/81e6f434d44ee67610a88aab18a2ed7438510bfc/supplements/g124-positive-locality/THEOREM.md",
+        "manifest": "https://github.com/queelius/boolean-degree-sensitivity/blob/81e6f434d44ee67610a88aab18a2ed7438510bfc/supplements/g124-positive-locality/MANIFEST.json",
+        "manifest_sha256": "34de3ecb6ca4e9a87428630cc71f95ad18eec49157a6786e8a848c3eb078a7ae"
+      },
+      "public_disclosure": {
+        "date": "2026-10-21",
+        "observed_at": "2026-10-21T17:01:47.929965+00:00",
+        "url": "https://github.com/queelius/boolean-degree-sensitivity/tree/81e6f434d44ee67610a88aab18a2ed7438510bfc/supplements/g124-positive-locality",
+        "meaning": "All38 changed source files matched fresh full anonymous downloads; local preparation is not earlier public disclosure."
+      },
+      "verification": {
+        "distinct_verifiers": 2,
+        "standard_library_only": true,
+        "literal_graphs": 75,
+        "edges_per_graph": 124,
+        "missing_triples_per_verifier": 18000,
+        "five_sets_directly_scanned_by_quartet_method": 150150,
+        "positive_locality_incidents": 152,
+        "maximum_positive_locality_per_five_set": 1,
+        "actual_full_invariant_tuples_distinct": true,
+        "portable_controls_normal": 10,
+        "portable_controls_optimized": 10,
+        "free_five_vertex_graphs_compared_against_literal_restoration": 253,
+        "parent_portable_packet_review_accepted": true,
+        "fresh_public_archive_both_complete_replays": true,
+        "network_isolation_enforced": false,
+        "human_peer_review": false,
+        "formal_verification": false,
+        "source_public_receipt": "G124-SOURCE.json"
+      },
+      "publication": {
+        "state": "published_archive_public_replays_and_new_downloads_verified",
+        "version": "1.3.0",
+        "version_doi": "10.5281/zenodo.23539867",
+        "concept_doi": "10.5281/zenodo.23496541",
+        "record_url": "https://zenodo.org/records/23539867",
+        "archive_publication_date": "2026-10-21",
+        "verification_protocol": "4 new full anonymous downloads and both fresh public-archive proof replays; 56 retained entries checked by previous anonymous full-body SHA256/MD5 rehash plus successor MD5/size continuity. No60fresh-download claim.",
+        "earlier_versions_do_not_include_supplement": [
+          "1.0.0",
+          "1.1.0",
+          "1.2.0"
+        ],
+        "journal_submission": null,
+        "preprint_server_submission": null,
+        "verification_receipt": {
+          "path": "PUBLIC-ZENODO-v1.3.0.json",
+          "sha256": "8c963ff802be441383ae2c0440699203f4c2f83484d0bf86602c0eeac990a318"
+        }
+      },
+      "license": {
+        "code": "MIT",
+        "notes_data": "CC-BY-4.0"
+      },
+      "attribution": "Alexander Richard Towell, ORCID0000-0001-6443-9897, with substantial OpenAI Codex assistance. Markström–Talbot classification and older stronger project locality property retain credit. Novelty, human review and formal verification are not established."
+    }
+  ],
+  "original_ten_case_claim": "Ten explicitly specified marked-pattern cases in signed Fourier geometry 34 are excluded by independently checked exact integer contradictions."
 }

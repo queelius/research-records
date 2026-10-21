@@ -44,6 +44,30 @@ does not by itself establish a public technical disclosure, DOI or peer review.
 
 ## Records
 
+- [Graphon aggregates, Nash equilibria and fixed-profile perturbations](records/graphon-game-equilibrium-formalization/README.md).
+  Five complete Lean formalizations of Carmona–Cooney–Graves–Laurière results,
+  including aggregate and Nash existence/uniqueness under the stated contractions.
+  The [version 1.0.0 archive](https://zenodo.org/records/23534943) includes accepted sources,
+  two platform definitions, exact audits and seven rejecting controls. All
+  92 internal files are verified; its DOI resolves. Original mathematics,
+  the Parise–Ozdaglar predecessor estimate, platform contributors and Lean/Mathlib
+  retain specific credit. Full equilibrium perturbation remains outside this edition.
+
+- [Exact all-parameter algebra for the four-torus cone example](records/family342-exact-torus/README.md).
+  Independent exact identities, written positivity and a direct amplitude corollary;
+  OpenAI and Pico credited, review pending.
+  [Exact v1.0.0 archive](https://doi.org/10.5281/zenodo.23532784).
+
+- [Dual-sourcing optimal orders, regions and reliability](records/dual-sourcing-optimal-orders/README.md).
+  Six complete Lean formalizations include the corrected deterministic-demand
+  optimizer classification and hedge-size/region comparisons, with distinct
+  hypotheses and prior platform repairs explicit. The [version 1.2.0 archive](https://zenodo.org/records/23540084)
+  preserves both earlier editions. Six full targets reproduce, seven invalid
+  controls reject, and all 159 packet files and three public downloads match.
+  Wang, Gilland, Tomlin, platform contributors and Lean/Mathlib retain credit;
+  substantial Codex assistance is disclosed. No novelty or human-review claim.
+  DOI `10.5281/zenodo.23540084`. The exact-version DOI resolves.
+
 - [Small-order C6 saturation: exact values and complete minimum families](records/small-order-c6-saturation/README.md).
   Exact values through 15 vertices and the complete 24-class order-15 family,
   with independent witness checks, leaf/core and weighted-kernel evidence.
@@ -143,8 +167,13 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   Ten conditional cases excluded by exact integer certificates and isolated
   replay. The 14-variable existence problem remains open. Source and the
   complete versioned evidence packet are public.
-  [Archived version](https://doi.org/10.5281/zenodo.23496542);
-  all 48 Zenodo files and the reconstructed archive are verified.
+  The [version 1.3.0 archive](https://doi.org/10.5281/zenodo.23539867) retains
+  the earlier exclusions and singleton classifications and adds the positive-locality
+  G124 graph lemma and minimum-six-repair corollary, relative to Markström–Talbot's
+  published 75-class count. Four new files and both public-archive proof replays
+  are verified; 56 retained entries passed earlier-body rehash and successor MD5/size
+  continuity. The Boolean application has additional unbundled premises; later
+  research is outside this archive. Earlier version/disclosure records remain intact.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).

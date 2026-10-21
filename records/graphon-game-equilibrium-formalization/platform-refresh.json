@@ -1,0 +1,118 @@
+{
+  "checked_at": "2026-10-21T12:59:27.852103+00:00",
+  "api_contract": "0.13.1",
+  "targets": [
+    {
+      "theorem_id": "d15c5288-19ce-4d45-a1b7-85ba5459e1be",
+      "submission_id": "14733c9c-95c9-488b-ba79-b5307358f5bf",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T08:44:31.260678+00:00",
+      "submitted_at": "2026-10-21T08:43:20.689117+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "ddb34431bbb03a757007c6f86413407aff7926644e5bc28b3a9edf9d640365c1",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T17:45:30.857496+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+      "submission_id": "940d193b-3bc7-45eb-8ced-d4cefd40379b",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T09:49:43.22161+00:00",
+      "submitted_at": "2026-10-21T09:48:06.789852+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "d0ba29907b2adfe81cbbc57c82d7398d0efd0bbc756d3e47b460f858f038dbf0",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T17:45:24.313008+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "340d096a-6310-4918-812e-b054e16a263b",
+      "submission_id": "2ea55126-3a32-49a7-a5aa-7dd2c1a7bbc6",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T10:52:57.413901+00:00",
+      "submitted_at": "2026-10-21T10:51:17.579513+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "5f21b8dcc8262de5efe5fad9d13349626da7d0f550b075b261ee0e570de4d90f",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T17:45:08.274398+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "725ac376-4945-4056-baa9-1e4e47dc7ff4",
+      "submission_id": "6aaddfea-f050-4cee-ae86-79baaef7b9e6",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T11:44:55.012994+00:00",
+      "submitted_at": "2026-10-21T11:43:34.344312+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "4c90f171d54a120cd7dcc883a62ebb3919f508d53f47902578c31378a356cd9b",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T17:45:25.150256+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "187bb874-2ff0-45f7-abc5-e2bf44a49a1d",
+      "submission_id": "7b3ad3c3-094f-46ea-98e1-ddbdf1bb3a54",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T12:37:38.707124+00:00",
+      "submitted_at": "2026-10-21T12:36:16.677992+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "71091fa40d774f2aa4aeec31a58631bd5fe1854d3d70ca04290a0f905b30ab20",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T17:45:37.092468+00:00",
+      "visibility": "public"
+    }
+  ],
+  "definitions": [
+    {
+      "path": "Definitions/Def_GraphonGames_Existence_Setting.lean",
+      "sha256": "73520b79003687e5e3fb08ec5e7784d59499eb4095a374ba00d66f224b0514e9",
+      "platform_definition_id": "28fdcc29-5acd-4257-882c-9651406b6630",
+      "source": "Carmona, Cooney, Graves & Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1, pp. 3, 8, 10–11, 15, Assumptions 1, 4, 5, (1), (6), (8), Proposition 3.6",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "GraphonGames_Existence_Setting",
+      "created_at": "2026-10-08T16:54:18.295262+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_GraphonGames_Stability_Setting.lean",
+      "sha256": "b8540a5f2b221495d3453c510c446baa5e908f221b0c08632a4f3f623fc84809",
+      "platform_definition_id": "693bdb09-2f19-4669-9f87-b9e764a49691",
+      "source": "Carmona, Cooney, Graves & Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1, pp. 3, 7–11, 15, Assumptions 1, 4, 5, (1), (6), Proposition 3.6",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "GraphonGames_Stability_Setting",
+      "created_at": "2026-10-08T17:44:24.650177+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    }
+  ],
+  "discussions": {
+    "mission_id": "79a5cc9d-0c3e-4f44-86bc-92c4d9c6a9e0",
+    "comments_read": 0,
+    "pagination_complete": true,
+    "target_mentions_read": 0
+  },
+  "terms": {
+    "url": "https://prove2.me/terms",
+    "effective_at": "2026-09-24T15:55:00+00:00",
+    "checked_on": "2026-10-21",
+    "public_contributions_license": "Apache-2.0"
+  }
+}

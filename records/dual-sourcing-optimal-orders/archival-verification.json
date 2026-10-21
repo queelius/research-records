@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-21T17:10:03.416936+00:00",
+  "status": "passed",
+  "accepted_targets_recompiled": 6,
+  "definition_modules_rebuilt": [
+    "Definitions.Def_MitigateSupplyRisk_DualSourcing_Model",
+    "Definitions.Def_MitigateSupplyRisk_DualSourcing_Regions"
+  ],
+  "exact_type_audits": true,
+  "autoImplicit": false,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "fresh_report": "verification/reproduction.json",
+  "fresh_report_sha256": "9cd8be6de569c0354357c729514c9319a30aa995cff8f6ba952292052485d133",
+  "controls": [
+    {
+      "name": "ExtraAxiomControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Local axiom is forbidden",
+      "source_file": "verification/controls/ExtraAxiomControl.lean",
+      "source_sha256": "b39bd81d5ad034d3a39410405f669684c2097810f4b9508a1c3d9bf1cc366c71",
+      "log_file": "verification/controls/ExtraAxiomControl.log",
+      "log_sha256": "49ee2df0cadf106e5bdb5687ec02d0fda175297a95651f1b35f0ec40a3e32878",
+      "original_log_sha256": "c6845066471f95eed0ce21197bf92f8dfc72b0903cd561fe0f559eb9d87f7a0f"
+    },
+    {
+      "name": "WeakenedTargetControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Type mismatch",
+      "source_file": "verification/controls/WeakenedTargetControl.lean",
+      "source_sha256": "48cfa41a7ea4dc37c68a60eedb5ade8da4295b41ba2ae56cc866ae7cb3df025f",
+      "log_file": "verification/controls/WeakenedTargetControl.log",
+      "log_sha256": "3d58e68a29cf991dd1f9fa1dc60676e716740c2ee33db93534896e7829f6de6a",
+      "original_log_sha256": "7867766b8273159e607b0ec1dc38402eb6c27d2cc906ef1b2bcad83f1cb9392c"
+    },
+    {
+      "name": "WeakenedCDFTargetControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Type mismatch",
+      "source_file": "verification/controls/WeakenedCDFTargetControl.lean",
+      "source_sha256": "97b79805f0466ceb291fddada866052072bf7d3ad80e0299185877545602176e",
+      "log_file": "verification/controls/WeakenedCDFTargetControl.log",
+      "log_sha256": "1b88341608325f4557cf954a0bab9e7d7828a39cc5c94daf8f10179aedd53b9c",
+      "original_log_sha256": "89e7cff63e0643d96b0e6203504bb807f955b2b8b0b97e9d8f290f9d161d1cd9"
+    },
+    {
+      "name": "WeakenedMonotonicityTargetControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Type mismatch",
+      "source_file": "verification/controls/WeakenedMonotonicityTargetControl.lean",
+      "source_sha256": "a153960f93ddd2dc45bcbbf614254bf942cd477d21ad128a60b0ce07c2109073",
+      "log_file": "verification/controls/WeakenedMonotonicityTargetControl.log",
+      "log_sha256": "34b12caefbf24ba7b403c417ec3ed716712e34876a9e7cc9926f9131c9b9ca39",
+      "original_log_sha256": "f757db3e6fb7c94349a8ecd73ea9e2fcfa9ae8e50b47b4ede66d0c2a04ea3aec"
+    },
+    {
+      "name": "ExtraHypothesisRegionControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Application type mismatch",
+      "source_file": "verification/controls/ExtraHypothesisRegionControl.lean",
+      "source_sha256": "65d9338d50d7b23b772cd37b3d617f778f0d0bf89884b61d3d1a9466a78f1534",
+      "log_file": "verification/controls/ExtraHypothesisRegionControl.log",
+      "log_sha256": "17d669f7c6580ea33b8bd1c40915876e1f4362643e7f9bcd84c3062ef33ee4ef",
+      "original_log_sha256": "0cb228308e5a9a1156a0a8f09cd9343c1e0cba66e727c1fc18fefd8904fc7d12"
+    },
+    {
+      "name": "HedgeOnlyCorollaryControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Type mismatch",
+      "source_file": "verification/controls/HedgeOnlyCorollaryControl.lean",
+      "source_sha256": "fc19af25b721e1909d0aacb9fd7fed78d8d4b006ebbee0c0063b1d7938dad723",
+      "log_file": "verification/controls/HedgeOnlyCorollaryControl.log",
+      "log_sha256": "0d4d7be91641a3ebe9ba3c5797fd4f4d4464d9b5b31c83eb565a43bd0603bba4",
+      "original_log_sha256": "c30f5233a1fef334cd2e816385880c71eccaa4794a855112c32d50870315e971"
+    },
+    {
+      "name": "proof-byte-mutation",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "scope": "Append one newline to an accepted proof in an isolated packet copy; unchanged integrity verifier must reject its hash.",
+      "log_file": "verification/controls/proof-byte-mutation.log",
+      "log_sha256": "706971d40f76c4ac4a0b57947b004866e8daa49dde133ebc0ebd97ae065cfdec",
+      "original_log_sha256": "f4f8815a81d65dc26cf083ba148fc0929b9a74c5dc190c4d9e9703b4ebf3d6a6"
+    }
+  ],
+  "tooling_regression": {
+    "tests_passed": 130,
+    "combined_coverage_percent": 92.27129337539432,
+    "scope": "Unchanged established archive verifier; owning-project unit/integration suite passed on 2026-10-21 before packet preparation. Defensive setup/cleanup branches remain uncovered."
+  },
+  "cache_policy": "Verified pinned third-party compiled caches reused; both platform definitions compiled freshly. No Lean/Mathlib bootstrap verification.",
+  "human_peer_review": false,
+  "paths_relative_to": "archival packet root"
+}

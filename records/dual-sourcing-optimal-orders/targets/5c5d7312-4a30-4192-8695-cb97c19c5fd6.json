@@ -1,0 +1,11 @@
+{
+  "theorem_id": "5c5d7312-4a30-4192-8695-cb97c19c5fd6",
+  "theorem_name": "MitigateSupplyRisk.DualSourcing.theorem_1",
+  "formal_statement": "namespace MitigateSupplyRisk.DualSourcing\n\n/-- Theorem 1 (Wang, Gilland, Tomlin 2010, p. 494): when demand has a density, there is an optimal\nprocurement vector `q*` (a maximizer of `Π₂(·; a)` over `q ≥ 0`) such that for each supplier\n`i`, either `q*_i = 0`, or `q*_i = K_i`, or the partial derivative of `Π₂(·; a)` in `q_i`\nexists at `q*` and equals `0`. -/\ntheorem theorem_1 (M : Model) (μ : Measure ℝ) [IsProbabilityMeasure μ]\n    (hμ0 : μ (Set.Iio 0) = 0) (hμint : Integrable id μ) (hμac : μ ≪ volume)\n    (a : Fin 2 → ℝ) :\n    ∃ q, M.IsOptimal μ a q ∧\n      ∀ i : Fin 2, q i = 0 ∨ q i = M.K i ∨\n        HasDerivAt (fun t => M.Pi2 μ (Function.update q i t) a) 0 (q i) := by sorry\n\nend MitigateSupplyRisk.DualSourcing\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_MitigateSupplyRisk_DualSourcing_Model\n\nopen MeasureTheory ProbabilityTheory",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "source": "Wang, Gilland, Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing & Service Operations Management 12(3):489–510 (2010), p. 494 (PDF p. 6), Theorem 1",
+  "created_at": "2026-10-07T03:13:55.638603+00:00",
+  "status": "Proved",
+  "visibility": "public"
+}

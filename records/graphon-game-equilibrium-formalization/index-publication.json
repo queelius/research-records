@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "record_id": "graphon-game-equilibrium-formalization",
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23534943",
+  "central_repository": "https://github.com/queelius/research-records",
+  "central_commit": "2440cd3b629cb05d58f3358273a736babd57eaa4",
+  "owner_source_commit": "dc39e8d9bd056f96b830befa91ce5822c42b8ecc",
+  "owner_record_sha256": "31cc585f6c022b7187c4de5d1ac64041a42208985ee556829c05d1d2b9f5b36e",
+  "verified_at": "2026-10-21T13:12:42.511509+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/README.md",
+      "bytes": 14074,
+      "sha256": "1ad223b481448ddbbf05aac3b9d08cadea1746e74f8c4ebbc1851faee0b3f54c",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "artifacts/graphon-game-equilibrium-formalization-v1.0.0.zip",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/artifacts/graphon-game-equilibrium-formalization-v1.0.0.zip",
+      "bytes": 187721,
+      "sha256": "57fa6a1d6eaa04a00d0b06ef03ed9a484723b2eed926b59a661ae9677829563d",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "catalog.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/catalog.json",
+      "bytes": 4678,
+      "sha256": "e6dc60e8b7e12b9786e97a8f5cc5f584eb669ca62666b543e2648bd0a5b884e8",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/CITATION.cff",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/CITATION.cff",
+      "bytes": 1860,
+      "sha256": "e270fbd386631b3e1da5e10590c7353fc52fd5aa69aaccffd8623c1615973815",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/LICENSE",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/LICENSE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/NOTE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/NOTE.md",
+      "bytes": 8739,
+      "sha256": "ad7c1f4b321ed42e6f53087bde4a4044f223e41f6e839e4f14e374f43d3ed800",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/NOTICE.md",
+      "bytes": 2004,
+      "sha256": "9b675b354ff632b68af9ea4fdc84cb61411151b299ab821e8682d8b0f3d01eb3",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/README.md",
+      "bytes": 3166,
+      "sha256": "a8adca86cde1e838d660c0b14b6778094d39cf5b27b2e7ddb6e6e6811722711d",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/archival-verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/archival-verification.json",
+      "bytes": 6432,
+      "sha256": "2716bca0d3619ed6afa5a1c517660dc7d4942eac017382e878fe89c885f0cf5b",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/citation-validation.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/citation-validation.json",
+      "bytes": 420,
+      "sha256": "733d98f337bd881933f0f843b0b06a1027fd0650873e48d91c682de9fdfc4375",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/metadata-validation.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/metadata-validation.json",
+      "bytes": 733,
+      "sha256": "4403f069bff7fe10919bbbdb876141926181f0afc4ceb56a647b0448d9b10675",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/platform-refresh.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/platform-refresh.json",
+      "bytes": 4941,
+      "sha256": "8e15fde2fc831ff91f617893c0b9c48c02ec775c03dc71f35218325c28b07ac1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/public-availability.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/public-availability.json",
+      "bytes": 1013,
+      "sha256": "d7e63a971fff63a991c91f54917865deb146ee2a936d206e3bc9010d2646de49",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/publication.json",
+      "bytes": 2905,
+      "sha256": "741fa9e4bb6937a31dc422470d7e02d920fe0082ea25961a7679a4d9efbe0536",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/record.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/record.json",
+      "bytes": 21438,
+      "sha256": "0eac7cada7f50453b4575f205611335ae426a73c09fd8aa0bee116db2da1c6b8",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/targets/187bb874-2ff0-45f7-abc5-e2bf44a49a1d.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/targets/187bb874-2ff0-45f7-abc5-e2bf44a49a1d.json",
+      "bytes": 1420,
+      "sha256": "6e1d27ea5b77914b7f4a4858536a0ab785f3f15be86b1ab210965ba46515a184",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/targets/340d096a-6310-4918-812e-b054e16a263b.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/targets/340d096a-6310-4918-812e-b054e16a263b.json",
+      "bytes": 1022,
+      "sha256": "465537ffc489d8b903616e31ba134cc27c6a072baf74973d588c60f85c93dc8f",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/targets/725ac376-4945-4056-baa9-1e4e47dc7ff4.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/targets/725ac376-4945-4056-baa9-1e4e47dc7ff4.json",
+      "bytes": 1232,
+      "sha256": "f62d3435355f61075a67437577c2f2a1ddfe6740643150de058856cb491192df",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/targets/ce76698e-a8b9-4274-8ff1-7c66e28eef33.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/targets/ce76698e-a8b9-4274-8ff1-7c66e28eef33.json",
+      "bytes": 1258,
+      "sha256": "1c146ccf1bdfc2dc808ce2e5e7c6a8e0cde4e195f089a654e1d4b20d1427cf29",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/targets/d15c5288-19ce-4d45-a1b7-85ba5459e1be.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/targets/d15c5288-19ce-4d45-a1b7-85ba5459e1be.json",
+      "bytes": 969,
+      "sha256": "12557242a2f5cf6f7d1ce542da7abe46cb135a4d0a3002a0549427dfcceb71fe",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/verification.json",
+      "bytes": 667,
+      "sha256": "50ba3e629ea7bdd44b159f8291c87757823d221427c1d2b0f7c4d4bd3275f6f9",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/graphon-game-equilibrium-formalization/zenodo-metadata.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/2440cd3b629cb05d58f3358273a736babd57eaa4/records/graphon-game-equilibrium-formalization/zenodo-metadata.json",
+      "bytes": 5863,
+      "sha256": "1933fa8687145a396f6963eeaf180a58aa55261ccacdd7bf8821383627e44017",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    }
+  ],
+  "all_public_downloads_match": true,
+  "public_files_verified": 22,
+  "source_repository_visibility": "private",
+  "central_repository_visibility": "public",
+  "scope": "New graphon curated record only; all changed files checked against this immutable commit. Unrelated research-records content preserved."
+}

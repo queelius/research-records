@@ -1,0 +1,82 @@
+{
+  "title": "Verified dual-sourcing optimal orders, region classification and reliability comparisons",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>Six complete Lean formalizations for the actual two-supplier random-capacity expected-profit model: lattice submodularity; global maximizing-order existence with necessary stationarity; the exact CDF derivative; optimized-profit reliability monotonicity; the complete corrected deterministic-demand optimizer classification; and reliability comparisons for hedge sizes and defined regions. Version 1.2.0 adds Theorem 2 and Corollary 1 to the existing four-proof edition. All accepted proof bytes and prior published editions are preserved.</p>\n<p>The earlier random-demand targets retain nonnegative finite-mean demand, with additional absolute continuity for Theorem 1 and Equation (6). Theorem 2 treats Dirac demand directly, zero committed-cost fractions, 0&lt;phi_i&lt;1, strictly increasing capacity-loss CDFs on their bounded supports and the specified supplier ordering. It proves actual global expected-profit optimality in every corrected region. The min/max endpoint repairs and added hypotheses predate this work and are credited to the platform formulation by mikedeng1.</p>\n<p>Corollary 1 has its own full-capacity CDF and ordering assumptions. It compares the exact hedgeRegion, singleRegion and qstarTotal functions. It does not alone prove their optimality under laws lacking Theorem 2's support assumptions, strict region contraction, or individual optimal-quantity monotonicity. Supplier 2's single-source region is unchanged under the platform's full-capacity CDF hypothesis, which implies the required non-strict inclusion.</p>\n<p>Original mathematics is due to Yimin Wang, Wendell Gilland and Brian Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, MSOM 12(3):489–510 (2010), DOI 10.1287/msom.1090.0279. The published author-hosted PDF is pinned; prior appendix inspection used extracted text without an immutable appendix PDF. Papers are cited, not redistributed. Platform statements, repairs and Shuze Chen's prior statement confirmations receive specific credit. Internal accepted-proof and local-lemma reuse is documented without counting it again.</p>\n<p>The self-contained packet includes six unchanged accepted proofs, independent full-type and axiom audits, both exact platform definition modules, Lean 4.33.1/Mathlib pins, the established archive verifier and reproduction evidence. Seven rejecting controls test local axioms, weakened interfaces, an added unproved premise, an omitted corollary conclusion and byte integrity. Only propext, Classical.choice and Quot.sound occur as proof axioms. Verified third-party compiled caches remain trusted inputs.</p>\n<p>Alexander Richard Towell directed research, verification standards and publication. OpenAI Codex substantially constructed, checked, submitted and documented the formalizations; Lean/Mathlib contributors retain foundational credit. Mathematical novelty, source-author endorsement and independent human review are not claimed. Original platform disclosures, acceptance and this archival successor are separately dated. Publication adds no new accepted target or concept family.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.2.0",
+  "language": "eng",
+  "keywords": [
+    "dual sourcing",
+    "supply risk",
+    "random capacity",
+    "newsvendor",
+    "submodularity",
+    "optimal procurement",
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "reproducible proof",
+    "AI-assisted research",
+    "first-order optimality",
+    "supplier reliability",
+    "stochastic order",
+    "comparative statics",
+    "deterministic demand",
+    "optimizer classification",
+    "quantity hedging",
+    "source correction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1287/msom.1090.0279",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/dual-sourcing-optimal-orders",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/6ab95a20-b12f-4ada-bc66-bd88749135a3",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/5c5d7312-4a30-4192-8695-cb97c19c5fd6",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/854f8126-fb75-46c1-9091-9f3e49c1fc8c",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/ed2f213d-5800-4ff6-bb42-c8dbc0d1a683",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/25d539fb-a789-4fdb-a4d0-752e6b954bc3",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/13c34594-5e47-4b67-b1b7-6224133c32c9",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Six accepted full platform signatures in the existing version family. Pre-existing repairs and distinct target hypotheses are explicit. A DOI is an archival citation, not evidence of novelty or human peer review."
+}

@@ -1,0 +1,10 @@
+{
+  "theorem_id": "d15c5288-19ce-4d45-a1b7-85ba5459e1be",
+  "theorem_name": "GraphonGames.Stability.lemma_3_7_best_response_lipschitz",
+  "status": "Proved",
+  "formal_statement": "namespace GraphonGames.Stability\n\ntheorem lemma_3_7_best_response_lipschitz\n    (J : ℝ → ℝ → ℝ) (ℓc ℓJ : ℝ) (h4 : GraphonGames.Existence.Asm4 J ℓc ℓJ)\n    (z1 z2 : I → ℝ) (hz1 : MemLp z1 2 volume)\n    (hz2 : MemLp z2 2 volume) :\n    eLpNorm (bestResponse J z1 - bestResponse J z2) 2 volume ≤\n      ENNReal.ofReal (ℓJ / ℓc) * eLpNorm (z1 - z2) 2 volume := by sorry\n\nend GraphonGames.Stability\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_GraphonGames_Stability_Setting\n\nopen MeasureTheory\nopen scoped ENNReal",
+  "source": "Carmona, Cooney, Graves & Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1, p. 11, Lemma 3.7",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

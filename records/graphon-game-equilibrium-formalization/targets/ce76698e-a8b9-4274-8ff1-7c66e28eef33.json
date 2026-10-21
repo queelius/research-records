@@ -1,0 +1,10 @@
+{
+  "theorem_id": "ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+  "theorem_name": "GraphonGames.Stability.lemma_3_16_aggregate_lipschitz",
+  "status": "Proved",
+  "formal_statement": "namespace GraphonGames.Stability\n\ntheorem lemma_3_16_aggregate_lipschitz\n    (b : ℝ → ℝ → ℝ) (μ0 : Measure ℝ) (cα cz : ℝ)\n    (h1 : GraphonGames.Existence.Asm1 b μ0 cα cz)\n    (w : I → I → ℝ) (hw : IsGraphon w)\n    (hW : Real.sqrt cz * (opNorm w).toReal < 1)\n    (α1 α2 : I → ℝ) (hα1 : MemLp α1 2 volume)\n    (hα2 : MemLp α2 2 volume)\n    (z1 z2 : I → ℝ) (hz1 : IsAggregate w b α1 z1)\n    (hz2 : IsAggregate w b α2 z2) :\n    eLpNorm (z1 - z2) 2 volume ≤\n      ENNReal.ofReal\n        (Real.sqrt cα * (opNorm w).toReal /\n          (1 - Real.sqrt cz * (opNorm w).toReal)) *\n        eLpNorm (α1 - α2) 2 volume := by sorry\n\nend GraphonGames.Stability\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_GraphonGames_Stability_Setting\n\nopen MeasureTheory\nopen scoped ENNReal",
+  "source": "Carmona, Cooney, Graves & Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1, p. 15, Lemma 3.16, display (15)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

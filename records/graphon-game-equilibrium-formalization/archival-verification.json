@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-21T13:06:18.166705+00:00",
+  "status": "passed",
+  "accepted_targets_recompiled": 5,
+  "definition_modules_rebuilt": [
+    "Definitions.Def_GraphonGames_Existence_Setting",
+    "Definitions.Def_GraphonGames_Stability_Setting"
+  ],
+  "exact_type_audits": true,
+  "autoImplicit": false,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "fresh_report": "verification/reproduction.json",
+  "fresh_report_sha256": "f73aaff64db97e6a7cbde8f8cd1365a09152ec5676a7655780c6c782bea82899",
+  "controls": [
+    {
+      "name": "WeakenedTarget1",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Function expected at",
+      "source_file": "verification/controls/WeakenedTarget1.lean",
+      "source_sha256": "ad299eac2a236171a03240179e8f873bdb1f68bcb9ac07aa216070c84502018e",
+      "log_file": "verification/controls/WeakenedTarget1.log",
+      "log_sha256": "67c657db38994e7410bec6a9b95869950be1b6b797b093e28445d00c464c03c9",
+      "original_log_sha256": "ba4372700f13c5b51adfa4bb29399477b6064d817f4e6a2f0193c3e9734af5f8"
+    },
+    {
+      "name": "WeakenedTarget2",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Function expected at",
+      "source_file": "verification/controls/WeakenedTarget2.lean",
+      "source_sha256": "a63f496f4a05ef1644ebbc2dacc8fdda7d103fa46faa80cde0dee52a350f30f0",
+      "log_file": "verification/controls/WeakenedTarget2.log",
+      "log_sha256": "adc5be2fd0a49a817366c09e8be1fc4badacbfe84c749f53e5cd47b80d2a4e5a",
+      "original_log_sha256": "6c2d0ec92e10d453ada0c761ced1ec58e4898dc789758cbd9ab8502876490d51"
+    },
+    {
+      "name": "WeakenedTarget3",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Function expected at",
+      "source_file": "verification/controls/WeakenedTarget3.lean",
+      "source_sha256": "278e125190d94f8fae6c5e630b729b3aa495d7804a5b044897a1f9ceafc56698",
+      "log_file": "verification/controls/WeakenedTarget3.log",
+      "log_sha256": "8cf5ec6c823a1dabbd56f2ce6842e69f7da868b52393b143a267baa2578909e7",
+      "original_log_sha256": "26bf8212c1ddc69200b88a5084ed5858d2eacd2d70a3662ff2687978bc86fc7d"
+    },
+    {
+      "name": "WeakenedTarget4",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Function expected at",
+      "source_file": "verification/controls/WeakenedTarget4.lean",
+      "source_sha256": "764b84063c33f6733e4450a9eaf59fed2be328d72b0d135484aac6dd33be751c",
+      "log_file": "verification/controls/WeakenedTarget4.log",
+      "log_sha256": "31a22e3b7bf839b8b627586fe7758e48d8ece42653bc2de9296aac3024693bad",
+      "original_log_sha256": "ad18cfe80b7ec1687785375ab5619750d90cb68ee7b229813b6c2951b6da4818"
+    },
+    {
+      "name": "ExtraAxiomControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Local axiom is forbidden",
+      "source_file": "verification/controls/ExtraAxiomControl.lean",
+      "source_sha256": "16f87384c1b3ff635e0e22ed2446253de6099153cd991d31272eeced03442160",
+      "log_file": "verification/controls/ExtraAxiomControl.log",
+      "log_sha256": "7ac3e6fb115517dfb54bd95cbc5521184517c413bb71f6b2af8967b801c82f5f",
+      "original_log_sha256": "f2ce04f992da44573e36a01aa6b036cc00bfe76660c7d8f0c04aaca1c803f66e"
+    },
+    {
+      "name": "WeakenedTarget5",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Function expected at",
+      "source_file": "verification/controls/WeakenedTarget5.lean",
+      "source_sha256": "1a712d33c1c97e38316d19144aef0460484c030def0fc65af6f2ca66e1ba03c7",
+      "log_file": "verification/controls/WeakenedTarget5.log",
+      "log_sha256": "8399d9e0c20889ae933aa2d01b507bb041a14ffbcbd0f32b965a9d2f45d72969",
+      "original_log_sha256": "ed61f6cf53f7a5343983303d3f0087d0add03a6e2939db00ddea723a390c9faa"
+    },
+    {
+      "name": "proof-byte-mutation",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "scope": "Append one newline to an accepted proof in an isolated packet copy; unchanged integrity verifier must reject its hash.",
+      "log_file": "verification/controls/proof-byte-mutation.log",
+      "log_sha256": "951cb10e3eb8391cbc04c224746bd89f3e1a55d6a46bdfc4907555bd82f5a86e",
+      "original_log_sha256": "58906a0d70ae3a1ea418748f02838ea6525c34522c383ee4e7db973a52e99e50"
+    }
+  ],
+  "tooling_regression": {
+    "tests_passed": 128,
+    "combined_coverage_percent": 92.27129337539432,
+    "scope": "Unchanged established archive verifier; owning-project unit/integration suite passed on2026-10-21 before packet preparation. Defensive setup/cleanup branches remain uncovered.",
+    "test_log_sha256": "38e827da80a9a1d61d351dae209338766d342430304454f041bc50870b820456",
+    "line_coverage_percent": 94.26877470355731,
+    "branch_coverage_percent": 84.375,
+    "missing_lines": 58,
+    "missing_branch_outcomes": 40,
+    "test_report": "Owning-project rotation-22 report, 2026-10-21; tooling unchanged since that run."
+  },
+  "cache_policy": "Verified pinned third-party compiled caches reused; both platform definitions compiled freshly. No Lean/Mathlib bootstrap verification.",
+  "human_peer_review": false,
+  "control_harness_correction": {
+    "at": "2026-10-21T13:06:02.581996+00:00",
+    "control": "WeakenedTarget1",
+    "source_sha256": "ad299eac2a236171a03240179e8f873bdb1f68bcb9ac07aa216070c84502018e",
+    "exit_code": 1,
+    "original_expectation": "Type mismatch",
+    "observed_diagnostic": "Function expected at",
+    "cause": "The independent graphon audit applies solution to explicitly bound arguments. A proof of True is not a function, so elaboration rejects the application before a result-type mismatch. The older dual-sourcing audit compared the unapplied solution instead.",
+    "proofs_unchanged": true,
+    "production_tooling_unchanged": true,
+    "reproduction_log_sha256": "ba4372700f13c5b51adfa4bb29399477b6064d817f4e6a2f0193c3e9734af5f8",
+    "scope": "An expected-diagnostic check in the private packaging runner was corrected after reproducing the intended rejection. Accepted proofs, audit/control sources and production verifier were unchanged."
+  },
+  "paths_relative_to": "archival packet root"
+}

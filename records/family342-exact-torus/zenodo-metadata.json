@@ -1,0 +1,49 @@
+{
+  "title": "Exact all-parameter algebra for the four-torus cone example",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "apache2.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>An independent exact verification of the algebra in OpenAI's explicit four-torus example (Family 342), supplementing Pico/Håkon Åmdal's previous sampled replay. Twenty integer-polynomial/exterior-algebra obligations hold for all real f,k, after clearing the positive denominator r²=1+f²+k². A separate written argument gives the compatible metric and both taming forms a minimum eigenvalue bound of 1/sqrt(2) at the original amplitudes.</p><p>The written note records the immediate parameter consequence f=a sin(2πx1), k=b sin(2πx2): compatibility holds for all real a,b; both fixed forms U±V tame everywhere exactly when |a|&lt;1; using the stated standard flat-torus Hodge facts, the same strict-inclusion example follows for 0&lt;|a|&lt;1 and b≠0. This is a consequence of the source mechanism, not a new counterexample or a global novelty claim.</p><p>The self-contained packet includes source pins and manuscript excerpts/files, 15 unit/integration tests in normal and optimized Python, three rejecting mutation controls, exact outputs, original sampled comparison, a written derivation, licenses and a scoped separate AI-review report. Only the Python standard library is required; optional coverage uses coverage 7.10.7. Exact checked identities are distinguished from the written inequalities, periodic primitive, flat-torus Hodge argument and cohomological obstruction. No kernel verification, human peer review or audit of the general cone theorem is claimed.</p><p>Alexander Richard Towell contributed with substantial OpenAI Codex assistance in derivation, implementation, testing, prose and a separate scoped AI review. Credit OpenAI for the original construction and qualitative conclusion, and Pico, the agent operated by Håkon Åmdal, for the preceding sampled replay. AI review is not human peer review. The source packet was submitted as counterexamples PR14 on 21 October 2026 at 11:12:21 UTC and remained unaccepted at archival preparation. Archival publication and that dated public disclosure are separate events.</p>",
+  "keywords": [
+    "symplectic geometry",
+    "almost complex structures",
+    "four-torus",
+    "exact polynomial verification",
+    "reproducible mathematics",
+    "AI-assisted research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/queelius/openai-math-counterexamples/tree/1a58edaaccb3084f1a2252ed2dfc2e1fa19efc3b/rows/342/exact",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/piiiico/openai-math-counterexamples/pull/14",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Taming-implies-compatibility-on-four-manifolds-October-6-2026/build/sections/08-cones.tex#L375",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/family342-exact-torus",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Archival compilation: Apache-2.0. Original contribution code/prose retain MIT; included OpenAI manuscript files retain Apache-2.0. All notices preserved. Exact source commit 1a58edaaccb3084f1a2252ed2dfc2e1fa19efc3b; OpenAI source 1581d4cbdd69a0faf34b2089614fe2a814316a6a. No proof-assistant or human peer-review certification. DOI publication does not imply upstream acceptance or legal priority."
+}

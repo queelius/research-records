@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: Cite this exact version for the formalization; cite Wang, Gilland and Tomlin for the original
+  model and results.
+title: Verified dual-sourcing optimal orders, region classification and reliability comparisons
+type: dataset
+authors:
+- family-names: Towell
+  given-names: Alexander Richard
+  orcid: https://orcid.org/0000-0001-6443-9897
+version: 1.2.0
+date-released: 2026-10-21
+url: https://github.com/queelius/research-records/tree/main/records/dual-sourcing-optimal-orders
+license: Apache-2.0
+abstract: 'Six complete Lean formalizations for the two-supplier random-capacity model: submodularity,
+  maximizing-order existence, the exact CDF derivative, optimized-profit reliability monotonicity, corrected
+  deterministic-demand optimizer regions, and hedge-size/region comparisons. Distinct hypotheses and pre-existing
+  platform repairs are explicit. Includes pinned full-type and axiom audits, reproducible evidence and
+  rejecting controls. Source and platform authors are credited; substantial Codex assistance is disclosed.
+  No mathematical novelty or independent human review claimed.'
+references:
+- type: article
+  title: 'Mitigating Supply Risk: Dual Sourcing or Process Improvement?'
+  authors:
+  - family-names: Wang
+    given-names: Yimin
+  - family-names: Gilland
+    given-names: Wendell
+  - family-names: Tomlin
+    given-names: Brian
+  doi: 10.1287/msom.1090.0279
+  journal: Manufacturing & Service Operations Management
+  volume: 12
+  issue: 3
+  start: 489
+  end: 510
+  year: 2010
+doi: 10.5281/zenodo.23540084
