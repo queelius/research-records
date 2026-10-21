@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-21T07:44:16.958551+00:00",
+  "record_id": "smooth-strong-convex-interpolation",
+  "prior_central_record_commit": "fff45719e823dcf71e85f31277205c3b2b588a7e",
+  "prior_central_record_sha256": "4081979ac5b775e6998802a710a03bbfaced057c25801114168b911a027bc512",
+  "owning_record": "publications/smooth-strong-convex-interpolation/record.json",
+  "owning_record_sha256": "f9ac34e82996d9028860cdf59f2f516340b5cc3342a16fbb93b96cc2ce34d45a",
+  "publication_receipt_sha256": "8ac311825dd07b31e830dbf8aa4b4df7748a7616a75500a5805e171d1bf01968",
+  "accepted_proof_sha256": "67869c1e9ad93e1ea9952841f2818369fd8bd9a8c0bde4d73400475730cdc665",
+  "archival_version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23496220",
+  "all_three_local_published_artifacts_match_receipt": true,
+  "new_deposit": false,
+  "remote_status_refreshed": false,
+  "original_disclosure_and_acceptance_dates_retained": true
+}

@@ -113,5 +113,26 @@
       "bytes": 935,
       "sha256": "80b85cc4da79c91fe4269389ec131843278ea39dd4ef6ad7bf80a6b7459bb6fc"
     }
-  ]
+  ],
+  "canonical_record": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "commit": "f55047a813b27493b55b36a1a99ee1002b9e2556",
+    "path": "contributions/queelius/publications/smooth-strong-convex-interpolation/record.json",
+    "sha256": "f9ac34e82996d9028860cdf59f2f516340b5cc3342a16fbb93b96cc2ce34d45a",
+    "note": "The owning project retains primary lifecycle tracking. The original sources.development_commit still pins the archived proof development; this newer commit identifies its normalized primary metadata."
+  },
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "record_path": "contributions/queelius/publications/smooth-strong-convex-interpolation/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json",
+    "accepted_source_commit": "4810a49099ae8122b0b201520b3f4a9a11d865fc"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/smooth-strong-convex-interpolation",
+  "metadata_alignment": {
+    "recorded_at": "2026-10-21T07:49:40.635982+00:00",
+    "receipt": "record-alignment-2026-10-21.json",
+    "scope": "Add the canonical owning-record pointer. Preserve original central source fields, acceptance, verification, attribution, release dates and artifact hashes. No new DOI or archive version."
+  }
 }
