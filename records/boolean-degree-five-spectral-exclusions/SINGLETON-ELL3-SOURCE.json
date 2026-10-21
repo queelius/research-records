@@ -1,0 +1,306 @@
+{
+  "status": "PUBLIC_ELL3_SOURCE_ALL_CHANGED_BYTES_VERIFIED",
+  "observed_at": "2026-10-21T13:42:59.568173+00:00",
+  "repository": "https://github.com/queelius/boolean-degree-sensitivity",
+  "commit": "54644197be81024d1cfd18f74235a093cbcaf3a4",
+  "packet": "https://github.com/queelius/boolean-degree-sensitivity/tree/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8111,
+      "sha256": "dc7c468a2b417e1d806509deffc0b8b547179ce6db56ae1f20b73068d611721d",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/README.md",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/CATALOG.md",
+      "bytes": 1490,
+      "sha256": "94fc09f96bc00e0ada4f621004ece331bba884617a0e60dd3f6b0de74a76f751",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/CATALOG.md",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/CITATION.cff",
+      "bytes": 1423,
+      "sha256": "4f3e460cb4e8546617b3d16931d529ff93a7f96a889665ae7b38b13e6b9a2d38",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/CITATION.cff",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/LICENSE.md",
+      "bytes": 787,
+      "sha256": "12466b3b8b2c0f3fed6ef0d2e3df80e92d27cd2ed2d9b00742055eac3460678b",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/LICENSE.md",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/LICENSES/CC-BY-4.0.txt",
+      "bytes": 611,
+      "sha256": "464f59784ca5ebf74a79b56c1ade9bd3f12b64e4dde416ed3508007411f50cad",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/LICENSES/CC-BY-4.0.txt",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/LICENSES/Original-code-MIT.txt",
+      "bytes": 1080,
+      "sha256": "92a906caa8e443ad8c05921d299d98c78a87b1f13c350a5a1815888db5e437a4",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/LICENSES/Original-code-MIT.txt",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/MANIFEST.json",
+      "bytes": 6645,
+      "sha256": "beab6248b84059ad28cd560cecff80173e77e7308fd6df2b0cf1320fa8339a74",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/MANIFEST.json",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/PROVENANCE.json",
+      "bytes": 4400,
+      "sha256": "7186cef361c23090c334c95afbb55a8175d687ba6628c71ba45b7621a166ff56",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/PROVENANCE.json",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/QA.json",
+      "bytes": 3930,
+      "sha256": "ab68994e92764a833b8be0b7c09255b8542ab13c4aa64214654471c1bddd0c0e",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/QA.json",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/README.md",
+      "bytes": 5001,
+      "sha256": "4de6b9d621eca1e23a4ac17dac9fc9c169ec3e7ebbde6e9d34ec8bfd66908c95",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/README.md",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/REVIEW_HISTORY.md",
+      "bytes": 3315,
+      "sha256": "0744b26970027187ab5bf54d205d7badfe9a7516e25d4a5a20251833f8bc2a20",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/REVIEW_HISTORY.md",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/SOURCE_PINS.json",
+      "bytes": 1380,
+      "sha256": "79fe00794414ad90b2fc4a80e378685f72d423a421a966887c5da86b69ade352",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/SOURCE_PINS.json",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/THEOREM.md",
+      "bytes": 10515,
+      "sha256": "f34f29c63871c96173c6cb85efbc5cc3f156761c9ef5cf67c08661d816e4bcd8",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/THEOREM.md",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/controls-coverage.log",
+      "bytes": 110,
+      "sha256": "dd1c0c7401ea0e7d65dea6f141363647bd835ff4f526e6d85da1b4dfa7767b8b",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/controls-coverage.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/controls-expanded.log",
+      "bytes": 1045,
+      "sha256": "436d79a429a92fc4ae981880d47e565af4dafe0cda4d5f360da960b200455bf5",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/controls-expanded.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/controls-final-coverage.log",
+      "bytes": 110,
+      "sha256": "1c0d3239e1a66d7ffe9f6aedc2636e05431272eff1f940c686164ba524ef050f",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/controls-final-coverage.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/controls-final-optimized.log",
+      "bytes": 1045,
+      "sha256": "2a915b3af29e8aacec89bf750d966899b7926c0d852683a8fb6e319abb396254",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/controls-final-optimized.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/controls-final.log",
+      "bytes": 1045,
+      "sha256": "dd30148cc3ab0efea155e8e1313211df4f392ccfc951f4d4858143427f99f35e",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/controls-final.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/controls-optimized.log",
+      "bytes": 1045,
+      "sha256": "6f53ac2c27b47b3e3030fa7a3a776e3cf82ac1f0767c4ea833ac1c2d29d5f881",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/controls-optimized.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/controls.log",
+      "bytes": 791,
+      "sha256": "6ee6960155456d66686d7b9d9c1933f570861f79cc93d22dcd0b8f5e895ac9f6",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/controls.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/coverage-final.json",
+      "bytes": 29287,
+      "sha256": "400de0a6c3dba55568dc616f9a133870726a7127af07cb5bcae01ddd5a95f898",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/coverage-final.json",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/coverage.json",
+      "bytes": 29287,
+      "sha256": "0beb0e04e6653a61844a048a24a932a3a291a4e21a33014b4328bd9f21713bd3",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/coverage.json",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/data/augmentation.json.gz",
+      "bytes": 73237,
+      "sha256": "7b257ef61667086727a1ceba811ffb163cfeb6a51cdc6708b5e6df73eb35a0cf",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/data/augmentation.json.gz",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/data/components.json",
+      "bytes": 7357,
+      "sha256": "f1db4c3657f9e0f5a476d5023dcc24ef5bbfd07cdb67b7bb3e84efbd0e1b5e0e",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/data/components.json",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/data/expected-solutions.json.gz",
+      "bytes": 103362,
+      "sha256": "14a64e5a25b1172d081f840d0a56ecb70fad17e69d9f72386edff24ffab5942e",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/data/expected-solutions.json.gz",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/data/frame-links.json",
+      "bytes": 27638,
+      "sha256": "87e38c227b94a80170695949f17f7b85887d50670b3233ea37b9e310246d11c8",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/data/frame-links.json",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/data/graph-catalog.json.gz",
+      "bytes": 1188168,
+      "sha256": "24f1072584e9dd79c8b40bf5d7dcaef73c333a3db3f652ea37e2590b399ad750",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/data/graph-catalog.json.gz",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/data/manifest.json",
+      "bytes": 1063,
+      "sha256": "c461b7336b7a1241e63f09b2e9e3ae00b22623146247e3c9defffcda2f6b542c",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/data/manifest.json",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/development-red.log",
+      "bytes": 7576,
+      "sha256": "9e7da31480078719576558591f133ba30ad86a7f5c2f7dda2b4919ec92919b91",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/development-red.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/graph_cover.py",
+      "bytes": 12207,
+      "sha256": "7bacdf7a38dc63cd8000dc5d203f339917a8b51f83c7cf7e35389053a0d5e94f",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/graph_cover.py",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/preparation.log",
+      "bytes": 68,
+      "sha256": "d75d50c7dce4127a47236995412469b84bc5422b4af5dc429cdd1d05ed5697a4",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/preparation.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/prepare_sources.py",
+      "bytes": 6572,
+      "sha256": "4de0d58b06c325abc09d191f7f95d0ab1535104a8d5def432839d46ec3c9fcab",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/prepare_sources.py",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/quota_search.py",
+      "bytes": 7825,
+      "sha256": "ff9756bcf7112dda85c6a5da9cf991b2bb826ac711d3041166e45ab4e7fb8cce",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/quota_search.py",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/replay-resource.log",
+      "bytes": 854,
+      "sha256": "71f0475249bec2ab865ff45bbea0da85fa5408001024952c51ea0cdb3ed8738b",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/replay-resource.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/replay.log",
+      "bytes": 1088,
+      "sha256": "d2219fea2204a27c3960ee9d191561df2e6928304d98d878efc0711c0ee57cd2",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/replay.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/requirements.txt",
+      "bytes": 72,
+      "sha256": "73b93d4a5eb5f833a7d59a87aaeff7be1772b499fe5e485e2c43f789f35bd380",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/requirements.txt",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/scope-red.log",
+      "bytes": 756,
+      "sha256": "409be604ea0efeb524a8c53787b6296ae0db9847aa45b11f2d38a5bf630bada2",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/scope-red.log",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/test_portable.py",
+      "bytes": 7331,
+      "sha256": "c9ea5cd54e448bc940c01138a1a9d32ee27a2477f8ec8b4899a23b6be5e99432",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/test_portable.py",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/verification.json.gz",
+      "bytes": 111151,
+      "sha256": "5cf09b3a0132dd85ce5774f6e9477253573fb877e4b1ff4fb1fff6aaaef85d16",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/verification.json.gz",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "supplements/singleton-ell3-classification/verify_packet.py",
+      "bytes": 11695,
+      "sha256": "5a564c020adb7778f4af07a8dd9399112726634103ef380d3aaf0e06bf642e34",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification/verify_packet.py",
+      "downloaded_without_authentication": true
+    },
+    {
+      "path": "verification/SINGLETON-ELL3-PORTABLE.json",
+      "bytes": 1039,
+      "sha256": "6ca1d2bdfd047a03a672028f7071e346c79390d426afb74168f156b0d0cdddff",
+      "public_url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/54644197be81024d1cfd18f74235a093cbcaf3a4/verification/SINGLETON-ELL3-PORTABLE.json",
+      "downloaded_without_authentication": true
+    }
+  ],
+  "public_files_verified": 41,
+  "component_cover_families": 17,
+  "selection_instances_exhausted": 19112,
+  "archive_version_doi": null,
+  "archival_pending": true,
+  "existing_v1_1_doi_does_not_archive_this_packet": true,
+  "global_goal_complete": false,
+  "human_peer_review": false,
+  "formal_verification": false,
+  "novelty_established": false
+}

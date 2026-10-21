@@ -77,3 +77,26 @@ Version 1.1.0 does not include the later ell3 catalog or subsequent G25 research
 The original fourteen-variable problem remains open. This is a component
 lemma with written proof, exact finite evidence and AI review; no formal
 verification, human peer review, external acceptance or novelty is claimed.
+
+
+## Three-exceptional singleton component cover
+
+The [second standalone component supplement](https://github.com/queelius/boolean-degree-sensitivity/tree/54644197be81024d1cfd18f74235a093cbcaf3a4/supplements/singleton-ell3-classification) gives a complete cover
+by seventeen literal families for constant-one singleton components with three
+exceptional unit inputs, under its explicit ten-coordinate hypotheses. It
+combines a written binary-rank reduction with checked literal graph maps and
+exhaustion of all 19,112 quartet-selection instances. No minimal orbit count
+is claimed.
+
+Root replay from an unrelated copied directory used only the Python standard
+library, passed 11 normal and 11 optimized controls, and checked every cube
+value and Fourier coefficient of all seventeen rows. All 41 changed source
+files were publicly verified on **2026-10-21** at commit
+`54644197be81024d1cfd18f74235a093cbcaf3a4`; [the receipt](SINGLETON-ELL3-SOURCE.json) records their hashes.
+
+Cite that exact source commit for this supplement. **Neither archived version
+1.0.0 nor 1.1.0 includes this three-exceptional classification.** Archival work
+will reuse the existing version family. The constant-two classification and
+full fourteen-variable question remain open. Substantial AI assistance is
+disclosed; mathematical novelty, human peer review and formal verification
+are not established.
