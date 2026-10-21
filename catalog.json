@@ -102,6 +102,11 @@
       "id": "dual-sourcing-optimal-orders",
       "metadata": "records/dual-sourcing-optimal-orders/record.json",
       "readme": "records/dual-sourcing-optimal-orders/README.md"
+    },
+    {
+      "id": "family342-exact-torus",
+      "metadata": "records/family342-exact-torus/record.json",
+      "readme": "records/family342-exact-torus/README.md"
     }
   ]
 }

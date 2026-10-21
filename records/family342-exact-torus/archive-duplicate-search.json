@@ -1,0 +1,24 @@
+{
+  "searched_at": "2026-10-21T11:13:00Z",
+  "pages": [
+    {
+      "page": 1,
+      "records": 100
+    },
+    {
+      "page": 2,
+      "records": 26
+    }
+  ],
+  "total_records": 126,
+  "complete": true,
+  "terms": [
+    "four-torus",
+    "four torus",
+    "family 342",
+    "taming",
+    "compatibility on four"
+  ],
+  "matches": [],
+  "central_catalog_checked": true
+}

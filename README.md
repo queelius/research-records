@@ -38,6 +38,11 @@ publication metadata or handoff.
 
 ## Records
 
+- [Exact all-parameter algebra for the four-torus cone example](records/family342-exact-torus/README.md).
+  Independent exact identities, written positivity and a direct amplitude corollary;
+  OpenAI and Pico credited, review pending.
+  [Exact v1.0.0 archive](https://doi.org/10.5281/zenodo.23532784).
+
 - [Dual-sourcing submodularity and optimal orders](records/dual-sourcing-optimal-orders/README.md).
   Two complete Lean formalizations: submodularity of expected profit and global
   optimal-order existence with the stated boundary or stationarity condition.

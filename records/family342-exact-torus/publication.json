@@ -1,0 +1,25 @@
+{
+  "state": "published",
+  "id": 23532784,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23532784",
+  "concept_doi": "10.5281/zenodo.23532783",
+  "public_url": "https://zenodo.org/records/23532784",
+  "published_verified_at": "2026-10-21T11:15:59.545562+00:00",
+  "public_record_date": "2026-10-21",
+  "public_file": {
+    "filename": "family342-exact-torus-v1.0.0.zip",
+    "bytes": 40850,
+    "sha256": "fa7d18ea302cca740210387cac309668cc41f74f3f0355c63f2d9f31e66d44e2",
+    "download_verified": true
+  },
+  "archived_manifest_files_verified": 23,
+  "source_commit": "1a58edaaccb3084f1a2252ed2dfc2e1fa19efc3b",
+  "public_disclosure": {
+    "date": "2026-10-21T11:12:21Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/14"
+  },
+  "upstream_acceptance": false,
+  "human_peer_review": false,
+  "kernel_verification": false
+}
