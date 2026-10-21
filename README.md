@@ -38,6 +38,12 @@ publication metadata or handoff.
 
 ## Records
 
+- [Small-order C6 saturation: exact values and complete minimum families](records/small-order-c6-saturation/README.md).
+  Exact values through 15 vertices and the complete 24-class order-15 family,
+  with independent witness checks, leaf/core and weighted-kernel evidence.
+  Prior small cases and upper constructions retain specific credit.
+  [Exact v6 archive](https://doi.org/10.5281/zenodo.23527267).
+
 - [Two exact sandpile-group statistics at nine vertices](records/sandpile-nine-vertices/README.md).
   A395521(9)=76953 group types and A401195(9)=177478 graphs with cyclic group.
   All 261080 graph classes checked with two Smith algorithms and determinants;
