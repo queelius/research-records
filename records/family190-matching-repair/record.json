@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "family190-matching-repair",
+  "title": "A matching repair for the ordered binary matrix construction",
+  "contribution_type": "written construction-specific upper bound and independently verified finite optimum",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "predecessor_credit": "OpenAI: pattern, host, lower bound and pinning mechanism. Pico / Håkon Åmdal: preceding finite replay.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in derivation, code, testing, prose and one scoped separate AI review. Reviewer supplied an independently derived exhaustive checker. AI review is not human peer review.",
+  "claim": "Zeroing the dummy-row × shared-leaf-column block gives a written all-depth H-free repair with m² edits. At h=1, the exact fixed-anchor optimum is four, independently certified. Unrestricted exact distance m² inherits the source lower bound.",
+  "mathematical_scope": {
+    "all_depth_result": "Written H-free repair upper bound for the pinned construction, h>=1 and m=2^h",
+    "finite_result": "Minimum four edits among all64 non-anchor cells at h=1, with all anchor-incident entries fixed",
+    "source_dependent_corollary": "Exact unrestricted distance m² and normalized distance1/(386h+2)², combining the new upper bound with the source lower bound",
+    "formal_proof": false,
+    "human_peer_review_claimed": false,
+    "new_removal_counterexample_claimed": false
+  },
+  "sources": {
+    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/6ea0e2fb055c1f580f5c27c109d861cd93097e72/rows/190/repair",
+    "contribution_commit": "6ea0e2fb055c1f580f5c27c109d861cd93097e72",
+    "openai_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "counterexamples_base": "f3e88206eb0c1ca065eb7106e06602d1aaa4c25b",
+    "source_hash_manifest": "https://github.com/queelius/openai-math-counterexamples/tree/6ea0e2fb055c1f580f5c27c109d861cd93097e72/rows/190/repair/source-pins.json"
+  },
+  "public_disclosure": {
+    "date": "2026-10-21T17:32:18Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/16"
+  },
+  "upstream_acceptance": {
+    "state": "submitted",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/16",
+    "meaning": "No repository acceptance or human review inferred."
+  },
+  "verification": {
+    "date": "2026-10-21",
+    "python": "3.13.15",
+    "normal_tests": 16,
+    "optimized_tests": 16,
+    "h1_editable_cells": 64,
+    "h1_body_constraints": 48,
+    "RUP_additions": 25,
+    "independent_complete_cases": 43745,
+    "finite_depths_checked": [
+      1,
+      2,
+      3
+    ],
+    "strict_mutation_controls": 4,
+    "public_source_blobs_verified": 28,
+    "reproduce": "bash rows/190/repair/reproduce.sh",
+    "expected": "Exit0 and RESULT: repair packet, independent enumeration and rejecting controls reproduced",
+    "trust_boundary": "General repair/model-to-host proofs are written. Finite verification trusts Python and its checked code; no kernel proof or human peer review."
+  },
+  "publication": {
+    "state": "public_source_archive_pending",
+    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/6ea0e2fb055c1f580f5c27c109d861cd93097e72/rows/190/repair",
+    "version": "1.0.0",
+    "version_doi": null,
+    "archive_status": "ready_to_package_not_deposited",
+    "archive_reason": "Recorded research deadline passed during an interruption; resumed only for closing existing work. Archival publication is the explicit next bounded follow-up.",
+    "next_step": "Package exact source commit, refresh duplicate search, stage/rerun required checks, deposit to Zenodo and verify public bytes. Reuse this central record ID."
+  },
+  "license": "Original code/prose MIT; included OpenAI manuscript source Apache-2.0, notices preserved.",
+  "limitations": [
+    "Unrestricted distance equality inherits the source lower bound, whose Lean project was not rebuilt.",
+    "General upper bound and full-host model bridge are written proofs, not finite-computation consequences.",
+    "No new removal counterexample, human peer review, kernel verification or exhaustive novelty claim.",
+    "No DOI deposit has been created for this contribution."
+  ]
+}

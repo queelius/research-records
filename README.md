@@ -44,6 +44,10 @@ does not by itself establish a public technical disclosure, DOI or peer review.
 
 ## Records
 
+- [A matching repair for the ordered binary matrix construction](records/family190-matching-repair/README.md).
+  Written all-depth repair and independently certified depth-one optimum four;
+  source lower bound retained for unrestricted sharpness. [PR16](https://github.com/piiiico/openai-math-counterexamples/pull/16), DOI archive pending.
+
 - [Graphon aggregates, Nash equilibria and fixed-profile perturbations](records/graphon-game-equilibrium-formalization/README.md).
   Five complete Lean formalizations of Carmona–Cooney–Graves–Laurière results,
   including aggregate and Nash existence/uniqueness under the stated contractions.
