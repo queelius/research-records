@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "record_id": "dual-sourcing-optimal-orders",
+  "version": "1.2.0",
+  "version_doi": "10.5281/zenodo.23540084",
+  "central_repository": "https://github.com/queelius/research-records",
+  "central_commit": "cccea78c4780e1a681023ac0292a47ef607f73cf",
+  "owner_source_commit": "6095eff428af555b43ff1f48dc12017d6aa582b4",
+  "owner_record_sha256": "a1a5c066b3da7dffc6e2fb770367042f03cb315973c2da244c2e962e50234427",
+  "verified_at": "2026-10-21T17:15:36.684835+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/README.md",
+      "bytes": 14388,
+      "sha256": "fedc89aa3aa4f85b462881baec370d50e872ae740691eb4246884816116c3b86",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "artifacts/dual-sourcing-optimal-orders-v1.2.0.zip",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/artifacts/dual-sourcing-optimal-orders-v1.2.0.zip",
+      "bytes": 933623,
+      "sha256": "61cdc32b570c66f4d78ed3bcb529846b884a1a4b5aa680e7e5cf89d85a6e3a2f",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/CITATION.cff",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/CITATION.cff",
+      "bytes": 1557,
+      "sha256": "8f6787d37054390cec19b1790c7878fe9a0fdfb903c9e07fc741d7fdcad1cf9e",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/NOTE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/NOTE.md",
+      "bytes": 9529,
+      "sha256": "d2eeb892e2555f5d0965325cfc53908a2852889f5d74d24e93748678bef378fa",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/NOTICE.md",
+      "bytes": 1426,
+      "sha256": "491a4b0e8f8240a5dac942d36c4593b5bb68ba630730c9066dc0d3474f5fa38e",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/README.md",
+      "bytes": 3685,
+      "sha256": "460131a2e1dd4e42c5859dc545c9e85c4e58523dda49a7e8b6640cb9e5378881",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/archival-verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/archival-verification.json",
+      "bytes": 5277,
+      "sha256": "12d882c93ee66f9010caf9c028f61dc8a1daed1c6e0dd9835c49bda131fd2293",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/metadata-validation.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/metadata-validation.json",
+      "bytes": 729,
+      "sha256": "d7b38d3807e15c26cf442e6f2e8defa87c7ba5f4710d0eff12d77b1cbeda9ce1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/platform-refresh.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/platform-refresh.json",
+      "bytes": 5674,
+      "sha256": "423924ff1a0c37459731dc66634cbb84fd79a4bbe0ff50096f82a6462d8d60cf",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/public-availability.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/public-availability.json",
+      "bytes": 1013,
+      "sha256": "b7c3d14bdacdb07415a67b66362cc7ad9f611806d8bb0e7840e35f4f66661776",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/publication.json",
+      "bytes": 2386,
+      "sha256": "d76594664a0f53b7d136d8df2c5249cf2067941d60127313499ca2a547960544",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/record.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/record.json",
+      "bytes": 25993,
+      "sha256": "c7d276131075be205776e9c8494506e488455062ad1f524ee581d28afd77fefe",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/targets/13c34594-5e47-4b67-b1b7-6224133c32c9.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/targets/13c34594-5e47-4b67-b1b7-6224133c32c9.json",
+      "bytes": 3666,
+      "sha256": "3fa80b50629912a77ef0210d3e09b954d8195174c64199d621a65992b109556a",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/targets/25d539fb-a789-4fdb-a4d0-752e6b954bc3.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/targets/25d539fb-a789-4fdb-a4d0-752e6b954bc3.json",
+      "bytes": 2391,
+      "sha256": "0277e192b2989ec65843b01221239b4535538dce47cbc19d812642aefb2e4eac",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/targets/5c5d7312-4a30-4192-8695-cb97c19c5fd6.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/targets/5c5d7312-4a30-4192-8695-cb97c19c5fd6.json",
+      "bytes": 1416,
+      "sha256": "b48c1c7f2388ff9cbf68377b4cb36eb8e886232ebcc0bd959ce809268d4e90d5",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/targets/6ab95a20-b12f-4ada-bc66-bd88749135a3.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/targets/6ab95a20-b12f-4ada-bc66-bd88749135a3.json",
+      "bytes": 1416,
+      "sha256": "ce60623b53e66a286e427a618044d903c6dc8e516b59a9b7d365cded4225ebbd",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/targets/854f8126-fb75-46c1-9091-9f3e49c1fc8c.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/targets/854f8126-fb75-46c1-9091-9f3e49c1fc8c.json",
+      "bytes": 1962,
+      "sha256": "10f68b529202539d01f0b0ba8a751950feb1d0289db1bc5cfacb2810562bfa94",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/targets/ed2f213d-5800-4ff6-bb42-c8dbc0d1a683.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/targets/ed2f213d-5800-4ff6-bb42-c8dbc0d1a683.json",
+      "bytes": 1270,
+      "sha256": "4f126feb0f70e83b795f780699ccdb0ae35de045523eb2bb7cb036b80a19c852",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/verification.json",
+      "bytes": 620,
+      "sha256": "0c494f1ead47dbf4b58a9ada206f35ef0ae07b8a4e04c14d05d7e3d330437765",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/CITATION.cff",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/CITATION.cff",
+      "bytes": 1567,
+      "sha256": "d06295f4356a5e4398f4fabd3a11e05ab159a88afb2cac86de7886650678c974",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/LICENSE",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/LICENSE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/NOTE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/NOTE.md",
+      "bytes": 9715,
+      "sha256": "985a9fbd6f59831e99d423cfb894753ca8b69f03b072e55efebfd4b0e03acc64",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/NOTICE.md",
+      "bytes": 1543,
+      "sha256": "f04ae62c679eafdb83fa8a72b29e25b96fe3b3059b82f3898379edc7488878a4",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/README.md",
+      "bytes": 3337,
+      "sha256": "0555cdecc3e445cce30eace4ac022550e40d6ca4a8c7a34b09118a5c453a2a7b",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/archival-verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/archival-verification.json",
+      "bytes": 3992,
+      "sha256": "6cc967db4b1c2d9dd977a0f5c5cf4c444d2486d6a57e81f6dfbd93324c822515",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/index-publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/index-publication.json",
+      "bytes": 16239,
+      "sha256": "e05692f5ca037392d0eb72dc39c5e1578052dad28c0fbfa6a5a3f77d51a79c2b",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/metadata-validation.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/metadata-validation.json",
+      "bytes": 728,
+      "sha256": "a2d7b80a5f34461bb52d923fa992df8098ea9ecd2ee5c4f74d818d060e4d144e",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/platform-refresh.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/platform-refresh.json",
+      "bytes": 3653,
+      "sha256": "3657d57c4beafce0c46d2db46733dd7924295a7765370612394c559cc893115a",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/public-availability.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/public-availability.json",
+      "bytes": 727,
+      "sha256": "46541cda6e39aab2f36ae15609e8be3e4d79bad3373bf0b33e26ff30685b012e",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/publication.json",
+      "bytes": 2438,
+      "sha256": "fb9cab20f37549cef53da0c2c7e32835305991c4efe3d02ea8b0b24bd1e6fbb1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/record.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/record.json",
+      "bytes": 18279,
+      "sha256": "76468c6d719214748633061cefdb4b66d210db1346440cc89bb633add25c37a1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/targets/5c5d7312-4a30-4192-8695-cb97c19c5fd6.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/targets/5c5d7312-4a30-4192-8695-cb97c19c5fd6.json",
+      "bytes": 1364,
+      "sha256": "6775baa56a8fccc1fab937d9ddf33b20ca1e97b363e9ec1269f4ec2604450e0b",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/targets/6ab95a20-b12f-4ada-bc66-bd88749135a3.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/targets/6ab95a20-b12f-4ada-bc66-bd88749135a3.json",
+      "bytes": 1364,
+      "sha256": "4afeaae63ca3e600696b245d2200e4f77ee158676f0df166877da8d7e9b57b72",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/targets/854f8126-fb75-46c1-9091-9f3e49c1fc8c.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/targets/854f8126-fb75-46c1-9091-9f3e49c1fc8c.json",
+      "bytes": 1910,
+      "sha256": "aafa517e14234f05728fde532adefbf9a2d2888c9e23c8499656189e0cd4efdf",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/targets/ed2f213d-5800-4ff6-bb42-c8dbc0d1a683.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/targets/ed2f213d-5800-4ff6-bb42-c8dbc0d1a683.json",
+      "bytes": 1218,
+      "sha256": "e8b7d234be2318b30a21a0d8d819c12d972c7c4b43a6006210b18b6ce2db069c",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/verification.json",
+      "bytes": 585,
+      "sha256": "349d64c433ddddc97b14fe37116f8ff5c9bc28cae8180d70ef1a6d6a758888c3",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/CITATION.cff",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/CITATION.cff",
+      "bytes": 1458,
+      "sha256": "5f009a27a4bad819aaa533f2244f4619a51d83ce75acf2c3f6b97bcd1d6e3ece",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/LICENSE",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/LICENSE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/NOTE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/NOTE.md",
+      "bytes": 7699,
+      "sha256": "8660f835d0b2da855c0d1d65f3f544f80e461879e34600d920da13133473288e",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/NOTICE.md",
+      "bytes": 1561,
+      "sha256": "504981160fe28c7d2744badf5ad2326fead224223a7a00dafdafe00479cbf078",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/README.md",
+      "bytes": 2993,
+      "sha256": "e7f973aeed17d9459c92b03682672e7894a1055b930db13cd1d4125ffa9f92cf",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/archival-verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/archival-verification.json",
+      "bytes": 2766,
+      "sha256": "e83b4795062fcdd2d1abb00fde8ef728d25f8d29ef82f9347bb4b4bd32742f48",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/index-publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/index-publication.json",
+      "bytes": 8813,
+      "sha256": "952171e55ddf6f8fd8320f416d5215a5f97775e74a9681af8709a4fb4fe5d1eb",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/metadata-validation.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/metadata-validation.json",
+      "bytes": 728,
+      "sha256": "0fb8de47062eff90124efd449d0ab61df2a1ba11bd9b342095b7fb1d1458b987",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/platform-refresh.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/platform-refresh.json",
+      "bytes": 2471,
+      "sha256": "48d3cd33f8412def7e183a46d480d91206539fe5b0d9605c2bd19bd1bdb3fc6f",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/public-availability.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/public-availability.json",
+      "bytes": 638,
+      "sha256": "ebbafaf0f76adb5b9e1fdc9de5dc59844a222a923f4b2bd6b2ccbf3ab5d593a6",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/publication.json",
+      "bytes": 3973,
+      "sha256": "47adff55f4d142e9fdec228056febb8d331b2657dcc12a03b0f37d1a74ba462e",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/record.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/record.json",
+      "bytes": 13220,
+      "sha256": "2369c6a8dbc1a4ce96b3c42b32cb777a6155159d7e28aad7333bb0c88b6678e8",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/targets/5c5d7312-4a30-4192-8695-cb97c19c5fd6.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/targets/5c5d7312-4a30-4192-8695-cb97c19c5fd6.json",
+      "bytes": 1364,
+      "sha256": "6775baa56a8fccc1fab937d9ddf33b20ca1e97b363e9ec1269f4ec2604450e0b",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/targets/6ab95a20-b12f-4ada-bc66-bd88749135a3.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/targets/6ab95a20-b12f-4ada-bc66-bd88749135a3.json",
+      "bytes": 1364,
+      "sha256": "4afeaae63ca3e600696b245d2200e4f77ee158676f0df166877da8d7e9b57b72",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/verification.json",
+      "bytes": 867,
+      "sha256": "959aaed2a3f8e3a3907b7d2f8918e31ea8a692e06571e97cc6d5142fdd41e883",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/zenodo-metadata.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/versions/1.0.0/zenodo-metadata.json",
+      "bytes": 4639,
+      "sha256": "7d8f3f89d0512e0fd8a9d40d16eb20cd80040e7dfa4243795b15e6be6dee4c73",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/versions/1.1.0/zenodo-metadata.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/versions/1.1.0/zenodo-metadata.json",
+      "bytes": 5647,
+      "sha256": "d018f97c6a96c69a32cd072df692a2b8fce6bb5df08431a78f0cd3c61ab85478",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/zenodo-metadata.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/zenodo-metadata.json",
+      "bytes": 5601,
+      "sha256": "29d467c3427ea991cbef25c156d553928630b079cec2b86e5a597f317cf9c50c",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/dual-sourcing-optimal-orders/index-publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/cccea78c4780e1a681023ac0292a47ef607f73cf/records/dual-sourcing-optimal-orders/index-publication.json",
+      "http_status": 404,
+      "deleted_as_expected": true,
+      "authenticated": false
+    }
+  ],
+  "all_public_downloads_match": true,
+  "public_files_verified": 54,
+  "deleted_paths_verified": 1,
+  "source_repository_visibility": "private",
+  "central_repository_visibility": "public",
+  "scope": "Existing dual-sourcing contribution only. All new/changed public files compared with immutable Git blobs; superseded receipt moved to the unchanged historical edition. Unrelated records and catalog preserved."
+}
