@@ -1,31 +1,37 @@
 cff-version: 1.2.0
-message: "Cite this exact version for the formalization; cite Wang, Gilland and Tomlin for the original model and results."
-title: "A Lean formalization of dual-sourcing submodularity and optimal-order existence"
+message: Cite this exact version for the formalization; cite Wang, Gilland and Tomlin for the original
+  model and results.
+title: Verified dual-sourcing profit structure, optimal orders and reliability monotonicity
 type: dataset
 authors:
-  - family-names: Towell
-    given-names: Alexander Richard
-    orcid: "https://orcid.org/0000-0001-6443-9897"
-version: 1.0.0
+- family-names: Towell
+  given-names: Alexander Richard
+  orcid: https://orcid.org/0000-0001-6443-9897
+version: 1.1.0
 date-released: 2026-10-21
-url: "https://github.com/queelius/research-records/tree/main/records/dual-sourcing-optimal-orders"
+url: https://github.com/queelius/research-records/tree/main/records/dual-sourcing-optimal-orders
 license: Apache-2.0
-abstract: "Two complete Lean proofs for the actual random-capacity expected-profit model: lattice submodularity and global optimal-order existence with the stated boundary-or-stationarity conclusion. Includes exact-type and axiom audits, pinned reproduction and rejecting controls. Original mathematical and platform contributors are credited; substantial Codex assistance is disclosed. Mathematical novelty and human peer review are not claimed."
+abstract: 'Four complete Lean proofs for the two-supplier random-capacity expected-profit model: lattice
+  submodularity, global optimal-order existence with necessary stationarity, the exact CDF derivative
+  formula, and optimized-value monotonicity in supplier reliability. Includes full-type and axiom audits,
+  pinned reproduction and five rejecting controls. This substantive successor preserves the earlier two-proof
+  edition. Original mathematical and platform contributors are credited; substantial Codex assistance
+  is disclosed. Mathematical novelty and independent human peer review are not claimed.'
 references:
-  - type: article
-    title: "Mitigating Supply Risk: Dual Sourcing or Process Improvement?"
-    authors:
-      - family-names: Wang
-        given-names: Yimin
-      - family-names: Gilland
-        given-names: Wendell
-      - family-names: Tomlin
-        given-names: Brian
-    doi: "10.1287/msom.1090.0279"
-    journal: "Manufacturing & Service Operations Management"
-    volume: 12
-    issue: 3
-    start: 489
-    end: 510
-    year: 2010
-doi: "10.5281/zenodo.23531695"
+- type: article
+  title: 'Mitigating Supply Risk: Dual Sourcing or Process Improvement?'
+  authors:
+  - family-names: Wang
+    given-names: Yimin
+  - family-names: Gilland
+    given-names: Wendell
+  - family-names: Tomlin
+    given-names: Brian
+  doi: 10.1287/msom.1090.0279
+  journal: Manufacturing & Service Operations Management
+  volume: 12
+  issue: 3
+  start: 489
+  end: 510
+  year: 2010
+doi: 10.5281/zenodo.23533755

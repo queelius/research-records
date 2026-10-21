@@ -1,27 +1,26 @@
 # Attribution and licensing
 
-Alexander Richard Towell (queelius) directed the research, verification and
-publication. OpenAI Codex developed, checked, submitted and documented the Lean
-formalizations. Independent human proof review and mathematical novelty are
-not claimed.
+Alexander Richard Towell (queelius) directed research, verification standards
+and publication. OpenAI Codex substantially developed, verified, submitted and
+documented the formalizations. Independent human proof review and mathematical
+novelty are not claimed.
 
 Yimin Wang, Wendell Gilland and Brian Tomlin authored the original model and
-results: *Mitigating Supply Risk: Dual Sourcing or Process Improvement?*,
-MSOM 12(3), 489–510 (2010), DOI 10.1287/msom.1090.0279. Their paper is cited,
-not redistributed. The author-hosted PDF was inspected; its online proof
-appendix was not. mikedeng1 supplied the platform model, statements and
-disclosed qualifications. Shuze Chen reviewed the platform statements, not
-these proofs. Lean and Mathlib contributors supplied foundational proof
-infrastructure. These acknowledgments do not assert endorsement or coauthorship.
+results, MSOM 12(3), 489–510 (2010), DOI 10.1287/msom.1090.0279. Their paper and
+appendix are cited, not redistributed. mikedeng1 supplied the platform model,
+statements and qualifications. Shuze Chen confirmed statements, not these
+proofs. Lean/Mathlib contributors retain credit for foundational infrastructure.
+These credits do not imply coauthorship or endorsement.
 
-Theorem 1 reuses the accepted queelius Lemma 1 proof inline with its top-level
-declaration renamed. The original accepted files and exact audits remain
-unchanged. This reuse is not counted as another result.
+Theorem 1 retains the accepted Lemma 1 body inline. Equation (6) and Lemma 2(b)
+retain the accepted Theorem 1 source under declaration renames. Original source
+and audit bytes are unchanged. Reuse is not counted again. Version 1.0.0 remains
+available and is preserved under versions/1.0.0.
 
-The public target statements and sole platform definition were created on
-7 October 2026; the accepted proofs were submitted on 21 October 2026. They
-postdate Prove2Me's Apache-2.0 public-contribution terms, effective
-24 September 2026 at 15:55 UTC (https://prove2.me/terms; checked 21 October).
-The archival documentation is Apache-2.0. Lean and Mathlib retain their own
-licenses and authorship. This license does not cover the cited paper or
-unrelated private material.
+The public definition and target statements date from October 7, 2026; proofs
+were submitted on October 21, 2026. They postdate Prove2Me's Apache-2.0 public
+contribution terms, effective September 24, 2026 at 15:55 UTC, checked October 21
+at https://prove2.me/terms. The archival documentation uses Apache-2.0.
+Lean/Mathlib retain their own licenses. This grant excludes cited papers and
+unrelated private material. Exact source dates and license checks are in
+provenance.json and the platform-refresh receipt.

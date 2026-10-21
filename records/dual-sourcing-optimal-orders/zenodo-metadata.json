@@ -1,5 +1,5 @@
 {
-  "title": "A Lean formalization of dual-sourcing submodularity and optimal-order existence",
+  "title": "Verified dual-sourcing profit structure, optimal orders and reliability monotonicity",
   "upload_type": "publication",
   "publication_type": "technicalnote",
   "publication_date": "2026-10-21",
@@ -10,10 +10,10 @@
       "affiliation": "Southern Illinois University Edwardsville"
     }
   ],
-  "description": "<p>Two complete Lean proofs for the actual two-supplier random-capacity expected-profit model: lattice submodularity in feasible orders, and existence of a global maximizing nonnegative order with each coordinate zero, equal to design capacity, or having an existing zero partial derivative. Both complete Prove2Me target signatures are proved. Demand is nonnegative with finite mean; the second theorem additionally assumes absolute continuity. Positive capacities, nonnegative revenue, penalty and costs, committed-cost fractions in [0,1], and v&lt;r+p are explicit model hypotheses. The disclosed platform qualifications are retained.</p>\n<p>The submodularity proof establishes all required profit integrabilities before integrating a pointwise lattice inequality. The existence proof combines a uniform profit Lipschitz bound, clipping to a compact capacity box, null kink events under the atomless-capacity and absolutely-continuous-demand laws, differentiation under the integral and Fermat's condition. It proves no sufficient first-order condition, explicit CDF derivative formula, region-by-region optimizer or comparative statics. No downstream automatic closure is claimed.</p>\n<p>The original model and results are due to Yimin Wang, Wendell Gilland and Brian Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing &amp; Service Operations Management 12(3), 489–510 (2010), DOI 10.1287/msom.1090.0279, Lemma 1 and Theorem 1 on p. 494. The author-hosted published PDF was inspected and hashed; the online proof appendix was not inspected. This packet supplies its own checked argument and cites, rather than redistributes, the paper. mikedeng1 supplied the platform formulation and disclosed qualifications; Shuze Chen reviewed the platform statements, not these proofs. Theorem 1 reuses the accepted queelius Lemma 1 source inline, with the top-level declaration renamed. That reuse is not another counted result.</p>\n<p>The self-contained packet includes unchanged accepted sources, independent full-type and axiom audits with autoImplicit=false, the sole required platform definition, immutable Lean 4.33.1 and Mathlib pins, the established archive verifier, fresh reproduction logs and three rejected controls: changed proof bytes, a weakened target and an added local axiom. Only propext, Classical.choice and Quot.sound are proof axioms. Verified third-party compiled caches remain trusted inputs.</p>\n<p>Alexander Richard Towell directed the research and publication; OpenAI Codex substantially developed, checked, submitted and documented the formalizations. Lean and Mathlib contributors retain foundational credit. Mathematical novelty, exhaustive priority assessment, source-author endorsement and independent human proof review are not claimed. Original platform submissions and acceptances occurred on October 21, 2026. This first coherent archive is a separate publication event and adds no new accepted target.</p>",
+  "description": "<p>Four complete Lean proofs for the actual two-supplier random-capacity expected-profit model: lattice submodularity in feasible orders; existence of a global maximizing nonnegative order with the necessary boundary-or-stationarity conclusion; the exact CDF derivative formula and its optimal-interior first-order consequence; and monotonicity of optimized expected profit in either supplier's reliability. All four full Prove2Me signatures are proved. Version 1.1.0 adds Equation (6) and Lemma 2(b) to the two-proof edition 1.0.0, preserving its proof bytes and archival history.</p>\n<p>Demand is nonnegative with finite mean. Theorem 1 and Equation (6) additionally assume absolute continuity; Lemmas 1 and 2(b) allow atomic demand. The model retains independent atomless nonnegative capacity-loss laws, positive capacities, nonnegative revenue, penalty and costs, committed-cost fractions in [0,1], v&lt;r+p and full CDF ordering in reliability. Equation (6) concerns a feasible strictly interior coordinate and distinct suppliers. Lemma 2(b) requires no differentiability of reliability-indexed laws. The conclusion is about the optimized value, not every fixed-order profit or an ordering of optimal quantities.</p>\n<p>The proofs check measurability and integrability, integrate a pointwise lattice inequality, clip orders to a compact capacity box, differentiate under the integral outside null kink events, factor independent integrals into the exact CDF expression, and compare optimized values under stochastic order. No sufficient first-order condition, region-by-region optimizer classification or automatic downstream closure is claimed.</p>\n<p>The original model and results are due to Yimin Wang, Wendell Gilland and Brian Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing &amp; Service Operations Management 12(3), 489–510 (2010), DOI 10.1287/msom.1090.0279. The author-hosted published PDF was inspected and hashed. The appendix's Lemma 2 proof was consulted as browser-extracted text, but no immutable appendix PDF was obtained. The source paper is cited, not redistributed. mikedeng1 supplied the platform model, statements and qualifications; Shuze Chen reviewed the statements, not these proofs. Accepted earlier proof bodies are reused inline under declaration renames; this reuse is not counted as additional results.</p>\n<p>The self-contained packet includes four unchanged accepted sources, independent full-type and axiom audits with autoImplicit=false, the sole platform definition, Lean 4.33.1 and immutable Mathlib pins, the established archive verifier, fresh reproduction logs and five rejected controls: changed proof bytes, an added local axiom, and weakened substitutes for Theorem 1 and both added targets. Only propext, Classical.choice and Quot.sound are proof axioms. Verified third-party compiled caches remain trusted inputs. The previous archival edition is preserved in the packet.</p>\n<p>Alexander Richard Towell directed research, verification standards and publication; OpenAI Codex substantially developed, checked, submitted and documented the formalizations. Lean and Mathlib contributors retain foundational credit. Mathematical novelty, exhaustive priority assessment, source-author endorsement and independent human proof review are not claimed. Original platform submissions and acceptances occurred on October 21, 2026. This archival successor is a separate publication event and adds no new accepted target.</p>",
   "access_right": "open",
   "license": "apache-2.0",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "language": "eng",
   "keywords": [
     "dual sourcing",
@@ -26,7 +26,11 @@
     "Lean 4",
     "Mathlib",
     "reproducible proof",
-    "AI-assisted research"
+    "AI-assisted research",
+    "first-order optimality",
+    "supplier reliability",
+    "stochastic order",
+    "comparative statics"
   ],
   "related_identifiers": [
     {
@@ -48,7 +52,17 @@
       "identifier": "https://prove2.me/theorems/5c5d7312-4a30-4192-8695-cb97c19c5fd6",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/854f8126-fb75-46c1-9091-9f3e49c1fc8c",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/ed2f213d-5800-4ff6-bb42-c8dbc0d1a683",
+      "relation": "isSupplementTo",
+      "scheme": "url"
     }
   ],
-  "notes": "Two accepted complete formalizations of established source results. Original mathematical and platform contributors are predecessors, not represented as coauthors. A DOI provides an archival citation, not proof of novelty or peer review."
+  "notes": "Four accepted complete formalizations of established source results; substantive successor to version 1.0.0 in the same concept family. Source and platform contributors are credited as predecessors, not coauthors. A DOI is an archival citation, not evidence of novelty or peer review."
 }

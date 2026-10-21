@@ -1,0 +1,10 @@
+{
+  "theorem_id": "6ab95a20-b12f-4ada-bc66-bd88749135a3",
+  "theorem_name": "MitigateSupplyRisk.DualSourcing.lemma_1",
+  "status": "Proved",
+  "formal_statement": "namespace MitigateSupplyRisk.DualSourcing\n\n/-- Lemma 1 (Wang, Gilland, Tomlin 2010, p. 494): the second-stage expected profit `Π₂(q; a)` is\nsubmodular in the order vector `q` on the feasible quadrant `q ≥ 0`, in the lattice form\n`Π₂(q ∨ q') + Π₂(q ∧ q') ≤ Π₂(q) + Π₂(q')` (componentwise max and min). Demand is any nonnegative\nlaw with finite mean; no density is needed. -/\ntheorem lemma_1 (M : Model) (μ : Measure ℝ) [IsProbabilityMeasure μ]\n    (hμ0 : μ (Set.Iio 0) = 0) (hμint : Integrable id μ) (a : Fin 2 → ℝ)\n    (q q' : Fin 2 → ℝ) (hq : q ∈ Model.orders) (hq' : q' ∈ Model.orders) :\n    M.Pi2 μ (q ⊔ q') a + M.Pi2 μ (q ⊓ q') a ≤ M.Pi2 μ q a + M.Pi2 μ q' a := by sorry\n\nend MitigateSupplyRisk.DualSourcing\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_MitigateSupplyRisk_DualSourcing_Model\n\nopen MeasureTheory ProbabilityTheory",
+  "source": "Wang, Gilland, Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing & Service Operations Management 12(3):489–510 (2010), p. 494 (PDF p. 6), Lemma 1",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-10-21T10:10:02.487272+00:00",
+  "api_contract": "0.13.1",
+  "targets": [
+    {
+      "theorem_id": "6ab95a20-b12f-4ada-bc66-bd88749135a3",
+      "submission_id": "ba6e801b-35a6-41d4-a98a-8e9ccb3ab939",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T08:09:00.907724+00:00",
+      "submitted_at": "2026-10-21T08:07:45.965017+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "22776dcb1b045da07606b9250964875ba9158741a27a654a4c092712ec7c70ea",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-07T03:14:10.461166+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "5c5d7312-4a30-4192-8695-cb97c19c5fd6",
+      "submission_id": "8ed08cea-6a98-4cd3-a968-c48d7b76618a",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T09:28:14.296001+00:00",
+      "submitted_at": "2026-10-21T09:26:44.875836+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "e295b860c40f1748bb36edd46de2c8028f3926c67f8005fe3ef232395edf6b3a",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-07T03:13:55.638603+00:00",
+      "visibility": "public"
+    }
+  ],
+  "definitions": [
+    {
+      "path": "Definitions/Def_MitigateSupplyRisk_DualSourcing_Model.lean",
+      "sha256": "95753c4105f779f4de3d82b92d10efbc2d46b279c6b8f72e993dc92a8a8b7bcb",
+      "platform_definition_id": "e0e7de06-f346-4eda-aeda-cf6d0f94d0ef",
+      "source": "Wang, Gilland, Tomlin, Mitigating Supply Risk: Dual Sourcing or Process Improvement?, Manufacturing & Service Operations Management 12(3):489–510 (2010), pp. 492–493 (PDF pp. 4–5), §3.1–3.3, Eqs. (1)–(3)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "MitigateSupplyRisk_DualSourcing_Model",
+      "created_at": "2026-10-07T03:13:11.999633+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    }
+  ],
+  "discussions": {
+    "mission_id": "b0a82f78-5e6a-4ff2-8df3-032b84b712c3",
+    "comments_read": 0,
+    "pagination_complete": true,
+    "target_mentions_read": 0
+  },
+  "terms": {
+    "url": "https://prove2.me/terms",
+    "effective_at": "2026-09-24T15:55:00+00:00",
+    "checked_on": "2026-10-21",
+    "public_contributions_license": "Apache-2.0"
+  }
+}

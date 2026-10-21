@@ -1,20 +1,13 @@
 {
   "schema_version": 1,
-  "scope": "Fresh standalone exact-type audits of two complete proofs and public archival verification; details in archival-verification.json and the packet.",
-  "public_packet_checked_at": "2026-10-21T10:20:13.007585+00:00",
-  "public_packet_reproduction": "PASS",
-  "public_archive_url": "https://zenodo.org/records/23531695",
+  "checked_at": "2026-10-21T12:11:07.530857+00:00",
+  "scope": "Four exact accepted proofs reproduced from staged and final extracted packets; five invalid controls rejected. No fresh compilation of the entire project ledger is claimed.",
   "archival_receipt": "archival-verification.json",
   "publication_receipt": "publication.json",
+  "metadata_validation": "metadata-validation.json",
+  "staged_reproduction": "PASS",
+  "final_extracted_reproduction": "PASS",
   "all_public_downloads_match": true,
-  "reproduction_scope": {
-    "staged_status": "passed",
-    "extracted_status": "passed",
-    "targets": 2,
-    "definitions": 1,
-    "exact_target_audits": true,
-    "rejection_controls": 3
-  },
-  "packet_file_count": 57,
-  "note": "Historical verification timestamps retain their original meaning; new staged, extracted and public-download checks are separately recorded."
+  "packet_file_count": 96,
+  "human_peer_review": false
 }

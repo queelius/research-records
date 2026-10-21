@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-21T10:10:02.487272+00:00",
+  "checked_at": "2026-10-21T11:56:32.557257+00:00",
   "api_contract": "0.13.1",
   "targets": [
     {
@@ -28,6 +28,34 @@
       "accepted_download_matches": true,
       "submission_count": 1,
       "created_at": "2026-10-07T03:13:55.638603+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "854f8126-fb75-46c1-9091-9f3e49c1fc8c",
+      "submission_id": "1cbda48d-c378-4473-92e6-f21a355cd27a",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T10:45:12.571136+00:00",
+      "submitted_at": "2026-10-21T10:42:48.761967+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "88d9b0947d43f655a7b329d7a7ef2a1cd0e92a596bd814b179ec125d2f723a98",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-07T03:13:47.821363+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "ed2f213d-5800-4ff6-bb42-c8dbc0d1a683",
+      "submission_id": "7b0fb5fe-8b3a-4c9f-ae5a-c2c44a35e44e",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T11:28:36.366992+00:00",
+      "submitted_at": "2026-10-21T11:26:54.055327+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "17bc585a3a6eb0a63524e336dab5b8869ab98b3f9691809c699e881a4b82de19",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-07T03:14:05.881183+00:00",
       "visibility": "public"
     }
   ],
