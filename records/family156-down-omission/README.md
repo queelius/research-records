@@ -51,3 +51,19 @@ records verification methods and shared dependencies. Our
 [clarification](https://github.com/piiiico/agent-errata/issues/16#issuecomment-6310829448)
 links the existing scoped AI reduction review without counting it as a new
 independent implementation. The exact version 1.0.0 archive is unchanged.
+
+## Formal reduction follow-up
+
+[PR12](https://github.com/piiiico/openai-math-counterexamples/pull/12), submitted on
+October 21 at 08:22 UTC, adds a
+[pinned Lean bridge](https://github.com/queelius/openai-math-counterexamples/tree/d3461179d6d7161ba3ae6241f09f1b160179b70a/rows/156/finite_obstruction/lean_bridge).
+It proves that the five retained fields and nonempty Q induce a satisfying
+assignment of the generated numeric CNF. A complete external comparison matches
+all 330 variable meanings and 30,361 clauses of the accepted certificate input.
+The pinned build, 17 tests, rejecting controls and one scoped AI review pass.
+
+This formalizes the forward reduction only. UNSAT replay and the serialized-input
+binding remain external; the conditional corollary explicitly assumes UNSAT. The
+new PR awaits review. It is **not included in DOI version 1.0.0**. A substantive
+archive update should use the existing Zenodo version family after consolidating
+this follow-up; the earlier deposited files and their dates remain unchanged.

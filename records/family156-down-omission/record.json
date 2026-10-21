@@ -141,5 +141,39 @@
     "run_records": "https://github.com/piiiico/agent-errata/blob/main/claims/K002.jsonl",
     "review_clarification": "https://github.com/piiiico/agent-errata/issues/16#issuecomment-6310829448",
     "note": "The October 20 scoped Codex reduction review reuses the primary variable mapping and evaluator. It is AI review, not a new independent implementation or formal proof; proposed for a historical review row."
+  },
+  "subsequent_formalization": {
+    "title": "A formal source-to-CNF bridge for the ten-label obstruction without downward closure",
+    "public_disclosure_at": "2026-10-21T08:22:22Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/12",
+    "status": "submitted",
+    "accepted": false,
+    "commit": "d3461179d6d7161ba3ae6241f09f1b160179b70a",
+    "canonical_packet": "https://github.com/queelius/openai-math-counterexamples/tree/d3461179d6d7161ba3ae6241f09f1b160179b70a/rows/156/finite_obstruction/lean_bridge",
+    "claim": "Five retained TenSystem fields and nonempty Q imply a model of the generated numeric CNF, for arbitrary all-subset T,Q.",
+    "formal_scope": "Kernel-checked forward reduction only; UNSAT remains a hypothesis in the impossibility corollary.",
+    "binding": "Complete external comparison matches all 330 ordered variable meanings and 30361 clauses, including multiplicities; no obligation filtered out.",
+    "toolchain": "leanprover/lean4:v4.33.1",
+    "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification": "Fresh affected-module build and axiom inspection; 17 unit/integration tests; normal and optimized rejection controls; a rejected Lean proof mutation; repository build.",
+    "review": "One scoped separate AI review, no blocker; not human peer review or an independent implementation.",
+    "contributors": [
+      "Alexander Richard Towell"
+    ],
+    "ai_assistance": "Substantial OpenAI Codex assistance",
+    "license": "Apache-2.0 for adapted OpenAI source/proof; MIT for original supporting files.",
+    "archived_in_version_1_0_0": false,
+    "archival_next_step": "Prepare one substantive new version in the existing Zenodo family once the submitted formalization packet is consolidated; do not rewrite the earlier archive or mint a separate contribution family.",
+    "remaining": [
+      "kernel-checked certificate soundness and UNSAT replay",
+      "kernel binding to external serialized artifacts",
+      "geometry/topology",
+      "human review"
+    ]
   }
 }
