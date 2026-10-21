@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-21T06:27:22.207098+00:00",
+  "status": "passed",
+  "accepted_targets_recompiled": 3,
+  "definition_modules_rebuilt": [
+    "Definitions.Def_NestedLogitVariants_LP_Model",
+    "Definitions.Def_ConstrNestedLogit_Space_KnapsackLP",
+    "Definitions.Def_ConstrNestedLogit_Space_Model"
+  ],
+  "exact_type_audits": true,
+  "autoImplicit": false,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "fresh_report": "verification/reproduction.json",
+  "fresh_report_sha256": "e64ba35920174e6eaaf6feb966039625d7e2b3a2ff1995d1801b106ecb175e9d",
+  "controls": [
+    {
+      "name": "ExtraAxiomControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Local axiom is forbidden",
+      "source_file": "verification/controls/ExtraAxiomControl.lean",
+      "source_sha256": "2a599e5abbe102404634df7fb872a9e6534045b3613a4d20be74c4ee70d35155",
+      "log_file": "verification/controls/ExtraAxiomControl.log",
+      "log_sha256": "755b745042a23211430513e826267fcff2d206e36283fd8490278746d4377713",
+      "original_log_sha256": "f755a8a1e74eee74d022d985f52a4e113d2366c8a7182516704a6b090d488846"
+    },
+    {
+      "name": "WeakenedTargetControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Function expected",
+      "source_file": "verification/controls/WeakenedTargetControl.lean",
+      "source_sha256": "f83d23acbeac23239bd7207a85cdb7939bfd56badc4b29dc1d49d118da26c9db",
+      "log_file": "verification/controls/WeakenedTargetControl.log",
+      "log_sha256": "80950287e286553286be31c7447c41e975361551340cb5163cfb1f1a4e4b138e",
+      "original_log_sha256": "5636f2d07dc908f8cabb00ef11b83a83f079ab61fad1f0aa074fa7c7b5fc08b7"
+    },
+    {
+      "name": "proof-byte-mutation",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "scope": "Append one newline to an accepted proof in an isolated packet copy; unchanged integrity verifier must reject its hash.",
+      "log_file": "verification/controls/proof-byte-mutation.log",
+      "log_sha256": "d0f3f64cbfe5a396f587f70b1771ee37341a603b23da51c65384c8b07bbd5e72",
+      "original_log_sha256": "ae3319f118f8cb9cc8d2a0052dd9b047ad65d4d5a0191cc80e8e41151644e95a"
+    }
+  ],
+  "tooling_regression": {
+    "tests_passed": 128,
+    "combined_coverage_percent": 92.27129337539432,
+    "scope": "Unchanged established archive verifier; owning-project unit/integration suite passed on2026-10-21 before packet preparation. Defensive setup/cleanup branches remain uncovered."
+  },
+  "cache_policy": "Verified pinned third-party compiled caches reused; all three platform definitions compiled freshly. No Lean/Mathlib bootstrap verification.",
+  "human_peer_review": false,
+  "paths_relative_to": "archival packet root"
+}

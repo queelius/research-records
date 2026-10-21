@@ -1,0 +1,63 @@
+{
+  "title": "Verified fractional-knapsack construction and rounding bounds for nested-logit assortments",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>This technical note and reproducible Lean packet formalize the fractional-knapsack construction and two utility rounding guarantees used by Guillermo Gallego and Huseyin Topaloglu in Constrained Assortment Optimization for the Nested Logit Model (Management Science, DOI 10.1287/mnsc.2014.1931). For the exact finite nested-logit interfaces, a continuous knapsack optimum is constructed with at most one fractional coordinate, strictly positive utility on selected coordinates and universal selected/not-full ratio ordering. Two separate accepted proofs establish the factor-two rounding bound and the refined 1/(1-epsilon) guarantee under the exact small-item assumptions.</p><p>The optimizer proof uses finite highest-ratio recursion, a nonnegative dual multiplier, feasibility and complementary slackness to prove global optimality. The refined rounding proof uses a feasible perturbation and includes zero-utility fractional items without assuming capacity exhaustion. The uniform quadratic-size candidate-family construction and the complete assortment-revenue approximation theorem remain open and are outside the completed claim.</p><p>The archive contains three exact Prove2Me-accepted source files, complete independent target audits with autoImplicit=false, all three required platform definition modules, immutable Lean 4.33.1 and Mathlib dependency pins, the established archive verifier, fresh staged reproduction logs, and rejecting controls for a changed proof byte, a weaker candidate statement and an added local axiom. Allowed axioms are only propext, Classical.choice and Quot.sound. Pinned third-party compiled caches remain trusted inputs; this is not a bootstrap verification.</p><p>Original mathematics belongs to Gallego and Topaloglu; the shared instance model also credits James M. Davis. The target cites a September 11, 2013 manuscript; the inspected author-hosted revision is dated September 18, 2013, and no original-PDF hash is claimed. mikedeng1 supplied platform interfaces and statements; Shuze Chen reviewed the statements. Lean/Mathlib and the specific reused proof infrastructure retain credit. Alexander Richard Towell directed the work. Substantial OpenAI Codex assistance in proof development, verification and documentation is disclosed. No mathematical novelty, source-author endorsement or independent human proof review is claimed.</p><p>All three proofs were publicly submitted on October 20, 2026. The earlier central v1.0 metadata record covered two rounding bounds; this first archival edition, v1.1.0, adds the complete optimizer construction. Exact original disclosures are recorded separately from this archive publication. The owning development repository remains private. This is one coherent Prove2Me contribution.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.1.0",
+  "language": "eng",
+  "keywords": [
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "fractional knapsack",
+    "nested logit",
+    "assortment optimization",
+    "approximation guarantees",
+    "dual certificate",
+    "reproducible proof",
+    "AI-assisted formalization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1287/mnsc.2014.1931",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1287/opre.2014.1256",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/nested-logit-knapsack-rounding",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/83dde935-955c-4220-abaa-51ca371d5d95",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/f8976841-ff66-410f-a59b-ade97fe1e82e",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/2dbfdae9-f404-49d2-a12d-436df861fdd6",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Three accepted target IDs and exact source hashes are recorded in the packet. Original source authors and platform contributors are credited as predecessors; they are not represented as coauthors of this archival note. Apache-2.0 applies to the archival edition and public platform sources; earlier metadata retains its MIT grant, included in LICENSE-METADATA."
+}

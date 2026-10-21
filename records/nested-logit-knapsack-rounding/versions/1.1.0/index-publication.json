@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-20T19:10:11.085998+00:00",
+  "record_id": "nested-logit-knapsack-rounding",
+  "publication_kind": "curated public index record; no DOI or source packet",
+  "status": "published-and-download-verified",
+  "repository": "https://github.com/queelius/research-records",
+  "commit": "4850002bcc5ff66be4f237c72e6b68b03bbf5264",
+  "record_url": "https://github.com/queelius/research-records/tree/main/records/nested-logit-knapsack-rounding",
+  "immutable_record_url": "https://github.com/queelius/research-records/tree/4850002bcc5ff66be4f237c72e6b68b03bbf5264/records/nested-logit-knapsack-rounding",
+  "owner_source_commit": "1378c1f77ddf76089cf9fcf2c3859bf8cf3d0a29",
+  "owner_record_sha256": "71ef98a2be6cf019c2e063d507777fed014314b7c96e906c5252e035289170c1",
+  "owner_visibility": "PRIVATE",
+  "catalog_records": 14,
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/4850002bcc5ff66be4f237c72e6b68b03bbf5264/README.md",
+      "bytes": 9168,
+      "sha256": "10355b30eed3e920035e61e08ea9fa95aedd9d6327742f6106a2a36eb863774d",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "catalog.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/4850002bcc5ff66be4f237c72e6b68b03bbf5264/catalog.json",
+      "bytes": 3103,
+      "sha256": "399637cff7d1138db925e60e9c7448f59b879b720e15c8457ffb9e320101f16d",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/CITATION.cff",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/4850002bcc5ff66be4f237c72e6b68b03bbf5264/records/nested-logit-knapsack-rounding/CITATION.cff",
+      "bytes": 712,
+      "sha256": "7cad5912e0909f6128a919d1092a255c7253f2a1864b6d5b2c6ad55c468ebf2f",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/LICENSE",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/4850002bcc5ff66be4f237c72e6b68b03bbf5264/records/nested-logit-knapsack-rounding/LICENSE",
+      "bytes": 1207,
+      "sha256": "621c55b5231fcbeed38ebd84e0366c0beb82679566303402c56c26ffa40f0a75",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/NOTE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/4850002bcc5ff66be4f237c72e6b68b03bbf5264/records/nested-logit-knapsack-rounding/NOTE.md",
+      "bytes": 1975,
+      "sha256": "b3f09ab39f5fed8c57a4e4c6101cc360b17510eb16d4439c56782ec4743200d2",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/4850002bcc5ff66be4f237c72e6b68b03bbf5264/records/nested-logit-knapsack-rounding/README.md",
+      "bytes": 1351,
+      "sha256": "9c45f8355c85f4e80b7220a20f4157b467cba7a4969a6c3661f3db534f0b972d",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/record.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/4850002bcc5ff66be4f237c72e6b68b03bbf5264/records/nested-logit-knapsack-rounding/record.json",
+      "bytes": 8631,
+      "sha256": "1f8efd4713ee27746284701d4d2c6320540cf4e2b934cc78de889f7b47dd89f1",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/4850002bcc5ff66be4f237c72e6b68b03bbf5264/records/nested-logit-knapsack-rounding/verification.json",
+      "bytes": 2268,
+      "sha256": "116635d6adef4e6d356fc92b6dd09cc1232c45d814f39b22e796416def5965db",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "all_downloads_match": true,
+  "version_doi": null,
+  "source_repository_visibility_changed": false,
+  "site_or_blog_published": false
+}

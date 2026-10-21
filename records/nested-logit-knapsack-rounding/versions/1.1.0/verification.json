@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-21T06:34:55.363127+00:00",
+  "kind": "owner-side verification summary",
+  "lean": "4.33.1",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "autoImplicit": false,
+  "exact_type_audits": true,
+  "axiom_scope": "All local declarations; only propext, Classical.choice and Quot.sound.",
+  "targets": [
+    {
+      "theorem_id": "83dde935-955c-4220-abaa-51ca371d5d95",
+      "proof_sha256": "5d79e752bc469fc12e269566867ca3d2896315f4215395f9e22910c271f00832",
+      "audit_sha256": "d3e0eed57e23dbcc993c30ba0bc83c64dd7b7000bae5630e9c4c30bf728b5415",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem_id": "f8976841-ff66-410f-a59b-ade97fe1e82e",
+      "proof_sha256": "e31387553c303b0d1b73479515572c463b26468e76be2930ba209ffc4d01af71",
+      "audit_sha256": "28a81584af6614348f3f82a787de6becf0cba6dbb5991d23d5555f37036d14f8",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem_id": "2dbfdae9-f404-49d2-a12d-436df861fdd6",
+      "proof_sha256": "f819238874342a3239b8eb75455caf8450920612c1e751d6402ceffa8c353143",
+      "audit_sha256": "28f48a1446bcd72a3409d5a97b076c5ea25136861afcb833156351812c4d0108",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "all_accepted_downloads_match": true,
+  "fresh_reproduction": "PASS",
+  "public_packet_reproduction": "PASS",
+  "tooling_tests": {
+    "passed": 128,
+    "seconds": 23.19,
+    "coverage": {
+      "covered_lines": 954,
+      "num_statements": 1012,
+      "percent_covered": 92.27129337539432,
+      "percent_covered_display": "92",
+      "missing_lines": 58,
+      "excluded_lines": 3,
+      "percent_statements_covered": 94.26877470355731,
+      "percent_statements_covered_display": "94",
+      "num_branches": 256,
+      "num_partial_branches": 40,
+      "covered_branches": 216,
+      "missing_branches": 40,
+      "percent_branches_covered": 84.375,
+      "percent_branches_covered_display": "84"
+    }
+  },
+  "human_peer_review": false,
+  "note": "All three proofs were freshly reproduced from both the staged packet and extracted ZIP; three rejection controls behaved as required.68 archived files and all three public downloads have verified hashes. Historical owner-side reproduction reports retain their earlier dates.",
+  "reproduction_reports": [
+    "contributions/queelius/evidence/reproduction-round16-2026-10-20.json",
+    "contributions/queelius/evidence/reproduction-round17-2026-10-21.json"
+  ],
+  "public_archive_url": "https://zenodo.org/records/23526994",
+  "archival_receipt": "archival-verification.json",
+  "publication_receipt": "publication.json",
+  "all_public_downloads_match": true
+}

@@ -70,13 +70,16 @@ publication metadata or handoff.
   limitations and unsuccessful controller comparisons are documented.
   [Archived version](https://doi.org/10.5281/zenodo.23526852).
 
-- [Fractional-knapsack construction and rounding for nested-logit assortments](records/nested-logit-knapsack-rounding/README.md).
-  Three accepted Lean proofs construct the optimizer and establish both rounding
-  guarantees. Established Gallego–Topaloglu mathematics, with shared-model,
-  platform and Lean/Mathlib contributors credited. The self-contained
-  [version 1.1.0 archive](https://doi.org/10.5281/zenodo.23526994) reproduces all
-  three targets, rejects three invalid controls, and has 68 verified packet files.
-  The uniform candidate-family construction remains open.
+- [Uniform candidate families and knapsack rounding for nested-logit assortments](records/nested-logit-knapsack-rounding/README.md).
+  Four accepted Lean proofs establish a single feasible family of at most
+  `(n+1)^2` assortments with a factor-two guarantee for every nonnegative parameter,
+  an actual fractional-knapsack optimizer, and both rounding inequalities.
+  Established Gallego–Topaloglu mathematics; shared-model, platform and
+  Lean/Mathlib contributions retain specific credit. The self-contained
+  [version 1.2.0 archive](https://doi.org/10.5281/zenodo.23529835) reproduces all
+  four targets, rejects three invalid controls, and has 90 verified packet files.
+  The global revenue theorem, running-time bound and refined uniform small-item
+  family remain separate claims. The previous exact archive remains available.
 
 - [Finite-support empirical DRO reduction](records/empirical-dro-finite-support-reduction/README.md).
   Three accepted Lean proofs identify the attainable sample-weight and

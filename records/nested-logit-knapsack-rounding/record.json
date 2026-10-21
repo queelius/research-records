@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "nested-logit-knapsack-rounding",
-  "title": "Verified fractional-knapsack construction and rounding bounds for nested-logit assortments",
-  "contribution_type": "complete formalization of optimizer construction and two established approximation inequalities",
+  "title": "Verified uniform candidate families and knapsack rounding for nested-logit assortments",
+  "contribution_type": "complete formalization of a quadratic uniform candidate family, actual optimizer construction and established approximation inequalities",
   "authors": [
     {
       "name": "Alexander Richard Towell",
@@ -15,22 +15,25 @@
     "visibility": "private",
     "record_path": "contributions/queelius/publications/nested-logit-knapsack-rounding/record.json",
     "lifecycle_ledger": "contributions/queelius/contributions.json",
-    "source_commit": "ff00659397ec48dac510c335616c58caa6fa281d",
-    "record_sha256": "242326b1208cf65df1f94a82a04f66513102ea579f0400a490c1bde7855415c5",
-    "record_url": "https://github.com/queelius/prove2me-contributions/blob/ff00659397ec48dac510c335616c58caa6fa281d/contributions/queelius/publications/nested-logit-knapsack-rounding/record.json"
+    "source_commit": "335ce0bb5f9da80671a836b232db68e5a55c685c",
+    "record_sha256": "738535671e4ae1599ac34d1dfec9166a9b0c5f0000f91e2b6b45869b9ca2bcba",
+    "record_url": "https://github.com/queelius/prove2me-contributions/blob/335ce0bb5f9da80671a836b232db68e5a55c685c/contributions/queelius/publications/nested-logit-knapsack-rounding/record.json"
   },
   "central_record_url": "https://github.com/queelius/research-records/tree/main/records/nested-logit-knapsack-rounding",
-  "claim": "A continuous knapsack optimum exists with at most one fractional item, positive utility on every selected coordinate and universal selected/not-full ratio ordering. Its rounded support and optional fractional singleton give the exact factor-two utility bound; the rounded support gives the exact1/(1-epsilon) small-item bound under the stated one-fractional-item condition.",
+  "claim": "For the exact nested-logit knapsack interface, there exists a single feasible assortment family of cardinality at most (n+1)^2 that gives a factor-two utility approximation simultaneously for every nonnegative parameter u. The packet also constructs the fractional-knapsack optimum and proves both the factor-two rounding inequality and the separate 1/(1-epsilon) small-item bound.",
   "assumptions": [
     "Finite product set and nested-logit utility v_ij(r_ij-u), with u>=0, zero within-nest no-purchase weight, positive preference and space weights, and each item individually fitting the capacity.",
     "The supplied continuous LP point is optimal with coordinates in[0,1] and total space at most capacity. Equation11 records its zero-or-one fractional coordinate by an Option index.",
-    "The refined guarantee assumes one fractional coordinate,0<=epsilon<1, and every item space<=epsilon*capacity. Complete target statements are linked and retained without weakened binders."
+    "The refined guarantee assumes one fractional coordinate,0<=epsilon<1, and every item space<=epsilon*capacity. Complete target statements are linked and retained without weakened binders.",
+    "The uniform family theorem uses all exact platform assumptions, including positive preference and space weights, each item individually fitting capacity, and zero within-nest no-purchase weight. Uniformity means the same family works for every u>=0."
   ],
   "supporting_scope": [
     "Selected coordinates have nonnegative utility, derived by a feasible improving-deletion argument.",
     "Exact objective splitting treats the integral and fractional cases separately.",
     "A feasible perturbation gives c*a_j<=w_j*OPT; this handles zero-utility fractional coordinates without assuming capacity exhaustion or dividing by the rounded objective.",
-    "The optimizer is constructed by finite highest-ratio recursion with feasibility, positive support, a nonnegative dual multiplier and complementary slackness. A separate coordinatewise dual-certificate argument proves global optimality, including ratio ties and nonpositive item utilities."
+    "The optimizer is constructed by finite highest-ratio recursion with feasibility, positive support, a nonnegative dual multiplier and complementary slackness. A separate coordinatewise dual-certificate argument proves global optimality, including ratio ties and nonpositive item utilities.",
+    "A finite weak/strict breakpoint code treats intervals, crossing points, ties, parallel lines and coincident lines. At most n(n+1)+1 representative parameters suffice for the n ratio lines plus the zero line.",
+    "A fresh dual threshold transports the actual primal LP optimum within each order cell. Rounded representatives plus n feasible singletons give the bound (n+1)^2. The empty set is already a rounded representative, so it needs no extra cardinality allowance."
   ],
   "formal_targets": [
     {
@@ -59,12 +62,23 @@
       "theorem_id": "2dbfdae9-f404-49d2-a12d-436df861fdd6",
       "theorem_name": "ConstrNestedLogit.Space.greedy_lp",
       "target_url": "https://prove2.me/theorems/2dbfdae9-f404-49d2-a12d-436df861fdd6",
-      "contribution_scope": "Complete actual fractional-knapsack optimizer existence, at most one fractional coordinate, strictly positive selected utilities and universal selected/not-full ratio ordering. Quadratic candidate-family construction remains unresolved.",
+      "contribution_scope": "Complete fractional-knapsack optimizer existence, at most one fractional coordinate, strictly positive selected utilities and universal selected/not-full ratio ordering. This target supplies the optimizer reused by Theorem6.",
       "primary_submission_id": "bed2909e-8261-4f2d-a5a6-1c08051dbd80",
       "verdict": "ACCEPTED",
       "accepted_at": "2026-10-20T19:48:35.364009+00:00",
       "status_checked_at": "2026-10-20T19:53:03.583747+00:00",
       "proof_sha256": "f819238874342a3239b8eb75455caf8450920612c1e751d6402ceffa8c353143"
+    },
+    {
+      "theorem_id": "a5503509-373f-43bb-9c05-fbdab12b0c58",
+      "theorem_name": "ConstrNestedLogit.Space.theorem_6",
+      "target_url": "https://prove2.me/theorems/a5503509-373f-43bb-9c05-fbdab12b0c58",
+      "contribution_scope": "Complete quadratic rounded-candidate family with card at most(n+1)^2 and uniform factor-two guarantee for every nonnegative parameter, including actual LP witnesses, feasible singletons/empty assortment and all affine-line ties/breakpoints.",
+      "primary_submission_id": "52fb456d-888b-4efc-81d9-1135082afd90",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T08:26:32.503992+00:00",
+      "status_checked_at": "2026-10-21T08:33:03.636278+00:00",
+      "proof_sha256": "a1cf39ba3a3fe7ea9edf3489b733b766091a500595379555a852428d0eea29a8"
     }
   ],
   "mathematical_source": {
@@ -76,11 +90,12 @@
     "target_citation_version": "September 11, 2013",
     "inspected_version": "September 18, 2013 author-hosted revision",
     "url": "https://www.columbia.edu/~gmg2/logit_const.pdf",
-    "pages": "19–22, especially equation(11) on printedp20",
+    "pages": "19–22, especially Section5.1 ratio-line construction, equation11 and Theorem6",
     "access": "Web PDF text inspected; direct PDF download403 and cited-version mirror502/timeout. No PDF hash claimed.",
     "equation_11_alignment": "Same LP relaxation / rounded support / optional fractional singleton inequality as platform; all target binders retained.",
     "redistributed": false,
-    "published_doi": "10.1287/mnsc.2014.1931"
+    "published_doi": "10.1287/mnsc.2014.1931",
+    "theorem_6_alignment": "Inspected September18 revision uses the same ratio-line/rounding construction and quadratic-order family theorem. This formalization proves the exact platform cardinality (n+1)^2, without claiming the two manuscript revisions are byte-identical."
   },
   "predecessor_credit": [
     {
@@ -88,7 +103,7 @@
         "Guillermo Gallego",
         "Huseyin Topaloglu"
       ],
-      "contribution": "Source fractional-knapsack construction, equation11 and section5.2 small-item approximation guarantee."
+      "contribution": "Source fractional-knapsack construction, equation11, Section5.1 uniform quadratic family (Theorem6), and Section5.2 small-item approximation guarantee."
     },
     {
       "names": [
@@ -101,7 +116,7 @@
     },
     {
       "username": "mikedeng1",
-      "contribution": "Finite knapsack/nested-logit interfaces, optional fractional coordinate and division-free refined statement."
+      "contribution": "Finite knapsack/nested-logit interfaces, optional fractional coordinate, division-free refined statement and explicit (n+1)^2 target with item-feasibility qualifications."
     },
     {
       "name": "Shuze Chen",
@@ -121,6 +136,12 @@
         "Jeremy Avigad"
       ],
       "contribution": "Finite maxima, cardinality and finite-set induction infrastructure used in the optimizer construction."
+    },
+    {
+      "names": [
+        "Alexander Richard Towell (queelius), with OpenAI Codex assistance"
+      ],
+      "contribution": "The new complete Theorem6 proof reuses the accepted greedy_lp and equation_11 proof bodies in explicit namespaces. Original accepted files remain unchanged and are counted once."
     }
   ],
   "human_role": "Alexander Richard Towell directed the research and verification standards.",
@@ -149,6 +170,15 @@
       "submission_id": "bed2909e-8261-4f2d-a5a6-1c08051dbd80",
       "accepted_at": "2026-10-20T19:48:35.364009+00:00",
       "download_checked_at": "2026-10-20T19:53:03.583747+00:00"
+    },
+    {
+      "kind": "public_platform_submission",
+      "timestamp": "2026-10-21T08:24:54.856664+00:00",
+      "timestamp_basis": "Platform submission created_at from accepted-submission refresh.",
+      "url": "https://prove2.me/theorems/a5503509-373f-43bb-9c05-fbdab12b0c58",
+      "submission_id": "52fb456d-888b-4efc-81d9-1135082afd90",
+      "accepted_at": "2026-10-21T08:26:32.503992+00:00",
+      "download_checked_at": "2026-10-21T08:33:03.636278+00:00"
     }
   ],
   "verification": {
@@ -175,29 +205,30 @@
     "staged_packet_reproduction": "PASS",
     "extracted_archive_reproduction": "PASS",
     "public_downloads_match": true,
-    "packet_file_count": 68
+    "packet_file_count": 90
   },
   "publication": {
     "state": "published",
-    "version": "1.1.0",
-    "version_doi": "10.5281/zenodo.23526994",
+    "version": "1.2.0",
     "concept_doi": "10.5281/zenodo.23526993",
     "archival_status": "published",
     "source_access": "Public platform target pages; proof API downloads require authentication. Owning development repository remains private.",
-    "readiness": "Published three-proof archival edition; all public files and the68-file internal manifest verified.",
+    "readiness": "Published four-proof successor, including complete uniform Theorem6. All three public files and all90 internal packet files verified.",
     "source_release_url": "https://github.com/queelius/research-records/tree/main/records/nested-logit-knapsack-rounding",
-    "record_id": 23526994,
-    "note": "The frozen packet records its reserved state at assembly; publication.json establishes public availability and exact downloaded bytes. Original disclosures retain their own timestamps.",
-    "url": "https://zenodo.org/records/23526994",
+    "note": "The frozen packet records its reserved state; publication.json establishes actual availability, final extracted reproduction and downloaded-byte checks. The prior exact version remains independently citable.",
+    "previous_version_doi": "10.5281/zenodo.23526994",
+    "version_doi": "10.5281/zenodo.23529835",
+    "record_id": 23529835,
+    "url": "https://zenodo.org/records/23529835",
     "publication_date": "2026-10-21",
-    "published_at": "2026-10-21T06:32:33.298029+00:00",
-    "published_at_basis": "Initial successful publish response modified timestamp; public metadata publication_date is recorded separately.",
-    "verified_at": "2026-10-21T06:34:55.363127+00:00",
+    "published_at": "2026-10-21T08:58:44.046977+00:00",
+    "published_at_basis": "Initial successful publication response modified timestamp; disclosure/acceptance timestamps recorded separately.",
+    "verified_at": "2026-10-21T09:00:47.570065+00:00",
     "receipt": "publication.json"
   },
   "limitations": [
     "No mathematical novelty or independent human proof review claimed.",
-    "The three targets do not establish the quadratic-size uniform candidate family or the complete assortment-revenue approximation algorithm.",
+    "The per-nest uniform factor-two family is complete. The full multi-nest assortment-revenue algorithm, a running-time bound, and the refined uniform small-item family remain separate claims.",
     "The cited September11 manuscript mirror was unavailable; the inspected September18 author-hosted revision contains the same inequalities. No original PDF hash is claimed.",
     "Pinned third-party compiled dependency caches remain trusted inputs; no bootstrap verification of Lean or Mathlib is claimed."
   ],
@@ -220,30 +251,38 @@
       "scope": "Adds complete fractional-knapsack optimizer construction and the first self-contained archival edition, with three fresh exact-type reproductions and three rejecting controls.",
       "publication_date": "2026-10-21",
       "version_doi": "10.5281/zenodo.23526994",
+      "publication_receipt": "versions/1.1.0/publication.json"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-21",
+      "scope": "Adds complete Theorem6: one feasible family of at most (n+1)^2 candidates with a uniform factor-two bound for every nonnegative parameter, including ratio ties and breakpoint points. Four exact accepted proofs; original bytes and earlier archive retained.",
+      "publication_date": "2026-10-21",
+      "version_doi": "10.5281/zenodo.23529835",
       "publication_receipt": "publication.json"
     }
   ],
   "artifacts": [
     {
-      "filename": "nested-logit-knapsack-rounding-v1.1.0.zip",
-      "bytes": 106172,
-      "sha256": "cc643a4340b7eb7a92f38d733fad7b8f9ffd04bbd52165bbc95e93a1714879c7",
-      "download_url": "https://zenodo.org/api/records/23526994/files/nested-logit-knapsack-rounding-v1.1.0.zip/content",
-      "repository_path": "artifacts/nested-logit-knapsack-rounding-v1.1.0.zip"
-    },
-    {
       "filename": "CITATION.cff",
-      "bytes": 1272,
-      "sha256": "2a0dd5b1478df36db7c2e90a141ba9edb7a30b61be567ac9383e2bd2b7331ef8",
-      "download_url": "https://zenodo.org/api/records/23526994/files/CITATION.cff/content",
+      "bytes": 1285,
+      "sha256": "43d59b446e575a70b86bd1f787a429df19e3c01dc7b25515b9efb2ce9f1d01b4",
+      "download_url": "https://zenodo.org/api/records/23529835/files/CITATION.cff/content",
       "repository_path": "records/nested-logit-knapsack-rounding/CITATION.cff"
     },
     {
       "filename": "NOTE.md",
-      "bytes": 4372,
-      "sha256": "842539a378b84a3ba23383d951b29c0b28bcc3daa7021d575cb507b11efcb695",
-      "download_url": "https://zenodo.org/api/records/23526994/files/NOTE.md/content",
+      "bytes": 6252,
+      "sha256": "b7e6bb2c4af29fdeed63dc6a0cf2a152f5a03550856ab8254da908d2cc79a5c3",
+      "download_url": "https://zenodo.org/api/records/23529835/files/NOTE.md/content",
       "repository_path": "records/nested-logit-knapsack-rounding/NOTE.md"
+    },
+    {
+      "filename": "nested-logit-knapsack-rounding-v1.2.0.zip",
+      "bytes": 175812,
+      "sha256": "7d86eb1bd9df5142cb327b1e06f8299ffe0e86c5db6508ce353f35b8e6021142",
+      "download_url": "https://zenodo.org/api/records/23529835/files/nested-logit-knapsack-rounding-v1.2.0.zip/content",
+      "repository_path": "artifacts/nested-logit-knapsack-rounding-v1.2.0.zip"
     }
   ]
 }

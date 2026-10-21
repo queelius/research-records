@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "id": "nested-logit-knapsack-rounding",
+  "title": "Verified fractional-knapsack construction and rounding bounds for nested-logit assortments",
+  "contribution_type": "complete formalization of optimizer construction and two established approximation inequalities",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "record_path": "contributions/queelius/publications/nested-logit-knapsack-rounding/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/nested-logit-knapsack-rounding",
+  "claim": "A continuous knapsack optimum exists with at most one fractional item, positive utility on every selected coordinate and universal selected/not-full ratio ordering. Its rounded support and optional fractional singleton give the exact factor-two utility bound; the rounded support gives the exact1/(1-epsilon) small-item bound under the stated one-fractional-item condition.",
+  "assumptions": [
+    "Finite product set and nested-logit utility v_ij(r_ij-u), with u>=0, zero within-nest no-purchase weight, positive preference and space weights, and each item individually fitting the capacity.",
+    "The supplied continuous LP point is optimal with coordinates in[0,1] and total space at most capacity. Equation11 records its zero-or-one fractional coordinate by an Option index.",
+    "The refined guarantee assumes one fractional coordinate,0<=epsilon<1, and every item space<=epsilon*capacity. Complete target statements are linked and retained without weakened binders."
+  ],
+  "supporting_scope": [
+    "Selected coordinates have nonnegative utility, derived by a feasible improving-deletion argument.",
+    "Exact objective splitting treats the integral and fractional cases separately.",
+    "A feasible perturbation gives c*a_j<=w_j*OPT; this handles zero-utility fractional coordinates without assuming capacity exhaustion or dividing by the rounded objective.",
+    "The optimizer is constructed by finite highest-ratio recursion with feasibility, positive support, a nonnegative dual multiplier and complementary slackness. A separate coordinatewise dual-certificate argument proves global optimality, including ratio ties and nonpositive item utilities."
+  ],
+  "formal_targets": [
+    {
+      "theorem_id": "83dde935-955c-4220-abaa-51ca371d5d95",
+      "theorem_name": "ConstrNestedLogit.Space.equation_11",
+      "target_url": "https://prove2.me/theorems/83dde935-955c-4220-abaa-51ca371d5d95",
+      "contribution_scope": "Complete two-approximation inequality for every optimal LP point with optional fractional coordinate, including integral and nonpositive-utility cases; no candidate-family cardinality claim.",
+      "primary_submission_id": "91b51112-1f28-4311-8957-8caf7f8bac37",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T18:43:07.679407+00:00",
+      "status_checked_at": "2026-10-20T18:43:39.394800+00:00",
+      "proof_sha256": "5d79e752bc469fc12e269566867ca3d2896315f4215395f9e22910c271f00832"
+    },
+    {
+      "theorem_id": "f8976841-ff66-410f-a59b-ade97fe1e82e",
+      "theorem_name": "ConstrNestedLogit.Space.refined_chain",
+      "target_url": "https://prove2.me/theorems/f8976841-ff66-410f-a59b-ade97fe1e82e",
+      "contribution_scope": "Complete small-item 1/(1-epsilon) rounding guarantee for any optimal LP point with one fractional coordinate, including zero utility; candidate-family construction remains separate.",
+      "primary_submission_id": "561aac4f-647d-49c3-ae50-48981df32c86",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T18:46:05.038799+00:00",
+      "status_checked_at": "2026-10-20T18:47:35.833897+00:00",
+      "proof_sha256": "e31387553c303b0d1b73479515572c463b26468e76be2930ba209ffc4d01af71"
+    },
+    {
+      "theorem_id": "2dbfdae9-f404-49d2-a12d-436df861fdd6",
+      "theorem_name": "ConstrNestedLogit.Space.greedy_lp",
+      "target_url": "https://prove2.me/theorems/2dbfdae9-f404-49d2-a12d-436df861fdd6",
+      "contribution_scope": "Complete actual fractional-knapsack optimizer existence, at most one fractional coordinate, strictly positive selected utilities and universal selected/not-full ratio ordering. Quadratic candidate-family construction remains unresolved.",
+      "primary_submission_id": "bed2909e-8261-4f2d-a5a6-1c08051dbd80",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-20T19:48:35.364009+00:00",
+      "status_checked_at": "2026-10-20T19:53:03.583747+00:00",
+      "proof_sha256": "f819238874342a3239b8eb75455caf8450920612c1e751d6402ceffa8c353143"
+    }
+  ],
+  "mathematical_source": {
+    "authors": [
+      "Guillermo Gallego",
+      "Huseyin Topaloglu"
+    ],
+    "title": "Constrained Assortment Optimization for the Nested Logit Model",
+    "target_citation_version": "September 11, 2013",
+    "inspected_version": "September 18, 2013 author-hosted revision",
+    "url": "https://www.columbia.edu/~gmg2/logit_const.pdf",
+    "pages": "19–22, especially equation(11) on printedp20",
+    "access": "Web PDF text inspected; direct PDF download403 and cited-version mirror502/timeout. No PDF hash claimed.",
+    "equation_11_alignment": "Same LP relaxation / rounded support / optional fractional singleton inequality as platform; all target binders retained.",
+    "redistributed": false,
+    "published_doi": "10.1287/mnsc.2014.1931"
+  },
+  "predecessor_credit": [
+    {
+      "names": [
+        "Guillermo Gallego",
+        "Huseyin Topaloglu"
+      ],
+      "contribution": "Source fractional-knapsack construction, equation11 and section5.2 small-item approximation guarantee."
+    },
+    {
+      "names": [
+        "James M. Davis",
+        "Guillermo Gallego",
+        "Huseyin Topaloglu"
+      ],
+      "contribution": "Source of the shared NestedLogitVariants_LP_Model instance interface; separate from the two constrained-knapsack inequalities.",
+      "source": "https://doi.org/10.1287/opre.2014.1256"
+    },
+    {
+      "username": "mikedeng1",
+      "contribution": "Finite knapsack/nested-logit interfaces, optional fractional coordinate and division-free refined statement."
+    },
+    {
+      "name": "Shuze Chen",
+      "contribution": "Platform statement review, not claimed to be review of these proofs."
+    },
+    {
+      "names": [
+        "Johannes Hölzl",
+        "Lean and Mathlib contributors"
+      ],
+      "contribution": "Finite-sum infrastructure, ordered fields and proof tactics."
+    },
+    {
+      "names": [
+        "Mario Carneiro",
+        "Leonardo de Moura",
+        "Jeremy Avigad"
+      ],
+      "contribution": "Finite maxima, cardinality and finite-set induction infrastructure used in the optimizer construction."
+    }
+  ],
+  "human_role": "Alexander Richard Towell directed the research and verification standards.",
+  "ai_assistance": "OpenAI Codex substantially developed, verified, submitted and documented the formalizations.",
+  "public_disclosures": [
+    {
+      "kind": "public_platform_submission",
+      "timestamp": "2026-10-20T18:41:46.341997+00:00",
+      "url": "https://prove2.me/theorems/83dde935-955c-4220-abaa-51ca371d5d95",
+      "submission_id": "91b51112-1f28-4311-8957-8caf7f8bac37",
+      "accepted_at": "2026-10-20T18:43:07.679407+00:00",
+      "download_checked_at": "2026-10-20T18:43:39.394800+00:00"
+    },
+    {
+      "kind": "public_platform_submission",
+      "timestamp": "2026-10-20T18:44:42.706317+00:00",
+      "url": "https://prove2.me/theorems/f8976841-ff66-410f-a59b-ade97fe1e82e",
+      "submission_id": "561aac4f-647d-49c3-ae50-48981df32c86",
+      "accepted_at": "2026-10-20T18:46:05.038799+00:00",
+      "download_checked_at": "2026-10-20T18:47:35.833897+00:00"
+    },
+    {
+      "kind": "public_platform_submission",
+      "timestamp": "2026-10-20T19:47:26.784533+00:00",
+      "url": "https://prove2.me/theorems/2dbfdae9-f404-49d2-a12d-436df861fdd6",
+      "submission_id": "bed2909e-8261-4f2d-a5a6-1c08051dbd80",
+      "accepted_at": "2026-10-20T19:48:35.364009+00:00",
+      "download_checked_at": "2026-10-20T19:53:03.583747+00:00"
+    }
+  ],
+  "verification": {
+    "receipt": "verification.json",
+    "pinned_lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "exact_type_audit": true,
+    "autoImplicit": false,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "accepted_downloads_match": true,
+    "fresh_reproduction": "PASS",
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false,
+    "staged_packet_receipt": "archival-verification.json",
+    "rejecting_controls": [
+      "ExtraAxiomControl",
+      "WeakenedTargetControl",
+      "proof-byte-mutation"
+    ],
+    "staged_packet_reproduction": "PASS",
+    "extracted_archive_reproduction": "PASS",
+    "public_downloads_match": true,
+    "packet_file_count": 68
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.1.0",
+    "version_doi": "10.5281/zenodo.23526994",
+    "concept_doi": "10.5281/zenodo.23526993",
+    "archival_status": "published",
+    "source_access": "Public platform target pages; proof API downloads require authentication. Owning development repository remains private.",
+    "readiness": "Published three-proof archival edition; all public files and the68-file internal manifest verified.",
+    "source_release_url": "https://github.com/queelius/research-records/tree/main/records/nested-logit-knapsack-rounding",
+    "record_id": 23526994,
+    "note": "The frozen packet records its reserved state at assembly; publication.json establishes public availability and exact downloaded bytes. Original disclosures retain their own timestamps.",
+    "url": "https://zenodo.org/records/23526994",
+    "publication_date": "2026-10-21",
+    "published_at": "2026-10-21T06:32:33.298029+00:00",
+    "published_at_basis": "Initial successful publish response modified timestamp; public metadata publication_date is recorded separately.",
+    "verified_at": "2026-10-21T06:34:55.363127+00:00",
+    "receipt": "publication.json"
+  },
+  "limitations": [
+    "No mathematical novelty or independent human proof review claimed.",
+    "The three targets do not establish the quadratic-size uniform candidate family or the complete assortment-revenue approximation algorithm.",
+    "The cited September11 manuscript mirror was unavailable; the inspected September18 author-hosted revision contains the same inequalities. No original PDF hash is claimed.",
+    "Pinned third-party compiled dependency caches remain trusted inputs; no bootstrap verification of Lean or Mathlib is claimed."
+  ],
+  "license": {
+    "original_metadata_and_note": "MIT",
+    "third_party_proof_code_redistributed": true,
+    "note": "Exact public platform proofs and definitions under Apache-2.0; original metadata retains its earlier MIT grant. Both license texts and specific notices are included.",
+    "archival_edition": "Apache-2.0"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-20",
+      "scope": "Two rounding bounds, metadata and original note only.",
+      "public_commit": "4850002bcc5ff66be4f237c72e6b68b03bbf5264"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-21",
+      "scope": "Adds complete fractional-knapsack optimizer construction and the first self-contained archival edition, with three fresh exact-type reproductions and three rejecting controls.",
+      "publication_date": "2026-10-21",
+      "version_doi": "10.5281/zenodo.23526994",
+      "publication_receipt": "publication.json"
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "nested-logit-knapsack-rounding-v1.1.0.zip",
+      "bytes": 106172,
+      "sha256": "cc643a4340b7eb7a92f38d733fad7b8f9ffd04bbd52165bbc95e93a1714879c7",
+      "download_url": "https://zenodo.org/api/records/23526994/files/nested-logit-knapsack-rounding-v1.1.0.zip/content"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1272,
+      "sha256": "2a0dd5b1478df36db7c2e90a141ba9edb7a30b61be567ac9383e2bd2b7331ef8",
+      "download_url": "https://zenodo.org/api/records/23526994/files/CITATION.cff/content"
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 4372,
+      "sha256": "842539a378b84a3ba23383d951b29c0b28bcc3daa7021d575cb507b11efcb695",
+      "download_url": "https://zenodo.org/api/records/23526994/files/NOTE.md/content"
+    }
+  ]
+}

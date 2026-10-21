@@ -24,7 +24,7 @@ proof-tactic infrastructure. Dependencies are fetched at immutable pins and
 retain their own licenses and notices.
 
 The three included public platform definition modules were created on
-October 5 and October 7, 2026; all three proofs were submitted on October 20.
+October 5 and October 7, 2026; the original three proofs were submitted on October 20 and the fourth on October 21.
 Their exact bytes were checked against the live platform on October 21.
 Prove2Me's public-contribution terms effective September 24, 2026 at 15:55 UTC
 apply Apache License 2.0 to these public contributions, as checked on

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "record_id": "nested-logit-knapsack-rounding",
+  "version": "1.1.0",
+  "version_doi": "10.5281/zenodo.23526994",
+  "central_repository": "https://github.com/queelius/research-records",
+  "central_commit": "f443652aa6d8bbd42d437c3f95516598ff1e8130",
+  "owner_source_commit": "ff00659397ec48dac510c335616c58caa6fa281d",
+  "owner_record_sha256": "242326b1208cf65df1f94a82a04f66513102ea579f0400a490c1bde7855415c5",
+  "verified_at": "2026-10-21T06:41:07.561905+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/README.md",
+      "bytes": 9644,
+      "sha256": "2ec0709fd5c74696dce96680981491e168f0688e2c2489780c76724857d86ed0",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "artifacts/nested-logit-knapsack-rounding-v1.1.0.zip",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/artifacts/nested-logit-knapsack-rounding-v1.1.0.zip",
+      "bytes": 106172,
+      "sha256": "cc643a4340b7eb7a92f38d733fad7b8f9ffd04bbd52165bbc95e93a1714879c7",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/CITATION.cff",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/CITATION.cff",
+      "bytes": 1272,
+      "sha256": "2a0dd5b1478df36db7c2e90a141ba9edb7a30b61be567ac9383e2bd2b7331ef8",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/LICENSE-APACHE-2.0",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/LICENSE-APACHE-2.0",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/NOTE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/NOTE.md",
+      "bytes": 4372,
+      "sha256": "842539a378b84a3ba23383d951b29c0b28bcc3daa7021d575cb507b11efcb695",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/NOTICE.md",
+      "bytes": 2197,
+      "sha256": "d449927fd9ec26d30316864271178ec67df3564e88ab68154f142e85c9225e1e",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/README.md",
+      "bytes": 1860,
+      "sha256": "fd410f9ff884f42b19896785a45dc838d600e1d477387a2ba7c0a2ad11ad1eaf",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/archival-verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/archival-verification.json",
+      "bytes": 2874,
+      "sha256": "05b2a51ef998b9175ea4a033fa5dd32e2d23bbeaf34df4f2fa7d6b5591f2918d",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/publication.json",
+      "bytes": 2483,
+      "sha256": "28de9c442c90777550154f1aa01c5514304fb32557da1619a1d43c67126083f8",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/record.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/record.json",
+      "bytes": 13232,
+      "sha256": "283a086740825b42c351f7e6ea19e469dec251fd602f94432d01eb5007f75046",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/verification.json",
+      "bytes": 2872,
+      "sha256": "0be4687da5137c9cf5970ea3b0dbbb6d921719bf7c1d60a11875b23768902a2d",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/nested-logit-knapsack-rounding/zenodo-metadata.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/f443652aa6d8bbd42d437c3f95516598ff1e8130/records/nested-logit-knapsack-rounding/zenodo-metadata.json",
+      "bytes": 4859,
+      "sha256": "f4c9ade97aba472a9fcf3761fb0828d1d609082964050086acf4324b1b84d78d",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "all_public_downloads_match": true,
+  "public_files_verified": 12,
+  "source_repository_visibility": "private",
+  "central_repository_visibility": "public"
+}

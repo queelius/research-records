@@ -1,13 +1,13 @@
-# Fractional-knapsack construction and rounding bounds
+# A uniform quadratic candidate family for nested-logit assortments
 
 Alexander Richard Towell (queelius), with substantial OpenAI Codex assistance.
-Archival edition 1.1.0, 21 October 2026.
-Exact-version DOI: [10.5281/zenodo.23526994](https://doi.org/10.5281/zenodo.23526994).
+Archival edition 1.2.0, 21 October 2026.
+Exact-version DOI: [10.5281/zenodo.23529835](https://doi.org/10.5281/zenodo.23529835).
 
 For item utilities `a_j = v_ij(r_ij-u)`, positive space weights `w_j`, and
 capacity `c`, the continuous knapsack maximizes `sum(a_j*x_j)` subject to
 `0 <= x_j <= 1` and `sum(w_j*x_j) <= c`. The exact nested-logit assumptions
-and all target binders are retained in the three formal statements.
+and all target binders are retained in the four formal statements.
 
 ## Constructing the optimum
 
@@ -43,6 +43,36 @@ Therefore `(1-epsilon)*OPT<=A`, yielding the refined reciprocal bound.
 Only `1-epsilon>0` is divided out. A zero-utility fractional item need
 not exhaust capacity.
 
+## One family for every nonnegative parameter
+
+The new complete Theorem 6 constructs a family `A` with at most `(n+1)^2`
+feasible assortments. For every `u≥0`, some member of this same family achieves
+at least half the utility of every feasible assortment. This is a uniform
+existence theorem, beyond choosing an LP optimum for one fixed parameter.
+
+Add the zero line to the `n` affine utility/space ratio lines. Every unordered
+pair has at most one crossing; parallel and coincident pairs add none. A code
+counts both strict and weak comparisons with the finite breakpoint set, so
+it distinguishes crossing points as well as the intervening intervals. If
+there are `m` distinct breakpoints, at most `2m+1≤n(n+1)+1` nonnegative
+representatives are needed. Within one code class, all utility signs and all
+weak/strict ratio orders agree, including ties.
+
+Choose a checked greedy LP point at each representative. To transport it to
+another parameter in the same cell, construct a new dual multiplier as the
+maximum of zero and the unfilled-item ratios. The preserved orders and
+complementary slackness certify that the same primal point remains optimal.
+No assumption that a sorting implementation behaves identically is needed.
+
+Round these representative points down and add all `n` singletons, each of
+which fits by hypothesis. The empty assortment is already a rounded point:
+at a sufficiently large parameter all utilities are nonpositive, so the
+strict-positive-support certificate forces the optimum to be zero. Hence
+there is no extra empty-set allowance, and the final bound is
+`n(n+1)+1+n=(n+1)^2`. Equation 11 supplies the uniform factor-two guarantee.
+The proof checks the identity between summed utility and `V(S)(R(S)-u)`,
+including the empty assortment.
+
 ## Scope and credit
 
 These are formalizations of established mathematics in Guillermo Gallego and
@@ -62,9 +92,11 @@ Alexander Richard Towell directed the work; OpenAI Codex substantially
 formalized, checked and documented it. There is no mathematical-novelty or
 independent human proof-review claim.
 
-The finite line-arrangement construction, the `(n+1)^2` uniform candidate-family
-bound and the complete assortment-revenue approximation theorem remain open.
-The checked optimizer and inequalities do not establish those broader claims.
+The uniform per-nest factor-two family is now complete. A running-time theorem,
+the global multi-nest assortment-revenue algorithm and a refined uniform
+small-item guarantee remain outside the completed claim. Earlier exact accepted
+proofs are preserved and reused in explicit namespaces; they are not counted
+again as new targets.
 
 ## Verification and reproduction
 
