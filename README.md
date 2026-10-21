@@ -50,6 +50,12 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   Prior small cases and upper constructions retain specific credit.
   [Exact v6 archive](https://doi.org/10.5281/zenodo.23527267).
 
+- [Two exact sandpile-group statistics at nine vertices](records/sandpile-nine-vertices/README.md).
+  A395521(9)=76953 group types and A401195(9)=177478 graphs with cyclic group.
+  All 261080 graph classes checked with two Smith algorithms and determinants;
+  [exact archived version](https://doi.org/10.5281/zenodo.23528939).
+  Earlier nine-vertex Jacobian censuses are credited. Human review is pending.
+
 - [Codec-controlled retrieval and fixed-build profile leakage](records/codec-controlled-retrieval/README.md).
   Conditional output laws and a reproducible implementation case study;
   submitted to PeerJ Computer Science on October 20, 2026 (151306).

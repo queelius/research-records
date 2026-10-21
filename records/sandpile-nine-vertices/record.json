@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "sandpile-nine-vertices",
+  "title": "Two exact statistics of graph sandpile groups at nine vertices",
+  "contribution_type": "Reproducible finite census and complete group-frequency data",
+  "authors": [{"name": "Alexander Richard Towell", "orcid": "0000-0001-6443-9897", "affiliation": "Southern Illinois University Edwardsville"}],
+  "claims": [
+    {"id": "distinct-group-types", "statement": "A395521(9)=76953 distinct abelian sandpile groups arising from connected simple graphs on nine vertices.", "status": "finite_computation"},
+    {"id": "graphs-with-cyclic-group", "statement": "A401195(9)=177478 connected unlabeled simple graphs with cyclic sandpile group, including the trivial group.", "status": "finite_computation"}
+  ],
+  "sources": {
+    "owning_project": "oeis",
+    "canonical_source_archive": "https://zenodo.org/api/records/23528939/files/sandpile-nine-vertices.tar.gz/content",
+    "archive_sha256": "acfbe15a53bf4143f79681de8b31d50465d1e7404a12acabd111cf93124d2671",
+    "archive_bytes": 263821,
+    "source_git_commit": null,
+    "historical_development_head": "fcab2cdba67481e8be68b8aecde27e4ece1c4581",
+    "source_identity_note": "Exact selected working-tree snapshot, including uncommitted files, pinned by the archive and embedded per-file MANIFEST.json. Historical development HEAD is not a commit containing the full packet.",
+    "payload_files": 12,
+    "public_overview": "https://zenodo.org/api/records/23528939/files/README.md/content",
+    "public_replay_receipt": "https://zenodo.org/api/records/23528939/files/replay.json/content",
+    "repository_access_required_for_reproduction": false
+  },
+  "verification": {
+    "graphs_checked": 261080,
+    "independent_snf_checks": 261080,
+    "determinant_checks": 261080,
+    "input_class_sets_equal": true,
+    "fresh_replay_seconds": 203.837,
+    "fresh_checkpoint": true,
+    "staged_scientific_tests_passed": 21,
+    "all_four_public_file_downloads_match_sha256": true,
+    "receipt": "publication.json",
+    "scope": "Newly built pinned nauty 2.9.3 geng and McKay inventory matched by canonical class sets. SymPy SNF at root 0, separate integer SNF at root 8, exact Bareiss determinant for every graph. Enumeration software is not formally verified."
+  },
+  "publication": {
+    "state": "published_archive_public_downloads_verified",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23528939",
+    "concept_doi": "10.5281/zenodo.23528938",
+    "publication_date": "2026-10-21",
+    "url": "https://zenodo.org/records/23528939",
+    "frozen_status_note": "Archived files retain their explicitly dated prepublication freeze labels. The standalone release overview, citation and publication receipt establish the subsequent release without silently replacing archived bytes."
+  },
+  "public_disclosures": [{"date": "2026-10-21", "observed_at": "2026-10-21T08:07:41.341449+00:00", "url": "https://zenodo.org/records/23528939", "scope": "First verified public release of this exact n9 packet through this record; not a first-ever priority claim."}],
+  "prior_public_context": [
+    {"date": "2026-04-27", "url": "https://oeis.org/history/view?seq=A395521&v=3", "scope": "Original sequence proposal through n=8, separate from the n=9 term."},
+    {"date": "2026-10-17", "url": "https://oeis.org/history/view?seq=A401195&v=3", "scope": "Original sequence proposal through n=8, separate from the n=9 term."}
+  ],
+  "review": {"human_mathematical_review": "pending", "formal_verification": false, "novelty": "unestablished", "author_publication_approval_date": "2026-10-21", "oeis_new_terms": "Not submitted at archival publication; the owning OEIS project tracks subsequent editorial events."},
+  "predecessor_credit": ["Clancy, Leake and Payne: earlier exhaustive graph-Jacobian computations through nine vertices, arXiv:1309.3340v2, Remark 3.7.", "McKay and Piperno: nauty and connected-graph inventories; pynauty, NetworkX and SymPy authors: software dependencies.", "Lorenzini, Biggs, Baker and Norine: foundational sandpile-group theory."],
+  "ai_assistance": "Substantial OpenAI Codex assistance in programming, mathematical analysis, automated review and preparation; automated review is distinct from independent human review.",
+  "licenses": {"original_code_note_and_derived_data": "MIT", "external_inputs_and_dependencies": "Obtained separately under their own terms; not redistributed in the archive."},
+  "keywords": ["sandpile group", "critical group", "graph Jacobian", "unlabeled graphs", "Smith normal form", "OEIS", "finite computation"],
+  "limitations": ["Completeness relies on documented graph-generation software and reference inventory, not a formally verified enumerator.", "No first-census, first-discovery, human peer-review or new-term OEIS acceptance claim.", "Pinned third-party downloads and Python dependencies are required for full reproduction."]
+}

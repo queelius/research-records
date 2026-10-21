@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this exact archived version when using its n=9 statistics or evidence."
+title: "Two exact statistics of graph sandpile groups at nine vertices"
+type: dataset
+version: 1.0.0
+doi: 10.5281/zenodo.23528939
+url: https://zenodo.org/records/23528939
+authors:
+  - given-names: Alexander Richard
+    family-names: Towell
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+    affiliation: Southern Illinois University Edwardsville
+license: MIT
+keywords: [sandpile groups, critical groups, graph enumeration, Smith normal form, OEIS]
