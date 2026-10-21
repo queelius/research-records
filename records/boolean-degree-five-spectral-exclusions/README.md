@@ -32,7 +32,7 @@ SHA-256. Concatenating the 40 archive parts reproduced the original
 the completed metadata, file, and archive checks. There is no journal or
 preprint-server submission for this contribution.
 
-This entry describes the frozen ten-case contribution. The owning project
+The archived version describes the frozen ten-case contribution. The owning project
 maintains ongoing research progress, including later results that are not
 part of this release. Its stable central ID is
 `boolean-degree-five-spectral-exclusions`.
@@ -52,3 +52,21 @@ review, external acceptance and novelty are not established.
 Original code is MIT licensed, original notes and data are CC BY 4.0,
 and third-party notices are retained. A DOI supplies a persistent citation;
 it does not establish correctness, novelty, peer review or legal priority.
+
+
+## Standalone singleton classification supplement
+
+A [self-contained written proof and exact catalog](https://github.com/queelius/boolean-degree-sensitivity/tree/b954f03228c9e5637b4d12b469376a418dabccb4/supplements/singleton-boundary-classification)
+classifies the specified ten-coordinate divisible singleton Fourier components.
+Every form is a five-cycle factorization; there are 30,240 labeled forms, and
+the second constant case is impossible. The written graph proof supplies
+completeness. Independent portable replay verifies all 30,965,760 cube values
+and Fourier coefficients, with 12 normal and 12 optimized controls.
+
+All 25 changed source files were publicly verified on **21 October 2026** at
+commit `b954f03228c9e5637b4d12b469376a418dabccb4`; [the receipt](SINGLETON-SOURCE.json) records their hashes.
+Cite that exact source commit for this supplement. **The v1.0.0 DOI above does
+not archive it.** A successor within the existing archive family is pending.
+The original fourteen-variable problem remains open. This is a component
+lemma with written proof, exact finite evidence and AI review; no formal
+verification, human peer review, external acceptance or novelty is claimed.

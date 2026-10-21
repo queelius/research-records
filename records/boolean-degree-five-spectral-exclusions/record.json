@@ -156,5 +156,60 @@
     "Conditional scope depends on the documented necessary-cover reductions.",
     "No proof-assistant formalization, human peer review or external acceptance is claimed.",
     "The bounded source review does not establish novelty."
+  ],
+  "public_supplements": [
+    {
+      "id": "singleton-boundary-classification",
+      "title": "A divisible singleton Fourier component on ten coordinates",
+      "claim": "For the exact ten-coordinate component hypotheses in THEOREM.md, the constant is one and every component factors as (1-chi_uv)(1-sum of C5 edge characters). Exactly30240 labeled forms; the second constant case is impossible.",
+      "scope": {
+        "component_variables": 10,
+        "exceptional_singleton_inputs": 2,
+        "actual_fourteen_variable_boolean_function": false,
+        "global_existence_question_solved": false,
+        "written_completeness_proof": true,
+        "finite_catalog_check_alone_proves_completeness": false
+      },
+      "source": {
+        "repository": "https://github.com/queelius/boolean-degree-sensitivity",
+        "commit": "b954f03228c9e5637b4d12b469376a418dabccb4",
+        "packet": "https://github.com/queelius/boolean-degree-sensitivity/tree/b954f03228c9e5637b4d12b469376a418dabccb4/supplements/singleton-boundary-classification",
+        "theorem": "https://github.com/queelius/boolean-degree-sensitivity/blob/b954f03228c9e5637b4d12b469376a418dabccb4/supplements/singleton-boundary-classification/THEOREM.md",
+        "manifest": "https://github.com/queelius/boolean-degree-sensitivity/blob/b954f03228c9e5637b4d12b469376a418dabccb4/supplements/singleton-boundary-classification/MANIFEST.json"
+      },
+      "public_disclosure": {
+        "date": "2026-10-21",
+        "observed_at": "2026-10-21T11:36:38.114778+00:00",
+        "url": "https://github.com/queelius/boolean-degree-sensitivity/tree/b954f03228c9e5637b4d12b469376a418dabccb4/supplements/singleton-boundary-classification",
+        "meaning": "All25 changed source files verified without authentication; no claim of an earlier public disclosure."
+      },
+      "verification": {
+        "forms": 30240,
+        "cube_values": 30965760,
+        "walsh_coefficients": 30965760,
+        "portable_controls_normal": 12,
+        "portable_controls_optimized": 12,
+        "prior_source_controls": 138,
+        "independent_portable_copy_replay": true,
+        "network_isolation_enforced": false,
+        "written_graph_case_split_ai_reviewed": true,
+        "human_peer_review": false,
+        "formal_verification": false,
+        "public_download_receipt": "SINGLETON-SOURCE.json"
+      },
+      "publication": {
+        "state": "public_source_exact_commit_citable_archive_pending",
+        "version_doi": null,
+        "existing_doi_does_not_archive_this_supplement": true,
+        "candidate_existing_concept_doi": "10.5281/zenodo.23496541",
+        "journal_submission": null,
+        "preprint_server_submission": null
+      },
+      "license": {
+        "code": "MIT",
+        "proof_notes_data": "CC-BY-4.0"
+      },
+      "attribution": "Alexander Richard Towell, with substantial OpenAI Codex assistance; Fourier/Mobius and graph-parity techniques and earlier project work retain credit. No novelty or human review established."
+    }
   ]
 }

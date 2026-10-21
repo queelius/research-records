@@ -147,6 +147,8 @@ publication metadata or handoff.
   complete versioned evidence packet are public.
   [Archived version](https://doi.org/10.5281/zenodo.23496542);
   all 48 Zenodo files and the reconstructed archive are verified.
+  A separately scoped singleton component classification and portable catalog
+  are now public at an exact source commit; that supplement is not in the DOI.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).
