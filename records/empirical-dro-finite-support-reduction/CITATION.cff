@@ -1,13 +1,25 @@
 cff-version: 1.2.0
-message: "Cite this record at an exact Git commit and the linked accepted platform targets; no DOI is assigned."
-title: "A Lean formalization of the finite-support empirical DRO reduction"
+message: Cite this exact archived version for the formalization and Henry Lam for
+  the underlying mathematics.
+title: A Lean formalization of the finite-support empirical DRO reduction
 type: dataset
 authors:
-  - family-names: Towell
-    given-names: Alexander Richard
-    orcid: "https://orcid.org/0000-0001-6443-9897"
-version: 1.0.0
-date-released: 2026-10-20
-url: "https://github.com/queelius/research-records/tree/main/records/empirical-dro-finite-support-reduction"
+- family-names: Towell
+  given-names: Alexander Richard
+  orcid: https://orcid.org/0000-0001-6443-9897
+version: 1.1.0
+date-released: 2026-10-21
+url: https://github.com/queelius/research-records/tree/main/records/empirical-dro-finite-support-reduction
 license: Apache-2.0
-abstract: "Curated metadata and verification summary for three accepted Lean proofs of Henry Lam's finite-support empirical DRO reduction. No third-party proof code is redistributed. Substantial OpenAI Codex assistance is disclosed."
+abstract: Three accepted Lean proofs of Henry Lam's finite-support empirical DRO reduction,
+  with exact sources, pinned reproduction and rejected controls. Source and platform
+  contributors are credited; substantial OpenAI Codex assistance is disclosed.
+references:
+- type: report
+  title: Recovering Best Statistical Guarantees via the Empirical Divergence-based
+    Distributionally Robust Optimization
+  authors:
+  - family-names: Lam
+    given-names: Henry
+  url: https://arxiv.org/abs/1605.09349v1
+doi: 10.5281/zenodo.23527418

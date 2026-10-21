@@ -44,7 +44,7 @@
   "all_accepted_downloads_match": true,
   "fresh_reproduction": "PASS",
   "reproduction_report": "contributions/queelius/evidence/reproduction-round15-2026-10-20.json",
-  "public_packet_reproduction": null,
+  "public_packet_reproduction": "PASS",
   "mission": {
     "checked_at": "2026-10-20T17:55:37.787849+00:00",
     "mission_id": "565e614b-5260-4819-89a0-b95244c2402d",
@@ -82,5 +82,19 @@
     }
   },
   "human_peer_review": false,
-  "note": "This central record reports owner-side verification and links exact public targets. It does not distribute a self-contained source packet."
+  "note": "Historical verification timestamps retain their original meaning; new staged, extracted and public-download checks are separately recorded.",
+  "public_packet_checked_at": "2026-10-21T07:04:24.764804+00:00",
+  "public_archive_url": "https://zenodo.org/records/23527418",
+  "archival_receipt": "archival-verification.json",
+  "publication_receipt": "publication.json",
+  "all_public_downloads_match": true,
+  "reproduction_scope": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 3,
+    "definitions": 5,
+    "exact_target_audits": true,
+    "rejection_controls": 3
+  },
+  "packet_file_count": 70
 }

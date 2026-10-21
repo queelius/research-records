@@ -1,25 +1,34 @@
-# Finite-support empirical DRO reduction
+# A Lean formalization of the finite-support empirical DRO reduction
 
-A complete Lean formalization of Henry Lam's finite-support reduction: grouping
-sample weights and splitting support weights preserve the attainable objective
-values, so both robust endpoints agree. Empty and observed classes are handled
-with the model's explicit support and positivity conditions.
+For a sample of positive finite size classified among finitely many support points, the sample-weight Burg uncertainty set and the support-weight Burg ball attain exactly the same objective values. Therefore their lower and upper robust values agree at the exact stated radius scaling.
 
-Alexander Richard Towell (queelius) directed this contribution; OpenAI Codex
-substantially developed and checked the formalization. The mathematical result
-is Lam's Proposition 1, not a new theorem claimed by this contribution.
+**Archived version 1.1.0: [10.5281/zenodo.23527418](https://doi.org/10.5281/zenodo.23527418).**
+Read the [technical note](NOTE.md), [exact scope and credit](record.json),
+[citation](CITATION.cff) and [public-download receipt](publication.json).
 
-The [structured record](record.json) identifies all three accepted targets,
-exact proof hashes, source version, prior credit and dated observations.
-[Verification evidence](verification.json) describes the checks. The owning
-Prove2Me checkout retains proofs, attempts, failures and the detailed lifecycle.
-The [technical note](NOTE.md) explains the argument and its scope.
+The self-contained ZIP contains three exact accepted proofs, all 5 required
+platform definitions, immutable Lean 4.33.1 and Mathlib pins, the established
+archive verifier, complete target/axiom audits and verification logs. The staged
+and extracted proofs pass; all three invalid controls are rejected. All three
+public downloads and all 70 internal files have verified hashes.
+No Prove2Me account is required to reproduce the archived sources.
 
-This curated entry has **no DOI** and does not distribute a self-contained proof
-archive. Its exact public record version and linked platform targets may be
-cited; archival packet preparation is a separate next step. The source repository
-remains private. No mathematical novelty or independent human review is claimed.
+Source mathematics, platform formulations and Lean/Mathlib infrastructure retain
+specific credit in [NOTICE.md](NOTICE.md). Alexander Richard Towell directed;
+OpenAI Codex substantially formalized, verified, submitted and documented.
+Formalization, platform acceptance and archival publication are distinct from
+mathematical novelty and independent human review; neither is claimed here.
 
-Copyright 2026 Alexander Richard Towell. The original note and curated metadata
-are licensed under [Apache-2.0](LICENSE); linked third-party material retains
-its own terms.
+Version 1.0 was a metadata and explanatory-note disclosure; the first standalone archive is version 1.1.0.
+This archive creates no new accepted target. Original public disclosures and
+archival publication retain separate dates. The owning research project remains
+private; research-records supplies the public curated index. Cite the exact
+version DOI and the original mathematical sources. Apache License 2.0 applies
+to this archival edition; source papers are not redistributed.
+
+## Limits
+
+- Formalizes established mathematics; no mathematical novelty, independent human proof review or source-author endorsement is claimed.
+- This is the finite-support reduction only, not asymptotic statistical coverage or the source paper in full.
+- The arbitrary finite-support ball uses the formal model's explicit zero-mass and positivity conditions.
+- Pinned compiled third-party caches are trusted inputs; no bootstrap verification of Lean or Mathlib.

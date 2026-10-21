@@ -1,49 +1,35 @@
-# Pure information-sharing equilibria in competing supply chains
+# A Lean formalization of pure information-sharing equilibria in competing supply chains
 
-**Complete Lean formalization; platform ACCEPTED.** The mathematical theorem is
-by Albert Y. Ha, Quan Tian and Shilu Tong. Alexander Richard Towell (queelius)
-directed the work; OpenAI Codex constructed and checked the formalization.
+Under the exact platform Standing assumptions, ordered thresholds 1/2 < kN < kS < (3+sqrt(5))/4 classify all pure information-sharing equilibria in the three open regimes, with strict payoff dominance of full sharing in the middle.
 
-There are thresholds `1/2 < kN < kS < (3+sqrt(5))/4`. Under the exact model
-assumptions, only `(S,S)` is a pure equilibrium below `kN`; both `(S,S)` and
-`(N,N)` are equilibria strictly between the thresholds, with strictly greater
-manufacturer payoffs at `(S,S)`; only `(N,N)` is an equilibrium above `kS`.
-The threshold boundaries are excluded. Every unilateral deviation is checked.
+**Archived version 1.1.0: [10.5281/zenodo.23527408](https://doi.org/10.5281/zenodo.23527408).**
+Read the [technical note](NOTE.md), [exact scope and credit](record.json),
+[citation](CITATION.cff) and [public-download receipt](publication.json).
 
-The proof constructs the actual polynomial roots, proves their order and sign
-regions, transfers those signs through the exact rational profit identities,
-and checks the four sharing profiles. It supplies every supporting proof.
-The separate threshold comparative-statics proposition remains open.
+The self-contained ZIP contains one exact accepted proof, all 2 required
+platform definitions, immutable Lean 4.33.1 and Mathlib pins, the established
+archive verifier, complete target/axiom audits and verification logs. The staged
+and extracted proofs pass; all three invalid controls are rejected. All three
+public downloads and all 51 internal files have verified hashes.
+No Prove2Me account is required to reproduce the archived sources.
 
-[Structured record](record.json) · [Exact target](target.json) ·
-[Accepted platform target](https://prove2.me/theorems/871c2d55-e982-4841-9c7f-50b87c76515b)
+Source mathematics, platform formulations and Lean/Mathlib infrastructure retain
+specific credit in [NOTICE.md](NOTICE.md). Alexander Richard Towell directed;
+OpenAI Codex substantially formalized, verified, submitted and documented.
+Formalization, platform acceptance and archival publication are distinct from
+mathematical novelty and independent human review; neither is claimed here.
 
-## Reproduce
+The earlier public source release remains available in the repository history and source/ directory.
+This archive creates no new accepted target. Original public disclosures and
+archival publication retain separate dates. The owning research project remains
+private; research-records supplies the public curated index. Cite the exact
+version DOI and the original mathematical sources. Apache License 2.0 applies
+to this archival edition; source papers are not redistributed.
 
-The `source/` directory includes the exact accepted source, independent
-complete-type audit, both definition modules, and pinned Lean/Lake inputs.
-With Lean's `elan` installer and Git available:
+## Limits
 
-```sh
-cd source
-lake exe cache get
-lake build Definitions
-lake env lean -DautoImplicit=false Audit.lean
-```
-
-The audit must succeed and report only `propext`, `Classical.choice` and
-`Quot.sound`. Lean is pinned to 4.33.1; Mathlib is pinned to
-`0df444a360eaa60ab8c11dca51a86af692955474`. The source and audit preserve the
-accepted proof bytes. This does not claim a bootstrap verification of Lean or
-its third-party libraries.
-
-## Scope, credit and publication
-
-Read [NOTICE.md](NOTICE.md) for predecessor, platform and AI attribution.
-Full source-paper access was blocked; the explicit platform statement was
-independently verified. Formalization of established mathematics is the
-contribution; mathematical novelty and independent human review are not claimed.
-
-The owning Prove2Me project maintains research history and detailed receipts.
-The central research-records catalog presents this selected result. This record
-has no archival DOI yet and is not covered by the interpolation DOI.
+- Exact threshold boundaries are intentionally excluded by the platform statement.
+- Pure equilibria only; no mixed-equilibrium classification.
+- Separate Proposition6(a) comparative statics and two coefficient milestones remain open.
+- Established mathematics; no independent human review, exhaustive novelty assessment or source-author endorsement.
+- The full source paper was inaccessible; the checked statement is the explicitly documented platform formulation.

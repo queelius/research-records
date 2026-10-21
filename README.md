@@ -62,8 +62,9 @@ publication metadata or handoff.
   Three accepted Lean proofs identify the attainable sample-weight and
   support-weight objective sets, completing the finite-support reduction.
   Established Henry Lam mathematics; platform authors and support qualifications
-  retain specific credit. The curated note, hashes and verification summary are
-  public. No DOI or self-contained public proof packet yet.
+  retain specific credit. The standalone [version 1.1.0 archive](https://doi.org/10.5281/zenodo.23527418)
+  reproduces all three targets and includes five required platform definitions,
+  rejected controls and verified public downloads. No asymptotic coverage claim.
 
 - [Polynomial-latency selfish routing](records/selfish-routing-polynomial-latency/README.md).
   Six accepted Lean proofs complete the potential-characterization and polynomial
@@ -93,7 +94,9 @@ publication metadata or handoff.
   Complete accepted Lean formalization of the three open pure-equilibrium regimes,
   ordered thresholds and strict middle-regime payoff comparison. Exact source and
   pinned reproduction evidence are public. Established Ha–Tian–Tong mathematics;
-  threshold comparative statics remain open. No archival DOI yet.
+  the standalone [version 1.1.0 archive](https://doi.org/10.5281/zenodo.23527408)
+  includes both platform definitions and rejected controls. Boundary cases and
+  mixed equilibria are excluded; full source-paper access remains unavailable.
 
 - [Sharp integer full-slack inequality and conditional coordinate bound](records/sidorenko-integer-full-slack/README.md).
   Written proof of the sharp integer constant 1, exact checks, and a conditional

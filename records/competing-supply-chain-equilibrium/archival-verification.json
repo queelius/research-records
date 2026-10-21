@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-21T06:57:26.577899+00:00",
+  "status": "passed",
+  "accepted_targets_recompiled": 1,
+  "definition_modules_rebuilt": [
+    "Definitions.Def_CompetingChains_Cournot_TwoPlayerGame",
+    "Definitions.Def_CompetingChains_Cournot_Setting"
+  ],
+  "exact_type_audits": true,
+  "autoImplicit": false,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "fresh_report": "verification/reproduction.json",
+  "fresh_report_sha256": "b154cad7cd46fee1d3d1811cbd0c555934c6a580f4bcf34797b8eb9df69c5725",
+  "controls": [
+    {
+      "name": "ExtraAxiomControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Local axiom is forbidden",
+      "source_file": "verification/controls/ExtraAxiomControl.lean",
+      "source_sha256": "7e6d3aa12405efea99541eb91eb17926c193ca17468ad5017b7b371b928d3c2d",
+      "log_file": "verification/controls/ExtraAxiomControl.log",
+      "log_sha256": "0f79e2c1cf250c006d25c95f03fac4ecc6a205ca2a02eea76d122399ca9c1171",
+      "original_log_sha256": "fb464f3796030ebf18e2bf0a4aabb31e34e2064c5e9113477f0326cf05d6126d"
+    },
+    {
+      "name": "WeakenedTargetControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Function expected",
+      "source_file": "verification/controls/WeakenedTargetControl.lean",
+      "source_sha256": "a743ba29115aca0507eebab7f14b7876efad7c0321b8825ce535b4652d9a3ff3",
+      "log_file": "verification/controls/WeakenedTargetControl.log",
+      "log_sha256": "e5247f692346dd18c6bfa482235b8afd323f67e4e369c70fed8390d3a5f09b05",
+      "original_log_sha256": "46fa3398e106e5fe2f0b170375fa89a40ca07b6eefc0ff7e212eb3bc804b8378"
+    },
+    {
+      "name": "proof-byte-mutation",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "scope": "Append one newline to an accepted proof in an isolated packet copy; unchanged integrity verifier must reject its hash.",
+      "log_file": "verification/controls/proof-byte-mutation.log",
+      "log_sha256": "7409f349be3bb899e12ae1773979083a456159483425fcc35945155c622941e9",
+      "original_log_sha256": "0e18f44dffb34f7dcde50ed22a7e1892a2de1165c32bd1115c21fae3d3ca66a4"
+    }
+  ],
+  "tooling_regression": {
+    "tests_passed": 128,
+    "combined_coverage_percent": 92.27129337539432,
+    "scope": "Unchanged established archive verifier; owning-project unit/integration suite passed on2026-10-21 before packet preparation. Defensive setup/cleanup branches remain uncovered."
+  },
+  "cache_policy": "Verified pinned third-party compiled caches reused; both platform definitions compiled freshly. No Lean/Mathlib bootstrap verification.",
+  "human_peer_review": false,
+  "paths_relative_to": "archival packet root"
+}

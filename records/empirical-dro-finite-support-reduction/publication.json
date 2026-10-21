@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "record_id": 23527418,
+  "version": "1.1.0",
+  "version_doi": "10.5281/zenodo.23527418",
+  "concept_doi": "10.5281/zenodo.23527417",
+  "url": "https://zenodo.org/records/23527418",
+  "state": "published",
+  "published_at": "2026-10-21T07:03:24.483718+00:00",
+  "verified_at": "2026-10-21T07:04:24.764804+00:00",
+  "public_metadata_http_status": 200,
+  "public_metadata_authenticated": false,
+  "all_public_downloads_match": true,
+  "files": [
+    {
+      "filename": "empirical-dro-finite-support-reduction-v1.1.0.zip",
+      "bytes": 109493,
+      "sha256": "c1dd3920e3dfad49e9653373c6f51fd4a71f2be5ff12803fe83eeeedba883ec8",
+      "download_url": "https://zenodo.org/api/records/23527418/files/empirical-dro-finite-support-reduction-v1.1.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 5487,
+      "sha256": "fbfdcb23ed8e83ee92d7f0142b5cbf0855e3aa481a4a8aeb899d24239f46f707",
+      "download_url": "https://zenodo.org/api/records/23527418/files/NOTE.md/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1033,
+      "sha256": "a5bb7e4cfa89fa2e7c1aba9c63d8c8c3cc9ac8aa70f99cdfd5f6bb04846c92dc",
+      "download_url": "https://zenodo.org/api/records/23527418/files/CITATION.cff/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "packet_manifest_sha256": "d520a75f7c15dbe90d553593a77376e7bb9c0c2268b907fff602a5439d864158",
+  "packet_file_count": 70,
+  "all_packet_files_verified": true,
+  "archive_rebuild_byte_identical": true,
+  "reproduction": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 3,
+    "definitions": 5,
+    "exact_target_audits": true,
+    "rejection_controls": 3
+  },
+  "note": "Publication date is distinct from original October20 public proof submissions and v1.0 metadata disclosure. The frozen packet records its reserved state at assembly; this receipt establishes publication.",
+  "publication_date": "2026-10-21",
+  "published_at_basis": "Initial successful publish response modified timestamp; public metadata publication_date recorded separately.",
+  "prepublication_metadata_qa": {
+    "checked_at": "2026-10-21T07:02:21.336670+00:00",
+    "changes_after_extracted_reproduction_started": [
+      "CITATION.cff",
+      "MANIFEST.json"
+    ],
+    "reason": "Correct CFF reference type to the valid report enum before publication; source version unchanged.",
+    "all_proof_audit_definition_pin_verifier_and_control_bytes_unchanged": true,
+    "final_packet_integrity": "passed",
+    "manifest_sha256": "d520a75f7c15dbe90d553593a77376e7bb9c0c2268b907fff602a5439d864158"
+  }
+}

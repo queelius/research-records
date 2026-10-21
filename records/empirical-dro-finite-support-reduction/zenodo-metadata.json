@@ -1,0 +1,58 @@
+{
+  "title": "A Lean formalization of the finite-support empirical DRO reduction",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>This technical note and standalone Lean packet formalize the finite-support empirical distributionally robust optimization reduction in Henry Lam's Recovering Best Statistical Guarantees via the Empirical Divergence-based Distributionally Robust Optimization, arXiv:1605.09349v1 (2016), Proposition 1 and its proof. For a sample of positive finite size classified among finitely many support points, the observation-weight Burg uncertainty set and support-weight Burg ball attain exactly the same objective values. Their lower and upper robust values therefore agree at the stated radius scaling.</p><p>Aggregation preserves the objective and decreases Burg divergence by logarithm concavity within nonempty classes. Conversely, equal splitting of each support mass among its observations preserves both divergence and objective. The formal model explicitly imposes zero mass on unobserved classes and positive mass on observed classes; the extended-real generator excludes zero observation weights at finite radius. The feasibility directions work for arbitrary real radius. The final proposition has nonnegative kappa and radius kappa/(2n), arbitrary support and real-valued cost maps, and no additional attainment assumption. Statistical coverage and the rest of the source paper are outside scope.</p><p>Three exact accepted proofs, all five platform definition dependencies, complete independent target/axiom audits with autoImplicit=false, immutable Lean 4.33.1 and Mathlib pins, the established archive verifier and fresh reproduction evidence are included. Three invalid controls test rejection of changed proof bytes, a weaker statement and an extra local axiom. Only propext, Classical.choice and Quot.sound occur as proof axioms; compiled third-party caches remain trusted inputs.</p><p>Original mathematics is credited to Henry Lam. mikedeng1 supplied the formal interfaces and explicit support conditions; Shuze Chen reviewed statements. Shared divergence and robust-mean interfaces credit Ben-Tal, den Hertog, De Waegenaere, Melenberg and Rennen, and Duchi, Glynn and Namkoong. Relevant Lean/Mathlib authors retain specific credit. Alexander Richard Towell directed; substantial OpenAI Codex assistance in formalization, verification, submission and documentation is disclosed. No mathematical novelty, independent human review or source-author endorsement is claimed.</p><p>All three accepted proofs were publicly submitted on October 20, 2026. Their original disclosures and earlier central metadata record are separate from this first DOI archive, version 1.1.0. This is one coherent archival contribution and does not increase the count of accepted targets. The owning development repository remains private.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.1.0",
+  "language": "eng",
+  "keywords": [
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "distributionally robust optimization",
+    "empirical likelihood",
+    "Burg divergence",
+    "finite support",
+    "Jensen inequality",
+    "reproducible proof",
+    "AI-assisted formalization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://arxiv.org/abs/1605.09349v1",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/empirical-dro-finite-support-reduction",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/b35e0ac8-f577-4602-a52a-baf6274f1069",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/4614306a-ee57-41e1-9503-62fcf199ed63",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/5f19ba76-3786-4c89-8e35-f2b3fbd78b73",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "One coherent archive containing the two feasible-weight constructions and the full finite-support reduction. Predecessors are credited specifically, not represented as coauthors. Source papers are cited but not redistributed; public platform code and this archival edition are Apache-2.0."
+}

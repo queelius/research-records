@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "record_id": 23527408,
+  "version": "1.1.0",
+  "version_doi": "10.5281/zenodo.23527408",
+  "concept_doi": "10.5281/zenodo.23527407",
+  "url": "https://zenodo.org/records/23527408",
+  "state": "published",
+  "published_at": "2026-10-21T07:02:22.963556+00:00",
+  "verified_at": "2026-10-21T07:03:24.668294+00:00",
+  "public_metadata_http_status": 200,
+  "public_metadata_authenticated": false,
+  "all_public_downloads_match": true,
+  "files": [
+    {
+      "filename": "competing-supply-chain-equilibrium-v1.1.0.zip",
+      "bytes": 80760,
+      "sha256": "dbc2ff7af71fb4a234becfdd102b3cd20e551fea2da190027bf46642397e50ce",
+      "download_url": "https://zenodo.org/api/records/23527408/files/competing-supply-chain-equilibrium-v1.1.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 5703,
+      "sha256": "087ad9c3fb9a1a7441d24634df29c0b1c1bad76164f5c9491f946bbcf821e556",
+      "download_url": "https://zenodo.org/api/records/23527408/files/NOTE.md/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1229,
+      "sha256": "b84466d1498dd1bfe6561a4f5fc7744ff8f25a203a6fe8dfd1a9012ea870a30a",
+      "download_url": "https://zenodo.org/api/records/23527408/files/CITATION.cff/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "packet_manifest_sha256": "0c7d95d57d58b330c12ac26f0d3db201da784aacb922f9352273aa056382c7a8",
+  "packet_file_count": 51,
+  "all_packet_files_verified": true,
+  "archive_rebuild_byte_identical": true,
+  "reproduction": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 1,
+    "definitions": 2,
+    "exact_target_audits": true,
+    "rejection_controls": 3
+  },
+  "note": "Publication date is distinct from original October20 public proof submissions and v1.0 metadata disclosure. The frozen packet records its reserved state at assembly; this receipt establishes publication.",
+  "publication_date": "2026-10-21",
+  "published_at_basis": "Initial successful publish response modified timestamp; public metadata publication_date recorded separately.",
+  "prepublication_metadata_qa": {
+    "checked_at": "2026-10-21T06:59:42.416216+00:00",
+    "changes_after_extracted_reproduction_started": [
+      "MANIFEST.json",
+      "record.json"
+    ],
+    "reason": "Resolve packet metadata verification links within the packet before draft upload.",
+    "all_proof_audit_definition_pin_verifier_and_control_bytes_unchanged": true,
+    "final_packet_integrity": "passed",
+    "manifest_sha256": "0c7d95d57d58b330c12ac26f0d3db201da784aacb922f9352273aa056382c7a8"
+  }
+}

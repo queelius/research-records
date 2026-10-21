@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Cite this exact version for the formalization; cite Ha, Tian and Tong for the mathematics."
+title: "A Lean formalization of pure information-sharing equilibria in competing supply chains"
+type: dataset
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.1.0
+date-released: 2026-10-21
+url: "https://github.com/queelius/research-records/tree/main/records/competing-supply-chain-equilibrium"
+license: Apache-2.0
+abstract: "A complete accepted Lean proof of the exact platform pure-equilibrium classification, with constructed thresholds, full unilateral-deviation checks, strict middle-regime payoff dominance and pinned reproduction. Established mathematics is credited to Ha, Tian and Tong; platform contributors and substantial Codex assistance are disclosed."
+references:
+  - type: article
+    title: "Information Sharing in Competing Supply Chains with Production Cost Reduction"
+    authors:
+      - family-names: Ha
+        given-names: Albert Y.
+      - family-names: Tian
+        given-names: Quan
+      - family-names: Tong
+        given-names: Shilu
+    doi: 10.1287/msom.2016.0607
+doi: "10.5281/zenodo.23527408"

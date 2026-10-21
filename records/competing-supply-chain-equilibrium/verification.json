@@ -52,5 +52,21 @@
     "Solution.lean": "8050c25904970f012960b6e027bbbb2c84d55c36073590fb97268420adc37ffd",
     "Definitions/Def_CompetingChains_Cournot_TwoPlayerGame.lean": "ac5a4f191f6d9517315f0615e83ba1db94100a404070e087f5f28a9a911712a3",
     "Definitions/Def_CompetingChains_Cournot_Setting.lean": "cec7fe529cd606f23b48b744ee4942823c11e4ffff461ddc2e4382b8bfd9463e"
-  }
+  },
+  "public_packet_checked_at": "2026-10-21T07:03:24.668294+00:00",
+  "public_packet_reproduction": "PASS",
+  "public_archive_url": "https://zenodo.org/records/23527408",
+  "archival_receipt": "archival-verification.json",
+  "publication_receipt": "publication.json",
+  "all_public_downloads_match": true,
+  "reproduction_scope": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 1,
+    "definitions": 2,
+    "exact_target_audits": true,
+    "rejection_controls": 3
+  },
+  "packet_file_count": 51,
+  "note": "Historical verification timestamps retain their original meaning; new staged, extracted and public-download checks are separately recorded."
 }

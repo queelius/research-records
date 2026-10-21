@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-21T06:57:54.527001+00:00",
+  "status": "passed",
+  "accepted_targets_recompiled": 3,
+  "definition_modules_rebuilt": [
+    "Definitions.Def_PhiDivRobust_Counterpart_phiDiv",
+    "Definitions.Def_PhiDivRobust_Counterpart_uncertaintySet",
+    "Definitions.Def_GenEmpLik_Expansion_robustMean",
+    "Definitions.Def_EmpiricalDRO_Coverage_Setting",
+    "Definitions.Def_EmpiricalDRO_Discrete_Setting"
+  ],
+  "exact_type_audits": true,
+  "autoImplicit": false,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "fresh_report": "verification/reproduction.json",
+  "fresh_report_sha256": "e3882f06c2f0faecf5dc3a19d47778f3754deccb5752734bf9cadd2c0fab0c82",
+  "controls": [
+    {
+      "name": "ExtraAxiomControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Local axiom is forbidden",
+      "source_file": "verification/controls/ExtraAxiomControl.lean",
+      "source_sha256": "1e0625997c99c873241e86dc773edb163dcc3343966fa7fbcf5695c8f063e2da",
+      "log_file": "verification/controls/ExtraAxiomControl.log",
+      "log_sha256": "ac369ae7083a58eac06aaadb5108f6322aaf762194e309495bea9ae1a6b29157",
+      "original_log_sha256": "c5a34645d55fd52945959c6058e641805575e7d719c13989cec96bb79c81238e"
+    },
+    {
+      "name": "WeakenedTargetControl",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "expected_diagnostic": "Function expected",
+      "source_file": "verification/controls/WeakenedTargetControl.lean",
+      "source_sha256": "ea7bbabb324ec1c7299d47c40babcad0bea6ae8578218358b10072a5ae2a1c4a",
+      "log_file": "verification/controls/WeakenedTargetControl.log",
+      "log_sha256": "8594d7714510638b6aa449889c454f39f89146f6ff302aed7e6654ae08e1f630",
+      "original_log_sha256": "ccea471884a65900bd3175d174dc6ac6bec870d8b5d6d62f4cefa822ebe796e9"
+    },
+    {
+      "name": "proof-byte-mutation",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "scope": "Append one newline to an accepted proof in an isolated packet copy; unchanged integrity verifier must reject its hash.",
+      "log_file": "verification/controls/proof-byte-mutation.log",
+      "log_sha256": "2e23a6c5eafeb24b3e299e3ad80b85b00fe061cc3ff1ee5ff0bcb1534aa26b10",
+      "original_log_sha256": "56744e27eea137f22a55e5cbbf90473b5f67f668ccf6ef314262ea0aef9b1702"
+    }
+  ],
+  "tooling_regression": {
+    "tests_passed": 128,
+    "combined_coverage_percent": 92.27129337539432,
+    "scope": "Unchanged established archive verifier; owning-project unit/integration suite passed on2026-10-21 before packet preparation. Defensive setup/cleanup branches remain uncovered."
+  },
+  "cache_policy": "Verified pinned third-party compiled caches reused; all five platform definitions compiled freshly. No Lean/Mathlib bootstrap verification.",
+  "human_peer_review": false,
+  "paths_relative_to": "archival packet root"
+}

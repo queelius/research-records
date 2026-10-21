@@ -15,9 +15,9 @@
     "visibility": "private",
     "record_path": "contributions/queelius/publications/empirical-dro-finite-support-reduction/record.json",
     "lifecycle_ledger": "contributions/queelius/contributions.json",
-    "source_commit": "b3b8344ab229d7da5d99a81b7bff41aef9b421c1",
-    "record_sha256": "ec346fbda67e58418183cf1cdfd299fc5c41094bb80419c4a666cd4b685ca6dc",
-    "record_url": "https://github.com/queelius/prove2me-contributions/blob/b3b8344ab229d7da5d99a81b7bff41aef9b421c1/contributions/queelius/publications/empirical-dro-finite-support-reduction/record.json"
+    "source_commit": "ea64cb8dbca65b77ebde3f157739f867fb616808",
+    "record_sha256": "cba2cf5c2e4ec6e3eaa8e360dddc07b7be25ba8848e4647cc1f34d89775f95e1",
+    "record_url": "https://github.com/queelius/prove2me-contributions/blob/ea64cb8dbca65b77ebde3f157739f867fb616808/contributions/queelius/publications/empirical-dro-finite-support-reduction/record.json"
   },
   "central_record_url": "https://github.com/queelius/research-records/tree/main/records/empirical-dro-finite-support-reduction",
   "claim": "For a sample of positive finite size classified among finitely many support points, the sample-weight Burg uncertainty set and the support-weight Burg ball attain exactly the same objective values. Therefore their lower and upper robust values agree at the exact stated radius scaling.",
@@ -141,6 +141,13 @@
       "submission_id": "28498841-88d3-4588-8338-6c8af1fdca7b",
       "accepted_at": "2026-10-20T17:51:43.869028+00:00",
       "download_checked_at": "2026-10-20T17:54:01.896363+00:00"
+    },
+    {
+      "kind": "public_metadata_record",
+      "timestamp": "2026-10-20T18:12:31.435971+00:00",
+      "timestamp_basis": "Original public-download verification receipt.",
+      "url": "https://github.com/queelius/research-records/tree/83dfe39655f4f0f80146bcae9e8e8056a806a8e7/records/empirical-dro-finite-support-reduction",
+      "scope": "Earlier v1.0 metadata and explanatory note; no standalone archive at that date."
     }
   ],
   "verification": {
@@ -157,26 +164,48 @@
     "accepted_downloads_match": true,
     "fresh_reproduction": "PASS",
     "human_peer_review": false,
-    "mathematical_novelty_claimed": false
+    "mathematical_novelty_claimed": false,
+    "staged_packet_receipt": "archival-verification.json",
+    "rejecting_controls": [
+      "ExtraAxiomControl",
+      "WeakenedTargetControl",
+      "proof-byte-mutation"
+    ],
+    "staged_packet_verified_at": "2026-10-21T06:57:54.527001+00:00",
+    "staged_packet_reproduction": "PASS",
+    "extracted_archive_reproduction": "PASS",
+    "public_downloads_match": true,
+    "packet_file_count": 70,
+    "publication_receipt": "publication.json"
   },
   "publication": {
-    "state": "metadata_only",
-    "version": "1.0.0",
-    "version_doi": null,
-    "concept_doi": null,
-    "archival_status": "not_archived",
-    "source_access": "Public Prove2Me target links; proof API downloads require authentication. Detailed owning repository remains private.",
-    "readiness": "Curated metadata and original explanatory note verified for central publication. A self-contained archival packet and rejecting controls remain the next publication step; no DOI reserved or minted."
+    "state": "published",
+    "version": "1.1.0",
+    "version_doi": "10.5281/zenodo.23527418",
+    "concept_doi": "10.5281/zenodo.23527417",
+    "archival_status": "published",
+    "source_access": "Exact selected proofs, platform dependencies and evidence are publicly downloadable in the standalone archive; detailed owning repository remains private.",
+    "readiness": "Published archive; 3 public downloads and all 70 packet files verified.",
+    "record_id": 23527418,
+    "note": "Frozen packet records the reserved state at assembly; publication.json establishes actual public availability. Earlier disclosures retain their dates.",
+    "url": "https://zenodo.org/records/23527418",
+    "publication_date": "2026-10-21",
+    "published_at": "2026-10-21T07:03:24.483718+00:00",
+    "published_at_basis": "Initial successful publish response modified timestamp; public metadata publication_date recorded separately.",
+    "verified_at": "2026-10-21T07:04:24.764804+00:00",
+    "receipt": "publication.json"
   },
   "license": {
     "record_and_original_note": "Apache-2.0",
-    "third_party_code_redistributed": false
+    "third_party_code_redistributed": true,
+    "archival_edition": "Apache-2.0",
+    "scope": "Five exact public platform definitions under the post-September24 public-contribution terms; source papers are not redistributed. Dependencies fetched at immutable pins retain their own licenses."
   },
   "limitations": [
     "Formalizes established mathematics; no mathematical novelty, independent human proof review or source-author endorsement is claimed.",
     "This is the finite-support reduction only, not asymptotic statistical coverage or the source paper in full.",
     "The arbitrary finite-support ball uses the formal model's explicit zero-mass and positivity conditions.",
-    "This central entry is a curated record, not a self-contained proof distribution."
+    "Pinned compiled third-party caches are trusted inputs; no bootstrap verification of Lean or Mathlib."
   ],
   "mission_observation": {
     "checked_at": "2026-10-20T17:55:37.787849+00:00",
@@ -193,5 +222,75 @@
       }
     ],
     "scope": "Root and both milestones directly observed Proved; no inferred automatic cascade."
-  }
+  },
+  "source_definitions": [
+    {
+      "path": "Definitions/Def_EmpiricalDRO_Discrete_Setting.lean",
+      "sha256": "d43876921c1abfeaba12674a393d21c88040b8ef560e5995f1e38ec00329429c",
+      "platform_definition_id": "f27c4b09-06e3-47e6-8401-457db400283e",
+      "source": "Lam, Recovering Best Statistical Guarantees via the Empirical DRO, arXiv:1605.09349v1, p. 6, (13)–(15); p. 8, (19); p. 11, (26), (28)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474"
+    },
+    {
+      "path": "Definitions/Def_GenEmpLik_Expansion_robustMean.lean",
+      "sha256": "d8f20c58015c9eeef1064bd5cd33b496efc975683c34f060c3ae734d420c9c17",
+      "platform_definition_id": "6f2018f4-ceb3-4344-b2ba-f7dd0eda1bff",
+      "source": "Duchi, Glynn & Namkoong, Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach, arXiv:1610.03425v3, p. 7, Lemma 1, (8); p. 32, (32)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474"
+    },
+    {
+      "path": "Definitions/Def_EmpiricalDRO_Coverage_Setting.lean",
+      "sha256": "5a3cd66f5154d18fd01cc461af282ca41168a67b0e45f35d4bf9bed8a0925368",
+      "platform_definition_id": "a281dc3c-4983-4f40-a41a-531e070f5dda",
+      "source": "Lam, Recovering Best Statistical Guarantees via the Empirical DRO, arXiv:1605.09349v1, p. 6 (Burg generator φ(x) = −log x + x − 1), pp. 8–9 (19), p. 10 (22), p. 11 (24), (26)–(27)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474"
+    },
+    {
+      "path": "Definitions/Def_PhiDivRobust_Counterpart_uncertaintySet.lean",
+      "sha256": "35702b222e5e98cad4b7dbbc16ad9cdb4b4283e021694fdbcbd4563c82e429c9",
+      "platform_definition_id": "73dc740e-3dd6-47a5-a1f9-17a1645ed677",
+      "source": "Ben-Tal, den Hertog, De Waegenaere, Melenberg, Rennen, Robust Solutions of Optimization Problems Affected by Uncertain Probabilities, Management Sci. 59(2), 2013, p. 347, Eq. (12) and Corollary 1",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474"
+    },
+    {
+      "path": "Definitions/Def_PhiDivRobust_Counterpart_phiDiv.lean",
+      "sha256": "02ccf71501cbf285003be0af6c4ce461b819fdc35d68cdb4d2dda80c94a2ffde",
+      "platform_definition_id": "f9861ef2-a38d-47a4-b800-8c241fed9c14",
+      "source": "Ben-Tal, den Hertog, De Waegenaere, Melenberg, Rennen, Robust Solutions of Optimization Problems Affected by Uncertain Probabilities, Management Sci. 59(2), 2013, p. 343, Eq. (2)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474"
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-10-21T06:55:14.912855+00:00",
+      "version": "1.1.0",
+      "scope": "First self-contained archive of the same three accepted proofs, exact dependencies, fresh reproduction and rejected controls; no new accepted target.",
+      "publication_date": "2026-10-21",
+      "version_doi": "10.5281/zenodo.23527418",
+      "publication_receipt": "publication.json"
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "empirical-dro-finite-support-reduction-v1.1.0.zip",
+      "bytes": 109493,
+      "sha256": "c1dd3920e3dfad49e9653373c6f51fd4a71f2be5ff12803fe83eeeedba883ec8",
+      "download_url": "https://zenodo.org/api/records/23527418/files/empirical-dro-finite-support-reduction-v1.1.0.zip/content",
+      "repository_path": "artifacts/empirical-dro-finite-support-reduction-v1.1.0.zip"
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 5487,
+      "sha256": "fbfdcb23ed8e83ee92d7f0142b5cbf0855e3aa481a4a8aeb899d24239f46f707",
+      "download_url": "https://zenodo.org/api/records/23527418/files/NOTE.md/content",
+      "repository_path": "records/empirical-dro-finite-support-reduction/NOTE.md"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1033,
+      "sha256": "a5bb7e4cfa89fa2e7c1aba9c63d8c8c3cc9ac8aa70f99cdfd5f6bb04846c92dc",
+      "download_url": "https://zenodo.org/api/records/23527418/files/CITATION.cff/content",
+      "repository_path": "records/empirical-dro-finite-support-reduction/CITATION.cff"
+    }
+  ]
 }

@@ -1,0 +1,48 @@
+{
+  "title": "A Lean formalization of pure information-sharing equilibria in competing supply chains",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>This technical note and standalone Lean packet formalize the exact Prove2Me version of Proposition 7(a) from Albert Y. Ha, Quan Tian and Shilu Tong's Information Sharing in Competing Supply Chains with Production Cost Reduction (MSOM 2017, DOI 10.1287/msom.2016.0607). For positive competition intensity below one, positive signal accuracy and variance, the proof constructs ordered thresholds between 1/2 and (3+sqrt(5))/4. Under the stated standing assumptions it classifies every pure information-sharing equilibrium in three open parameter regimes and proves strict manufacturer payoff dominance of full sharing in the middle regime.</p><p>The proof includes denominator and response-coefficient bounds, exact rational gain identities, threshold construction and sign analysis, actual retailer side payments, and every unilateral deviation in the four-profile game. Boundary cases and mixed strategies are excluded. This is a complete proof of the explicit platform game; no full-paper source-fidelity or mathematical novelty claim is made. Publisher metadata and indexed excerpts were inspected, but the institutional manuscript remains inaccessible through a redirect loop.</p><p>The packet includes the exact accepted proof, its complete independent target and axiom audit with autoImplicit=false, both required platform definitions, immutable Lean 4.33.1 and Mathlib pins, the established archive verifier and fresh reproduction evidence. Three deliberately invalid controls must be rejected: a changed proof byte, weakened statement and added local axiom. Only propext, Classical.choice and Quot.sound occur as proof axioms. Verified compiled caches remain trusted inputs.</p><p>Original mathematics belongs to Ha, Tian and Tong. mikedeng1 supplied the formal model and existing scope qualifications; Shuze Chen reviewed the statements. Lean/Mathlib authors retain credit. Alexander Richard Towell directed the work; OpenAI Codex substantially formalized, verified, submitted and documented it. Independent human proof review and source-author endorsement are not claimed. The accepted proof and earlier public source mirror were disclosed on October 20, 2026; this first DOI archive, version 1.1.0, is a separate event and not a new theorem submission. The owning research repository remains private.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.1.0",
+  "language": "eng",
+  "keywords": [
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "Cournot competition",
+    "supply chains",
+    "information sharing",
+    "pure Nash equilibrium",
+    "thresholds",
+    "reproducible proof",
+    "AI-assisted formalization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1287/msom.2016.0607",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/competing-supply-chain-equilibrium",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/871c2d55-e982-4841-9c7f-50b87c76515b",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "One accepted target, with all supporting proofs included. Prior mathematical and platform contributors are credited as predecessors, not represented as coauthors of this note. Original public disclosure and archive dates are recorded separately."
+}
