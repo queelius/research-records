@@ -82,6 +82,11 @@
       "id": "nested-logit-knapsack-rounding",
       "metadata": "records/nested-logit-knapsack-rounding/record.json",
       "readme": "records/nested-logit-knapsack-rounding/README.md"
+    },
+    {
+      "id": "continuum-fisher-welfare-counterexample",
+      "metadata": "records/continuum-fisher-welfare-counterexample/record.json",
+      "readme": "records/continuum-fisher-welfare-counterexample/README.md"
     }
   ]
 }

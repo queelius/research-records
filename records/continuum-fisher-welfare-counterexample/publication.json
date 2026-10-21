@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "record_id": 23527887,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23527887",
+  "concept_doi": "10.5281/zenodo.23527886",
+  "url": "https://zenodo.org/records/23527887",
+  "state": "published",
+  "published_at": "2026-10-21T07:30:17.811952+00:00",
+  "verified_at": "2026-10-21T07:31:02.321876+00:00",
+  "public_metadata_http_status": 200,
+  "public_metadata_authenticated": false,
+  "all_public_downloads_match": true,
+  "files": [
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1308,
+      "sha256": "d4f9063a36b33c044a80a77b0dda4efe9c39055d5fad770b33353b0180cdc054",
+      "download_url": "https://zenodo.org/api/records/23527887/files/CITATION.cff/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 7652,
+      "sha256": "d4495d4e221f43e83ae189bb6acbd9bd8c408011f4f57b443f39e528ee448cfd",
+      "download_url": "https://zenodo.org/api/records/23527887/files/NOTE.md/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "continuum-fisher-welfare-counterexample-v1.0.0.zip",
+      "bytes": 85892,
+      "sha256": "5d7aa0aead74f0b2f9e3701ef98fb6cae3a3b40863ed788a0c43c66886b68f08",
+      "download_url": "https://zenodo.org/api/records/23527887/files/continuum-fisher-welfare-counterexample-v1.0.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "packet_manifest_sha256": "c6d62791dc0ac2e7e86b59d04280453198c1e617555f3927a2f11754d395147b",
+  "packet_file_count": 56,
+  "all_packet_files_verified": true,
+  "archive_rebuild_byte_identical": true,
+  "reproduction": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 1,
+    "definitions": 4,
+    "exact_target_audits": true,
+    "rejection_controls": 3
+  },
+  "note": "Publication date is distinct from original October18 public counterexample submission. The frozen packet records its reserved state at assembly; this receipt establishes publication.",
+  "publication_date": "2026-10-21",
+  "published_at_basis": "Initial successful publish response modified timestamp; public metadata publication_date recorded separately.",
+  "doi_resolution": {
+    "checked_at": "2026-10-21T07:31:30.856593+00:00",
+    "doi": "10.5281/zenodo.23527887",
+    "url": "https://doi.org/10.5281/zenodo.23527887",
+    "http_status": 200,
+    "resolved_url": "https://zenodo.org/records/23527887",
+    "authenticated": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-21T07:29:48.959264+00:00",
+  "schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+  "cff_sha256": "d4f9063a36b33c044a80a77b0dda4efe9c39055d5fad770b33353b0180cdc054",
+  "citation_schema": "CFF-1.2.0",
+  "metadata_title_version_doi_agree": true,
+  "packet_record_paths_exist": true,
+  "json_parse": "passed",
+  "status": "passed"
+}

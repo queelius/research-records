@@ -38,6 +38,14 @@ publication metadata or handoff.
 
 ## Records
 
+- [Continuum Fisher welfare counterexample](records/continuum-fisher-welfare-counterexample/README.md).
+  A two-buyer Pareto-optimal allocation with positive utilities has no supporting
+  integrable price. The full quantified Lean disproof, four platform definitions,
+  exact audits and rejecting controls are in the [version 1.0.0 archive](https://doi.org/10.5281/zenodo.23527887).
+  All 56 packet files and public downloads are verified. Gao–Kroer source and
+  platform/community contributions are credited; no general claim about other
+  paper results, mathematical novelty or independent human review is made.
+
 - [Distinct Rado numbers: partial results and reproducible certificates](records/rado-x2y-partial-proofs-and-certificates/README.md).
   Written partial proofs, scoped proof-route limitations, exact certificate
   checkers, and 236 passing focused tests. The uniform upper bound remains

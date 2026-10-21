@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-10-21T07:23:14.507683+00:00",
+  "api_contract": "0.13.1",
+  "targets": [
+    {
+      "theorem_id": "921c15e0-6f54-4518-b38b-97508be30fec",
+      "status": "Disproved",
+      "unchanged_full_statement": true,
+      "proof_sha256": "0f38adcda41dbe191559f78bddba6fa068b6e34624d98efcb59f9da209f356fb",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-16T08:05:46.350947+00:00",
+      "visibility": "public"
+    }
+  ],
+  "definitions": [
+    {
+      "path": "Definitions/Def_InfFisher_Linear_Market.lean",
+      "sha256": "acc3e44508e0c28bba5b75d93bb225e0d19c9a5050862b74a19e23d643d5f247",
+      "platform_definition_id": "0ca4e077-cd12-42b9-af22-b0722f4eca79",
+      "source": "Gao & Kroer, Infinite-Dimensional Fisher Markets and Tractable Fair Division, arXiv:2010.03025v5, §2, pp. 5–7; (PEG), p. 7; (DEG) and (1), p. 8",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "InfFisher_Linear_Market",
+      "created_at": "2026-10-16T08:04:11.673827+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_InfFisher_EG_Setting.lean",
+      "sha256": "c209e14fa7021c140cb9848d6d84d965f0f0b08013e3d6e55132c256f507ad19",
+      "platform_definition_id": "9e65c3bc-4943-4942-8ad5-a0ef07482c20",
+      "source": "Gao & Kroer, Infinite-Dimensional Fisher Markets and Tractable Fair Division, arXiv:2010.03025v5, §2 p. 6, (2) p. 9, fairness definitions p. 11, Lemma A.1 p. a1",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "InfFisher_EG_Setting",
+      "created_at": "2026-10-16T06:17:38.166907+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_InfFisher_Linear_Setting.lean",
+      "sha256": "2473631364a3fe247152d1cf8edbbeb310562403180b62b284352b7690c3d875",
+      "platform_definition_id": "22aac337-617b-46e2-8f30-c737ffbc09d5",
+      "source": "Gao & Kroer, Infinite-Dimensional Fisher Markets and Tractable Fair Division, arXiv:2010.03025v5, Assumption 1, p. 14; Theorem 4, pp. 15–16",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "InfFisher_Linear_Setting",
+      "created_at": "2026-10-16T08:04:49.494102+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_InfFisher_EG_Market.lean",
+      "sha256": "2b9ad31e343e931dd695733ded2a38c25f29b41a50ae99ffe5c0d39965158a82",
+      "platform_definition_id": "4cef2291-0fa3-4c9a-80c0-f5a69f9b894d",
+      "source": "Gao & Kroer, Infinite-Dimensional Fisher Markets and Tractable Fair Division, arXiv:2010.03025v5, §2 pp. 5–7, (PEG) p. 7, (DEG) p. 8, (1) p. 8",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "InfFisher_EG_Market",
+      "created_at": "2026-10-16T06:17:06.791783+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    }
+  ],
+  "discussions": {
+    "mission_id": "ba5c3658-532b-482f-97f6-e1d635c2164a",
+    "comments_read": 0,
+    "pagination_complete": true,
+    "target_mentions_count": 0
+  },
+  "terms": {
+    "url": "https://prove2.me/terms",
+    "effective_at": "2026-09-24T15:55:00+00:00",
+    "checked_on": "2026-10-21",
+    "public_contributions_license": "Apache-2.0"
+  }
+}

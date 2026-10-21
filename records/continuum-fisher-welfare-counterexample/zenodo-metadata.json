@@ -1,0 +1,48 @@
+{
+  "title": "A formally verified counterexample to a continuum Fisher welfare statement",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>A concrete two-buyer Pareto-optimal allocation with positive utilities cannot be supported by any nonnegative integrable price at any nonnegative budgets. The item space is the closed unit ball in one-dimensional Euclidean space with restricted Lebesgue measure. Valuations are v0(t)=1 and v1(t)=max(t,0); buyer 0 receives the nonpositive half and buyer 1 the positive half. A small-strip argument contradicts both demand inequalities. The proof checks compactness, integrability, positive measure, Pareto optimality and every admissible deviation.</p><p>The accepted Lean theorem negates the entire quantified Prove2Me statement InfFisher.Linear.lemma_6, which cites Lemma 6 in Yuan Gao and Christian Kroer's Infinite-Dimensional Fisher Markets and Tractable Fair Division, arXiv:2010.03025v5. The pinned preprint model, statement and proof were inspected. Demand is over all affordable nonnegative essentially bounded bundles, without an individual upper supply cap; prices are nonnegative L1 functions. The source proof cancels a possibly zero supporting weight, but the counterexample is independent evidence rather than an inference from that gap. This does not refute every result in the paper or its separate sorted globally linear-valuation characterization. No assertion about an uninspected journal edition or repaired welfare theorem is made.</p><p>The standalone packet includes unchanged accepted source, independent exact-type and axiom audits with autoImplicit=false, all four platform definition modules, immutable Lean 4.33.1 and Mathlib pins, the existing archive verifier, fresh reproduction logs and three rejected controls: a changed proof byte, a weaker statement and an unused local axiom. Only propext, Classical.choice and Quot.sound are proof axioms. Verified third-party compiled caches remain trusted inputs.</p><p>Gao and Kroer authored the source model and statement. mikedeng1 supplied the platform formulation and definitions; Shuze Chen confirmed the platform statement at approval. Lean/Mathlib contributors retain foundational credit. Alexander Richard Towell directed the research and publication; OpenAI Codex substantially developed, formalized, verified, submitted and documented the counterexample. No mathematical novelty, exhaustive priority assessment, independent human proof review or source-author endorsement is claimed. The public platform submission and acceptance occurred on October 18, 2026; this first coherent archive, version 1.0.0, is a separate publication event and adds no new accepted target.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "Fisher markets",
+    "second welfare theorem",
+    "Pareto optimality",
+    "counterexample",
+    "infinite-dimensional economics",
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "reproducible proof",
+    "AI-assisted research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://arxiv.org/abs/2010.03025v5",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/continuum-fisher-welfare-counterexample",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/921c15e0-6f54-4518-b38b-97508be30fec",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "One accepted full quantified disproof. Source authors and platform contributors are predecessors, not represented as coauthors of this note. Original disclosure and archive dates are separate. A DOI does not establish correctness, novelty or peer review."
+}

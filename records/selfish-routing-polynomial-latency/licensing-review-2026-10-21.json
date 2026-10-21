@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-21T07:15:05.347478+00:00",
+  "api_contract": "0.13.1",
+  "definition_id": "6fcc82cc-055d-4601-b63b-4ea40291e6ac",
+  "created_at": "2026-09-18T15:56:52.126268+00:00",
+  "visibility": "public",
+  "definition_sha256": "36630864272dab30048fbe9d3d05c2b86f64bea463a77c5c54096b1494b05d6f",
+  "definition_unchanged": true,
+  "author_username": "naimengye",
+  "license_related_fields": [],
+  "definition_response_keys": [
+    "audits",
+    "created_at",
+    "definition",
+    "definition_id",
+    "definition_name",
+    "definition_title",
+    "deprecated_at",
+    "deprecated_by",
+    "mathlib_rev",
+    "natural_language_statement",
+    "readback",
+    "source",
+    "tags",
+    "visibility",
+    "vote_count"
+  ],
+  "public_user_response_keys": [
+    "created_at",
+    "num_solved_prob",
+    "num_submitted_prob",
+    "trust",
+    "user_id",
+    "username"
+  ],
+  "terms_url": "https://prove2.me/terms",
+  "terms_effective_at": "2026-09-24T15:55:00+00:00",
+  "assessment": "No explicit retroactive-grant evidence in refreshed definition or public user fields; do not infer that no license exists. Redistribution remains unconfirmed."
+}

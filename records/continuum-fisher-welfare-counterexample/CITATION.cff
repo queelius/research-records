@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Cite this version for the counterexample and formalization; cite Gao and Kroer for the source model and statement."
+title: "A formally verified counterexample to a continuum Fisher welfare statement"
+type: dataset
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+date-released: 2026-10-21
+url: "https://github.com/queelius/research-records/tree/main/records/continuum-fisher-welfare-counterexample"
+license: Apache-2.0
+abstract: "A two-buyer Pareto-optimal allocation with positive utilities has no supporting integrable price. The packet includes the accepted full quantified disproof of the Prove2Me statement, exact-type and axiom audits, pinned reproduction and rejecting controls. Source and platform contributors are credited, and substantial Codex assistance is disclosed. No mathematical novelty or human peer review is claimed."
+references:
+  - type: report
+    title: "Infinite-Dimensional Fisher Markets and Tractable Fair Division"
+    authors:
+      - family-names: Gao
+        given-names: Yuan
+      - family-names: Kroer
+        given-names: Christian
+    url: "https://arxiv.org/abs/2010.03025v5"
+    version: "5"
+    date-published: 2021-04-05
+doi: "10.5281/zenodo.23527887"
