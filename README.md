@@ -40,7 +40,7 @@ publication metadata or handoff.
 
 - [A matching repair for the ordered binary matrix construction](records/family190-matching-repair/README.md).
   Written all-depth repair and independently certified depth-one optimum four;
-  source lower bound retained for unrestricted sharpness. [PR16](https://github.com/piiiico/openai-math-counterexamples/pull/16), DOI archive pending.
+  source lower bound retained for unrestricted sharpness. [PR16](https://github.com/piiiico/openai-math-counterexamples/pull/16), [v1.0.0 DOI](https://doi.org/10.5281/zenodo.23541166).
 
 - [Graphon aggregates, Nash equilibria and fixed-profile perturbations](records/graphon-game-equilibrium-formalization/README.md).
   Five complete Lean formalizations of Carmona–Cooney–Graves–Laurière results,
