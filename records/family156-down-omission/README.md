@@ -70,3 +70,23 @@ records verification methods and shared dependencies. Our
 [clarification](https://github.com/piiiico/agent-errata/issues/16#issuecomment-6310829448)
 links the earlier scoped AI reduction review without counting it as another
 independent implementation.
+
+## Subsequent LRAT follow-up: partial formalization and native verification
+
+The October 21 [pinned research packet](https://github.com/queelius/openai-math-counterexamples/tree/490073286e3bc2c23729ae5eb65282968d04c5bc/rows/156/finite_obstruction/lean_bridge/lrat_probe)
+proves in Lean that successful generic LRAT checking of a formula constructed
+directly from the Lean-generated CNF excludes the five-field nonempty source
+model. This implication uses standard axioms and assumes no external JSON binding.
+Native execution checks all 30,361 retained clauses and 18,302 steps, with truncation,
+damaged-hint and weakened-input controls. Fourteen Python tests in both modes,
+ten kernel controls and a scoped separate AI review pass.
+
+**The concrete checker equality is still not kernel proved.** Ordinary reduction
+fails; component probes fail or exceed memory; one larger proof-producing cbv
+run times out after 180 seconds. The exact cause remains unknown. This is a
+completed generic interface proof and native computational evidence, with an
+inconclusive unconditional-proof target. It is published as a research branch,
+not included in DOI version 1.1.0, and has no new PR or DOI. The earlier archive
+and its citation remain unchanged. Reproduce with `bash reproduce.sh` in that
+packet after obtaining its pinned dependencies; see its README for scope and
+expected rejection controls.

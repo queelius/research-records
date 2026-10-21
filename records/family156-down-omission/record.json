@@ -236,5 +236,57 @@
       ]
     }
   ],
-  "last_updated_at": "2026-10-21T09:33:00.606992+00:00"
+  "last_updated_at": "2026-10-21T10:44:18.948228+00:00",
+  "subsequent_lrat_followup": {
+    "date": "2026-10-21",
+    "public_source_observed_at": "2026-10-21T10:43:07.808149+00:00",
+    "source": "https://github.com/queelius/openai-math-counterexamples/tree/490073286e3bc2c23729ae5eb65282968d04c5bc/rows/156/finite_obstruction/lean_bridge/lrat_probe",
+    "commit": "490073286e3bc2c23729ae5eb65282968d04c5bc",
+    "predecessor_bridge": "d3461179d6d7161ba3ae6241f09f1b160179b70a",
+    "contribution": "Kernel-checked generic LRAT-success-to-source-contradiction implication, plus full native replay against the Lean-generated CNF",
+    "mathematical_status": "Unconditional concrete kernel-proof target remains inconclusive",
+    "formalized_scope": "Source Bool/Prop model, numeric/polarity decoding, readiness and wellformed actions, and generic checker soundness application; no external JSON binding assumed by the implication",
+    "concrete_kernel_proof": false,
+    "native_verdict": "success",
+    "clauses": 30361,
+    "retained_clauses": 30361,
+    "proof_steps": 18302,
+    "hints": 1317865,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "checks": {
+      "python_tests": 14,
+      "python_optimized_tests": 14,
+      "kernel_controls": 10,
+      "combined_statement_branch_coverage_percent": 89.60573476702508,
+      "full_native_replay": true,
+      "truncated_trace": "rejected",
+      "deleted_first_hints": "rejected",
+      "deleted_nonempty_clause": "rejected",
+      "strict_damaged_input_exit": 1
+    },
+    "reproduce": "bash reproduce.sh from the pinned lrat_probe directory, after obtaining pinned Lean/Mathlib dependencies",
+    "expected_result": "exit0; RESULT: partial formalization and native verification reproduced; no unconditional kernel theorem",
+    "failed_attempts": "Ordinary kernel non-reduction; component reduction/allocation failures; default100000-step cbv limit exhausted; larger100000000-step cbv run timed out180seconds. Exact normalization cause remains unknown; no impossibility claim.",
+    "review": "One scoped separate AI reviewer rebuilt the core and small packing component and inspected the consumers; no core soundness blocker. Not human peer review or a full-trace kernel check.",
+    "archived_in_version_1_1_0": false,
+    "new_pr": false,
+    "upstream_accepted": false,
+    "new_doi": null,
+    "publication_status": "Public pinned research branch; earlier versioned archives and PR12 unchanged",
+    "public_files": "All72 manifest Git blob IDs matched; hints, packed data and core proof public downloads SHA256-verified",
+    "limitations": [
+      "Native execution is not a proof of the concrete checker equality",
+      "No full Borsuk theorem, source-project rebuild, geometry or topology",
+      "No human peer review or global novelty claim",
+      "4GB import baseline also fails, so earlier failures do not isolate certificate representation cost"
+    ],
+    "next_step": "Reopen only for a concrete verified normalization or decomposition strategy; rotate to another problem first",
+    "contributor": "Alexander Richard Towell",
+    "ai_assistance": "Substantial OpenAI Codex assistance; one scoped AI review",
+    "coordination_outcome": "https://github.com/piiiico/openai-math-counterexamples/issues/9#issuecomment-6314019793"
+  }
 }
