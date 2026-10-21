@@ -1,0 +1,21 @@
+{
+  "author": "Alexander Richard Towell",
+  "date": "2026-10-21",
+  "state": "published",
+  "record_id": 23527267,
+  "doi": "10.5281/zenodo.23527267",
+  "concept_doi": "10.5281/zenodo.19226371",
+  "version": "v6",
+  "public_metadata_verified": true,
+  "all_public_files_verified": true,
+  "source_commit": "47002aacd10733ed784ce054c8ae8c39cd19a178",
+  "archive_entries": 732,
+  "files": [
+    {"filename": "graph-saturation-v6.zip", "bytes": 30420358, "sha256": "eb425fd2a1af28ba5095122a7250219ea2a10b23d1c12991c1cdc0380a759dab", "md5": "59605519d582873d78ab07402597badd", "public_download_verified": true, "url": "https://zenodo.org/api/records/23527267/files/graph-saturation-v6.zip/content"},
+    {"filename": "saturation_note.pdf", "bytes": 259450, "sha256": "76dce61d23a627ceea0a824833add0eb086c94ab7d251a3591be75f815257b76", "md5": "681d707aa6dd4fe9c62172c349730906", "public_download_verified": true, "url": "https://zenodo.org/api/records/23527267/files/saturation_note.pdf/content"},
+    {"filename": "c6-v6-research.json", "bytes": 2904, "sha256": "3f8eb3da36e7b9973f42f74bc35c23eb99c88eb1fe371c59df2fdde09a0b4883", "md5": "3d12e0768c9a7f5021b704d306d6531a", "public_download_verified": true, "url": "https://zenodo.org/api/records/23527267/files/c6-v6-research.json/content"}
+  ],
+  "hog": {"id": 58092, "existing_annotation_updated": true, "live_readback_verified": true, "edited_timestamp": "21 October 2026 - 10:21", "new_graph_deposit": false},
+  "privacy": "Development repository visibility unchanged; only scoped source/evidence is archived publicly.",
+  "pagination_audit": {"pages": 2, "depositions_checked": 121, "complete": true, "reused_concept": 19226371}
+}

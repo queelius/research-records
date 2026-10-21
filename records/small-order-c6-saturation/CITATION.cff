@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite the exact archived version of the C6 saturation paper and evidence."
+type: article
+title: "Small-order C6 saturation: exact values, minimum graphs, and a correction"
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: v6
+date-released: 2026-10-21
+doi: 10.5281/zenodo.23527267
+license: CC-BY-4.0
+url: "https://zenodo.org/records/23527267"

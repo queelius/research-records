@@ -44,6 +44,12 @@ does not by itself establish a public technical disclosure, DOI or peer review.
 
 ## Records
 
+- [Small-order C6 saturation: exact values and complete minimum families](records/small-order-c6-saturation/README.md).
+  Exact values through 15 vertices and the complete 24-class order-15 family,
+  with independent witness checks, leaf/core and weighted-kernel evidence.
+  Prior small cases and upper constructions retain specific credit.
+  [Exact v6 archive](https://doi.org/10.5281/zenodo.23527267).
+
 - [Codec-controlled retrieval and fixed-build profile leakage](records/codec-controlled-retrieval/README.md).
   Conditional output laws and a reproducible implementation case study;
   submitted to PeerJ Computer Science on October 20, 2026 (151306).

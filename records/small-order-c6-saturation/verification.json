@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "author": "Alexander Richard Towell",
+  "source_regression": {"passed": 777, "optional_skips": 5, "exit_code": 0},
+  "release_controls": {"passed": 61, "exit_code": 0, "note": "Overlaps the source regression; counts are not additive."},
+  "scoped_combined_line_branch_coverage_percent": 95.82417582417582,
+  "scoped_coverage_modules": ["src/c6_leaf_cores.py", "src/c6_kernel_census.py", "src/c6_prefix_certificate.py", "src/c6_weighted_paths.py", "scripts/verify_c6_n15_classification.py"],
+  "extracted_packet_replay": {"fresh_witnesses": 24, "leaf_classes": 12, "leaf_free_classes": 12, "nonisomorphism_pairs": 276, "published_lower_bound_logs_revalidated": 2, "full_census_rerun": false},
+  "paper": {"pages": 8, "visually_inspected": true},
+  "historical_evidence": "Original certificates, snapshots and logs are preserved. The v5 metadata remains immutable; v6 has a separate release record.",
+  "limits": "Finite computation with written proof arguments; no human peer-review or proof-assistant verification claim. Raw coverage includes unrelated imported modules and is not a whole-repository metric.",
+  "final_public_artifact_verification": "All three public Zenodo downloads match local SHA256, MD5 and byte length; see publication.json."
+}
