@@ -24,11 +24,11 @@
     }
   ],
   "canonical_record": {
-    "commit": "100ebcd0b8745720ff3d4c79777a437f26b334f6",
+    "commit": "161d39034acacdaa1dc04dfc28b4977ed693d74e",
     "path": "research/records/coprime-paths/record.json",
     "repository": "https://github.com/queelius/computational-explorations",
-    "sha256": "12ba976345bbd307405de494493fd537f38cacd0f75a97ddb9333ab7350e85d3",
-    "url": "https://github.com/queelius/computational-explorations/blob/100ebcd0b8745720ff3d4c79777a437f26b334f6/research/records/coprime-paths/record.json"
+    "sha256": "e1b280c310b103ac6b3717b5f2430a2217d3d9793979d92452622bb5c4cad478",
+    "url": "https://github.com/queelius/computational-explorations/blob/161d39034acacdaa1dc04dfc28b4977ed693d74e/research/records/coprime-paths/record.json"
   },
   "claims": [
     {
@@ -126,7 +126,7 @@
     "version_doi": "10.5281/zenodo.23497967"
   },
   "review": {
-    "ai_review": "Separate AI reviews checked the proof, source hypotheses, finite certificates, and manuscript revisions; see the public PR and author-revision receipt.",
+    "ai_review": "Separate AI reviews checked the proof, source hypotheses, finite certificates, and manuscript revisions; see the public PR and author-revision receipt. October 21 bounded contribution assessment recommends holding journal submission; see docs/coprime-paths-contribution-assessment-2026-10-21.md. A parameterized equality deduction is provisional, outside the October 20 archive, and not an established novelty claim.",
     "formal_proof": false,
     "human": "pending",
     "novelty": "bounded_search_only",
