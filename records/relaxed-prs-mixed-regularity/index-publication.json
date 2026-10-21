@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "record_id": "relaxed-prs-mixed-regularity",
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23543153",
+  "central_repository": "https://github.com/queelius/research-records",
+  "central_commit": "480555af5543b27a07e4a8a3da8aa96b1ddec636",
+  "owner_source_commit": "739385d54e937bf4af9aab356402aabd801d98f5",
+  "owner_record_sha256": "7fd321daea87c190387a018a107439c4a7b7306ac73b10622e7850cff4ab8c25",
+  "verified_at": "2026-10-21T19:19:39.382523+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/README.md",
+      "bytes": 16122,
+      "sha256": "7dff2f118eac43cdbada0221e5b64a1068a7dca3e91055e183d34c76440fc2c1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "artifacts/relaxed-prs-mixed-regularity-v1.0.0.zip",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/artifacts/relaxed-prs-mixed-regularity-v1.0.0.zip",
+      "bytes": 232918,
+      "sha256": "b47c404e3e0335085e82159212d606fb4f7c5c55f47b69f6f8dc7ed79b47d624",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "catalog.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/catalog.json",
+      "bytes": 5236,
+      "sha256": "4427f58b0082856b38841854d5913b51d2758aeac6a1829281077241e30f91e3",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/CITATION.cff",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/CITATION.cff",
+      "bytes": 1636,
+      "sha256": "7cc55b9347026fa63621024de0009597991165a0a4687b02bc11307a6792f2da",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/LICENSE",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/LICENSE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/NOTE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/NOTE.md",
+      "bytes": 7514,
+      "sha256": "0e48aa4191e3520d977bb795ac251ce9d10bcd7b9f2c23d3c35ca5436967d5f3",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/NOTICE.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/NOTICE.md",
+      "bytes": 1837,
+      "sha256": "d3508c695553a3b6671e32eb20094ce486cb8db585c9ce57a58f03ec349934d4",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/README.md",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/README.md",
+      "bytes": 2842,
+      "sha256": "bf19dd994288647770ec39c62b630f5a1c3b4d992838f940bf70f91f7e0f1170",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/archival-verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/archival-verification.json",
+      "bytes": 4786,
+      "sha256": "dc17a7bee729afbbe659f57bf08c7dad4b6756e86d314347d30db0fc2463715a",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/citation-validation.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/citation-validation.json",
+      "bytes": 675,
+      "sha256": "7dc1f627f02d19f05d83d81e31332e08f06665cc1f945dcfffd9058fe6ffad36",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/metadata-validation.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/metadata-validation.json",
+      "bytes": 736,
+      "sha256": "b9c26616542047ea1539520b69ff9b63856a44c7087e5821ecf5efa814d68c41",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/platform-refresh.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/platform-refresh.json",
+      "bytes": 7331,
+      "sha256": "665029c4ba4d8a6294aa006bf485c6c51ff953f24f7c8fdafc12d2c6347751a6",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/public-availability.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/public-availability.json",
+      "bytes": 1013,
+      "sha256": "b6d3b957efec07124311be2a7e3186facf24e48748348fcf34e1e586b8093a1f",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/publication.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/publication.json",
+      "bytes": 2374,
+      "sha256": "7989faafd0aed816b205fcdfef951fcff9e109c6dfe51846eadd0415065ee45d",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/record.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/record.json",
+      "bytes": 20332,
+      "sha256": "7d5be31599cb574c6a0786f57a1525188acdebe6f4c5606aee0613478d19d7f4",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/targets/16f4b53e-0863-4db1-9951-a3938fb23e26.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/targets/16f4b53e-0863-4db1-9951-a3938fb23e26.json",
+      "bytes": 2195,
+      "sha256": "231486950ce472a602cfcc0097363c26ecbfddbe58bca1b1d875d2898c4e29d5",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/targets/a9c4e53c-f0c7-4244-966f-8a711de1458e.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/targets/a9c4e53c-f0c7-4244-966f-8a711de1458e.json",
+      "bytes": 1741,
+      "sha256": "45170fc479401f8d66db06d2cad10f354eeac7a661b87f5b97ed0421715ade76",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/targets/ded36067-74da-4a12-88c4-753e35cf4699.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/targets/ded36067-74da-4a12-88c4-753e35cf4699.json",
+      "bytes": 1646,
+      "sha256": "aff8a8262a0041a6091f6a5d8bdecd524181db89813cc16eec5b87d0d52e8b07",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/targets/e22686e8-c522-4dcf-92e0-85b2b06845a5.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/targets/e22686e8-c522-4dcf-92e0-85b2b06845a5.json",
+      "bytes": 1881,
+      "sha256": "1604db8f92261f33f39579d2fd118f36c8c370c4d178c54b40dfd63a96a736c2",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/verification.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/verification.json",
+      "bytes": 665,
+      "sha256": "b901be08ac924985b61ba25369ec60c81503f0a620f48002ed8e42764f9a9274",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    },
+    {
+      "path": "records/relaxed-prs-mixed-regularity/zenodo-metadata.json",
+      "url": "https://raw.githubusercontent.com/queelius/research-records/480555af5543b27a07e4a8a3da8aa96b1ddec636/records/relaxed-prs-mixed-regularity/zenodo-metadata.json",
+      "bytes": 6347,
+      "sha256": "4896828a123a63c478921ee4aea1e3c7bad6a940dd3ff785956933f444579b77",
+      "http_status": 200,
+      "matches_git_blob": true,
+      "authenticated": false
+    }
+  ],
+  "all_public_downloads_match": true,
+  "public_files_verified": 21,
+  "source_repository_visibility": "private",
+  "central_repository_visibility": "public",
+  "scope": "New relaxed Peaceman\u2013Rachford curated record only; all changed files checked against this immutable commit. Unrelated research-records content preserved."
+}
