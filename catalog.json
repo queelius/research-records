@@ -14,6 +14,11 @@
       "readme": "records/sandpile-nine-vertices/README.md"
     },
     {
+      "id": "codec-controlled-retrieval",
+      "metadata": "records/codec-controlled-retrieval/record.json",
+      "readme": "records/codec-controlled-retrieval/README.md"
+    },
+    {
       "id": "rado-x2y-partial-proofs-and-certificates",
       "metadata": "records/rado-x2y-partial-proofs-and-certificates/record.json",
       "readme": "records/rado-x2y-partial-proofs-and-certificates/README.md"
