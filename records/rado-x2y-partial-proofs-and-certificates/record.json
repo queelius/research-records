@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "id": "rado-x2y-partial-proofs-and-certificates",
+  "title": "Verified partial results and reproducible certificates for distinct Rado numbers of x+2y=kz",
+  "contribution_type": "Companion research artifact: partial written results, limitations of specified proof routes, exact certificate checkers, and finite evidence",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "prior_name_form": "Alexander Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "scope": {
+    "equation": "x+2y=kz",
+    "variables": "Pairwise distinct positive integers",
+    "colors": 2,
+    "parameters": "Odd integers k>=11",
+    "conjectured_value": "floor(k(k+1)/3)+1",
+    "normalization": "Only exchanging the two color names; c(1)=c(2) is not assumed without an explicit branch hypothesis or proof."
+  },
+  "claims": [
+    "A uniform written lower bound R>=floor(k(k+1)/3)+1, the exact endpoint-link criterion, and the corrected distinction between the lower and upper universes, including the upper k=11 triple (42,45,12).",
+    "A written lower bound of 2*floor(log_3(k))+1 original arithmetic constraints in any non-2-colorable subsystem, and an endpoint-equality corollary; these do not bound symbolic proof length or runtime.",
+    "A conditional endpoint theorem for seed 00111, seven uniform seed exclusions, and two sparse parameter families excluding seeds 01000 and 01001: k=8*4^j+1 and k=24*4^j+1, j>=2.",
+    "A mod-17 invariant obstructing specified restricted operators for k=833+1088h, h>=0; not a full-coloring counterexample to the conjecture.",
+    "Replayable finite arithmetic certificates and a tested verifier that reports missing SAT as incomplete instead of successful verification."
+  ],
+  "scientific_status": {
+    "uniform_lower_bound": "Written proof included",
+    "uniform_upper_bound": "Open",
+    "uniformly_unresolved_seeds": ["00000", "00001", "00100", "00101", "01000", "01001", "01100", "01101"],
+    "novelty": "Exact novelty unresolved; prior-art comparisons and unresolved source-access gaps are preserved in the archived audits. No exhaustive originality claim.",
+    "formal_verification": false,
+    "human_peer_review": false,
+    "independently_checked_sat_unsat_proof_logs": false,
+    "author_publication_approval_date": "2026-10-21",
+    "ai_review": "Separate-context proof/code reviews in the research reports and a separate frozen-artifact review before publication; neither is human peer review.",
+    "journal_submission": "This companion artifact has not been submitted to a journal."
+  },
+  "sources": {
+    "owning_project": "open-problems",
+    "development_repository_visibility": "private; unchanged",
+    "repository_access_required_for_reproduction": false,
+    "canonical_source_archive": "https://zenodo.org/api/records/23497760/files/rado-x2y-partial-proofs-and-certificates-1.0.0.tar.gz/content",
+    "archive_sha256": "ac600625f97a7c91999784ffc538e00c77a43b7fe9e8ee139338e03d4ad2de79",
+    "source_git_commit": null,
+    "source_identity_note": "Exact selected working-tree snapshot, pinned by archive and per-file SHA-256 hashes. The historical development HEAD is not a commit containing all included results. No source commit, push, or visibility change was part of this release.",
+    "manifest_filename": "SHA256SUMS",
+    "manifest_sha256": "96a0d857e0c87d3c3de4b66dd7d4109c45c82ec2748b2fd41ca5cf16c45983fb",
+    "payload_files": 57,
+    "selected_source_report_evidence_files": 42,
+    "public_overview": "https://zenodo.org/api/records/23497760/files/NOTE.md/content",
+    "proof_locations": "The archive's NOTE.md claim ledger points to complete milestone, publication-audit, next-step, seed-gap, consolidation, equal-anchor, and mixed-triple-bridge reports."
+  },
+  "predecessor_credit": [
+    {
+      "identifier": "10.5281/zenodo.20636179",
+      "relation": "isSupplementTo",
+      "role": "Inspected corrected version 2 of the author's multi-family paper; states the x+2y=kz conjecture for odd k>=13 and finite values through k=49.",
+      "publication_metadata_date": "2026-06-10"
+    },
+    {
+      "identifier": "10.5281/zenodo.19154853",
+      "relation": "references",
+      "role": "Earlier public conjecture statement located in the bounded search, not a claim of first-ever priority or disclosure of this packet's later results.",
+      "publication_metadata_date": "2026-03-22"
+    },
+    {
+      "role": "Logarithmic/geometric colorings, circular-coloring arguments, implication graphs, SAT encoding, and arithmetic forcing have substantial prior art; see the archived claim-by-claim audits and their access limitations."
+    }
+  ],
+  "public_disclosure": {
+    "date": "2026-10-21",
+    "url": "https://zenodo.org/records/23497760",
+    "publication_response_observed_at": "2026-10-21T06:46:22.403869+00:00",
+    "public_files_verification_completed_at": "2026-10-21T06:49:36.087595+00:00",
+    "basis": "First verified public release of this exact companion packet through this record; no first-ever priority claim for each individual lemma.",
+    "preparation_date_not_publication": "2026-10-20",
+    "frozen_status_note": "Uploaded files intentionally retain their explicitly dated prepublication freeze state. The live Zenodo record and publication.json establish subsequent publication; no archived bytes were silently replaced."
+  },
+  "verification": {
+    "date": "2026-10-21",
+    "environment": "CPython 3.10.20; archived requirements.txt pins dependencies",
+    "focused_unit_integration_tests": 236,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "combined_statement_branch_coverage_percent": 95.49465861588482,
+    "covered_statements": 1601,
+    "total_statements": 1653,
+    "covered_branches": 455,
+    "total_branches": 500,
+    "saved_standard_library_certificate_replays": 5,
+    "missing_sat_control": "Exit 2 with an INCOMPLETE diagnostic; no output artifact created",
+    "meaningful_controls": "Focused tests reject invalid parameters, repeated coordinates, forged or truncated evidence, inconsistent certificate steps, and missing-SAT false success.",
+    "whole_repository_suite_rerun": false,
+    "new_computational_logic_in_release_preparation": false,
+    "historical_provenance_exception": "The preserved seed-gap-evidence.json generator hash differs from the included current checker; saved certificates replay successfully. The earlier source-pin audit checked 30 entries, with this sole mismatch.",
+    "public_downloads_verified_without_authentication": true,
+    "public_archive_members_verified": 57,
+    "manifest_hashes_verified": 56,
+    "deterministic_rebuild": "Byte-identical rebuild verified during 2026-10-20 artifact preparation; the same archive bytes were published."
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "resource_type": "publication-report",
+    "archive_publication_date": "2026-10-21",
+    "version_doi": "10.5281/zenodo.23497760",
+    "concept_doi": "10.5281/zenodo.23497759",
+    "zenodo_record": "https://zenodo.org/records/23497760",
+    "receipt": "publication.json",
+    "public_downloads_verified": true,
+    "doi_resolver_verified": true
+  },
+  "license": {
+    "selected_python_ini_and_requirements": "MIT",
+    "original_reports_evidence_and_metadata": "CC-BY-4.0",
+    "scope": "Separate file classes, not a choice of either license per file. The archive's RIGHTS.md and packet-spec.json define the scope; both full license texts are included. The whole development repository is not relicensed.",
+    "third_party_sources_and_dependencies": "Linked or installed separately, not redistributed in the packet."
+  },
+  "ai_assistance": "Substantial OpenAI Codex assistance with exploration, written arguments, implementation, tests, literature comparisons, separate-context review, and archival preparation. AI review is not human peer review; no AI system is an author.",
+  "limitations": [
+    "The full uniform upper bound remains open. Finite SAT experiments and certificate replay do not prove it.",
+    "Branch assumptions and sparse parameter families must not be generalized to all colorings or all odd k.",
+    "The restricted-operator obstruction is not a counterexample to the original conjecture.",
+    "Certificate-size bounds count original arithmetic constraints, not general mathematical proof length or runtime.",
+    "Novelty is unresolved; the archive does not reverse the recommendation against a standalone journal note on the logarithmic observation.",
+    "No human peer review, formal proof-assistant verification, full-repository test pass, or legal-priority claim is made."
+  ]
+}

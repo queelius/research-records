@@ -4,6 +4,11 @@
   "author_orcid": "0000-0001-6443-9897",
   "records": [
     {
+      "id": "rado-x2y-partial-proofs-and-certificates",
+      "metadata": "records/rado-x2y-partial-proofs-and-certificates/record.json",
+      "readme": "records/rado-x2y-partial-proofs-and-certificates/README.md"
+    },
+    {
       "id": "expert-iteration-lessons",
       "metadata": "records/expert-iteration-lessons/record.json",
       "readme": "records/expert-iteration-lessons/README.md"

@@ -38,6 +38,12 @@ publication metadata or handoff.
 
 ## Records
 
+- [Distinct Rado numbers: partial results and reproducible certificates](records/rado-x2y-partial-proofs-and-certificates/README.md).
+  Written partial proofs, scoped proof-route limitations, exact certificate
+  checkers, and 236 passing focused tests. The uniform upper bound remains
+  open and exact novelty is unresolved. Self-contained selected source;
+  [archived version](https://doi.org/10.5281/zenodo.23497760).
+
 - [Expert Iteration: Experiments and Lessons](records/expert-iteration-lessons/README.md).
   Pedagogical research archive with eight reconstructed comparisons and a local
   learning/search example. The compact packet passes 59 tests; broader historical

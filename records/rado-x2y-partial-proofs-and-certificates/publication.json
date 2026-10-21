@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "record_id": "23497760",
+  "parent_record_id": "23497759",
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23497760",
+  "concept_doi": "10.5281/zenodo.23497759",
+  "state": "published",
+  "publication_authorized": true,
+  "author_approval_date": "2026-10-21",
+  "publication_request_started_at": "2026-10-21T06:46:21.626806+00:00",
+  "publication_response_observed_at": "2026-10-21T06:46:22.403869+00:00",
+  "publication_response_http_status": 202,
+  "publication_date": "2026-10-21",
+  "public_record_created_at": "2026-10-21T06:46:21.789051+00:00",
+  "public_record_updated_at": "2026-10-21T06:46:22.136752+00:00",
+  "draft_created_at": "2026-10-20T11:25:31.170378+00:00",
+  "draft_date_was_corrected_before_publication": true,
+  "record_url": "https://zenodo.org/records/23497760",
+  "public_api_url": "https://zenodo.org/api/records/23497760",
+  "verification_completed_at": "2026-10-21T06:49:36.087595+00:00",
+  "public_metadata_expected_fields_match": true,
+  "public_metadata": {
+    "title": "Verified partial results and reproducible certificates for distinct Rado numbers of x+2y=kz",
+    "creator": "Alexander Richard Towell",
+    "orcid": "0000-0001-6443-9897",
+    "affiliation": "Southern Illinois University Edwardsville",
+    "resource_type": "publication-report",
+    "version": "1.0.0",
+    "publication_date": "2026-10-21",
+    "rights": ["mit", "cc-by-4.0"],
+    "mixed_license_scope": "Separate file classes as defined in RIGHTS.md, not interchangeable licenses for every file.",
+    "related_identifiers": [
+      {"identifier": "10.5281/zenodo.20636179", "relation": "issupplementto"},
+      {"identifier": "10.5281/zenodo.19154853", "relation": "references"}
+    ]
+  },
+  "public_downloads_verified_without_authentication": true,
+  "landing_page_http_status": 200,
+  "doi_resolver_http_status": 200,
+  "doi_resolver_final_url": "https://zenodo.org/records/23497760",
+  "artifacts": [
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1273,
+      "sha256": "9a0c248154cce980d4dc9772e1c3d469ebc188f8e1e2d34366c9bdada8e18eb4",
+      "api_checksum": "md5:b8ee6e248e2812de4257d8c2098d6409",
+      "public_url": "https://zenodo.org/api/records/23497760/files/CITATION.cff/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 6813,
+      "sha256": "40586a095ba212bd6d5aeae1820270f902a2e6a72a5d9cce7895b0a6a4bd7227",
+      "api_checksum": "md5:9397decf843ee868eddfbbb82be55a08",
+      "public_url": "https://zenodo.org/api/records/23497760/files/NOTE.md/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "archive-receipt.json",
+      "bytes": 5322,
+      "sha256": "a4455034c6d7255653d280e1679dfd7ceb898fbb3ae30c9e2b2582b0163983fd",
+      "api_checksum": "md5:f75d1c486d32659851b8d4683af322b2",
+      "public_url": "https://zenodo.org/api/records/23497760/files/archive-receipt.json/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "rado-x2y-partial-proofs-and-certificates-1.0.0.tar.gz",
+      "bytes": 1612444,
+      "sha256": "ac600625f97a7c91999784ffc538e00c77a43b7fe9e8ee139338e03d4ad2de79",
+      "api_checksum": "md5:434e4e530e56f1dafb0674aec256db8f",
+      "public_url": "https://zenodo.org/api/records/23497760/files/rado-x2y-partial-proofs-and-certificates-1.0.0.tar.gz/content",
+      "verified_without_authentication": true
+    }
+  ],
+  "archive_integrity": {
+    "exact_approved_bytes_preserved": true,
+    "safe_unique_regular_members": 57,
+    "manifest_hashes_verified": 56,
+    "manifest_sha256": "96a0d857e0c87d3c3de4b66dd7d4109c45c82ec2748b2fd41ca5cf16c45983fb",
+    "note": "The frozen archive and uploaded receipt record their prepublication state as of 2026-10-20; this publication receipt records the subsequent release."
+  },
+  "fresh_source_checks": {
+    "date": "2026-10-21",
+    "python": "3.10.20",
+    "dependency_pin": "requirements.txt in the archive",
+    "test_run_started_at": "2026-10-21T01:43:03.769692-05:00",
+    "tests": 236,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "xml_seconds": 67.456,
+    "combined_statement_branch_coverage_percent": 95.49465861588482,
+    "covered_statements": 1601,
+    "total_statements": 1653,
+    "covered_branches": 455,
+    "total_branches": 500,
+    "command_template": "python -m pytest -c pytest.ini -q -p no:cacheprovider tests/ --cov-config=discoveries/additive-combinatorics/rado-conjecture-attempt/next-step-coverage.ini --cov=src.rado_x2y --cov=src.rado_numbers --cov=scripts.verify_rado_x2y --cov=scripts.verify_rado_next_step --cov=scripts.verify_rado_seed_gap --cov=scripts.verify_rado_consolidation --cov=scripts.verify_rado_equal_anchor --cov=scripts.verify_rado_mixed_bridge --cov=discoveries/additive-combinatorics/rado-conjecture-attempt --cov-branch",
+    "command_note": "Run at the freshly extracted packet root with PYTHONDONTWRITEBYTECODE=1 and coverage/XML output outside the extraction. See archived README.md for dependency setup and replay commands.",
+    "standard_library_replays_passed": 5,
+    "missing_sat_exit_code": 2,
+    "missing_sat_output_created": false,
+    "whole_repository_suite_rerun": false,
+    "new_research_code_or_tests": false
+  },
+  "publication_scope": {
+    "private_source_repository_visibility_changed": false,
+    "source_commit_or_push_performed": false,
+    "journal_submission_performed": false,
+    "human_peer_review_claimed": false,
+    "novelty_established_by_doi": false
+  }
+}

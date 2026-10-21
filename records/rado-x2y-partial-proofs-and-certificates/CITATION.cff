@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: >-
+  Cite this exact archived version. This companion research artifact contains
+  partial results, not a proof of the full conjecture; exact novelty remains unresolved.
+title: >-
+  Verified partial results and reproducible certificates for distinct
+  Rado numbers of x+2y=kz
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    affiliation: Southern Illinois University Edwardsville
+    orcid: https://orcid.org/0000-0001-6443-9897
+version: 1.0.0
+doi: 10.5281/zenodo.23497760
+date-released: '2026-10-21'
+url: https://zenodo.org/records/23497760
+license:
+  - MIT
+  - CC-BY-4.0
+# Separate file classes specified in the archive's RIGHTS.md.
+# This index citation records publication; the uploaded citation preserves
+# its explicitly dated prepublication freeze state and the same version DOI.
+abstract: >-
+  Partial written proofs, precisely scoped limitations of proof mechanisms,
+  exact arithmetic certificate checkers, finite evidence, and tests for the
+  conjectured distinct-variable two-color Rado number of x+2y=kz for odd k>=11.
+  The uniform upper bound remains open. Substantial OpenAI Codex assistance
+  is disclosed; no formal verification, human peer review, or established
+  novelty is claimed.
+keywords:
+  - Rado numbers
+  - distinct variables
+  - arithmetic Ramsey theory
+  - reproducible research
+  - certificates
