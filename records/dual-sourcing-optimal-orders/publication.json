@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "record_id": 23531695,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23531695",
+  "concept_doi": "10.5281/zenodo.23531694",
+  "url": "https://zenodo.org/records/23531695",
+  "state": "published",
+  "published_at": "2026-10-21T10:19:03.670469+00:00",
+  "verified_at": "2026-10-21T10:20:13.007585+00:00",
+  "public_metadata_http_status": 200,
+  "public_metadata_authenticated": false,
+  "all_public_downloads_match": true,
+  "files": [
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1458,
+      "sha256": "5f009a27a4bad819aaa533f2244f4619a51d83ce75acf2c3f6b97bcd1d6e3ece",
+      "download_url": "https://zenodo.org/api/records/23531695/files/CITATION.cff/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "dual-sourcing-optimal-orders-v1.0.0.zip",
+      "bytes": 98300,
+      "sha256": "2ef514848f6cb702c60bc61695eacfced997a66546389b76340e834a78d8a216",
+      "download_url": "https://zenodo.org/api/records/23531695/files/dual-sourcing-optimal-orders-v1.0.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 7699,
+      "sha256": "8660f835d0b2da855c0d1d65f3f544f80e461879e34600d920da13133473288e",
+      "download_url": "https://zenodo.org/api/records/23531695/files/NOTE.md/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "packet_manifest_sha256": "6cc1ad102b3b3584f8ceec04b5704c9f00ad64c142796324129460c0c0d5e619",
+  "packet_file_count": 57,
+  "all_packet_files_verified": true,
+  "archive_rebuild_byte_identical": true,
+  "reproduction": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 2,
+    "definitions": 1,
+    "exact_target_audits": true,
+    "rejection_controls": 3
+  },
+  "note": "Publication date is distinct from original October21 public proof submissions. The frozen packet records its reserved state at assembly; this receipt establishes publication.",
+  "publication_date": "2026-10-21",
+  "published_at_basis": "Existing deposition modified timestamp observed after reconciling the single publish request (which returned HTTP 500 but committed successfully); public metadata publication_date recorded separately.",
+  "operational_reconciliation": {
+    "uploads_returned_http_500": 3,
+    "publish_returned_http_500": true,
+    "publication_requests_sent": 1,
+    "outcome": "Each operation committed on the server despite its error response. Existing draft/deposition state was reconciled before continuation. No duplicate deposit or repeated publication request. All final public bytes verified."
+  },
+  "doi_resolution": {
+    "checked_at": "2026-10-21T10:20:54.908748+00:00",
+    "doi": "10.5281/zenodo.23531695",
+    "url": "https://doi.org/10.5281/zenodo.23531695",
+    "http_status": 404,
+    "resolved_to_expected_record": false,
+    "authenticated": false
+  },
+  "doi_resolution_note": "Zenodo has published and assigned the version DOI. The initial independent doi.org resolver check returned 404; registration/resolution is not yet verified. Use the public Zenodo record URL until a later successful resolver check.",
+  "public_availability": {
+    "checked_at": "2026-10-21T10:21:55.814433+00:00",
+    "authenticated": false,
+    "observations": [
+      {
+        "url": "https://zenodo.org/records/23531695",
+        "status": 200,
+        "final_url": "https://zenodo.org/records/23531695",
+        "bytes": 103308,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://zenodo.org/api/records/23531695",
+        "status": 200,
+        "final_url": "https://zenodo.org/api/records/23531695",
+        "bytes": 8101,
+        "content_type": "application/json"
+      },
+      {
+        "url": "https://api.datacite.org/dois/10.5281/zenodo.23531695",
+        "status": 404
+      }
+    ]
+  }
+}

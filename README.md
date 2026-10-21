@@ -38,6 +38,16 @@ publication metadata or handoff.
 
 ## Records
 
+- [Dual-sourcing submodularity and optimal orders](records/dual-sourcing-optimal-orders/README.md).
+  Two complete Lean formalizations: submodularity of expected profit and global
+  optimal-order existence with the stated boundary or stationarity condition.
+  The [version 1.0.0 archive](https://zenodo.org/records/23531695)
+  includes both accepted proofs, their platform definition, exact audits and
+  rejecting controls. All 57 packet files are verified. Wang, Gilland,
+  Tomlin, platform contributors and Lean/Mathlib retain specific credit;
+  mathematical novelty and independent human review are not claimed.
+  The new DOI is assigned; resolver registration is pending verification.
+
 - [Small-order C6 saturation: exact values and complete minimum families](records/small-order-c6-saturation/README.md).
   Exact values through 15 vertices and the complete 24-class order-15 family,
   with independent witness checks, leaf/core and weighted-kernel evidence.

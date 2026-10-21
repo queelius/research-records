@@ -97,6 +97,11 @@
       "id": "continuum-fisher-welfare-counterexample",
       "metadata": "records/continuum-fisher-welfare-counterexample/record.json",
       "readme": "records/continuum-fisher-welfare-counterexample/README.md"
+    },
+    {
+      "id": "dual-sourcing-optimal-orders",
+      "metadata": "records/dual-sourcing-optimal-orders/record.json",
+      "readme": "records/dual-sourcing-optimal-orders/README.md"
     }
   ]
 }
