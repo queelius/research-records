@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "codec-controlled-retrieval",
+  "title": "Codec-controlled retrieval: conditional output laws and fixed-build profile leakage",
+  "contribution_type": "conditional theory and reproducible implementation case study; journal submission",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/codec-controlled-retrieval",
+  "claim": "For the studied zero-filled ribbon retrieval implementation and synthetic workload, a frozen output-count classifier distinguishes balanced and rare-minority stored-label profiles by repeatedly querying one fixed build. Conditional codec/window laws explain relevant structure but do not establish a calibrated model of the actual hash-derived sampler or general transcript privacy. Established random free-variable filling suppresses this classifier in the measured workload.",
+  "assumptions": [
+    "The primary study stores labels 0, 1 and 2 on 5000 keys, with counts (1667,1667,1666) versus (4950,25,25), and canonical bytes 0,128,192.",
+    "The observer knows the two candidate profiles, codec, sizes, construction parameters and workload family; only decoded nonmember-output counts are classifier features.",
+    "The quoted primary endpoint uses 100000 distinct nonadaptive nonmember queries per build, a frozen binary64 rule and separately seeded evaluation keysets.",
+    "The global uniform-span model, independent-coefficient window model and actual coupled hash-derived sampler have distinct assumptions."
+  ],
+  "sources": {
+    "repository": "https://github.com/queelius/lapidary",
+    "local_repository": "~/github/bijou/lapidary",
+    "local_workspace": "~/github/bijou",
+    "research_path": "analysis/ribbon_leakage",
+    "quality_review_path": "analysis/ribbon_leakage/publication/peerj_quality",
+    "submission_records_path": "analysis/ribbon_leakage/publication/peerj_submission",
+    "local_resume_path": "~/github/bijou/lapidary/analysis/ribbon_leakage/publication/peerj_submission/CURRENT.md",
+    "latest_local_manuscript_path": "analysis/ribbon_leakage/publication/peerj_submission/finalization_20261020/candidate/manuscript.tex",
+    "source_git_commit": null,
+    "source_identity_note": "The research tree is currently untracked in the local owning repository. The GitHub URL identifies the owning project, not a verified public copy of this research package. No repository HEAD is presented as containing the work.",
+    "parent_repository": "https://github.com/queelius/trapdoor-computing",
+    "local_parent_manuscript": "~/github/trapdoor-computing/papers/codec-controlled-retrieval"
+  },
+  "lifecycle_tracker": {
+    "repository": "https://github.com/queelius/pubs",
+    "record_url": "https://github.com/queelius/pubs/blob/master/papers/codec-controlled-retrieval.yaml",
+    "local_record": "~/github/pubs/papers/codec-controlled-retrieval.yaml",
+    "authority": "Venue events, current follow-up date, next action and resume checkpoint live in pubs. This entry summarizes the contribution and links to evidence."
+  },
+  "evidence": {
+    "claim_evidence_map": "analysis/ribbon_leakage/publication/peerj_quality/claim_evidence_map.md",
+    "raw_primary_results": "analysis/ribbon_leakage/results/primary.jsonl",
+    "raw_primary_sha256": "756cdd59f4d16597d4e859d8f3f385fbab00b8f3078d5c3d2dcd512645b7a01b",
+    "analysis_verification": "analysis/ribbon_leakage/publication/peerj_quality/checks/analysis_reproduction.json",
+    "primary_endpoint": {
+      "queries_per_build": 100000,
+      "zero_fill_correct": 335,
+      "random_fill_correct": 192,
+      "profile_instances_per_fill": 384,
+      "independent_keysets": 24,
+      "zero_fill_accuracy_percent": 87.24,
+      "zero_fill_keyset_bootstrap_interval_percent": [84.11, 90.10],
+      "uncertainty_scope": "Keyset-clustered percentile bootstrap of the observed seeded study; the unresolved moment discrepancy limits extrapolation to fresh builds."
+    },
+    "verification_scope": "Prior archived reanalysis, source replay, tests and internal agent reviews; indexing does not constitute new-data replication or fresh human scientific validation."
+  },
+  "predecessor_credit": [
+    "Dietzfelbinger, Dillinger, Huebschle, Sanders and Walzer, Ribbon (JACM 2026), doi:10.1145/3785417: ribbon retrieval and established random filling.",
+    "Bienstock, Patel, Seo and Yeo, USENIX Security 2023, Near-Optimal Oblivious Key-Value Stores for Efficient PSI, PSU and Volume-Hiding Multi-Maps: established random-band OKVS context.",
+    "The author's earlier codec-controlled-retrieval, approximate-map and cipher-map manuscripts: inherited codec geometry and marginal-law goals, with overlap and necessary corrections explicitly recorded."
+  ],
+  "ai_assistance": "Substantial OpenAI Codex assistance with research design, theory, implementation, experiments, analysis, literature, manuscript drafting, revision and independent-context agent reviews. The author participated across the work. Agent review is distinct from human author review and journal peer review; complete historical model/prompt records are unavailable, and curated reconstructions must be identified as such.",
+  "scientific_status": {
+    "written_conditional_proofs": true,
+    "formal_verification": false,
+    "human_author_manuscript_approval": "confirmed 2026-10-20",
+    "agent_review": "Internal independent-context reviews retained in the owning project",
+    "external_peer_review": "not_confirmed",
+    "novelty": "Narrow implementation-specific contribution proposed for review; known linear algebra, the marginal-versus-joint warning and random filling are not claimed as new."
+  },
+  "publication": {
+    "journal": "PeerJ Computer Science",
+    "manuscript_id": "151306",
+    "submitted_on": "2026-10-20",
+    "last_receipt_verified_on": "2026-10-20",
+    "state": "submitted_for_initial_staff_checks",
+    "journal_acceptance": false,
+    "exact_submitted_pdf_sha256": null,
+    "version_identity_note": "The last agent-verified upload is the 18 October PDF. A later local candidate has header/date and human-responsibility changes; its upload was not confirmed. The receipt establishes submission, not the submitted binary.",
+    "version_doi": null,
+    "concept_doi": null,
+    "archival_status": "No public self-contained evidence archive established for this integrated version",
+    "private_receipt_location": "Owning project's publication/peerj_submission/post_submission_20261020/receipt.json; private correspondence is not copied into this index."
+  },
+  "public_disclosures": [],
+  "limitations": [
+    "Finite synthetic workload and reproducible noncryptographic randomness; independent unit is the keyset, not each profile instance or query.",
+    "Actual hash sampling differs from the independent-coefficient reference; no joint/adaptive privacy guarantee or optimal-attacker claim.",
+    "Some transfer settings fail; chance accuracy for one classifier after random filling is not general privacy.",
+    "The original assignment-moment discrepancy remains unresolved and limits fresh-build representativeness.",
+    "Historical frozen classifier and binary64 boundary behavior remain unchanged; previously observed evaluation data are not unseen confirmation for retuned methods.",
+    "Exact submitted files, public source pins and an integrated-version archival DOI remain to be established."
+  ],
+  "license": {
+    "central_metadata_and_original_summary": "MIT",
+    "owning_software_repository": "MIT",
+    "source_material": "Linked, not redistributed here; inspect manuscript and supplement license declarations before archival release."
+  },
+  "notes": "Freeform context belongs here when structured fields do not fit. This entry indexes one coherent corrected contribution, not a second simultaneous submission. The rejected TOPS predecessor and correction history remain in the owning project and pubs. No first public technical disclosure date is inferred from journal submission or local record creation."
+}

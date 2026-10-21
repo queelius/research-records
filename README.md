@@ -36,7 +36,20 @@ must agree with the structured facts. Link each contribution back to its
 owning project, and record its stable ID and central URL in the project's
 publication metadata or handoff.
 
+The broader contribution catalog here includes useful work without a journal or
+conference submission. The separate [pubs tracker](https://github.com/queelius/pubs)
+holds venue histories and actionable follow-ups. Cross-link the two records;
+keep the owning project's source and evidence canonical. A journal submission
+does not by itself establish a public technical disclosure, DOI or peer review.
+
 ## Records
+
+- [Codec-controlled retrieval and fixed-build profile leakage](records/codec-controlled-retrieval/README.md).
+  Conditional output laws and a reproducible implementation case study;
+  submitted to PeerJ Computer Science on October 20, 2026 (151306).
+  Initial staff checks confirmed; external review unconfirmed. The exact
+  submitted PDF still needs archiving. Source and resume paths are indexed;
+  no public evidence archive or DOI is established for this integrated version.
 
 - [Distinct Rado numbers: partial results and reproducible certificates](records/rado-x2y-partial-proofs-and-certificates/README.md).
   Written partial proofs, scoped proof-route limitations, exact certificate

@@ -4,6 +4,11 @@
   "author_orcid": "0000-0001-6443-9897",
   "records": [
     {
+      "id": "codec-controlled-retrieval",
+      "metadata": "records/codec-controlled-retrieval/record.json",
+      "readme": "records/codec-controlled-retrieval/README.md"
+    },
+    {
       "id": "rado-x2y-partial-proofs-and-certificates",
       "metadata": "records/rado-x2y-partial-proofs-and-certificates/record.json",
       "readme": "records/rado-x2y-partial-proofs-and-certificates/README.md"
