@@ -1,0 +1,10 @@
+{
+  "theorem_id": "340d096a-6310-4918-812e-b054e16a263b",
+  "theorem_name": "GraphonGames.Stability.proposition_3_1_aggregate_exists_unique",
+  "status": "Proved",
+  "formal_statement": "namespace GraphonGames.Stability\n\ntheorem proposition_3_1_aggregate_exists_unique\n    (b : ℝ → ℝ → ℝ) (μ0 : Measure ℝ) (cα cz : ℝ)\n    (h1 : GraphonGames.Existence.Asm1 b μ0 cα cz)\n    (w : I → I → ℝ) (hw : IsGraphon w)\n    (hW : Real.sqrt cz * (opNorm w).toReal < 1)\n    (α : I → ℝ) (hα : MemLp α 2 volume) :\n    ∃ z, IsAggregate w b α z ∧\n      ∀ z', IsAggregate w b α z' → z' =ᵐ[volume] z := by sorry\n\nend GraphonGames.Stability\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_GraphonGames_Stability_Setting\n\nopen MeasureTheory",
+  "source": "Carmona, Cooney, Graves & Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1, p. 8, Proposition 3.1 and (6)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

@@ -1,0 +1,10 @@
+{
+  "theorem_id": "725ac376-4945-4056-baa9-1e4e47dc7ff4",
+  "theorem_name": "GraphonGames.Stability.proposition_3_17_unique_equilibrium",
+  "status": "Proved",
+  "formal_statement": "namespace GraphonGames.Stability\n\ntheorem proposition_3_17_unique_equilibrium\n    (b : ℝ → ℝ → ℝ) (f : ℝ → ℝ → ℝ → ℝ)\n    (μ0 : Measure ℝ) (cα cz ℓc ℓJ : ℝ)\n    (h1 : GraphonGames.Existence.Asm1 b μ0 cα cz)\n    (h4 : GraphonGames.Existence.Asm4 (GraphonGames.Existence.cost b f μ0) ℓc ℓJ)\n    (w : I → I → ℝ) (hw : IsGraphon w)\n    (hW : Real.sqrt cz * (opNorm w).toReal < 1)\n    (h17 : ℓJ / ℓc *\n      (Real.sqrt cα * (opNorm w).toReal /\n        (1 - Real.sqrt cz * (opNorm w).toReal)) < 1) :\n    ∃ α, IsNash w b f μ0 α ∧\n      ∀ α', IsNash w b f μ0 α' → α' =ᵐ[volume] α := by sorry\n\nend GraphonGames.Stability\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_GraphonGames_Stability_Setting\n\nopen MeasureTheory",
+  "source": "Carmona, Cooney, Graves & Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1, p. 15, Proposition 3.17 and (17)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

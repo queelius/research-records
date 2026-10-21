@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "id": "graphon-game-equilibrium-formalization",
+  "title": "Verified graphon-game aggregates, Nash equilibria and fixed-profile perturbation bounds",
+  "contribution_type": "Five complete Lean formalizations of established graphon-game results",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "source_commit": "dc39e8d9bd056f96b830befa91ce5822c42b8ecc",
+    "source_commit_scope": "Completed owning-project editorial record and its detailed lifecycle; the owning repository remains private.",
+    "record_path": "contributions/queelius/publications/graphon-game-equilibrium-formalization/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json",
+    "record_sha256": "31cc585f6c022b7187c4de5d1ac64041a42208985ee556829c05d1d2b9f5b36e",
+    "record_url": "https://github.com/queelius/prove2me-contributions/blob/dc39e8d9bd056f96b830befa91ce5822c42b8ecc/contributions/queelius/publications/graphon-game-equilibrium-formalization/record.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/graphon-game-equilibrium-formalization",
+  "claim": "For real-action graphon games on the unit interval, the exact platform statements establish best-response and aggregate-profile L2 sensitivity, aggregate existence and almost-everywhere uniqueness, Nash existence and almost-everywhere uniqueness under condition (17), and fixed-profile aggregate sensitivity under a graphon change. Full equilibrium sensitivity under graphon changes remains outside this edition.",
+  "formal_targets": [
+    {
+      "theorem_id": "d15c5288-19ce-4d45-a1b7-85ba5459e1be",
+      "theorem_name": "GraphonGames.Stability.lemma_3_7_best_response_lipschitz",
+      "url": "https://prove2.me/theorems/d15c5288-19ce-4d45-a1b7-85ba5459e1be",
+      "exact_statement": "targets/d15c5288-19ce-4d45-a1b7-85ba5459e1be.json",
+      "proof_type": "prove",
+      "proof_sha256": "ddb34431bbb03a757007c6f86413407aff7926644e5bc28b3a9edf9d640365c1",
+      "proof_file": "contributions/queelius/proofs/GraphonGames_Stability_lemma_3_7_best_response_lipschitz.lean"
+    },
+    {
+      "theorem_id": "ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+      "theorem_name": "GraphonGames.Stability.lemma_3_16_aggregate_lipschitz",
+      "url": "https://prove2.me/theorems/ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+      "exact_statement": "targets/ce76698e-a8b9-4274-8ff1-7c66e28eef33.json",
+      "proof_type": "prove",
+      "proof_sha256": "d0ba29907b2adfe81cbbc57c82d7398d0efd0bbc756d3e47b460f858f038dbf0",
+      "proof_file": "contributions/queelius/proofs/GraphonGames_Stability_lemma_3_16_aggregate_lipschitz.lean"
+    },
+    {
+      "theorem_id": "340d096a-6310-4918-812e-b054e16a263b",
+      "theorem_name": "GraphonGames.Stability.proposition_3_1_aggregate_exists_unique",
+      "url": "https://prove2.me/theorems/340d096a-6310-4918-812e-b054e16a263b",
+      "exact_statement": "targets/340d096a-6310-4918-812e-b054e16a263b.json",
+      "proof_type": "prove",
+      "proof_sha256": "5f21b8dcc8262de5efe5fad9d13349626da7d0f550b075b261ee0e570de4d90f",
+      "proof_file": "contributions/queelius/proofs/GraphonGames_Stability_proposition_3_1_aggregate_exists_unique.lean"
+    },
+    {
+      "theorem_id": "725ac376-4945-4056-baa9-1e4e47dc7ff4",
+      "theorem_name": "GraphonGames.Stability.proposition_3_17_unique_equilibrium",
+      "url": "https://prove2.me/theorems/725ac376-4945-4056-baa9-1e4e47dc7ff4",
+      "exact_statement": "targets/725ac376-4945-4056-baa9-1e4e47dc7ff4.json",
+      "proof_type": "prove",
+      "proof_sha256": "4c90f171d54a120cd7dcc883a62ebb3919f508d53f47902578c31378a356cd9b",
+      "proof_file": "contributions/queelius/proofs/GraphonGames_Stability_proposition_3_17_unique_equilibrium.lean"
+    },
+    {
+      "theorem_id": "187bb874-2ff0-45f7-abc5-e2bf44a49a1d",
+      "theorem_name": "GraphonGames.Stability.lemma_3_19_aggregate_graphon_stability",
+      "url": "https://prove2.me/theorems/187bb874-2ff0-45f7-abc5-e2bf44a49a1d",
+      "exact_statement": "targets/187bb874-2ff0-45f7-abc5-e2bf44a49a1d.json",
+      "proof_type": "prove",
+      "proof_sha256": "71091fa40d774f2aa4aeec31a58631bd5fe1854d3d70ca04290a0f905b30ab20",
+      "proof_file": "contributions/queelius/proofs/GraphonGames_Stability_lemma_3_19_aggregate_graphon_stability.lean"
+    }
+  ],
+  "assumptions": {
+    "player_space": "The unit interval with Lebesgue probability measure; profiles are real-valued L2 functions and uniqueness is modulo almost-everywhere equality.",
+    "graphons": "Real-valued symmetric measurable square-integrable kernels, not necessarily [0,1]-valued. The exact extended-real operator norm is proved finite before using its real part.",
+    "action_space": "All real numbers. General constrained action spaces are not covered.",
+    "assumption_1": "c_alpha,c_z >= 0 and the stated squared Lipschitz inequality for b; noise law is a probability measure with finite second moment and zero mean.",
+    "assumption_4": "J is C1 and uniformly strongly convex in the real action with ell_c>0; its action derivative is uniformly Lipschitz in the aggregate with ell_J>=0. For Nash and perturbation statements, J is the exact defined integral cost.",
+    "assumption_5": "Only the fixed-profile graphon-perturbation target additionally assumes c0>0 and |b(a,z)|<=c0 for every a,z.",
+    "aggregate_contraction": "sqrt(c_z)*||W||<1.",
+    "nash_contraction": "(ell_J/ell_c)*sqrt(c_alpha)*||W||/(1-sqrt(c_z)*||W||)<1, in addition to the aggregate contraction.",
+    "perturbation_target": "Both graphons satisfy the aggregate contraction; a single L2 action profile and two exact aggregate witnesses are given. All target hypotheses, including Assumption 4, are retained.",
+    "cost_interface": "Asm4 is imposed directly on the platform-defined Bochner integral cost. A separate integrability assumption on f is not added or inferred.",
+    "stochastic_scope": "IsNash uses the pointwise minimization formulation from source Proposition 3.6. The rich Fubini-extension construction and its equivalence to the broader stochastic model are not formalized here."
+  },
+  "mathematical_source": {
+    "authors": [
+      "René Carmona",
+      "Daniel B. Cooney",
+      "Christy V. Graves",
+      "Mathieu Laurière"
+    ],
+    "title": "Stochastic Graphon Games: I. The Static Case",
+    "year": 2019,
+    "identifier": "arXiv:1911.10664v1",
+    "url": "https://arxiv.org/abs/1911.10664v1",
+    "pdf_url": "https://arxiv.org/pdf/1911.10664v1",
+    "sha256": "c13821ec3661799a142070eef2dfce466f3e497864b05a516e0583c0f7e55ad9",
+    "inspected_scope": "Pinned v1 PDF: Assumptions 1/4/5 and model definitions; Proposition 3.1 (pp.8–9), Lemma 3.7 (pp.11–12), Lemma 3.16 and Proposition 3.17 (p.15), Lemma 3.19 and excluded Theorem 3.20 (p.17), reference [26].",
+    "redistributed": false
+  },
+  "predecessor_credit": [
+    {
+      "authors": [
+        "René Carmona",
+        "Daniel B. Cooney",
+        "Christy V. Graves",
+        "Mathieu Laurière"
+      ],
+      "contribution": "Original graphon-game model and the five established source results; not represented as coauthors or reviewers of this formalization."
+    },
+    {
+      "authors": [
+        "Francesca Parise",
+        "Asuman Ozdaglar"
+      ],
+      "title": "Graphon games",
+      "source": "arXiv:1802.00080 (2018), reference [26] in the pinned Carmona et al. v1 paper.",
+      "contribution": "Carmona et al. identify Lemma 3.7 as an extension of their estimate. This inherited attribution is retained; no independent review of that paper is claimed."
+    },
+    {
+      "username": "mikedeng1",
+      "contribution": "Exact platform definitions, statements and real-action formulation."
+    },
+    {
+      "name": "Shuze Chen",
+      "contribution": "Platform statement confirmation, not review of these submitted proofs."
+    },
+    {
+      "name": "Lean and Mathlib contributors",
+      "contribution": "Kernel, convex analysis, integration, Lp spaces, measure theory, completeness and fixed-point infrastructure."
+    }
+  ],
+  "reuse": [
+    {
+      "target_id": "340d096a-6310-4918-812e-b054e16a263b",
+      "submission_id": "2ea55126-3a32-49a7-a5aa-7dd2c1a7bbc6",
+      "sha256": "5f21b8dcc8262de5efe5fad9d13349626da7d0f550b075b261ee0e570de4d90f",
+      "path": "contributions/queelius/proofs/GraphonGames_Stability_proposition_3_1_aggregate_exists_unique.lean",
+      "adaptation": "Accepted proof bodies retained inline; only top-level solution/axiom print renamed, duplicate imports omitted. Aggregate proof already includes accepted Lemma3.16.",
+      "accepted_download_refreshed_at": "2026-10-21T11:43:24.476339+00:00",
+      "accepted_bytes_match": true,
+      "destination_target_id": "725ac376-4945-4056-baa9-1e4e47dc7ff4"
+    },
+    {
+      "target_id": "d15c5288-19ce-4d45-a1b7-85ba5459e1be",
+      "submission_id": "14733c9c-95c9-488b-ba79-b5307358f5bf",
+      "sha256": "ddb34431bbb03a757007c6f86413407aff7926644e5bc28b3a9edf9d640365c1",
+      "path": "contributions/queelius/proofs/GraphonGames_Stability_lemma_3_7_best_response_lipschitz.lean",
+      "adaptation": "Accepted proof bodies retained inline; only top-level solution/axiom print renamed, duplicate imports omitted. Aggregate proof already includes accepted Lemma3.16.",
+      "accepted_download_refreshed_at": "2026-10-21T11:43:25.300401+00:00",
+      "accepted_bytes_match": true,
+      "destination_target_id": "725ac376-4945-4056-baa9-1e4e47dc7ff4"
+    },
+    {
+      "target_id": "ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+      "submission_id": "940d193b-3bc7-45eb-8ced-d4cefd40379b",
+      "sha256": "d0ba29907b2adfe81cbbc57c82d7398d0efd0bbc756d3e47b460f858f038dbf0",
+      "path": "contributions/queelius/proofs/GraphonGames_Stability_lemma_3_16_aggregate_lipschitz.lean",
+      "transformation": "Top-level solution renamed prior_aggregate_lipschitz; all helper and theorem bodies retained.",
+      "accepted_download_refreshed_at": "2026-10-21T12:35:59.380832+00:00",
+      "accepted_bytes_match": true,
+      "destination_target_id": "187bb874-2ff0-45f7-abc5-e2bf44a49a1d"
+    },
+    {
+      "target_id": "ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+      "destination_target_id": "340d096a-6310-4918-812e-b054e16a263b",
+      "submission_id": "940d193b-3bc7-45eb-8ced-d4cefd40379b",
+      "sha256": "d0ba29907b2adfe81cbbc57c82d7398d0efd0bbc756d3e47b460f858f038dbf0",
+      "adaptation": "Accepted Lemma 3.16 body retained inline; solution renamed prior_aggregate_lipschitz. Its operator and nonlinear L2 lemmas support the contraction construction.",
+      "evidence": "evidence/340d096a-6310-4918-812e-b054e16a263b.json",
+      "accepted_bytes_match": true,
+      "accepted_download_refreshed_at": "2026-10-21T12:59:27.852103+00:00"
+    }
+  ],
+  "human_role": "Alexander Richard Towell directed research, verification standards and publication and maintains the contribution record. Independent human proof review is not claimed.",
+  "ai_assistance": "OpenAI Codex substantially developed, checked, submitted and documented the Lean proofs and prepared the archival packet. AI assistance is not human peer review.",
+  "source_definitions": [
+    {
+      "path": "Definitions/Def_GraphonGames_Existence_Setting.lean",
+      "sha256": "73520b79003687e5e3fb08ec5e7784d59499eb4095a374ba00d66f224b0514e9",
+      "platform_definition_id": "28fdcc29-5acd-4257-882c-9651406b6630",
+      "source": "Carmona, Cooney, Graves & Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1, pp. 3, 8, 10–11, 15, Assumptions 1, 4, 5, (1), (6), (8), Proposition 3.6",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "GraphonGames_Existence_Setting",
+      "created_at": "2026-10-08T16:54:18.295262+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_GraphonGames_Stability_Setting.lean",
+      "sha256": "b8540a5f2b221495d3453c510c446baa5e908f221b0c08632a4f3f623fc84809",
+      "platform_definition_id": "693bdb09-2f19-4669-9f87-b9e764a49691",
+      "source": "Carmona, Cooney, Graves & Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1, pp. 3, 7–11, 15, Assumptions 1, 4, 5, (1), (6), Proposition 3.6",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "GraphonGames_Stability_Setting",
+      "created_at": "2026-10-08T17:44:24.650177+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    }
+  ],
+  "public_disclosures": [
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T08:43:20.689117+00:00",
+      "url": "https://prove2.me/theorems/d15c5288-19ce-4d45-a1b7-85ba5459e1be",
+      "theorem_id": "d15c5288-19ce-4d45-a1b7-85ba5459e1be",
+      "submission_id": "14733c9c-95c9-488b-ba79-b5307358f5bf",
+      "scope": "Exact proof submitted to a public target. The API source download requires authentication; archival publication is a separate event."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T09:48:06.789852+00:00",
+      "url": "https://prove2.me/theorems/ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+      "theorem_id": "ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+      "submission_id": "940d193b-3bc7-45eb-8ced-d4cefd40379b",
+      "scope": "Exact proof submitted to a public target. The API source download requires authentication; archival publication is a separate event."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T10:51:17.579513+00:00",
+      "url": "https://prove2.me/theorems/340d096a-6310-4918-812e-b054e16a263b",
+      "theorem_id": "340d096a-6310-4918-812e-b054e16a263b",
+      "submission_id": "2ea55126-3a32-49a7-a5aa-7dd2c1a7bbc6",
+      "scope": "Exact proof submitted to a public target. The API source download requires authentication; archival publication is a separate event."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T11:43:34.344312+00:00",
+      "url": "https://prove2.me/theorems/725ac376-4945-4056-baa9-1e4e47dc7ff4",
+      "theorem_id": "725ac376-4945-4056-baa9-1e4e47dc7ff4",
+      "submission_id": "6aaddfea-f050-4cee-ae86-79baaef7b9e6",
+      "scope": "Exact proof submitted to a public target. The API source download requires authentication; archival publication is a separate event."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T12:36:16.677992+00:00",
+      "url": "https://prove2.me/theorems/187bb874-2ff0-45f7-abc5-e2bf44a49a1d",
+      "theorem_id": "187bb874-2ff0-45f7-abc5-e2bf44a49a1d",
+      "submission_id": "7b3ad3c3-094f-46ea-98e1-ddbdf1bb3a54",
+      "scope": "Exact proof submitted to a public target. The API source download requires authentication; archival publication is a separate event."
+    }
+  ],
+  "acceptance": [
+    {
+      "theorem_id": "d15c5288-19ce-4d45-a1b7-85ba5459e1be",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T08:44:31.260678+00:00",
+      "submission_id": "14733c9c-95c9-488b-ba79-b5307358f5bf",
+      "observed_at": "2026-10-21T12:59:27.852103+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "ce76698e-a8b9-4274-8ff1-7c66e28eef33",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T09:49:43.22161+00:00",
+      "submission_id": "940d193b-3bc7-45eb-8ced-d4cefd40379b",
+      "observed_at": "2026-10-21T12:59:27.852103+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "340d096a-6310-4918-812e-b054e16a263b",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T10:52:57.413901+00:00",
+      "submission_id": "2ea55126-3a32-49a7-a5aa-7dd2c1a7bbc6",
+      "observed_at": "2026-10-21T12:59:27.852103+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "725ac376-4945-4056-baa9-1e4e47dc7ff4",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T11:44:55.012994+00:00",
+      "submission_id": "6aaddfea-f050-4cee-ae86-79baaef7b9e6",
+      "observed_at": "2026-10-21T12:59:27.852103+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "187bb874-2ff0-45f7-abc5-e2bf44a49a1d",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T12:37:38.707124+00:00",
+      "submission_id": "7b3ad3c3-094f-46ea-98e1-ddbdf1bb3a54",
+      "observed_at": "2026-10-21T12:59:27.852103+00:00",
+      "download_matches_verified_bytes": true
+    }
+  ],
+  "verification": {
+    "lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "autoImplicit": false,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exact_type_audits": true,
+    "open_proof_dependencies": [],
+    "fresh_archive_reproduction": "PASS",
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false,
+    "receipt": "archival-verification.json",
+    "staged_packet_receipt": "archival-verification.json",
+    "rejecting_controls": [
+      "WeakenedTarget1",
+      "WeakenedTarget2",
+      "WeakenedTarget3",
+      "WeakenedTarget4",
+      "ExtraAxiomControl",
+      "WeakenedTarget5",
+      "proof-byte-mutation"
+    ],
+    "staged_packet_verified_at": "2026-10-21T13:06:18.166705+00:00",
+    "staged_packet_reproduction": "PASS",
+    "extracted_archive_reproduction": "PASS",
+    "public_downloads_match": true,
+    "packet_file_count": 92,
+    "publication_receipt": "publication.json"
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23534943",
+    "concept_doi": "10.5281/zenodo.23534942",
+    "archival_status": "published",
+    "readiness": "Five-proof first edition published; all 3 public files and all 92 internal packet files verified.",
+    "record_id": 23534943,
+    "note": "The frozen archive records the reserved state at packaging. The separate publication receipt establishes public availability and final extracted reproduction.",
+    "url": "https://zenodo.org/records/23534943",
+    "publication_date": "2026-10-21",
+    "published_at": "2026-10-21T13:08:37.313762+00:00",
+    "published_at_basis": "Deposition submitted_at or modified timestamp observed after the single publish request. This is an observed server timestamp, not an independently established exact first-public-access instant; publication_date is separate.",
+    "verified_at": "2026-10-21T13:10:02.085364+00:00",
+    "receipt": "publication.json",
+    "doi_resolution_verified": true,
+    "doi_last_checked_at": "2026-10-21T13:10:03.004436+00:00"
+  },
+  "license": "Apache-2.0",
+  "limitations": [
+    "These are formalizations of established source results. No mathematical novelty, exhaustive priority search, source-author endorsement or independent human proof review is claimed.",
+    "Real actions, the exact platform cost definition and almost-everywhere equality delimit the scope. The rich Fubini-extension model and the equivalence in Proposition 3.6 are not proved here.",
+    "Lemma 3.19 changes the graphon while holding the action profile fixed. It is not the full Nash-equilibrium perturbation theorem.",
+    "Theorem 3.20, finite-player approximation, the pointwise estimate (16), and the wider missions are outside this edition. No downstream automatic closure is claimed.",
+    "Internal reuse of accepted proofs is recorded, not counted as extra targets. Historical explanations retain the open/closed status at their own dates.",
+    "Verified pinned third-party compiled caches are trusted inputs; this is not a Lean/Mathlib bootstrap verification."
+  ],
+  "history": [
+    {
+      "at": "2026-10-21T13:02:26.270743+00:00",
+      "version": "1.0.0",
+      "scope": "First coherent archive of five already accepted October 21 formalizations. Archiving adds no accepted target.",
+      "publication_date": "2026-10-21",
+      "version_doi": "10.5281/zenodo.23534943",
+      "publication_receipt": "publication.json"
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "NOTE.md",
+      "bytes": 8739,
+      "sha256": "ad7c1f4b321ed42e6f53087bde4a4044f223e41f6e839e4f14e374f43d3ed800",
+      "download_url": "https://zenodo.org/api/records/23534943/files/NOTE.md/content",
+      "repository_path": "records/graphon-game-equilibrium-formalization/NOTE.md"
+    },
+    {
+      "filename": "graphon-game-equilibrium-formalization-v1.0.0.zip",
+      "bytes": 187721,
+      "sha256": "57fa6a1d6eaa04a00d0b06ef03ed9a484723b2eed926b59a661ae9677829563d",
+      "download_url": "https://zenodo.org/api/records/23534943/files/graphon-game-equilibrium-formalization-v1.0.0.zip/content",
+      "repository_path": "artifacts/graphon-game-equilibrium-formalization-v1.0.0.zip"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1860,
+      "sha256": "e270fbd386631b3e1da5e10590c7353fc52fd5aa69aaccffd8623c1615973815",
+      "download_url": "https://zenodo.org/api/records/23534943/files/CITATION.cff/content",
+      "repository_path": "records/graphon-game-equilibrium-formalization/CITATION.cff"
+    }
+  ]
+}

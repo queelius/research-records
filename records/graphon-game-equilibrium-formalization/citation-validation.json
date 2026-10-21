@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-21T13:07:36.697134+00:00",
+  "schema_url": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json",
+  "schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+  "cff_sha256": "e270fbd386631b3e1da5e10590c7353fc52fd5aa69aaccffd8623c1615973815",
+  "status": "passed",
+  "scope": "Final exact CFF file including reserved DOI."
+}

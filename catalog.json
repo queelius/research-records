@@ -107,6 +107,11 @@
       "id": "family342-exact-torus",
       "metadata": "records/family342-exact-torus/record.json",
       "readme": "records/family342-exact-torus/README.md"
+    },
+    {
+      "id": "graphon-game-equilibrium-formalization",
+      "metadata": "records/graphon-game-equilibrium-formalization/record.json",
+      "readme": "records/graphon-game-equilibrium-formalization/README.md"
     }
   ]
 }

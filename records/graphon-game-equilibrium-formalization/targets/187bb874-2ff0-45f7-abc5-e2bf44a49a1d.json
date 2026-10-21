@@ -1,0 +1,10 @@
+{
+  "theorem_id": "187bb874-2ff0-45f7-abc5-e2bf44a49a1d",
+  "theorem_name": "GraphonGames.Stability.lemma_3_19_aggregate_graphon_stability",
+  "status": "Proved",
+  "formal_statement": "namespace GraphonGames.Stability\n\ntheorem lemma_3_19_aggregate_graphon_stability\n    (b : ℝ → ℝ → ℝ) (f : ℝ → ℝ → ℝ → ℝ)\n    (μ0 : Measure ℝ) (cα cz ℓc ℓJ c0 : ℝ)\n    (h1 : GraphonGames.Existence.Asm1 b μ0 cα cz)\n    (h4 : GraphonGames.Existence.Asm4 (GraphonGames.Existence.cost b f μ0) ℓc ℓJ)\n    (h5 : GraphonGames.Existence.Asm5 b c0)\n    (w w' : I → I → ℝ) (hw : IsGraphon w) (hw' : IsGraphon w')\n    (hW : Real.sqrt cz * (opNorm w).toReal < 1)\n    (hW' : Real.sqrt cz * (opNorm w').toReal < 1)\n    (α : I → ℝ) (hα : MemLp α 2 volume)\n    (z z' : I → ℝ) (hz : IsAggregate w b α z)\n    (hz' : IsAggregate w' b α z') :\n    eLpNorm (z - z') 2 volume ≤\n      ENNReal.ofReal\n        (c0 / (1 - Real.sqrt cz * (opNorm w).toReal)) *\n        opNorm (w - w') := by sorry\n\nend GraphonGames.Stability\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_GraphonGames_Stability_Setting\n\nopen MeasureTheory\nopen scoped ENNReal",
+  "source": "Carmona, Cooney, Graves & Laurière, Stochastic Graphon Games: I. The Static Case, arXiv:1911.10664v1, p. 17, Lemma 3.19",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

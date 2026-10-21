@@ -38,6 +38,15 @@ publication metadata or handoff.
 
 ## Records
 
+- [Graphon aggregates, Nash equilibria and fixed-profile perturbations](records/graphon-game-equilibrium-formalization/README.md).
+  Five complete Lean formalizations of Carmona–Cooney–Graves–Laurière results,
+  including aggregate and Nash existence/uniqueness under the stated contractions.
+  The [version 1.0.0 archive](https://zenodo.org/records/23534943) includes accepted sources,
+  two platform definitions, exact audits and seven rejecting controls. All
+  92 internal files are verified; its DOI resolves. Original mathematics,
+  the Parise–Ozdaglar predecessor estimate, platform contributors and Lean/Mathlib
+  retain specific credit. Full equilibrium perturbation remains outside this edition.
+
 - [Exact all-parameter algebra for the four-torus cone example](records/family342-exact-torus/README.md).
   Independent exact identities, written positivity and a direct amplitude corollary;
   OpenAI and Pico credited, review pending.

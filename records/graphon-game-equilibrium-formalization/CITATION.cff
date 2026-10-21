@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Cite this exact version for the formalization and Carmona, Cooney, Graves and Laurière for the original results; preserve the Parise–Ozdaglar predecessor credit."
+title: "Verified graphon-game aggregates, Nash equilibria and fixed-profile perturbation bounds"
+type: dataset
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+date-released: 2026-10-21
+url: "https://github.com/queelius/research-records/tree/main/records/graphon-game-equilibrium-formalization"
+license: Apache-2.0
+abstract: "Five complete Lean formalizations: best-response and aggregate-profile sensitivity, aggregate existence and uniqueness, Nash existence and uniqueness under a contraction condition, and fixed-profile aggregate perturbations. Includes exact-type and axiom audits, pinned reproduction, credits and rejecting controls. Full equilibrium perturbation remains open. Substantial Codex assistance is disclosed; mathematical novelty and human peer review are not claimed."
+references:
+  - type: article
+    title: "Stochastic Graphon Games: I. The Static Case"
+    authors:
+      - family-names: Carmona
+        given-names: René
+      - family-names: Cooney
+        given-names: Daniel B.
+      - family-names: Graves
+        given-names: Christy V.
+      - family-names: Laurière
+        given-names: Mathieu
+    year: 2019
+    url: "https://arxiv.org/abs/1911.10664v1"
+  - type: article
+    title: "Graphon games"
+    authors:
+      - family-names: Parise
+        given-names: Francesca
+      - family-names: Ozdaglar
+        given-names: Asuman
+    year: 2018
+    url: "https://arxiv.org/abs/1802.00080"
+    notes: "Predecessor estimate credited by Carmona et al., reference [26]; not independently reviewed for this packet."
+doi: "10.5281/zenodo.23534943"

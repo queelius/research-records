@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "record_id": 23534943,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23534943",
+  "concept_doi": "10.5281/zenodo.23534942",
+  "url": "https://zenodo.org/records/23534943",
+  "state": "published",
+  "published_at": "2026-10-21T13:08:37.313762+00:00",
+  "verified_at": "2026-10-21T13:10:02.085364+00:00",
+  "public_metadata_http_status": 200,
+  "public_metadata_authenticated": false,
+  "all_public_downloads_match": true,
+  "files": [
+    {
+      "filename": "NOTE.md",
+      "bytes": 8739,
+      "sha256": "ad7c1f4b321ed42e6f53087bde4a4044f223e41f6e839e4f14e374f43d3ed800",
+      "download_url": "https://zenodo.org/api/records/23534943/files/NOTE.md/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "graphon-game-equilibrium-formalization-v1.0.0.zip",
+      "bytes": 187721,
+      "sha256": "57fa6a1d6eaa04a00d0b06ef03ed9a484723b2eed926b59a661ae9677829563d",
+      "download_url": "https://zenodo.org/api/records/23534943/files/graphon-game-equilibrium-formalization-v1.0.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1860,
+      "sha256": "e270fbd386631b3e1da5e10590c7353fc52fd5aa69aaccffd8623c1615973815",
+      "download_url": "https://zenodo.org/api/records/23534943/files/CITATION.cff/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "packet_manifest_sha256": "b65ce868114805dc0d1a8cf456aef1f88f536b23b9e916a3ce7adb3cbf36612d",
+  "packet_file_count": 92,
+  "all_packet_files_verified": true,
+  "archive_rebuild_byte_identical": true,
+  "reproduction": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 5,
+    "definitions": 2,
+    "exact_target_audits": true,
+    "rejection_controls": 7
+  },
+  "note": "Publication date is distinct from original October21 public proof submissions. The frozen packet records its reserved state at assembly; this receipt establishes publication.",
+  "metadata_verification": {
+    "checked_at": "2026-10-21T13:10:49.032863+00:00",
+    "fields_match_inspected_draft": [
+      "title",
+      "version",
+      "description",
+      "creators",
+      "keywords",
+      "related_identifiers",
+      "notes",
+      "publication_date"
+    ],
+    "resource_type": "publication/technicalnote",
+    "license": "apache2.0",
+    "access": "open",
+    "language": "eng",
+    "public_metadata_sha256": "91f163a62ed33da89ad839ac30001ca4598e187a48379d4e7feb5e1d9062d626"
+  },
+  "publication_date": "2026-10-21",
+  "published_at_basis": "Deposition submitted_at or modified timestamp observed after the single publish request. This is an observed server timestamp, not an independently established exact first-public-access instant; publication_date is separate."
+}
