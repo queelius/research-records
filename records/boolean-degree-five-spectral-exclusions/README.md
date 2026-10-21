@@ -25,7 +25,8 @@ the 667 MB evidence archive, were downloaded without authentication and
 verified by SHA-256. Zenodo version **1.0.0** was published on **20 October
 2026**, at 12:57:08 UTC, with DOI
 [10.5281/zenodo.23496542](https://doi.org/10.5281/zenodo.23496542).
-Cite that exact archived version using the citation metadata here.
+That exact archived version remains available for the ten exclusions alone.
+The current citation metadata points to version 1.1.0, described below.
 All 48 public files were downloaded without authentication and verified by
 SHA-256. Concatenating the 40 archive parts reproduced the original
 667,127,632-byte archive exactly. The linked publication receipt records
@@ -65,8 +66,14 @@ and Fourier coefficients, with 12 normal and 12 optimized controls.
 
 All 25 changed source files were publicly verified on **21 October 2026** at
 commit `b954f03228c9e5637b4d12b469376a418dabccb4`; [the receipt](SINGLETON-SOURCE.json) records their hashes.
-Cite that exact source commit for this supplement. **The v1.0.0 DOI above does
-not archive it.** A successor within the existing archive family is pending.
+The supplement is now archived in version **1.1.0**,
+[10.5281/zenodo.23533427](https://doi.org/10.5281/zenodo.23533427), published
+on 21 October 2026. All 52 files were downloaded without authentication and verified
+by SHA-256 and MD5; the retained 40 legacy parts reassemble to the original archive.
+[The public verification receipt](PUBLIC-ZENODO-v1.1.0.json) records exact hashes.
+The v1.0.0 DOI above does not archive this supplement. The frozen supplement
+keeps its original pre-archive citation text; use the current citation here.
+Version 1.1.0 does not include the later ell3 catalog or subsequent G25 research.
 The original fourteen-variable problem remains open. This is a component
 lemma with written proof, exact finite evidence and AI review; no formal
 verification, human peer review, external acceptance or novelty is claimed.

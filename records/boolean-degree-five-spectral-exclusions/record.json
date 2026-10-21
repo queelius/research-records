@@ -105,9 +105,9 @@
   },
   "publication": {
     "state": "published_archive_public_downloads_verified",
-    "version_doi": "10.5281/zenodo.23496542",
+    "version_doi": "10.5281/zenodo.23533427",
     "concept_doi": "10.5281/zenodo.23496541",
-    "archive_publication_date": "2026-10-20",
+    "archive_publication_date": "2026-10-21",
     "journal_submission": null,
     "preprint_submission": null,
     "human_peer_review": "not claimed",
@@ -130,21 +130,45 @@
         "sha256": "944e4e2db0e2313503917f3bf55fe9b6aaedf00059f0be50906e13a1fa9107f8"
       }
     },
-    "zenodo_status": "Published; public metadata, all 48 unauthenticated file downloads, and the reassembled archive are verified.",
+    "zenodo_status": "Published; all52 anonymous public file downloads and reassembled legacy archive verified.",
     "zenodo_archive": {
-      "record_url": "https://zenodo.org/records/23496542",
-      "version": "1.0.0",
-      "created_at": "2026-10-20T12:57:08.952880+00:00",
-      "public_asset_count": 48,
+      "record_url": "https://zenodo.org/records/23533427",
+      "version": "1.1.0",
+      "created_at": "2026-10-21T12:02:46.335006+00:00",
+      "public_asset_count": 52,
       "public_download_verification": "COMPLETE",
-      "verification_receipt": {
-        "path": "PUBLIC-ZENODO.json",
-        "sha256": "da08fc86cfee43aa2d42baaf4fd2448ea7318160b5c5caf0f9afe9acd8155e74"
-      },
-      "verified_at": "2026-10-20T14:05:28.797934+00:00",
+      "verified_at": "2026-10-21T13:16:27.004319+00:00",
       "all_public_downloads_match_sha256": true,
-      "reassembled_public_parts_match_original_archive": true
-    }
+      "reassembled_public_parts_match_original_archive": true,
+      "source_commit": "b954f03228c9e5637b4d12b469376a418dabccb4",
+      "scope": "Ten earlier conditional geometry34 exclusions, plus the standalone ten-coordinate ell2 singleton classification. No ell3 catalog or later G25 progress is archived.",
+      "verification_receipt": {
+        "path": "PUBLIC-ZENODO-v1.1.0.json",
+        "sha256": "4f6e9557180d47e96c77f8d73e6c0cb1221e8b0d00d2dc3e8a4bd467d5b8fd2f"
+      }
+    },
+    "prior_archived_versions": [
+      {
+        "version": "1.0.0",
+        "version_doi": "10.5281/zenodo.23496542",
+        "archive_publication_date": "2026-10-20",
+        "zenodo_archive": {
+          "record_url": "https://zenodo.org/records/23496542",
+          "version": "1.0.0",
+          "created_at": "2026-10-20T12:57:08.952880+00:00",
+          "public_asset_count": 48,
+          "public_download_verification": "COMPLETE",
+          "verification_receipt": {
+            "path": "PUBLIC-ZENODO.json",
+            "sha256": "da08fc86cfee43aa2d42baaf4fd2448ea7318160b5c5caf0f9afe9acd8155e74"
+          },
+          "verified_at": "2026-10-20T14:05:28.797934+00:00",
+          "all_public_downloads_match_sha256": true,
+          "reassembled_public_parts_match_original_archive": true
+        },
+        "scope": "Ten conditional geometry34 exclusions only; singleton supplement not included."
+      }
+    ]
   },
   "license": {
     "original_code": "MIT",
@@ -198,10 +222,16 @@
         "public_download_receipt": "SINGLETON-SOURCE.json"
       },
       "publication": {
-        "state": "public_source_exact_commit_citable_archive_pending",
-        "version_doi": null,
-        "existing_doi_does_not_archive_this_supplement": true,
-        "candidate_existing_concept_doi": "10.5281/zenodo.23496541",
+        "state": "published_archive_public_downloads_verified",
+        "version": "1.1.0",
+        "version_doi": "10.5281/zenodo.23533427",
+        "concept_doi": "10.5281/zenodo.23496541",
+        "archive_publication_date": "2026-10-21",
+        "record_url": "https://zenodo.org/records/23533427",
+        "all_public_downloads_verified": true,
+        "public_asset_count": 52,
+        "earlier_version_doi": "10.5281/zenodo.23496542",
+        "earlier_version_archives_this_supplement": false,
         "journal_submission": null,
         "preprint_server_submission": null
       },
