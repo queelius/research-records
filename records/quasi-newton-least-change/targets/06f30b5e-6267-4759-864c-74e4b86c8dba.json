@@ -1,0 +1,10 @@
+{
+  "theorem_id": "06f30b5e-6267-4759-864c-74e4b86c8dba",
+  "theorem_name": "VarStorageQN.LeastChange.proposition_A2",
+  "status": "Proved",
+  "formal_statement": "namespace VarStorageQN.LeastChange\n\nopen InnerProductSpace ContinuousLinearMap\nopen scoped InnerProductSpace\n\nvariable {H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℝ H] [CompleteSpace H]\n\n/-- Proposition A.2, p. 28: the unique minimizer of (A.6), despite its (A.5) misprint. -/\ntheorem proposition_A2 {ι : Type*} (b : HilbertBasis ι ℝ H) (B : H →L[ℝ] H)\n    (hB : IsSelfAdjoint B) (R : H ≃L[ℝ] H) (y s : H) (hs : s ≠ 0) :\n    let c := weight R s\n    let r := y - B s\n    let Pc : H →L[ℝ] H :=\n      (⟪c, s⟫_ℝ)⁻¹ • (bracket r c + bracket c r) -\n        (⟪r, s⟫_ℝ / ⟪c, s⟫_ℝ ^ 2) • bracket c c\n    let obj : (H →L[ℝ] H) → ℝ :=\n      fun P => hsNorm b (adjoint (R : H →L[ℝ] H) ∘L P ∘L (R : H →L[ℝ] H))\n    Pc ∈ FeasSym b B y s ∧\n      (∀ P ∈ FeasSym b B y s, obj Pc ≤ obj P) ∧\n      (∀ P ∈ FeasSym b B y s, (∀ Q ∈ FeasSym b B y s, obj P ≤ obj Q) → P = Pc) := by sorry\n\nend VarStorageQN.LeastChange\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_VarStorageQN_LeastChange_HilbertSchmidt\nimport Definitions.Def_VarStorageQN_LeastChange_Bracket\nimport Definitions.Def_VarStorageQN_LeastChange_SecantProblem",
+  "source": "Gilbert & Lemaréchal, Some numerical experiments with variable-storage quasi-Newton algorithms, IIASA Working Paper WP-88-121 (August 1988), p. 28, Proposition A.2, (A.6)–(A.7)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "record_id": 23541281,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23541281",
+  "concept_doi": "10.5281/zenodo.23541280",
+  "url": "https://zenodo.org/records/23541281",
+  "state": "published",
+  "published_at": "2026-10-21T18:20:44.310702+00:00",
+  "verified_at": "2026-10-21T18:21:30.484471+00:00",
+  "public_metadata_http_status": 200,
+  "public_metadata_authenticated": false,
+  "all_public_downloads_match": true,
+  "files": [
+    {
+      "filename": "quasi-newton-least-change-v1.0.0.zip",
+      "bytes": 139884,
+      "sha256": "6f8d1f9117865cddbee2770626009dd4126ba1aab164c34e3538f74f1ba767bc",
+      "download_url": "https://zenodo.org/api/records/23541281/files/quasi-newton-least-change-v1.0.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 8148,
+      "sha256": "bdacf2b473779a17c3f33d8c3425dfef3c563cb09f10c130270124f13bc441b4",
+      "download_url": "https://zenodo.org/api/records/23541281/files/NOTE.md/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1855,
+      "sha256": "606135f2912031af46b9f6c8aef931fddd8a225e41cb40a8a4958747f7ad7b2d",
+      "download_url": "https://zenodo.org/api/records/23541281/files/CITATION.cff/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    }
+  ],
+  "packet_manifest_sha256": "e7b2eece6f28d349bb861bd50a038a6eab4dcb2e88df427a82bc51107da08994",
+  "packet_file_count": 66,
+  "all_packet_files_verified": true,
+  "archive_rebuild_byte_identical": true,
+  "reproduction": {
+    "staged_status": "passed",
+    "extracted_status": "passed",
+    "targets": 2,
+    "definitions": 3,
+    "exact_target_audits": true,
+    "rejection_controls": 4
+  },
+  "note": "Publication date is distinct from original October21 public proof submissions. The frozen packet records its reserved state at assembly; this receipt establishes publication.",
+  "publication_date": "2026-10-21",
+  "published_at_basis": "Deposition submitted_at or modified timestamp observed after the single publish request. This is an observed server timestamp, not an independently established exact first-public-access instant; publication_date is separate."
+}

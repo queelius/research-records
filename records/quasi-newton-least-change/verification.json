@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-21T18:21:30.484471+00:00",
+  "scope": "Two complete accepted target signatures reproduced from staged and final extracted packets; four deliberately invalid controls rejected. This is not fresh compilation of the entire historical ledger.",
+  "archival_receipt": "archival-verification.json",
+  "publication_receipt": "publication.json",
+  "metadata_validation": "metadata-validation.json",
+  "citation_validation": "citation-validation.json",
+  "staged_reproduction": "PASS",
+  "final_extracted_reproduction": "PASS",
+  "all_public_downloads_match": true,
+  "packet_file_count": 66,
+  "human_peer_review": false
+}

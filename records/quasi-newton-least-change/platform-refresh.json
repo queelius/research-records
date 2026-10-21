@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-10-21T18:10:17.654131+00:00",
+  "api_contract": "0.13.2",
+  "targets": [
+    {
+      "theorem_id": "06f30b5e-6267-4759-864c-74e4b86c8dba",
+      "submission_id": "1ffc0fbe-1fed-43bf-986a-989e03cad315",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T17:29:17.27459+00:00",
+      "submitted_at": "2026-10-21T17:27:24.338614+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "fd2cfd189933f2c4a48dd4a9855b64ca6314cabb635ec298005e04abb3e0f610",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T06:47:09.929581+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "f42691e8-f3c5-4451-832d-53fbb124c64b",
+      "submission_id": "5aa7177e-b724-4ec7-817d-bcc87afebedc",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T17:30:43.851137+00:00",
+      "submitted_at": "2026-10-21T17:29:13.845389+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "83e43ff647b36b34c8c3b508128b4faf762586c11fce7741d5c5f963bc12ebf8",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T06:47:18.715963+00:00",
+      "visibility": "public"
+    }
+  ],
+  "definitions": [
+    {
+      "path": "Definitions/Def_VarStorageQN_LeastChange_HilbertSchmidt.lean",
+      "sha256": "66e0d4cafb089f41fc588724b628740e10c44ff6e26a5b4b624a26138d2549e4",
+      "platform_definition_id": "c79b59de-9e44-4bad-a730-d7995d910965",
+      "source": "Gilbert & Lemaréchal, Some numerical experiments with variable-storage quasi-Newton algorithms, IIASA Working Paper WP-88-121 (August 1988), p. 26, Annex, (A.1) and paragraph after (A.1)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "VarStorageQN_LeastChange_HilbertSchmidt",
+      "created_at": "2026-10-08T06:45:47.730617+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_VarStorageQN_LeastChange_Bracket.lean",
+      "sha256": "c694cf244f3e7804c292bddd2abef02b0f6101866a5ba435f66c581fcd3325c4",
+      "platform_definition_id": "118b5857-a07c-440a-8c69-3aa0eef4ca01",
+      "source": "Gilbert & Lemaréchal, Some numerical experiments with variable-storage quasi-Newton algorithms, IIASA Working Paper WP-88-121 (August 1988), p. 3, §2.1",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "VarStorageQN_LeastChange_Bracket",
+      "created_at": "2026-10-08T06:45:49.962367+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_VarStorageQN_LeastChange_SecantProblem.lean",
+      "sha256": "1a309e901d4e035afdf68aa15c2b746f2e6f9d20da6c6d66055481c517ef3526",
+      "platform_definition_id": "fa27101e-581c-4eda-9f5b-d91f605ea7a5",
+      "source": "Gilbert & Lemaréchal, Some numerical experiments with variable-storage quasi-Newton algorithms, IIASA Working Paper WP-88-121 (August 1988), pp. 27–28, Annex, Π, (A.4), Π_S, (A.6), and Proposition A.2",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "VarStorageQN_LeastChange_SecantProblem",
+      "created_at": "2026-10-08T06:46:29.75731+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    }
+  ],
+  "discussions": {
+    "mission_id": "9c9e6222-d838-4ea4-964b-398fa9d8be3d",
+    "comments_read": 0,
+    "pagination_complete": true,
+    "target_mentions_read": 0
+  },
+  "terms": {
+    "url": "https://prove2.me/terms",
+    "effective_at": "2026-09-24T15:55:00+00:00",
+    "checked_on": "2026-10-21",
+    "public_contributions_license": "Apache-2.0"
+  }
+}

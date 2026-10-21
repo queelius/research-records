@@ -1,0 +1,63 @@
+{
+  "title": "Verified weighted Hilbert–Schmidt least-change updates and the DFP specialization",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>The displayed self-adjoint Hilbert–Schmidt secant perturbation uniquely minimizes the weighted Hilbert–Schmidt norm over all feasible perturbations on an arbitrary complete real inner-product space. Under the exact supplied invertible factor C and positive curvature, its weight is y and the DFP perturbation has the same feasibility, global minimality and uniqueness properties.</p>\n<p>The new formal work transports the accepted PSB minimizer through the invertible congruence E(P)=R*PR, proves the required Hilbert–Schmidt summability, matches the displayed candidate, and transfers global minimality and uniqueness back to the original secant problem. The DFP specialization verifies the weight identity and applies that implementation.</p>\n<p>Exact hypotheses: Complete real inner-product space H; any Hilbert basis b with arbitrary index type. No finite-dimensional or separability restriction. B : H →L[ℝ] H is self-adjoint. No positivity assumption is added. R : H ≃L[ℝ] H is a continuous linear equivalence; c = adjoint(R.symm)(R.symm s). y is arbitrary and s ≠ 0 for Proposition A.2. P is Hilbert–Schmidt relative to b, self-adjoint, and (B+P)s=y. hsNorm b (adjoint R ∘L P ∘L R); the proof establishes the required summability rather than relying on the nonsummable tsum default. 0 &lt; ⟨y,s⟩ and a supplied continuous linear equivalence C with y=adjoint(C)(C s). R=C.symm; factor existence is outside this target.</p>\n<p>Original mathematics: Jean Charles Gilbert and Claude Lemaréchal, Some Numerical Experiments with Variable Storage Quasi-Newton Algorithms, IIASA WP-88-121 (August 1988), pp. 28–30, Proposition A.2 and equations (A.6)–(A.8). Their attribution to Dennis and Moré (1977) is retained; that predecessor text was not independently audited. The exact IIASA PDF was inspected and hashed; papers are cited, not redistributed.</p>\n<p>vebis supplied the accepted PSB proof and two Hilbert–Schmidt ideal-property lemma bodies. Exact original sources, target/submission IDs, hashes and transformations are preserved. The DFP file also embeds the newly accepted weighted implementation. Reused results are not counted as additional contributions. mikedeng1 supplied the platform formulation and its existing equation-reference repair; Shuze Chen’s prior statement confirmation is distinct from review of these proofs. Lean and Mathlib retain foundational credit.</p>\n<p>The packet includes two unchanged accepted proof files, three exact platform definitions, complete target audits, pinned Lean 4.33.1 and Mathlib 0df444a360eaa60ab8c11dca51a86af692955474, the unchanged archive verifier, fresh replay logs and four rejecting controls. These check unsupported added hypotheses in both interfaces, an unused forbidden local axiom and altered proof bytes. Checks disable autoImplicit and permit only propext, Classical.choice and Quot.sound. Verified third-party compiled caches are trusted inputs.</p>\n<p>Alexander Richard Towell directed the research, verification standards and publication and stewards the archive. Independent human proof review is not claimed. OpenAI Codex substantially constructed, formalized, checked, submitted and documented the proofs and assembled this packet. AI assistance is not human peer review.</p>\n<p>Limits: Formalization of established mathematics; no novelty, exhaustive priority search, source-author endorsement or independent human proof review claimed. Positive definiteness of the updated operator, existence of the DFP factor, BFGS equivalence and algorithm convergence are outside these two target claims. The DFP target supplies an invertible C. This artifact does not replace it with an unproved existence assertion. The source equation-number correction was already in the platform statement; it is not a new repair by this contribution. Reused vebis work and existing community mission results are not additional contributions counted in this edition. Verified pinned third-party compiled caches are trusted inputs; no Lean/Mathlib bootstrap verification.</p>\n<p>Original public proof submissions and acceptances occurred on 21 October 2026 and are individually timestamped in the record. This archival publication is a separate event and adds no accepted target. A DOI supplies a persistent citation, not mathematical novelty or human peer review.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "quasi-Newton methods",
+    "DFP update",
+    "symmetric secant updates",
+    "Hilbert–Schmidt operators",
+    "least-change principle",
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "reproducible proofs",
+    "AI-assisted research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://pure.iiasa.ac.at/id/eprint/3085/1/WP-88-121.pdf",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/quasi-newton-least-change",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/06f30b5e-6267-4759-864c-74e4b86c8dba",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/f42691e8-f3c5-4451-832d-53fbb124c64b",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/5881ae22-43d3-4310-b6ff-814baed1b99d",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/1162708d-6470-444f-b7c6-cd398fef3176",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Two accepted formalizations of established results. Prior mathematical and formal contributors are credited separately, not represented as coauthors or reviewers. Exact hypotheses and source-version limitations are explicit."
+}

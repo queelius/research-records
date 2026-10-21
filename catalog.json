@@ -117,6 +117,11 @@
       "id": "family190-matching-repair",
       "metadata": "records/family190-matching-repair/record.json",
       "readme": "records/family190-matching-repair/README.md"
+    },
+    {
+      "id": "quasi-newton-least-change",
+      "metadata": "records/quasi-newton-least-change/record.json",
+      "readme": "records/quasi-newton-least-change/README.md"
     }
   ]
 }

@@ -38,6 +38,15 @@ publication metadata or handoff.
 
 ## Records
 
+- [Weighted Hilbert–Schmidt least-change updates and DFP](records/quasi-newton-least-change/README.md).
+  Two complete Lean formalizations characterize the unique weighted secant
+  perturbation and its DFP specialization under the supplied invertible factor.
+  The [version 1.0.0 archive](https://zenodo.org/records/23541281) includes exact proofs,
+  three definitions, original vebis sources, full-type audits and four rejecting
+  controls. Gilbert–Lemaréchal and Dennis–Moré mathematics, community proofs
+  and substantial Codex assistance are separately credited. Factor existence,
+  updated-operator positivity and algorithm convergence are outside this edition.
+
 - [A matching repair for the ordered binary matrix construction](records/family190-matching-repair/README.md).
   Written all-depth repair and independently certified depth-one optimum four;
   source lower bound retained for unrestricted sharpness. [PR16](https://github.com/piiiico/openai-math-counterexamples/pull/16), [v1.0.0 DOI](https://doi.org/10.5281/zenodo.23541166).
