@@ -14,7 +14,7 @@
   "ai_assistance": "Substantial OpenAI Codex assistance in planning, source inspection, code, tests, calculation, drafting, fresh AI review and publication preparation. AI review is not human peer review.",
   "claim": "The fixed 1,163-row HARV2020 derivative contains 536/540 represented standard unit-minute strata and 34 incidental rows. Actual R key expressions preserve the documented key on synthetic schemas. Constructive source histories demonstrate that final unique derived rows do not identify original multiplicity or attempted-survey denominators.",
   "sources": {
-    "owning_project": "discovery/projects/biological-observations",
+    "owning_project": "discovery/archive/codex-2026-10/projects/biological-observations",
     "canonical_source_archive": "https://zenodo.org/api/records/23496031/files/survey-structure-audit-v1.0.0.tar.gz/content",
     "archive_sha256": "3fc34cb13e4da35fc0df2d3cc854732fd8611298b13dd4231a19ddfbf2aa49cc",
     "source_git_commit": null,
