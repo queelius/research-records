@@ -181,17 +181,13 @@ publication metadata or handoff.
   Written proof of the sharp integer constant 1, exact checks, and a conditional
   M ≤ 49 consequence. Upstream review remains pending; the complete dimension
   threshold is unchanged. [Archived version](https://doi.org/10.5281/zenodo.23497476).
-- [Exact spectral exclusions for degree-five Boolean candidates](records/boolean-degree-five-spectral-exclusions/README.md).
-  Ten conditional cases excluded by exact integer certificates and isolated
-  replay. The 14-variable existence problem remains open. Source and the
-  complete versioned evidence packet are public.
-  The [version 1.3.0 archive](https://doi.org/10.5281/zenodo.23539867) retains
-  the earlier exclusions and singleton classifications and adds the positive-locality
-  G124 graph lemma and minimum-six-repair corollary, relative to Markström–Talbot's
-  published 75-class count. Four new files and both public-archive proof replays
-  are verified; 56 retained entries passed earlier-body rehash and successor MD5/size
-  continuity. The Boolean application has additional unbundled premises; later
-  research is outside this archive. Earlier version/disclosure records remain intact.
+- [Exact spectral exclusions and residual-six lemmas for degree-five Boolean candidates](records/boolean-degree-five-spectral-exclusions/README.md).
+  The [version 1.4.0 archive](https://doi.org/10.5281/zenodo.23544931) retains
+  earlier conditional exclusions, singleton classifications and graph locality,
+  and adds derivative/disk proofs giving a conditional support-union bound of 12
+  at residual defect at most 6. All 65 exact public file bodies and the new
+  public tar's normal/optimized replays pass. Older premises remain explicit;
+  the full Boolean application is not self-contained and the existence problem is open.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "status": "ACTUAL_FRESH_PUBLIC_TAR_EXTRACTED_NORMAL_AND_OPTIMIZED_UNITS_AND_COMPLETE_REPLAYS_PASSED",
+  "version_doi": "10.5281/zenodo.23544931",
+  "public_tar": {
+    "name": "residual-six-v1.4.0.tar.gz",
+    "bytes": 960769,
+    "sha256": "a813103289f285d259345d06f800e7d2de5873eeb00fc18f81766b7572669c5f",
+    "md5": "e06187ac1f83b24b42b7d32091ff9d9e",
+    "public_url": "https://zenodo.org/api/records/23544931/files/residual-six-v1.4.0.tar.gz/content",
+    "HTTP_status": 200,
+    "Range_header_sent": false,
+    "literal_staged_tar_identity": true
+  },
+  "operations": [
+    {
+      "mode": "normal",
+      "action": "units",
+      "exit_code": 0,
+      "wall_seconds": 1.5171133410185575,
+      "PYTHONPATH_unset": true,
+      "python_S": true,
+      "log_sha256": "a8770d48d5bc1f12d9eda428cb6f71ee58f40b0b7e5eb46854f3d999a46217c8",
+      "controls_passed": 16
+    },
+    {
+      "mode": "normal",
+      "action": "replay",
+      "exit_code": 0,
+      "wall_seconds": 1.2163043121108785,
+      "PYTHONPATH_unset": true,
+      "python_S": true,
+      "log_sha256": "90013c93fcdf05ee69b7c00eca62916a90b35a1ca0ea155265d6c74305bee8b7",
+      "result_sha256": "6f2aceac9fb95013e26505be62d29369281c6f1e65cdcc309262bd20d3d7eb1f",
+      "result": {
+        "allocations": 61,
+        "common_core_Boolean_words": 256,
+        "conditional_negative_union_bound": 12,
+        "cpu_seconds": 1.140202718,
+        "endpoint_heptagon_triangulations": 42,
+        "files_checked": 180,
+        "four_offcycle_word_combinations": 1296,
+        "full_Boolean_application_self_contained": false,
+        "global_goal_complete": false,
+        "incidence_cases": 54411,
+        "inherited_local_theorems_replayed": false,
+        "new_kernel_source_AST_checks": {
+          "definitions": 55,
+          "sources": 4
+        },
+        "old_graph_classifications_replayed": false,
+        "publication_state_not_proved_by_math_replay": true,
+        "rooted_polygon_ear_checks": 414,
+        "schema_version": 2,
+        "status": "PORTABLE_RESIDUAL6_UNION_BOUNDS_CONDITIONAL_PROOFS_AND_CONTROLS_PASS"
+      }
+    },
+    {
+      "mode": "optimized",
+      "action": "units",
+      "exit_code": 0,
+      "wall_seconds": 1.5168299690121785,
+      "PYTHONPATH_unset": true,
+      "python_S": true,
+      "log_sha256": "f6a55b865b29511fa5a3f0dca4db0085ae801d15eaa4e7e193f3f0e35fb40eb2",
+      "controls_passed": 16
+    },
+    {
+      "mode": "optimized",
+      "action": "replay",
+      "exit_code": 0,
+      "wall_seconds": 1.2162903619464487,
+      "PYTHONPATH_unset": true,
+      "python_S": true,
+      "log_sha256": "7ab802fe098d5ea05d2cfdca781ecd6c9b36a6a5def06227b7fa52907078361d",
+      "result_sha256": "31510fb8eda05904385f28ee384e090d6e71b47aab572859e39de486b2a40a3f",
+      "result": {
+        "allocations": 61,
+        "common_core_Boolean_words": 256,
+        "conditional_negative_union_bound": 12,
+        "cpu_seconds": 1.1494711139999998,
+        "endpoint_heptagon_triangulations": 42,
+        "files_checked": 180,
+        "four_offcycle_word_combinations": 1296,
+        "full_Boolean_application_self_contained": false,
+        "global_goal_complete": false,
+        "incidence_cases": 54411,
+        "inherited_local_theorems_replayed": false,
+        "new_kernel_source_AST_checks": {
+          "definitions": 55,
+          "sources": 4
+        },
+        "old_graph_classifications_replayed": false,
+        "publication_state_not_proved_by_math_replay": true,
+        "rooted_polygon_ear_checks": 414,
+        "schema_version": 2,
+        "status": "PORTABLE_RESIDUAL6_UNION_BOUNDS_CONDITIONAL_PROOFS_AND_CONTROLS_PASS"
+      }
+    }
+  ],
+  "network_isolation_enforced": false,
+  "inherited_local_theorems_and_graph_classifications_replayed": false,
+  "full_Boolean_application_self_contained": false,
+  "global_goal_complete": false
+}
