@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "hog-witness-ledger",
+  "title": "House of Graphs witness ledger",
+  "author": {
+    "name": "Alexander Richard Towell",
+    "orcid": "0000-0001-6443-9897"
+  },
+  "contribution": {
+    "claim": "A verified, citable collection of 26 House of Graphs witness graphs, each stored byte-exact as graph6 and accepted only when two implementations that share no code verify its defining property.",
+    "records_by_claim_kind": {
+      "unassessed": 8,
+      "known_value": 10,
+      "correction": 1,
+      "new_classification": 1,
+      "new_value": 6
+    },
+    "records_by_family": {
+      "cycle_saturation": 15,
+      "clique_saturation": 3,
+      "path_saturation": 5,
+      "ordered_bipartite": 3
+    },
+    "scope": "Each record states its own claim kind and dated prior art; the ledger itself asserts verification of the witnesses, not novelty. Witnesses establish attainment; exact values rest on the lower-bound evidence in each record's cited archive."
+  },
+  "source": {
+    "owning_project": "hog-contrib",
+    "repository": "https://github.com/queelius/hog-contrib",
+    "repository_access": "public since 2026-10-21",
+    "tag": "v1.0.0",
+    "commit": "56220686bf69e720cc790bf90c5d46362228aef2",
+    "publication_receipt": "https://github.com/queelius/hog-contrib/blob/main/receipts/2026-10-22-ledger-v1.0.0-publication.json"
+  },
+  "evidence": {
+    "witnesses_verified": 26,
+    "checkers": [
+      "pure-python",
+      "networkx"
+    ],
+    "tests_passed_from_extracted_archive": 65,
+    "deterministic_archive_rebuild": true
+  },
+  "attribution": {
+    "house_of_graphs": "House of Graphs hosts the deposited graphs: Brinkmann, Coolsaet, Goedgebeur, Melot, doi:10.1016/j.dam.2012.07.018; Coolsaet, D'hondt, Goedgebeur, doi:10.1016/j.dam.2022.10.013 (checked via Crossref 2026-10-22).",
+    "prior_art": "Per-record prior-art entries credit Zhang--Luo--Shigeno, Lan et al., Erdos--Hajnal--Moon and the OEIS; see each record page.",
+    "software": "Python, PyYAML and NetworkX retain specific credit.",
+    "ai_assistance": "Substantial Claude Code and OpenAI Codex assistance in implementation, checking and writing."
+  },
+  "related_records": [
+    "small-order-c6-saturation"
+  ],
+  "public_disclosures": [
+    {
+      "date": "2026-10-21",
+      "url": "https://github.com/queelius/hog-contrib",
+      "scope": "Repository made public."
+    },
+    {
+      "date": "2026-10-22",
+      "version": "1.0.0",
+      "url": "https://doi.org/10.5281/zenodo.23550688",
+      "scope": "First archived release."
+    }
+  ],
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23550688",
+    "concept_doi": "10.5281/zenodo.23550687",
+    "archive_publication_date": "2026-10-22",
+    "public_downloads_verified": true,
+    "receipt": "publication.json"
+  },
+  "license": "CC-BY-4.0 (data); MIT (code)",
+  "limitations": [
+    "No human peer-review or proof-assistant verification claim.",
+    "8 records are unassessed for prior art and make no novelty claim.",
+    "Bounded literature searches do not establish global novelty or priority."
+  ],
+  "artifacts": [
+    {
+      "filename": "hog-contrib-1.0.0.zip",
+      "url": "https://zenodo.org/records/23550688/files/hog-contrib-1.0.0.zip",
+      "bytes": 111816,
+      "sha256": "2478507ea2e796a304f631c93bfc380bf2fa36471d96e1aac0e16d7afbc91c4c",
+      "entries": 102
+    }
+  ]
+}

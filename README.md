@@ -93,6 +93,12 @@ publication metadata or handoff.
   substantial Codex assistance is disclosed. No novelty or human-review claim.
   DOI `10.5281/zenodo.23540084`. The exact-version DOI resolves.
 
+- [House of Graphs witness ledger](records/hog-witness-ledger/README.md).
+  26 byte-exact House of Graphs witnesses (saturation and Zarankiewicz), each
+  accepted only when two code-independent checkers agree, with per-record
+  claims and dated prior art. House of Graphs and prior work retain credit.
+  [Exact v1.0.0 archive](https://doi.org/10.5281/zenodo.23550688).
+
 - [Small-order C6 saturation: exact values and complete minimum families](records/small-order-c6-saturation/README.md).
   Exact values through 15 vertices and the complete 24-class order-15 family,
   with independent witness checks, leaf/core and weighted-kernel evidence.

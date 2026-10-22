@@ -132,6 +132,11 @@
       "id": "overbooking-expected-revenue",
       "metadata": "records/overbooking-expected-revenue/record.json",
       "readme": "records/overbooking-expected-revenue/README.md"
+    },
+    {
+      "id": "hog-witness-ledger",
+      "metadata": "records/hog-witness-ledger/record.json",
+      "readme": "records/hog-witness-ledger/README.md"
     }
   ]
 }
