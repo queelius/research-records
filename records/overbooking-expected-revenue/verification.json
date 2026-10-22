@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-21T20:36:35.556506+00:00",
+  "status": "PASS",
+  "scope": "All four exact accepted overbooking targets freshly recompiled with actual accepted platform dependency bodies. This record summarizes local verification; it is not a self-contained public proof packet.",
+  "compiler_version": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "lean": "4.33.1",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "autoImplicit": false,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "accepted_targets_recompiled": 4,
+  "platform_modules_rebuilt": [
+    "Definitions.Def_Polyhedron",
+    "Definitions.Def_FourierMotzkinStep",
+    "Theorems.Thm_LinearOptimization_fourier_motzkin_projection",
+    "Theorems.Thm_LinearOptimization_fourier_motzkin_eliminate_is_polyhedron",
+    "Theorems.Thm_LinearOptimization_polyhedron_projection",
+    "Theorems.Thm_LinearOptimization_polyhedron_linear_image",
+    "Theorems.Thm_LinearOptimization_polyhedron_closed",
+    "Theorems.Thm_LinearOptimization_separating_hyperplane_polyhedron",
+    "Theorems.Thm_LinearOptimization_farkas_lemma",
+    "Theorems.Thm_LinearOptimization_farkas_cone_corollary",
+    "Theorems.Thm_LinearOptimization_farkas_inequality_form",
+    "Theorems.Thm_LinearOptimization_farkas_inequality_form_fintype",
+    "Definitions.Def_SubstOverbooking_Structure_Setting",
+    "Definitions.Def_Supermodularity_Monotonicity_SupermodularOn"
+  ],
+  "definition_modules_rebuilt": 4,
+  "theorem_bodies_rebuilt": 10,
+  "commands": 30,
+  "all_command_exit_codes_zero": true,
+  "targets": [
+    {
+      "theorem_id": "a4bee272-3858-4631-9ed8-3e8eee2127d4",
+      "proof_sha256": "6093cc07cfc5ac7160b93147e21282878f0bacbddcff79b29d7427711d16681c",
+      "audit_sha256": "ddecd1538e61843efa4166ad16d390b0b2a827fc0169a93f7a91399ecb514924",
+      "evidence_sha256": "539dbcf1e78b9dc827240ff36b74cd85cfb77c7b3cfe0d2d0841449a4b6102ae",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "compiled_audit_sha256": "0aafd851c56e0dc1b0676ca45608d573b03564ea06590f9eda208a63ec6228ec"
+    },
+    {
+      "theorem_id": "cd0963d8-8154-47a0-9ede-d488f27b8b15",
+      "proof_sha256": "8c944f283da6b7c96ad0c1158b6f5a267f4dbe3a4ac18efbf749dd6be8aa0667",
+      "audit_sha256": "cde979dd34bb745cffa6b74a2ab7bf187b6942783e43db45aa3807eed1865948",
+      "evidence_sha256": "e007ed57bb22c589cb870472f92b84608afbd70cdd9331462e88aadd64e562ea",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "compiled_audit_sha256": "385a60530eae8967c914087153f5c304a187422f933fefb812255b7f1017bf7e"
+    },
+    {
+      "theorem_id": "2110a85c-fc03-4bf2-80b6-ad25eb7f9224",
+      "proof_sha256": "fa886b2f68205b52288d4eac33c39262174979acd6de17c14ab887a63cabbaa2",
+      "audit_sha256": "31b3b521576511edda7151e0671c7ccc9fe2d6e534dfd518b4f5c4bdab51bfdc",
+      "evidence_sha256": "059702be0ea0de0f46af5743397743d5af3011203f94a693dc2ea3d5866f2b35",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "compiled_audit_sha256": "b438b990ae6ef9c672d61ec1928980fe3c5703f1e72b86892bc3eab62d9fcded"
+    },
+    {
+      "theorem_id": "1e6fa8db-5bf2-49e6-bc08-297071a7e7bf",
+      "proof_sha256": "f8b7aac2e9072f3536d2163559fffc1fc6ef632af5350037f3eeddd66d8e7cf8",
+      "audit_sha256": "1d3ec4edd7cc9d4bc876261fef52d7b38fd923cb0c4ad8f5444049c574abb0b1",
+      "evidence_sha256": "f7ed26741133f19c3cf819545143a6deef5803678905a1313f0bbc70b52ae28b",
+      "compiled": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "compiled_audit_sha256": "7c134ec944adbea1c8f8d35b78091944e0e3321177ce02a58beb85e81414949a"
+    }
+  ],
+  "private_full_report_sha256": "d5c929499d3f0f69834b1764c6150f1809f9280d442922104f639cef364a8e3a",
+  "local_negative_controls": "PASS",
+  "tooling_checks": {
+    "tests_passed": 130,
+    "combined_coverage_percent": 92.27129337539432,
+    "scope": "Earlier October21 test run; production verification tooling unchanged. No new suite run claimed."
+  },
+  "limitations": [
+    "Pinned Lean/Mathlib and compiled third-party caches are trusted inputs, not bootstrap-verified.",
+    "No independent human proof review or mathematical novelty assessment.",
+    "Publication rights and source correctness are separate; legacy dependency redistribution remains unconfirmed."
+  ],
+  "controls_checked_at": "2026-10-21T20:38:11.013795+00:00",
+  "controls": [
+    {
+      "name": "AddedHypothesis1",
+      "diagnostic": "Application type mismatch",
+      "target_id": "1e6fa8db-5bf2-49e6-bc08-297071a7e7bf",
+      "purpose": "Reject an additional unsupported premise against the complete original target interface.",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "source_sha256": "7ac174cf10b658a24eb18281fac6e19f3cd2b682c285c269fc9b68f6e9f486d2",
+      "log_sha256": "5988fecb0a6bee0ee40042f04fb1967ab781cfab0cdbe6abbb067074ac0e077c",
+      "source_redistributed": false
+    },
+    {
+      "name": "ExtraAxiomControl",
+      "diagnostic": "Local axiom is forbidden",
+      "target_id": "1e6fa8db-5bf2-49e6-bc08-297071a7e7bf",
+      "purpose": "Reject an unused added local axiom, independent of solution transitive axioms.",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "source_sha256": "040d2943561216f13404e4c81cc951a01af29d8424ab08a6ab98742ad425aec1",
+      "log_sha256": "6370b1b304eb9a29f69a087b45443dc2129323b3d93b55afc7dba76190404078",
+      "source_redistributed": false
+    },
+    {
+      "name": "AddedHypothesis2",
+      "diagnostic": "Application type mismatch",
+      "target_id": "a4bee272-3858-4631-9ed8-3e8eee2127d4",
+      "purpose": "Reject an additional unsupported premise against the complete original target interface.",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "source_sha256": "e8088689992d933a28f42f39307337b17461f54ec1cd4c82a6c5be026a133668",
+      "log_sha256": "5ef62b025039c1277ea5fb29e0d32ef05860c2618a1028d2459521f3176848f4",
+      "source_redistributed": false
+    },
+    {
+      "name": "AddedHypothesis3",
+      "diagnostic": "Application type mismatch",
+      "target_id": "cd0963d8-8154-47a0-9ede-d488f27b8b15",
+      "purpose": "Reject an additional unsupported premise against the complete original target interface.",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "source_sha256": "e9ef76e834531cb7c9b21703e2a051e032da084574732d6eb5d36a5645845f06",
+      "log_sha256": "3647836be57d0808c246f77b42171128e8dc1cac7542b8a623878001e51bc27a",
+      "source_redistributed": false
+    },
+    {
+      "name": "AddedHypothesis4",
+      "diagnostic": "Application type mismatch",
+      "target_id": "2110a85c-fc03-4bf2-80b6-ad25eb7f9224",
+      "purpose": "Reject an additional unsupported premise against the complete original target interface.",
+      "expected": "rejection",
+      "exit_code": 1,
+      "passed": true,
+      "source_sha256": "17773e96466cb7b0b01a0255861b69a4b659132f0f1583c42f1a693b8c8f4271",
+      "log_sha256": "4b526bc657134b169f3865213a33786faf36ac825794e65f2dd0b8a54d7496ab",
+      "source_redistributed": false
+    }
+  ],
+  "control_construction": "Lean.findDeclarationRanges? resolves the top-level solution identifier; mutation uses its checked selection range. Same short names inside predecessor namespaces are not altered. Control sources/logs remain private."
+}

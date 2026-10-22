@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-21T18:20:42.870581+00:00",
+  "state": "ready_for_publication",
+  "record_id": "quasi-newton-least-change",
+  "deposition_id": 23541281,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23541281",
+  "staged_reproduction": "PASS",
+  "final_extracted_reproduction": "PASS",
+  "accepted_targets": 2,
+  "controls_rejected": 4,
+  "packet_files": 66,
+  "all_verified_proof_audit_evidence_bytes_unchanged": true,
+  "metadata_and_citation_consistent": true,
+  "all_uploaded_checksums_match": true,
+  "scope": "This session\u2019s completed Prove2Me weighted least-change formalizations only.",
+  "authorization": "Standing user instructions to publish sufficiently verified, focused Prove2Me contributions."
+}

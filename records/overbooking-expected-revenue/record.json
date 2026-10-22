@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "id": "overbooking-expected-revenue",
+  "title": "Verified transportation duality and expected-revenue structure for substitution overbooking",
+  "contribution_type": "Four complete Lean formalizations connecting transportation duality and sample-path submodularity to expected overbooking revenue",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "source_commit": "f034e39e8532c3b0998f9e084c71664e99ae1751",
+    "source_commit_scope": "Exact owning editorial metadata and proof hashes; accepted proof development is pinned separately.",
+    "record_path": "contributions/queelius/publications/overbooking-expected-revenue/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json",
+    "accepted_source_commit": "11e39c3c4b89f8824ad8d3b18be781cdecc86c3b",
+    "record_sha256": "185635cdf4578bfd96cf03e6e6aa99d45dcdc1da7e515d2328b675a1d78af291",
+    "record_url": "https://github.com/queelius/prove2me-contributions/blob/f034e39e8532c3b0998f9e084c71664e99ae1751/contributions/queelius/publications/overbooking-expected-revenue/record.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/overbooking-expected-revenue",
+  "claim": "Four exact accepted targets: transportation primal/dual attainment, optimized service-value submodularity, sample-path revenue submodularity, and full expected-revenue coordinate concavity plus lattice submodularity. Established Karaesmen–van Ryzin mathematics under the platform's uncapacitated virtual class.",
+  "formal_targets": [
+    {
+      "theorem_id": "1e6fa8db-5bf2-49e6-bc08-297071a7e7bf",
+      "theorem_name": "SubstOverbooking.Structure.theorem2_concave_submodular",
+      "title": "Theorem 2, p. 87 — with semigroup survivals, G(u) of (2) is componentwise concave in each uᵢ and submodular in u",
+      "url": "https://prove2.me/theorems/1e6fa8db-5bf2-49e6-bc08-297071a7e7bf",
+      "proof_type": "prove",
+      "proof_sha256": "f8b7aac2e9072f3536d2163559fffc1fc6ef632af5350037f3eeddd66d8e7cf8",
+      "accepted_submission_id": "9879f811-09e7-45f3-93ff-828192282899"
+    },
+    {
+      "theorem_id": "a4bee272-3858-4631-9ed8-3e8eee2127d4",
+      "theorem_name": "SubstOverbooking.Structure.tp_dtp_strong_duality",
+      "title": "§2.2, p. 86 — TP and DTP are feasible for z ⩾ 0 and their optimal values are equal and finite",
+      "url": "https://prove2.me/theorems/a4bee272-3858-4631-9ed8-3e8eee2127d4",
+      "proof_type": "prove",
+      "proof_sha256": "6093cc07cfc5ac7160b93147e21282878f0bacbddcff79b29d7427711d16681c",
+      "accepted_submission_id": "c59db032-7b53-413b-bb51-cc2cbb29ba28"
+    },
+    {
+      "theorem_id": "cd0963d8-8154-47a0-9ede-d488f27b8b15",
+      "theorem_name": "SubstOverbooking.Structure.lemma1_V0_submodular",
+      "title": "Lemma 1, p. 87 — V₀(z, c) is submodular in (z₁, …, zₙ)",
+      "url": "https://prove2.me/theorems/cd0963d8-8154-47a0-9ede-d488f27b8b15",
+      "proof_type": "prove",
+      "proof_sha256": "8c944f283da6b7c96ad0c1158b6f5a267f4dbe3a4ac18efbf749dd6be8aa0667",
+      "accepted_submission_id": "b89b4b77-5ba7-4b23-ae1e-06289a02c1d9"
+    },
+    {
+      "theorem_id": "2110a85c-fc03-4bf2-80b6-ad25eb7f9224",
+      "theorem_name": "SubstOverbooking.Structure.samplePath_submodular",
+      "title": "Proof of Theorem 2, p. 88 — sample-path submodularity: V₀((z₁+k₁, z₂+k₂)) − V₀((z₁, z₂+k₂)) ⩽ V₀((z₁+k₁, z₂)) − V₀((z₁, z₂))",
+      "url": "https://prove2.me/theorems/2110a85c-fc03-4bf2-80b6-ad25eb7f9224",
+      "proof_type": "prove",
+      "proof_sha256": "fa886b2f68205b52288d4eac33c39262174979acd6de17c14ab887a63cabbaa2",
+      "accepted_submission_id": "0d018617-c10b-443b-8c18-dc013d16e9ae"
+    }
+  ],
+  "assumptions": {
+    "transportation": "Finite class sets, nonnegative demands and real-class capacities; arbitrary real assignment coefficients. Virtual denied-service class 0 is uncapacitated and its dual multiplier is zero.",
+    "survival": "Independent natural-valued PMF laws, convolution semigroup and finite means on a nonnegative parameter set containing zero and closed under addition and nonnegative differences.",
+    "revenue": "Exact integral definition G; q_i <= r_i retained; no extra integrability premise.",
+    "conclusions": "Coordinate diminishing increments on the parameter semigroup and full lattice submodularity; not a claim about a different interpolation of discrete parameters."
+  },
+  "mathematical_source": {
+    "url": "https://business.columbia.edu/sites/default/files-efs/pubfiles/3916/overbooking.pdf",
+    "version": "Published Operations Research52(1):83–104 (2004)",
+    "accessed_at": "2026-10-21T16:37:40.227526+00:00",
+    "snapshot_kind": "Exact JSON response from web PDF extraction; raw PDF download returned403. No raw PDF hash claimed.",
+    "snapshot_sha256": "76c22b636a529122b4f112c464db60475ec9232179c3d636172de13abec40aa5",
+    "inspected_pages": [
+      86,
+      87,
+      88
+    ],
+    "source_attribution": [
+      "Itir Karaesmen",
+      "Garrett van Ryzin"
+    ],
+    "predecessors": "Source p87 credits Topkis1998 Theorem3.4.1; Samuelson1952, Shapley1962, Erlenkotter1970 and Karaesmen2001.",
+    "title": "Overbooking with Substitutable Inventory Classes",
+    "authors": [
+      "Itir Karaesmen",
+      "Garrett van Ryzin"
+    ],
+    "doi": "10.1287/opre.1030.0079",
+    "year": 2004,
+    "journal": "Operations Research",
+    "volume": "52",
+    "issue": "1",
+    "pages": "83–104",
+    "redistributed": false,
+    "model_scope": "Formal virtual class is uncapacitated; the source uses a finite-but-large convention. Only the exact platform formulation is proved."
+  },
+  "predecessor_credit": [
+    {
+      "authors": [
+        "Itir Karaesmen",
+        "Garrett van Ryzin"
+      ],
+      "contribution": "Original overbooking mathematics and source argument."
+    },
+    {
+      "username": "miao",
+      "contribution": "Five accepted milestone foundations: primal compactness/concavity, sample-path concavity, coupling, mean additivity and lattice equivalence. Exact reuse and transformations listed separately; not counted among the four new formalization targets."
+    },
+    {
+      "username": "Harry_Xu",
+      "contribution": "Ten actual accepted Farkas/polyhedron/separation/projection proof bodies; only final declaration bindings renamed for platform imports."
+    },
+    {
+      "authors": [
+        "Dimitris Bertsimas",
+        "John Tsitsiklis"
+      ],
+      "contribution": "Introduction to Linear Optimization (1997), source mathematics for the imported Harry_Xu foundations; this predecessor source was not freshly reaudited for this metadata release."
+    },
+    {
+      "name": "Donald M. Topkis and earlier transportation authors cited in the source",
+      "contribution": "Source p87 credits Topkis1998 Theorem3.4.1; Samuelson1952, Shapley1962, Erlenkotter1970 and Karaesmen2001. This inherited source credit is not an independent review of those works."
+    },
+    {
+      "username": "mikedeng1",
+      "contribution": "Overbooking platform mission and exact target formulation."
+    },
+    {
+      "name": "Shuze Chen",
+      "contribution": "Prior platform statement confirmation, not independent review of the submitted proofs."
+    },
+    {
+      "name": "Lean and Mathlib contributors",
+      "contribution": "Kernel and formal-analysis infrastructure."
+    }
+  ],
+  "reuse": [
+    {
+      "target_id": "5ebdf6c0-243d-4533-aabd-2b5dcdd373b5",
+      "submission_id": "45c55b6e-2966-457b-ad89-166f231ee3cd",
+      "username": "miao",
+      "source_sha256": "f352b344abf1b420f0beed99bfdfd4626ffa728882ce1ce1a25e41f996ca4bd9",
+      "bytes": 6471,
+      "reuse_scope": "Body unchanged, imports deduplicated, isolated in MiaoLattice.",
+      "accepted_at": "2026-10-07T07:30:33.027011+00:00",
+      "submitted_at": "2026-10-07T07:29:17.245074+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": true,
+      "url": "https://prove2.me/theorems/5ebdf6c0-243d-4533-aabd-2b5dcdd373b5",
+      "license": "Apache-2.0",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "59155d5c-6a52-47c3-9409-c7a406e642e4",
+      "submission_id": "4b0b69f3-08aa-4abc-b415-6ab56607ce8b",
+      "username": "miao",
+      "source_sha256": "87ca7f4364c75f22574c0ac4bd858d22a74e6ac6281f58c1868a9b76df8bfcfe",
+      "bytes": 657,
+      "reuse_scope": "Existing accepted result reviewed; local mean_add establishes the same foundation, not a new target claim.",
+      "accepted_at": "2026-10-07T07:21:35.452582+00:00",
+      "submitted_at": "2026-10-07T07:20:13.772322+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": true,
+      "url": "https://prove2.me/theorems/59155d5c-6a52-47c3-9409-c7a406e642e4",
+      "license": "Apache-2.0",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "8fd22dbf-974e-4dd1-8bb6-c9554fb359c9",
+      "submission_id": "35c1d866-4221-4fe0-b959-6d7ba1775076",
+      "username": "miao",
+      "source_sha256": "14670f51f7b5758467c5f3b88343d3e92933e5d2ac6474f6defa2f3faf7ae08c",
+      "bytes": 3070,
+      "reuse_scope": "Adapted accepted body: exposed internal measure-preserving map as survival_update_map, removed final integral specialization.",
+      "accepted_at": "2026-10-07T07:33:12.486299+00:00",
+      "submitted_at": "2026-10-07T07:29:41.089836+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": true,
+      "url": "https://prove2.me/theorems/8fd22dbf-974e-4dd1-8bb6-c9554fb359c9",
+      "license": "Apache-2.0",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "fc7c0f66-42f4-4dcd-bbe5-2738f46d002c",
+      "submission_id": "385196cf-9a31-4f68-b880-04c94d2b1d3c",
+      "username": "miao",
+      "source_sha256": "6023402e76103bce2d1bd44bf6b816512a6965ca0b859aed6a6d592161188605",
+      "bytes": 7612,
+      "reuse_scope": "Body unchanged, imports deduplicated, isolated in MiaoSample.",
+      "accepted_at": "2026-10-07T07:26:08.432975+00:00",
+      "submitted_at": "2026-10-07T07:23:52.307445+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": true,
+      "url": "https://prove2.me/theorems/fc7c0f66-42f4-4dcd-bbe5-2738f46d002c",
+      "license": "Apache-2.0",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "e2a06730-d83e-4e29-ab1c-7592f568183c",
+      "submission_id": "e6901e77-0c8d-4ace-a2f6-2c0f39f2f55b",
+      "username": "miao",
+      "source_sha256": "f9568549a7731a6240d030ddc296c42c449db26b39c7d256a808f822479533b3",
+      "reuse_scope": "Previously exposed helper visibility and isolated in MiaoConcavity; full accepted body retained.",
+      "accepted_at": "2026-10-07T07:23:19.761452+00:00",
+      "submitted_at": "2026-10-07T07:22:14.095291+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": true,
+      "url": "https://prove2.me/theorems/e2a06730-d83e-4e29-ab1c-7592f568183c",
+      "license": "Apache-2.0",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "00c98cf7-7b73-44ef-9acd-b43230ea4032",
+      "submission_id": "c07ab102-60b7-46c1-871b-0aa6e293380f",
+      "username": "Harry_Xu",
+      "source_sha256": "c81a30fa44287768653637b3e4eb4a282c2a5b940ef68b81502917fa69dde06b",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_polyhedron_closed.lean",
+      "compiled_module_sha256": "bf5e9b35da6011e947292d2ee9ceb2f8c138dbb91dab06ee6f4cb38b6da37c52",
+      "accepted_at": "2026-08-05T20:42:27.257155+00:00",
+      "submitted_at": "2026-08-05T20:42:27.257155+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/00c98cf7-7b73-44ef-9acd-b43230ea4032",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "0fb3b53a-786e-4c09-bd35-aed99bf2561a",
+      "submission_id": "022fe99a-15e3-4b19-bc9e-512f13b0e5c3",
+      "username": "Harry_Xu",
+      "source_sha256": "f2765d0e7714c48473ddbdc00a3d650e5a09768eecef299bc7cd623a6fae54b4",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_separating_hyperplane_polyhedron.lean",
+      "compiled_module_sha256": "f9e4dbfc1579a37dd078e929e2327ec9be4d4bb6ebe3c7724dbd0013ed18a8c5",
+      "accepted_at": "2026-08-05T20:44:33.126541+00:00",
+      "submitted_at": "2026-08-05T20:44:33.126541+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/0fb3b53a-786e-4c09-bd35-aed99bf2561a",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "6b5826b9-0201-4cbe-aa9b-d4334975d880",
+      "submission_id": "1bfac9d7-cab2-4b56-921f-a2a83723cd2b",
+      "username": "Harry_Xu",
+      "source_sha256": "22411ac3535d563d9a34d8a069848e36ff14880d9b4e5f9affd22a8c01465cfd",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_fourier_motzkin_projection.lean",
+      "compiled_module_sha256": "8bf36b070fe2a417c15f83d12af239d125e5f40efcad8b588101871747a90217",
+      "accepted_at": "2026-08-05T15:53:58.42601+00:00",
+      "submitted_at": "2026-08-05T15:53:58.42601+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/6b5826b9-0201-4cbe-aa9b-d4334975d880",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "6df0cbfd-26b3-4e0b-9e6e-bc8b4cc5ee5b",
+      "submission_id": "3e5da8f3-b572-4e6c-963c-7c80dbd62846",
+      "username": "Harry_Xu",
+      "source_sha256": "d3cbf43c21358a1ac4ef784425087e3162ed366088f2b1090f404df155d70919",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_fourier_motzkin_eliminate_is_polyhedron.lean",
+      "compiled_module_sha256": "0078ee12d2891544737ad91f166771ebe6e5aa0f714e26f6cabbc3c17d067dd2",
+      "accepted_at": "2026-08-05T16:24:24.564668+00:00",
+      "submitted_at": "2026-08-05T16:24:24.564668+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/6df0cbfd-26b3-4e0b-9e6e-bc8b4cc5ee5b",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "5f00401c-20fe-404a-b0f3-718e95e40d10",
+      "submission_id": "e9104980-a86a-4040-87db-ad69eb9b6175",
+      "username": "Harry_Xu",
+      "source_sha256": "5416d5c41e6582e4bbbf61079e4feaa870e07e47fce4efceb0c5830c62070a95",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_polyhedron_projection.lean",
+      "compiled_module_sha256": "304bdef3d920fc19f87d8f59b42274efa239d8a8b43b2bda1d6dd22251ee0c66",
+      "accepted_at": "2026-09-03T22:32:44.489093+00:00",
+      "submitted_at": "2026-08-05T16:28:46.339068+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/5f00401c-20fe-404a-b0f3-718e95e40d10",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "39d445f1-e8f7-4cfd-af28-af7d117e1a7f",
+      "submission_id": "6b03ca9b-58f1-4bbf-924d-190f67881ae4",
+      "username": "Harry_Xu",
+      "source_sha256": "e027732c98b8f3b1d84760c5a6fbaa775864f70c0516b93d289165f19e2a1beb",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_polyhedron_linear_image.lean",
+      "compiled_module_sha256": "279f6f60ff48e61b000b5c196c20669f0be1c0f1f2bc7bb8a4ffbc83976d66ce",
+      "accepted_at": "2026-09-03T22:32:44.489093+00:00",
+      "submitted_at": "2026-08-05T16:38:17.861226+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/39d445f1-e8f7-4cfd-af28-af7d117e1a7f",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "3f00768b-7c17-4b07-a2ff-4aba77328692",
+      "submission_id": "6ba20039-3526-4f57-9a4a-2b50b7336066",
+      "username": "Harry_Xu",
+      "source_sha256": "66e20d4f7b79229885d5292bcdb8f91e5e32048aad8eeb5b51431d182d1f6f1c",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_farkas_lemma.lean",
+      "compiled_module_sha256": "89b0c195665f0d8eedf23e42bd7118beec9dc62804827306482aa1b46ce3e859",
+      "accepted_at": "2026-09-03T22:32:44.489093+00:00",
+      "submitted_at": "2026-08-05T20:48:39.574467+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/3f00768b-7c17-4b07-a2ff-4aba77328692",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "a03c5421-dd3c-40f7-8dd6-38fd6fa91ecf",
+      "submission_id": "19f5b071-ddbb-442b-b3fc-7413851c6148",
+      "username": "Harry_Xu",
+      "source_sha256": "6efcf31388fec04772c2577d893b882a147dfab790fb1a4bea1f1f236647f36e",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_farkas_cone_corollary.lean",
+      "compiled_module_sha256": "b8bc4285b23d18d436f5e676b1c8f91d955592b6f8d698f43c983da8a86535f5",
+      "accepted_at": "2026-09-03T22:32:44.489093+00:00",
+      "submitted_at": "2026-08-05T20:54:58.898254+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/a03c5421-dd3c-40f7-8dd6-38fd6fa91ecf",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "454fbf1b-e557-4b11-bb8b-e0924f449ff1",
+      "submission_id": "ea38e14b-1779-4fb9-bd30-f4a090307975",
+      "username": "Harry_Xu",
+      "source_sha256": "5ca9749aa2a96db33729e48f3912404eced3258a3da26093f2016ef37b4c2634",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_farkas_inequality_form.lean",
+      "compiled_module_sha256": "5975b139b61b8a7e924f6c2fd996a3cce5d266abd9083ddee3038aaf70399aea",
+      "accepted_at": "2026-09-03T22:32:44.489093+00:00",
+      "submitted_at": "2026-08-05T20:55:31.724156+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/454fbf1b-e557-4b11-bb8b-e0924f449ff1",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    },
+    {
+      "target_id": "abe830a0-6a9d-48dc-819e-c5bc98c06fdf",
+      "submission_id": "254ab147-b9d9-4a31-be3e-6ea1ee4ecf49",
+      "username": "Harry_Xu",
+      "source_sha256": "22c5d416ad1821a6c98fd87896816da432b861cc736e784d1a2ac6871ac37f62",
+      "reuse_scope": "Only top-level theorem solution binding renamed to the exact platform theorem name; proof body unchanged.",
+      "compiled_module_path": "Theorems/Thm_LinearOptimization_farkas_inequality_form_fintype.lean",
+      "compiled_module_sha256": "94a650f6f67e877fa49e21b15086b29610830e22ebc0556970d550f66d13ef2f",
+      "accepted_at": "2026-09-03T22:32:44.489093+00:00",
+      "submitted_at": "2026-08-05T21:03:14.421382+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "post_terms_submission": false,
+      "url": "https://prove2.me/theorems/abe830a0-6a9d-48dc-819e-c5bc98c06fdf",
+      "license": "unconfirmed-legacy",
+      "original_download_retained_in": "Owning private project; exact source hash and canonical public target identify the source.",
+      "redistributed": false
+    }
+  ],
+  "human_role": "Alexander Richard Towell directed the research and verification/publication standards and stewards the archive. Independent human proof review is not claimed.",
+  "ai_assistance": "OpenAI Codex substantially constructed, integrated, checked, submitted and documented the formalizations and prepared this record. AI assistance is not human peer review.",
+  "source_definitions": [
+    {
+      "path": "Definitions/Def_SubstOverbooking_Structure_Setting.lean",
+      "sha256": "4822c2d6b6d99f39f13d01a3e60102b3e4185ca513e12fd74e83983ca253152e",
+      "platform_definition_id": "0561db23-28ce-44a7-9f88-2a0d57255723",
+      "source": "Karaesmen & van Ryzin, Overbooking with Substitutable Inventory Classes, Operations Research 52(1):83–104 (2004), pp. 85–87, §2 (1)–(2), §2.1, §2.2 (TP), (3)–(5), (DTP), Definition 1",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "SubstOverbooking_Structure_Setting",
+      "created_at": "2026-10-07T03:08:56.883856+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true,
+      "post_terms_creation": true
+    },
+    {
+      "path": "Definitions/Def_Supermodularity_Monotonicity_SupermodularOn.lean",
+      "sha256": "91dad51b0caff88485983dca238801c2cc7ba958bedf829a40f4739b1853a0ca",
+      "platform_definition_id": "c18de795-dbd1-4c1d-a8c3-841f0b199d2b",
+      "source": "Topkis, Supermodularity and Complementarity, Princeton University Press, 2011, p. 43, Section 2.6.1 (definition of a supermodular function)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "Supermodularity_Monotonicity_SupermodularOn",
+      "created_at": "2026-09-18T05:26:03.506158+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true,
+      "post_terms_creation": false
+    },
+    {
+      "path": "Definitions/Def_Polyhedron.lean",
+      "sha256": "04364d9e6bbb6ff1237c730e35f363c47d60d32547705fa27744a54b81876ce5",
+      "source": "Bertsimas & Tsitsiklis, Introduction to Linear Optimization, Athena Scientific, 1997, Definition 2.1, p. 42 (standard form p. 43; Definitions 2.2-2.3, p. 43)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "platform_definition_id": "d3bc1c62-c930-489a-ac94-8c60c04604ce",
+      "definition_name": "Polyhedron",
+      "created_at": "2026-08-04T13:53:19.756463+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true,
+      "post_terms_creation": false
+    },
+    {
+      "path": "Definitions/Def_FourierMotzkinStep.lean",
+      "sha256": "94e7d3e00b96d250bbab61fce6177116de752609ffab5020a1e9344c756ca5f1",
+      "source": "Bertsimas & Tsitsiklis, Introduction to Linear Optimization, Athena Scientific, 1997, §2.8, Elimination algorithm, pp. 71-72",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "platform_definition_id": "195393a6-58a0-420a-9ad6-91d2a5ff806b",
+      "definition_name": "FourierMotzkinStep",
+      "created_at": "2026-08-05T01:18:16.098294+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true,
+      "post_terms_creation": false
+    }
+  ],
+  "public_disclosures": [
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T20:04:42.775281+00:00",
+      "url": "https://prove2.me/theorems/1e6fa8db-5bf2-49e6-bc08-297071a7e7bf",
+      "theorem_id": "1e6fa8db-5bf2-49e6-bc08-297071a7e7bf",
+      "submission_id": "9879f811-09e7-45f3-93ff-828192282899",
+      "scope": "Public target submission. API source downloads require authentication; central metadata and DOI publication are separate events."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T17:53:25.973748+00:00",
+      "url": "https://prove2.me/theorems/a4bee272-3858-4631-9ed8-3e8eee2127d4",
+      "theorem_id": "a4bee272-3858-4631-9ed8-3e8eee2127d4",
+      "submission_id": "c59db032-7b53-413b-bb51-cc2cbb29ba28",
+      "scope": "Public target submission. API source downloads require authentication; central metadata and DOI publication are separate events."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T17:54:22.658368+00:00",
+      "url": "https://prove2.me/theorems/cd0963d8-8154-47a0-9ede-d488f27b8b15",
+      "theorem_id": "cd0963d8-8154-47a0-9ede-d488f27b8b15",
+      "submission_id": "b89b4b77-5ba7-4b23-ae1e-06289a02c1d9",
+      "scope": "Public target submission. API source downloads require authentication; central metadata and DOI publication are separate events."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T17:54:48.230793+00:00",
+      "url": "https://prove2.me/theorems/2110a85c-fc03-4bf2-80b6-ad25eb7f9224",
+      "theorem_id": "2110a85c-fc03-4bf2-80b6-ad25eb7f9224",
+      "submission_id": "0d018617-c10b-443b-8c18-dc013d16e9ae",
+      "scope": "Public target submission. API source downloads require authentication; central metadata and DOI publication are separate events."
+    }
+  ],
+  "acceptance": [
+    {
+      "theorem_id": "1e6fa8db-5bf2-49e6-bc08-297071a7e7bf",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T20:07:07.746896+00:00",
+      "submission_id": "9879f811-09e7-45f3-93ff-828192282899",
+      "observed_at": "2026-10-21T20:28:55.293480+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "a4bee272-3858-4631-9ed8-3e8eee2127d4",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T17:55:04.201174+00:00",
+      "submission_id": "c59db032-7b53-413b-bb51-cc2cbb29ba28",
+      "observed_at": "2026-10-21T20:28:55.293480+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "cd0963d8-8154-47a0-9ede-d488f27b8b15",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T17:56:03.282532+00:00",
+      "submission_id": "b89b4b77-5ba7-4b23-ae1e-06289a02c1d9",
+      "observed_at": "2026-10-21T20:28:55.293480+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "2110a85c-fc03-4bf2-80b6-ad25eb7f9224",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T17:56:25.13497+00:00",
+      "submission_id": "0d018617-c10b-443b-8c18-dc013d16e9ae",
+      "observed_at": "2026-10-21T20:28:55.293480+00:00",
+      "download_matches_verified_bytes": true
+    }
+  ],
+  "verified_downstream_scope": {
+    "observed_at": "2026-10-21T20:28:55.293480+00:00",
+    "root_status": "Proved",
+    "curated_milestones": [
+      {
+        "theorem_id": "a4bee272-3858-4631-9ed8-3e8eee2127d4",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "cd0963d8-8154-47a0-9ede-d488f27b8b15",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "e2a06730-d83e-4e29-ab1c-7592f568183c",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "5ebdf6c0-243d-4533-aabd-2b5dcdd373b5",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "59155d5c-6a52-47c3-9409-c7a406e642e4",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "8fd22dbf-974e-4dd1-8bb6-c9554fb359c9",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "fc7c0f66-42f4-4dcd-bbe5-2738f46d002c",
+        "status": "Proved"
+      },
+      {
+        "theorem_id": "2110a85c-fc03-4bf2-80b6-ad25eb7f9224",
+        "status": "Proved"
+      }
+    ],
+    "community_milestones": 5,
+    "own_milestones": 3,
+    "own_root": 1,
+    "other_downstream_closure_claimed": false
+  },
+  "verification": {
+    "lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "autoImplicit": false,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "complete_type_audits": true,
+    "actual_accepted_dependencies": true,
+    "open_proof_dependencies": [],
+    "fresh_four_claim_reproduction": "PASS",
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false,
+    "receipt": "verification.json",
+    "checked_at": "2026-10-21T20:36:35.556506+00:00",
+    "platform_modules_rebuilt": 14,
+    "rejecting_controls": 5,
+    "controls_checked_at": "2026-10-21T20:38:11.013795+00:00"
+  },
+  "publication": {
+    "state": "metadata_only",
+    "version": "1.0.0",
+    "version_doi": null,
+    "concept_doi": null,
+    "archival_status": "not_archived",
+    "source_access": "Canonical public Prove2Me targets; API downloads require authentication. Detailed lifecycle and exact sources retained in the private owning project.",
+    "readiness": "Self-contained archival deposit awaits confirmation of thirteen legacy dependency redistribution grants. The new note and metadata can be indexed separately."
+  },
+  "license": {
+    "record_and_original_note": "Apache-2.0",
+    "third_party_code_redistributed": false,
+    "legacy_dependency_grants": "unconfirmed; do not infer absence",
+    "review": "licensing-review-2026-10-21.json"
+  },
+  "limitations": [
+    "Formalization of established source mathematics, not an independently established mathematical novelty or human-reviewed paper.",
+    "Exact uncapacitated-virtual-class platform model; no silent transfer to all source modeling conventions.",
+    "Coordinate concavity means the quantified semigroup diminishing-increment property.",
+    "Original raw PDF could not be fetched; extraction-response hash is not a raw-PDF hash.",
+    "Proof sources and prior dependency bodies are not redistributed in this metadata release; no DOI or self-contained public packet yet.",
+    "Pinned verified third-party caches are trusted inputs; no Lean/Mathlib bootstrap verification."
+  ],
+  "history": [
+    {
+      "at": "2026-10-21T20:33:46.460631+00:00",
+      "version": "1.0.0",
+      "scope": "First coherent four-claim metadata record; archival licensing gap identified before any DOI reservation or deposit."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "1a26bdc9aa85cb8c013836e644b6d13f189b54143b57a160470d8c1a8412e19c",
+      "bytes": 1339,
+      "kind": "original-note-or-metadata"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357,
+      "kind": "original-note-or-metadata"
+    },
+    {
+      "path": "NOTE.md",
+      "sha256": "bde438243c99c7fbb6c5aa0388b462ec7a01216bd12b9967c2426baa426f08f5",
+      "bytes": 8229,
+      "kind": "original-note-or-metadata"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ef106931bea91170044f4745fcdb8c45eccf6bb1b995860faa43537e7de71fdb",
+      "bytes": 1293,
+      "kind": "original-note-or-metadata"
+    },
+    {
+      "path": "licensing-review-2026-10-21.json",
+      "sha256": "fb03b25c6521d4d3ae3c2f6e8194a51cc94230c3ba8779bbb923e8c7686f5719",
+      "bytes": 4141,
+      "kind": "original-note-or-metadata"
+    },
+    {
+      "path": "verification.json",
+      "sha256": "440972940675a4d94d2f264cfe838338dca2ff81f6b6d72e7687d1a4e23f6ae6",
+      "bytes": 7705,
+      "kind": "original-note-or-metadata"
+    }
+  ],
+  "source_paths_relative_to": "Owning private project; source bodies are not included in this metadata release.",
+  "artifact_path_base": "This metadata record directory; linked proof sources remain in the owning project."
+}

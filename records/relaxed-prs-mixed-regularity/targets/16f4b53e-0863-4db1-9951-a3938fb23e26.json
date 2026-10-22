@@ -1,0 +1,10 @@
+{
+  "theorem_id": "16f4b53e-0863-4db1-9951-a3938fb23e26",
+  "theorem_name": "RelaxedPRS.Linear.eq_2_1",
+  "status": "Proved",
+  "formal_statement": "namespace RelaxedPRS.Linear\n\n/-- (2.1) of Theorem 2.1, p. 8: one-step auxiliary-term bound. -/\ntheorem eq_2_1 {H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℝ H] [CompleteSpace H]\n    (f g : H → EReal)\n    (hf : ThreeOpSplitting.ConvexRates.IsProperClosedConvex f)\n    (hg : ThreeOpSplitting.ConvexRates.IsProperClosedConvex g)\n    (γ : ℝ) (hγ : 0 < γ) (Pf Pg : H → H)\n    (hPf : ThreeOpSplitting.ConvexRates.IsProx γ f Pf)\n    (hPg : ThreeOpSplitting.ConvexRates.IsProx γ g Pg)\n    (lam : ℕ → ℝ) (hlam : ∀ k, 0 < lam k ∧ lam k ≤ 1)\n    (z : ℕ → H) (hz : RelaxedPRS.StrongCvx.IsPRSRun Pf Pg lam z)\n    (zs : H) (hzs : RelaxedPRS.StrongCvx.TPRS Pf Pg zs = zs)\n    (μf βf μg βg : ℝ)\n    (hμf : 0 ≤ μf) (hβf : 0 ≤ βf) (hμg : 0 ≤ μg) (hβg : 0 ≤ βg)\n    (hscf : RelaxedPRS.StrongCvx.IsStrongCvxE μf f) (hscg : RelaxedPRS.StrongCvx.IsStrongCvxE μg g)\n    (hlf : 0 < βf → RelaxedPRS.StrongCvx.HasLipGrad βf f)\n    (hlg : 0 < βg → RelaxedPRS.StrongCvx.HasLipGrad βg g) :\n    let Sf : ℕ → ℝ := fun k =>\n      RelaxedPRS.StrongCvx.auxS μf βf (RelaxedPRS.StrongCvx.xf Pf Pg (z k)) (RelaxedPRS.StrongCvx.xg Pg zs)\n        (RelaxedPRS.StrongCvx.gtF γ Pf Pg (z k)) (RelaxedPRS.StrongCvx.gtF γ Pf Pg zs)\n    let Sg : ℕ → ℝ := fun k =>\n      RelaxedPRS.StrongCvx.auxS μg βg (RelaxedPRS.StrongCvx.xg Pg (z k)) (RelaxedPRS.StrongCvx.xg Pg zs)\n        (RelaxedPRS.StrongCvx.gtG γ Pg (z k)) (RelaxedPRS.StrongCvx.gtG γ Pg zs)\n    ∀ k, 8 * γ * lam k * (Sf k + Sg k) ≤\n      ‖z k - zs‖ ^ 2 - ‖z (k + 1) - zs‖ ^ 2 +\n        (1 - 1 / lam k) * ‖z (k + 1) - z k‖ ^ 2 := by sorry\nend RelaxedPRS.Linear\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_RelaxedPRS_Linear_Setting",
+  "source": "Davis & Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3, p. 8, Theorem 2.1, (2.1)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

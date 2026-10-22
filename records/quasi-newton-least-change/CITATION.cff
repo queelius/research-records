@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Cite this exact formalization version and the Gilbert–Lemaréchal source; retain its Dennis–Moré attribution and vebis proof-reuse credit."
+title: "Verified weighted Hilbert–Schmidt least-change updates and the DFP specialization"
+type: dataset
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+date-released: 2026-10-21
+url: "https://github.com/queelius/research-records/tree/main/records/quasi-newton-least-change"
+license: Apache-2.0
+abstract: "Two complete Lean formalizations on arbitrary complete real inner-product spaces: the unique weighted Hilbert–Schmidt least-change secant perturbation and its DFP specialization under the supplied invertible-factor hypothesis. Includes exact audits, source pins, predecessor credit, reproducible evidence and rejecting controls. Substantial Codex assistance; no novelty or human peer-review claim."
+references:
+  - type: report
+    title: "Some Numerical Experiments with Variable Storage Quasi-Newton Algorithms"
+    authors:
+      - family-names: Gilbert
+        given-names: Jean Charles
+      - family-names: Lemaréchal
+        given-names: Claude
+    year: 1988
+    number: "WP-88-121"
+    institution:
+      name: International Institute for Applied Systems Analysis
+    url: "https://pure.iiasa.ac.at/id/eprint/3085/1/WP-88-121.pdf"
+  - type: article
+    title: "Quasi-Newton methods, motivation and theory"
+    authors:
+      - family-names: Dennis
+        given-names: J. E.
+      - family-names: Moré
+        given-names: J. J.
+    year: 1977
+    journal: SIAM Review
+    volume: "19"
+    start: "46"
+    end: "89"
+    notes: "Proposition A.2 attribution inherited from Gilbert and Lemaréchal; predecessor paper not independently audited."
+doi: "10.5281/zenodo.23541281"

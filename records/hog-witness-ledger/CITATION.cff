@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this exact archived version; cite House of Graphs and each record's archived evidence for individual graphs."
+title: "House of Graphs witness ledger"
+type: dataset
+version: 1.0.0
+doi: 10.5281/zenodo.23550688
+url: https://zenodo.org/records/23550688
+authors:
+  - given-names: Alexander Richard
+    family-names: Towell
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+    affiliation: Southern Illinois University Edwardsville
+license: [CC-BY-4.0, MIT]
+repository-code: https://github.com/queelius/hog-contrib
+keywords: [House of Graphs, graph saturation, Zarankiewicz problem, extremal graph theory, graph6]

@@ -11,5 +11,7 @@ authors:
     orcid: https://orcid.org/0000-0001-6443-9897
     affiliation: Southern Illinois University Edwardsville
 repository-code: https://github.com/queelius/openai-math-counterexamples
-license: MIT
+license: Apache-2.0
 abstract: "Written all-depth matching repair upper bound and independently certified fixed-anchor repair optimum four at depth one. Unrestricted exact distance inherits the source lower bound. OpenAI's construction and Pico's preceding replay are credited; substantial OpenAI Codex assistance is disclosed. No kernel proof or human peer review."
+doi: 10.5281/zenodo.23541166
+url: https://doi.org/10.5281/zenodo.23541166

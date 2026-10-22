@@ -1,0 +1,10 @@
+{
+  "theorem_id": "f42691e8-f3c5-4451-832d-53fbb124c64b",
+  "theorem_name": "VarStorageQN.LeastChange.dfp_update",
+  "status": "Proved",
+  "formal_statement": "namespace VarStorageQN.LeastChange\n\nopen InnerProductSpace ContinuousLinearMap\nopen scoped InnerProductSpace\n\nvariable {H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℝ H] [CompleteSpace H]\n\n/-- (A.8), pp. 29–30: if `⟨y,s⟩ > 0` and `y = C*Cs` with `C` bijective, then for `R = C⁻¹`\nthe weight is `c = y`, and the unique solution of (A.6) is the dfp perturbation `B_dfp − B`. -/\ntheorem dfp_update {ι : Type*} (b : HilbertBasis ι ℝ H) (B : H →L[ℝ] H)\n    (hB : IsSelfAdjoint B) (y s : H) (hys : 0 < ⟪y, s⟫_ℝ) (C : H ≃L[ℝ] H)\n    (hC : y = adjoint (C : H →L[ℝ] H) (C s)) :\n    let R : H ≃L[ℝ] H := C.symm\n    let r := y - B s\n    let Pc : H →L[ℝ] H :=\n      (⟪y, s⟫_ℝ)⁻¹ • (bracket r y + bracket y r) - (⟪r, s⟫_ℝ / ⟪y, s⟫_ℝ ^ 2) • bracket y y\n    let obj : (H →L[ℝ] H) → ℝ :=\n      fun P => hsNorm b (adjoint (R : H →L[ℝ] H) ∘L P ∘L (R : H →L[ℝ] H))\n    weight R s = y ∧\n      Pc ∈ FeasSym b B y s ∧\n      (∀ P ∈ FeasSym b B y s, obj Pc ≤ obj P) ∧\n      (∀ P ∈ FeasSym b B y s, (∀ Q ∈ FeasSym b B y s, obj P ≤ obj Q) → P = Pc) := by sorry\n\nend VarStorageQN.LeastChange\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_VarStorageQN_LeastChange_HilbertSchmidt\nimport Definitions.Def_VarStorageQN_LeastChange_Bracket\nimport Definitions.Def_VarStorageQN_LeastChange_SecantProblem",
+  "source": "Gilbert & Lemaréchal, Some numerical experiments with variable-storage quasi-Newton algorithms, IIASA Working Paper WP-88-121 (August 1988), pp. 29–30, Annex, sentence before (A.8) and (A.8)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

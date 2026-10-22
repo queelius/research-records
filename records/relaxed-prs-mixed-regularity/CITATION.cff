@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Cite this exact formalization version and Davis–Yin; retain vebis and Nickrobbins95 proof-reuse credit."
+title: "Verified mixed-regularity contraction for relaxed Peaceman–Rachford splitting"
+type: dataset
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+date-released: 2026-10-21
+url: "https://github.com/queelius/research-records/tree/main/records/relaxed-prs-mixed-regularity"
+license: Apache-2.0
+abstract: "Four complete Lean formalizations: mixed-regularity relaxed PRS contraction in both orientations, the auxiliary-term inequality and the mixed decrease and distance bounds. Includes exact target audits, source pins, community credit, reproducible evidence and rejecting controls. Substantial Codex assistance; no mathematical novelty or human peer-review claim."
+references:
+  - type: article
+    title: "Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions"
+    authors:
+      - family-names: Davis
+        given-names: Damek
+      - family-names: Yin
+        given-names: Wotao
+    year: 2015
+    url: "https://arxiv.org/pdf/1407.5210v3"
+    notes: "Exact arXiv version3,1May2015; printed pp8,16."
+  - type: article
+    title: "Convex Optimization: Algorithms and Complexity"
+    authors:
+      - family-names: Bubeck
+        given-names: Sébastien
+    year: 2015
+    url: "https://arxiv.org/abs/1405.4980v2"
+    notes: "Equation3.6 credit inherited from the reused Nickrobbins95 target; predecessor PDF not independently reaudited."
+doi: "10.5281/zenodo.23543153"

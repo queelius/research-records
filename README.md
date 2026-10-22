@@ -44,9 +44,36 @@ does not by itself establish a public technical disclosure, DOI or peer review.
 
 ## Records
 
+- [Substitution overbooking: transportation duality and expected-revenue structure](records/overbooking-expected-revenue/README.md).
+  Four accepted Lean formalizations complete the transportation, service-value,
+  sample-path and expected-revenue chain under the platform's uncapacitated
+  virtual-class model. All four targets and fourteen platform modules reproduce;
+  five invalid controls reject. Karaesmen–van Ryzin, miao, Harry_Xu, platform
+  contributors and Lean/Mathlib retain specific credit. Metadata and an original
+  technical note are public; a self-contained DOI archive awaits confirmation
+  of legacy dependency redistribution grants.
+
+- [Mixed-regularity relaxed Peaceman–Rachford contraction](records/relaxed-prs-mixed-regularity/README.md).
+  Four complete Lean formalizations establish both regularity orientations of
+  the contraction theorem and its auxiliary, decrease and distance bounds.
+  The [version 1.0.0 archive](https://zenodo.org/records/23543153) includes exact proofs,
+  six definitions, original community sources, full-type audits and six rejecting
+  controls. Davis–Yin mathematics, vebis and Nickrobbins95 proof reuse, Bubeck
+  attribution and substantial Codex assistance are explicit. Fixed-point existence
+  and a uniform strict rate for arbitrary relaxation schedules are outside scope.
+
+- [Weighted Hilbert–Schmidt least-change updates and DFP](records/quasi-newton-least-change/README.md).
+  Two complete Lean formalizations characterize the unique weighted secant
+  perturbation and its DFP specialization under the supplied invertible factor.
+  The [version 1.0.0 archive](https://zenodo.org/records/23541281) includes exact proofs,
+  three definitions, original vebis sources, full-type audits and four rejecting
+  controls. Gilbert–Lemaréchal and Dennis–Moré mathematics, community proofs
+  and substantial Codex assistance are separately credited. Factor existence,
+  updated-operator positivity and algorithm convergence are outside this edition.
+
 - [A matching repair for the ordered binary matrix construction](records/family190-matching-repair/README.md).
   Written all-depth repair and independently certified depth-one optimum four;
-  source lower bound retained for unrestricted sharpness. [PR16](https://github.com/piiiico/openai-math-counterexamples/pull/16), DOI archive pending.
+  source lower bound retained for unrestricted sharpness. [PR16](https://github.com/piiiico/openai-math-counterexamples/pull/16), [v1.0.0 DOI](https://doi.org/10.5281/zenodo.23541166).
 
 - [Graphon aggregates, Nash equilibria and fixed-profile perturbations](records/graphon-game-equilibrium-formalization/README.md).
   Five complete Lean formalizations of Carmona–Cooney–Graves–Laurière results,
@@ -71,6 +98,12 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   Wang, Gilland, Tomlin, platform contributors and Lean/Mathlib retain credit;
   substantial Codex assistance is disclosed. No novelty or human-review claim.
   DOI `10.5281/zenodo.23540084`. The exact-version DOI resolves.
+
+- [House of Graphs witness ledger](records/hog-witness-ledger/README.md).
+  26 byte-exact House of Graphs witnesses (saturation and Zarankiewicz), each
+  accepted only when two code-independent checkers agree, with per-record
+  claims and dated prior art. House of Graphs and prior work retain credit.
+  [Exact v1.0.0 archive](https://doi.org/10.5281/zenodo.23550688).
 
 - [Small-order C6 saturation: exact values and complete minimum families](records/small-order-c6-saturation/README.md).
   Exact values through 15 vertices and the complete 24-class order-15 family,
@@ -167,17 +200,13 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   Written proof of the sharp integer constant 1, exact checks, and a conditional
   M ≤ 49 consequence. Upstream review remains pending; the complete dimension
   threshold is unchanged. [Archived version](https://doi.org/10.5281/zenodo.23497476).
-- [Exact spectral exclusions for degree-five Boolean candidates](records/boolean-degree-five-spectral-exclusions/README.md).
-  Ten conditional cases excluded by exact integer certificates and isolated
-  replay. The 14-variable existence problem remains open. Source and the
-  complete versioned evidence packet are public.
-  The [version 1.3.0 archive](https://doi.org/10.5281/zenodo.23539867) retains
-  the earlier exclusions and singleton classifications and adds the positive-locality
-  G124 graph lemma and minimum-six-repair corollary, relative to Markström–Talbot's
-  published 75-class count. Four new files and both public-archive proof replays
-  are verified; 56 retained entries passed earlier-body rehash and successor MD5/size
-  continuity. The Boolean application has additional unbundled premises; later
-  research is outside this archive. Earlier version/disclosure records remain intact.
+- [Exact spectral exclusions and residual-six lemmas for degree-five Boolean candidates](records/boolean-degree-five-spectral-exclusions/README.md).
+  The [version 1.4.0 archive](https://doi.org/10.5281/zenodo.23544931) retains
+  earlier conditional exclusions, singleton classifications and graph locality,
+  and adds derivative/disk proofs giving a conditional support-union bound of 12
+  at residual defect at most 6. All 65 exact public file bodies and the new
+  public tar's normal/optimized replays pass. Older premises remain explicit;
+  the full Boolean application is not self-contained and the existence problem is open.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).

@@ -1,0 +1,160 @@
+{
+  "checked_at": "2026-10-21T19:05:18.807527+00:00",
+  "api_contract": "0.13.2",
+  "targets": [
+    {
+      "theorem_id": "ded36067-74da-4a12-88c4-753e35cf4699",
+      "submission_id": "23766413-5769-4c79-8267-9febba86ff5e",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T18:55:43.475705+00:00",
+      "submitted_at": "2026-10-21T18:54:03.209992+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "5679ce01586722a6f2f9f1d3170f3c2df17e77a654d49d9818c13136a7a4a0ec",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T01:23:09.58098+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "16f4b53e-0863-4db1-9951-a3938fb23e26",
+      "submission_id": "e583e3ff-d602-4f4c-90f6-06938190b313",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T18:51:57.563733+00:00",
+      "submitted_at": "2026-10-21T18:50:02.211324+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "11ff6462b073aae27b53ece8d7c49310dc1a12729524ac7b091e04e786162ec4",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T01:22:54.983405+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "e22686e8-c522-4dcf-92e0-85b2b06845a5",
+      "submission_id": "03a90fc9-a6aa-4a8e-882a-46585954a2cb",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T18:54:21.619061+00:00",
+      "submitted_at": "2026-10-21T18:52:33.059589+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "291c364746cacacc83b05fa927ad2e7a35a407467a24574b0da5046773fbb23f",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T01:23:13.116321+00:00",
+      "visibility": "public"
+    },
+    {
+      "theorem_id": "a9c4e53c-f0c7-4244-966f-8a711de1458e",
+      "submission_id": "6a6c5908-54ab-48ad-9a1d-a57fabbe09c9",
+      "status": "Proved",
+      "verdict": "ACCEPTED",
+      "accepted_at": "2026-10-21T18:45:56.236639+00:00",
+      "submitted_at": "2026-10-21T18:44:11.800099+00:00",
+      "unchanged_full_statement": true,
+      "proof_sha256": "2d7fb4398e5fa8b89f170d180f8117cec58470fe25f166e1106290257f9aa61c",
+      "accepted_download_matches": true,
+      "submission_count": 1,
+      "created_at": "2026-10-08T01:23:13.642781+00:00",
+      "visibility": "public"
+    }
+  ],
+  "definitions": [
+    {
+      "path": "Definitions/Def_ConvexOptAlg_StrongGD_Defs.lean",
+      "sha256": "e56f8a0dd9a5a9a8237bba4cf365f53eb8e04a45fcb5319a90947879768f8e95",
+      "platform_definition_id": "352ffef5-6bcb-484a-b1be-938877cc5ed8",
+      "source": "Bubeck, arXiv:1405.4980v2, §3.2, p. 266; Eq. (3.1), p. 262; proof of Lemma 3.11, p. 279",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "ConvexOptAlg_StrongGD_Defs",
+      "created_at": "2026-10-05T17:00:08.922037+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_RelaxedPRS_StrongCvx_Setting.lean",
+      "sha256": "15b36637f2d407e6b359e99a8725663bb07068f8fdfacd55aca4e737dd954b29",
+      "platform_definition_id": "864674dd-483e-451e-b14f-57edfb591914",
+      "source": "Davis & Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3, pp. 3–8, §1.2, Algorithm 1, Lemma 1.1, (1.14)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "RelaxedPRS_StrongCvx_Setting",
+      "created_at": "2026-10-07T23:10:58.840375+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_RelaxedPRS_BestIter_Setting.lean",
+      "sha256": "935ed255a930a9bb424c4ef06204bd6ad79239dd89f8fbdd765d51cdb7b1bd83",
+      "platform_definition_id": "0e1cbeb0-f321-40c3-ab66-668a6cf9fcb6",
+      "source": "Davis & Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3, p. 7, Lemma 1.1; p. 10, §3 (objective error f(x)+g(x)−f(x*)−g(x*))",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "RelaxedPRS_BestIter_Setting",
+      "created_at": "2026-10-08T00:21:35.623725+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_RelaxedPRS_Linear_Setting.lean",
+      "sha256": "ac2e2a8fa39f00a9358686b79c882140f0a8ac8556f8cc302d50144af1b68166",
+      "platform_definition_id": "44404767-0ae8-488b-84ca-61ecba1f7d98",
+      "source": "Davis & Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3, pp. 4–8, §1.2, Algorithm 1, Lemma 1.1, (1.14), and pp. 14–16, Theorems 4.1–4.3",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "RelaxedPRS_Linear_Setting",
+      "created_at": "2026-10-08T01:22:14.995155+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_ThreeOpSplitting_ConvexRates_Problem.lean",
+      "sha256": "308b9fe5ee31f68530b64ce58f9922c81af7a437716cffd7d1319eeece8d82e2",
+      "platform_definition_id": "e90f0eef-016c-411e-861a-96f47bf7d79d",
+      "source": "Davis and Yin, A Three-Operator Splitting Scheme and its Optimization Applications, Set-Valued Var. Anal. 25 (2017), https://doi.org/10.1007/s11228-017-0421-z, p. 838, Section 3.1, problem (3.1) and Algorithm 2",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "ThreeOpSplitting_ConvexRates_Problem",
+      "created_at": "2026-09-27T11:53:09.180999+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_MoreauProx_Characterization_GammaZero.lean",
+      "sha256": "57aa960360d60d97644e84fb3314d958b8a2b38723f1f178f9ba499a5b3bf17c",
+      "platform_definition_id": "96c21383-8dc6-483d-84de-70fd298d6fcf",
+      "source": "Moreau, Proximité et dualité dans un espace hilbertien, Bull. Soc. Math. France 93 (1965), pp. 275–277, §2.a, (2.2), §2.c",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "MoreauProx_Characterization_GammaZero",
+      "created_at": "2026-09-27T16:15:46.293192+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    }
+  ],
+  "discussions": {
+    "mission_id": "f41acdad-b3b5-4710-81c6-21f85c04b1af",
+    "comments_read": 0,
+    "pagination_complete": true,
+    "target_mentions_read": 0
+  },
+  "terms": {
+    "url": "https://prove2.me/terms",
+    "effective_at": "2026-09-24T15:55:00+00:00",
+    "checked_on": "2026-10-21",
+    "public_contributions_license": "Apache-2.0"
+  }
+}

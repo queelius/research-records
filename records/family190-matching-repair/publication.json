@@ -1,0 +1,44 @@
+{
+  "state": "published",
+  "id": 23541166,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23541166",
+  "concept_doi": "10.5281/zenodo.23541165",
+  "public_url": "https://zenodo.org/records/23541166",
+  "public_metadata_verified": true,
+  "published_verified_at": "2026-10-21T18:12:48.843269+00:00",
+  "archive_publication_date": "2026-10-21",
+  "files": [
+    {
+      "filename": "family190-matching-repair-v1.0.0.zip",
+      "bytes": 58813,
+      "sha256": "104451cf647620e0073651879f847ba03069bf856aa8c84c4232fa6a2340c9dc",
+      "public_download_verified": true
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 3712,
+      "sha256": "39a7e6fa1737a370a2c356bc3caf143e993774032a11865b699db3bece5f994d",
+      "public_download_verified": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 963,
+      "sha256": "edcd54febd074cb024c5098c1efe5caeff4730dcfec52ff53fdc2375ab97581d",
+      "public_download_verified": true
+    }
+  ],
+  "public_downloads_verified": 3,
+  "archived_manifest_files_verified": 35,
+  "source_commit": "6ea0e2fb055c1f580f5c27c109d861cd93097e72",
+  "source_packet_files": 28,
+  "source_git_blobs_verified": true,
+  "public_disclosure": {
+    "date": "2026-10-21T17:32:18Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/16"
+  },
+  "upstream_acceptance": false,
+  "kernel_verification": false,
+  "human_peer_review": false,
+  "central_id": "family190-matching-repair"
+}

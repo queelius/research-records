@@ -26,7 +26,7 @@ verified by SHA-256. Zenodo version **1.0.0** was published on **20 October
 2026**, at 12:57:08 UTC, with DOI
 [10.5281/zenodo.23496542](https://doi.org/10.5281/zenodo.23496542).
 That exact archived version remains available for the ten exclusions alone.
-The current citation metadata points to version 1.3.0, described below.
+The current citation metadata points to version 1.4.0, described below.
 All 48 public files were downloaded without authentication and verified by
 SHA-256. Concatenating the 40 archive parts reproduced the original
 667,127,632-byte archive exactly. The linked publication receipt records
@@ -114,3 +114,47 @@ The [portable graph lemma and minimum-six-repair corollary](https://github.com/q
 All 38 changed source files were anonymously verified at **2026-10-21T17:01:47.929965+00:00**, exact commit `81e6f434d44ee67610a88aab18a2ed7438510bfc`. The graph source observation and the archive date are separate events. [The new source receipt](G124-SOURCE.json) and [archive receipt](PUBLIC-ZENODO-v1.3.0.json) record four fresh new-file downloads and both complete replays from the downloaded public archive. All 56 retained entries were locally rehashed from previous anonymous downloads and matched successor MD5/size metadata. This does not claim 60 fresh downloads. Versions 1.0.0/1.1.0/1.2.0 retain their original dates/scopes and do not contain the graph supplement.
 
 The classification belongs to Markström and Talbot and is an explicit external premise; GLPK/nauty classification was not rerun, and their PDF is not redistributed. Stronger locality already appeared in project history. The dependent Boolean application has additional **unbundled** premises. The original existence problem remains OPEN; no novelty, human peer review or formal verification is claimed. Alexander Richard Towell and substantial AI assistance are credited.
+
+
+## Residual-six derivative and disk supplement
+
+The [reviewed residual-six source](https://github.com/queelius/boolean-degree-sensitivity/tree/6114c124b343f8468aa4e94236bf5c97cb3ee29a/supplements/residual-six) is archived in **version 1.4.0**,
+[10.5281/zenodo.23544931](https://doi.org/10.5281/zenodo.23544931), published
+on **2026-10-21**. It adds tripled-quartic/private-tip proofs,
+a three-free-coordinate classification, endpoint/common-core disk arguments,
+and an elementary disk lemma, yielding the conditional negative-quintic
+support-union bound **12** at residual defect at most 6.
+[CLAIMS.json](https://github.com/queelius/boolean-degree-sensitivity/tree/6114c124b343f8468aa4e94236bf5c97cb3ee29a/supplements/residual-six/CLAIMS.json) specifies the exact hypotheses and dependency DAG.
+Older local derivative classifications, normalization and BASELINE_LE3 remain
+inherited. The whole Boolean-pattern application has further **unbundled graph
+premises**: the full Boolean application is not self-contained. The original
+fourteen-variable existence question remains **OPEN**.
+
+First mathematical disclosure was observed at **2026-10-21T20:00:04.933829+00:00**, source
+`d72f92fe876e95e2f31fbafbce8b80992b977aa8`. Later canonical metadata source `6114c124b343f8468aa4e94236bf5c97cb3ee29a`
+was anonymously verified across all 182 public files and has canonical
+Alexander Richard Towell author/committer identity. [The curated source receipt](RESIDUAL6-SOURCE.json)
+keeps these events separate from DOI reservation and archive publication.
+
+[The public archive receipt](PUBLIC-ZENODO-v1.4.0.json) records **all 65** exact
+current-version bodies anonymously downloaded and checked by SHA256, MD5 and
+size, including all 60 retained assets. Current-version full partial salvage
+and checked206 range reassembly are recorded separately from full GETs;
+prior-version bodies only check response bytes and never fill missing ranges.
+The forty current-version legacy parts also reconstruct the expected full archive.
+Earlier 1.2/1.3 continuity-only verification claims remain unchanged in their
+historical records.
+
+The newly downloaded public tar was actually extracted and replayed in normal
+and optimized Python: 16 controls per mode and both complete standard-library
+replays pass. [The curated public replay receipt](RESIDUAL6-PUBLIC-REPLAY.json)
+records 61 allocations,54,411 incidences, 55 AST definitions, 42 heptagon
+triangulations, 414 ear checks, 256 core words and 1,296 off-cycle combinations.
+The inherited classifications were not rerun. No later two-free, signed-star
+or other post-version-1.4 findings are added to this archived scope.
+
+Versions 1.0–1.3 do not contain these new proofs and retain their original
+citations, scopes and dates. Substantial AI assistance and predecessor
+attribution remain explicit. The copied-packet reviewer also authored the
+elementary disk lemma; review is not independent rediscovery of every argument.
+No novelty, formal verification or human peer review is established.

@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-21T20:33:46.460631+00:00",
+  "terms_url": "https://prove2.me/terms",
+  "terms_effective_at": "2026-09-24T15:55:00+00:00",
+  "api_contract": "0.13.2",
+  "public_sources": 19,
+  "post_terms_sources": 6,
+  "legacy_unconfirmed": [
+    {
+      "kind": "definition",
+      "id": "c18de795-dbd1-4c1d-a8c3-841f0b199d2b",
+      "post_terms": false,
+      "created_at": "2026-09-18T05:26:03.506158+00:00"
+    },
+    {
+      "kind": "definition",
+      "id": "d3bc1c62-c930-489a-ac94-8c60c04604ce",
+      "post_terms": false,
+      "created_at": "2026-08-04T13:53:19.756463+00:00"
+    },
+    {
+      "kind": "definition",
+      "id": "195393a6-58a0-420a-9ad6-91d2a5ff806b",
+      "post_terms": false,
+      "created_at": "2026-08-05T01:18:16.098294+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "00c98cf7-7b73-44ef-9acd-b43230ea4032",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T20:42:27.257155+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "0fb3b53a-786e-4c09-bd35-aed99bf2561a",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T20:44:33.126541+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "6b5826b9-0201-4cbe-aa9b-d4334975d880",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T15:53:58.42601+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "6df0cbfd-26b3-4e0b-9e6e-bc8b4cc5ee5b",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T16:24:24.564668+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "5f00401c-20fe-404a-b0f3-718e95e40d10",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T16:28:46.339068+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "39d445f1-e8f7-4cfd-af28-af7d117e1a7f",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T16:38:17.861226+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "3f00768b-7c17-4b07-a2ff-4aba77328692",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T20:48:39.574467+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "a03c5421-dd3c-40f7-8dd6-38fd6fa91ecf",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T20:54:58.898254+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "454fbf1b-e557-4b11-bb8b-e0924f449ff1",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T20:55:31.724156+00:00"
+    },
+    {
+      "kind": "proof",
+      "id": "abe830a0-6a9d-48dc-819e-c5bc98c06fdf",
+      "username": "Harry_Xu",
+      "post_terms": false,
+      "submitted_at": "2026-08-05T21:03:14.421382+00:00"
+    }
+  ],
+  "public_profile_fields_inspected": [
+    "user_id",
+    "username",
+    "trust",
+    "num_solved_prob",
+    "num_submitted_prob",
+    "created_at"
+  ],
+  "public_license_fields": {},
+  "definition_license_fields_present": false,
+  "assessment": "Thirteen dependencies predate the current public-contribution terms. Refreshed definition, submission and public-author records do not establish a retroactive grant. This does not establish absence of a license. Preserve exact sources privately; do not redistribute the complete packet until the grant or a separately licensed authoritative source is confirmed.",
+  "permitted_current_release": "New explanatory note, structured metadata, exact source hashes and canonical platform links only. No third-party Lean source or paper redistributed.",
+  "conditions_for_archival_reconsideration": [
+    "Documented retroactive or other applicable redistribution grant for all ten Harry_Xu proof sources and three legacy shared definitions.",
+    "Alternatively, separately verified replacement dependencies with explicit licenses and preserved predecessor credit; do not silently alter the already accepted source edition.",
+    "Then build and reproduce the staged/extracted complete packet, check invalid controls, and use this stable contribution/version family."
+  ]
+}

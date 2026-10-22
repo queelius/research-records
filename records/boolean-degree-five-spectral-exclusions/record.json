@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "boolean-degree-five-spectral-exclusions",
-  "title": "Exact spectral exclusions, singleton components and graph locality for degree-five Boolean candidates",
-  "contribution_type": "Conditional exact exclusions, component classifications, relative graph lemma and reproducible verification source",
+  "title": "Exact spectral exclusions, singleton components, graph locality and residual-six lemmas for degree-five Boolean candidates",
+  "contribution_type": "Conditional exact exclusions, component classifications, relative graph locality and residual-six derivative/disk proofs",
   "authors": [
     {
       "name": "Alexander Richard Towell",
@@ -12,7 +12,7 @@
   ],
   "predecessor_credit": "Smotrovs and Zaicevs: prior investigation of the degree-five, sensitivity-fourteen search; Stepanovs: earlier layer-statistic computations. Standard Fourier analysis and linear inequality certificates are not claimed as new techniques. Klas Markström and John Talbot own the published unrestricted75-class classification used by the graph supplement; the stronger locality property already appears in earlier project history.",
   "ai_assistance": "Substantial OpenAI Codex assistance in mathematics, code, experiments, verification code and exposition; independently implemented checkers are not independent human review.",
-  "claim": "Ten original conditional cases are excluded, with standalone singleton classifications and a relative finite positive-locality graph lemma plus minimum-six-repair corollary; exact scopes are separated in public_supplements.",
+  "claim": "Ten original conditional cases are excluded, with singleton classifications, relative graph locality, and a conditional residual-six support-union bound of 12. Exact claims, dependencies and archived-version scopes are separated in public_supplements.",
   "mathematical_scope": {
     "variables": 14,
     "degree_at_most": 5,
@@ -104,8 +104,8 @@
     }
   },
   "publication": {
-    "state": "published_archive_new_files_and_public_replay_verified_retained_hash_continuity_verified",
-    "version_doi": "10.5281/zenodo.23539867",
+    "state": "published_archive_all65_current_public_bodies_and_new_public_tar_replays_verified",
+    "version_doi": "10.5281/zenodo.23544931",
     "concept_doi": "10.5281/zenodo.23496541",
     "archive_publication_date": "2026-10-21",
     "journal_submission": null,
@@ -130,29 +130,57 @@
         "sha256": "944e4e2db0e2313503917f3bf55fe9b6aaedf00059f0be50906e13a1fa9107f8"
       }
     },
-    "zenodo_status": "Published v1.3.0; four new anonymous downloads and fresh public-archive proof replays verified;56 retained entries verified by historical full-body rehash and successor MD5/size continuity.",
+    "zenodo_status": "Published version 1.4.0: all 65 exact-version anonymous full bodies checked by SHA256, MD5 and size. The new public tar was actually extracted, tested and replayed in normal and optimized Python; inherited classifications were not rerun.",
     "zenodo_archive": {
-      "record_url": "https://zenodo.org/records/23539867",
-      "version": "1.3.0",
-      "created_at": "2026-10-21T17:06:20.629350+00:00",
-      "public_asset_count": 60,
-      "public_download_verification": "PUBLISHED_NEW_FILES_VERIFIED_RETAINED_HASH_CONTINUITY_AND_PUBLIC_ARCHIVE_REPLAY_VERIFIED",
-      "verified_at": "2026-10-21T17:07:29.442263+00:00",
-      "new_files_freshly_downloaded_without_authentication": 4,
-      "retained_files_predecessor_sha256_rehashed_locally": 56,
-      "retained_files_successor_md5_and_size_verified": 56,
-      "all_new_public_downloads_match_sha256": true,
-      "all_successor_public_files_freshly_downloaded": false,
+      "record_url": "https://zenodo.org/records/23544931",
+      "version": "1.4.0",
+      "publication_observed_at": "2026-10-21T20:45:19.237102+00:00",
+      "public_asset_count": 65,
+      "retained_assets": 60,
+      "new_assets": 5,
+      "all_successor_public_files_freshly_downloaded": true,
+      "all_public_downloads_match_sha256": true,
       "actual_fresh_public_archive_both_complete_replays": true,
-      "verification_limit": "Only the four new v1.3.0 files were freshly downloaded anonymously. All56 retained entries matched successor MD5/size and their earlier full anonymous bodies were locally rehashed:52 originate at1.1.0 with1.2.0 continuity;4 originate at1.2.0. No60-fresh-download claim.",
-      "source_commit": "81e6f434d44ee67610a88aab18a2ed7438510bfc",
-      "scope": "Retained ten geometry34 conditional exclusions and ell2/constant-one ell3 component results, plus the standalone positive-locality G124 lemma and minimum-six-repair corollary. Classification count75 is external; dependent Boolean premises not all bundled. No later research or global solution.",
+      "verified_at": "2026-10-21T21:44:30.916820+00:00",
+      "source_commit": "6114c124b343f8468aa4e94236bf5c97cb3ee29a",
+      "scope": "Retained ten conditional exclusions, two singleton classifications and the relative graph-locality lemma, plus residual-six tripled-quartic/private-tip, three-free, endpoint/common-core/disk proofs and the conditional negative-quintic support-union bound of 12. Older local, normalization and graph premises remain explicit and partly unbundled. No later two-free, signed-star or other post-version-1.4 findings are included; global existence remains OPEN.",
       "verification_receipt": {
-        "path": "PUBLIC-ZENODO-v1.3.0.json",
-        "sha256": "8c963ff802be441383ae2c0440699203f4c2f83484d0bf86602c0eeac990a318"
+        "path": "PUBLIC-ZENODO-v1.4.0.json",
+        "sha256": "f004dde699b192b5a25c4bf2c00f3ab582a9d0af6dd361cb0590452f54070116"
+      },
+      "public_replay_receipt": {
+        "path": "RESIDUAL6-PUBLIC-REPLAY.json",
+        "sha256": "66a984cf07d9be203ece0ea8f3b72cad9bc1b108bc5ed752bc26de503ab6d185"
       }
     },
     "prior_archived_versions": [
+      {
+        "version_doi": "10.5281/zenodo.23539867",
+        "archive_publication_date": "2026-10-21",
+        "zenodo_archive": {
+          "record_url": "https://zenodo.org/records/23539867",
+          "version": "1.3.0",
+          "created_at": "2026-10-21T17:06:20.629350+00:00",
+          "public_asset_count": 60,
+          "public_download_verification": "PUBLISHED_NEW_FILES_VERIFIED_RETAINED_HASH_CONTINUITY_AND_PUBLIC_ARCHIVE_REPLAY_VERIFIED",
+          "verified_at": "2026-10-21T17:07:29.442263+00:00",
+          "new_files_freshly_downloaded_without_authentication": 4,
+          "retained_files_predecessor_sha256_rehashed_locally": 56,
+          "retained_files_successor_md5_and_size_verified": 56,
+          "all_new_public_downloads_match_sha256": true,
+          "all_successor_public_files_freshly_downloaded": false,
+          "actual_fresh_public_archive_both_complete_replays": true,
+          "verification_limit": "Only the four new v1.3.0 files were freshly downloaded anonymously. All56 retained entries matched successor MD5/size and their earlier full anonymous bodies were locally rehashed:52 originate at1.1.0 with1.2.0 continuity;4 originate at1.2.0. No60-fresh-download claim.",
+          "source_commit": "81e6f434d44ee67610a88aab18a2ed7438510bfc",
+          "scope": "Retained ten geometry34 conditional exclusions and ell2/constant-one ell3 component results, plus the standalone positive-locality G124 lemma and minimum-six-repair corollary. Classification count75 is external; dependent Boolean premises not all bundled. No later research or global solution.",
+          "verification_receipt": {
+            "path": "PUBLIC-ZENODO-v1.3.0.json",
+            "sha256": "8c963ff802be441383ae2c0440699203f4c2f83484d0bf86602c0eeac990a318"
+          }
+        },
+        "version": "1.3.0",
+        "scope": "Retained ten geometry34 conditional exclusions and ell2/constant-one ell3 component results, plus the standalone positive-locality G124 lemma and minimum-six-repair corollary. Classification count75 is external; dependent Boolean premises not all bundled. No later research or global solution."
+      },
       {
         "version": "1.2.0",
         "version_doi": "10.5281/zenodo.23536478",
@@ -461,6 +489,103 @@
         "notes_data": "CC-BY-4.0"
       },
       "attribution": "Alexander Richard Towell, ORCID0000-0001-6443-9897, with substantial OpenAI Codex assistance. Markström–Talbot classification and older stronger project locality property retain credit. Novelty, human review and formal verification are not established."
+    },
+    {
+      "id": "residual-six-derivative-disk-lemmas",
+      "title": "Residual-six derivative lemmas and conditional negative-quintic support bounds",
+      "claim": "Written tripled-quartic/private-tip and elementary disk lemmas, together with the three-free classification and endpoint/common-core disk arguments, yield negative-quintic support union at least 12 at residual defect at most 6 under explicit inherited hypotheses. The dependent whole-pattern application has additional unbundled graph premises.",
+      "scope": {
+        "residual_fourier_defect_upper_bound": 6,
+        "conditional_negative_quintic_union_lower_bound": 12,
+        "written_proofs_bundled": true,
+        "inherited_assumption_ids": [
+          "OLD_LOCAL_012",
+          "NORMALIZATION",
+          "DISCONNECTED_GRAPH",
+          "BASELINE_LE3"
+        ],
+        "full_dependency_closure_bundled": false,
+        "full_Boolean_application_self_contained": false,
+        "actual_fourteen_variable_Boolean_function": false,
+        "global_existence_question_solved": false,
+        "later_two_free_signed_star_and_other_research_included": false
+      },
+      "source": {
+        "repository": "https://github.com/queelius/boolean-degree-sensitivity",
+        "commit": "6114c124b343f8468aa4e94236bf5c97cb3ee29a",
+        "packet": "https://github.com/queelius/boolean-degree-sensitivity/tree/6114c124b343f8468aa4e94236bf5c97cb3ee29a/supplements/residual-six",
+        "claim_registry": "https://github.com/queelius/boolean-degree-sensitivity/tree/6114c124b343f8468aa4e94236bf5c97cb3ee29a/supplements/residual-six/CLAIMS.json",
+        "manifest": "https://github.com/queelius/boolean-degree-sensitivity/tree/6114c124b343f8468aa4e94236bf5c97cb3ee29a/supplements/residual-six/SOURCE-MANIFEST.json",
+        "manifest_sha256": "470a3deea4638c521418db442df50d03c0757b72564a4c49ff23ac7a929dfd65"
+      },
+      "public_disclosure": {
+        "date": "2026-10-21",
+        "observed_at": "2026-10-21T20:00:04.933829+00:00",
+        "url": "https://github.com/queelius/boolean-degree-sensitivity/tree/d72f92fe876e95e2f31fbafbce8b80992b977aa8/supplements/residual-six",
+        "first_mathematical_source_commit": "d72f92fe876e95e2f31fbafbce8b80992b977aa8",
+        "meaning": "First anonymously verified public mathematical source, separate from later canonical-identity metadata and DOI publication."
+      },
+      "later_source_observation": {
+        "commit": "6114c124b343f8468aa4e94236bf5c97cb3ee29a",
+        "observed_at": "2026-10-21T20:34:07.197041+00:00",
+        "public_files_verified": 182,
+        "canonical_author_and_committer": "Alexander Richard Towell <lex@metafunctor.com>",
+        "receipt": {
+          "path": "RESIDUAL6-SOURCE.json",
+          "sha256": "630f8a494f4c96e63aa2e6801530e17a45dc2a140b1fd02abe2ff1264c0e17e1"
+        }
+      },
+      "verification": {
+        "standard_library_only": true,
+        "portable_controls_normal": 16,
+        "portable_controls_optimized": 16,
+        "allocations": 61,
+        "incidence_cases": 54411,
+        "retained_AST_definitions": 55,
+        "retained_AST_sources": 4,
+        "heptagon_triangulations": 42,
+        "ear_checks": 414,
+        "core_Boolean_words": 256,
+        "offcycle_word_combinations": 1296,
+        "all65_exact_current_public_bodies_verified": true,
+        "actual_new_public_tar_normal_and_optimized_replays": true,
+        "replay_receipt": {
+          "path": "RESIDUAL6-PUBLIC-REPLAY.json",
+          "sha256": "66a984cf07d9be203ece0ea8f3b72cad9bc1b108bc5ed752bc26de503ab6d185"
+        },
+        "inherited_classifications_regenerated": false,
+        "network_isolation_enforced": false,
+        "human_peer_review": false,
+        "formal_verification": false,
+        "novelty_established": false,
+        "copy_review_limit": "Copied-packet reviewer also authored the elementary disk lemma; no independent rediscovery of every argument is claimed."
+      },
+      "publication": {
+        "state": "published_archive_all65_current_public_bodies_and_new_public_tar_replays_verified",
+        "version": "1.4.0",
+        "version_doi": "10.5281/zenodo.23544931",
+        "concept_doi": "10.5281/zenodo.23496541",
+        "record_url": "https://zenodo.org/records/23544931",
+        "archive_publication_date": "2026-10-21",
+        "public_asset_count": 65,
+        "verification_receipt": {
+          "path": "PUBLIC-ZENODO-v1.4.0.json",
+          "sha256": "f004dde699b192b5a25c4bf2c00f3ab582a9d0af6dd361cb0590452f54070116"
+        },
+        "earlier_versions_do_not_include_supplement": [
+          "1.0.0",
+          "1.1.0",
+          "1.2.0",
+          "1.3.0"
+        ],
+        "journal_submission": null,
+        "preprint_server_submission": null
+      },
+      "license": {
+        "code": "MIT",
+        "notes_data": "CC-BY-4.0"
+      },
+      "attribution": "Alexander Richard Towell, ORCID 0000-0001-6443-9897, SIUE, with substantial OpenAI Codex assistance. Predecessors and external classifications retain credit. Written proof, finite controls and AI packaging review do not establish novelty, formal verification or human peer review."
     }
   ],
   "original_ten_case_claim": "Ten explicitly specified marked-pattern cases in signed Fourier geometry 34 are excluded by independently checked exact integer contradictions."

@@ -17,7 +17,7 @@
     "commit": "47002aacd10733ed784ce054c8ae8c39cd19a178",
     "canonical_public_source": "https://zenodo.org/records/23527267/files/graph-saturation-v6.zip",
     "deposit_tracker": "https://github.com/queelius/hog-contrib",
-    "deposit_tracker_access": "private; public HoG records and the scoped archive carry the public evidence",
+    "deposit_tracker_access": "public since 2026-10-21; archived as record hog-witness-ledger, doi:10.5281/zenodo.23550688",
     "live_order15_graph": "https://houseofgraphs.org/graphs/58092"
   },
   "evidence": {

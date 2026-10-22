@@ -1,0 +1,73 @@
+{
+  "title": "Verified mixed-regularity contraction for relaxed Peaceman–Rachford splitting",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>For actual relaxed PRS iterates and a supplied fixed point in an arbitrary real Hilbert space, the exact C43 distance bound holds when strong convexity and smoothness lie in opposite summands, in either orientation. Also establishes the general auxiliary estimate and mixed decrease and distance bounds.</p>\n<p>The new formal work identifies differentiable subgradients, proves an extended-real strong-convexity support inequality, combines strong monotonicity and cocoercivity with the exact proximal energy identity, and checks the three-vector norm bound and square-root factor in both orientations. It also establishes the complete auxiliary-term, mixed-decrease and distance estimates.</p>\n<p>Exact hypotheses: Arbitrary complete real inner-product space. Proper closed convex extended-real f,g; actual proximal maps supplied at positive gamma. z(k+1)=(1-lambda(k))*z(k)+lambda(k)*TPRS(z(k));0&lt;lambda(k)&lt;=1; a fixed point zs is supplied. Positive mu,beta. Either f is mu-strongly convex and g has a smooth convex real representative with beta^-1-Lipschitz gradient, or vice versa. sqrt(1-(4*lambda/3)*min(gamma*mu,beta/gamma,1-lambda)) Four nonnegative regularity parameters; smooth representatives required only when the corresponding beta is positive. Full exact signatures in targets/ are authoritative.</p>\n<p>Original mathematics: Damek Davis and Wotao Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3 (1 May 2015), printed pp. 8 and 16, Theorems 2.1 and 4.3. Exact source bytes were inspected and hashed; the paper is cited, not redistributed.</p>\n<p>vebis supplied the accepted proximal-optimality and Lemma 1.1 implementation. Nickrobbins95 supplied the accepted Bregman/cocoercivity implementation, retaining its citation to Sébastien Bubeck, arXiv:1405.4980v2, Equation (3.6). Complete originals, exact IDs, hashes and inline transformations are recorded. Reused proofs do not add to our four-target count. mikedeng1 supplied the PRS platform formulation and shared definitions; Shuze Chen’s earlier statement confirmation is distinct from proof review. Lean and Mathlib retain infrastructure credit.</p>\n<p>The packet includes four unchanged accepted sources, six exact platform definitions, independent complete-type audits, pinned Lean 4.33.1 and Mathlib 0df444a360eaa60ab8c11dca51a86af692955474, the unchanged archive verifier and replay logs. Six rejecting controls cover unsupported hypotheses in every target, an unused forbidden local axiom and altered proof bytes. autoImplicit is disabled and only propext, Classical.choice and Quot.sound are allowed. Verified compiled third-party caches are trusted inputs.</p>\n<p>Alexander Richard Towell directed the research, verification standards and publication and stewards the archive. Independent human proof review is not claimed. OpenAI Codex substantially constructed, checked, submitted and documented the proofs and assembled this packet. AI assistance is not human peer review.</p>\n<p>Limits: Formalization of established mathematics; no mathematical novelty, exhaustive priority search, source-author endorsement or independent human peer review claimed. Proximal maps and a fixed point are supplied; their existence is not proved by this target. At lambda=1 the displayed factor is1. No uniform strict rate for arbitrary relaxation schedules is claimed. ADMM translations, nonlinear objectives beyond the supplied regularity assumptions and broader source-paper theorems are outside the four exact targets. Reused community proofs are not additional queelius targets. Verified pinned compiled third-party caches are trusted inputs; no Lean/Mathlib bootstrap verification.</p>\n<p>Original public proof submissions and acceptances occurred on 21 October 2026 and have separate exact timestamps. Archival publication adds no accepted target. A DOI supplies a persistent citation, not mathematical novelty, human peer review or legal priority.</p>",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "Peaceman-Rachford splitting",
+    "proximal algorithms",
+    "strong convexity",
+    "cocoercivity",
+    "linear convergence",
+    "formalized mathematics",
+    "Lean 4",
+    "Mathlib",
+    "reproducible proofs",
+    "AI-assisted research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://arxiv.org/pdf/1407.5210v3",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/relaxed-prs-mixed-regularity",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/ded36067-74da-4a12-88c4-753e35cf4699",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/16f4b53e-0863-4db1-9951-a3938fb23e26",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/e22686e8-c522-4dcf-92e0-85b2b06845a5",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/a9c4e53c-f0c7-4244-966f-8a711de1458e",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/b72bd839-b11e-4579-b12f-f4a6c8917b38",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://prove2.me/theorems/b87fc60c-8443-4f94-a2bf-ee91e2e76419",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Four accepted formalizations of established Davis–Yin mathematics. Prior source and formal contributors are credited separately, not represented as coauthors or reviewers. A relaxation-one bound of one does not establish a uniform strict rate for arbitrary schedules."
+}

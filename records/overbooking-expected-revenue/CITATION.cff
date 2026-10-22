@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Cite an exact public index commit and the relevant accepted target; retain Karaesmen–van Ryzin, miao and Harry_Xu credit. No DOI assigned."
+title: "Verified transportation duality and expected-revenue structure for substitution overbooking"
+type: dataset
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+version: 1.0.0
+date-released: 2026-10-21
+url: "https://github.com/queelius/research-records/tree/main/records/overbooking-expected-revenue"
+license: Apache-2.0
+abstract: "Metadata and explanatory note for four accepted Lean formalizations of transportation duality and overbooking expected-revenue structure. Exact proof hashes, source/community credit and verification scope are recorded. Self-contained archival redistribution awaits legacy dependency license confirmation. Substantial Codex assistance; no mathematical novelty or independent human-review claim."
+references:
+  - type: article
+    title: "Overbooking with Substitutable Inventory Classes"
+    authors:
+      - family-names: Karaesmen
+        given-names: Itir
+      - family-names: van Ryzin
+        given-names: Garrett
+    journal: "Operations Research"
+    volume: "52"
+    issue: "1"
+    start: 83
+    end: 104
+    year: 2004
+    doi: "10.1287/opre.1030.0079"

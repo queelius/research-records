@@ -55,22 +55,66 @@
     "public_source_blobs_verified": 28,
     "reproduce": "bash rows/190/repair/reproduce.sh",
     "expected": "Exit0 and RESULT: repair packet, independent enumeration and rejecting controls reproduced",
-    "trust_boundary": "General repair/model-to-host proofs are written. Finite verification trusts Python and its checked code; no kernel proof or human peer review."
+    "trust_boundary": "General repair/model-to-host proofs are written. Finite verification trusts Python and its checked code; no kernel proof or human peer review.",
+    "archival_staging": {
+      "date": "2026-10-21",
+      "source_files": 28,
+      "all_public_git_blobs_match": true,
+      "normal_tests": 16,
+      "optimized_tests": 16,
+      "RUP_additions": 25,
+      "independent_cases": 43745,
+      "rejection_controls": 4,
+      "manifest_entries": 35,
+      "public_downloads_verified": 3,
+      "deterministic_zip_rebuild_byte_identical": true
+    }
   },
   "publication": {
-    "state": "public_source_archive_pending",
-    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/6ea0e2fb055c1f580f5c27c109d861cd93097e72/rows/190/repair",
+    "state": "published",
     "version": "1.0.0",
-    "version_doi": null,
-    "archive_status": "ready_to_package_not_deposited",
-    "archive_reason": "Recorded research deadline passed during an interruption; resumed only for closing existing work. Archival publication is the explicit next bounded follow-up.",
-    "next_step": "Package exact source commit, refresh duplicate search, stage/rerun required checks, deposit to Zenodo and verify public bytes. Reuse this central record ID."
+    "archive_publication_date": "2026-10-21",
+    "version_doi": "10.5281/zenodo.23541166",
+    "concept_doi": "10.5281/zenodo.23541165",
+    "url": "https://zenodo.org/records/23541166",
+    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/6ea0e2fb055c1f580f5c27c109d861cd93097e72/rows/190/repair",
+    "receipt": "publication.json",
+    "public_downloads_verified": 3,
+    "archive_manifest_files_verified": 35,
+    "archive_status": "published_and_verified"
   },
-  "license": "Original code/prose MIT; included OpenAI manuscript source Apache-2.0, notices preserved.",
+  "license": "Archival compilation and archive note Apache-2.0; original contribution code/prose MIT; included OpenAI manuscript source Apache-2.0, component notices preserved.",
   "limitations": [
     "Unrestricted distance equality inherits the source lower bound, whose Lean project was not rebuilt.",
     "General upper bound and full-host model bridge are written proofs, not finite-computation consequences.",
-    "No new removal counterexample, human peer review, kernel verification or exhaustive novelty claim.",
-    "No DOI deposit has been created for this contribution."
+    "No new removal counterexample, human peer review, kernel verification or exhaustive novelty claim."
+  ],
+  "publication_history": [
+    {
+      "state": "public_source_archive_pending",
+      "recorded_in_commit": "17af4a9e0093f1d09347c438c5821cf646b31e5d",
+      "reason": "Recorded research deadline passed during an interruption; resumed only for closing existing work. Archival publication is the explicit next bounded follow-up.",
+      "scope": "Source public; archive deferred after research deadline. Superseded by this verified archival publication."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "artifacts/family190-matching-repair-v1.0.0.zip",
+      "filename": "family190-matching-repair-v1.0.0.zip",
+      "bytes": 58813,
+      "sha256": "104451cf647620e0073651879f847ba03069bf856aa8c84c4232fa6a2340c9dc"
+    },
+    {
+      "path": "records/family190-matching-repair/ARCHIVE-NOTE.md",
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 3712,
+      "sha256": "39a7e6fa1737a370a2c356bc3caf143e993774032a11865b699db3bece5f994d"
+    },
+    {
+      "path": "records/family190-matching-repair/CITATION.cff",
+      "filename": "CITATION.cff",
+      "bytes": 963,
+      "sha256": "edcd54febd074cb024c5098c1efe5caeff4730dcfec52ff53fdc2375ab97581d"
+    }
   ]
 }

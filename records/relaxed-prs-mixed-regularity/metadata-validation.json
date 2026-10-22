@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-21T19:17:49.585901+00:00",
+  "state": "ready_for_publication",
+  "record_id": "relaxed-prs-mixed-regularity",
+  "deposition_id": 23543153,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23543153",
+  "staged_reproduction": "PASS",
+  "final_extracted_reproduction": "PASS",
+  "accepted_targets": 4,
+  "controls_rejected": 6,
+  "packet_files": 94,
+  "all_verified_proof_audit_evidence_bytes_unchanged": true,
+  "metadata_and_citation_consistent": true,
+  "all_uploaded_checksums_match": true,
+  "scope": "This session\u2019s completed Prove2Me mixed-regularity PRS formalizations only.",
+  "authorization": "Standing user instructions to publish sufficiently verified, focused Prove2Me contributions."
+}

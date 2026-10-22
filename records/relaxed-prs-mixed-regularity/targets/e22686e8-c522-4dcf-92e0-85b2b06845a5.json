@@ -1,0 +1,10 @@
+{
+  "theorem_id": "e22686e8-c522-4dcf-92e0-85b2b06845a5",
+  "theorem_name": "RelaxedPRS.Linear.eq_4_6",
+  "status": "Proved",
+  "formal_statement": "namespace RelaxedPRS.Linear\n\n/-- (4.6), proof of Theorem 4.3, p. 16: mixed-regularity decrease. -/\ntheorem eq_4_6 {H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℝ H] [CompleteSpace H]\n    (f g : H → EReal)\n    (hf : ThreeOpSplitting.ConvexRates.IsProperClosedConvex f)\n    (hg : ThreeOpSplitting.ConvexRates.IsProperClosedConvex g)\n    (γ : ℝ) (hγ : 0 < γ) (Pf Pg : H → H)\n    (hPf : ThreeOpSplitting.ConvexRates.IsProx γ f Pf)\n    (hPg : ThreeOpSplitting.ConvexRates.IsProx γ g Pg)\n    (lam : ℕ → ℝ) (hlam : ∀ k, 0 < lam k ∧ lam k ≤ 1)\n    (z : ℕ → H) (hz : RelaxedPRS.StrongCvx.IsPRSRun Pf Pg lam z)\n    (zs : H) (hzs : RelaxedPRS.StrongCvx.TPRS Pf Pg zs = zs)\n    (μ β : ℝ) (hμ : 0 < μ) (hβ : 0 < β)\n    (hsc : RelaxedPRS.StrongCvx.IsStrongCvxE μ f)\n    (h : H → ℝ) (hgh : ∀ x, g x = (h x : EReal))\n    (hh : ThreeOpSplitting.ConvexRates.IsSmoothConvex β h) :\n    ∀ k, 4 * γ * lam k * μ * ‖RelaxedPRS.StrongCvx.xf Pf Pg (z k) - RelaxedPRS.StrongCvx.xg Pg zs‖ ^ 2 +\n      4 * γ * lam k * β * ‖gradient h (RelaxedPRS.StrongCvx.xg Pg (z k)) - gradient h (RelaxedPRS.StrongCvx.xg Pg zs)‖ ^ 2 +\n      4 * lam k * (1 - lam k) * ‖RelaxedPRS.StrongCvx.xf Pf Pg (z k) - RelaxedPRS.StrongCvx.xg Pg (z k)‖ ^ 2 ≤\n      ‖z k - zs‖ ^ 2 - ‖z (k + 1) - zs‖ ^ 2 := by sorry\nend RelaxedPRS.Linear\n",
+  "preamble": "import Mathlib\nimport Definitions.Def_RelaxedPRS_Linear_Setting",
+  "source": "Davis & Yin, Faster convergence rates of relaxed Peaceman-Rachford and ADMM under regularity assumptions, arXiv:1407.5210v3, p. 16, proof of Theorem 4.3, (4.6)",
+  "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "visibility": "public"
+}

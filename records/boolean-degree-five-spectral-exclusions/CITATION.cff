@@ -1,31 +1,14 @@
-cff-version: 1.2.0
-message: "Cite this exact version for the retained results and the graph-locality supplement; the Boolean problem remains open."
-title: "Exact spectral exclusions, singleton components and graph locality for degree-five Boolean candidates"
-type: software
-authors:
-  - family-names: Towell
-    given-names: Alexander Richard
-    orcid: "https://orcid.org/0000-0001-6443-9897"
-    affiliation: "Southern Illinois University Edwardsville"
-doi: "10.5281/zenodo.23539867"
-version: "1.3.0"
-date-released: "2026-10-21"
+cff-version: "1.2.0"
+message: "Cite this exact archived version 1.4.0 for retained results and conditional residual-six proofs; the original Boolean existence problem remains open."
+type: "software"
+title: "Exact spectral exclusions, singleton components, graph locality and residual-six lemmas for degree-five Boolean candidates"
+version: "1.4.0"
+authors: [{"family-names": "Towell", "given-names": "Alexander Richard", "orcid": "https://orcid.org/0000-0001-6443-9897", "affiliation": "Southern Illinois University Edwardsville"}]
+license: ["MIT", "CC-BY-4.0"]
+abstract: "Written tripled-quartic, private-tip, three-free classification, endpoint, common-core and disk arguments give a conditional negative-quintic support-union bound of 12 at residual defect at most 6. Inherited derivative and normalization premises remain explicit; the whole Boolean-pattern application has further unbundled graph premises. Standard-library controls corroborate the mechanisms, without constructing a Boolean function. Substantial AI assistance is disclosed; the global problem remains open. No novelty, formal verification or human peer review is established."
 repository-code: "https://github.com/queelius/boolean-degree-sensitivity"
-commit: "81e6f434d44ee67610a88aab18a2ed7438510bfc"
-url: "https://doi.org/10.5281/zenodo.23539867"
-license:
-  - MIT
-  - CC-BY-4.0
-keywords:
-  - Boolean functions
-  - hypergraphs
-  - exact verification
-  - reproducibility
-abstract: >-
-  A reproducible positive-obstruction locality lemma for free124-edge fourteen-vertex
-  3-graphs, relative to Markstrom-Talbot's published75-class count, and its minimum-six-repair
-  corollary supplement the retained spectral exclusions and singleton classifications.
-  Two distinct standard-library verifiers and all75 literal graphs are included.
-  The Boolean application has additional unbundled premises; the original question
-  remains open. Substantial AI assistance; novelty, formal verification and human
-  peer review are not established.
+keywords: ["Boolean functions", "polynomial degree", "sensitivity", "sparse Fourier analysis", "triangulated disks", "exact verification"]
+doi: "10.5281/zenodo.23544931"
+commit: "6114c124b343f8468aa4e94236bf5c97cb3ee29a"
+url: "https://doi.org/10.5281/zenodo.23544931"
+date-released: "2026-10-21"

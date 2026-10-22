@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "quasi-newton-least-change",
+  "title": "Verified weighted Hilbert–Schmidt least-change updates and the DFP specialization",
+  "contribution_type": "Two complete Lean formalizations of weighted least-change and DFP secant perturbation results",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "source_commit": "ee0490d69bf4ef30aa53bf0a34f55dbb75708651",
+    "source_commit_scope": "Completed owning-project editorial record and its detailed lifecycle; the owning repository remains private.",
+    "record_path": "contributions/queelius/publications/quasi-newton-least-change/record.json",
+    "lifecycle_ledger": "contributions/queelius/contributions.json",
+    "record_sha256": "d56f4e86a67b6418f975c9f84328946416a77823e392b288b8b04ae7fce2aded",
+    "record_url": "https://github.com/queelius/prove2me-contributions/blob/ee0490d69bf4ef30aa53bf0a34f55dbb75708651/contributions/queelius/publications/quasi-newton-least-change/record.json"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/quasi-newton-least-change",
+  "claim": "The displayed self-adjoint Hilbert–Schmidt secant perturbation uniquely minimizes the weighted Hilbert–Schmidt norm over all feasible perturbations on an arbitrary complete real inner-product space. Under the exact supplied invertible factor C and positive curvature, its weight is y and the DFP perturbation has the same feasibility, global minimality and uniqueness properties.",
+  "formal_targets": [
+    {
+      "theorem_id": "06f30b5e-6267-4759-864c-74e4b86c8dba",
+      "theorem_name": "VarStorageQN.LeastChange.proposition_A2",
+      "url": "https://prove2.me/theorems/06f30b5e-6267-4759-864c-74e4b86c8dba",
+      "exact_statement": "targets/06f30b5e-6267-4759-864c-74e4b86c8dba.json",
+      "proof_type": "prove",
+      "proof_sha256": "fd2cfd189933f2c4a48dd4a9855b64ca6314cabb635ec298005e04abb3e0f610",
+      "proof_file": "contributions/queelius/proofs/VarStorageQN_LeastChange_proposition_A2.lean"
+    },
+    {
+      "theorem_id": "f42691e8-f3c5-4451-832d-53fbb124c64b",
+      "theorem_name": "VarStorageQN.LeastChange.dfp_update",
+      "url": "https://prove2.me/theorems/f42691e8-f3c5-4451-832d-53fbb124c64b",
+      "exact_statement": "targets/f42691e8-f3c5-4451-832d-53fbb124c64b.json",
+      "proof_type": "prove",
+      "proof_sha256": "83e43ff647b36b34c8c3b508128b4faf762586c11fce7741d5c5f963bc12ebf8",
+      "proof_file": "contributions/queelius/proofs/VarStorageQN_LeastChange_dfp_update.lean"
+    }
+  ],
+  "assumptions": {
+    "space": "Complete real inner-product space H; any Hilbert basis b with arbitrary index type. No finite-dimensional or separability restriction.",
+    "base_operator": "B : H →L[ℝ] H is self-adjoint. No positivity assumption is added.",
+    "weight": "R : H ≃L[ℝ] H is a continuous linear equivalence; c = adjoint(R.symm)(R.symm s).",
+    "secant_data": "y is arbitrary and s ≠ 0 for Proposition A.2.",
+    "feasibility": "P is Hilbert–Schmidt relative to b, self-adjoint, and (B+P)s=y.",
+    "objective": "hsNorm b (adjoint R ∘L P ∘L R); the proof establishes the required summability rather than relying on the nonsummable tsum default.",
+    "dfp": "0 < ⟨y,s⟩ and a supplied continuous linear equivalence C with y=adjoint(C)(C s). R=C.symm; factor existence is outside this target."
+  },
+  "mathematical_source": {
+    "authors": [
+      "Jean Charles Gilbert",
+      "Claude Lemaréchal"
+    ],
+    "title": "Some Numerical Experiments with Variable Storage Quasi-Newton Algorithms",
+    "year": 1988,
+    "identifier": "IIASA WP-88-121",
+    "version": "IIASA WP-88-121, August 1988",
+    "url": "https://pure.iiasa.ac.at/id/eprint/3085/1/WP-88-121.pdf",
+    "sha256": "8284e6ee2dcab674e1bfbffab148219d050e07ee9b7483852fa90371f95150ff",
+    "inspected_scope": "Printed pp.28–30: Proposition A.2, equations(A.6)–(A.8), DFP setup and predecessor references. The exact scanned pages were visually inspected.",
+    "redistributed": false,
+    "preexisting_platform_repair": "Platform explicitly corrects the source cross-reference from(A.5) to(A.6); no new repair claimed."
+  },
+  "predecessor_credit": [
+    {
+      "authors": [
+        "Jean Charles Gilbert",
+        "Claude Lemaréchal"
+      ],
+      "contribution": "Immediate source exposition, weighted least-change result and DFP specialization; not coauthors or reviewers of this formalization."
+    },
+    {
+      "authors": [
+        "J. E. Dennis",
+        "J. J. Moré"
+      ],
+      "title": "Quasi-Newton methods, motivation and theory",
+      "source": "SIAM Review19 (1977),46–89; credited in Gilbert/Lemaréchal PropositionA.2 and its proof.",
+      "contribution": "Original-result attribution inherited from the inspected source; predecessor text not independently audited."
+    },
+    {
+      "username": "vebis",
+      "contribution": "Accepted PSB formalization and two Hilbert–Schmidt ideal-property lemma bodies; exact sources and reuse transformations recorded separately."
+    },
+    {
+      "username": "mikedeng1",
+      "contribution": "Platform mission/formulation and existing source cross-reference repair; definition endpoint does not separately expose contributor identity."
+    },
+    {
+      "name": "Shuze Chen",
+      "contribution": "Prior platform statement confirmation, distinct from review of these proof submissions."
+    },
+    {
+      "name": "Lean and Mathlib contributors",
+      "contribution": "Kernel, Hilbert-space operators, adjoints, summability, continuous linear equivalences and checking infrastructure."
+    }
+  ],
+  "reuse": [
+    {
+      "target_id": "5881ae22-43d3-4310-b6ff-814baed1b99d",
+      "submission_id": "d35a6fac-6209-4af2-a912-3b94edaac2e7",
+      "username": "vebis",
+      "source_sha256": "1a0791d21990ace4556acd5e88b181ea488326d05f96e492726d748037b77510",
+      "reuse_scope": "Hilbert-Schmidt composition ideal lemmas hs_comp_right and hs_comp_left, unchanged bodies.",
+      "accepted_at": "2026-10-20T23:42:01.936703+00:00",
+      "submitted_at": "2026-10-20T23:40:46.112377+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "url": "https://prove2.me/theorems/5881ae22-43d3-4310-b6ff-814baed1b99d",
+      "license": "Apache-2.0",
+      "source_file": "prior-proofs/5881ae22-43d3-4310-b6ff-814baed1b99d.lean"
+    },
+    {
+      "target_id": "1162708d-6470-444f-b7c6-cd398fef3176",
+      "submission_id": "7b1235f0-5d36-4d21-bb17-de9747cde938",
+      "username": "vebis",
+      "source_sha256": "a202c93bd463f3a112281416532c85b44fae45780583202ddfa8c772468ac7aa",
+      "reuse_scope": "Entire accepted PSB proof with final theorem renamed accepted_psb; proof body unchanged.",
+      "accepted_at": "2026-10-20T23:51:40.74927+00:00",
+      "submitted_at": "2026-10-20T23:49:59.851838+00:00",
+      "visibility": "public",
+      "status": "ACCEPTED",
+      "unchanged_download": true,
+      "url": "https://prove2.me/theorems/1162708d-6470-444f-b7c6-cd398fef3176",
+      "license": "Apache-2.0",
+      "source_file": "prior-proofs/1162708d-6470-444f-b7c6-cd398fef3176.lean"
+    },
+    {
+      "target_id": "06f30b5e-6267-4759-864c-74e4b86c8dba",
+      "submission_id": "1ffc0fbe-1fed-43bf-986a-989e03cad315",
+      "username": "queelius",
+      "source_sha256": "fd2cfd189933f2c4a48dd4a9855b64ca6314cabb635ec298005e04abb3e0f610",
+      "destination_target_id": "f42691e8-f3c5-4451-832d-53fbb124c64b",
+      "reuse_scope": "Complete newly accepted weighted proof retained in the DFP file; final theorem renamed accepted_weighted. This does not create another counted target."
+    }
+  ],
+  "human_role": "Alexander Richard Towell directed the research, verification standards and publication and stewards the archive. Independent human proof review is not claimed.",
+  "ai_assistance": "OpenAI Codex substantially constructed, formalized, checked, submitted and documented the proofs and assembled this packet. AI assistance is not human peer review.",
+  "source_definitions": [
+    {
+      "path": "Definitions/Def_VarStorageQN_LeastChange_HilbertSchmidt.lean",
+      "sha256": "66e0d4cafb089f41fc588724b628740e10c44ff6e26a5b4b624a26138d2549e4",
+      "platform_definition_id": "c79b59de-9e44-4bad-a730-d7995d910965",
+      "source": "Gilbert & Lemaréchal, Some numerical experiments with variable-storage quasi-Newton algorithms, IIASA Working Paper WP-88-121 (August 1988), p. 26, Annex, (A.1) and paragraph after (A.1)",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "VarStorageQN_LeastChange_HilbertSchmidt",
+      "created_at": "2026-10-08T06:45:47.730617+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_VarStorageQN_LeastChange_Bracket.lean",
+      "sha256": "c694cf244f3e7804c292bddd2abef02b0f6101866a5ba435f66c581fcd3325c4",
+      "platform_definition_id": "118b5857-a07c-440a-8c69-3aa0eef4ca01",
+      "source": "Gilbert & Lemaréchal, Some numerical experiments with variable-storage quasi-Newton algorithms, IIASA Working Paper WP-88-121 (August 1988), p. 3, §2.1",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "VarStorageQN_LeastChange_Bracket",
+      "created_at": "2026-10-08T06:45:49.962367+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    },
+    {
+      "path": "Definitions/Def_VarStorageQN_LeastChange_SecantProblem.lean",
+      "sha256": "1a309e901d4e035afdf68aa15c2b746f2e6f9d20da6c6d66055481c517ef3526",
+      "platform_definition_id": "fa27101e-581c-4eda-9f5b-d91f605ea7a5",
+      "source": "Gilbert & Lemaréchal, Some numerical experiments with variable-storage quasi-Newton algorithms, IIASA Working Paper WP-88-121 (August 1988), pp. 27–28, Annex, Π, (A.4), Π_S, (A.6), and Proposition A.2",
+      "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "definition_name": "VarStorageQN_LeastChange_SecantProblem",
+      "created_at": "2026-10-08T06:46:29.75731+00:00",
+      "updated_at": null,
+      "visibility": "public",
+      "username": null,
+      "user_id": null,
+      "accepted_download_matches": true
+    }
+  ],
+  "public_disclosures": [
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T17:27:24.338614+00:00",
+      "url": "https://prove2.me/theorems/06f30b5e-6267-4759-864c-74e4b86c8dba",
+      "theorem_id": "06f30b5e-6267-4759-864c-74e4b86c8dba",
+      "submission_id": "1ffc0fbe-1fed-43bf-986a-989e03cad315",
+      "scope": "Exact proof submission to a public target; API source downloads require authentication. Archival publication is a separate event."
+    },
+    {
+      "kind": "platform_submission",
+      "timestamp": "2026-10-21T17:29:13.845389+00:00",
+      "url": "https://prove2.me/theorems/f42691e8-f3c5-4451-832d-53fbb124c64b",
+      "theorem_id": "f42691e8-f3c5-4451-832d-53fbb124c64b",
+      "submission_id": "5aa7177e-b724-4ec7-817d-bcc87afebedc",
+      "scope": "Exact proof submission to a public target; API source downloads require authentication. Archival publication is a separate event."
+    }
+  ],
+  "acceptance": [
+    {
+      "theorem_id": "06f30b5e-6267-4759-864c-74e4b86c8dba",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T17:29:17.27459+00:00",
+      "submission_id": "1ffc0fbe-1fed-43bf-986a-989e03cad315",
+      "observed_at": "2026-10-21T18:10:17.654131+00:00",
+      "download_matches_verified_bytes": true
+    },
+    {
+      "theorem_id": "f42691e8-f3c5-4451-832d-53fbb124c64b",
+      "status": "ACCEPTED",
+      "timestamp": "2026-10-21T17:30:43.851137+00:00",
+      "submission_id": "5aa7177e-b724-4ec7-817d-bcc87afebedc",
+      "observed_at": "2026-10-21T18:10:17.654131+00:00",
+      "download_matches_verified_bytes": true
+    }
+  ],
+  "verification": {
+    "lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "autoImplicit": false,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exact_type_audits": true,
+    "open_proof_dependencies": [],
+    "fresh_archive_reproduction": "PASS",
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false,
+    "receipt": "archival-verification.json",
+    "staged_packet_receipt": "archival-verification.json",
+    "rejecting_controls": [
+      "AddedHypothesis1",
+      "ExtraAxiomControl",
+      "AddedHypothesis2",
+      "proof-byte-mutation"
+    ],
+    "staged_packet_verified_at": "2026-10-21T18:18:06.766961+00:00",
+    "staged_packet_reproduction": "PASS",
+    "extracted_archive_reproduction": "PASS",
+    "public_downloads_match": true,
+    "packet_file_count": 66,
+    "publication_receipt": "publication.json"
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23541281",
+    "concept_doi": "10.5281/zenodo.23541280",
+    "archival_status": "published",
+    "readiness": "Two-proof first edition published; all 3 public files and all 66 internal packet files verified.",
+    "record_id": 23541281,
+    "note": "The frozen archive records the reserved state at packaging. The separate publication receipt establishes public availability and final extracted reproduction.",
+    "url": "https://zenodo.org/records/23541281",
+    "publication_date": "2026-10-21",
+    "published_at": "2026-10-21T18:20:44.310702+00:00",
+    "published_at_basis": "Deposition submitted_at or modified timestamp observed after the single publish request. This is an observed server timestamp, not an independently established exact first-public-access instant; publication_date is separate.",
+    "verified_at": "2026-10-21T18:21:30.484471+00:00",
+    "receipt": "publication.json",
+    "doi_resolution_verified": true,
+    "doi_last_checked_at": "2026-10-21T18:21:30.876467+00:00"
+  },
+  "license": "Apache-2.0",
+  "limitations": [
+    "Formalization of established mathematics; no novelty, exhaustive priority search, source-author endorsement or independent human proof review claimed.",
+    "Positive definiteness of the updated operator, existence of the DFP factor, BFGS equivalence and algorithm convergence are outside these two target claims.",
+    "The DFP target supplies an invertible C. This artifact does not replace it with an unproved existence assertion.",
+    "The source equation-number correction was already in the platform statement; it is not a new repair by this contribution.",
+    "Reused vebis work and existing community mission results are not additional contributions counted in this edition.",
+    "Verified pinned third-party compiled caches are trusted inputs; no Lean/Mathlib bootstrap verification."
+  ],
+  "history": [
+    {
+      "at": "2026-10-21T18:15:10.604838+00:00",
+      "version": "1.0.0",
+      "scope": "First coherent archive of two accepted October21 formalizations. Archiving adds no accepted platform target.",
+      "publication_date": "2026-10-21",
+      "version_doi": "10.5281/zenodo.23541281",
+      "publication_receipt": "publication.json"
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "quasi-newton-least-change-v1.0.0.zip",
+      "bytes": 139884,
+      "sha256": "6f8d1f9117865cddbee2770626009dd4126ba1aab164c34e3538f74f1ba767bc",
+      "download_url": "https://zenodo.org/api/records/23541281/files/quasi-newton-least-change-v1.0.0.zip/content",
+      "repository_path": "artifacts/quasi-newton-least-change-v1.0.0.zip"
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 8148,
+      "sha256": "bdacf2b473779a17c3f33d8c3425dfef3c563cb09f10c130270124f13bc441b4",
+      "download_url": "https://zenodo.org/api/records/23541281/files/NOTE.md/content",
+      "repository_path": "records/quasi-newton-least-change/NOTE.md"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1855,
+      "sha256": "606135f2912031af46b9f6c8aef931fddd8a225e41cb40a8a4958747f7ad7b2d",
+      "download_url": "https://zenodo.org/api/records/23541281/files/CITATION.cff/content",
+      "repository_path": "records/quasi-newton-least-change/CITATION.cff"
+    }
+  ]
+}

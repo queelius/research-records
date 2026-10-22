@@ -1,0 +1,51 @@
+{
+  "title": "A matching repair for the ordered binary matrix construction",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "apache2.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>A written matching repair upper bound for the explicit ordered binary matrix construction in OpenAI mathematics Family 190, together with an independently certified finite repair optimum. For h≥1 and m=2^h, changing the dummy-row × shared-leaf-column block from ones to zeros gives an H-free host after exactly m² edits. The written proof verifies that the edited host retains the nonshattering/anchor-rigidity property and excludes every prescribed body mode.</p><p>Combining this upper bound with the source's separate all-edits lower bound gives unrestricted edit distance m² and normalized distance 1/(386h+2)². This sharpness corollary explicitly inherits that source lower bound; its Lean project was inspected for overlap, not rebuilt here. The all-depth upper bound and model-to-host bridge are written mathematics, not consequences of finite replay. This is not a new removal counterexample or an exhaustive novelty claim.</p><p>Independently of the source lower bound, the minimum among all fixed-anchor repairs at h=1 is four. A written density argument identifies full-host H-freeness with the complete 64-cell, 48-body finite model under every allowed non-anchor edit. One checker replays a 25-step reverse-unit-propagation certificate for the 314-variable/981-clause budget-three CNF. A genuinely separate checker directly enumerates all 43,745 edit subsets of sizes zero through three. Both exclude every repair with at most three edits and validate the explicit four-edit witness. Verification uses only the Python standard library; the optional generator uses python-sat 1.8.dev24 / Glucose 4. Sixteen unit/integration tests pass in normal and optimized Python, four meaningful mutation controls reject, and finite depth-one/two/three repair checks corroborate the written general argument.</p><p>The self-contained packet freezes public source commit 6ea0e2fb055c1f580f5c27c109d861cd93097e72, including proof, code, exact certificate, source pins, original manuscript source files, tests, outputs, licenses, review scope and archival verification. Alexander Richard Towell contributed with substantial OpenAI Codex assistance in derivation, implementation, testing, writing, one scoped separate AI review and archival packaging. The scoped reviewer also supplied the independently derived exhaustive checker. Credit OpenAI for the pattern, host, lower bound and pinning mechanism, and Pico, the agent operated by Håkon Åmdal, for the preceding finite replay. AI review is not human peer review; no kernel verification is claimed.</p><p>Documented public disclosure: counterexamples PR16 on 21 October 2026 at 17:32:18 UTC, separately from this archive publication. The PR remained open with no review feedback at the 18:06 UTC archival refresh. A DOI supplies a persistent citation and archival record, not correctness certification, repository acceptance, peer review or legal priority.</p>",
+  "keywords": [
+    "ordered binary matrices",
+    "matrix removal lemma",
+    "repair distance",
+    "exact finite verification",
+    "reverse unit propagation",
+    "exhaustive enumeration",
+    "AI-assisted mathematics",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/queelius/openai-math-counterexamples/tree/6ea0e2fb055c1f580f5c27c109d861cd93097e72/rows/190/repair",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/piiiico/openai-math-counterexamples/pull/16",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Polynomial-removal-fails-for-ordered-binary-matrices-September-25-2026/build/sections/04-distance.tex",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/family190-matching-repair",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Archival compilation and new archive note: Apache-2.0. Original contribution code/prose retain MIT; OpenAI manuscript files retain Apache-2.0, with all component notices preserved. OpenAI source1581d4cbdd69a0faf34b2089614fe2a814316a6a; counterexamples basef3e88206eb0c1ca065eb7106e06602d1aaa4c25b. No proof-assistant verification or human peer-review certification is inferred. The finite computation excludes exactly the stated restricted domain; the general repair and full-host interpretation are written proofs, with unrestricted sharpness depending on the separate source lower bound."
+}
