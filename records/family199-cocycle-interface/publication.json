@@ -1,0 +1,48 @@
+{
+  "id": 23592160,
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.23592160",
+  "conceptdoi": "10.5281/zenodo.23592159",
+  "conceptrecid": "23592159",
+  "state": "done",
+  "submitted": true,
+  "published_at_observed": "2026-10-23T09:54:41.950026+00:00",
+  "publication_date": "2026-10-23",
+  "url": "https://zenodo.org/records/23592160",
+  "title": "Exact cocycle and twisted-boundary verification for Family 199",
+  "public_source_commit": "9ce7229089c23e26630850b3c7165a77e9297b85",
+  "original_public_disclosure": "2026-10-23T09:45:10Z",
+  "original_disclosure_url": "https://github.com/piiiico/openai-math-counterexamples/pull/23",
+  "upstream_acceptance": "pending",
+  "formal_proof": false,
+  "human_peer_review": false,
+  "public_download_verification": "complete",
+  "publish_attempts": 2,
+  "first_attempt": "HTTP503; read-only reconciliation confirmed unsubmitted draft before retry.",
+  "public_downloads_verified": true,
+  "downloaded_files": [
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "url": "https://zenodo.org/api/records/23592160/files/ARCHIVE-NOTE.md/content",
+      "bytes": 4511,
+      "sha256": "94a6e70dcd6495cba88582a8cdf7ad173e18ab343992cbad9358b9aa5f7e8e36",
+      "verified": true
+    },
+    {
+      "filename": "family199-cocycle-interface-v1.0.0.zip",
+      "url": "https://zenodo.org/api/records/23592160/files/family199-cocycle-interface-v1.0.0.zip/content",
+      "bytes": 53734,
+      "sha256": "9d206fbde7e8db0cf84bc4e54c0613ac4a949ffd3f428f0bf572d117918be082",
+      "verified": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "url": "https://zenodo.org/api/records/23592160/files/CITATION.cff/content",
+      "bytes": 1197,
+      "sha256": "53a5eea9a13d0cae04ef0138ec0463da45bc357d603f927f29c615d666c47ec9",
+      "verified": true
+    }
+  ],
+  "archive_manifest_entries": 26,
+  "all_archive_manifest_hashes_match": true
+}

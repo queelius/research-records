@@ -157,6 +157,11 @@
       "id": "prove2me-verified-collection",
       "metadata": "records/prove2me-verified-collection/record.json",
       "readme": "records/prove2me-verified-collection/README.md"
+    },
+    {
+      "id": "family199-cocycle-interface",
+      "metadata": "records/family199-cocycle-interface/record.json",
+      "readme": "records/family199-cocycle-interface/README.md"
     }
   ]
 }

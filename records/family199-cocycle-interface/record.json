@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "id": "family199-cocycle-interface",
+  "title": "Exact cocycle and twisted-boundary verification for Family 199",
+  "contribution_type": "independent exact finite verification",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "predecessor_credit": "OpenAI supplied the construction, table and finite recurrences. Pico, operated by Håkon Åmdal, supplied the preceding ten-dimensional starting-algebra check. No new counterexample or proof-gap repair claimed.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in implementation, mathematical exposition, testing, packaging and one separately tasked AI mathematical/code review. AI review is not human peer review.",
+  "claim": "The explicit 179-entry cochain satisfies the Hochschild cocycle and symbolic twisted-boundary identities; the displayed bar cycle is closed and evaluates to q^3 f. Two independent exact implementations agree.",
+  "mathematical_scope": {
+    "evidence": "Complete finite polynomial identity verification with a written multilinearity and relative-bar interpretation.",
+    "coefficient_ring": "F_2[q,H,H^-1]",
+    "nonvanishing_assumption": "q nonzero, as in source field F_2(q,H1,H2)",
+    "boundary_assumption": "H invertible",
+    "formal_proof": false,
+    "human_peer_review_claimed": false,
+    "full_Auslander_Reiten_counterexample_checked": false
+  },
+  "sources": {
+    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/9ce7229089c23e26630850b3c7165a77e9297b85/rows/199/cocycle",
+    "contribution_commit": "9ce7229089c23e26630850b3c7165a77e9297b85",
+    "destination_base": "c2e5beae98d646be10adf2975641180374bb0379",
+    "openai_math_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "source_manifest": "https://github.com/queelius/openai-math-counterexamples/blob/9ce7229089c23e26630850b3c7165a77e9297b85/rows/199/cocycle/sources.json",
+    "public_source_files_verified": 21
+  },
+  "public_disclosure": {
+    "date": "2026-10-23T09:45:10Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/23",
+    "meaning": "Dated public PR containing completed evidence; earlier issue22 was a scope claim."
+  },
+  "upstream_acceptance": {
+    "state": "submitted",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/23",
+    "meaning": "Acceptance pending; no maintainer or human review inferred."
+  },
+  "verification": {
+    "date": "2026-10-23",
+    "python": "3.13.15",
+    "dependencies": "Python standard library",
+    "reproduce": "python3 rows/199/cocycle/reproduce.py",
+    "expected": "RESULT: Family 199 exact identities and rejecting controls reproduced; exit 0",
+    "complete_basis_coverage": {
+      "C_dimension": 10,
+      "T_dimension": 20,
+      "radical_dimension": 18,
+      "cochain_entries": 179,
+      "associativity_triples": 8000,
+      "trace_duality_pairs": 400,
+      "cocycle_quadruples": 104976,
+      "composable_quadruples": 15250,
+      "boundary_pairs": 324,
+      "bar_cycle_boundary": "zero",
+      "bar_cycle_evaluation": "q^3 f"
+    },
+    "tests_normal": 22,
+    "tests_optimized": 22,
+    "primary_rejecting_controls_per_mode": 3,
+    "independent_oracle_rejecting_controls_per_mode": 1,
+    "seeded_arithmetic_oracle": {
+      "seed": 19901,
+      "cases": 1000,
+      "domain": "Each factor samples 0..12 distinct monomials from q degree0..5 and H degree-3..3; integer multiplicity convolution modulo2.",
+      "stopping_rule": "Exactly1000cases; no adaptive search."
+    },
+    "review": "One separately tasked AI review; no unresolved correctness blocker. Independently transcribed bit-polynomial oracle uses different differential accumulation.",
+    "review_url": "https://github.com/queelius/openai-math-counterexamples/blob/9ce7229089c23e26630850b3c7165a77e9297b85/rows/199/cocycle/REVIEW.md",
+    "coverage": {
+      "covered_lines": 224,
+      "num_statements": 226,
+      "percent_covered": 98.71794871794872,
+      "percent_covered_display": "99",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.11504424778761,
+      "percent_statements_covered_display": "99",
+      "num_branches": 86,
+      "num_partial_branches": 2,
+      "covered_branches": 84,
+      "missing_branches": 2,
+      "percent_branches_covered": 97.67441860465117,
+      "percent_branches_covered_display": "98"
+    },
+    "coverage_limit": "Two defensive branches for nonzero displayed-cycle boundary/evaluation after earlier algebra/cocycle/boundary stages passed. Individual cycle evaluation and vacuity controls are tested. No100%coverageclaim.",
+    "archival": {
+      "public_source_unchanged": true,
+      "deterministic_zip_rebuild_identical": true,
+      "staged_and_extracted_reproduction_pass": true,
+      "manifest_files": 26,
+      "public_downloads": 3
+    }
+  },
+  "publication": {
+    "state": "published_and_verified",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23592160",
+    "concept_doi": "10.5281/zenodo.23592159",
+    "archive_publication_date": "2026-10-23",
+    "published_at_observed": "2026-10-23T09:54:41.950026+00:00",
+    "url": "https://zenodo.org/records/23592160",
+    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/9ce7229089c23e26630850b3c7165a77e9297b85/rows/199/cocycle",
+    "receipt": "publication.json",
+    "public_downloads_verified": true,
+    "archive_manifest_files_verified": 26
+  },
+  "license": "Archival compilation and archive note Apache-2.0; original contribution code/prose MIT; OpenAI source snapshots and transcribed data Apache-2.0, with component notices.",
+  "limitations": [
+    "The later explicit resolution, all-degree Ext vanishing, cone/lift steps, Tachikawa analogue and full counterexample are outside scope.",
+    "Python execution, implementations, source identification and the written relative-bar argument remain trusted.",
+    "Exact finite verification is not kernel verification, human peer review or a global novelty assessment.",
+    "At q=0 the nonzero evaluation conclusion fails; H must be invertible."
+  ],
+  "artifacts": [
+    {
+      "path": "records/family199-cocycle-interface/ARCHIVE-NOTE.md",
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 4511,
+      "sha256": "94a6e70dcd6495cba88582a8cdf7ad173e18ab343992cbad9358b9aa5f7e8e36",
+      "public_download_verified": true
+    },
+    {
+      "path": "artifacts/family199-cocycle-interface-v1.0.0.zip",
+      "filename": "family199-cocycle-interface-v1.0.0.zip",
+      "bytes": 53734,
+      "sha256": "9d206fbde7e8db0cf84bc4e54c0613ac4a949ffd3f428f0bf572d117918be082",
+      "public_download_verified": true
+    },
+    {
+      "path": "records/family199-cocycle-interface/CITATION.cff",
+      "filename": "CITATION.cff",
+      "bytes": 1197,
+      "sha256": "53a5eea9a13d0cae04ef0138ec0463da45bc357d603f927f29c615d666c47ec9",
+      "public_download_verified": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Exact cocycle and twisted-boundary verification for Family 199",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-23",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "apache2.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>Independent exact verification of a finite algebraic interface in OpenAI mathematics Family 199, the proposed Auslander–Reiten counterexample. The explicit 179-entry degree-three cochain satisfies its Hochschild cocycle identity on all 104,976 radical basis quadruples and its twisted boundary identity on all 324 pairs, with q and invertible H symbolic. The displayed bar cycle has zero differential and evaluates to q³, which is nonzero over the source field F₂(q,H₁,H₂).</p><p>The main implementation derives the twenty-dimensional trivial extension from the ten-dimensional starting algebra and computes over F₂[q,H,H⁻¹]. A separately tasked AI reviewer independently retranscribed the source and supplied a second implementation using binary polynomial coefficients and accumulation of nonzero differential terms. Both complete finite checks pass. Additional checks cover all 8,000 associativity triples, 400 trace-duality pairs, 22 unit/integration tests and deliberately corrupted coefficients, dual products and twists. Positive and rejection checks run under ordinary and optimized Python. The missing-twist control produces q(1+H)z, illustrating a defect that specialization at H=1 would miss.</p><p>The source already supplies these identities and finite recurrences. This contribution adds independent verification beyond Pico’s earlier starting-algebra check; it is not a new counterexample or a missing-proof allegation. The extension from basis computations uses a written multilinearity argument; interpretation of the nonzero class uses the standard relative-bar resolution after extension to the source field. The later explicit resolution, all-degree Ext vanishing, cone/lift steps, Tachikawa analogue and full Auslander–Reiten counterexample are outside scope. There is no kernel verification or human peer-review claim.</p><p>The self-contained archive freezes public contribution 9ce7229089c23e26630850b3c7165a77e9297b85, with source snapshots and hashes, both implementations, tests, controls, written scope note, independent AI review, outputs and licenses. OpenAI supplied the mathematics and table; Pico, operated by Håkon Åmdal, supplied the predecessor algebra verification. Alexander Richard Towell contributed with substantial OpenAI Codex assistance in implementation, checking, exposition, packaging and review. Original public result disclosure: PR23 on 23 October 2026 at 09:45:10 UTC. Upstream acceptance is pending and distinct from archival publication. A DOI provides persistent citation and provenance, not correctness certification, novelty certification or legal priority.</p>",
+  "keywords": [
+    "Hochschild cohomology",
+    "Auslander-Reiten conjecture",
+    "trivial extension algebra",
+    "exact polynomial identities",
+    "independent verification",
+    "AI-assisted mathematics",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/queelius/openai-math-counterexamples/tree/9ce7229089c23e26630850b3c7165a77e9297b85/rows/199/cocycle",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/piiiico/openai-math-counterexamples/pull/23",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/family199-cocycle-interface",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/openai/math/tree/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Archival compilation and archive note Apache-2.0. Original contribution code/prose retain MIT. OpenAI source snapshots and transcribed data retain Apache-2.0, with component notices. Source 1581d4cbdd69a0faf34b2089614fe2a814316a6a; destination base c2e5beae98d646be10adf2975641180374bb0379. Finite computation, written homological interpretation, AI review, upstream acceptance and DOI publication are separate evidence categories."
+}
