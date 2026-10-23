@@ -1,0 +1,97 @@
+{
+  "title": "No geomagnetic-storm reduction in nocturnal bird migration over Europe: a replication with frozen analysis plans on weather-radar data, 2023-2025",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-21",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>This technical note and evidence packet test whether the reduction in nocturnal bird migration on geomagnetically disturbed nights reported for the US by Gulson-Castillo et al. (2023, PNAS 120:e2306317120; 9-17% lower migration) appears over Europe. The outcome is nightly bird density (vertically integrated density, VID) from the Aloft archive of vol2bird vertical profiles from EUMETNET OPERA weather radars; the exposure is the nightly maximum Kp from NASA OMNI2; weather controls are ERA5 night-window values from the Open-Meteo archive. Analysis plans were frozen in a private git repository before the 2023-2025 radar data were downloaded (autumn commit 0ec9637; spring commit 6ef1437 and Amendment 1 at 5544064). These plans were not lodged with a public registry; they are published here for the first time, and their commit and download timestamps are self-recorded, not external attestations.</p><p>Three frozen confirmatory tests on 2023-2025 data all return FAIL, meaning the named reference reduction is excluded by a one-sided 5% test. Autumn (1 Aug - 15 Nov), Kp &gt;= 6- vs Kp &lt; 5-: -2.9% [95% CI -9.5, +4.1], 23 storm nights, median 47 radars; -17% excluded. Spring (Mar-May), Kp &gt;= 6-: +9.2% [-1.2, +20.8], 25 nights; -17% and -9% excluded. Spring, Kp &gt;= 7-: +10.2% [-10.1, +35.0], 8 nights; -9% excluded. A US-sized -17% reduction is therefore excluded in both seasons and -9% is excluded in spring. Autumn alone is only weak evidence against -9%: on the analysis scale ln(VID + 0.1) its 90% lower bound clears -9% narrowly, but in VID terms it excludes about -10%. A post hoc autumn lead (-9.3% on the 12 Kp &gt;= 7- nights) did not replicate in spring. Across four periods (development and confirmatory, autumn and spring) the Kp &gt;= 6- contrast changes sign (+5.6, -2.9, -9.0, +9.2%).</p><p>A known-truth simulation injects -9% and -17% effects into the real data: ln-scale injections are recovered exactly, VID-scale injections with a small, quantified attenuation, and with shift-randomized pseudo storm labels the frozen rules pass 1.8-4.7% of the time under no effect. Caveats: Kp is a planetary index whereas the US study used local magnetometer disturbance; 100 m wind stands in for flight-level wind; storm nights are few and clustered; European flyways and radar processing differ from the US Great Plains. The result does not show that geomagnetic disturbance has no effect on European migration, nor that the US result is wrong.</p><p>The archive contains the pipeline code and tests, exploration code, frozen models and plans, derived radar-night tables, raw OMNI2 2023-2025, sha256-pinned download manifests for all raw inputs (raw radar files are listed, not included), expected outputs and a recorded rerun from the packet. Data credits: Aloft (CC0; Desmet et al. 2025, Scientific Data 12:361) and EUMETNET/OPERA; NASA GSFC SPDF OMNIWeb (OMNI2); Open-Meteo (CC BY 4.0) with ERA5 from the Copernicus Climate Change Service; INTERMAGNET (local-disturbance check; data not redistributed). Code is MIT; text and derived tables CC BY 4.0.</p><p>Not peer reviewed. Substantial AI assistance: Claude (Anthropic) wrote the analysis code, simulation and tests and drafted the plans and text; Alexander Richard Towell directed the work, approved the frozen designs and Amendment 1, followed the results, and approved publication; he did not line-edit the note. The development repository is private.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "bird migration",
+    "nocturnal migration",
+    "weather radar",
+    "aeroecology",
+    "geomagnetic storms",
+    "space weather",
+    "Kp index",
+    "replication",
+    "frozen analysis plan",
+    "negative result",
+    "Europe",
+    "Aloft",
+    "OPERA",
+    "vol2bird"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1073/pnas.2306317120",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1038/s41597-025-04641-5",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://aloftdata.eu/",
+      "relation": "isDerivedFrom",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://spdf.gsfc.nasa.gov/pub/data/omni/low_res_omni/",
+      "relation": "isDerivedFrom",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://open-meteo.com/en/docs/historical-weather-api",
+      "relation": "isDerivedFrom",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.1002/qj.3803",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1029/2004JA010649",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1029/2020SW002641",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/geomagnetic-migration-europe-null",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "references": [
+    "Gulson-Castillo ER, et al. (2023). Space weather disrupts nocturnal bird migration. PNAS 120:e2306317120. doi:10.1073/pnas.2306317120",
+    "Desmet P, Shamoun-Baranes J, et al. (2025). Biological data derived from European weather radars. Scientific Data 12:361. doi:10.1038/s41597-025-04641-5",
+    "Hersbach H, et al. (2020). The ERA5 global reanalysis. Q J R Meteorol Soc 146:1999-2049. doi:10.1002/qj.3803",
+    "King JH, Papitashvili NE (2005). Solar wind spatial scales in and comparisons of hourly Wind and ACE plasma and magnetic field data. J Geophys Res 110:A02104. doi:10.1029/2004JA010649",
+    "Matzka J, et al. (2021). The geomagnetic Kp index and derived indices of geomagnetic activity. Space Weather 19:e2020SW002641. doi:10.1029/2020SW002641"
+  ],
+  "notes": "Version 1.0.0. Files: the evidence archive geomagnetic-migration-europe-null-v1.0.0.zip, and NOTE.md, NOTE.pdf and CITATION.cff duplicated outside it. Code MIT; text and derived tables CC BY 4.0; INTERMAGNET-derived data not redistributed. The development repository (discovery) is private; source commit 352f38197a6e2d5ff6f5b5bbe9042eb3f607c156. Not peer reviewed; substantial AI assistance (Claude, Anthropic) disclosed."
+}

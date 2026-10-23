@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "geomagnetic-migration-europe-null",
+  "title": "No geomagnetic-storm reduction in nocturnal bird migration over Europe: a replication with frozen analysis plans on weather-radar data, 2023-2025",
+  "contribution_type": "replication with analysis plans frozen in a private repository with a negative result; technical note and reproducible evidence packet",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "discovery (local; no git remote)",
+    "visibility": "private",
+    "source_commit": "352f38197a6e2d5ff6f5b5bbe9042eb3f607c156",
+    "source_commit_scope": "Pipeline, tests, explorations, frozen models and committed outputs as archived; packaging files (zenodo/) are committed separately afterwards.",
+    "record_path": "findings/geomagnetic-migration-europe-null/finding.yaml",
+    "staging_path": "findings/geomagnetic-migration-europe-null/zenodo/",
+    "rung": 3,
+    "packaging_commit": "f035b53651ad40ed1520c1956ad2698a93812e8c"
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/geomagnetic-migration-europe-null",
+  "claim": "Three tests frozen before the 2023-2025 Aloft radar data were downloaded all return FAIL: a -17% storm-night (Kp >= 6-) reduction in nocturnal migration is excluded in autumn (-2.9% [95% CI -9.5, +4.1], 23 nights) and spring (+9.2% [-1.2, +20.8], 25 nights); -9% is excluded in spring (Kp >= 7-: +10.2% [-10.1, +35.0], 8 nights; Kp >= 6- 90% lower bound +0.5%). Autumn alone is only weak evidence against -9% (in VID terms it excludes about -10%). The post hoc autumn Kp >= 7- lead (-9.3%) did not replicate in spring.",
+  "predecessor_credit": "Hypothesis and US effect sizes: Gulson-Castillo et al. (2023), PNAS 120:e2306317120, doi:10.1073/pnas.2306317120. Data: Aloft (CC0; Desmet et al. 2025) and EUMETNET/OPERA radar operators; NASA GSFC SPDF OMNI2 (King and Papitashvili 2005) with Kp from GFZ Potsdam; Open-Meteo (CC BY 4.0) with ERA5 from the Copernicus Climate Change Service (Hersbach et al. 2020); INTERMAGNET observatories. No endorsement implied.",
+  "human_role": "Directed the work, chose and approved the frozen designs and Amendment 1, followed the results and approved publication; did not line-edit the note.",
+  "ai_assistance": "Substantial. Claude (Anthropic) wrote the analysis code, simulation and tests, ran the analyses, and drafted the plans, write-up, note and this record. AI review is not human peer review.",
+  "preregistration": {
+    "kind": "commits in a private local git repository; not a public registry",
+    "freezes": [
+      {
+        "label": "autumn",
+        "commit": "0ec9637d46766f8a7137d9328b2387dcf1eae978",
+        "committer_date": "2026-10-21T15:28:21-05:00",
+        "meaning": "autumn plan frozen before any 2023-2025 radar file was downloaded",
+        "plan_copy": "frozen-plans/autumn-0ec9637-frozen-plan.md"
+      },
+      {
+        "label": "spring",
+        "commit": "6ef14377b2925f97098b46eebf8843cbdd7abc8d",
+        "committer_date": "2026-10-21T20:41:40-05:00",
+        "meaning": "spring plan (Kp >= 7- lead) frozen before any spring 2023-2025 radar file was downloaded",
+        "plan_copy": "frozen-plans/spring-6ef1437-frozen-plan.md"
+      },
+      {
+        "label": "spring-amendment-1",
+        "commit": "5544064d775c9fbeb9825acadca354d786f8aec9",
+        "committer_date": "2026-10-21T22:35:44-05:00",
+        "meaning": "Amendment 1 (owner-approved): co-primary Kp >= 6- verdict, gated Kp >= 7- PASS; committed before any spring 2023-2025 radar file was downloaded",
+        "plan_copy": "frozen-plans/spring-amendment-1-5544064-frozen-plan.md"
+      }
+    ],
+    "first_confirmatory_downloads_utc": {
+      "autumn_first_confirmatory_vpts_fetch_utc": "2026-10-21T20:28:38+00:00",
+      "spring_first_confirmatory_vpts_fetch_utc": "2026-10-22T03:35:52+00:00"
+    },
+    "timestamp_basis": "fetched_at fields in repo/data/aloft-european-radar-vpts/manifest.json, written by discovery.fetch on the author's machine; commit dates are git committer dates in a private local repository. Neither is an external timestamp.",
+    "post_hoc": "The Kp >= 7- autumn contrast was promoted to a hypothesis after the autumn run; it was then frozen and tested on spring data."
+  },
+  "public_disclosures": [
+    {
+      "date": "2026-10-23",
+      "kind": "zenodo",
+      "url": "https://zenodo.org/records/23584188",
+      "doi": "10.5281/zenodo.23584188"
+    }
+  ],
+  "scientific_status": {
+    "correctness": "reproduced from sha256-pinned derived inputs; known-truth injection and shift-randomization null calibration",
+    "raw_to_derived_regeneration_rerun_for_packet": false,
+    "novelty": "no earlier European replication found in a 2026-10-21 search (not exhaustive)",
+    "human_peer_review": false,
+    "external_scientific_acceptance": "not submitted"
+  },
+  "verification": {
+    "date": "2026-10-21",
+    "where": "packet unpacked from the staged zip into a scratch directory, offline",
+    "packet_integrity": "tools/verify_packet.py: all SHA256SUMS entries, 16 of 17 pipeline pins (1 excluded by licence), 5 raw-selection digests match",
+    "tests": "61 passed, 2 deselected (need the git checkout and full raw data; see REPRODUCTION.md)",
+    "confirm": "confirmatory.json bit-identical to the committed results (172 of 172 floats equal)",
+    "simulate": "simulation.json matches the committed one: 811 floats, 739 exactly equal, max abs diff 5.4e-8; all non-float fields identical",
+    "tested_build_zip_sha256": "a9000586cc85e91ee02a5b9ad365ddbf9fe7f71c42adeb2b5b27c56cf901af5c",
+    "final_vs_tested": "differs only in README.md, NOTE.md/NOTE.pdf (reference list completed 2026-10-22: Desmet et al. 2025 DOI, Bianco and Tonelli DOIs, Richardson 1976 dropped), and added REPRODUCTION.md and environment/rerun-packages.txt",
+    "manifest_verify": "one expected problem: obs_nightly.csv not redistributed",
+    "details": "REPRODUCTION.md inside the packet"
+  },
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23584188",
+    "concept_doi": "10.5281/zenodo.23584187",
+    "zenodo_record": "https://zenodo.org/records/23584188",
+    "archival_status": "archived",
+    "archive_publication_date": "2026-10-23",
+    "receipt": "publication.json",
+    "public_downloads_verified": true,
+    "zenodo_metadata": "zenodo-metadata.json"
+  },
+  "license": {
+    "original_note_and_text": "CC-BY-4.0",
+    "original_software": "MIT",
+    "derived_tables": "CC-BY-4.0 (combination of CC0 Aloft, CC BY 4.0 Open-Meteo/ERA5 with Copernicus attribution, NASA public OMNI2)",
+    "not_redistributed": "INTERMAGNET-derived obs_nightly.csv (scientific/academic-use conditions)",
+    "zenodo_license_field": "cc-by-4.0"
+  },
+  "limitations": [
+    "Kp is planetary and 3-hourly; the US study used local magnetometer disturbance (dBmax). The local check (INTERMAGNET) covers autumn only and approximates the US index.",
+    "100 m ERA5 wind stands in for flight-level wind; residual synoptic weather is the main rival explanation.",
+    "ln(VID + 0.1) attenuates multiplicative effects by about 12-14%; effect sizes compare to the US log10 reflectivity outcome only approximately.",
+    "23 autumn and 25 spring storm nights, clustered in episodes; one three-year window near solar maximum.",
+    "The freeze is self-attested: private git commits and local download logs, not a public registry.",
+    "Does not show that geomagnetic disturbance has no effect on European migration, nor that the US result is wrong."
+  ],
+  "history": [
+    {
+      "date": "2026-10-21",
+      "event": "Draft record and staged packet prepared; nothing uploaded."
+    },
+    {
+      "date": "2026-10-23",
+      "event": "Published on Zenodo as 10.5281/zenodo.23584188 (concept 10.5281/zenodo.23584187) with the owner's approval; title changed from 'pre-registered replication' to 'replication with frozen analysis plans'; all public files re-downloaded without authentication and hash-verified."
+    }
+  ],
+  "artifacts": [
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1971,
+      "sha256": "85643674a8dde1aedc4f499516f9b66cdf78b3f816852ac10b7655ebf75e7b5c",
+      "staged_path": "findings/geomagnetic-migration-europe-null/zenodo/build/upload/CITATION.cff",
+      "public_url": "https://zenodo.org/api/records/23584188/files/CITATION.cff/content",
+      "path": "records/geomagnetic-migration-europe-null/CITATION.cff",
+      "present_in_index": true,
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 19223,
+      "sha256": "cd95ec65c47fb51329a5b086149ead1a094b2ab06762217b928bbf24d301e695",
+      "staged_path": "findings/geomagnetic-migration-europe-null/zenodo/build/upload/NOTE.md",
+      "public_url": "https://zenodo.org/api/records/23584188/files/NOTE.md/content",
+      "path": "records/geomagnetic-migration-europe-null/NOTE.md",
+      "present_in_index": true,
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "NOTE.pdf",
+      "bytes": 69111,
+      "sha256": "039e0befadfdad1518ac43b89a1f8156e0aeb061deb22734cb90dcc316c9602b",
+      "staged_path": "findings/geomagnetic-migration-europe-null/zenodo/build/upload/NOTE.pdf",
+      "public_url": "https://zenodo.org/api/records/23584188/files/NOTE.pdf/content",
+      "path": "records/geomagnetic-migration-europe-null/NOTE.pdf",
+      "present_in_index": false,
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "geomagnetic-migration-europe-null-v1.0.0.zip",
+      "bytes": 30902180,
+      "sha256": "22e58e1296e3994234df23149b09aaa4e4d8c241966a5f524c8128a9d0b68b15",
+      "staged_path": "findings/geomagnetic-migration-europe-null/zenodo/build/upload/geomagnetic-migration-europe-null-v1.0.0.zip",
+      "public_url": "https://zenodo.org/api/records/23584188/files/geomagnetic-migration-europe-null-v1.0.0.zip/content",
+      "path": "artifacts/geomagnetic-migration-europe-null-v1.0.0.zip",
+      "present_in_index": false,
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "SHA256SUMS",
+      "bytes": 339,
+      "sha256": "296dec0ab85064a24377ff170e088b05c1d33245e8020757b3ff2ca8bb80f8fc",
+      "public_url": "https://zenodo.org/api/records/23584188/files/SHA256SUMS/content",
+      "present_in_index": false,
+      "verified_without_authentication": true
+    }
+  ]
+}

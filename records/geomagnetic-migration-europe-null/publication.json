@@ -1,0 +1,53 @@
+{
+  "state": "published",
+  "id": 23584188,
+  "version_doi": "10.5281/zenodo.23584188",
+  "concept_doi": "10.5281/zenodo.23584187",
+  "version": "1.0.0",
+  "archive_publication_date": "2026-10-23",
+  "publication_observed_utc": "2026-10-23T02:04:20.701944+00:00",
+  "record_url": "https://zenodo.org/records/23584188",
+  "first_public_disclosure": {
+    "date": "2026-10-23",
+    "url": "https://zenodo.org/records/23584188",
+    "basis": "This contribution first made public by this Zenodo publication; the frozen plans were private until then."
+  },
+  "public_downloads_verified": true,
+  "files": [
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1971,
+      "sha256": "85643674a8dde1aedc4f499516f9b66cdf78b3f816852ac10b7655ebf75e7b5c",
+      "public_url": "https://zenodo.org/api/records/23584188/files/CITATION.cff/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "NOTE.md",
+      "bytes": 19223,
+      "sha256": "cd95ec65c47fb51329a5b086149ead1a094b2ab06762217b928bbf24d301e695",
+      "public_url": "https://zenodo.org/api/records/23584188/files/NOTE.md/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "NOTE.pdf",
+      "bytes": 69111,
+      "sha256": "039e0befadfdad1518ac43b89a1f8156e0aeb061deb22734cb90dcc316c9602b",
+      "public_url": "https://zenodo.org/api/records/23584188/files/NOTE.pdf/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "SHA256SUMS",
+      "bytes": 339,
+      "sha256": "296dec0ab85064a24377ff170e088b05c1d33245e8020757b3ff2ca8bb80f8fc",
+      "public_url": "https://zenodo.org/api/records/23584188/files/SHA256SUMS/content",
+      "verified_without_authentication": true
+    },
+    {
+      "filename": "geomagnetic-migration-europe-null-v1.0.0.zip",
+      "bytes": 30902180,
+      "sha256": "22e58e1296e3994234df23149b09aaa4e4d8c241966a5f524c8128a9d0b68b15",
+      "public_url": "https://zenodo.org/api/records/23584188/files/geomagnetic-migration-europe-null-v1.0.0.zip/content",
+      "verified_without_authentication": true
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "Cite this exact version. Cite Gulson-Castillo et al. (2023) for the hypothesis tested and the data providers listed in NOTICE.md."
+type: dataset
+title: "No geomagnetic-storm reduction in nocturnal bird migration over Europe: a replication with frozen analysis plans on weather-radar data, 2023-2025"
+version: 1.0.0
+date-released: "2026-10-21"
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    email: lex@metafunctor.com
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+    affiliation: Southern Illinois University Edwardsville
+license: CC-BY-4.0
+keywords:
+  - bird migration
+  - weather radar
+  - aeroecology
+  - geomagnetic storms
+  - space weather
+  - Kp index
+  - replication
+  - frozen analysis plan
+  - negative result
+abstract: "Frozen replication of the US geomagnetic-storm reduction in nocturnal migration (Gulson-Castillo et al. 2023) on the Aloft European weather-radar archive, 2023-2025. Three frozen tests all FAIL: a -17% storm-night reduction is excluded in autumn and spring, -9% is excluded in spring, and autumn alone is only weak evidence against -9%. Code MIT, text and derived tables CC BY 4.0. Not peer reviewed; substantial AI assistance (Claude) disclosed."
+references:
+  - type: article
+    title: "Space weather disrupts nocturnal bird migration"
+    authors:
+      - family-names: Gulson-Castillo
+      - name: "et al."
+    journal: "Proceedings of the National Academy of Sciences"
+    volume: 120
+    year: 2023
+    doi: 10.1073/pnas.2306317120
+preferred-citation:
+  type: report
+  title: "No geomagnetic-storm reduction in nocturnal bird migration over Europe: a replication with frozen analysis plans on weather-radar data, 2023-2025"
+  authors:
+    - family-names: Towell
+      given-names: Alexander Richard
+      orcid: "https://orcid.org/0000-0001-6443-9897"
+      affiliation: Southern Illinois University Edwardsville
+  year: 2026
+  version: 1.0.0
+  publisher:
+    name: Zenodo

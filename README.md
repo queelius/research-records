@@ -233,6 +233,11 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   source cardinality/completion remain unvalidated. Archived version:
   [10.5281/zenodo.23496031](https://doi.org/10.5281/zenodo.23496031).
 
+- [European replication of the US geomagnetic-storm migration drop](records/geomagnetic-migration-europe-null/README.md).
+  Negative result: three tests with analysis plans frozen before data download all exclude the US-sized
+  reduction; plans were frozen privately, not in a public registry. Archived version:
+  [10.5281/zenodo.23584188](https://doi.org/10.5281/zenodo.23584188).
+
 - [Smooth strongly convex interpolation: Lean formalization](records/smooth-strong-convex-interpolation/README.md).
   Complete accepted formalization in the real-valued class, with exact-type and
   axiom checks, pinned reproduction and rejecting controls. Established mathematics

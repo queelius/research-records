@@ -142,6 +142,11 @@
       "id": "hog-witness-ledger",
       "metadata": "records/hog-witness-ledger/record.json",
       "readme": "records/hog-witness-ledger/README.md"
+    },
+    {
+      "id": "geomagnetic-migration-europe-null",
+      "metadata": "records/geomagnetic-migration-europe-null/record.json",
+      "readme": "records/geomagnetic-migration-europe-null/README.md"
     }
   ]
 }
