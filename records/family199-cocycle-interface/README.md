@@ -1,55 +1,49 @@
-# Family 199: exact cocycle verification and an explicit twisted homotopy
+# Family 199: exact checks, explicit homotopy and parameter restrictions
 
 Alexander Richard Towell, with substantial OpenAI Codex assistance.
+[Version1.2.0 DOI](https://doi.org/10.5281/zenodo.23605758) ·
+[Canonical source](https://github.com/queelius/openai-math-counterexamples/tree/7f2ea4f3062466ebe3014f374d1a18c58faf54f4/rows/199) ·
+[Archive note](ARCHIVE-NOTE.md) · [Structured record](record.json)
 
-This contribution verifies a finite algebraic interface in OpenAI's proposed
-Auslander–Reiten counterexample and supplies an explicit formula for one
-later homotopy. The full counterexample remains unverified here.
+Three scoped contributions concern OpenAI's Family199 construction:
 
-The original finite certificate checks all 104,976 radical quadruples and
-324 symbolic boundary pairs using two independent polynomial implementations.
-The displayed closed bar cycle evaluates to q³f. Version 1.1.0 adds a uniform
-formula for G: remove the final bar letter and place its z_H value in the
-terminal coefficient, retaining the prescribed inverse twist. A written
-all-degree proof establishes pB=dG+Gd from the certified finite identity.
-It makes the source's recursive projective-lift choice computable; it does
-not allege a gap in the existing existence proof.
+- An exact179-entry cocycle certificate:104,976 radical quadruples and324
+  symbolic twisted-boundary pairs, corroborated by two polynomial implementations.
+- An explicit suffix formula for G, with a written all-degree pB=dG+Gd proof
+  and17,050-generator tensor replay in degrees0–4.
+- A new classification of the displayed seed complex under parameter
+  specialization: exact iff q=0 or infinite order; a nontrivial root of order d
+  first fails at degree d-1; q=1 already fails at the augmentation. At q=0,
+  Ext^n(s,C) has dimension two for every n>=2. A written coordinate proof is
+  supported by30 exact parameter cases/710 degrees per complex and a separately
+  implemented binary-matrix oracle,12 tests and rejecting controls.
 
-- [Exact version 1.1.0](https://doi.org/10.5281/zenodo.23597123), in the existing DOI family.
-- [Canonical combined source](https://github.com/queelius/openai-math-counterexamples/tree/cbc0195c69c1d70a6c2161920c00285fb2b22b89/rows/199).
-- [Explicit-homotopy proof and checker](https://github.com/queelius/openai-math-counterexamples/tree/cbc0195c69c1d70a6c2161920c00285fb2b22b89/rows/199/homotopy).
-- [Existing PR23](https://github.com/piiiico/openai-math-counterexamples/pull/23), merged October23 at14:25UTC after maintainer computational replay.
-- [Archive note](ARCHIVE-NOTE.md), [structured record](record.json), [citation](CITATION.cff).
-- [Previous version 1.0.0](https://doi.org/10.5281/zenodo.23592160), unchanged; [preserved historical record](versions/1.0.0/record.json).
+This explains why simply choosing q in a finite field does not preserve this
+particular seed mechanism. It neither contradicts the transcendental source
+nor rules out alternative constructions. Existing source Lean already proves
+generic sufficiency; no full counterexample, new Lean proof, human peer review
+or global novelty assessment is claimed. At roots of unity the dual groups are
+Hom-complex cohomology, not Ext. Read each component's scope before use.
 
-Extract the v1.1.0 archive and run `python3 reproduce.py`. Expect exit 0 and
-`RESULT: Family199 finite interface and explicit homotopy archive reproduced`.
-Only the Python standard library is needed. The new tensor checker covers all
-17,050 composable generators in degrees 0–4, with 15 tests and four rejecting
-formulas under ordinary and optimized Python. Tests also cover 7,600 G and
-7,600 B endpoint-action equalities. All three public downloads and 49 archive
-payload hashes were verified; both source packets reproduce after extraction.
+The original two components were accepted in
+[PR23](https://github.com/piiiico/openai-math-counterexamples/pull/23) after
+Pico's independent computational replay. Its written proof was not refereed
+by the maintainer. The new parameter audit is submitted as
+[PR25](https://github.com/piiiico/openai-math-counterexamples/pull/25), awaiting
+external review. Archival publication and upstream acceptance are separate.
 
-Characteristic two and invertible H are required. The homotopy identity does
-not require q≠0; the prior nonvanishing evaluation does. The written proof
-uses the source's suffix comparison and finite boundary identity. Finite
-replay supports the general argument; it is not a kernel proof. The new
-checker explicitly reuses predecessor algebra and coefficient arithmetic.
-Separate AI reviews are not human peer review. Remaining cone components,
-stable-category passage, resolution and all-degree Ext claims are outside scope.
+The81-payload-file archive preserves all44 predecessor source files unchanged
+and adds32 source files. All three public downloads and internal hashes were
+verified. Run `python reproduce.py` after extracting the archive; the new
+component alone uses `python source/parameters/reproduce.py`.
 
-OpenAI retains credit for the construction, cochain, finite recurrences and
-recursive homotopy; Pico, operated by Håkon Åmdal, retains credit for the
-preceding algebra verification. Original public disclosure, this supplement,
-archival publication and upstream acceptance are recorded separately. The
-DOI supplies a citation and archive, not correctness or novelty certification.
-Development and detailed lifecycle remain in `math-research`.
+Original public disclosure:2026-10-23T09:45:10Z (PR23); parameter disclosure:
+2026-10-23T22:30:23Z (PR25). Zenodo records its own later publication timestamp.
+The earlier [v1.1.0](https://doi.org/10.5281/zenodo.23597123) and
+[v1.0.0](https://doi.org/10.5281/zenodo.23592160) remain unchanged, with their
+scope and citations preserved under versions/. Use the exact version DOI.
 
-Pico independently parsed all179 cochain entries directly from the TeX,
-confirmed their q-degrees and weight rule, and added three new mutations
-rejected by the cocycle identity. He also reran both packets. The
-[acceptance report](https://github.com/piiiico/openai-math-counterexamples/pull/23#issuecomment-6367201390)
-explicitly says he did not independently referee the all-degree written
-proof. This is additional maintainer AI computational evidence, not human
-peer review. The immutable archive retains its status at preparation; the
-current acceptance is recorded here without changing the archived files.
+OpenAI supplied the construction, cochain, recursive lift and generic resolution
+arguments; Pico, operated by Håkon Åmdal, supplied predecessor checks and replay.
+The source licenses and substantial AI assistance are explicit in the archive.
+A DOI is a persistent citation, not certification of correctness or priority.

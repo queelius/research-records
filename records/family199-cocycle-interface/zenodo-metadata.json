@@ -1,9 +1,9 @@
 {
-  "title": "Exact cocycle verification and an explicit twisted bar homotopy for Family 199",
+  "title": "Exact verification, explicit homotopy, and parameter restrictions for Family 199",
   "upload_type": "publication",
   "publication_type": "technicalnote",
   "publication_date": "2026-10-23",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "access_right": "open",
   "license": "apache2.0",
   "language": "eng",
@@ -14,7 +14,7 @@
       "affiliation": "Southern Illinois University Edwardsville"
     }
   ],
-  "description": "<p>A verified finite algebraic interface and an explicit homotopy in OpenAI mathematics Family 199, the proposed Auslander-Reiten counterexample. The original 179-entry cochain certificate is preserved unchanged: two independent polynomial implementations verify all 104,976 radical quadruples, 324 symbolic twisted-boundary pairs, 8,000 associativity triples and 400 trace pairs. The displayed closed bar cycle evaluates to q^3 f.</p><p>Version 1.1.0 adds a uniform choice for the homotopy G in source Lemma lift:G: remove the final bar letter, place its z_H value in the terminal coefficient, and apply h_H inverse to the underlying old terminal coefficient. A written all-degree cancellation proves pB=dG+Gd from the previously certified finite boundary identity. It checks vertex balancing, twisted module linearity, the suffix comparison convention, and the unaugmented degrees zero and one. This makes a recursive projective-lift choice directly computable; no defect in the original existence proof is alleged.</p><p>A new sparse-tensor checker separately expands both sides on all 17,050 composable generators in degrees zero through four, over F_2[q,H,H^-1]. Fifteen tests include 7,600 G and 7,600 B endpoint-action equalities, boundary cases, differential-squared checks and a wrong-prefix comparison. Four corrupted formulas reject in ordinary and optimized Python. The checker explicitly reuses the predecessor arithmetic and algebra data; it is not an independent algebra implementation. A separately tasked AI reviewer checked the new proof and implementation and found no blocker.</p><p>The characteristic is two and H is invertible. The specified suffix comparison and certified finite boundary identity are inherited. Nonzero q is unnecessary for the homotopy identity but necessary for the prior nonvanishing claim. Finite replay supports the written proof; neither is kernel verification or human peer review. The remaining cone components, stable-category passage, explicit resolution, all-degree Ext vanishing, Tachikawa analogue and full counterexample remain outside scope. No new counterexample, proof-gap repair or global novelty is claimed.</p><p>The self-contained archive preserves public source cbc0195c69c1d70a6c2161920c00285fb2b22b89, including the unchanged predecessor contribution 9ce7229089c23e26630850b3c7165a77e9297b85. OpenAI supplied the construction, cochain, boundary equation and recursive lift. Pico, operated by Håkon Åmdal, supplied the earlier algebra verification. Alexander Richard Towell contributed with substantial OpenAI Codex assistance in derivation, implementation, testing, review coordination and publication. Original public disclosure: PR23 at 09:45:10 UTC on 23 October 2026; the homotopy supplement was publicly verified later that day. Upstream acceptance remains pending, separately from this archival publication. A DOI is a persistent citation and archive, not a correctness, novelty or legal-priority certificate.</p>",
+  "description": "<p>Three source-pinned component contributions concerning OpenAI mathematics Family199, not a verification of the full Auslander–Reiten or Tachikawa counterexamples. The unchanged predecessors comprise an exact179-entry cocycle certificate (104,976 quadruples and324 boundary pairs, two polynomial implementations) and an explicit twisted bar homotopy with a written all-degree identity and17,050-generator finite replay.</p><p>Version1.2.0 adds a parameter audit of the displayed seed resolution. Over any characteristic-two field, the specified augmented complex is exact precisely for q=0 or q of infinite multiplicative order. A nontrivial root of order d first fails in degree d-1; q=1 fails at the augmentation. At q=0 exactness survives but Ext in every degree n≥2 has dimension two. A uniform coordinate proof is supported by exact kernel/image and quotient-witness checks for all30 q in F2,F4,F8,F16 (710 degrees in each complex), an independent XOR-only binary-matrix oracle (526 degree cases),12 tests and three rejecting controls in ordinary and optimized Python.</p><p>The source assumes transcendental q and is not contradicted. Generic sufficient conditions already occur in the source Lean development. The new result limits this unchanged specialization mechanism; it does not rule out other resolutions or finite-field constructions. At roots of unity the dual computation is Hom-complex cohomology, not Ext. Written proofs, finite computation and scoped AI reviews are explicitly separated from kernel verification and human review.</p><p>OpenAI source1581d4cbdd69a0faf34b2089614fe2a814316a6a; parameter contribution7f2ea4f3062466ebe3014f374d1a18c58faf54f4, with44 predecessor source files unchanged and32 new source files. Original public PR23 disclosure:2026-10-23T09:45:10Z; merged after Pico computational review at14:25:38Z. New parameter PR25 disclosure:2026-10-23T22:30:23Z, external review pending at archive preparation. No maintainer refereeing of these written proofs is implied.</p><p>Alexander Richard Towell, with substantial OpenAI Codex assistance. OpenAI supplied the construction and generic arguments; Pico, operated by Håkon Åmdal, supplied predecessor algebra checks and computational review. Characteristic two, H invertible for twisted identities, and nonzero q for prior nonvanishing are retained with the q=0 audit separately scoped. Full source theorems, human peer review and global novelty are outside scope. A DOI is a persistent archive and citation, not a correctness or priority certificate.</p>",
   "keywords": [
     "Hochschild cohomology",
     "Auslander-Reiten conjecture",
@@ -25,7 +25,11 @@
     "reproducible research",
     "bar resolution",
     "explicit homotopy",
-    "twisted bimodule"
+    "twisted bimodule",
+    "finite fields",
+    "parameter specialization",
+    "projective resolution",
+    "homology"
   ],
   "related_identifiers": [
     {
@@ -52,7 +56,17 @@
       "identifier": "https://github.com/openai/math/tree/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026",
       "relation": "references",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/openai-math-counterexamples/tree/7f2ea4f3062466ebe3014f374d1a18c58faf54f4/rows/199/parameters",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/piiiico/openai-math-counterexamples/pull/25",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
     }
   ],
-  "notes": "Archival compilation/note Apache-2.0; component code/prose MIT; OpenAI source/data Apache-2.0. Exact source1581d4cbdd69a0faf34b2089614fe2a814316a6a. One written all-degree identity and bounded replay extend the previous finite certificate; no full theorem, kernel proof or human review. Previous v1.0.0 remains unchanged in the same concept family."
+  "notes": "Archival compilation/note Apache-2.0; original component code/prose MIT; OpenAI sources Apache-2.0. Previous v1.0.0/v1.1.0 remain unchanged in the same DOI concept family. Parameter classification has a written proof and independent finite corroboration; no new kernel proof, human review or full counterexample verification."
 }

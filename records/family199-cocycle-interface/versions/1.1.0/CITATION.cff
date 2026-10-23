@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this exact archived version."
+title: "Exact cocycle verification and an explicit twisted bar homotopy for Family 199"
+type: software
+version: 1.1.0
+date-released: 2026-10-23
+doi: "10.5281/zenodo.23597123"
+url: "https://zenodo.org/records/23597123"
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+    affiliation: "Southern Illinois University Edwardsville"
+license:
+  - MIT
+  - Apache-2.0
+repository-code: "https://github.com/queelius/openai-math-counterexamples"
+commit: cbc0195c69c1d70a6c2161920c00285fb2b22b89
+abstract: >-
+  A source-pinned finite cocycle certificate and a written all-degree explicit
+  twisted bar homotopy, supported by exact bounded tensor replay and rejecting
+  controls. The finite cochain is checked by two polynomial implementations;
+  the new tensor checker reuses the predecessor arithmetic explicitly.
+  OpenAI supplied the construction and Pico the earlier algebra check.
+  Substantial OpenAI Codex assistance and AI review are disclosed.
+  The full Auslander-Reiten counterexample remains outside scope.

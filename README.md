@@ -78,11 +78,12 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   and substantial Codex assistance are separately credited. Factor existence,
   updated-operator positivity and algorithm convergence are outside this edition.
 
-- [Exact cocycle verification and explicit twisted homotopy for Family 199](records/family199-cocycle-interface/README.md).
-  Two independent polynomial implementations verify the finite degree-three
-  interface on all 104,976 quadruples and 324 symbolic boundary pairs.
-  A written all-degree suffix homotopy and 17,050-generator tensor replay
-  extend that interface. The full Auslander–Reiten counterexample remains outside scope.
+- [Exact checks, explicit homotopy and parameter restrictions for Family 199](records/family199-cocycle-interface/README.md).
+  The [version1.2.0 archive](https://doi.org/10.5281/zenodo.23605758) preserves the
+  cocycle and homotopy certificates and adds a written exceptional-parameter
+  classification, with30 exact finite-field cases and an independent binary
+  oracle. Earlier PR23 components were accepted; parameter PR25 awaits review.
+  The full Auslander–Reiten counterexample remains outside scope.
   [PR23](https://github.com/piiiico/openai-math-counterexamples/pull/23), accepted after maintainer computational replay;
   [version 1.1.0](https://doi.org/10.5281/zenodo.23597123).
 

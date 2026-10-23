@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "family199-cocycle-interface",
-  "title": "Exact cocycle verification and an explicit twisted bar homotopy for Family 199",
-  "contribution_type": "exact finite verification and explicit construction component with a written all-degree proof",
+  "title": "Exact verification, explicit homotopy, and parameter restrictions for Family 199",
+  "contribution_type": "exact finite verification, explicit homotopy construction and written seed-resolution parameter classification",
   "authors": [
     {
       "name": "Alexander Richard Towell",
@@ -10,9 +10,9 @@
       "affiliation": "Southern Illinois University Edwardsville"
     }
   ],
-  "predecessor_credit": "OpenAI supplied the construction, cochain, finite recurrences and recursive projective homotopy. Pico, operated by Håkon Åmdal, supplied the earlier starting-algebra check. The explicit G makes one existing existence result computable; no new full counterexample or proof-gap repair claimed.",
-  "ai_assistance": "Substantial OpenAI Codex assistance in derivation, implementation, exposition, tests, packaging and one separately tasked AI review for each component. The two reviews occurred in distinct bounded cycles; neither is human peer review.",
-  "claim": "The explicit179-entry cochain satisfies the cocycle and twisted-boundary identities and evaluates nontrivially on the displayed closed bar cycle. A uniform suffix formula for G satisfies pB=dG+Gd in all degrees, by a written proof from the finite boundary identity; direct tensor replay corroborates degrees0..4.",
+  "predecessor_credit": "OpenAI supplied the construction, cochain, finite recurrences and recursive projective homotopy. Pico, operated by Håkon Åmdal, supplied the earlier starting-algebra check. The explicit G makes one existing existence result computable; no new full counterexample or proof-gap repair claimed. OpenAI also supplied the displayed seed resolution and generic sufficient exactness conditions, already formalized in its Lean source. The exceptional specialization classification and separate matrix replay extend the audit, without alleging a source defect.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in derivation, implementation, exposition, testing, packaging and one separately tasked AI review per component. The three reviews occurred in distinct bounded cycles; none is human peer review.",
+  "claim": "The explicit179-entry cochain satisfies the cocycle and twisted-boundary identities and evaluates nontrivially on the displayed closed bar cycle. A uniform suffix formula for G satisfies pB=dG+Gd in all degrees, by a written proof from the finite boundary identity; direct tensor replay corroborates degrees0..4. The specified augmented seed complex over a characteristic-two field is exact iff q=0 or q has infinite multiplicative order; a nontrivial root of order d first fails in degree d-1, q=1 fails at the augmentation, and q=0 has two-dimensional Ext(s,C) in every degree at least two. This classification has a written coordinate proof and exact finite corroboration.",
   "mathematical_scope": {
     "evidence": "Complete finite polynomial identity verification, written relative-bar interpretation and written all-degree explicit-homotopy cancellation; supporting finite tensor replay.",
     "coefficient_ring": "F_2[q,H,H^-1]",
@@ -28,12 +28,22 @@
       "Finite boundary identity verified by predecessor",
       "I-preserving twist and corner-preserving z"
     ],
-    "homotopy_does_not_require_q_nonzero": true
+    "homotopy_does_not_require_q_nonzero": true,
+    "parameter_audit": {
+      "field": "any field of characteristic two",
+      "q": "arbitrary; q^0=1 including q=0",
+      "object": "specified polynomial ten-dimensional table and displayed augmented seed complex only",
+      "proof_kind": "written coordinate proof; finite corroboration; no new Lean proof",
+      "exceptional_cases": "q=1 augmentation defect; nontrivial order d first failure d-1; q=0 exact with dual Ext dimension2 in every degree>=2",
+      "root_of_unity_dual_groups": "Hom-complex cohomology, not Ext",
+      "generic_sufficiency_already_in_source_Lean": true,
+      "alternative_finite_field_constructions_ruled_out": false
+    }
   },
   "sources": {
-    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/cbc0195c69c1d70a6c2161920c00285fb2b22b89/rows/199",
-    "contribution_commit": "cbc0195c69c1d70a6c2161920c00285fb2b22b89",
-    "destination_base": "7c6408478d96fe3cf20b321bc10bba76136fbeab",
+    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/7f2ea4f3062466ebe3014f374d1a18c58faf54f4/rows/199",
+    "contribution_commit": "7f2ea4f3062466ebe3014f374d1a18c58faf54f4",
+    "destination_base": "b19a1429ece4c35026b789b519ff219bc57b9bc5",
     "openai_math_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
     "source_manifest": "https://github.com/queelius/openai-math-counterexamples/blob/9ce7229089c23e26630850b3c7165a77e9297b85/rows/199/cocycle/sources.json",
     "public_source_files_verified": 21,
@@ -41,7 +51,11 @@
     "homotopy_source": "https://github.com/queelius/openai-math-counterexamples/tree/cbc0195c69c1d70a6c2161920c00285fb2b22b89/rows/199/homotopy",
     "homotopy_source_manifest": "https://github.com/queelius/openai-math-counterexamples/blob/cbc0195c69c1d70a6c2161920c00285fb2b22b89/rows/199/homotopy/sources.json",
     "supplement_public_payload_files_verified": 22,
-    "archive_source_files_preserved": 44
+    "archive_source_files_preserved": 44,
+    "parameter_source": "https://github.com/queelius/openai-math-counterexamples/tree/7f2ea4f3062466ebe3014f374d1a18c58faf54f4/rows/199/parameters",
+    "parameter_source_manifest": "https://github.com/queelius/openai-math-counterexamples/blob/7f2ea4f3062466ebe3014f374d1a18c58faf54f4/rows/199/parameters/sources.json",
+    "parameter_public_files_verified": 32,
+    "archive_new_source_files": 32
   },
   "public_disclosure": {
     "date": "2026-10-23T09:45:10Z",
@@ -54,7 +68,8 @@
     "merged_at": "2026-10-23T14:25:38Z",
     "merge_commit": "bcb1286d81a22562d967f15319da3d21c6f4b065",
     "review_comment": "https://github.com/piiiico/openai-math-counterexamples/pull/23#issuecomment-6367201390",
-    "meaning": "Maintainer AI computational replay and independent TeX transcription check; no human peer review or independent maintainer review of the all-degree written proof."
+    "meaning": "Maintainer AI computational replay and independent TeX transcription check; no human peer review or independent maintainer review of the all-degree written proof.",
+    "scope": "Cocycle and homotopy components in PR23 only. Parameter PR25 remains pending."
   },
   "verification": {
     "date": "2026-10-23",
@@ -179,49 +194,95 @@
       "all_degree_proof_independently_refereed_by_maintainer": false,
       "local_replay_claimed": false,
       "comment": "https://github.com/piiiico/openai-math-counterexamples/pull/23#issuecomment-6367201390"
+    },
+    "parameter_audit": {
+      "date": "2026-10-23T22:28:37.668712+00:00",
+      "reproduce": "python3 rows/199/parameters/reproduce.py",
+      "expected": "RESULT: Family 199 parameter strata, independent oracle and rejecting controls reproduced",
+      "polynomial_associativity_triples": 1000,
+      "field_sizes": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "parameter_cases": 30,
+      "production_degrees_per_complex": 710,
+      "independent_oracle_degree_cases": 526,
+      "independent_oracle_quotient_checks": 1052,
+      "tests_normal": 12,
+      "tests_optimized": 12,
+      "primary_rejecting_controls_per_mode": 3,
+      "coverage": {
+        "covered_lines": 229,
+        "num_statements": 229,
+        "percent_covered": 100.0,
+        "percent_covered_display": "100",
+        "missing_lines": 0,
+        "excluded_lines": 0,
+        "percent_statements_covered": 100.0,
+        "percent_statements_covered_display": "100",
+        "num_branches": 84,
+        "num_partial_branches": 0,
+        "covered_branches": 84,
+        "missing_branches": 0,
+        "percent_branches_covered": 100.0,
+        "percent_branches_covered_display": "100"
+      },
+      "review_url": "https://github.com/queelius/openai-math-counterexamples/blob/7f2ea4f3062466ebe3014f374d1a18c58faf54f4/rows/199/parameters/REVIEW.md",
+      "review": "One separately tasked AI mathematical/code review, no unresolved blocker; independent XOR-only binary oracle. No human or kernel proof.",
+      "verification_url": "https://github.com/queelius/openai-math-counterexamples/blob/7f2ea4f3062466ebe3014f374d1a18c58faf54f4/rows/199/parameters/verification.json"
+    },
+    "archive_reproduce": {
+      "command": "python reproduce.py",
+      "context": "extracted version1.2.0 archive root",
+      "expected": "RESULT: Family199 finite interface, homotopy and parameter audit archive reproduced",
+      "includes": "all three components and their rejecting controls"
     }
   },
   "publication": {
     "state": "published_and_verified",
-    "version": "1.1.0",
-    "version_doi": "10.5281/zenodo.23597123",
+    "version": "1.2.0",
+    "version_doi": "10.5281/zenodo.23605758",
     "concept_doi": "10.5281/zenodo.23592159",
     "archive_publication_date": "2026-10-23",
-    "published_at_observed": "2026-10-23T13:01:11.847712+00:00",
-    "url": "https://zenodo.org/records/23597123",
-    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/cbc0195c69c1d70a6c2161920c00285fb2b22b89/rows/199",
+    "published_at_observed": "2026-10-23T22:36:10.326587+00:00",
+    "url": "https://zenodo.org/records/23605758",
+    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/7f2ea4f3062466ebe3014f374d1a18c58faf54f4/rows/199",
     "receipt": "publication.json",
     "public_downloads_verified": true,
-    "archive_manifest_files_verified": 49
+    "archive_manifest_files_verified": 81
   },
   "license": "Archival compilation and archive note Apache-2.0; original contribution code/prose MIT; OpenAI source snapshots and transcribed data Apache-2.0, with component notices.",
   "limitations": [
-    "The remaining cone components, stable-category passage, explicit resolution, all-degree Ext vanishing, Tachikawa analogue and full counterexample are outside scope.",
+    "The remaining cone/stable-category machinery, full all-degree Ext vanishing, Tachikawa analogue and full counterexample remain outside scope; only the displayed seed-resolution parameter behavior is added here.",
     "Python execution, implementations, source identification and the written relative-bar argument remain trusted.",
     "Exact finite verification is not kernel verification, human peer review or a global novelty assessment.",
     "At q=0 the nonzero evaluation conclusion fails; H must be invertible.",
-    "The new tensor implementation reuses the pinned predecessor algebra and polynomial arithmetic; it is not an independent algebra implementation. Finite degrees0..4 support, but do not replace, the written all-degree proof."
+    "The new tensor implementation reuses the pinned predecessor algebra and polynomial arithmetic; it is not an independent algebra implementation. Finite degrees0..4 support, but do not replace, the written all-degree proof.",
+    "The parameter theorem is a written proof with exact finite-field corroboration, not a new Lean proof; generic sufficient exactness conditions already appear in source Lean.",
+    "At roots of unity the displayed complex is not a resolution: its Hom-complex cohomology must not be called Ext. No exclusion of alternative finite-field constructions."
   ],
   "artifacts": [
     {
-      "path": "artifacts/family199-cocycle-interface-v1.1.0.zip",
-      "filename": "family199-cocycle-interface-v1.1.0.zip",
-      "bytes": 98466,
-      "sha256": "ca42f91b852bdd89aa6ee06ed08e4cd7981f458939548b88717dc9672e0f1991",
+      "path": "artifacts/family199-cocycle-interface-v1.2.0.zip",
+      "filename": "family199-cocycle-interface-v1.2.0.zip",
+      "bytes": 150561,
+      "sha256": "77b9b4bc7bd71f03ed438edad5152a7d71373514a1bc9c62251be387c3a4e123",
       "public_download_verified": true
     },
     {
       "path": "records/family199-cocycle-interface/ARCHIVE-NOTE.md",
       "filename": "ARCHIVE-NOTE.md",
-      "bytes": 5561,
-      "sha256": "5436da8210d86564df84fbeab4efd1fe294faf526cbce7441ec370f99de7a24f",
+      "bytes": 6541,
+      "sha256": "df01d56cbe170b41637659aea344b1f613c88b448afbfba1e8f296449e55700f",
       "public_download_verified": true
     },
     {
       "path": "records/family199-cocycle-interface/CITATION.cff",
       "filename": "CITATION.cff",
-      "bytes": 1149,
-      "sha256": "6cb6a615e29d4bcf4ba16da199c826d2ccd4d28051be9e01dc590b21eddcc594",
+      "bytes": 1172,
+      "sha256": "80fe1b517bb980b70e100466f2e182d4b113334b4f021954a1da94e3f807bff2",
       "public_download_verified": true
     }
   ],
@@ -238,6 +299,26 @@
       "record": "versions/1.0.0/record.json",
       "archive_unchanged": true,
       "scope": "Finite cocycle/boundary/cycle certificate; no explicit G supplement."
+    },
+    {
+      "version": "1.1.0",
+      "version_doi": "10.5281/zenodo.23597123",
+      "source_commit": "cbc0195c69c1d70a6c2161920c00285fb2b22b89",
+      "record": "versions/1.1.0/record.json",
+      "archive_unchanged": true,
+      "scope": "Finite cocycle and explicit homotopy; does not include parameter audit."
     }
-  ]
+  ],
+  "parameter_public_disclosure": {
+    "date": "2026-10-23T22:30:23Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/25",
+    "meaning": "Public parameter audit submission, separate from earlier issue24 scope claim and Zenodo publication."
+  },
+  "parameter_upstream_status": {
+    "state": "open",
+    "merged": false,
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/25",
+    "head": "7f2ea4f3062466ebe3014f374d1a18c58faf54f4",
+    "meaning": "Submitted, not externally accepted or proof-refereed."
+  }
 }

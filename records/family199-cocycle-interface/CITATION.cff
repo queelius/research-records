@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "Please cite this exact archived version."
-title: "Exact cocycle verification and an explicit twisted bar homotopy for Family 199"
+title: "Exact verification, explicit homotopy, and parameter restrictions for Family 199"
 type: software
-version: 1.1.0
+version: 1.2.0
 date-released: 2026-10-23
-doi: "10.5281/zenodo.23597123"
-url: "https://zenodo.org/records/23597123"
+doi: "10.5281/zenodo.23605758"
+url: "https://zenodo.org/records/23605758"
 authors:
   - family-names: Towell
     given-names: Alexander Richard
@@ -15,12 +15,12 @@ license:
   - MIT
   - Apache-2.0
 repository-code: "https://github.com/queelius/openai-math-counterexamples"
-commit: cbc0195c69c1d70a6c2161920c00285fb2b22b89
+commit: 7f2ea4f3062466ebe3014f374d1a18c58faf54f4
 abstract: >-
-  A source-pinned finite cocycle certificate and a written all-degree explicit
-  twisted bar homotopy, supported by exact bounded tensor replay and rejecting
-  controls. The finite cochain is checked by two polynomial implementations;
-  the new tensor checker reuses the predecessor arithmetic explicitly.
-  OpenAI supplied the construction and Pico the earlier algebra check.
-  Substantial OpenAI Codex assistance and AI review are disclosed.
-  The full Auslander-Reiten counterexample remains outside scope.
+  Exact finite cocycle verification, a written all-degree explicit bar homotopy,
+  and an exceptional-parameter classification of a specified seed resolution,
+  supported by exact finite-field and independent binary-matrix replays.
+  OpenAI supplied the source construction and generic Lean exactness arguments.
+  Substantial OpenAI Codex assistance and scoped AI reviews are disclosed.
+  The full counterexample, alternative constructions, kernel proof of these
+  notes, human peer review and global novelty remain outside scope.

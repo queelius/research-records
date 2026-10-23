@@ -1,0 +1,47 @@
+{
+  "id": 23597123,
+  "version": "1.1.0",
+  "doi": "10.5281/zenodo.23597123",
+  "conceptdoi": "10.5281/zenodo.23592159",
+  "conceptrecid": "23592159",
+  "state": "done",
+  "submitted": true,
+  "published_at_observed": "2026-10-23T13:01:11.847712+00:00",
+  "publication_date": "2026-10-23",
+  "url": "https://zenodo.org/records/23597123",
+  "title": "Exact cocycle verification and an explicit twisted bar homotopy for Family 199",
+  "public_source_commit": "cbc0195c69c1d70a6c2161920c00285fb2b22b89",
+  "original_public_disclosure": "2026-10-23T09:45:10Z",
+  "original_disclosure_url": "https://github.com/piiiico/openai-math-counterexamples/pull/23",
+  "supplement_public_readback_at": "2026-10-23T12:54:42.794305+00:00",
+  "upstream_acceptance": "pending",
+  "formal_proof": false,
+  "human_peer_review": false,
+  "public_download_verification": "complete",
+  "public_downloads_verified": true,
+  "downloaded_files": [
+    {
+      "filename": "family199-cocycle-interface-v1.1.0.zip",
+      "url": "https://zenodo.org/api/records/23597123/files/family199-cocycle-interface-v1.1.0.zip/content",
+      "bytes": 98466,
+      "sha256": "ca42f91b852bdd89aa6ee06ed08e4cd7981f458939548b88717dc9672e0f1991",
+      "verified": true
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "url": "https://zenodo.org/api/records/23597123/files/ARCHIVE-NOTE.md/content",
+      "bytes": 5561,
+      "sha256": "5436da8210d86564df84fbeab4efd1fe294faf526cbce7441ec370f99de7a24f",
+      "verified": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "url": "https://zenodo.org/api/records/23597123/files/CITATION.cff/content",
+      "bytes": 1149,
+      "sha256": "6cb6a615e29d4bcf4ba16da199c826d2ccd4d28051be9e01dc590b21eddcc594",
+      "verified": true
+    }
+  ],
+  "archive_manifest_entries": 49,
+  "all_archive_manifest_hashes_match": true
+}
