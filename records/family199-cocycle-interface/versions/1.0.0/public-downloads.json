@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-23T09:57:24.320980+00:00",
+  "record_id": 23592160,
+  "doi": "10.5281/zenodo.23592160",
+  "downloads": [
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "url": "https://zenodo.org/api/records/23592160/files/ARCHIVE-NOTE.md/content",
+      "bytes": 4511,
+      "sha256": "94a6e70dcd6495cba88582a8cdf7ad173e18ab343992cbad9358b9aa5f7e8e36",
+      "verified": true
+    },
+    {
+      "filename": "family199-cocycle-interface-v1.0.0.zip",
+      "url": "https://zenodo.org/api/records/23592160/files/family199-cocycle-interface-v1.0.0.zip/content",
+      "bytes": 53734,
+      "sha256": "9d206fbde7e8db0cf84bc4e54c0613ac4a949ffd3f428f0bf572d117918be082",
+      "verified": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "url": "https://zenodo.org/api/records/23592160/files/CITATION.cff/content",
+      "bytes": 1197,
+      "sha256": "53a5eea9a13d0cae04ef0138ec0463da45bc357d603f927f29c615d666c47ec9",
+      "verified": true
+    }
+  ],
+  "manifest_entries": 26,
+  "all_manifest_hashes_match": true,
+  "authentication_used": false,
+  "transient_read_errors": []
+}

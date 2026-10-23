@@ -35,9 +35,18 @@
     "meaning": "Dated public PR containing the completed result; the earlier issue was a coordination claim."
   },
   "upstream_acceptance": {
-    "state": "submitted",
+    "state": "merged",
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/21",
-    "meaning": "Open PR; no upstream acceptance or human review inferred."
+    "merged_at": "2026-10-23T12:15:25Z",
+    "merge_commit": "794f6e51753ce75c7232c91f93c64760d021adc7",
+    "review_comment": "https://github.com/piiiico/openai-math-counterexamples/pull/21#issuecomment-6364659823",
+    "review_kind": "Maintainer AI replay, not human peer review",
+    "additional_evidence": {
+      "source_commit": "7c6408478d96fe3cf20b321bc10bba76136fbeab",
+      "path": "rows/059/gcd/pico_check.py",
+      "credit": "Pico, operated by Håkon Åmdal",
+      "finding": "Coefficient swap seed59, indices229and86, preserves E, sum_abs and support; GCD rejects with26 residual bases and sieve with9/21 nonzero valuations. Reported independently by maintainer."
+    }
   },
   "verification": {
     "date": "2026-10-23",

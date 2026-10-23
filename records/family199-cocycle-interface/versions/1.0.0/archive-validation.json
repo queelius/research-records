@@ -1,0 +1,17 @@
+{
+  "archive": "family199-cocycle-interface-v1.0.0.zip",
+  "bytes": 53734,
+  "sha256": "9d206fbde7e8db0cf84bc4e54c0613ac4a949ffd3f428f0bf572d117918be082",
+  "zip_entries": 27,
+  "manifest_entries": 26,
+  "all_manifest_hashes_match": true,
+  "deterministic_rebuild_identical": true,
+  "extracted_reproduction_exit": 0,
+  "excluded": [
+    "private operational records",
+    "credentials",
+    "bytecode caches",
+    "unrelated packets"
+  ],
+  "public_source_commit": "9ce7229089c23e26630850b3c7165a77e9297b85"
+}

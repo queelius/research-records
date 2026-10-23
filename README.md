@@ -78,17 +78,18 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   and substantial Codex assistance are separately credited. Factor existence,
   updated-operator positivity and algorithm convergence are outside this edition.
 
-- [Exact cocycle and twisted-boundary verification for Family 199](records/family199-cocycle-interface/README.md).
+- [Exact cocycle verification and explicit twisted homotopy for Family 199](records/family199-cocycle-interface/README.md).
   Two independent polynomial implementations verify the finite degree-three
   interface on all 104,976 quadruples and 324 symbolic boundary pairs.
-  The full Auslander–Reiten counterexample remains outside scope.
+  A written all-degree suffix homotopy and 17,050-generator tensor replay
+  extend that interface. The full Auslander–Reiten counterexample remains outside scope.
   [PR23](https://github.com/piiiico/openai-math-counterexamples/pull/23),
-  [version 1.0.0](https://doi.org/10.5281/zenodo.23592160).
+  [version 1.1.0](https://doi.org/10.5281/zenodo.23597123).
 
 - [Exact weighted GCD verification of the Family 059 product relation](records/family059-gcd-relation/README.md).
   Independently verifies the complete 849-coefficient arithmetic witness by a
   different exact route, with written soundness, tests and rejecting controls.
-  [PR21](https://github.com/piiiico/openai-math-counterexamples/pull/21) is under review;
+  [PR21](https://github.com/piiiico/openai-math-counterexamples/pull/21) was accepted after maintainer AI replay;
   the topology theorem is outside scope. [Exact v1.0.0 archive](https://doi.org/10.5281/zenodo.23590947).
 
 - [A matching repair for the ordered binary matrix construction](records/family190-matching-repair/README.md).

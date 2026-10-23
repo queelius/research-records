@@ -1,17 +1,13 @@
 {
-  "archive": "family199-cocycle-interface-v1.0.0.zip",
-  "bytes": 53734,
-  "sha256": "9d206fbde7e8db0cf84bc4e54c0613ac4a949ffd3f428f0bf572d117918be082",
-  "zip_entries": 27,
-  "manifest_entries": 26,
-  "all_manifest_hashes_match": true,
+  "payload_files": 49,
+  "zip_entries": 50,
+  "filename": "family199-cocycle-interface-v1.1.0.zip",
+  "bytes": 98466,
+  "sha256": "ca42f91b852bdd89aa6ee06ed08e4cd7981f458939548b88717dc9672e0f1991",
   "deterministic_rebuild_identical": true,
-  "extracted_reproduction_exit": 0,
-  "excluded": [
-    "private operational records",
-    "credentials",
-    "bytecode caches",
-    "unrelated packets"
-  ],
-  "public_source_commit": "9ce7229089c23e26630850b3c7165a77e9297b85"
+  "all_44_committed_source_files_preserved": true,
+  "extracted_reproduction_pass": true,
+  "extracted_log_sha256": "af4463282e95bc0da2a17b9afb4dbca03049dfb0bfa9f71397055f0ce5d35745",
+  "extracted_manifest_files_verified": 49,
+  "verified_at": "2026-10-23T12:59:32.489180+00:00"
 }
