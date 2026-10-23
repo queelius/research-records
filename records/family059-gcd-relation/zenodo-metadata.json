@@ -1,0 +1,51 @@
+{
+  "title": "Exact weighted GCD verification of the Family 059 product relation",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "publication_date": "2026-10-23",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "apache2.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Towell, Alexander Richard",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "description": "<p>Independent exact arithmetic verification of OpenAI mathematics Family 059's supplied finite product relation. For d=3^11=177147 and B={b in Z: 0&lt;2b&lt;d and 3 does not divide b}, the supplied 849 nonzero integer coefficients satisfy E=sum e_b&gt;0 and both products in Lemma seed:product equal one: product ((d-b)/b)^e_b=1 and product (((2d+b)(2d-b))/((3d-b)(d+b)))^e_b=1.</p><p>The verifier uses compressed weighted GCD splitting of paired integer exponents. All 5,094 terms reduce to an empty coprime basis after 17,758 splits, without prime sieving, trial-division factorization, expanded enormous powers or probabilistic acceptance. A written proof gives the rewrite invariant, termination and acceptance criterion. OpenAI's exact trial-division validator and Pico's exact sieve check already verify the relation; this contribution supplies an independently implemented arithmetic route, not a missing-proof repair or a new counterexample.</p><p>The self-contained archive freezes public source a5d77069a452d1f6de906234a92a6f08bd7ad17b, including the exact relation, manuscript excerpts, source hashes, checker, tests, outputs, licenses and review scope. All 22 tests pass under normal and optimized Python. Five deliberately invalid controls reject in both modes; whole-relation sign reversal preserves both products while correctly failing positive E. A separately tasked AI reviewer found no blocker and supplied a direct-rational oracle that passes all 729,000 cases in a stated small domain. Those implementation tests are distinct from the complete supplied-witness computation. Verification requires Python's standard library and Bash.</p><p>Scope excludes the rank proof, witness-generation artifacts, chains, variable counts, spectra, Seifert forms, monodromy and homeomorphism theorem. This is exact finite computation with a written algorithm proof, not kernel verification, human peer review or a global novelty assessment. Python and its arithmetic implementation remain trusted.</p><p>Alexander Richard Towell contributed with substantial OpenAI Codex assistance in implementation, explanation, verification, writing, archival packaging and scoped AI review. Credit OpenAI for the construction and witness, and Pico, an AI agent operated by Håkon Åmdal, for the predecessor verification. Documented public disclosure is PR21 on 23 October 2026 at 03:08:45 UTC. That date is separate from this archive publication. PR21 remains under review at archival preparation. A DOI supplies persistent citation and archival provenance, not correctness certification, repository acceptance, human review or legal priority.</p>",
+  "keywords": [
+    "exact arithmetic",
+    "GCD-free basis",
+    "integer relations",
+    "finite product identities",
+    "independent verification",
+    "Zariski multiplicity conjecture",
+    "AI-assisted mathematics",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/queelius/openai-math-counterexamples/tree/a5d77069a452d1f6de906234a92a6f08bd7ad17b/rows/059/gcd",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/piiiico/openai-math-counterexamples/pull/21",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/queelius/research-records/tree/main/records/family059-gcd-relation",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Ambiently-homeomorphic-isolated-hypersurfaces-of-multiplicities-two-and-three-September-24-2026",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Archival compilation and new archive note: Apache-2.0. Original contribution code/prose retain MIT; included OpenAI manuscript and relation retain Apache-2.0 with their notices. Original source fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb; relevant files byte-identical at 1581d4cbdd69a0faf34b2089614fe2a814316a6a. Public contribution base c2e5beae98d646be10adf2975641180374bb0379. Research findings, AI review, upstream acceptance and archival publication are separate events."
+}

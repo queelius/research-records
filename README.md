@@ -82,7 +82,7 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   Independently verifies the complete 849-coefficient arithmetic witness by a
   different exact route, with written soundness, tests and rejecting controls.
   [PR21](https://github.com/piiiico/openai-math-counterexamples/pull/21) is under review;
-  the topology theorem is outside scope. No standalone DOI deposit yet.
+  the topology theorem is outside scope. [Exact v1.0.0 archive](https://doi.org/10.5281/zenodo.23590947).
 
 - [A matching repair for the ordered binary matrix construction](records/family190-matching-repair/README.md).
   Written all-depth repair and independently certified depth-one optimum four;

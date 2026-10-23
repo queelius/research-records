@@ -1,0 +1,31 @@
+{
+  "verified_at": "2026-10-23T08:47:33.326844+00:00",
+  "id": 23590947,
+  "submitted": false,
+  "reserved_doi": "10.5281/zenodo.23590947",
+  "metadata_fields_match": true,
+  "creator_orcid_verified": true,
+  "publication_type": "technicalnote",
+  "files": [
+    {
+      "filename": "family059-gcd-relation-v1.0.0.zip",
+      "bytes": 273824,
+      "md5_matches": true,
+      "expected_sha256": "da9ea0c85d2f0cad4c128af987297c0e100fbfeeadf2c019b9eba1f786f52199"
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 4308,
+      "md5_matches": true,
+      "expected_sha256": "a7107f856dc42d14a3f7af9895c4f817b516f153b839ad190534342d3cdf2fd9"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1047,
+      "md5_matches": true,
+      "expected_sha256": "26a730cb03ff44fdb2ccdfb258ff8fa50c025085cb9e66f5c04dc5baa55805f6"
+    }
+  ],
+  "upload_tool": "uv tool run --from zenodo-uploader==0.1.3 zenodo-upload update 23590947 --add-file ...",
+  "authentication": "Existing configuration; token not recorded."
+}

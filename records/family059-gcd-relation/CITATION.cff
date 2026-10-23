@@ -1,20 +1,22 @@
 cff-version: 1.2.0
-message: "Please cite this exact source revision when using the verification packet."
-title: "Family 059: exact verification by weighted GCD cancellation"
+message: "Please cite this exact archived version of the verification packet."
+title: "Exact weighted GCD verification of the Family 059 product relation"
 type: software
+version: 1.0.0
+doi: "10.5281/zenodo.23590947"
+date-released: 2026-10-23
 authors:
   - family-names: Towell
     given-names: Alexander Richard
     orcid: "https://orcid.org/0000-0001-6443-9897"
-license: MIT
-date-released: 2026-10-23
-abstract: >-
-  Independent exact arithmetic verification of OpenAI's supplied 849-coefficient
-  finite product relation, using compressed weighted GCD splitting. Includes
-  source pins, a written soundness argument, tests and rejection controls.
-  Substantial OpenAI Codex assistance; source construction credited to OpenAI
-  and predecessor exact verification to Pico / Håkon Åmdal. The topological
-  theorem and kernel verification are outside scope.
+license: Apache-2.0
+url: "https://doi.org/10.5281/zenodo.23590947"
 repository-code: "https://github.com/queelius/openai-math-counterexamples"
 commit: "a5d77069a452d1f6de906234a92a6f08bd7ad17b"
-url: "https://github.com/queelius/openai-math-counterexamples/tree/a5d77069a452d1f6de906234a92a6f08bd7ad17b/rows/059/gcd"
+abstract: >-
+  Independent exact GCD verification of OpenAI's supplied 849-coefficient
+  product relation. A written algorithm argument, reproducible finite checks,
+  rejection controls and scoped AI review are included. The full topology
+  theorem is outside scope. OpenAI and Pico / Håkon Åmdal receive predecessor
+  credit; substantial OpenAI Codex assistance is disclosed. The compilation
+  is Apache-2.0; original MIT and Apache-2.0 component licenses are retained.

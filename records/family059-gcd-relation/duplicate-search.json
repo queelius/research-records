@@ -1,0 +1,26 @@
+{
+  "searched_at": "2026-10-23T08:42:08.323024+00:00",
+  "endpoint": "https://zenodo.org/api/deposit/depositions",
+  "scope": "All authenticated account depositions, including drafts, paginated to a short final page.",
+  "terms": [
+    "family059",
+    "family 059",
+    "weighted gcd",
+    "gcd cancellation",
+    "finite product relation",
+    "a5d77069a452d1f6de906234a92a6f08bd7ad17b"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "records": 100
+    },
+    {
+      "page": 2,
+      "records": 37
+    }
+  ],
+  "total_records": 137,
+  "complete": true,
+  "matches": []
+}

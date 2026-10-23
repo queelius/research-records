@@ -1,0 +1,46 @@
+{
+  "id": 23590947,
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.23590947",
+  "conceptdoi": "10.5281/zenodo.23590946",
+  "conceptrecid": "23590946",
+  "state": "done",
+  "submitted": true,
+  "published_at_observed": "2026-10-23T08:49:09.181150+00:00",
+  "publication_date": "2026-10-23",
+  "url": "https://zenodo.org/record/23590947",
+  "title": "Exact weighted GCD verification of the Family 059 product relation",
+  "public_source_commit": "a5d77069a452d1f6de906234a92a6f08bd7ad17b",
+  "original_public_disclosure": "2026-10-23T03:08:45Z",
+  "original_disclosure_url": "https://github.com/piiiico/openai-math-counterexamples/pull/21",
+  "upstream_acceptance": "pending",
+  "formal_proof": false,
+  "human_peer_review": false,
+  "public_download_verification": "complete",
+  "public_downloads_verified": true,
+  "downloaded_files": [
+    {
+      "filename": "CITATION.cff",
+      "url": "https://zenodo.org/api/records/23590947/files/CITATION.cff/content",
+      "bytes": 1047,
+      "sha256": "26a730cb03ff44fdb2ccdfb258ff8fa50c025085cb9e66f5c04dc5baa55805f6",
+      "verified": true
+    },
+    {
+      "filename": "family059-gcd-relation-v1.0.0.zip",
+      "url": "https://zenodo.org/api/records/23590947/files/family059-gcd-relation-v1.0.0.zip/content",
+      "bytes": 273824,
+      "sha256": "da9ea0c85d2f0cad4c128af987297c0e100fbfeeadf2c019b9eba1f786f52199",
+      "verified": true
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "url": "https://zenodo.org/api/records/23590947/files/ARCHIVE-NOTE.md/content",
+      "bytes": 4308,
+      "sha256": "a7107f856dc42d14a3f7af9895c4f817b516f153b839ad190534342d3cdf2fd9",
+      "verified": true
+    }
+  ],
+  "archive_manifest_entries": 31,
+  "all_archive_manifest_hashes_match": true
+}

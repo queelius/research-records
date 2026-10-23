@@ -1,0 +1,7 @@
+{
+  "byte_identical": true,
+  "archive_entries": 32,
+  "manifest_entries": 31,
+  "sha256": "da9ea0c85d2f0cad4c128af987297c0e100fbfeeadf2c019b9eba1f786f52199",
+  "method": "ZIP_STORED; fixed file order, timestamp and Unix0644 permissions; two assemblies from fixed verified stage bytes."
+}

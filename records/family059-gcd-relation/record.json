@@ -67,18 +67,71 @@
       "missing_branches": 1
     },
     "public_git_blobs_verified": 23,
-    "review": "One scoped separate AI review; no blocker found. Reviewer oracle is small-domain exhaustive testing, not a second complete witness verifier."
+    "review": "One scoped separate AI review; no blocker found. Reviewer oracle is small-domain exhaustive testing, not a second complete witness verifier.",
+    "archival_staging": {
+      "date": "2026-10-23",
+      "source_files": 23,
+      "source_packet_unchanged": true,
+      "normal_tests": 22,
+      "optimized_tests": 22,
+      "mutation_controls_each_mode": 5,
+      "reviewer_oracle_cases": 729000,
+      "manifest_entries": 31,
+      "public_downloads_verified": 3,
+      "deterministic_zip_rebuild_byte_identical": true,
+      "packaging_review": "Separate scoped AI packaging review; no blocker. This review is distinct from the earlier arithmetic review and is not human peer review."
+    }
   },
   "publication": {
-    "state": "public_source_indexed",
-    "doi": null,
-    "archival_status": "No standalone DOI deposit prepared in this bounded audit. The exact public source commit is citable; any later coherent archive should use a single version family after a duplicate search."
+    "state": "published",
+    "version": "1.0.0",
+    "archive_publication_date": "2026-10-23",
+    "published_at_observed": "2026-10-23T08:49:09.181150+00:00",
+    "version_doi": "10.5281/zenodo.23590947",
+    "concept_doi": "10.5281/zenodo.23590946",
+    "url": "https://zenodo.org/records/23590947",
+    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/a5d77069a452d1f6de906234a92a6f08bd7ad17b/rows/059/gcd",
+    "receipt": "publication.json",
+    "public_downloads_verified": true,
+    "archive_manifest_files_verified": 31,
+    "archive_status": "published_and_verified"
   },
-  "license": "Original contribution code and prose MIT; included OpenAI source Apache-2.0, with component license retained.",
+  "license": "Archival compilation and archive note Apache-2.0; original contribution code/prose MIT; included OpenAI source Apache-2.0, with component notices preserved.",
   "limitations": [
     "No new mathematical counterexample or global novelty claim.",
     "The rank proof, witness-generation artifacts, chains, variable counts, spectra, Seifert forms, monodromy and homeomorphism theorem are outside scope.",
     "Python and the arithmetic implementation remain trusted; not a Lean or other kernel proof.",
     "Finite small-domain oracle checks do not prove all possible implementations or unrestricted input claims."
+  ],
+  "publication_history": [
+    {
+      "state": "public_source_indexed",
+      "doi": null,
+      "archival_status": "No standalone DOI deposit prepared in this bounded audit. The exact public source commit is citable; any later coherent archive should use a single version family after a duplicate search.",
+      "recorded_in_commit": "7bb1e02dcf5ababc862e2045bca1e362cae69475"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "artifacts/family059-gcd-relation-v1.0.0.zip",
+      "filename": "family059-gcd-relation-v1.0.0.zip",
+      "bytes": 273824,
+      "sha256": "da9ea0c85d2f0cad4c128af987297c0e100fbfeeadf2c019b9eba1f786f52199",
+      "download_verified": true
+    },
+    {
+      "path": "records/family059-gcd-relation/ARCHIVE-NOTE.md",
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 4308,
+      "sha256": "a7107f856dc42d14a3f7af9895c4f817b516f153b839ad190534342d3cdf2fd9",
+      "download_verified": true
+    },
+    {
+      "path": "records/family059-gcd-relation/CITATION.cff",
+      "filename": "CITATION.cff",
+      "bytes": 1047,
+      "sha256": "26a730cb03ff44fdb2ccdfb258ff8fa50c025085cb9e66f5c04dc5baa55805f6",
+      "download_verified": true
+    }
   ]
 }

@@ -32,6 +32,13 @@ That finite test is distinct from the complete 849-row relation check.
 Credit OpenAI for the source construction and witness, and Pico / Håkon Åmdal
 for the predecessor verification. Code/prose are MIT; copied sources retain
 Apache-2.0. This is finite computation with a written proof, not kernel
-verification or human peer review. There is no standalone DOI deposit yet;
-cite the exact source commit above. Development and research logs remain in
+verification or human peer review. [Version 1.0.0 is archived on Zenodo](https://doi.org/10.5281/zenodo.23590947).
+Fresh staged tests and the reviewer oracle pass; all three public downloads
+and all 31 archive-manifest entries match. Cite this exact-version DOI;
+PR acceptance remains pending. Development and research logs remain in
 `math-research`.
+
+The original public disclosure was PR21 at 03:08:45 UTC on October 23, 2026.
+Archival publication occurred separately at approximately 08:49 UTC that day.
+See [publication.json](publication.json), [public-downloads.json](public-downloads.json),
+and the [archive note](ARCHIVE-NOTE.md) for source pins, evidence and scope.
