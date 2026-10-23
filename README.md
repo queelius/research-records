@@ -83,7 +83,7 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   interface on all 104,976 quadruples and 324 symbolic boundary pairs.
   A written all-degree suffix homotopy and 17,050-generator tensor replay
   extend that interface. The full Auslander–Reiten counterexample remains outside scope.
-  [PR23](https://github.com/piiiico/openai-math-counterexamples/pull/23),
+  [PR23](https://github.com/piiiico/openai-math-counterexamples/pull/23), accepted after maintainer computational replay;
   [version 1.1.0](https://doi.org/10.5281/zenodo.23597123).
 
 - [Exact weighted GCD verification of the Family 059 product relation](records/family059-gcd-relation/README.md).

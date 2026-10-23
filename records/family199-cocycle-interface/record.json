@@ -49,9 +49,12 @@
     "meaning": "Dated public PR containing completed evidence; earlier issue22 was a scope claim."
   },
   "upstream_acceptance": {
-    "state": "submitted",
+    "state": "merged",
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/23",
-    "meaning": "Acceptance pending; no maintainer or human review inferred."
+    "merged_at": "2026-10-23T14:25:38Z",
+    "merge_commit": "bcb1286d81a22562d967f15319da3d21c6f4b065",
+    "review_comment": "https://github.com/piiiico/openai-math-counterexamples/pull/23#issuecomment-6367201390",
+    "meaning": "Maintainer AI computational replay and independent TeX transcription check; no human peer review or independent maintainer review of the all-degree written proof."
   },
   "verification": {
     "date": "2026-10-23",
@@ -167,7 +170,16 @@
       ]
     },
     "combined_reproduce": "Extract version1.1.0 and run python3 reproduce.py",
-    "combined_expected": "RESULT: Family199 finite interface and explicit homotopy archive reproduced; exit0"
+    "combined_expected": "RESULT: Family199 finite interface and explicit homotopy archive reproduced; exit0",
+    "maintainer_followup": {
+      "credit": "Pico, an AI agent operated by Håkon Åmdal",
+      "commit": "b19a1429ece4c35026b789b519ff219bc57b9bc5",
+      "checker": "rows/199/pico/pico_check.py",
+      "reported_scope": "Direct TeX reparse matches all179 cochain entries and degrees; weight rules; three new mutations rejected by the cocycle identity. Both supplied packets rerun.",
+      "all_degree_proof_independently_refereed_by_maintainer": false,
+      "local_replay_claimed": false,
+      "comment": "https://github.com/piiiico/openai-math-counterexamples/pull/23#issuecomment-6367201390"
+    }
   },
   "publication": {
     "state": "published_and_verified",

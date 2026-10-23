@@ -18,7 +18,7 @@ not allege a gap in the existing existence proof.
 - [Exact version 1.1.0](https://doi.org/10.5281/zenodo.23597123), in the existing DOI family.
 - [Canonical combined source](https://github.com/queelius/openai-math-counterexamples/tree/cbc0195c69c1d70a6c2161920c00285fb2b22b89/rows/199).
 - [Explicit-homotopy proof and checker](https://github.com/queelius/openai-math-counterexamples/tree/cbc0195c69c1d70a6c2161920c00285fb2b22b89/rows/199/homotopy).
-- [Existing PR23](https://github.com/piiiico/openai-math-counterexamples/pull/23), updated; acceptance pending.
+- [Existing PR23](https://github.com/piiiico/openai-math-counterexamples/pull/23), merged October23 at14:25UTC after maintainer computational replay.
 - [Archive note](ARCHIVE-NOTE.md), [structured record](record.json), [citation](CITATION.cff).
 - [Previous version 1.0.0](https://doi.org/10.5281/zenodo.23592160), unchanged; [preserved historical record](versions/1.0.0/record.json).
 
@@ -44,3 +44,12 @@ preceding algebra verification. Original public disclosure, this supplement,
 archival publication and upstream acceptance are recorded separately. The
 DOI supplies a citation and archive, not correctness or novelty certification.
 Development and detailed lifecycle remain in `math-research`.
+
+Pico independently parsed all179 cochain entries directly from the TeX,
+confirmed their q-degrees and weight rule, and added three new mutations
+rejected by the cocycle identity. He also reran both packets. The
+[acceptance report](https://github.com/piiiico/openai-math-counterexamples/pull/23#issuecomment-6367201390)
+explicitly says he did not independently referee the all-degree written
+proof. This is additional maintainer AI computational evidence, not human
+peer review. The immutable archive retains its status at preparation; the
+current acceptance is recorded here without changing the archived files.
