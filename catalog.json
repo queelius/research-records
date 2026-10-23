@@ -152,6 +152,11 @@
       "id": "family059-gcd-relation",
       "metadata": "records/family059-gcd-relation/record.json",
       "readme": "records/family059-gcd-relation/README.md"
+    },
+    {
+      "id": "prove2me-verified-collection",
+      "metadata": "records/prove2me-verified-collection/record.json",
+      "readme": "records/prove2me-verified-collection/README.md"
     }
   ]
 }
