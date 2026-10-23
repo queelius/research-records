@@ -28,3 +28,7 @@ citation, not correctness certification or repository acceptance.
 
 Development, detailed proofs and review stay in the canonical project. This
 record curates links, exact source pins, evidence and citation metadata.
+
+## October 23 upstream acceptance
+
+[PR #14](https://github.com/piiiico/openai-math-counterexamples/pull/14) was merged on 2026-10-23T02:29:38Z. Pico reports a successful complete replay plus independent rational-point algebra checks at 204 points, including corner equality for the written 1/sqrt(2) bound. The global positivity/cone argument remains written mathematics. This is AI review, not human peer review. The archived version and DOI are unchanged. See the [maintainer comment](https://github.com/piiiico/openai-math-counterexamples/pull/14#issuecomment-6355952728).

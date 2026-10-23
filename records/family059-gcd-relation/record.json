@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "family059-gcd-relation",
+  "title": "Exact weighted GCD verification of the Family 059 product relation",
+  "contribution_type": "independent exact arithmetic verification",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "predecessor_credit": "OpenAI: finite product lemma, supplied relation and trial-division validator. Pico / Håkon Åmdal: preceding exact sieve and modular checks. No new counterexample or missing-proof repair claimed.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in checker implementation, proof explanation, testing, prose, packaging and one scoped separate AI review. AI review is not human peer review.",
+  "claim": "The supplied 849-coefficient relation at d=3^11 has admissible support, positive coefficient sum E, and both products of Lemma seed:product equal one. A compressed weighted GCD implementation verifies these exact identities without factoring or expanded enormous powers.",
+  "mathematical_scope": {
+    "evidence": "Complete finite arithmetic verification with a written algorithm soundness and termination proof.",
+    "formal_proof": false,
+    "human_peer_review_claimed": false,
+    "full_topology_theorem_checked": false
+  },
+  "sources": {
+    "canonical_source": "https://github.com/queelius/openai-math-counterexamples/tree/a5d77069a452d1f6de906234a92a6f08bd7ad17b/rows/059/gcd",
+    "contribution_commit": "a5d77069a452d1f6de906234a92a6f08bd7ad17b",
+    "destination_base": "c2e5beae98d646be10adf2975641180374bb0379",
+    "openai_math_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "current_source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "relevant_source_files_unchanged": true,
+    "source_manifest": "https://github.com/queelius/openai-math-counterexamples/tree/a5d77069a452d1f6de906234a92a6f08bd7ad17b/rows/059/gcd/source-pins.json",
+    "relation_sha256": "e5a3ad0b8901ac358374575dbaf7be9e03bb84063def63749f16618cf2ba1780"
+  },
+  "public_disclosure": {
+    "date": "2026-10-23T03:08:45Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/21",
+    "meaning": "Dated public PR containing the completed result; the earlier issue was a coordination claim."
+  },
+  "upstream_acceptance": {
+    "state": "submitted",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/21",
+    "meaning": "Open PR; no upstream acceptance or human review inferred."
+  },
+  "verification": {
+    "date": "2026-10-23",
+    "python": "3.13.15",
+    "dependencies": "Python standard library; Bash for reproduction.",
+    "reproduce": "bash rows/059/gcd/reproduce.sh",
+    "expected": "Exit 0 and RESULT: Family 059 exact GCD cancellation and rejecting controls reproduced",
+    "tests_normal": 22,
+    "tests_optimized": 22,
+    "rejecting_controls": 5,
+    "gcd_splits": 17758,
+    "residual_bases": 0,
+    "seeded_oracle_cases": 150,
+    "seed": 5901,
+    "reviewer_oracle_cases": 729000,
+    "reviewer_oracle_domain": "Three ordered bases in 1..10; each of six exponent components in {-1,0,1}.",
+    "checker_coverage": {
+      "covered_lines": 173,
+      "num_statements": 174,
+      "percent_covered": 99.17355371900827,
+      "percent_covered_display": "99",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "num_branches": 68,
+      "num_partial_branches": 1,
+      "covered_branches": 67,
+      "missing_branches": 1
+    },
+    "public_git_blobs_verified": 23,
+    "review": "One scoped separate AI review; no blocker found. Reviewer oracle is small-domain exhaustive testing, not a second complete witness verifier."
+  },
+  "publication": {
+    "state": "public_source_indexed",
+    "doi": null,
+    "archival_status": "No standalone DOI deposit prepared in this bounded audit. The exact public source commit is citable; any later coherent archive should use a single version family after a duplicate search."
+  },
+  "license": "Original contribution code and prose MIT; included OpenAI source Apache-2.0, with component license retained.",
+  "limitations": [
+    "No new mathematical counterexample or global novelty claim.",
+    "The rank proof, witness-generation artifacts, chains, variable counts, spectra, Seifert forms, monodromy and homeomorphism theorem are outside scope.",
+    "Python and the arithmetic implementation remain trusted; not a Lean or other kernel proof.",
+    "Finite small-domain oracle checks do not prove all possible implementations or unrestricted input claims."
+  ]
+}

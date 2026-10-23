@@ -37,3 +37,7 @@ requires python-sat 1.8.dev24; verification needs no solver.
 This entry reuses the existing coherent contribution ID. Development, proofs,
 logs, failed approaches and detailed lifecycle remain in the owning project;
 the index curates canonical source and exact archival citations.
+
+## October 23 upstream acceptance
+
+[PR #16](https://github.com/piiiico/openai-math-counterexamples/pull/16) was merged on 2026-10-23T02:29:38Z. Pico reports a successful complete replay and independent h=1 enumeration of all 43,745 edit sets of size at most three, plus the four-edit witness. The density bridge and all-depth extension remain written mathematics. This is AI review, not human peer review. The archived version and DOI are unchanged. See the [maintainer comment](https://github.com/piiiico/openai-math-counterexamples/pull/16#issuecomment-6355965201).

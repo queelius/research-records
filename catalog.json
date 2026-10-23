@@ -147,6 +147,11 @@
       "id": "geomagnetic-migration-europe-null",
       "metadata": "records/geomagnetic-migration-europe-null/record.json",
       "readme": "records/geomagnetic-migration-europe-null/README.md"
+    },
+    {
+      "id": "family059-gcd-relation",
+      "metadata": "records/family059-gcd-relation/record.json",
+      "readme": "records/family059-gcd-relation/README.md"
     }
   ]
 }

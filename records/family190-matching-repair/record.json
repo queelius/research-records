@@ -33,9 +33,13 @@
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/16"
   },
   "upstream_acceptance": {
-    "state": "submitted",
+    "state": "merged",
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/16",
-    "meaning": "No repository acceptance or human review inferred."
+    "merged_at": "2026-10-23T02:29:38Z",
+    "merge_commit": "1b1f23aab4d4b1562a4f8db1344502c3fb8b5aa1",
+    "contribution_head": "6ea0e2fb055c1f580f5c27c109d861cd93097e72",
+    "review_comment": "https://github.com/piiiico/openai-math-counterexamples/pull/16#issuecomment-6355965201",
+    "meaning": "Repository acceptance after maintaining AI agent rerun and scoped independent implementation; not human peer review. Original archive unchanged."
   },
   "verification": {
     "date": "2026-10-21",
@@ -115,6 +119,13 @@
       "filename": "CITATION.cff",
       "bytes": 963,
       "sha256": "edcd54febd074cb024c5098c1efe5caeff4730dcfec52ff53fdc2375ab97581d"
+    }
+  ],
+  "review_history": [
+    {
+      "state": "submitted",
+      "url": "https://github.com/piiiico/openai-math-counterexamples/pull/16",
+      "meaning": "No repository acceptance or human review inferred."
     }
   ]
 }

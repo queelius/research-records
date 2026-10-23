@@ -71,9 +71,15 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   and substantial Codex assistance are separately credited. Factor existence,
   updated-operator positivity and algorithm convergence are outside this edition.
 
+- [Exact weighted GCD verification of the Family 059 product relation](records/family059-gcd-relation/README.md).
+  Independently verifies the complete 849-coefficient arithmetic witness by a
+  different exact route, with written soundness, tests and rejecting controls.
+  [PR21](https://github.com/piiiico/openai-math-counterexamples/pull/21) is under review;
+  the topology theorem is outside scope. No standalone DOI deposit yet.
+
 - [A matching repair for the ordered binary matrix construction](records/family190-matching-repair/README.md).
   Written all-depth repair and independently certified depth-one optimum four;
-  source lower bound retained for unrestricted sharpness. [PR16](https://github.com/piiiico/openai-math-counterexamples/pull/16), [v1.0.0 DOI](https://doi.org/10.5281/zenodo.23541166).
+  source lower bound retained for unrestricted sharpness. Accepted after a maintainer AI replay. [PR16](https://github.com/piiiico/openai-math-counterexamples/pull/16), [v1.0.0 DOI](https://doi.org/10.5281/zenodo.23541166).
 
 - [Graphon aggregates, Nash equilibria and fixed-profile perturbations](records/graphon-game-equilibrium-formalization/README.md).
   Five complete Lean formalizations of Carmona–Cooney–Graves–Laurière results,
@@ -86,7 +92,7 @@ does not by itself establish a public technical disclosure, DOI or peer review.
 
 - [Exact all-parameter algebra for the four-torus cone example](records/family342-exact-torus/README.md).
   Independent exact identities, written positivity and a direct amplitude corollary;
-  OpenAI and Pico credited, review pending.
+  OpenAI and Pico credited; accepted after a maintainer AI replay.
   [Exact v1.0.0 archive](https://doi.org/10.5281/zenodo.23532784).
 
 - [Dual-sourcing optimal orders, regions and reliability](records/dual-sourcing-optimal-orders/README.md).
