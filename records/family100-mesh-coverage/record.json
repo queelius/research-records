@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "family100-mesh-coverage",
+  "title": "Mesh-aware tetrahedron cylinder coverage and exact area budgets",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897"
+    }
+  ],
+  "ai_assistance": "Substantial OpenAI Codex assistance; one separately tasked AI reviewer. Not human peer review.",
+  "canonical_source": {
+    "url": "https://github.com/queelius/openai-math-counterexamples/tree/8b878058f982b084eaad744e4bea60f08768fbe9/rows/100/mesh",
+    "commit": "8b878058f982b084eaad744e4bea60f08768fbe9",
+    "owning_workspace": "math-research/research/family100_mesh_coverage"
+  },
+  "claim": "For the source parabolic secant-axis construction, arbitrary finite partitions of maximum gap D cover the closed regular tetrahedron when 2eta-(7/4+2eta)tau-D/(4tau)-D/4>=0. The normalized area error is at most 59tau^4/64+tau^2 D.",
+  "assumptions": [
+    "0<tau<1, eta>=0 for coverage; eta<=1/8 for the area estimate.",
+    "A shared finite strictly increasing partition of [-1,1], the specified secant axes and constant per-sector cutoffs.",
+    "Continuum coverage and analytic inequalities are written proofs, not formally verified."
+  ],
+  "concrete_instance": {
+    "tau": "1/2000",
+    "eta": "1/1000",
+    "sectors_per_family": 1000000,
+    "cylinders": 2000000,
+    "normalized_saving_lower": "1662287/3072000000000000",
+    "comparison": "Reduces the original source example from 16,000,000 cylinders; much weaker than Pinho’s existing 4096-cylinder cover."
+  },
+  "verification": {
+    "symbolic_identities": 9,
+    "tests_per_mode": 19,
+    "python_modes": [
+      "ordinary",
+      "optimized"
+    ],
+    "rejection_runs": 10,
+    "independent_area_check": "Exact polynomial sector-sum enclosure over all one million sectors, without the main integral approximation; shared SymPy dependency.",
+    "geometry_control": "Actual uncovered rational point without enlargement, independently checked by barycentric linear systems.",
+    "public_files_read_back": 24,
+    "output_sha256": "9fbfeaec1aa4ba557f7d7b27c2015e1f947c4282f9ff79d511e3f8b5491f5013",
+    "reproduce": "Install requirements-dev.txt, then run python reproduce.py in the pinned packet.",
+    "formal_proof": false,
+    "human_peer_review": false
+  },
+  "source_dependencies": [
+    {
+      "repository": "https://github.com/openai/math",
+      "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "manifest": "sources.json in canonical packet"
+    }
+  ],
+  "predecessors": [
+    "OpenAI construction, first-crossing proof, radial identity, normalization and Taylor/integral area method.",
+    "Pico/Hakon Amdal original computations.",
+    "Ricardo Pinho optimized finite cover, rpinho/tetrahedron-cylinder-cover@2e648347ddd2c76e0fcb46ce67d8238684e29d03.",
+    "SymPy and mpmath authors."
+  ],
+  "limitations": [
+    "Not a record, an optimality result or an established globally novel mechanism.",
+    "A negative sufficient budget does not prove a cover fails.",
+    "The source coverage theorem already has a continuum proof; this is not a claim that it had a gap."
+  ],
+  "first_public_disclosure": {
+    "date": "2026-10-24T08:45:06Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/31"
+  },
+  "upstream_review": {
+    "state": "submitted",
+    "accepted": false,
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/31"
+  },
+  "archival_status": {
+    "state": "not_archived",
+    "doi": null,
+    "reason": "The bounded cycle published the pinned packet and curated this record; a separate archival deposit was not undertaken."
+  },
+  "license": {
+    "new_work": "MIT",
+    "source_extracts": "Apache-2.0"
+  }
+}

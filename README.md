@@ -294,3 +294,7 @@ verifiable evidence and their scope is explicit.
 
 See [the publication workflow](PUBLISHING.md). The pilot establishes a
 record format, not an exhaustive inventory of the author's previous work.
+
+- [Mesh-aware tetrahedron cylinder coverage](records/family100-mesh-coverage/README.md):
+  explicit coverage and area budgets for coarser or nonuniform partitions;
+  written proof with exact checks, submitted for upstream review.

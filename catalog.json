@@ -167,6 +167,11 @@
       "id": "family172-triangular-rotation-obstruction",
       "metadata": "records/family172-triangular-rotation-obstruction/record.json",
       "readme": "records/family172-triangular-rotation-obstruction/README.md"
+    },
+    {
+      "id": "family100-mesh-coverage",
+      "metadata": "records/family100-mesh-coverage/record.json",
+      "readme": "records/family100-mesh-coverage/README.md"
     }
   ]
 }
