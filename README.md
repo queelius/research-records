@@ -45,9 +45,9 @@ does not by itself establish a public technical disclosure, DOI or peer review.
 ## Records
 
 - [Prove2Me formalization collection](records/prove2me-verified-collection/README.md).
-  [Version 1.0.0](https://doi.org/10.5281/zenodo.23590811) preserves 288 complete accepted
-  proof/evidence packets, 3 metadata-only targets and 222 freshly compiled platform
-  modules. All public downloads and 2,219 internal files verified. The collection
+  [Version 1.1.0](https://doi.org/10.5281/zenodo.23606989) preserves 354 complete accepted
+  proof/evidence packets, 3 metadata-only targets and 267 freshly compiled platform
+  modules. All public downloads and 3,034 internal files verified. The collection
   [concept DOI](https://doi.org/10.5281/zenodo.23590810) supports later snapshots; existing
   focused DOI families retain their identities.
 

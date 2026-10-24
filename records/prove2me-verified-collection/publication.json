@@ -1,24 +1,33 @@
 {
   "schema_version": 1,
-  "record_id": 23590811,
-  "version": "1.0.0",
-  "version_doi": "10.5281/zenodo.23590811",
+  "record_id": 23606989,
+  "version": "1.1.0",
+  "version_doi": "10.5281/zenodo.23606989",
   "concept_doi": "10.5281/zenodo.23590810",
-  "url": "https://zenodo.org/records/23590811",
+  "url": "https://zenodo.org/records/23606989",
   "state": "published",
   "publication_date": "2026-10-23",
-  "published_at": "2026-10-23T08:39:48.122319+00:00",
+  "published_at": "2026-10-23T23:59:33.557440+00:00",
   "published_at_basis": "Timestamp from the first successful publish response; public metadata publication_date is separately retained.",
-  "verified_at": "2026-10-23T08:43:01.790237+00:00",
+  "verified_at": "2026-10-24T00:00:49.565182+00:00",
   "public_metadata_http_status": 200,
   "public_metadata_authenticated": false,
   "all_public_downloads_match": true,
   "files": [
     {
+      "filename": "prove2me-verified-collection-v1.1.0.zip",
+      "bytes": 8698143,
+      "sha256": "74869ab6f0bee11195a37a921b3c0ecb786be7aca2de4e75989ed4cc496e33e7",
+      "download_url": "https://zenodo.org/api/records/23606989/files/prove2me-verified-collection-v1.1.0.zip/content",
+      "http_status": 200,
+      "matches_local": true,
+      "authenticated": false
+    },
+    {
       "filename": "README.md",
-      "bytes": 3195,
-      "sha256": "5e3f182e2d737f03b261f8555c9892c487c88462c2c9615d2c4949416beeee9f",
-      "download_url": "https://zenodo.org/api/records/23590811/files/README.md/content",
+      "bytes": 2487,
+      "sha256": "f397acbae8b4393ef2dc8fa5c9c5403b9a484ccc202fb3531ca93c2e1c7d2636",
+      "download_url": "https://zenodo.org/api/records/23606989/files/README.md/content",
       "http_status": 200,
       "matches_local": true,
       "authenticated": false
@@ -26,53 +35,26 @@
     {
       "filename": "CITATION.cff",
       "bytes": 673,
-      "sha256": "09ef66ed913aced8e60b06a4e40ce26a4b56e69f5f08292fef87e9071159a127",
-      "download_url": "https://zenodo.org/api/records/23590811/files/CITATION.cff/content",
-      "http_status": 200,
-      "matches_local": true,
-      "authenticated": false
-    },
-    {
-      "filename": "prove2me-verified-collection-v1.0.0.zip",
-      "bytes": 6140151,
-      "sha256": "1021e36ec5b4d866aedba6a2edc04323bc7732367078a7b7dc1aab44dc963151",
-      "download_url": "https://zenodo.org/api/records/23590811/files/prove2me-verified-collection-v1.0.0.zip/content",
+      "sha256": "49a81bc130aea8f2e5d72e04e8655ab20a27f9fbe130997406ad897c3eba1fe1",
+      "download_url": "https://zenodo.org/api/records/23606989/files/CITATION.cff/content",
       "http_status": 200,
       "matches_local": true,
       "authenticated": false
     }
   ],
-  "packet_manifest_sha256": "59c78a6374bc129b67c5c751ce5aa13ebdacb1b1fb2923fd95bdab58889a235a",
-  "packet_file_count": 2219,
+  "packet_manifest_sha256": "248883f6a8439d7dd9b5f51b4078b2a400f7d8f562c0de2c247c360f4e445dd8",
+  "packet_file_count": 3034,
   "all_packet_files_verified": true,
   "extracted_archive_integrity": "passed",
   "archive_rebuild_byte_identical": true,
   "reproduction": {
     "full_replay_status": "passed",
-    "targets": 288,
-    "platform_modules": 222,
-    "commands": 522,
+    "targets": 354,
+    "platform_modules": 267,
+    "commands": 633,
     "exact_replayed_proof_audit_evidence_and_log_bytes_match_public_archive": true,
     "negative_controls_rejected": 2,
     "scope": "Full replay before DOI-only metadata finalization. Public extracted integrity and all replay source/log hashes checked after publication. Pinned compiled Lean/Mathlib caches reused; no source-only dependency rebuild."
   },
-  "note": "The packet records reserved DOI state at assembly. This public-download receipt establishes publication. Original platform disclosures and focused DOI versions retain separate dates.",
-  "doi_resolution": {
-    "checked_at": "2026-10-23T08:41:52.302308+00:00",
-    "authenticated": false,
-    "results": [
-      {
-        "doi": "10.5281/zenodo.23590811",
-        "http_status": 200,
-        "final_url": "https://zenodo.org/records/23590811",
-        "resolves": true
-      },
-      {
-        "doi": "10.5281/zenodo.23590810",
-        "http_status": 200,
-        "final_url": "https://zenodo.org/records/23590811",
-        "resolves": true
-      }
-    ]
-  }
+  "note": "The packet records reserved DOI state at assembly. This public-download receipt establishes publication. Original platform disclosures and focused DOI versions retain separate dates."
 }

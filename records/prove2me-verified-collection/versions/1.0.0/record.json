@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "id": "prove2me-verified-collection",
+  "title": "Prove2Me formalization contributions by Alexander Richard Towell: a versioned proof and evidence archive",
+  "contribution_type": "versioned formalization and evidence collection",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897",
+      "affiliation": "Southern Illinois University Edwardsville"
+    }
+  ],
+  "owner": {
+    "repository": "https://github.com/queelius/prove2me-contributions",
+    "visibility": "private",
+    "source_commit": "467767064a12d4945da0ab4460db567c52bea156",
+    "record_path": "contributions/queelius/publications/prove2me-verified-collection/record.json",
+    "source_commit_scope": "Frozen collection source cutoff; detailed research lifecycle remains private."
+  },
+  "central_record_url": "https://github.com/queelius/research-records/tree/main/records/prove2me-verified-collection",
+  "claim": "Durable collection snapshot preserving exact accepted Lean proofs, full-type audits, platform receipts, source and predecessor attribution, and human/AI roles independently of Prove2Me. No new mathematics or human peer review claimed.",
+  "scope": {
+    "accepted_catalog_targets": 291,
+    "proof_packets_included": 288,
+    "metadata_only_targets": 3,
+    "platform_source_files": 222
+  },
+  "human_role": "Alexander Richard Towell directs and stewards the work; per-result roles are retained from the ledger, without inferring independent human proof review.",
+  "ai_assistance": [
+    {
+      "agent": "OpenAI Codex",
+      "role": "Substantial formalization, verification, submission, documentation and collection preparation. Models not established by records remain unknown."
+    },
+    {
+      "agent": "Claude Code",
+      "model": "claude-opus-5-5",
+      "effort": "xhigh",
+      "role": "Shared-repository organization and bulk-archive planning, as documented by the 22 October handoff. Not represented as authorship or review of these mathematical proofs."
+    }
+  ],
+  "predecessor_credit": "Original mathematics, platform statements and actual reused proof sources retain per-result and per-source attribution. Existing focused DOI families remain canonical and are linked from the collection.",
+  "license": "Apache-2.0 for included material with preserved source notices; unresolved dependency bytes excluded.",
+  "limitations": [
+    "Three accepted targets are metadata-only because redistribution of two older dependency definitions is unconfirmed.",
+    "Local conditional or unsubmitted research, private operational logs and full conversation transcripts are outside this first edition.",
+    "Lean/Mathlib sources and caches are pinned external dependencies, not included in this small packet."
+  ],
+  "publication": {
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23590811",
+    "concept_doi": "10.5281/zenodo.23590810",
+    "readiness": "Published and publicly verified: all three downloads match, every one of 2,219 packet files checked, extracted integrity passed. The unchanged proof/audit/evidence bytes are those of the complete 288-target, 222-module replay.",
+    "intended_central_record_id": "prove2me-verified-collection",
+    "record_id": 23590811,
+    "url": "https://zenodo.org/records/23590811",
+    "publication_date": "2026-10-23",
+    "published_at": "2026-10-23T08:39:48.122319+00:00",
+    "published_at_basis": "Timestamp from the first successful publish response; public metadata publication_date is separately retained.",
+    "verified_at": "2026-10-23T08:43:01.790237+00:00",
+    "receipt": "publication.json",
+    "note": "The frozen packet records DOI reservation at assembly; the publication receipt establishes actual public availability. Original platform and focused-publication dates remain separate."
+  },
+  "artifacts": [
+    {
+      "filename": "README.md",
+      "bytes": 3195,
+      "sha256": "5e3f182e2d737f03b261f8555c9892c487c88462c2c9615d2c4949416beeee9f",
+      "download_url": "https://zenodo.org/api/records/23590811/files/README.md/content",
+      "availability": "public; downloaded and byte-verified"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 673,
+      "sha256": "09ef66ed913aced8e60b06a4e40ce26a4b56e69f5f08292fef87e9071159a127",
+      "download_url": "https://zenodo.org/api/records/23590811/files/CITATION.cff/content",
+      "availability": "public; downloaded and byte-verified"
+    },
+    {
+      "filename": "prove2me-verified-collection-v1.0.0.zip",
+      "bytes": 6140151,
+      "sha256": "1021e36ec5b4d866aedba6a2edc04323bc7732367078a7b7dc1aab44dc963151",
+      "download_url": "https://zenodo.org/api/records/23590811/files/prove2me-verified-collection-v1.0.0.zip/content",
+      "availability": "public; downloaded and byte-verified"
+    }
+  ],
+  "verification": {
+    "lean": "4.33.1",
+    "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "fresh_archive_reproduction": "PASS",
+    "replay_finished_at": "2026-10-23T07:19:41.069902+00:00",
+    "targets_compiled": 288,
+    "commands": 522,
+    "negative_controls": [
+      "accepted-proof byte mutation",
+      "untrusted transitive axiom"
+    ],
+    "deterministic_rebuild_identical": true,
+    "extracted_archive_integrity": "PASS",
+    "packet_files": 2219,
+    "historical_evidence_byte_preservation": true,
+    "human_peer_review": false,
+    "mathematical_novelty_claimed": false,
+    "archive_report": "verification/replay/report.json",
+    "archive_summary": "verification/replay-summary.json",
+    "public_downloads_match": true,
+    "all_packet_files_verified": true,
+    "public_extracted_integrity": "PASS",
+    "public_verification_receipt": "publication.json"
+  },
+  "archive_metadata": {
+    "claims_and_original_acceptance_dates": "collection.json",
+    "exact_selected_platform_receipts": "contributions/queelius/evidence/",
+    "source_and_predecessor_provenance": "source-provenance.json",
+    "file_hashes": "MANIFEST.json",
+    "focused_archives": "publication-links.json",
+    "reproduction": "REPRODUCE.md"
+  },
+  "public_disclosures": {
+    "scope": "Individual target URLs and dated submissions/acceptances remain in collection.json and selected receipts. This timestamp is the collection publication event, not the original mathematical or platform disclosure.",
+    "collection_published_at": "2026-10-23T08:39:48.122319+00:00",
+    "collection_publication_date": "2026-10-23"
+  },
+  "history": [
+    {
+      "at": "2026-10-23T07:43:25.835737+00:00",
+      "event": "Local first-edition index draft, not yet published."
+    },
+    {
+      "at": "2026-10-23T08:39:48.122319+00:00",
+      "event": "Published first collection v1.0.0 on Zenodo after explicit current-session authorization; every public artifact and all internal manifest hashes verified.",
+      "version_doi": "10.5281/zenodo.23590811",
+      "concept_doi": "10.5281/zenodo.23590810"
+    }
+  ]
+}

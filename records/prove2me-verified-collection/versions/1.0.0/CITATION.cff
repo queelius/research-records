@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Cite this exact version DOI for archived evidence; the concept DOI identifies the evolving collection."
+title: "Prove2Me formalization contributions by Alexander Richard Towell: a versioned proof and evidence archive"
+type: dataset
+version: "1.0.0"
+doi: "10.5281/zenodo.23590811"
+url: "https://zenodo.org/records/23590811"
+authors:
+  - family-names: Towell
+    given-names: Alexander Richard
+    orcid: "https://orcid.org/0000-0001-6443-9897"
+    affiliation: "Southern Illinois University Edwardsville"
+license: Apache-2.0
+keywords:
+  - Lean 4
+  - formal verification
+  - mathematics
+  - Prove2Me
+  - AI-assisted research
+  - proof provenance
