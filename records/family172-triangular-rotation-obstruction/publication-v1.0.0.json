@@ -1,0 +1,36 @@
+{
+  "state": "published",
+  "id": 23613220,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23613220",
+  "concept_doi": "10.5281/zenodo.23613219",
+  "url": "https://zenodo.org/records/23613220",
+  "verified_at": "2026-10-24T08:31:20.907172+00:00",
+  "files": [
+    {
+      "filename": "family172-rotation-obstruction-v1.0.0.zip",
+      "bytes": 36453,
+      "sha256": "1a7091c89a03110ded38330a25d493e8d64587a92fcb6551cecbc64356ed0f4b",
+      "public_download_verified": true
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 3491,
+      "sha256": "fc9fb7448f0d9688d3abcce9e3834aaa6baa06a5ae4ddddc69693ede1f93fb2f",
+      "public_download_verified": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 454,
+      "sha256": "fd17d76bee2151d80d68fbc699bfecfb8f0033c5ac1500eac55e13cb0380454a",
+      "public_download_verified": true
+    }
+  ],
+  "manifest_files": 28,
+  "public_metadata_verified": true,
+  "source_commit": "c9c0b02678b7b1374973d8e554567718e7707c08",
+  "accepted": true,
+  "merge_commit": "ec0006e88e1a88cf3a82e1cf379e57e87a8375b9",
+  "merged_at": "2026-10-24T08:28:07Z",
+  "upstream_checker_commit": "f56602917554df5800299cf8f00bd62243066436"
+}

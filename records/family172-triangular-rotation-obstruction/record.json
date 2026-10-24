@@ -62,14 +62,44 @@
     "meaning": "Complete proof/checker packet submitted publicly; earlier issue #27 was a prospective coordination claim."
   },
   "upstream_review": {
-    "state": "submitted",
+    "state": "merged",
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/28",
-    "accepted": false
+    "accepted": true,
+    "merged_at": "2026-10-24T08:28:07Z",
+    "merge_commit": "ec0006e88e1a88cf3a82e1cf379e57e87a8375b9",
+    "review_url": "https://github.com/piiiico/openai-math-counterexamples/pull/28#pullrequestreview-5637519637",
+    "scope": "Clean rerun and separate exact dual-number samples with controls; finite corroboration, not a proof of universal identities or human review.",
+    "checker_commit": "f56602917554df5800299cf8f00bd62243066436"
   },
   "archival_status": {
-    "state": "not_archived",
-    "doi": null,
-    "reason": "This bounded cycle published the pinned packet and curated its record; a separate Zenodo deposit was not undertaken. No additional mathematical blocker to packaging is claimed."
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23613220",
+    "concept_doi": "10.5281/zenodo.23613219",
+    "url": "https://zenodo.org/records/23613220",
+    "publication_date": "2026-10-24",
+    "public_downloads_verified": 3,
+    "manifest_files_verified": 28,
+    "files": [
+      {
+        "filename": "family172-rotation-obstruction-v1.0.0.zip",
+        "bytes": 36453,
+        "sha256": "1a7091c89a03110ded38330a25d493e8d64587a92fcb6551cecbc64356ed0f4b",
+        "public_download_verified": true
+      },
+      {
+        "filename": "ARCHIVE-NOTE.md",
+        "bytes": 3491,
+        "sha256": "fc9fb7448f0d9688d3abcce9e3834aaa6baa06a5ae4ddddc69693ede1f93fb2f",
+        "public_download_verified": true
+      },
+      {
+        "filename": "CITATION.cff",
+        "bytes": 454,
+        "sha256": "fd17d76bee2151d80d68fbc699bfecfb8f0033c5ac1500eac55e13cb0380454a",
+        "public_download_verified": true
+      }
+    ]
   },
   "license": {
     "new_work": "MIT",

@@ -10,7 +10,7 @@ obstruction. The algebraic result has a written proof and exact symbolic checks;
 There is no smallest-example or global novelty claim.
 
 - [Pinned proof and reproducible packet](https://github.com/queelius/openai-math-counterexamples/tree/c9c0b02678b7b1374973d8e554567718e7707c08/rows/172/rotation_moments).
-- [Public PR #28, awaiting upstream review](https://github.com/piiiico/openai-math-counterexamples/pull/28).
+- [Public PR #28, merged after scoped AI computational review](https://github.com/piiiico/openai-math-counterexamples/pull/28).
 - [Structured scope, attribution and verification](record.json).
 
 Verification includes 54 moment entries, 72 product-rule coefficients, 15 tests,
@@ -18,6 +18,10 @@ six rejecting runs, a separate AI review and byte-for-byte read-back of 20
 public files. This is not Lean verification or human peer review. OpenAI,
 Pico/Håkon Åmdal and earlier Pálvölgyi work retain predecessor credit.
 
-No Zenodo deposit was made in this bounded cycle. The exact public source
-commit is c9c0b02678b7b1374973d8e554567718e7707c08; development and detailed
+Archived as [version 1.0.0](https://doi.org/10.5281/zenodo.23613220). All three
+public files and 28 archive-manifest entries were verified after download.
+The source commit remains c9c0b02678b7b1374973d8e554567718e7707c08.
+Pico's separately published checker was rerun, pinned and linked; it is not
+redistributed in this archive because no applicable license was found for it.
+Its finite samples corroborate the symbolic identities. Development and
 lifecycle tracking remain in math-research.
