@@ -69,7 +69,7 @@
     "merge_commit": "bcb1286d81a22562d967f15319da3d21c6f4b065",
     "review_comment": "https://github.com/piiiico/openai-math-counterexamples/pull/23#issuecomment-6367201390",
     "meaning": "Maintainer AI computational replay and independent TeX transcription check; no human peer review or independent maintainer review of the all-degree written proof.",
-    "scope": "Cocycle and homotopy components in PR23 only. Parameter PR25 remains pending."
+    "scope": "Cocycle and homotopy components in PR23 only. Parameter PR25 acceptance is recorded separately below."
   },
   "verification": {
     "date": "2026-10-23",
@@ -315,10 +315,14 @@
     "meaning": "Public parameter audit submission, separate from earlier issue24 scope claim and Zenodo publication."
   },
   "parameter_upstream_status": {
-    "state": "open",
-    "merged": false,
+    "state": "closed",
+    "merged": true,
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/25",
     "head": "7f2ea4f3062466ebe3014f374d1a18c58faf54f4",
-    "meaning": "Submitted, not externally accepted or proof-refereed."
+    "meaning": "Accepted after maintainer AI replay and an independent TeX-table reconstruction of 30 parameter cases and 1,420 homology dimensions. PROOF.md was explicitly not reviewed; no human peer review or kernel verification claimed.",
+    "merged_at": "2026-10-24T00:16:18Z",
+    "merge_commit": "9d16ddd1c9bdad1075a480a1698898dca893fcaa",
+    "review_comment": "https://github.com/piiiico/openai-math-counterexamples/pull/25#issuecomment-6377390794",
+    "independent_checker_commit": "f8f224effd7a738b5a2a5d5917423ea2b954fa23"
   }
 }

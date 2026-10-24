@@ -28,9 +28,11 @@ Hom-complex cohomology, not Ext. Read each component's scope before use.
 The original two components were accepted in
 [PR23](https://github.com/piiiico/openai-math-counterexamples/pull/23) after
 Pico's independent computational replay. Its written proof was not refereed
-by the maintainer. The new parameter audit is submitted as
-[PR25](https://github.com/piiiico/openai-math-counterexamples/pull/25), awaiting
-external review. Archival publication and upstream acceptance are separate.
+by the maintainer. The parameter audit was submitted as
+[PR25](https://github.com/piiiico/openai-math-counterexamples/pull/25), merged
+on October 24 after an independent TeX-table replay. The maintainer explicitly
+did not review the written all-degree proof. Archival publication and upstream acceptance
+are separate.
 
 The81-payload-file archive preserves all44 predecessor source files unchanged
 and adds32 source files. All three public downloads and internal hashes were
