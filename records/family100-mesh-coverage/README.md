@@ -16,9 +16,12 @@ example's 16,000,000 cylinders, but much weaker than Pinho's existing
 Nine symbolic identities, 19 tests in each Python mode, ten rejecting runs,
 an independent exact sector-sum bound, and barycentric failure controls
 support the written proof. They are not kernel verification or human review.
-All 24 public packet files matched local bytes. No DOI was minted for this
-packet during the bounded cycle; lifecycle tracking remains in math-research.
+All 24 public packet files matched local bytes. Lifecycle tracking remains in math-research.
 
 Accepted on 2026-10-24 at 18:28:15 UTC. Pico reproduced the packet and
 independently checked symbolic/rational steps and read the written proof.
 These checks are AI review, not human peer review or formal verification.
+
+Archived as [version 1.0.0](https://doi.org/10.5281/zenodo.23627945). All three public
+files and all 31 manifest entries were downloaded and verified. The exact
+source commit and earlier public disclosure dates are preserved.

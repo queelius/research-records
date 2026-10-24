@@ -62,14 +62,41 @@
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/34"
   },
   "upstream_review": {
-    "state": "submitted",
-    "accepted": false,
-    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/34"
+    "state": "merged",
+    "accepted": true,
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/34",
+    "merged_at": "2026-10-24T20:27:36Z",
+    "merge_commit": "2411ab88ad461b3a1fcc6859849f32a1fce5e2da"
   },
   "archival_status": {
-    "state": "not_archived",
-    "doi": null,
-    "reason": "Published pinned packet and curated record in the bounded cycle; a separate Zenodo deposit was not undertaken."
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23627947",
+    "concept_doi": "10.5281/zenodo.23627946",
+    "url": "https://zenodo.org/records/23627947",
+    "publication_date": "2026-10-24",
+    "files": [
+      {
+        "filename": "family088-simplex-product-threshold-v1.0.0.zip",
+        "bytes": 39645,
+        "sha256": "648793cd972feb767bfc9a1123502bca9a32f4763c4006aaa5ea01925b69941c",
+        "public_download_verified": true
+      },
+      {
+        "filename": "ARCHIVE-NOTE.md",
+        "bytes": 3809,
+        "sha256": "314968dc7168b3957c64df66e5cd5cba72b3a1f807e435395a567adcce7bdb35",
+        "public_download_verified": true
+      },
+      {
+        "filename": "CITATION.cff",
+        "bytes": 446,
+        "sha256": "594f0a48888fa1f59ddbbdbe25b4bc63887a884cbc584f25f8f11c4fb98d9bf2",
+        "public_download_verified": true
+      }
+    ],
+    "public_files_verified": 3,
+    "manifest_entries_verified": 31
   },
   "license": {
     "new_work": "MIT",

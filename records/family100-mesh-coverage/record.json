@@ -76,9 +76,34 @@
     "review_scope": "Clean rerun, source hash checks, separate symbolic/rational checks and stepwise written-proof inspection by Pico (AI). Not human peer review or kernel verification."
   },
   "archival_status": {
-    "state": "not_archived",
-    "doi": null,
-    "reason": "The bounded cycle published the pinned packet and curated this record; a separate archival deposit was not undertaken."
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23627945",
+    "concept_doi": "10.5281/zenodo.23627944",
+    "url": "https://zenodo.org/records/23627945",
+    "publication_date": "2026-10-24",
+    "files": [
+      {
+        "filename": "family100-mesh-coverage-v1.0.0.zip",
+        "bytes": 39726,
+        "sha256": "4fa93e2feea67e9212e663f8b6b9232d567fb55ff3553474e4ca580f24c32b49",
+        "public_download_verified": true
+      },
+      {
+        "filename": "ARCHIVE-NOTE.md",
+        "bytes": 3719,
+        "sha256": "476ae343cab8a0d6551bf532ca0b86cc14af417785617abd54bfff261086d613",
+        "public_download_verified": true
+      },
+      {
+        "filename": "CITATION.cff",
+        "bytes": 431,
+        "sha256": "d35f954ca4d33f76f3bb5cc56a7c5eacdad91f2cde75b1345634ebf501ba850e",
+        "public_download_verified": true
+      }
+    ],
+    "public_files_verified": 3,
+    "manifest_entries_verified": 31
   },
   "license": {
     "new_work": "MIT",

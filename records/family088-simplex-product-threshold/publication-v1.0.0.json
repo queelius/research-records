@@ -1,0 +1,38 @@
+{
+  "state": "published",
+  "id": 23627947,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23627947",
+  "concept_doi": "10.5281/zenodo.23627946",
+  "url": "https://zenodo.org/records/23627947",
+  "published_verified_at": "2026-10-24T22:13:16.686022+00:00",
+  "public_metadata_verified": true,
+  "files": [
+    {
+      "filename": "family088-simplex-product-threshold-v1.0.0.zip",
+      "bytes": 39645,
+      "sha256": "648793cd972feb767bfc9a1123502bca9a32f4763c4006aaa5ea01925b69941c",
+      "public_download_verified": true
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 3809,
+      "sha256": "314968dc7168b3957c64df66e5cd5cba72b3a1f807e435395a567adcce7bdb35",
+      "public_download_verified": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 446,
+      "sha256": "594f0a48888fa1f59ddbbdbe25b4bc63887a884cbc584f25f8f11c4fb98d9bf2",
+      "public_download_verified": true
+    }
+  ],
+  "manifest_files_verified": 31,
+  "source_commit": "cb5d09c2a105a64bd4efe7ad307f4633cbd923cf",
+  "source_files_unchanged": true,
+  "first_public_disclosure": "2026-10-24T18:36:47Z",
+  "accepted": true,
+  "merge_commit": "2411ab88ad461b3a1fcc6859849f32a1fce5e2da",
+  "merged_at": "2026-10-24T20:27:36Z",
+  "central_id": "family088-simplex-product-threshold"
+}

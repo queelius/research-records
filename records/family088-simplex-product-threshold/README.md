@@ -10,7 +10,7 @@ gives the dimension-20 example; the contribution is the complete finite class
 comparison and optimal witness certificate.
 
 - [Pinned proof, certificate and reproducible code](https://github.com/queelius/openai-math-counterexamples/tree/cb5d09c2a105a64bd4efe7ad307f4633cbd923cf/rows/088/products).
-- [PR #34, awaiting review](https://github.com/piiiico/openai-math-counterexamples/pull/34).
+- [PR #34, accepted after scoped AI computational review](https://github.com/piiiico/openai-math-counterexamples/pull/34).
 - [Precise scope, dependencies and verification](record.json).
 
 Integer dynamic programming, exhaustive rational enumeration and a separately
@@ -18,5 +18,8 @@ tasked multiplicity-vector/count implementation agree. Sixteen tests in each
 Python mode and eight corrupt-certificate controls pass. Geometry remains a
 written argument; this is not kernel verification or human peer review. The
 source cites different counterexamples in dimensions at least nine, so no
-unrestricted minimum-dimension claim is made. No global novelty claim or DOI
-publication is asserted. Lifecycle tracking stays in math-research.
+unrestricted minimum-dimension claim is made. No global novelty claim is made. Lifecycle tracking stays in math-research.
+
+Archived as [version 1.0.0](https://doi.org/10.5281/zenodo.23627947). All three public
+files and all 31 manifest entries were downloaded and verified. The exact
+source commit and earlier public disclosure dates are preserved.

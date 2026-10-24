@@ -95,6 +95,12 @@ package's library interface to supply fields such as ORCID, related
 identifiers, and the precise publication subtype before publishing.
 Authenticate via an authorization header, never a URL or command-line token.
 
+The description field is HTML. Escape mathematical text with `html.escape`
+before placing it in paragraph tags; an unescaped expression such as
+`0<tau<1` can be interpreted as markup and lose hypotheses. Verify the
+returned description before publishing. Zenodo can also normalize punctuation;
+record the exact accepted metadata rather than assuming byte preservation.
+
 The package's `list` function fetches only one page. A complete duplicate
 check must paginate the deposition API; record its coverage. Do not infer
 absence from the CLI's first page.
