@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "family172-triangular-rotation-obstruction",
+  "title": "Exact rotational moment certificates and a triangular-base tensor obstruction",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897"
+    }
+  ],
+  "ai_assistance": "Substantial OpenAI Codex assistance in derivation, implementation, tests and exposition, plus one separately tasked AI review. Not human peer review.",
+  "contribution_type": "Independent exact verification and written construction refinement; non-Ramsey consequence conditional on source classification",
+  "canonical_source": {
+    "url": "https://github.com/queelius/openai-math-counterexamples/tree/c9c0b02678b7b1374973d8e554567718e7707c08/rows/172/rotation_moments",
+    "commit": "c9c0b02678b7b1374973d8e554567718e7707c08",
+    "owning_workspace": "math-research/research/family172_rotation_moments"
+  },
+  "claim": "A centered isotropic constant planar base yields vanishing weighted zeroth and mixed derivative moments under rotations +theta,-theta,0 with weights 1,1,-2. The equilateral base gives diag(0,3,3) and a nine-point tensor-criterion obstruction 0=6.",
+  "assumptions": [
+    "Characteristic-zero differential field; derivation fixes the base coordinates; sum q=0 and sum qq^T=cI with c nonzero.",
+    "Concrete example uses F=Q(sqrt(3),t), transcendental real 0<t<1/4, delta=(1+t^2)/2*d/dt.",
+    "Only the non-Ramsey implication inherits OpenAI classification Theorem thm:classification; it was not audited here."
+  ],
+  "verification": {
+    "kind": "Written proof plus exact symbolic rational-function identities",
+    "moment_entries": 54,
+    "product_rule_coefficients": 72,
+    "tests": 15,
+    "ordinary_and_optimized_python": true,
+    "negative_runs": 6,
+    "separate_ai_review": true,
+    "independent_evidence": "One nonconstant rational coefficient example and 36 symbolic pairwise distances; not unrestricted proof by sampling.",
+    "formal_proof": false,
+    "human_peer_review": false,
+    "output_sha256": "8ad082fa5d7cb13a04c9b7f0cce09ba8e5b12060d998f933352c2d751d90164d",
+    "public_source_files_verified": 20,
+    "reproduce": "Install requirements-dev.txt, then python reproduce.py in the canonical source directory."
+  },
+  "source_dependencies": {
+    "repository": "https://github.com/openai/math",
+    "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "sections": [
+      "01-introduction.tex",
+      "07-consequences.tex"
+    ],
+    "hash_manifest": "https://github.com/queelius/openai-math-counterexamples/tree/c9c0b02678b7b1374973d8e554567718e7707c08/rows/172/rotation_moments/sources.json"
+  },
+  "predecessors": [
+    "OpenAI twelve-point square construction, classification claim and derivation-moment mechanism.",
+    "Pico/Hakon Amdal independent square checks and counterexample census.",
+    "Earlier Palvolgyi seven-point and derivation work credited by the source.",
+    "SymPy, mpmath and their contributors."
+  ],
+  "limitations": [
+    "No claim of global novelty or a smallest non-Ramsey example.",
+    "Rational numerical substitutions do not support the required nonzero field derivation.",
+    "No verification of the classification theorem or arbitrary coloring quantifiers."
+  ],
+  "first_public_disclosure": {
+    "date": "2026-10-24T06:17:48Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/28",
+    "meaning": "Complete proof/checker packet submitted publicly; earlier issue #27 was a prospective coordination claim."
+  },
+  "upstream_review": {
+    "state": "submitted",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/28",
+    "accepted": false
+  },
+  "archival_status": {
+    "state": "not_archived",
+    "doi": null,
+    "reason": "This bounded cycle published the pinned packet and curated its record; a separate Zenodo deposit was not undertaken. No additional mathematical blocker to packaging is claimed."
+  },
+  "license": {
+    "new_work": "MIT",
+    "OpenAI_source_extracts": "Apache-2.0"
+  }
+}

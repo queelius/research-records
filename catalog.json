@@ -162,6 +162,11 @@
       "id": "family199-cocycle-interface",
       "metadata": "records/family199-cocycle-interface/record.json",
       "readme": "records/family199-cocycle-interface/README.md"
+    },
+    {
+      "id": "family172-triangular-rotation-obstruction",
+      "metadata": "records/family172-triangular-rotation-obstruction/record.json",
+      "readme": "records/family172-triangular-rotation-obstruction/README.md"
     }
   ]
 }
