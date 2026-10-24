@@ -67,9 +67,13 @@
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/31"
   },
   "upstream_review": {
-    "state": "submitted",
-    "accepted": false,
-    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/31"
+    "state": "merged",
+    "accepted": true,
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/31",
+    "merged_at": "2026-10-24T18:28:15Z",
+    "merge_commit": "1e2004a52b1020858edc356d5c8538947f6a7f77",
+    "review_url": "https://github.com/piiiico/openai-math-counterexamples/pull/31#pullrequestreview-5639416190",
+    "review_scope": "Clean rerun, source hash checks, separate symbolic/rational checks and stepwise written-proof inspection by Pico (AI). Not human peer review or kernel verification."
   },
   "archival_status": {
     "state": "not_archived",

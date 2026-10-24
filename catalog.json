@@ -172,6 +172,11 @@
       "id": "family100-mesh-coverage",
       "metadata": "records/family100-mesh-coverage/record.json",
       "readme": "records/family100-mesh-coverage/README.md"
+    },
+    {
+      "id": "family088-simplex-product-threshold",
+      "metadata": "records/family088-simplex-product-threshold/record.json",
+      "readme": "records/family088-simplex-product-threshold/README.md"
     }
   ]
 }

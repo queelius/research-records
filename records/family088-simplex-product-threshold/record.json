@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "family088-simplex-product-threshold",
+  "title": "Exact finite threshold and optimal factor partitions for products of simplices",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897"
+    }
+  ],
+  "ai_assistance": "Substantial OpenAI Codex assistance; one separately tasked AI reviewer. Not human peer review.",
+  "canonical_source": {
+    "url": "https://github.com/queelius/openai-math-counterexamples/tree/cb5d09c2a105a64bd4efe7ad307f4633cbd923cf/rows/088/products",
+    "commit": "cb5d09c2a105a64bd4efe7ad307f4633cbd923cf",
+    "owning_workspace": "math-research/research/family088_product_threshold"
+  },
+  "claim": "For products of standard simplices with every factor dimension at least two, the first violation of the simplex projection-volume benchmark occurs in dimension 20, uniquely maximized by (10,10). Exact maxima and all optimal partitions are checked through dimension 40; the first optimal three-factor partition is (11,11,11) at 33.",
+  "scope": {
+    "total_dimensions": [
+      2,
+      40
+    ],
+    "minimum_factor_dimension": 2,
+    "partitions_enumerated": 37337,
+    "ratio_at20": "5588869/5505024",
+    "optimal_partition_at40": [
+      13,
+      13,
+      14
+    ]
+  },
+  "verification": {
+    "primary": "Integer scaled DP certificate with every recurrence candidate and full optimal witness sets verified.",
+    "second": "Exhaustive unordered-partition recursion using exact Fraction/factorial products, written in the same coordinating AI session.",
+    "separate_reviewer": "Factor-size-first rational knapsack and Euler-product partition counts; same formula and Python arithmetic dependencies.",
+    "maxima_and_complete_tie_sets_compared": 39,
+    "tests_per_python_mode": 16,
+    "corrupt_certificate_runs": 8,
+    "public_source_files_read_back": 24,
+    "reproduce": "python reproduce.py in pinned packet; standard library only.",
+    "formal_proof": false,
+    "human_peer_review": false,
+    "geometry": "Written Cauchy/Fubini reduction; not machine-verified geometry."
+  },
+  "source_dependencies": {
+    "repository": "https://github.com/openai/math",
+    "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "hash_manifest": "sources.json in canonical packet"
+  },
+  "predecessors": [
+    "OpenAI product identity, simplex value, displayed dimension20 witness and exponential-growth mechanism.",
+    "Pico/Hakon Amdal exact facet-vector and zonotope-determinant check.",
+    "Classical Cauchy projection formula and Fubini; prior convex-geometry work credited in the source bibliography."
+  ],
+  "limitations": [
+    "No unrestricted minimum-dimension claim: the source cites other counterexamples in dimensions at least nine.",
+    "No one-dimensional factors, asymptotic optimum classification, kernel verification, human review or global novelty claim.",
+    "The two coordinating algorithms share authorship; the separately tasked AI implementation shares source formula/runtime assumptions."
+  ],
+  "first_public_disclosure": {
+    "date": "2026-10-24T18:36:47Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/34"
+  },
+  "upstream_review": {
+    "state": "submitted",
+    "accepted": false,
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/34"
+  },
+  "archival_status": {
+    "state": "not_archived",
+    "doi": null,
+    "reason": "Published pinned packet and curated record in the bounded cycle; a separate Zenodo deposit was not undertaken."
+  },
+  "license": {
+    "new_work": "MIT",
+    "OpenAI_source_extracts": "Apache-2.0"
+  }
+}
