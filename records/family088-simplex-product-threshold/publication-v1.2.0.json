@@ -1,0 +1,55 @@
+{
+  "state": "published",
+  "id": 23639110,
+  "version": "1.2.0",
+  "version_doi": "10.5281/zenodo.23639110",
+  "concept_doi": "10.5281/zenodo.23627946",
+  "url": "https://zenodo.org/records/23639110",
+  "publication_date": "2026-10-25",
+  "verified_at": "2026-10-25T10:02:12.223327+00:00",
+  "public_metadata_verified": true,
+  "files": [
+    {
+      "filename": "family088-simplex-products-v1.2.0.zip",
+      "bytes": 130427,
+      "sha256": "0e886d11beadc265d42d0c38b41f48eb911622d218790c39a224a156c7833573",
+      "public_download_verified": true
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 5146,
+      "sha256": "582a291d8d9d7c92e2b466efaf3473f593fbaf7ccc9f8bc2b54b91969f445a4a",
+      "public_download_verified": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 438,
+      "sha256": "c106d2de4fbca7c334b751dbed8b729a78345b821f3a5b6bd68fa612f84f142a",
+      "public_download_verified": true
+    }
+  ],
+  "manifest_entries_verified": 90,
+  "unchanged_source_files": 77,
+  "source_pins": [
+    {
+      "directory": "finite",
+      "commit": "cb5d09c2a105a64bd4efe7ad307f4633cbd923cf",
+      "files": 24,
+      "unchanged": true
+    },
+    {
+      "directory": "growth",
+      "commit": "b4dc06c11764ec8f1063b75fef2865b469e51f08",
+      "files": 26,
+      "unchanged": true
+    },
+    {
+      "directory": "optimizers",
+      "commit": "653420103fb8856f81d7c6b1d7aeaf16a1ebd0b1",
+      "files": 27,
+      "unchanged": true
+    }
+  ],
+  "prior_version_doi": "10.5281/zenodo.23633115",
+  "central_id": "family088-simplex-product-threshold"
+}

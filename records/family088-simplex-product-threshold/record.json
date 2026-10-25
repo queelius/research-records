@@ -54,7 +54,7 @@
   ],
   "limitations": [
     "No unrestricted minimum-dimension claim: the source cites other counterexamples in dimensions at least nine.",
-    "No one-dimensional factors, asymptotic optimum classification, kernel verification, human review or global novelty claim.",
+    "The original finite packet does not itself prove asymptotic classification or a kernel result; later follow-ups have their own explicit scopes. One-dimensional factors remain excluded.",
     "The two coordinating algorithms share authorship; the separately tasked AI implementation shares source formula/runtime assumptions."
   ],
   "first_public_disclosure": {
@@ -70,33 +70,33 @@
   },
   "archival_status": {
     "state": "published",
-    "version": "1.1.0",
-    "version_doi": "10.5281/zenodo.23633115",
+    "version": "1.2.0",
+    "version_doi": "10.5281/zenodo.23639110",
     "concept_doi": "10.5281/zenodo.23627946",
-    "url": "https://zenodo.org/records/23633115",
+    "url": "https://zenodo.org/records/23639110",
     "publication_date": "2026-10-25",
     "files": [
       {
-        "filename": "family088-simplex-products-v1.1.0.zip",
-        "bytes": 79594,
-        "sha256": "ea07943ee0819e8f62dfb1a2aa0a6681640b92e9974624faff8b3a8a032a8da5",
+        "filename": "family088-simplex-products-v1.2.0.zip",
+        "bytes": 130427,
+        "sha256": "0e886d11beadc265d42d0c38b41f48eb911622d218790c39a224a156c7833573",
         "public_download_verified": true
       },
       {
         "filename": "ARCHIVE-NOTE.md",
-        "bytes": 4003,
-        "sha256": "9a40decb2063f6b0a8b764120d8427192081c51f35df4861301c95dd7dbd90ae",
+        "bytes": 5146,
+        "sha256": "582a291d8d9d7c92e2b466efaf3473f593fbaf7ccc9f8bc2b54b91969f445a4a",
         "public_download_verified": true
       },
       {
         "filename": "CITATION.cff",
-        "bytes": 445,
-        "sha256": "245e56495a86942d79948cc14ae489ed83d2c3dd645f99f8f5ea256119f9f534",
+        "bytes": 438,
+        "sha256": "c106d2de4fbca7c334b751dbed8b729a78345b821f3a5b6bd68fa612f84f142a",
         "public_download_verified": true
       }
     ],
-    "manifest_entries_verified": 59,
-    "scope": "Includes unchanged finite predecessor and accepted sharp-growth follow-up; 50 pinned source files."
+    "manifest_entries_verified": 90,
+    "scope": "Unchanged finite/growth predecessors plus accepted written exact-optimizer extension;77 pinned source files. Lean supplement excluded."
   },
   "license": {
     "new_work": "MIT",
@@ -204,9 +204,11 @@
         "kind": "Pico AI computational review and written-proof inspection; not human peer review."
       },
       "archival_status": {
-        "state": "not_archived",
-        "doi": null,
-        "reason": "Accepted exact-optimizer packet is ready for a substantive archival successor; current v1.1.0 covers only its predecessors."
+        "state": "published",
+        "version": "1.2.0",
+        "doi": "10.5281/zenodo.23639110",
+        "url": "https://zenodo.org/records/23639110",
+        "scope": "Combined archive includes unchanged finite, growth and exact-optimizer packets; no formal Lean supplement."
       },
       "scope": [
         "Only simplex products with factor dimensions>=2.",
@@ -263,7 +265,7 @@
       "archival_status": {
         "state": "not_archived",
         "doi": null,
-        "reason": "Separately pinned public formal supplement; current v1.1.0 contains neither this nor the accepted exact-optimizer extension."
+        "reason": "Separately pinned public Lean supplement awaits upstream review. Current v1.2.0 archives the finite, growth and exact-optimizer packets; the formal supplement is excluded."
       },
       "attribution": "Alexander Richard Towell with substantial OpenAI Codex assistance; OpenAI mechanism/constants, prior packets, Pico/Hakon Amdal checks and classical methods credited."
     }
@@ -298,6 +300,37 @@
       ],
       "public_files_verified": 3,
       "manifest_entries_verified": 31
+    },
+    {
+      "state": "published",
+      "version": "1.1.0",
+      "version_doi": "10.5281/zenodo.23633115",
+      "concept_doi": "10.5281/zenodo.23627946",
+      "url": "https://zenodo.org/records/23633115",
+      "publication_date": "2026-10-25",
+      "files": [
+        {
+          "filename": "family088-simplex-products-v1.1.0.zip",
+          "bytes": 79594,
+          "sha256": "ea07943ee0819e8f62dfb1a2aa0a6681640b92e9974624faff8b3a8a032a8da5",
+          "public_download_verified": true
+        },
+        {
+          "filename": "ARCHIVE-NOTE.md",
+          "bytes": 4003,
+          "sha256": "9a40decb2063f6b0a8b764120d8427192081c51f35df4861301c95dd7dbd90ae",
+          "public_download_verified": true
+        },
+        {
+          "filename": "CITATION.cff",
+          "bytes": 445,
+          "sha256": "245e56495a86942d79948cc14ae489ed83d2c3dd645f99f8f5ea256119f9f534",
+          "public_download_verified": true
+        }
+      ],
+      "manifest_entries_verified": 59,
+      "scope": "Includes unchanged finite predecessor and accepted sharp-growth follow-up; 50 pinned source files."
     }
-  ]
+  ],
+  "claim_scope": "The base finite claim and its scope are recorded here; growth, exact-optimizer and formal extensions have their own follow-up entries below."
 }
