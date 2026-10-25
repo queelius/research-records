@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "family095-hankel-seed-certificate",
+  "title": "Independent finite-field verification of the Family 095 Hankel seed certificate",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897"
+    }
+  ],
+  "ai_assistance": "Substantial OpenAI Codex assistance; one separately tasked AI source/computational reviewer. Not human peer review.",
+  "canonical_source": {
+    "url": "https://github.com/queelius/openai-math-counterexamples/tree/565237779f37c244b633546974444d4cee3eaeaf/rows/095/hankel_seed",
+    "commit": "565237779f37c244b633546974444d4cee3eaeaf",
+    "owning_workspace": "math-research/research/family095_hankel_seed"
+  },
+  "claim": "At the source-prescribed point and tangent over F7, the Hankel seed has rank 20 and its L restriction determinant 6; all ten weight blocks have product/bordered rank totals 136,84,302,623. All 24 displayed determinant values, 21 corner entries, six direct bordered minors and both signed-pivot examples agree. No discrepancy found in this finite ingredient.",
+  "scope": {
+    "field": 7,
+    "point": [
+      1,
+      6,
+      6,
+      0,
+      3,
+      0,
+      2,
+      5
+    ],
+    "weight_modulus": 10,
+    "weight_blocks": 10,
+    "seed_dimension": 36,
+    "quartic_dimension": 330,
+    "kernel_dimension": 16,
+    "H0_dimension": 28,
+    "generic_or_real_lifting_verified": false,
+    "full_nonliftability_verified": false
+  },
+  "verification": {
+    "primary": "Sorted index-tuples, sparse ordinary polynomial products and standard-library modular elimination.",
+    "separate_ai_implementation": "Exponent vectors from weak compositions and SymPy DomainMatrix over GF(7); no primary checker imports or copied arithmetic helper.",
+    "shared_dependencies": "Mathematical formulas, Python runtime and certificate JSON for expected minor/basis data. Reviewer separately transcribed weights, point, pivots and tangent. Coordinating session added canonical hash reporting only.",
+    "matching_matrix_fingerprints": 42,
+    "tests_per_mode": 28,
+    "rejecting_runs": 10,
+    "source_files_hashed": 6,
+    "displayed_determinants": 24,
+    "corner_entries": 21,
+    "direct_bordered_minors": 6,
+    "printed_pivot_entries": 40,
+    "coverage": {
+      "main_statements": 248,
+      "main_branches": 68,
+      "percent": 100
+    },
+    "reproduce": "Install requirements-dev.txt; python reproduce.py from the pinned packet.",
+    "expected_result": "RESULT: modular Hankel seed, all displayed minors and ten rejecting runs independently reproduced",
+    "formal_proof": false,
+    "human_peer_review": false,
+    "public_packet_files_verified": 28
+  },
+  "source_dependencies": {
+    "repository": "https://github.com/openai/math",
+    "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "manuscript": "Hyperbolicity-Cones-Without-Semidefinite-Lifts-October-5-2026",
+    "claim_location": "build/source/appendix-certificate.tex:128-362,501-511",
+    "hash_manifest": "sources.json in canonical packet"
+  },
+  "predecessors": [
+    "OpenAI supplied the source construction, moment formula, bases, tangent and certificate data.",
+    "Pico original whole-family classification and independent-replay contribution process.",
+    "Classical finite-field linear algebra, polynomial multiplication, Schur complements and source-cited predecessors."
+  ],
+  "limitations": [
+    "No characteristic-zero tangent lifting, simultaneous real-form argument, real PSD deformation or final no-lift proof checked.",
+    "The raw integer principal minor with determinant-1 is a boundary control, not a source counterexample. Printed specialization is not in the later real form.",
+    "No kernel verification, human peer review, global novelty or full theorem claim.",
+    "Advertised script absence established only within the completely inventoried pinned family subtree."
+  ],
+  "first_public_disclosure": {
+    "date": "2026-10-25T18:46:24Z",
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/42"
+  },
+  "upstream_review": {
+    "state": "open",
+    "accepted": false,
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/42"
+  },
+  "archival_status": {
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23648332",
+    "concept_doi": "10.5281/zenodo.23648331",
+    "url": "https://zenodo.org/records/23648332",
+    "publication_date": "2026-10-25",
+    "files": [
+      {
+        "filename": "family095-hankel-seed-certificate-v1.0.0.zip",
+        "bytes": 66131,
+        "sha256": "1daf0276751d0618b225455d069abb3369ca457db7b022326f04dccaa977f3f6",
+        "public_download_verified": true
+      },
+      {
+        "filename": "ARCHIVE-NOTE.md",
+        "bytes": 4430,
+        "sha256": "2abaf1c14fd232988aef5a14ca66e8a94544339e31fc9ce8f95b08ffa19d33c8",
+        "public_download_verified": true
+      },
+      {
+        "filename": "CITATION.cff",
+        "bytes": 470,
+        "sha256": "b5df3af0cfa4a44df08fd09405586d77d3f22b4885501f208b9cbc335f701dc4",
+        "public_download_verified": true
+      }
+    ],
+    "manifest_entries_verified": 35
+  },
+  "license": {
+    "new_work": "MIT",
+    "OpenAI_source_copies": "Apache-2.0"
+  }
+}

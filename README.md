@@ -44,6 +44,8 @@ does not by itself establish a public technical disclosure, DOI or peer review.
 
 ## Records
 
+- [Independent finite Hankel seed verification](records/family095-hankel-seed-certificate/README.md): source-pinned modular arithmetic corroborates the Family 095 seed certificate; full real/nonliftability arguments remain unchecked. [Archived packet](https://doi.org/10.5281/zenodo.23648332).
+
 - [Triangular-base rotation obstruction](records/family172-triangular-rotation-obstruction/README.md).
   A nine-point tensor obstruction from an isotropic-base lemma, with exact
   symbolic checks. Non-Ramsey consequence conditional on the source

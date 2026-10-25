@@ -177,6 +177,11 @@
       "id": "family088-simplex-product-threshold",
       "metadata": "records/family088-simplex-product-threshold/record.json",
       "readme": "records/family088-simplex-product-threshold/README.md"
+    },
+    {
+      "id": "family095-hankel-seed-certificate",
+      "metadata": "records/family095-hankel-seed-certificate/record.json",
+      "readme": "records/family095-hankel-seed-certificate/README.md"
     }
   ]
 }

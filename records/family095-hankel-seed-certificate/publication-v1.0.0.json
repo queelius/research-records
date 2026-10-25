@@ -1,0 +1,37 @@
+{
+  "state": "published",
+  "id": 23648332,
+  "version": "1.0.0",
+  "version_doi": "10.5281/zenodo.23648332",
+  "concept_doi": "10.5281/zenodo.23648331",
+  "url": "https://zenodo.org/records/23648332",
+  "publication_date": "2026-10-25",
+  "verified_at": "2026-10-25T18:50:43.921728+00:00",
+  "public_metadata_verified": true,
+  "files": [
+    {
+      "filename": "family095-hankel-seed-certificate-v1.0.0.zip",
+      "bytes": 66131,
+      "sha256": "1daf0276751d0618b225455d069abb3369ca457db7b022326f04dccaa977f3f6",
+      "public_download_verified": true
+    },
+    {
+      "filename": "ARCHIVE-NOTE.md",
+      "bytes": 4430,
+      "sha256": "2abaf1c14fd232988aef5a14ca66e8a94544339e31fc9ce8f95b08ffa19d33c8",
+      "public_download_verified": true
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 470,
+      "sha256": "b5df3af0cfa4a44df08fd09405586d77d3f22b4885501f208b9cbc335f701dc4",
+      "public_download_verified": true
+    }
+  ],
+  "manifest_entries_verified": 35,
+  "source_commit": "565237779f37c244b633546974444d4cee3eaeaf",
+  "source_files_unchanged": 28,
+  "first_public_disclosure": "2026-10-25T18:46:24Z",
+  "upstream_status": "submitted_review_pending",
+  "central_id": "family095-hankel-seed-certificate"
+}
