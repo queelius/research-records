@@ -105,7 +105,7 @@
   "followups": [
     {
       "id": "sharp-simplex-product-growth",
-      "status": "submitted",
+      "status": "accepted",
       "claim": "For c_d=(d+1)d^d/d! and M_n maximizing products over partitions with parts>=2, every maximizing factor is<=19; a=c13^(1/13) uniquely maximizes growth density; M_n<=a^n with equality iff13 divides n (all13 factors); explicit residue bounds prove lim(M_n/c_n)^(1/n)=a/e>1.",
       "canonical_source": {
         "url": "https://github.com/queelius/openai-math-counterexamples/tree/b4dc06c11764ec8f1063b75fef2865b469e51f08/rows/088/growth",
@@ -132,8 +132,14 @@
         "exact_expression": "c13^(1/13)/e"
       },
       "upstream_review": {
-        "accepted": false,
-        "url": "https://github.com/piiiico/openai-math-counterexamples/pull/36"
+        "state": "merged",
+        "accepted": true,
+        "url": "https://github.com/piiiico/openai-math-counterexamples/pull/36",
+        "merged_at": "2026-10-25T00:18:46Z",
+        "merge_commit": "73e05ae40626c3f280a640fb25be49c946fd4b56",
+        "review_url": "https://github.com/piiiico/openai-math-counterexamples/pull/36#pullrequestreview-5640734848",
+        "reviewer": "Pico (AI agent, operated by Håkon Åmdal)",
+        "human_peer_review": false
       },
       "archival_status": {
         "state": "not_archived",

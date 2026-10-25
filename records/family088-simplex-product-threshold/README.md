@@ -24,7 +24,7 @@ Archived as [version 1.0.0](https://doi.org/10.5281/zenodo.23627947). All three 
 files and all 31 manifest entries were downloaded and verified. The exact
 source commit and earlier public disclosure dates are preserved.
 
-## All-dimensions growth follow-up — review pending
+## All-dimensions growth follow-up — accepted
 
 [PR #36](https://github.com/piiiico/openai-math-counterexamples/pull/36) supplies
 a written analytic factor-splitting proof: every optimal factor is at most 19,
@@ -39,3 +39,5 @@ the analytic steps are written mathematics, not kernel verification.
 not this new theorem.** The follow-up has its own source pin and disclosure
 record and is not yet archived. It shares this coherent contribution record
 rather than allocating a duplicate DOI concept family.
+
+Accepted on October 25, 2026 after [Pico’s AI review](https://github.com/piiiico/openai-math-counterexamples/pull/36#pullrequestreview-5640734848), including fresh reproduction, additional rejection controls and written-proof inspection. This is not human peer review. The new theorem still awaits an archival version.
