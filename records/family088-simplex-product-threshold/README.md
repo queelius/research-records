@@ -43,13 +43,13 @@ Accepted on October 25, 2026 after [Pico’s AI review](https://github.com/piiii
 
 [Exact version DOI](https://doi.org/10.5281/zenodo.23633115) includes both unchanged source packets, fresh staged verification logs and a hash manifest. All three public files and 59 manifest entries were verified. Six reproduction/test commands passed, including optimized Python. [Publication receipt](publication-v1.1.0.json). The earlier finite-only DOI remains available; this version adds the accepted written theorem without claiming kernel verification or human peer review.
 
-## Exact optimizers in every dimension — review pending
+## Exact optimizers in every dimension — accepted
 
 [PR #38](https://github.com/piiiico/openai-math-counterexamples/pull/38) adds a
 written classification: the unique optimizer for n=13q+r>=100 uses r copies
 of14 and q-r copies of13 for residues0..8, or13-r copies of12 and q+r-12 copies
 of13 for residues9..12. The recurrence M_(n+13)=c13 M_n has minimal uniform
-cutoff100; a finite table covers2..99.
+cutoff 100; a finite table covers2..99.
 
 The19-step finite induction window, complete witness sets and131 states are
 checked by exact rational, balanced-partition and independent integer methods.
@@ -57,5 +57,19 @@ checked by exact rational, balanced-partition and independent integer methods.
 found no blocker. The analytic reduction and induction remain written proofs.
 [Exact source](https://github.com/queelius/openai-math-counterexamples/tree/653420103fb8856f81d7c6b1d7aeaf16a1ebd0b1/rows/088/optimizers).
 **The current v1.1.0 DOI and CITATION.cff do not archive this newest result.**
-It remains a separately pinned public follow-up pending upstream review and a
-substantive successor archive.
+It was accepted on October 25 after Pico’s independent AI replay and written-proof inspection. It remains ready for a substantive successor archive.
+
+## Lean recurrence certificate — review pending
+
+[PR #40](https://github.com/piiiico/openai-math-counterexamples/pull/40)
+formalizes the period 13 identity and minimal cutoff 100 for the **defined
+cap19 sequence**. All 130 recurrence states, 19 window identities and the
+finite-to-infinite induction are kernel-checked. Seventeen consumers, four
+rejected false proofs and ten source-binding tests per Python mode pass.
+Theorem axioms are standard; no native-evaluation axiom is used.
+
+The analytic factor bound connecting this sequence to unrestricted simplex
+products remains written, as do witness uniqueness and geometry. One scoped
+AI reviewer compiled the modules and found no blocker; this is not human review.
+[Exact formal source](https://github.com/queelius/openai-math-counterexamples/tree/3029dd1622c9765653dbd0dbef79c82f976efa14/rows/088/window_lean).
+**Version 1.1.0 does not contain this supplement or the exact-optimizer extension.**
