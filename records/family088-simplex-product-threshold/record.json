@@ -154,6 +154,61 @@
         "All-n coverage is supplied by the analytic proof, not a finite sweep."
       ],
       "attribution": "Alexander Richard Towell, with substantial OpenAI Codex assistance; OpenAI mechanisms, finite predecessor, Pico and the distinct Math Referee source audit credited."
+    },
+    {
+      "id": "exact-simplex-product-optimizers",
+      "status": "submitted",
+      "claim": "Unique optimal simplex-product partitions for every n>=2: finite table2..99 and explicit residue formula beyond100; period13 recurrence has minimal uniform cutoff100.",
+      "canonical_source": {
+        "url": "https://github.com/queelius/openai-math-counterexamples/tree/653420103fb8856f81d7c6b1d7aeaf16a1ebd0b1/rows/088/optimizers",
+        "commit": "653420103fb8856f81d7c6b1d7aeaf16a1ebd0b1",
+        "owning_workspace": "math-research/research/family088_exact_optimizers"
+      },
+      "first_public_disclosure": {
+        "date": "2026-10-25T05:06:28Z",
+        "url": "https://github.com/piiiico/openai-math-counterexamples/pull/38"
+      },
+      "verification": {
+        "basis": "Written inherited analytic cap19 plus finite value-and-witness induction.",
+        "finite_states": 131,
+        "maximum_dimension": 131,
+        "induction_window": [
+          100,
+          118
+        ],
+        "primary_candidates": 2169,
+        "independent_integer_candidates": 8386,
+        "balanced_oracle": "Unrestricted fixed-cardinality balancing; coordinating AI implementation.",
+        "tests_per_mode": 31,
+        "rejecting_runs": 8,
+        "public_packet_files_verified": 27,
+        "separate_ai_review": "One scoped mathematical/implementation review, no blocker; supplied unrestricted integer DP.",
+        "formal_proof": false,
+        "human_peer_review": false,
+        "reproduce": "python reproduce.py from the pinned optimizers packet; standard library only."
+      },
+      "formula": {
+        "domain": "n>=100; n=13q+r,0<=r<=12",
+        "residues_0_to_8": "r factors14 and q-r factors13",
+        "residues_9_to_12": "13-r factors12 and q+r-12 factors13",
+        "unique": true,
+        "minimal_recurrence_cutoff": 100
+      },
+      "upstream_review": {
+        "accepted": false,
+        "url": "https://github.com/piiiico/openai-math-counterexamples/pull/38"
+      },
+      "archival_status": {
+        "state": "not_archived",
+        "doi": null,
+        "reason": "The current v1.1.0 DOI covers finite/growth predecessors. This exact-optimizer extension has a separate public source pin and awaits upstream review before a substantive archival successor."
+      },
+      "scope": [
+        "Only simplex products with factor dimensions>=2.",
+        "Written analytic and induction steps, not kernel verification or human peer review.",
+        "No unrestricted convex-body bound or global novelty claim."
+      ],
+      "attribution": "Alexander Richard Towell with substantial OpenAI Codex assistance; OpenAI mechanism, finite/growth predecessors, classical methods and Pico/Hakon Amdal residue observations credited."
     }
   ],
   "archive_history": [
