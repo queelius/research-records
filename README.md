@@ -130,7 +130,9 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   26 byte-exact House of Graphs witnesses (saturation and Zarankiewicz), each
   accepted only when two code-independent checkers agree, with per-record
   claims and dated prior art. House of Graphs and prior work retain credit.
-  [Exact v1.0.0 archive](https://doi.org/10.5281/zenodo.23550688).
+  [Exact v1.0.1 archive](https://doi.org/10.5281/zenodo.23633619).
+  All 26 claims now have prior-art assessments; this release archives eight
+  completed attribution and annotation corrections, not new graph research.
 
 - [Small-order C6 saturation: exact values and complete minimum families](records/small-order-c6-saturation/README.md).
   Exact values through 15 vertices and the complete 24-class order-15 family,

@@ -1,26 +1,41 @@
 {
   "state": "published-public-files-verified",
-  "observed_at": "2026-10-22T02:16:04.805256+00:00",
-  "record_id": 23550688,
-  "version_doi": "10.5281/zenodo.23550688",
+  "observed_at": "2026-10-25T05:04:50.119571+00:00",
+  "record_id": 23633619,
+  "version_doi": "10.5281/zenodo.23633619",
   "concept_doi": "10.5281/zenodo.23550687",
-  "public_url": "https://zenodo.org/records/23550688",
-  "publication_date": "2026-10-22",
-  "record_created": "2026-10-22T01:36:36.801700+00:00",
-  "record_updated": "2026-10-22T01:36:37.015875+00:00",
+  "public_url": "https://zenodo.org/records/23633619",
+  "publication_date": "2026-10-25",
+  "record_created": "2026-10-25T05:04:48.028796+00:00",
+  "record_updated": "2026-10-25T05:04:48.174149+00:00",
   "title": "House of Graphs witness ledger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "all_public_downloads_match_sha256": true,
   "files": [
     {
-      "filename": "hog-contrib-1.0.0.zip",
-      "bytes": 111816,
-      "sha256": "2478507ea2e796a304f631c93bfc380bf2fa36471d96e1aac0e16d7afbc91c4c",
-      "md5": "f53417a45230bcf9cd5c66ad59a92a85",
-      "public_url": "https://zenodo.org/api/records/23550688/files/hog-contrib-1.0.0.zip/content",
+      "filename": "hog-contrib-1.0.1.zip",
+      "bytes": 131396,
+      "sha256": "949de3b0b93327f1eff414194017eaf511686541113bc7a9acd7bf174a6a9f58",
+      "md5": "9e9923299eadb66f260e083ac5c037a6",
+      "public_url": "https://zenodo.org/api/records/23633619/files/hog-contrib-1.0.1.zip/content",
       "verified_without_authentication": true
     }
   ],
+  "previous_version_preserved": true,
   "human_mathematical_review": "none",
-  "scope": "Exact tagged source and witness verification; per-record novelty is scoped by each record's claim."
+  "scope": "Exact tagged source and witness verification; completed prior-art/annotation corrections only, with all per-record evidence DOIs unchanged.",
+  "source_commit": "3ce5212f7e9f0a0e3bdda187e60d0edb37348b48",
+  "tag": "v1.0.1",
+  "verification": {
+    "tests_passed_from_extracted_archive": 65,
+    "witnesses_verified": 26,
+    "checkers": [
+      "pure-python",
+      "networkx"
+    ],
+    "render_check_clean": true,
+    "statement_coverage_percent": 95.31722054380664,
+    "branch_coverage_measured": false
+  },
+  "previous_version_snapshot": "versions/1.0.0/record.json"
 }

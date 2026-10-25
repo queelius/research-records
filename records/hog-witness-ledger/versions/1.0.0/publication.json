@@ -1,0 +1,26 @@
+{
+  "state": "published-public-files-verified",
+  "observed_at": "2026-10-22T02:16:04.805256+00:00",
+  "record_id": 23550688,
+  "version_doi": "10.5281/zenodo.23550688",
+  "concept_doi": "10.5281/zenodo.23550687",
+  "public_url": "https://zenodo.org/records/23550688",
+  "publication_date": "2026-10-22",
+  "record_created": "2026-10-22T01:36:36.801700+00:00",
+  "record_updated": "2026-10-22T01:36:37.015875+00:00",
+  "title": "House of Graphs witness ledger",
+  "version": "1.0.0",
+  "all_public_downloads_match_sha256": true,
+  "files": [
+    {
+      "filename": "hog-contrib-1.0.0.zip",
+      "bytes": 111816,
+      "sha256": "2478507ea2e796a304f631c93bfc380bf2fa36471d96e1aac0e16d7afbc91c4c",
+      "md5": "f53417a45230bcf9cd5c66ad59a92a85",
+      "public_url": "https://zenodo.org/api/records/23550688/files/hog-contrib-1.0.0.zip/content",
+      "verified_without_authentication": true
+    }
+  ],
+  "human_mathematical_review": "none",
+  "scope": "Exact tagged source and witness verification; per-record novelty is scoped by each record's claim."
+}

@@ -9,11 +9,11 @@
   "contribution": {
     "claim": "A verified, citable collection of 26 House of Graphs witness graphs, each stored byte-exact as graph6 and accepted only when two implementations that share no code verify its defining property.",
     "records_by_claim_kind": {
-      "unassessed": 8,
-      "known_value": 10,
+      "known_value": 17,
+      "new_value": 6,
+      "new_classification": 2,
       "correction": 1,
-      "new_classification": 1,
-      "new_value": 6
+      "unassessed": 0
     },
     "records_by_family": {
       "cycle_saturation": 15,
@@ -21,15 +21,16 @@
       "path_saturation": 5,
       "ordered_bipartite": 3
     },
-    "scope": "Each record states its own claim kind and dated prior art; the ledger itself asserts verification of the witnesses, not novelty. Witnesses establish attainment; exact values rest on the lower-bound evidence in each record's cited archive."
+    "scope": "Each record states its own claim kind and dated prior art; the ledger itself asserts verification of the witnesses, not novelty. Witnesses establish attainment; exact values rest on the lower-bound evidence in each record's cited archive.",
+    "new_in_1_0_1": "Archives the completed prior-art assessments of eight previously unassessed records and corrections to eight HoG annotations; the same 26 witnesses remain. This is a ledger correction, not a new mathematical contribution."
   },
   "source": {
     "owning_project": "hog-contrib",
     "repository": "https://github.com/queelius/hog-contrib",
     "repository_access": "public since 2026-10-21",
-    "tag": "v1.0.0",
-    "commit": "56220686bf69e720cc790bf90c5d46362228aef2",
-    "publication_receipt": "https://github.com/queelius/hog-contrib/blob/main/receipts/2026-10-22-ledger-v1.0.0-publication.json"
+    "tag": "v1.0.1",
+    "commit": "3ce5212f7e9f0a0e3bdda187e60d0edb37348b48",
+    "publication_receipt": "https://github.com/queelius/hog-contrib/blob/main/receipts/2026-10-25-ledger-v1.0.1-publication.json"
   },
   "evidence": {
     "witnesses_verified": 26,
@@ -38,7 +39,14 @@
       "networkx"
     ],
     "tests_passed_from_extracted_archive": 65,
-    "deterministic_archive_rebuild": true
+    "deterministic_archive_rebuild": true,
+    "source_statement_coverage": {
+      "covered": 631,
+      "total": 662,
+      "percent": 95.31722054380664,
+      "branch_coverage_measured": false
+    },
+    "witnesses_and_evidence_dois_unchanged_from_1_0_0": true
   },
   "attribution": {
     "house_of_graphs": "House of Graphs hosts the deposited graphs: Brinkmann, Coolsaet, Goedgebeur, Melot, doi:10.1016/j.dam.2012.07.018; Coolsaet, D'hondt, Goedgebeur, doi:10.1016/j.dam.2022.10.013 (checked via Crossref 2026-10-22).",
@@ -60,30 +68,44 @@
       "version": "1.0.0",
       "url": "https://doi.org/10.5281/zenodo.23550688",
       "scope": "First archived release."
+    },
+    {
+      "date": "2026-10-25",
+      "version": "1.0.1",
+      "url": "https://doi.org/10.5281/zenodo.23633619",
+      "scope": "Corrective archival release of completed attribution and prior-art work; the eight live annotation corrections are separately dated 2026-10-22 in the source receipt. No new mathematical contribution."
     }
   ],
   "publication": {
     "state": "published",
-    "version": "1.0.0",
-    "version_doi": "10.5281/zenodo.23550688",
+    "version": "1.0.1",
+    "version_doi": "10.5281/zenodo.23633619",
     "concept_doi": "10.5281/zenodo.23550687",
-    "archive_publication_date": "2026-10-22",
+    "archive_publication_date": "2026-10-25",
     "public_downloads_verified": true,
     "receipt": "publication.json"
   },
   "license": "CC-BY-4.0 (data); MIT (code)",
   "limitations": [
     "No human peer-review or proof-assistant verification claim.",
-    "8 records are unassessed for prior art and make no novelty claim.",
-    "Bounded literature searches do not establish global novelty or priority."
+    "Bounded literature searches do not establish global novelty or priority.",
+    "All 26 records have dated prior-art assessments, but these are bounded source checks, not global novelty certificates. The original paywalled Kaszonyi--Tuza paper was not read; the ledger identifies the checked restatements."
   ],
   "artifacts": [
     {
-      "filename": "hog-contrib-1.0.0.zip",
-      "url": "https://zenodo.org/records/23550688/files/hog-contrib-1.0.0.zip",
-      "bytes": 111816,
-      "sha256": "2478507ea2e796a304f631c93bfc380bf2fa36471d96e1aac0e16d7afbc91c4c",
-      "entries": 102
+      "filename": "hog-contrib-1.0.1.zip",
+      "url": "https://zenodo.org/api/records/23633619/files/hog-contrib-1.0.1.zip/content",
+      "bytes": 131396,
+      "sha256": "949de3b0b93327f1eff414194017eaf511686541113bc7a9acd7bf174a6a9f58",
+      "entries": 107
+    }
+  ],
+  "previous_versions": [
+    {
+      "version": "1.0.0",
+      "version_doi": "10.5281/zenodo.23550688",
+      "record": "versions/1.0.0/record.json",
+      "scope": "Exact earlier central-record files preserved byte-for-byte; old claim counts describe that archived version."
     }
   ]
 }
