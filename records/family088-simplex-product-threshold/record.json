@@ -70,33 +70,33 @@
   },
   "archival_status": {
     "state": "published",
-    "version": "1.2.0",
-    "version_doi": "10.5281/zenodo.23639110",
+    "version": "1.3.0",
+    "version_doi": "10.5281/zenodo.23647750",
     "concept_doi": "10.5281/zenodo.23627946",
-    "url": "https://zenodo.org/records/23639110",
+    "url": "https://zenodo.org/records/23647750",
     "publication_date": "2026-10-25",
     "files": [
       {
-        "filename": "family088-simplex-products-v1.2.0.zip",
-        "bytes": 130427,
-        "sha256": "0e886d11beadc265d42d0c38b41f48eb911622d218790c39a224a156c7833573",
+        "filename": "family088-simplex-products-v1.3.0.zip",
+        "bytes": 166687,
+        "sha256": "97500252683ee55c73b78b723b1664979be43d1d3d45ac90f42fd5b16c0f958b",
         "public_download_verified": true
       },
       {
         "filename": "ARCHIVE-NOTE.md",
-        "bytes": 5146,
-        "sha256": "582a291d8d9d7c92e2b466efaf3473f593fbaf7ccc9f8bc2b54b91969f445a4a",
+        "bytes": 5838,
+        "sha256": "7e28f2743c8299849d6204c1c6f67a0f256890380365662e836b3a0be1c5ed82",
         "public_download_verified": true
       },
       {
         "filename": "CITATION.cff",
-        "bytes": 438,
-        "sha256": "c106d2de4fbca7c334b751dbed8b729a78345b821f3a5b6bd68fa612f84f142a",
+        "bytes": 442,
+        "sha256": "c0272dd8747704305942e7c33f71290f59451fdb404b362e7f6ff6a8ec704b0e",
         "public_download_verified": true
       }
     ],
-    "manifest_entries_verified": 90,
-    "scope": "Unchanged finite/growth predecessors plus accepted written exact-optimizer extension;77 pinned source files. Lean supplement excluded."
+    "manifest_entries_verified": 124,
+    "scope": "All four unchanged source packets: finite, growth, exact optimizers and accepted Lean capped-recurrence supplement. Analytic reduction and witness classification remain written."
   },
   "license": {
     "new_work": "MIT",
@@ -219,7 +219,7 @@
     },
     {
       "id": "kernel-capped-recurrence",
-      "status": "submitted",
+      "status": "accepted",
       "claim": "Lean kernel proves period13 from index100 and minimality of the uniform cutoff for the defined cap19 maximum-recurrence sequence. It also proves generic rational finite-window propagation, finite-prefix agreement, all 130 finite recurrence states and 19 window identities.",
       "canonical_source": {
         "url": "https://github.com/queelius/openai-math-counterexamples/tree/3029dd1622c9765653dbd0dbef79c82f976efa14/rows/088/window_lean",
@@ -259,13 +259,20 @@
         "No new convex-body bound or global novelty claim."
       ],
       "upstream_review": {
-        "accepted": false,
-        "url": "https://github.com/piiiico/openai-math-counterexamples/pull/40"
+        "accepted": true,
+        "state": "merged",
+        "url": "https://github.com/piiiico/openai-math-counterexamples/pull/40",
+        "merged_at": "2026-10-25T16:22:00Z",
+        "merge_commit": "b3db2646fd7d84180d2e8ab93dc295436c061496",
+        "review_url": "https://github.com/piiiico/openai-math-counterexamples/pull/40#pullrequestreview-5644107878",
+        "scope": "Pico AI clean Lean replay, additional numerator mutation, and statement-fidelity check. Python generator tests not rerun by Pico; not human peer review."
       },
       "archival_status": {
-        "state": "not_archived",
-        "doi": null,
-        "reason": "Separately pinned public Lean supplement awaits upstream review. Current v1.2.0 archives the finite, growth and exact-optimizer packets; the formal supplement is excluded."
+        "state": "published",
+        "version": "1.3.0",
+        "doi": "10.5281/zenodo.23647750",
+        "url": "https://zenodo.org/records/23647750",
+        "scope": "Combined source archive includes formal proofs for the defined capped recurrence; analytic cap and witness classification remain written."
       },
       "attribution": "Alexander Richard Towell with substantial OpenAI Codex assistance; OpenAI mechanism/constants, prior packets, Pico/Hakon Amdal checks and classical methods credited."
     }
@@ -330,6 +337,36 @@
       ],
       "manifest_entries_verified": 59,
       "scope": "Includes unchanged finite predecessor and accepted sharp-growth follow-up; 50 pinned source files."
+    },
+    {
+      "state": "published",
+      "version": "1.2.0",
+      "version_doi": "10.5281/zenodo.23639110",
+      "concept_doi": "10.5281/zenodo.23627946",
+      "url": "https://zenodo.org/records/23639110",
+      "publication_date": "2026-10-25",
+      "files": [
+        {
+          "filename": "family088-simplex-products-v1.2.0.zip",
+          "bytes": 130427,
+          "sha256": "0e886d11beadc265d42d0c38b41f48eb911622d218790c39a224a156c7833573",
+          "public_download_verified": true
+        },
+        {
+          "filename": "ARCHIVE-NOTE.md",
+          "bytes": 5146,
+          "sha256": "582a291d8d9d7c92e2b466efaf3473f593fbaf7ccc9f8bc2b54b91969f445a4a",
+          "public_download_verified": true
+        },
+        {
+          "filename": "CITATION.cff",
+          "bytes": 438,
+          "sha256": "c106d2de4fbca7c334b751dbed8b729a78345b821f3a5b6bd68fa612f84f142a",
+          "public_download_verified": true
+        }
+      ],
+      "manifest_entries_verified": 90,
+      "scope": "Unchanged finite/growth predecessors plus accepted written exact-optimizer extension;77 pinned source files. Lean supplement excluded."
     }
   ],
   "claim_scope": "The base finite claim and its scope are recorded here; growth, exact-optimizer and formal extensions have their own follow-up entries below."

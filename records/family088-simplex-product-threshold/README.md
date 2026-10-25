@@ -35,7 +35,7 @@ eight rejecting controls and a separate AI review support the new packet;
 the analytic steps are written mathematics, not kernel verification.
 
 [Exact follow-up source](https://github.com/queelius/openai-math-counterexamples/tree/b4dc06c11764ec8f1063b75fef2865b469e51f08/rows/088/growth).
-**Version 1.0.0 covers only the finite predecessor.** The follow-up has its own source pin and disclosure record. The current CITATION.cff cites combined version 1.2.0 in the same DOI concept family.
+**Version 1.0.0 covers only the finite predecessor.** The follow-up has its own source pin and disclosure record. The current CITATION.cff cites combined version 1.3.0 in the same DOI concept family.
 
 Accepted on October 25, 2026 after [Pico’s AI review](https://github.com/piiiico/openai-math-counterexamples/pull/36#pullrequestreview-5640734848), including fresh reproduction, additional rejection controls and written-proof inspection. This is not human peer review. The new theorem is included in version 1.1.0.
 
@@ -58,7 +58,7 @@ found no blocker. The analytic reduction and induction remain written proofs.
 [Exact source](https://github.com/queelius/openai-math-counterexamples/tree/653420103fb8856f81d7c6b1d7aeaf16a1ebd0b1/rows/088/optimizers).
 Accepted on October 25 after Pico’s independent AI replay and written-proof inspection. Archived in [version 1.2.0](https://doi.org/10.5281/zenodo.23639110). The current CITATION.cff cites this combined archive.
 
-## Lean recurrence certificate — review pending
+## Lean recurrence certificate — accepted
 
 [PR #40](https://github.com/piiiico/openai-math-counterexamples/pull/40)
 formalizes the period 13 identity and minimal cutoff 100 for the **defined
@@ -71,8 +71,12 @@ The analytic factor bound connecting this sequence to unrestricted simplex
 products remains written, as do witness uniqueness and geometry. One scoped
 AI reviewer compiled the modules and found no blocker; this is not human review.
 [Exact formal source](https://github.com/queelius/openai-math-counterexamples/tree/3029dd1622c9765653dbd0dbef79c82f976efa14/rows/088/window_lean).
-**The current version 1.2.0 does not contain the Lean supplement.** Its archive covers the finite, growth and exact-optimizer packets.
+Accepted on October 25 after Pico’s fresh kernel replay and additional table-mutation control. Archived in [version 1.3.0](https://doi.org/10.5281/zenodo.23647750).
 
-## Current archive, version 1.2.0
+## Written optimizer archive, version 1.2.0
 
 [Exact version DOI](https://doi.org/10.5281/zenodo.23639110) adds the accepted exact-optimizer packet and preserves all 50 earlier source files byte-for-byte. All 77 pinned source files, three public downloads and 90 manifest entries were verified. Nine staged commands passed, including normal/optimized tests and 24 rejecting replay controls. [Publication receipt](publication-v1.2.0.json). The separately pinned Lean supplement remains outside this archive; earlier archive versions remain available.
+
+## Current archive, version 1.3.0
+
+[Exact version DOI](https://doi.org/10.5281/zenodo.23647750) retains all 77 earlier source files and adds the 31-file accepted Lean packet. All 108 pinned files, three public downloads and 124 manifest entries were verified. Twelve staged commands passed. The formal theorem concerns the defined capped recurrence; the factor bound, unrestricted optimizer identification and witness classification retain their written scope. [Publication receipt](publication-v1.3.0.json). Earlier versions remain available.
