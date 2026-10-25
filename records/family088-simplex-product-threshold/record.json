@@ -70,33 +70,33 @@
   },
   "archival_status": {
     "state": "published",
-    "version": "1.0.0",
-    "version_doi": "10.5281/zenodo.23627947",
+    "version": "1.1.0",
+    "version_doi": "10.5281/zenodo.23633115",
     "concept_doi": "10.5281/zenodo.23627946",
-    "url": "https://zenodo.org/records/23627947",
-    "publication_date": "2026-10-24",
+    "url": "https://zenodo.org/records/23633115",
+    "publication_date": "2026-10-25",
     "files": [
       {
-        "filename": "family088-simplex-product-threshold-v1.0.0.zip",
-        "bytes": 39645,
-        "sha256": "648793cd972feb767bfc9a1123502bca9a32f4763c4006aaa5ea01925b69941c",
+        "filename": "family088-simplex-products-v1.1.0.zip",
+        "bytes": 79594,
+        "sha256": "ea07943ee0819e8f62dfb1a2aa0a6681640b92e9974624faff8b3a8a032a8da5",
         "public_download_verified": true
       },
       {
         "filename": "ARCHIVE-NOTE.md",
-        "bytes": 3809,
-        "sha256": "314968dc7168b3957c64df66e5cd5cba72b3a1f807e435395a567adcce7bdb35",
+        "bytes": 4003,
+        "sha256": "9a40decb2063f6b0a8b764120d8427192081c51f35df4861301c95dd7dbd90ae",
         "public_download_verified": true
       },
       {
         "filename": "CITATION.cff",
-        "bytes": 446,
-        "sha256": "594f0a48888fa1f59ddbbdbe25b4bc63887a884cbc584f25f8f11c4fb98d9bf2",
+        "bytes": 445,
+        "sha256": "245e56495a86942d79948cc14ae489ed83d2c3dd645f99f8f5ea256119f9f534",
         "public_download_verified": true
       }
     ],
-    "public_files_verified": 3,
-    "manifest_entries_verified": 31
+    "manifest_entries_verified": 59,
+    "scope": "Includes unchanged finite predecessor and accepted sharp-growth follow-up; 50 pinned source files."
   },
   "license": {
     "new_work": "MIT",
@@ -142,9 +142,11 @@
         "human_peer_review": false
       },
       "archival_status": {
-        "state": "not_archived",
-        "doi": null,
-        "reason": "The v1.0.0 DOI archives the finite predecessor only; this new written theorem is public as a separately pinned follow-up."
+        "state": "published",
+        "version": "1.1.0",
+        "doi": "10.5281/zenodo.23633115",
+        "url": "https://zenodo.org/records/23633115",
+        "scope": "Combined archive retains finite predecessor and adds accepted growth proof."
       },
       "scope": [
         "Only Cartesian simplex products with factor dimensions>=2.",
@@ -152,6 +154,38 @@
         "All-n coverage is supplied by the analytic proof, not a finite sweep."
       ],
       "attribution": "Alexander Richard Towell, with substantial OpenAI Codex assistance; OpenAI mechanisms, finite predecessor, Pico and the distinct Math Referee source audit credited."
+    }
+  ],
+  "archive_history": [
+    {
+      "state": "published",
+      "version": "1.0.0",
+      "version_doi": "10.5281/zenodo.23627947",
+      "concept_doi": "10.5281/zenodo.23627946",
+      "url": "https://zenodo.org/records/23627947",
+      "publication_date": "2026-10-24",
+      "files": [
+        {
+          "filename": "family088-simplex-product-threshold-v1.0.0.zip",
+          "bytes": 39645,
+          "sha256": "648793cd972feb767bfc9a1123502bca9a32f4763c4006aaa5ea01925b69941c",
+          "public_download_verified": true
+        },
+        {
+          "filename": "ARCHIVE-NOTE.md",
+          "bytes": 3809,
+          "sha256": "314968dc7168b3957c64df66e5cd5cba72b3a1f807e435395a567adcce7bdb35",
+          "public_download_verified": true
+        },
+        {
+          "filename": "CITATION.cff",
+          "bytes": 446,
+          "sha256": "594f0a48888fa1f59ddbbdbe25b4bc63887a884cbc584f25f8f11c4fb98d9bf2",
+          "public_download_verified": true
+        }
+      ],
+      "public_files_verified": 3,
+      "manifest_entries_verified": 31
     }
   ]
 }

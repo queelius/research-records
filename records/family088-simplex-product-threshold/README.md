@@ -35,9 +35,10 @@ eight rejecting controls and a separate AI review support the new packet;
 the analytic steps are written mathematics, not kernel verification.
 
 [Exact follow-up source](https://github.com/queelius/openai-math-counterexamples/tree/b4dc06c11764ec8f1063b75fef2865b469e51f08/rows/088/growth).
-**The v1.0.0 DOI and CITATION.cff above cover only the finite predecessor,
-not this new theorem.** The follow-up has its own source pin and disclosure
-record and is not yet archived. It shares this coherent contribution record
-rather than allocating a duplicate DOI concept family.
+**Version 1.0.0 covers only the finite predecessor.** The follow-up has its own source pin and disclosure record. The current CITATION.cff cites combined version 1.1.0 in the same DOI concept family.
 
-Accepted on October 25, 2026 after [Pico’s AI review](https://github.com/piiiico/openai-math-counterexamples/pull/36#pullrequestreview-5640734848), including fresh reproduction, additional rejection controls and written-proof inspection. This is not human peer review. The new theorem still awaits an archival version.
+Accepted on October 25, 2026 after [Pico’s AI review](https://github.com/piiiico/openai-math-counterexamples/pull/36#pullrequestreview-5640734848), including fresh reproduction, additional rejection controls and written-proof inspection. This is not human peer review. The new theorem is included in version 1.1.0.
+
+## Combined archive, version 1.1.0
+
+[Exact version DOI](https://doi.org/10.5281/zenodo.23633115) includes both unchanged source packets, fresh staged verification logs and a hash manifest. All three public files and 59 manifest entries were verified. Six reproduction/test commands passed, including optimized Python. [Publication receipt](publication-v1.1.0.json). The earlier finite-only DOI remains available; this version adds the accepted written theorem without claiming kernel verification or human peer review.
