@@ -141,6 +141,11 @@
       "event": "Published collection v1.1.0 in the existing DOI family after explicit approval; adds66 complete packets. All public downloads and3034 internal files verified.",
       "version_doi": "10.5281/zenodo.23606989",
       "concept_doi": "10.5281/zenodo.23590810"
+    },
+    {
+      "at": "2026-10-26T23:25:51.771888+00:00",
+      "event": "Curated complete Moreau root acceptance as a metadata highlight outside the frozen v1.1.0 archive. Published edition counts and DOI scope remain unchanged.",
+      "highlight_id": "moreau-chance-consistency"
     }
   ],
   "previous_editions": [
@@ -149,6 +154,92 @@
       "version_doi": "10.5281/zenodo.23590811",
       "record": "versions/1.0.0/record.json",
       "publication_receipt": "versions/1.0.0/publication.json"
+    }
+  ],
+  "post_publication_highlights": [
+    {
+      "id": "moreau-chance-consistency",
+      "title": "Complete Moreau chance-constrained consistency theorem",
+      "contribution_type": "Formalization of established mathematics, with conditional norm convergence",
+      "claim": "The complete original MoreauChance.Consistency.theorem_5_4: finiteness and convergence of optimal values, optimality of weak limits of regularized optimizers, and norm convergence under the original additional objective-finiteness and conjugate-differentiability hypotheses.",
+      "why_it_matters": "Connects regularized chance-constrained optimization to the original problem and completes the strong-convergence clause using approximate envelope minimizers, without adding exact proximal attainment or finite dimensionality.",
+      "assumptions": [
+        "Real separable complete Hilbert decision space, complete normed constraint space, probability law with the source absolute-continuity hypothesis.",
+        "The exact source conic-setting and continuity assumptions, proper lower-semicontinuous convex coercive extended-real objective, and a feasible point with finite objective.",
+        "For the sequence conclusions: positive parameters tending to zero, optimal regularized solutions and an assumed weak limit.",
+        "For norm convergence additionally: the objective is finite everywhere and its conjugate is Frechet differentiable at every point with nonempty subdifferential. All original quantified assumptions are retained."
+      ],
+      "formal_target": {
+        "id": "4cbba069-5534-4b5e-9d85-84dd50de975b",
+        "name": "MoreauChance.Consistency.theorem_5_4",
+        "url": "https://prove2.me/theorems/4cbba069-5534-4b5e-9d85-84dd50de975b",
+        "statement_sha256": "d73d190379ad974b64d2f19edb709db7d162686cf40320ec6b4286131ff5e7d9",
+        "accepted_submission_id": "4807c8e8-091b-46b3-8e21-ec3ac035ac7e",
+        "submitted_at": "2026-10-26T20:19:50Z",
+        "accepted_at": "2026-10-26T20:22:24.129138+00:00",
+        "accepted_source_sha256": "fbf8da2e096443cfff7358a7e474c4c0a4886fd9044dde4e4ca22eff395c4820"
+      },
+      "source": {
+        "repository": "https://github.com/queelius/prove2me-contributions",
+        "visibility": "private",
+        "commit": "a610bbbfa03b901e2c20aad139e75a915f5f5e5d",
+        "proof_path": "proofs/MoreauChance_Consistency_theorem_5_4.lean",
+        "proof_path_base": "contributions/queelius",
+        "source_integration_commit": "1bddefedcac7f6a47b764e3b6637410e3d96e3ff",
+        "source_integration_packet": "research/moreau_full_integration"
+      },
+      "verification": {
+        "kind": "Lean kernel verification and Prove2Me acceptance; separate AI review",
+        "lean_version": "4.33.1",
+        "mathlib_rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+        "owned_declarations_audited": 151,
+        "full_original_target_reelaborated": true,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "accepted_download_byte_match": true,
+        "accepted_download_checked_at": "2026-10-26T20:22:54.262005+00:00",
+        "negative_controls": [
+          "Fixed regularization obstruction",
+          "Nonvanishing approximation-error obstruction",
+          "Missing weak-pairing obstruction"
+        ],
+        "control_scope": "Three false scalar assertions reject; positive quadratic consumer and obstruction lemmas exercise the convergence mechanism. These are not full counterexamples to weakened chance-constrained roots.",
+        "guard_tests": {
+          "normal": 11,
+          "optimized_python": 11
+        },
+        "human_peer_review": false,
+        "mathematical_novelty_claimed": false
+      },
+      "credit": {
+        "research_steward": "Alexander Richard Towell",
+        "orcid": "0000-0001-6443-9897",
+        "original_mathematics": {
+          "authors": [
+            "Wim van Ackooij",
+            "Pedro Pérez-Aros",
+            "Claudia Soto",
+            "Emilio Vilches"
+          ],
+          "title": "Inner Moreau envelope of nonsmooth conic chance constrained optimization problems",
+          "url": "https://arxiv.org/abs/2301.09803v1",
+          "location": "Theorem 5.4, pp. 21–22"
+        },
+        "predecessors": "Earlier value-convergence and weak-optimality formalizations, three pinned strong-minimum/subgradient/proximal-gap support packets, and Lean/Mathlib. Detailed attribution remains in the owning packet.",
+        "ai_assistance": "Substantial OpenAI Codex assistance in formalization, integration, verification, AI review and submission. AI review is not human peer review."
+      },
+      "publication": {
+        "state": "platform_accepted_archival_queued",
+        "included_in_current_edition": false,
+        "current_edition_version": "1.1.0",
+        "current_edition_doi_does_not_archive_this_result": "10.5281/zenodo.23606989",
+        "planned_collection_concept_doi": "10.5281/zenodo.23590810",
+        "note": "Metadata highlight only. No new deposit or DOI minted; the source repository remains private, and standalone archive/reproduction access for this result awaits a later verified collection edition. Platform access is governed by Prove2Me.",
+        "license_scope": "Metadata-only curation; this update redistributes no private proof or dependency source bytes."
+      }
     }
   ]
 }

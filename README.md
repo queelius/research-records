@@ -56,7 +56,8 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   proof/evidence packets, 3 metadata-only targets and 267 freshly compiled platform
   modules. All public downloads and 3,034 internal files verified. The collection
   [concept DOI](https://doi.org/10.5281/zenodo.23590810) supports later snapshots; existing
-  focused DOI families retain their identities.
+  focused DOI families retain their identities. The record also highlights the
+  later accepted Moreau consistency theorem, with DOI inclusion explicitly pending.
 
 - [Substitution overbooking: transportation duality and expected-revenue structure](records/overbooking-expected-revenue/README.md).
   Four accepted Lean formalizations complete the transportation, service-value,
