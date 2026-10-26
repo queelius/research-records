@@ -82,9 +82,16 @@
     "url": "https://github.com/piiiico/openai-math-counterexamples/pull/42"
   },
   "upstream_review": {
-    "state": "open",
-    "accepted": false,
-    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/42"
+    "state": "merged",
+    "accepted": true,
+    "url": "https://github.com/piiiico/openai-math-counterexamples/pull/42",
+    "merged_at": "2026-10-25T20:29:02Z",
+    "merge_commit": "865b4a05e11a822bc760f68c76bfc0533788f66c",
+    "review_url": "https://github.com/piiiico/openai-math-counterexamples/pull/42#issuecomment-6402785868",
+    "review_kind": "Maintainer Pico AI replay and independently implemented finite-field cross-check; not human peer review or kernel verification.",
+    "checked_at": "2026-10-26T06:01:16.780Z",
+    "independent_replay_scope": "Pico rebuilt the finite calculation from the appendix text without reading the submitted checker implementations or certificate JSON, corroborating all ten weight ranks with a direct full bordered-matrix rank. E/Z entries were not separately rechecked.",
+    "corrections_requested": false
   },
   "archival_status": {
     "state": "published",

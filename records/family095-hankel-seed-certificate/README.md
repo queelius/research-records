@@ -9,7 +9,7 @@ example pivot traces agree. Two separately implemented exact replays match
 42 matrix fingerprints. 28 tests per Python mode and ten rejecting runs pass.
 
 - [Pinned source and reproduction](https://github.com/queelius/openai-math-counterexamples/tree/565237779f37c244b633546974444d4cee3eaeaf/rows/095/hankel_seed).
-- [PR #42 — upstream review pending](https://github.com/piiiico/openai-math-counterexamples/pull/42).
+- [PR #42 — accepted after maintainer AI replay](https://github.com/piiiico/openai-math-counterexamples/pull/42).
 - [Archived version 1.0.0](https://doi.org/10.5281/zenodo.23648332).
 - [Exact scope and assumptions](record.json); [publication receipt](publication-v1.0.0.json).
 
@@ -20,3 +20,10 @@ the paper’s later real-form argument. Characteristic-zero lifting, real PSD
 deformation and final nonliftability remain unchecked. This is exact finite
 computation and scoped AI review, not human peer review or a kernel proof.
 No global novelty claim. Lifecycle tracking stays in math-research.
+
+Accepted on 25 October 2026 after Pico reproduced the packet and wrote a
+separate checker from the appendix text alone. Its direct full bordered-matrix
+rank agrees with total623; E/Z entries were not separately rechecked.
+[Review and scope](https://github.com/piiiico/openai-math-counterexamples/pull/42#issuecomment-6402785868).
+This is AI review, not human peer review. Version1.0.0 retains the pending-review
+state at its original publication; the archived files remain unchanged.
