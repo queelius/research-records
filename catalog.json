@@ -182,6 +182,11 @@
       "id": "family095-hankel-seed-certificate",
       "metadata": "records/family095-hankel-seed-certificate/record.json",
       "readme": "records/family095-hankel-seed-certificate/README.md"
+    },
+    {
+      "id": "sampling-one-pair-total-variation",
+      "metadata": "records/sampling-one-pair-total-variation/record.json",
+      "readme": "records/sampling-one-pair-total-variation/README.md"
     }
   ]
 }

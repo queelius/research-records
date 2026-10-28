@@ -44,6 +44,8 @@ does not by itself establish a public technical disclosure, DOI or peer review.
 
 ## Records
 
+- [Exact one-pair sampling total variation](records/sampling-one-pair-total-variation/README.md): a complete Lean proof joining sampling counts and Jordan positive-part evaluation. [Version 1.0.0](https://doi.org/10.5281/zenodo.23724873).
+
 - [Independent finite Hankel seed verification](records/family095-hankel-seed-certificate/README.md): source-pinned modular arithmetic corroborates the Family 095 seed certificate; full real/nonliftability arguments remain unchecked. [Archived packet](https://doi.org/10.5281/zenodo.23648332).
 
 - [Triangular-base rotation obstruction](records/family172-triangular-rotation-obstruction/README.md).

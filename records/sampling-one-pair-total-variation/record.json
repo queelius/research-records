@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "sampling-one-pair-total-variation",
+  "title": "Exact total variation for finite sampling from a population with one repeated pair: a Lean formalization",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897"
+    }
+  ],
+  "ai_assistance": "Substantial OpenAI Codex assistance in construction, implementation, verification and separate AI source review. Not human peer review.",
+  "canonical_source": {
+    "url": "https://doi.org/10.5281/zenodo.23724873",
+    "commit": "188880a88baf900b7698031ffa5bc7d185b048a0",
+    "owning_workspace": "math-research/research/sampling_pair_tv",
+    "public_git_remote": false,
+    "note": "The archive supplies the canonical public immutable source snapshot."
+  },
+  "claim": "For the canonical population q identifying distinct indices a,b, the actual ordered sampling laws without and with replacement have signed variation mass 2*(1-p-t*min(p,1-p)), p=(n)_m/n^m, t=(m)_2/(n)_2. Probability TV is half this mass.",
+  "assumptions": [
+    "Finite sample/population types with m<=n",
+    "a!=b, q sends b to a and fixes other indices",
+    "Measurable singletons on the population alphabet"
+  ],
+  "verification": {
+    "kind": "Lean kernel-checked theorem; exact finite computation and separate AI review",
+    "lean": "4.35.0",
+    "lean_commit": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+    "mathlib_commit": "cfc55fc58714a59dc06e6e79edc6d1d95140d3c2",
+    "owned_declarations": 85,
+    "exact_api_types": 10,
+    "boundary_consumers": 9,
+    "false_lean_claims_rejected": 4,
+    "python_tests_per_mode": 21,
+    "finite_cases": 28,
+    "ordered_injections": 2533,
+    "unrestricted_selections": 60778,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "staged_replay": "passed",
+    "formal_proof": true,
+    "human_peer_review": false,
+    "trusted_inputs": "Pinned compiler and dependency artifacts; no bootstrap rebuild."
+  },
+  "source_dependencies": {
+    "accepted_tau_ceti_commit": "2ab182c7bd6dc0bd4086fca956f566fc845bbcac",
+    "scope": "Five accepted modules plus preserved local sampling proofs and explicit adapters; exact hashes and attribution in archived sources.json and NOTICE."
+  },
+  "limitations": [
+    "General arbitrary-noninjective envelope not assembled in Lean here",
+    "No historical novelty or arbitrary IID-mixture optimality claim",
+    "No human peer review or upstream acceptance",
+    "Frozen inner local-status documents are superseded by the outer archive note"
+  ],
+  "upstream_review": {
+    "state": "related distinct-population sharpness PR17365 is draft/on-hold for a human-approved roadmap target",
+    "accepted": false,
+    "url": "https://github.com/TauCetiProject/TauCeti/pull/17365",
+    "note": "This is a separate destination restriction; it does not prevent this independent archive."
+  },
+  "archival_status": {
+    "state": "published",
+    "version": "1.0.0",
+    "version_doi": "10.5281/zenodo.23724873",
+    "concept_doi": "10.5281/zenodo.23724872",
+    "url": "https://zenodo.org/records/23724873",
+    "files": [
+      {
+        "filename": "sampling-one-pair-total-variation-v1.0.0.zip",
+        "bytes": 121179,
+        "sha256": "ad216a6df192a0a56e4d247828d06a1d679daa3cad1f825c21911883823485e7",
+        "public_download_verified": true,
+        "url": "https://zenodo.org/records/23724873/files/sampling-one-pair-total-variation-v1.0.0.zip?download=1"
+      },
+      {
+        "filename": "ARCHIVE-NOTE.md",
+        "bytes": 4276,
+        "sha256": "a03fdd7d731cbf7dfd3043373617202cc82416a89f6aaf75501d63179ac74fe9",
+        "public_download_verified": true,
+        "url": "https://zenodo.org/records/23724873/files/ARCHIVE-NOTE.md?download=1"
+      },
+      {
+        "filename": "CITATION.cff",
+        "bytes": 1057,
+        "sha256": "d39eed71bd9d29df09dbeab309d144d8817afd180eda537c744d05f843f9df85",
+        "public_download_verified": true,
+        "url": "https://zenodo.org/records/23724873/files/CITATION.cff?download=1"
+      }
+    ],
+    "archive_members": 92,
+    "frozen_payload_hashes_verified": 88,
+    "publication_date": "2026-10-28",
+    "public_metadata_verified": true,
+    "public_verification_at": "2026-10-28T08:45:29.679129+00:00"
+  },
+  "license": "Apache-2.0",
+  "predecessors": [
+    "Tau Ceti and Mathlib probability, counting and Jordan APIs",
+    "Preserved local coarsening, fiber, singleton mass, two-hit and observed-event proofs",
+    "Classical Diaconis-Freedman finite-exchangeability context"
+  ],
+  "first_public_disclosure": {
+    "date": "2026-10-28",
+    "url": "https://zenodo.org/records/23724873",
+    "scope": "This complete one-pair packet; prior sampling PR disclosures have separate scope."
+  },
+  "publication_event": {
+    "published_api_response_modified": "2026-10-28T08:45:17.754283+00:00",
+    "public_record_created": "2026-10-28T08:45:17.444648+00:00",
+    "public_record_updated": "2026-10-28T08:45:17.754283+00:00"
+  }
+}
