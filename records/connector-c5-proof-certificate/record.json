@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "connector-c5-proof-certificate",
+  "title": "Checked characteristic-five six-source connector exclusion",
+  "authors": [
+    {
+      "name": "Alexander Richard Towell",
+      "orcid": "0000-0001-6443-9897"
+    }
+  ],
+  "ai_assistance": "Substantial OpenAI Codex assistance in certificate generation, written encoding audit, implementation, verification and one scoped AI review. Not human peer review.",
+  "canonical_source": {
+    "url": "https://github.com/queelius/integer-mult-bounds/tree/dd43e856dceec9a92d338345d01d4ad247ce2172/research/connector-c5-certificate",
+    "commit": "dd43e856dceec9a92d338345d01d4ad247ce2172",
+    "owning_workspace": "math-research/research/connector_c5_certificate",
+    "review_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6216"
+  },
+  "claim": "No length-30 word on six sources occurring five times each realizes all sixteen weight-two/six binary masks as sums of two prefix-count vectors modulo five. This independently certifies the characteristic-five exclusion already reported in PR6141.",
+  "assumptions": [
+    "The exact unsigned restored-floor-word depth-two block model of PR4231/4248",
+    "Written word-to-CNF implication, not a kernel formalization",
+    "Trusted pinned SAT encoding, checker implementations, compiler/runtime and hardware"
+  ],
+  "verification": {
+    "kind": "Written reduction and checked finite DRAT/corrected-LRAT refutation",
+    "variables": 4278,
+    "clauses": 52672,
+    "unit_tests_per_mode": 19,
+    "native_rejection_controls": 3,
+    "small_floor_word_controls": 116,
+    "counter_extension_assignments": 2568,
+    "combined_python_line_coverage_percent": 93,
+    "normal_replay": "passed",
+    "optimized_replay": "passed",
+    "formal_kernel_proof": false,
+    "human_peer_review": false,
+    "ai_reviewers": 1,
+    "reproduce": "In the archived connector-c5-certificate directory, install requirements.txt in a venv, then python -O reproduce.py. Expect PASS_CONNECTOR_C5_CERTIFICATE. Linux, GCC and about 2 GB temporary disk."
+  },
+  "source_dependencies": {
+    "predecessor": "d192172f57b10647ddcff9410c69d48ac06862c1",
+    "upstream_base": "a5bff3bf133e482541c09eba4e773884bdb2b1b7",
+    "drat_trim": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+    "corrected_lrat_pr43": "0ca925b4f5b4ed04d02d830807cfd614483e7320",
+    "python_sat": "1.9.dev15",
+    "scope": "Unchanged vendored sources, exact payload hashes and licenses in archived SOURCES.json and NOTICE."
+  },
+  "limitations": [
+    "Existing mathematical exclusion, not a new kappa or supplier admission",
+    "No characteristic-six/seven, deeper-block or arbitrary-floor-word exclusion",
+    "Original LRAT checker reproduces known issue42; final replay reuses haskiindahouse PR43 correction, which remains pending upstream",
+    "No full checker/malformed-input audit or Lean kernel verification",
+    "No human peer review, historical novelty or upstream acceptance claimed",
+    "Frozen inner ready-for-submission status is superseded by the outer archive note"
+  ],
+  "upstream_review": {
+    "state": "submitted",
+    "accepted": false,
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6216",
+    "head": "dd43e856dceec9a92d338345d01d4ad247ce2172"
+  },
+  "archival_status": {
+    "state": "published",
+    "version": "0.1.0",
+    "version_doi": "10.5281/zenodo.23777615",
+    "concept_doi": "10.5281/zenodo.23777614",
+    "url": "https://zenodo.org/records/23777615",
+    "files": [
+      {
+        "filename": "connector-c5-certificate-v0.1.0.zip",
+        "bytes": 38673165,
+        "sha256": "320a843ab3468d572c21f4a87aee4c91ac68e3dcc1b77441f34a4cfc684812f9",
+        "url": "https://zenodo.org/records/23777615/files/connector-c5-certificate-v0.1.0.zip?download=1",
+        "public_download_verified": true
+      },
+      {
+        "filename": "ARCHIVE-NOTE.md",
+        "bytes": 2116,
+        "sha256": "2d15b6bd3d0cd319b564cbc9ee8b020f85108584d5f8d48699e7e417302a4d9e",
+        "url": "https://zenodo.org/records/23777615/files/ARCHIVE-NOTE.md?download=1",
+        "public_download_verified": true
+      },
+      {
+        "filename": "CITATION.cff",
+        "bytes": 788,
+        "sha256": "39dd9cd6b233e17d1235d08219bd86566e2af44f506c345ade19c61751377536",
+        "url": "https://zenodo.org/records/23777615/files/CITATION.cff?download=1",
+        "public_download_verified": true
+      }
+    ],
+    "archive_entries": 52,
+    "regular_files_verified": 47,
+    "publication_date": "2026-10-29",
+    "public_metadata_verified": true,
+    "public_verification_at": "2026-10-29T19:38:42.961732+00:00"
+  },
+  "license": "Apache-2.0 contribution; vendored MIT checker sources retain their notices.",
+  "predecessors": [
+    "Josie Elliston PR6141: SAT encoding, original exclusion and controls",
+    "Nick Petalas PR4231/4248 and retained Ross Richardson, zxv and apoursh connector lineage",
+    "haskiindahouse drat-trim PR43: existing empty-clause checker correction",
+    "Marijn Heule and Nathan Wetzler: DRAT-trim/LRAT-check",
+    "PySAT/CaDiCaL; Sinz and Knuth/Alex Healy counter lineage"
+  ],
+  "first_public_disclosure": {
+    "date": "2026-10-29",
+    "timestamp": "2026-10-29T19:31:50Z",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/6216",
+    "scope": "This checked certificate packet; predecessor mathematical claim has separate PR6141 provenance."
+  },
+  "publication_event": {
+    "public_record_created": "2026-10-29T19:36:49.172340+00:00",
+    "public_record_updated": "2026-10-29T19:36:49.473911+00:00"
+  }
+}

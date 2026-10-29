@@ -44,6 +44,8 @@ does not by itself establish a public technical disclosure, DOI or peer review.
 
 ## Records
 
+- [Checked characteristic-five connector exclusion](records/connector-c5-proof-certificate/README.md): independent certificate evidence for an existing result; written bridge, DRAT and corrected LRAT replay. [Version 0.1.0](https://doi.org/10.5281/zenodo.23777615).
+
 - [Exact one-pair sampling total variation](records/sampling-one-pair-total-variation/README.md): a complete Lean proof joining sampling counts and Jordan positive-part evaluation. [Version 1.0.0](https://doi.org/10.5281/zenodo.23724873).
 
 - [Independent finite Hankel seed verification](records/family095-hankel-seed-certificate/README.md): source-pinned modular arithmetic corroborates the Family 095 seed certificate; full real/nonliftability arguments remain unchecked. [Archived packet](https://doi.org/10.5281/zenodo.23648332).

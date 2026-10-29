@@ -187,6 +187,11 @@
       "id": "sampling-one-pair-total-variation",
       "metadata": "records/sampling-one-pair-total-variation/record.json",
       "readme": "records/sampling-one-pair-total-variation/README.md"
+    },
+    {
+      "id": "connector-c5-proof-certificate",
+      "metadata": "records/connector-c5-proof-certificate/record.json",
+      "readme": "records/connector-c5-proof-certificate/README.md"
     }
   ]
 }
