@@ -1,27 +1,12 @@
 cff-version: 1.2.0
-message: "Cite this exact archived version."
-title: "Exact total variation for finite sampling from a population with one repeated pair"
+message: "Cite this exact version; predecessor attribution is retained in both source packets."
+title: "Finite sampling total variation: exact one-pair identity and general repeated-population bound"
 type: software
-version: 1.0.0
+version: 1.1.0
+date-released: 2026-10-31
+doi: "10.5281/zenodo.23833164"
 authors:
   - family-names: Towell
     given-names: Alexander Richard
     orcid: "https://orcid.org/0000-0001-6443-9897"
-    email: lex@metafunctor.com
 license: Apache-2.0
-keywords:
-  - total variation
-  - sampling without replacement
-  - finite exchangeability
-  - Lean
-  - formal verification
-abstract: >-
-  A Lean formalization of the exact signed total-variation mass between the
-  specified with- and without-replacement sampling laws for a population
-  identifying one pair. Includes pinned dependencies, exact API and axiom
-  audits, boundary consumers, rejecting controls and independent finite evidence.
-  Substantial OpenAI Codex assistance is disclosed. No novelty, human peer
-  review, upstream acceptance or arbitrary IID-mixture optimality is claimed.
-doi: "10.5281/zenodo.23724873"
-date-released: "2026-10-28"
-url: "https://doi.org/10.5281/zenodo.23724873"
