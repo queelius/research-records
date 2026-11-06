@@ -243,6 +243,11 @@ does not by itself establish a public technical disclosure, DOI or peer review.
   at residual defect at most 6. All 65 exact public file bodies and the new
   public tar's normal/optimized replays pass. Older premises remain explicit;
   the full Boolean application is not self-contained and the existence problem is open.
+  The [version 1.5.0 archive](https://doi.org/10.5281/zenodo.23999933) adds, conditionally on
+  AI-reviewed written reductions, the exclusion of every residual at most 6 instance with a
+  negative-free coordinate and of the whole patterns (2,2,2,2) and (2,2,2,2,1), with 6,871 LRAT
+  certificates replayed in a network-less container. Residual six is not closed; 27 of 73
+  patterns remain open.
 
 - [Coprime paths: exact thresholds, linear bounds, and reproducible
   evidence](records/computational-explorations-coprime-paths/README.md).

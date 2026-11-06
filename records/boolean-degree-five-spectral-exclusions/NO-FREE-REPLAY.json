@@ -1,0 +1,57 @@
+{
+ "schema_version": 1,
+ "kind": "NO_FREE_RESIDUAL6_STAGED_REPLAY",
+ "version": "1.5.0",
+ "version_doi": "10.5281/zenodo.23999933",
+ "status": "PASSED",
+ "network_disabled": true,
+ "original_workspace_mounted": false,
+ "runtime": "Docker, python:3.10.20-slim-bookworm pinned by digest; numpy 2.2.6, scipy 1.15.3, python-sat 1.8.dev24, pynauty 2.8.8.1, pytest 9.1.1; lrat-trim 0.2.0 (upstream commit b30f400f)",
+ "source_files_verified": 580,
+ "certificate_store_files_verified": 41304,
+ "certificate_bytes": {
+  "stored": 17828321925,
+  "original": 100838384116
+ },
+ "c014": {
+  "certificates": 26,
+  "signed_star_contexts_1531": 24,
+  "root7_c2_1533": 1,
+  "root7_c1_control": 1,
+  "equal_to_archived_records": true
+ },
+ "c017": {
+  "status": "ALL_CASES_VERIFIED",
+  "certificates": 3184,
+  "rejected": 0,
+  "missing": 0,
+  "results_equal_archived": true
+ },
+ "c018": {
+  "status": "ALL_L1_CASES_VERIFIED",
+  "certificates": 3662,
+  "rejected": 0,
+  "missing": 0,
+  "results_equal_archived": true
+ },
+ "controls": [
+  {
+   "controls": 15,
+   "passed": 15,
+   "optimized": false
+  },
+  {
+   "controls": 15,
+   "passed": 15,
+   "optimized": true
+  }
+ ],
+ "packet_tests_014_to_018_both_modes": true,
+ "written_reductions_checked_by_replay": false,
+ "public_certificate_parts_redownloaded_and_replayed": false,
+ "replay_receipt": {
+  "path_in_packet": "verification/REPLAY-RECEIPT.json",
+  "sha256": "d5f178b96886b4ddcad81f9ef1a70a2632f5f20d93810f984b67e4c5b8fc8dfc"
+ },
+ "note": "Staged replay of the exact packet and certificate tar that were uploaded (tar members compared with the manifest before upload; the public packet tarball, downloaded anonymously, is byte-identical). The 17.8 GB certificate parts were not re-downloaded; their public size and server MD5 match the local hashes."
+}

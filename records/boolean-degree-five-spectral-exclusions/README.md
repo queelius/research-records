@@ -26,7 +26,7 @@ verified by SHA-256. Zenodo version **1.0.0** was published on **20 October
 2026**, at 12:57:08 UTC, with DOI
 [10.5281/zenodo.23496542](https://doi.org/10.5281/zenodo.23496542).
 That exact archived version remains available for the ten exclusions alone.
-The current citation metadata points to version 1.4.0, described below.
+The current citation metadata points to version 1.5.0, described below.
 All 48 public files were downloaded without authentication and verified by
 SHA-256. Concatenating the 40 archive parts reproduced the original
 667,127,632-byte archive exactly. The linked publication receipt records
@@ -158,3 +158,43 @@ citations, scopes and dates. Substantial AI assistance and predecessor
 attribution remain explicit. The copied-packet reviewer also authored the
 elementary disk lemma; review is not independent rediscovery of every argument.
 No novelty, formal verification or human peer review is established.
+
+
+## Version 1.5.0: residual six with a negative-free coordinate, and two whole patterns
+
+Version **1.5.0**, [10.5281/zenodo.23999933](https://doi.org/10.5281/zenodo.23999933), published on
+2026-11-06, archives the accepted research checkpoints 1531 to 1534.
+Conditionally on written reductions reviewed by AI models only, and on the
+earlier premises listed in the packet's REPORT.md:
+
+- every instance with residual Fourier defect at most 6 and a negative-free
+  coordinate is excluded (two-free: 26 signed-star contexts; one-free: Types
+  I to III, the 24 Type II shape classes by 3,184 certificates);
+- lemma L1 excludes the whole negative quintic patterns (2,2,2,2) and
+  (2,2,2,2,1) (3,662 certificates covering 4,442 obligations).
+
+**Residual six is not closed**: 20 residual at most 6 patterns with
+negative-support union 14 remain open, and 27 of the 73 patterns remain open
+overall. The fourteen-variable existence question remains **OPEN**.
+
+The evidence is 6,871 CNF and CaDiCaL LRAT case certificates (17.8 GB stored
+as lossless xz, 100.8 GB uncompressed) in nine tar parts, and a 22 MB packet
+with the report, the 580 source files at their original paths, manifests and
+the replay driver. A network-disabled container replay of the uploaded bytes
+re-read every certificate with the frozen independent readers and the pinned
+lrat-trim, matched every archived result, and passed 15 of 15 controls in
+normal and optimized mode ([summary](NO-FREE-REPLAY.json)). It does not check
+the written reductions.
+
+[The public archive receipt](PUBLIC-ZENODO-v1.5.0.json) covers all
+79 files: 70 files of at most 64 MiB (the packet and
+every inherited file) were downloaded in full without authentication and
+hash-checked. The nine 2 GiB certificate parts were checked by their public
+size and server MD5 against the local hashes, plus an anonymous 1 MiB prefix
+read. They were not downloaded again, to spare Zenodo bandwidth.
+
+This archive is the first public disclosure of these results. The public
+GitHub source predates them. Work after checkpoint 1534 is not included.
+Claude Code (Claude Opus 5.5) did this work and built the packet, with OpenAI
+Codex as reviewer. No novelty, formal verification or human peer review is
+established.

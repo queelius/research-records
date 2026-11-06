@@ -1,14 +1,13 @@
 cff-version: "1.2.0"
-message: "Cite this exact archived version 1.4.0 for retained results and conditional residual-six proofs; the original Boolean existence problem remains open."
-type: "software"
-title: "Exact spectral exclusions, singleton components, graph locality and residual-six lemmas for degree-five Boolean candidates"
-version: "1.4.0"
+message: "Cite this exact archived version 1.5.0 for the conditional residual-six and whole-pattern exclusions with LRAT certificates; the original Boolean existence problem remains open."
+type: "dataset"
+title: "Exact spectral exclusions, singleton components, graph locality, residual-six lemmas and LRAT-certified residual-six exclusions for degree-five Boolean candidates"
+version: "1.5.0"
 authors: [{"family-names": "Towell", "given-names": "Alexander Richard", "orcid": "https://orcid.org/0000-0001-6443-9897", "affiliation": "Southern Illinois University Edwardsville"}]
 license: ["MIT", "CC-BY-4.0"]
-abstract: "Written tripled-quartic, private-tip, three-free classification, endpoint, common-core and disk arguments give a conditional negative-quintic support-union bound of 12 at residual defect at most 6. Inherited derivative and normalization premises remain explicit; the whole Boolean-pattern application has further unbundled graph premises. Standard-library controls corroborate the mechanisms, without constructing a Boolean function. Substantial AI assistance is disclosed; the global problem remains open. No novelty, formal verification or human peer review is established."
+abstract: "Conditionally on AI-reviewed written reductions and earlier premises, every residual-defect at most 6 instance with a negative-free coordinate is excluded, and lemma L1 excludes the whole negative quintic patterns (2,2,2,2) and (2,2,2,2,1), with 6,871 LRAT case certificates replayed by independent readers in a network-less container. Residual six is not closed; 27 of 73 patterns remain open. Substantial AI assistance (OpenAI Codex; Claude Code) is disclosed. No Boolean construction, nonexistence proof, novelty, formal verification or human peer review is established."
 repository-code: "https://github.com/queelius/boolean-degree-sensitivity"
-keywords: ["Boolean functions", "polynomial degree", "sensitivity", "sparse Fourier analysis", "triangulated disks", "exact verification"]
-doi: "10.5281/zenodo.23544931"
-commit: "6114c124b343f8468aa4e94236bf5c97cb3ee29a"
-url: "https://doi.org/10.5281/zenodo.23544931"
-date-released: "2026-10-21"
+keywords: ["Boolean functions", "polynomial degree", "sensitivity", "sparse Fourier analysis", "LRAT certificates", "SAT", "exact verification"]
+doi: "10.5281/zenodo.23999933"
+url: "https://doi.org/10.5281/zenodo.23999933"
+date-released: "2026-11-06"
